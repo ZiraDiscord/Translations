@@ -1,105 +1,105 @@
 {
   "nav": {
-    "invite": "Invite",
+    "invite": "Inviter",
     "support": "Support",
     "premium": "Premium",
     "guide": "Guide",
-    "servers": "Servers",
-    "noservers": "No Servers",
-    "login": "Login",
-    "logout": "Logout",
-    "language": "Language"
+    "servers": "Serveurs",
+    "noservers": "Pas de serveurs",
+    "login": "Se Connecter",
+    "logout": "Se Déconnecter",
+    "language": "Langage"
   },
   "home": {
     "about": {
-      "title": "About Zira",
-      "description": "Zira allows users to give or take roles away from themselves by simply reacting or unreacting to the setup message(s)."
+      "title": "À propos de Zira",
+      "description": "Zira permet aux utilisateurs de se donner ou de se retirer des rôles simplement en mettant ou en enlevant une réaction au(x) message(s) défini(s)."
     },
     "features": {
-      "title": "Features",
-      "description": "Multiple messages<br>Multiple channels<br>Able to use any role<br>Autorole on user or bot join<br>Able to use custom or regular emojis<br>Join and Leave messages<br>Suggestions"
+      "title": "Fonctionnalités",
+      "description": "Plusieurs messages<br>Plusieurs canaux<br>Capable d'utiliser n'importe quel rôle<br>Rôle Automatique sur les bots ou utilisateurs qui rejoignent<br>Capable d'utiliser des émojis ordinaires ou personnalisés<br>Messages de bienvenue et d'au revoir<br>Suggestions"
     },
-    "demo": "Demo"
+    "demo": "Démo"
   },
   "guild": {
-    "premiumBuy": "Buy premium for this guild <a href=\"/premium\">here.</a>",
-    "premiumExpires": "Premium expires ",
-    "premiumUnlock": "Buy <a href=\"/premium\">premium</a> to unlock this feature.",
+    "premiumBuy": "Achetez le Premium pour le serveur <a href=\"/premium\">ici.</a>",
+    "premiumExpires": "Le premium expire ",
+    "premiumUnlock": "Achetez le <a href=\"/premium\">Premium</a> pour débloquer cette fonctionnalité.",
     "roles": {
-      "workingChannel": "Current channel: ",
-      "workingMessage": "Current message: ",
-      "channels": "Channel",
-      "channelButton": "Set Channel",
+      "workingChannel": "Canal actuel : ",
+      "workingMessage": "Message actuel : ",
+      "channels": "Canal",
+      "channelButton": "Définir le canal",
       "message": "Message",
-      "messageButton": "Set Message",
-      "messagePlaceholder": "Message ID",
-      "getID": "<a href=\"https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-\" target=\"_blank\">Checkout this guide on how to get a message ID</a>",
-      "add": "Add Role",
-      "role": "Role",
-      "emoji": "Emoji",
-      "customEmoji": "Only custom emojis from the server.<br>If you want to use regular emojis please use the add command in your server.",
-      "toggle": "Add a Toggled Role - <a href=\"https://stuff.zira.pw/files/1524932965273.gif\">Demo</a>",
-      "once": "Add a One Time Role",
-      "remove": "Remove a Role",
+      "messageButton": "Définir le message",
+      "messagePlaceholder": "ID du Message",
+      "getID": "<a href=\"https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-\" target=\"_blank\">Regarde ce guide pour savoir comment obtenir l'ID d'un message</a>",
+      "add": "Ajouter un Rôle",
+      "role": "Rôle",
+      "emoji": "Émoji",
+      "customEmoji": "Uniquement émojis personnalisés du serveur.<br>Si vous voulez utilisez des émojis ordinaires, merci d'utiliser la commande add dans votre serveur.",
+      "toggle": "Ajouter un Rôle à Bascule - <a href=\"https://stuff.zira.pw/files/1524932965273.gif\">Démo</a>",
+      "once": "Ajouter un Rôle utilisable une seule fois",
+      "remove": "Retirer un Rôle",
       "table": {
-        "role": "Role",
-        "emoji": "Emoji",
-        "toggle": "Toggled",
-        "once": "Once"
+        "role": "Rôle",
+        "emoji": "Émoji",
+        "toggle": "Rôle à Bascule",
+        "once": "Rôle utilisable une seule fois"
       },
-      "yes": "Yes",
-      "no": "No"
+      "yes": "Oui",
+      "no": "Non"
     },
     "logging": {
-      "join": "Join Messages",
-      "leave": "Leave Messages",
-      "log": "Role Logging - <a href=\"https://stuff.zira.pw/files/logExample.png\">Demo</a>",
-      "joinPlaceholder": "$mention, welcome to **$guild**!",
-      "leavePlaceholder": "$user has left :/",
-      "placeholders": "Placeholders that you can use:<br>$user - username<br>$mention - user mention<br>$guild - guild name<br>$membercount - new member count",
-      "disable": "Disable",
+      "join": "Messages de Bienvenue",
+      "leave": "Messages d'au Revoir",
+      "log": "Logs des rôles - <a href=\"https://stuff.zira.pw/files/logExample.png\">Démo</a>",
+      "joinPlaceholder": "$mention, bienvenue sur **$guild** !",
+      "leavePlaceholder": "$user est parti :/",
+      "placeholders": "Variables que vous pouvez utiliser :<br>$user - pseudo de l'utilisateur<br>$mention - mentionne l'utilisateur<br>$guild - nom du serveur<br>$membercount - nouveau nombre de membres",
+      "disable": "Désactiver",
       "suggestions": "Suggestions",
-      "channel": "Suggestions Channel",
-      "submit": "Submit Channel"
+      "channel": "Canal de Suggestions",
+      "submit": "Canal de Soumissions de Suggestions"
     }
   },
   "alerts": {
     "success": {
-      "channel": "Channel Set",
-      "message": "Message Set",
-      "add": "Role Added",
-      "del": "Role Removed"
+      "channel": "Canal Configuré",
+      "message": "Message Configuré",
+      "add": "Rôle Ajouté",
+      "del": "Rôle Retiré"
     },
     "error": {
-      "unknown": "Unknown Error",
-      "umessage": "Unknown Message ID",
-      "channel": "Please set a channel first",
-      "nomessage": "Please set a message first",
-      "same": "That emoji or role is already set on that message",
-      "limit": "You have reached the limit of 12 toggled roles.<br>You can increase your guilds limit by <a href=\"/premium\">purchasing premium</a>"
+      "unknown": "Erreur Inconnue",
+      "umessage": "ID de Message Inconnu",
+      "channel": "Merci de d'abord définir un canal",
+      "nomessage": "Merci de d'abord définir un message",
+      "same": "Cet émoji ou ce rôle est déjà configuré sur ce message",
+      "limit": "Vous avez atteint la limite des 12 rôles à bascule.<br>Vous pouvez repousser les limites de votre serveur en <a href=\"/premium\">achetant le Premium</a>"
     }
   },
   "guide": {
-    "content": "Contents",
-    "preparing": "Preparing Zira",
-    "channel": "Setting up a Channel",
-    "message": "Setting up a Message",
-    "add": "Adding Normal Roles",
-    "toggle": "Adding Toggled Roles",
-    "once": "Adding One Time Roles",
-    "remove": "Remove a Role",
-    "auto": "Setting up Autorole",
-    "suggestions": "Setting up Suggestions",
-    "log": "Setting up Logging",
-    "join": "Setting up Join message",
-    "leave": "Setting up Leave messages"
+    "content": "Sommaire",
+    "preparing": "Installer Zira",
+    "channel": "Configurer un Canal",
+    "message": "Configurer un Message",
+    "add": "Ajouter des Rôles Normaux",
+    "toggle": "Ajouter des Rôles à Bascule",
+    "once": "Ajouter des Rôles Utilisables Une Seule Fois",
+    "remove": "Retirer un Rôle",
+    "auto": "Configurer le Rôle Automatique",
+    "suggestions": "Configurer les Suggestions",
+    "log": "Configurer les Logs",
+    "join": "Configurer le Message de Bienvenue",
+    "leave": "Configurer le Message d'au Revoir"
   },
   "premium": {
-    "premium": "Get Premium",
+    "premium": "Obtenir le Premium",
     "amount": "Amount",
-    "guild": "Guild",
-    "buy": "Buy",
-    "features": "<li>Unlimited toggled roles instead of 12</li><li>Access to set a submit channel</li><li>Early access to new features</li><li>More to come</li>",
-    "guilds": "Premium Guilds"
+    "guild": "Serveur",
+    "buy": "Acheter",
+    "features": "<li>Rôles à Bascule illimités au lieu de 12</li><li>Possibilité de configurer un canal de soumissions de suggestions</li><li>Accès anticipé aux nouvelles fonctionnalités</li><li>Plus à venir</li>",
+    "guilds": "Serveurs Premium"
   }
 }
