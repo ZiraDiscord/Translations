@@ -1,38 +1,38 @@
 {
   "nav": {
-    "invite": "Invite",
+    "invite": "Inviter",
     "support": "Support",
     "premium": "Premium",
     "guide": "Guide",
-    "servers": "Servers",
-    "noservers": "No Servers",
-    "login": "Login",
-    "logout": "Logout",
-    "language": "Language"
+    "servers": "Serveurs",
+    "noservers": "Pas de serveurs",
+    "login": "Se Connecter",
+    "logout": "Se Déconnecter",
+    "language": "Langage"
   },
   "home": {
     "about": {
-      "title": "About Zira",
-      "description": "Zira allows users to give or take roles away from themselves by simply reacting or unreacting to the setup message(s)."
+      "title": "À propos de Zira",
+      "description": "Zira permet aux utilisateurs de se donner ou de se retirer des rôles simplement en mettant ou en enlevant une réaction au(x) message(s) défini(s)."
     },
     "features": {
-      "title": "Features",
-      "description": "Multiple messages<br>Multiple channels<br>Able to use any role<br>Autorole on user or bot join<br>Able to use custom or regular emojis<br>Join and Leave messages<br>Suggestions"
+      "title": "Fonctionnalités",
+      "description": "Plusieurs messages<br>Plusieurs canaux<br>Capable d'utiliser n'importe quel rôle<br>Rôle automatique sur bots ou utilisateurs qui rejoignent<br>Capable d'utiliser des émojis ordinaires ou personnalisés<br>Messages de bienvenue ou d'au revoir<br>Suggestions"
     },
-    "demo": "Demo"
+    "demo": "Démo"
   },
   "guild": {
-    "premiumBuy": "Buy premium for this guild <a href=\"/premium\">here.</a>",
-    "premiumExpires": "Premium expires ",
-    "premiumUnlock": "Buy <a href=\"/premium\">premium</a> to unlock this feature.",
+    "premiumBuy": "Achetez le Premium pour le serveur <a href=\"/premium\">ici.</a>",
+    "premiumExpires": "Le premium expire ",
+    "premiumUnlock": "Achetez le <a href=\"/premium\">Premium</a> pour débloquer cette fonctionnalité.",
     "roles": {
-      "workingChannel": "Current channel: ",
-      "workingMessage": "Current message: ",
-      "channels": "Channel",
-      "channelButton": "Set Channel",
+      "workingChannel": "Canal actuel : ",
+      "workingMessage": "Message actuel : ",
+      "channels": "Canal",
+      "channelButton": "Définir le canal",
       "message": "Message",
-      "messageButton": "Set Message",
-      "messagePlaceholder": "Message ID",
+      "messageButton": "Définir le message",
+      "messagePlaceholder": "ID du message",
       "getID": "<a href=\"https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-\" target=\"_blank\">Checkout this guide on how to get a message ID</a>",
       "add": "Add Role",
       "role": "Role",
