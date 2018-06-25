@@ -1,0 +1,105 @@
+{
+  "nav": {
+    "invite": "Invitar",
+    "support": "Soporte",
+    "premium": "Premium",
+    "guide": "Guía",
+    "servers": "Servidores",
+    "noservers": "Sin servidores",
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión",
+    "language": "Idioma"
+  },
+  "home": {
+    "about": {
+      "title": "Acerca de Zira",
+      "description": "Zira permite a los usuarios darse o quitarse roles simplemente añadiendo o quitando reacciones a los mensajes establecidos."
+    },
+    "features": {
+      "title": "Características",
+      "description": "Múltiples mensajes<br>Múltiples canales<br>Poder usar cualquier rol<br>Rol automático para cuando se unan usuarios o bots<br>Poder usar emojis normales o personalizados<br>Mensajes de bienvenida y despedida<br>Sugerencias"
+    },
+    "demo": "Demostración"
+  },
+  "guild": {
+    "premiumBuy": "Compra premium para este servidor <a href=\"/premium\">aquí.</a>",
+    "premiumExpires": "Premium expira en ",
+    "premiumUnlock": "Compra <a href=\"/premium\">premium</a> para desbloquear esta característica.",
+    "roles": {
+      "workingChannel": "Canal actual: ",
+      "workingMessage": "Mensaje actual: ",
+      "channels": "Canal",
+      "channelButton": "Establecer canal",
+      "message": "Mensaje",
+      "messageButton": "Establecer mensaje",
+      "messagePlaceholder": "ID del mensaje",
+      "getID": "<a href=\"https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-\" target=\"_blank\">Mira esta guía para saber cómo conseguir el ID de un mensaje</a>",
+      "add": "Añadir rol",
+      "role": "Rol",
+      "emoji": "Emoji",
+      "customEmoji": "Solo emojis personalizados del servidor.<br>Si quieres usar emojis normales por favor usa el comando z/add en tu servidor.",
+      "toggle": "Añadir un rol alternable - <a href=\"https://stuff.zira.pw/files/1524932965273.gif\">Demo</a>",
+      "once": "Añadir un rol solo reclamable una vez",
+      "remove": "Remover un rol",
+      "table": {
+        "role": "Rol",
+        "emoji": "Emoji",
+        "toggle": "alternable",
+        "once": "solo reclamable una vez"
+      },
+      "yes": "Sí",
+      "no": "No"
+    },
+    "logging": {
+      "join": "Mensaje de bienvenida",
+      "leave": "Mensaje de despedida",
+      "log": "Registros de roles - <a href=\"https://stuff.zira.pw/files/logExample.png\">Demo</a>",
+      "joinPlaceholder": "Hola $mention, bienvenido a **$guild**!",
+      "leavePlaceholder": "$user se ha ido :/",
+      "placeholders": "Variables que puedes usar:<br>$user - nombre de usuario<br>$mention - mención al usuario<br>$guild - nombre del servidor<br>$membercount - cantidad de miembros actual",
+      "disable": "Desactivar",
+      "suggestions": "Sugerencias",
+      "channel": "Canal de sugerencias",
+      "submit": "Canal de envío de sugerencias"
+    }
+  },
+  "alerts": {
+    "success": {
+      "channel": "Canal establecido",
+      "message": "Mensaje establecido",
+      "add": "Rol añadido",
+      "del": "Rol removido"
+    },
+    "error": {
+      "unknown": "Error desconocidos",
+      "umessage": "ID de mensaje desconocido",
+      "channel": "Por favor establece un canal primero",
+      "nomessage": "Por favor establece un mensaje primero",
+      "same": "Ese emoji o rol ya está establecido en ese mensaje",
+      "limit": "Haz alcanzado el límite de 12 roles alternables.<br>Puedes incrementar el límite de tu servidor <a href=\"/premium\">comprando premium</a>"
+    }
+  },
+  "guide": {
+    "content": "Contenidos",
+    "preparing": "Preparando a Zira",
+    "channel": "Estableciendo un canal",
+    "message": "Estableciendo un mensaje",
+    "add": "Añadiendo roles normales",
+    "toggle": "Añadiendo roles alternables",
+    "once": "Añadiendo roles solo reclamables una vez",
+    "remove": "Removiendo un rol",
+    "auto": "Configurando los roles automáticos",
+    "suggestions": "Configurando las sugerencias",
+    "log": "Configurando los registros",
+    "join": "Configurando los mensajes de bienvenida",
+    "leave": "Configurando los mensajes de despedida"
+  },
+  "premium": {
+    "premium": "Consigue Premium",
+    "amount":"Cantidad. Cada $2 son 30 días",
+    "guild":"Servidor",
+    "buy": "Comprar",
+    "features":"<li>Roles alternables ilimitados en lugar de 12</li><li>Poder establecer un canal de envío de sugerencias</li><li>Acceso anticipado a nuevas características</li><li>Más por venir</li>",
+    "guilds": "Servidores Premium"
+  }
+}
