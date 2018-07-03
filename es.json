@@ -19,7 +19,7 @@
         "canal**."
     ],
     "noMessage": [
-        "Please set a message to use with **",
+        "Por favor, establece un mensaje para usarlo con **",
         "mensaje**."
     ],
     "example": "**Ejemplo:**\n",
@@ -28,15 +28,15 @@
     "help": {
         "commandsTitle": "Comandos",
         "commands": {
-            "channel": "set channel you want to use\n",
-            "message": "set the message you want to use\n",
-            "add": "add a role with an emoji\n",
-            "toggle": "add a role that can be toggled\n",
-            "delete": "delete a role that has been set\n",
-            "edit": "edit a message sent by Zira\n",
-            "list": "list the roles being used\n",
-            "autorole": "give users and bots a role on join\n",
-            "log": "log when Zira gives/takes a role\n",
+            "channel": "establecer el canal que quieras usar\n",
+            "message": "establece el mensaje que quieras usar\n",
+            "add": "añadir un rol con un emoji\n",
+            "toggle": "añadir un rol que pueda activarse/desactivarse\n",
+            "delete": "eliminar un rol que ha sido establecido\n",
+            "edit": "editar un mensaje enviado por Zira\n",
+            "list": "listar los roles que se usan\n",
+            "autorole": "dar un rol a los usuarios y bots al unirse\n",
+            "log": "registrar cuando Zira entregue/quite un rol\n",
             "join": "sends a message when a user joins\n",
             "leave": "sends a message when a user leaves\n",
             "lang": "set locale\n",
