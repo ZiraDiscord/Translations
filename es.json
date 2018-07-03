@@ -209,10 +209,10 @@
             ">\n\n**NOTE:** If Zira is not able to send messages to the channel, leave messages will be disabled."
         ],
         "message": "leave message [message]** ~~-~~ set the message that will be sent when a user leaves\n\nYou can use these placeholders in the message:\n$user ~~-~~ username\n$mention ~~-~~ user mention\n$guild ~~-~~ guild name\n$membercount ~~-~~ new member count",
-        "setMessage": "Leave message set to:\n"
+        "setMessage": "Mensaje de despedida establecido a:\n"
     },
     "auto": {
-        "title": "Auto Role",
+        "title": "Rol automático",
         "help": [
             "autorole show** ~~-~~ show the current roles set\n**",
             "autorole user** ~~-~~ add or remove roles that should be given on user join\n**",
@@ -220,11 +220,11 @@
         ],
         "user": "autorole user @role or role name** ~~-~~ add or remove a role that should be given when a user joins\n\nTo remove a role that has been set do the above command.",
         "userAdd": [
-            "Added role <@&",
+            "Se añadió el rol <@&",
             "> that will be given when a user joins.\n\n**NOTE:** The `Zira` role needs to be above the role you've set, and needs to have the `Manage Roles` permission to give this role."
         ],
         "userRemove": [
-            "Removed role <@&",
+            "Se removió el rol <@&",
             "> from being given when a user joins."
         ],
         "botAdd": [
