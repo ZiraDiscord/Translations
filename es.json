@@ -394,7 +394,7 @@
         "help": "maybe ID reason** ~~-~~ potentially approve a suggestion\n\nThe ID could either be a message ID or suggestions ID.",
         "read": [
             "Unable to potentially approve the suggestion in <#",
-            "> because I lack the `Read Messages` or `Read Message History` permissions."
+            "> porque no tengo los permisos `Leer Mensajes` o `Leer el Historial de Mensajes`."
         ],
         "title": "Sugerencia potencial",
         "unknown": "No se pudo aprobar potencialmente la sugerencia.",
