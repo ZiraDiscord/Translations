@@ -334,7 +334,7 @@
                 "Users with the role <@&",
                 "> can no longer approve, deny suggestions unless they have the `Manage Guild` permission."
             ],
-            "noset": "You can't revoke access from a role that hasn't been set",
+            "noset": "No puedes revocar el acceso a un rol que no ha sido establecido",
             "unknown": "Unknwon role."
         },
         "trello": {
@@ -351,17 +351,17 @@
                 "Please pick the list you want suggestions to be sent to\n",
                 "\nTo pick a list just type its the number."
             ],
-            "timeout": "Command timed out as it has been more than 2 minutes.",
+            "timeout": "Comando terminado ya que se agotó el tiempo de 2 minutos.",
             "set": "Trello board and list have been set. Suggestions will get sent to trello as well as the channel that you've setup.",
-            "disable": "Trello has been disabled",
-            "noset": "Trello has not been setup therefore nothing has been disabled."
+            "disable": "Trello ha sido deshabilitado",
+            "noset": "Trello no ha sido configurado por lo tanto nada ha sido deshabilitado."
         },
-        "stop": "Suggestions are now disabled.",
-        "disable": "Suggestions are disabled.",
-        "notSetup": "That message is not a suggestion sent by Zira.",
-        "reason": "Reason given by ",
+        "stop": "Las sugerencias fueron deshabilitadas.",
+        "disable": "Las sugerencias están deshabilitadas.",
+        "notSetup": "Ese mensaje no es una sugerencia enviada por Zira.",
+        "reason": "Razón dada por ",
         "useChannel": [
-            "Use the channel <#",
+            "Usa el canal <#",
             "> para enviar una sugerencia."
         ],
         "noReason": "No se proporcionó una razón."
