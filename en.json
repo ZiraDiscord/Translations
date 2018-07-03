@@ -311,7 +311,7 @@
             "set": "Role set to <@&",
             "revoke": ["Users with the role <@&", "> can no longer approve, deny suggestions unless they have the `Manage Guild` permission."],
             "noset": "You can't revoke access from a role that hasn't been set",
-            "unknown": "Unknwon role."
+            "unknown": "Unknown role."
         },
         "trello": {
             "help": ["suggestion trello boardID** ~~-~~ send suggestions to a list on trello\n\n**", "suggestion trello disable** to disable Trello\n\nYou will need to add the user `ZiraDiscord` to the board you desire to use."],
