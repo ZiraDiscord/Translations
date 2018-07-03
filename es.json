@@ -259,17 +259,17 @@
         "help": [
             "delete [message ID](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) @role or role name** ~~-~~ remove a role that has been setup by Zira\nDeleted a role but forgot to remove it from Zira first?\nDo **",
             "delete [message ID](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) check**\n\nTo get the message ID that a role is on, do **",
-            "list**."
+            "lista**."
         ],
-        "setup": "Unable to remove the role as it either was not setup by Zira, or is not on the specified message.",
+        "setup": "No se pudo remover el rol ya que no ha sido configurado por Zira o no está en el mensaje especificado.",
         "removed": [
             "\n<@&",
-            "> removed with the emoji "
+            "> removido con el emoji "
         ],
-        "unknown": "Unknown role.",
+        "unknown": "Rol desconocido.",
         "noRoles": "No roles are set on that message.",
         "checkRemove": [
-            "Removed ",
+            "Removido ",
             " roles from the message."
         ],
         "checkGood": "All roles exist, none were removed."
