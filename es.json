@@ -296,7 +296,7 @@
         ],
         "channel": {
             "help": [
-                "suggestion channel #channel** ~~-~~ set the channel that suggestions will be sent to\n\nTo disable suggestions do, **",
+                "suggestion channel #canal** ~~-~~ establece el canal al cual se enviarán las sugerencias\n\nPara deshabilitar las sugerencias, usa **",
                 "suggestion channel disable**"
             ],
             "set": [
