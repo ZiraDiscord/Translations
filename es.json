@@ -57,11 +57,11 @@
         "categories": {
             "role": "Roles",
             "logs": "Logging",
-            "suggestion": "Suggestions",
+            "suggestion": "Sugerencias",
             "misc": "Varios"
         },
         "linksTitle": "Enlaces",
-        "links": "[Guide to setup Zira](https://demo.zira.pw)\n[Support Guild](https://zira.pw/support)\n[Zira's Dashboard](https://zira.pw)\n[Get Premium](https://zira.pw/premium)\n[Translate Zira](https://translate.zira.pw)",
+        "links": "[Guía para configurar a Zira](https://demo.zira.pw)\n[Servidor de ayuda](https://zira.pw/support)\n[Dashboard de Zira](https://zira.pw)\n[Consigue Zira Premium](https://zira.pw/premium)\n[Traduce a Zira](https://translate.zira.pw)",
         "news": "News"
     },
     "prefix": {
