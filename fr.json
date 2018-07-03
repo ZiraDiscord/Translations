@@ -348,7 +348,7 @@
             "noCard": "A card has not been created with the ID in the title. The ID is now invalid. Please rerun this command.",
             "list": [
                 "Please pick the list you want suggestions to be sent to\n",
-                "\nTo pick a list just type if the number."
+                "\nTo pick a list just type its the number."
             ],
             "timeout": "Command timed out as it has been more than 2 minutes.",
             "set": "Trello board and list have been set. Suggestions will get sent to trello as well as the channel that you've setup.",
