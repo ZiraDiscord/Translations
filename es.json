@@ -342,17 +342,17 @@
                 "suggestion trello boardID** ~~-~~ send suggestions to a list on trello\n\n**",
                 "suggestion trello disable** to disable Trello\n\nYou will need to add the user `ZiraDiscord` to the board you desire to use."
             ],
-            "unknown": "Unknown board. Please add the user `ZiraDiscord` to the board and try again.",
-            "noLists": "There are no lists on the board. Please add a list and try again.",
-            "title": "Verify Board",
-            "verify": "To verify this board please create a card that has the title set to the ID that has been sent to you. After you have done this please type `done`.\n\nYou will have 2 minutes to do this.",
+            "unknown": "Tablero desconocido. Por favor añade al usuario `ZiraDiscord` al tablero e intenta de nuevo.",
+            "noLists": "No hay listas en el tablero. Por favor añade una lista e intenta de nuevo.",
+            "title": "Verificar tablero",
+            "verify": "Para verificar este tablero por favor crea una tarjeta que tenga el ID que se te envió como título. Una vez que termines escribe `done`.\n\nTienes 2 minutos para hacer esto.",
             "noCard": "A card has not been created with the ID in the title. The ID is now invalid. Please rerun this command.",
             "list": [
                 "Please pick the list you want suggestions to be sent to\n",
                 "\nTo pick a list just type its the number."
             ],
             "timeout": "Comando terminado ya que se agotó el tiempo de 2 minutos.",
-            "set": "Trello board and list have been set. Suggestions will get sent to trello as well as the channel that you've setup.",
+            "set": "El tablero y lista de Trello ha sido establecido. Las sugerencias serán enviadas tanto a Trello como al canal que estableciste.",
             "disable": "Trello ha sido deshabilitado",
             "noset": "Trello no ha sido configurado por lo tanto nada ha sido deshabilitado."
         },
@@ -403,5 +403,5 @@
     "once": {
         "help": "once emoji @rol o nombre del rol** ~~-~~ añade un rol con un emoji en el mensaje establecido que solo puede ser reclamado una vez\n\nEsto es útil para reglas que aceptar, etc."
     },
-    "translate": "translate language text** ~~-~~ translate text"
+    "translate": "translate idioma texto** ~~-~~ traduce un texto"
 }
