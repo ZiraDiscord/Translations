@@ -364,16 +364,16 @@
             "Use the channel <#",
             "> to submit a suggestion."
         ],
-        "noReason": "No reason was provided."
+        "noReason": "No se proporcionó una razón."
     },
     "submit": {
-        "help": "submit suggestion** ~~-~~ submit your suggestion",
-        "title": "New Suggestion"
+        "help": "submit sugerencia** ~~-~~ envía tu sugerencia",
+        "title": "Nueva sugerencia"
     },
     "approve": {
-        "help": "approve ID reason** ~~-~~ approve a suggestion\n\nThe ID could either be a message ID or suggestions ID.",
+        "help": "approve ID razón** ~~-~~ aprueba una sugerencia\n\nEl ID puede ser un ID de mensaje o un ID de sugerencia.",
         "read": [
-            "Unable to approve the suggestion in <#",
+            "No se pudo aprobar la sugerencia en <#",
             "> porque no tengo los permisos `Leer Mensajes` o `Leer el Historial de Mensajes`."
         ],
         "title": "Sugerencia aprobada",
