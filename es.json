@@ -225,17 +225,17 @@
         ],
         "userRemove": [
             "Se removió el rol <@&",
-            "> from being given when a user joins."
+            "> de ser dado cuando un usuario se una."
         ],
         "botAdd": [
             "Se añadió el rol <@&",
-            "> that will be given when a bot is invited.\n\n**NOTE:** The `Zira` role needs to be above the role you've set, and needs to have the `Manage Roles` permission to give this role."
+            "> que será dado cuando un bot sea invitado.\n\n**NOTA:** El rol `Zira` necesita estar arriba de los roles que estableciste, también necesita el permiso `Administrar Roles` para poder darlos."
         ],
         "botRemove": [
             "Se removió el rol <@&",
-            "> from being given when a bot invited."
+            "> de ser dado cuando un bot sea invitado."
         ],
-        "bot": "autorole bot @role or role name** ~~-~~ add or remove a role that should be given when a bot is invited\n\nTo remove a role that has been set, do the above command.",
+        "bot": "autorole bot @rol o nombre del rol** ~~-~~ añade o remueve un rol a ser dado cuando un bot sea invitado\n\nPara remover un rol establecido, usa el comando de arriba.",
         "showUser": "Roles de usuario",
         "showBot": "Roles de bot",
         "no": "No se establecieron roles."
@@ -257,8 +257,8 @@
     },
     "delete": {
         "help": [
-            "delete [message ID](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) @role or role name** ~~-~~ remove a role that has been setup by Zira\nDeleted a role but forgot to remove it from Zira first?\nDo **",
-            "delete [message ID](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) check**\n\nTo get the message ID that a role is on, do **",
+            "delete [ID del mensaje](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) @rol o nombre del rol** ~~-~~ remueve un rol establecido por Zira\n¿Borraste un rol pero olvidaste removerlo primero?\nUsa **",
+            "delete [ID del mensaje](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) check**\n\nPara conseguir el ID del mensaje en el que está un rol, usa **",
             "lista**."
         ],
         "setup": "No se pudo remover el rol ya que no ha sido configurado por Zira o no está en el mensaje especificado.",
