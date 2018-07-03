@@ -309,15 +309,15 @@
                 "suggestion submit #channel** ~~-~~ set the channel that people will only be able to make suggestions in\n\n**",
                 "suggestion submit disable** to allow suggestions to be submitted in any channel"
             ],
-            "set": "Submit channel set to <#",
+            "set": "Canal de envío de sugerencias establecido a <#",
             "disable": "Suggestions can now be sent in any channel."
         },
         "approve": {
             "help": [
-                "suggestion approve #channel** ~~-~~ set the channel that approved suggestions will be sent to\n\n**",
-                "suggestion approve disable** to disable this feature."
+                "suggestion approve #canal** ~~-~~ establece el canal al que se enviarán las sugerencias aprobadas\n\n**",
+                "suggestion approve disable** para deshabilitar esta característica."
             ],
-            "set": "Approve channel set to <#",
+            "set": "Canal de sugerencias aprobadas establecido a <#",
             "disable": "Suggestions will no longer be sent to another channel when approved"
         },
         "dm": {
