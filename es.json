@@ -232,16 +232,16 @@
             "> that will be given when a bot is invited.\n\n**NOTE:** The `Zira` role needs to be above the role you've set, and needs to have the `Manage Roles` permission to give this role."
         ],
         "botRemove": [
-            "Removed role <@&",
+            "Se removió el rol <@&",
             "> from being given when a bot invited."
         ],
         "bot": "autorole bot @role or role name** ~~-~~ add or remove a role that should be given when a bot is invited\n\nTo remove a role that has been set, do the above command.",
-        "showUser": "User Roles",
-        "showBot": "Bot Roles",
-        "no": "No roles set."
+        "showUser": "Roles de usuario",
+        "showBot": "Roles de bot",
+        "no": "No se establecieron roles."
     },
     "reset": {
-        "title": "Config Reset :warning:",
+        "title": "Restablecimiento de la configuración :warning:",
         "question": "¿Seguro que quieres restablecer la configuración del servidor?\n**TODO** lo que haya sido configurado en Zira será restablecido.\n\nEscribe `yes` para aceptar o `no` para cancelar",
         "yes": "La configuración del servidor ha sido restablecida.",
         "no": "Nada ha sido restablecido.",
