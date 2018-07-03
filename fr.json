@@ -99,7 +99,7 @@
     "amount": "Montant. 2$ correspondent à 30 jours",
     "guild": "Serveur",
     "buy": "Acheter",
-    "features": "<li>Rôles à Bascule illimités au lieu de 12</li><li>Possibilité de configurer un canal de soumissions de suggestions</li><li>Accès anticipé aux nouvelles fonctionnalités</li><li>Plus à venir</li>",
+    "features": "<li>Unlimited toggled and remove roles</li><li>Access to set a submit channel</li><li>Trello integration</li><li>Access to set a channel that approved suggestions will get sent to</li><li>Ability to send users a DM when their suggestions gets updated</li>",
     "guilds": "Serveurs Premium"
   }
 }
