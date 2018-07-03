@@ -205,10 +205,10 @@
         ],
         "stop": "Leave messages will stop being sent.",
         "setChannel": [
-            "Channel set to <#",
-            ">\n\n**NOTE:** If Zira is not able to send messages to the channel, leave messages will be disabled."
+            "Canal establecido a <#",
+            ">\n\n**NOTA:** si Zira no es capaz de enviar mensajes al canal, los mensajes de despedida serán deshabilitados."
         ],
-        "message": "leave message [message]** ~~-~~ set the message that will be sent when a user leaves\n\nYou can use these placeholders in the message:\n$user ~~-~~ username\n$mention ~~-~~ user mention\n$guild ~~-~~ guild name\n$membercount ~~-~~ new member count",
+        "message": "leave message [mensaje]** ~~-~~ establece el mensaje que será enviado cuando un usuario se va\n\nPuedes usar estas variables en el mensaje:\n$user ~~-~~ nombre de usuario\n$mention ~~-~~ mención al usuario\n$guild ~~-~~ nombre del servidor\n$membercount ~~-~~ cantidad actual de miembros",
         "setMessage": "Mensaje de despedida establecido a:\n"
     },
     "auto": {
