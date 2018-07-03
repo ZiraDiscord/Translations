@@ -15,7 +15,7 @@
     ],
     "premium": "This feature is [donor](https://zira.pw/premium) only.",
     "noChannel": [
-        "Please set a channel first with **",
+        "Por favor, primero establece un canal con **",
         "canal**."
     ],
     "noMessage": [
@@ -37,10 +37,10 @@
             "list": "listar los roles que se usan\n",
             "autorole": "dar un rol a los usuarios y bots al unirse\n",
             "log": "registrar cuando Zira entregue/quite un rol\n",
-            "join": "sends a message when a user joins\n",
-            "leave": "sends a message when a user leaves\n",
-            "lang": "set locale\n",
-            "reset": "reset guild config\n",
+            "join": "enviar un mensaje cuando un usuario se una\n",
+            "leave": "enviar un mensaje cuando un usuario se vaya\n",
+            "lang": "establecer local\n",
+            "reset": "restablecer configuración del gremio\n",
             "info": "información sobre Zira\n",
             "invite": "invitar a Zira\n",
             "suggestion": "configurar sugerencias\n",
@@ -50,9 +50,9 @@
             "deny": "rechazar una sugerencia\n",
             "once": "añadir un rol que pueda reclamarse una vez\n",
             "prefix": "change the guild's prefix\n",
-            "translate": "translate text\n",
-            "multi": "add multiple roles to an emoji\n",
-            "remove": "add an emoji that removes a role\n"
+            "translate": "traducir texto\n",
+            "multi": "añadir múltiples roles a un emoji\n",
+            "remove": "añadir un emoji que quite un rol\n"
         },
         "categories": {
             "role": "Roles",
@@ -113,8 +113,8 @@
             "\n\n**NOTE:** The `Zira` role needs to be above the role(s) you've set, and needs to have the `Manage Roles` permission to give them."
         ],
         "emoji": [
-            "The emoji ",
-            " is already in use on this message."
+            "El emoji ",
+            " ya ha sido usado en este mensaje."
         ],
         "role": [
             "The role <@&",
@@ -151,7 +151,7 @@
         "noGuildPerm": "You need be the owner of the guild, or have the `Manage Server` permission to use this command."
     },
     "lang": {
-        "langUpdate": "Language updated.",
+        "langUpdate": "Idioma actualizado.",
         "translate": "If you want Zira in a language that isn't on the list above, you can help translate Zira on [Crowdin](https://translate.zira.pw)"
     },
     "log": {
@@ -164,7 +164,7 @@
             "Log channel set to <#",
             ">\n\n**NOTE:** If Zira is not able to send to the channel, logging will be disabled."
         ],
-        "stop": "Log messages will no longer be sent.",
+        "stop": "Mensajes de registro ya no serán enviados.",
         "give": [
             " reacted ",
             " to get ",
@@ -249,7 +249,7 @@
     },
     "list": {
         "top": "Channel ~~-~~ Message ID ~~-~~ Type ~~-~~ Emoji ~~-~~ Role\n",
-        "title": " Role List",
+        "title": " Lista de Roles",
         "cont": "List Continued",
         "null": "If a message ID is null, either reset your config and read the roles, or join the [support server](https://zira.pw/support).",
         "noTitle": "OwO",
