@@ -1,6 +1,6 @@
 {
     "language": "Español",
-    "title": "Uso de Comando",
+    "title": "Uso del comando",
     "titleError": "Error :warning:",
     "titleComp": "Completado :white_check_mark:",
     "unknownChannel": "Canal desconocido.",
@@ -56,7 +56,7 @@
         },
         "categories": {
             "role": "Roles",
-            "logs": "Logging",
+            "logs": "Registros",
             "suggestion": "Sugerencias",
             "misc": "Varios"
         },
@@ -65,16 +65,16 @@
         "news": "Noticias"
     },
     "prefix": {
-        "help": "prefix prefix** ~~-~~ set the guild's prefix\n\n`z/` and <@275813801792634880> will still be usable",
-        "set": "Prefix set to ",
+        "help": "prefix prefijo** ~~-~~ establece el prefijo del servidor\n\n`z/` y <@275813801792634880> seguirán siendo usables",
+        "set": "Prefijo establecido a ",
         "error": "El prefijo debe tener entre 1-10 caracteres."
     },
     "channel": {
-        "help": "channel #channel** ~~-~~ set the channel that will be used",
-        "set": "Channel set to <#"
+        "help": "channel #canal** ~~-~~ establece el canal que será usado",
+        "set": "Canal establecido a <#"
     },
     "message": {
-        "help": "message [message ID](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) or message** ~~-~~ use an existing message, or create a new one",
+        "help": "message [ID del mensaje](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) o mensaje** ~~-~~ usa un mensaje existente o crea uno nuevo",
         "cannotSend": [
             "No puedo enviar un mensaje a <#",
             "> porque me falta el permiso de `Enviar mensajes`."
@@ -88,8 +88,8 @@
             "No puedo obtener el mensaje de <#",
             "> porque me falta el permiso de `Leer mensajes` o `Leer el historial de mensajes`."
         ],
-        "unknownID": "Unable to set the message ID.",
-        "set": "Message set with the ID of "
+        "unknownID": "No se pudo establecer el ID del mensaje.",
+        "set": "Mensaje establecido con el ID "
     },
     "add": {
         "help": "add emoji @role or role name** ~~-~~ add a role with an emoji to the set message",
