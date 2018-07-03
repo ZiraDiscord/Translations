@@ -292,7 +292,7 @@
             "suggestion dm** ~~-~~ establece si los usuarios recibirán novedades sobre sus sugerencias o no\n\n**",
             "suggestion role** ~~-~~ permite a los usuarios con un rol específico aprobar y rechazar sugerencias\n\n**",
             "suggestion trello** ~~-~~ envía las sugerencias a Trello\n\n**",
-            "suggestion approve** ~~-~~ send suggestions to a channel when approved"
+            "suggestion approve** ~~-~~ envía sugerencias a un canal cuando sean aprobadas"
         ],
         "channel": {
             "help": [
@@ -327,7 +327,7 @@
         "role": {
             "help": [
                 "suggestion role @rol o nombre del rol** ~~-~~ permite a los usuarios con un rol específico aprobar y denegar sugerencias",
-                "suggestion role revoke** to revoke suggestion access to a previously allowed role"
+                "suggestion role revoke** para revocar el acceso a las sugerencias a un rol autorizado anteriormente"
             ],
             "set": "Rol establecido a <@&",
             "revoke": [
