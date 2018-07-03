@@ -185,10 +185,10 @@
             "join channel #channel** ~~-~~ set the channel that join messages will be sent to\n\nTo stop sending to the channel set, do **",
             "join channel stop**"
         ],
-        "stop": "Join messages will no longer be sent.",
+        "stop": "Los mensajes de bienvenida ya no serán enviados.",
         "setChannel": [
-            "Channel set to <#",
-            ">\n\n**NOTE:** If Zira is not able to send messages to the channel, join messages will be disabled."
+            "Canal establecido a <#",
+            ">\n\n**NOTA:** si Zira no es capaz de enviar mensajes al canal, los mensajes de bienvenida serán deshabilitados."
         ],
         "message": "join message mensaje** ~~-~~ establece el mensaje que será enviado cuando un usuario se une\n\nPuedes usar estas variables en el mensaje:\n$user ~~-~~ nombre de usuario\n$mention ~~-~~ mención al usuario\n$guild ~~-~~ nombre del servidor\n$membercount ~~-~~ cantidad actual de miembros",
         "setMessage": "Mensaje de bienvenida establecido a:\n"
