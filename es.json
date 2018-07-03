@@ -218,10 +218,10 @@
             "autorole user** ~~-~~ añade o remueve los roles que se darán cuando un usuario se una\n**",
             "autorole bot** ~~-~~ añade o remueve los roles que se darán cuando un bot sea invitado"
         ],
-        "user": "autorole user @role or role name** ~~-~~ add or remove a role that should be given when a user joins\n\nTo remove a role that has been set do the above command.",
+        "user": "autorole user @rol o nombre del rol** ~~-~~ añade o remueve un rol a ser dado cuando un usuario se una\n\nPara remover un rol que ha sido añadido usa el comando de arriba.",
         "userAdd": [
             "Se añadió el rol <@&",
-            "> that will be given when a user joins.\n\n**NOTE:** The `Zira` role needs to be above the role you've set, and needs to have the `Manage Roles` permission to give this role."
+            "> que será dado cuando un usuario se una.\n\n**NOTA:** El rol `Zira` necesita estar arriba de los roles que estableciste, también necesita el permiso `Administrar Roles` para poder darlos."
         ],
         "userRemove": [
             "Se removió el rol <@&",
