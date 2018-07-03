@@ -1,32 +1,32 @@
 {
-    "language": "English",
+    "language": "Inglés",
     "title": "Command Usage",
     "titleError": "Error :warning:",
     "titleComp": "Complete :white_check_mark:",
-    "unknownChannel": "Unknown channel.",
+    "unknownChannel": "Canal desconocido.",
     "unknownRole": [
-        "Unknown role in ",
+        "Rol desconocido en ",
         " pair."
     ],
-    "unknownMessage": "Unknown message.",
+    "unknownMessage": "Mensaje desconocido.",
     "unknownEmoji": [
-        "Unknown emoji in ",
+        "Emoji desconocido en ",
         " pair."
     ],
     "premium": "This feature is [donor](https://zira.pw/premium) only.",
     "noChannel": [
         "Please set a channel first with **",
-        "channel**."
+        "canal**."
     ],
     "noMessage": [
         "Please set a message to use with **",
-        "message**."
+        "mensaje**."
     ],
-    "example": "**Example:**\n",
-    "exampleOr": "**or**\n",
-    "guide": "Guide Page",
+    "example": "**Ejemplo:**\n",
+    "exampleOr": "**o**\n",
+    "guide": "Página de Guía",
     "help": {
-        "commandsTitle": "Commands",
+        "commandsTitle": "Comandos",
         "commands": {
             "channel": "set channel you want to use\n",
             "message": "set the message you want to use\n",
@@ -41,14 +41,14 @@
             "leave": "sends a message when a user leaves\n",
             "lang": "set locale\n",
             "reset": "reset guild config\n",
-            "info": "info about Zira\n",
-            "invite": "invite Zira\n",
-            "suggestion": "setup suggestions\n",
-            "submit": "submit a suggestion\n",
-            "approve": "approve a suggestion\n",
-            "maybe": "potentially approve a suggestion\n",
-            "deny": "deny a suggestion\n",
-            "once": "add a role that can be claimed once\n",
+            "info": "información sobre Zira\n",
+            "invite": "invitar a Zira\n",
+            "suggestion": "configurar sugerencias\n",
+            "submit": "enviar una sugerencia\n",
+            "approve": "aprobar una sugerencia\n",
+            "maybe": "aprobar potencialmente una sugerencia\n",
+            "deny": "rechazar una sugerencia\n",
+            "once": "añadir un rol que pueda reclamarse una vez\n",
             "prefix": "change the guild's prefix\n",
             "translate": "translate text\n",
             "multi": "add multiple roles to an emoji\n",
@@ -62,7 +62,7 @@
         },
         "linksTitle": "Enlaces",
         "links": "[Guía para configurar a Zira](https://demo.zira.pw)\n[Servidor de ayuda](https://zira.pw/support)\n[Dashboard de Zira](https://zira.pw)\n[Consigue Zira Premium](https://zira.pw/premium)\n[Traduce a Zira](https://translate.zira.pw)",
-        "news": "News"
+        "news": "Noticias"
     },
     "prefix": {
         "help": "prefix prefix** ~~-~~ set the guild's prefix\n\n`z/` and <@275813801792634880> will still be usable",
