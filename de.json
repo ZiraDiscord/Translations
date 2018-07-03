@@ -1,0 +1,407 @@
+{
+    "language": "English",
+    "title": "Command Usage",
+    "titleError": "Error :warning:",
+    "titleComp": "Complete :white_check_mark:",
+    "unknownChannel": "Unknown channel.",
+    "unknownRole": [
+        "Unknown role in ",
+        " pair."
+    ],
+    "unknownMessage": "Unknown message.",
+    "unknownEmoji": [
+        "Unknown emoji in ",
+        " pair."
+    ],
+    "premium": "This feature is [donor](https://zira.pw/premium) only.",
+    "noChannel": [
+        "Please set a channel first with **",
+        "channel**."
+    ],
+    "noMessage": [
+        "Please set a message to use with **",
+        "message**."
+    ],
+    "example": "**Example:**\n",
+    "exampleOr": "**or**\n",
+    "guide": "Guide Page",
+    "help": {
+        "commandsTitle": "Commands",
+        "commands": {
+            "channel": "set channel you want to use\n",
+            "message": "set the message you want to use\n",
+            "add": "add a role with an emoji\n",
+            "toggle": "add a role that can be toggled\n",
+            "delete": "delete a role that has been set\n",
+            "edit": "edit a message sent by Zira\n",
+            "list": "list the roles being used\n",
+            "autorole": "give users and bots a role on join\n",
+            "log": "log when Zira gives/takes a role\n",
+            "join": "sends a message when a user joins\n",
+            "leave": "sends a message when a user leaves\n",
+            "lang": "set locale\n",
+            "reset": "reset guild config\n",
+            "info": "info about Zira\n",
+            "invite": "invite Zira\n",
+            "suggestion": "setup suggestions\n",
+            "submit": "submit a suggestion\n",
+            "approve": "approve a suggestion\n",
+            "maybe": "potentially approve a suggestion\n",
+            "deny": "deny a suggestion\n",
+            "once": "add a role that can be claimed once\n",
+            "prefix": "change the guild's prefix\n",
+            "translate": "translate text\n",
+            "multi": "add multiple roles to an emoji\n",
+            "remove": "add an emoji that removes a role\n"
+        },
+        "categories": {
+            "role": "Roles",
+            "logs": "Logging",
+            "suggestion": "Suggestions",
+            "misc": "Miscellaneous"
+        },
+        "linksTitle": "Links",
+        "links": "[Guide to setup Zira](https://demo.zira.pw)\n[Support Guild](https://zira.pw/support)\n[Zira's Dashboard](https://zira.pw)\n[Get Premium](https://zira.pw/premium)\n[Translate Zira](https://translate.zira.pw)",
+        "news": "News"
+    },
+    "prefix": {
+        "help": "prefix prefix** ~~-~~ set the guild's prefix\n\n`z/` and <@275813801792634880> will still be usable",
+        "set": "Prefix set to ",
+        "error": "Prefix has to be between 1-10 characters."
+    },
+    "channel": {
+        "help": "channel #channel** ~~-~~ set the channel that will be used",
+        "set": "Channel set to <#"
+    },
+    "message": {
+        "help": "message [message ID](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) or message** ~~-~~ use an existing message, or create a new one",
+        "cannotSend": [
+            "Unable to send a message to <#",
+            "> because I lack the `Send Messages` permission."
+        ],
+        "cannotRead": [
+            "Unable to send a message to <#",
+            "> because I lack the `Read Messages` or `Read Message History` permission."
+        ],
+        "unknown": "Unable to send message.",
+        "cannotReadID": [
+            "Unable to get the message from <#",
+            "> because I lack the `Read Messages` or `Read Message History` permission."
+        ],
+        "unknownID": "Unable to set the message ID.",
+        "set": "Message set with the ID of "
+    },
+    "add": {
+        "help": "add emoji @role or role name** ~~-~~ add a role with an emoji to the set message",
+        "cannotRead": [
+            "Unable to add the reaction",
+            " to the message in <#",
+            "> because I lack the `Read Messages` or `Read Message History` permission."
+        ],
+        "cannotReact": [
+            "Unable to add the reaction",
+            " to the message in <#",
+            "> because I lack the `Add Reaction` permission."
+        ],
+        "unknown": [
+            "Unable to add the reaction ",
+            " to the message in <#"
+        ],
+        "set": [
+            "\n<@&",
+            "> added with the emoji ",
+            "\n\n**NOTE:** The `Zira` role needs to be above the role(s) you've set, and needs to have the `Manage Roles` permission to give them."
+        ],
+        "emoji": [
+            "The emoji ",
+            " is already in use on this message."
+        ],
+        "role": [
+            "The role <@&",
+            "> is already in use on this message."
+        ]
+    },
+    "multi": {
+        "help": "multi emoji @role or role name, @role or role name** ~~-~~ add an emoji with multiple roles to the set message",
+        "set": [
+            "added with the emoji ",
+            "\n\n**NOTE:** The `Zira` role needs to be above the roles you've set, and needs to have the `Manage Roles` permission to give them."
+        ]
+    },
+    "remove": {
+        "help": "remove emoji @role or role name** ~~-~~ add an emoji that will remove a role\n\nOptionally you can supply another role. This second role would be given after the first role is removed.",
+        "set": [
+            " will be removed ",
+            " will be added ",
+            "with the emoji ",
+            "\n\n**NOTE:** The `Zira` role needs to be above the roles you've set, and needs to have the `Manage Roles` permission to give them."
+        ],
+        "limit": "You have reached the limit of 6 remove roles. You can get unlimited remove and toggled roles by [donating](https://zira.pw/premium)"
+    },
+    "toggle": {
+        "help": "toggle emoji @role or role name** ~~-~~ add a role with an emoji to the set message",
+        "image": "https://stuff.zira.pw/files/1524932965273.gif",
+        "limit": "You have reached the limit of 12 toggled roles. You can get unlimited toggled roles by [donating](https://zira.pw/premium)",
+        "before": "Adding these will result in you reaching the limit of toggled roles. You can get unlimited toggled and remove roles by [donating](https://zira.pw/premium)"
+    },
+    "perm": {
+        "noPerm": "You need be the owner of the guild, or have the `Manage Roles` permission to use these commands.",
+        "noLangPerm": "You need be the owner of the guild, or have the `Manage Server` permission to change the bot's language.",
+        "noMessagePerm": "You need be the owner of the guild, or have the `Manage Messages` permission to purge messages.",
+        "noGuildPerm": "You need be the owner of the guild, or have the `Manage Server` permission to use this command."
+    },
+    "lang": {
+        "langUpdate": "Language updated.",
+        "translate": "If you want Zira in a language that isn't on the list above, you can help translate Zira on [Crowdin](https://translate.zira.pw)"
+    },
+    "log": {
+        "title": "Log Command",
+        "help": [
+            "log #channel** ~~-~~ set the channel for logging\n\nTo stop logging, do **",
+            "log stop**"
+        ],
+        "set": [
+            "Log channel set to <#",
+            ">\n\n**NOTE:** If Zira is not able to send to the channel, logging will be disabled."
+        ],
+        "stop": "Log messages will no longer be sent.",
+        "give": [
+            " reacted ",
+            " to get ",
+            " and get "
+        ],
+        "remove": [
+            " unreacted ",
+            " to remove "
+        ]
+    },
+    "join": {
+        "title": "Join Command",
+        "help": [
+            "join channel** ~~-~~ set the channel that messages will be sent to\n**",
+            "join message** ~~-~~ set the message that will be sent when a user joins\n\nYou can use these placeholders in the message:\n$user ~~-~~ username\n$mention ~~-~~ user mention\n$guild ~~-~~ guild name\n$membercount ~~-~~ new member count"
+        ],
+        "channel": [
+            "join channel #channel** ~~-~~ set the channel that join messages will be sent to\n\nTo stop sending to the channel set, do **",
+            "join channel stop**"
+        ],
+        "stop": "Join messages will no longer be sent.",
+        "setChannel": [
+            "Channel set to <#",
+            ">\n\n**NOTE:** If Zira is not able to send messages to the channel, join messages will be disabled."
+        ],
+        "message": "join message message** ~~-~~ set the message that will be sent when a user joins\n\nYou can use these placeholders in the message:\n$user ~~-~~ username\n$mention ~~-~~ user mention\n$guild ~~-~~ guild name\n$membercount ~~-~~ new member count",
+        "setMessage": "Join message set to:\n"
+    },
+    "leave": {
+        "title": "Leave Command",
+        "help": [
+            "leave channel** ~~-~~ set the channel that messages will be sent to\n**",
+            "leave message** ~~-~~ set the message that will be sent when a user leave\n\nYou can use these placeholders in the message:\n$user ~~-~~ username\n$mention ~~-~~ user mention\n$guild ~~-~~ guild name\n$membercount ~~-~~ new member count"
+        ],
+        "channel": [
+            "leave channel #channel** ~~-~~ set the channel that leave messages will be sent to\n\nTo stop sending to the channel set, do **",
+            "leave channel stop**"
+        ],
+        "stop": "Leave messages will stop being sent.",
+        "setChannel": [
+            "Channel set to <#",
+            ">\n\n**NOTE:** If Zira is not able to send messages to the channel, leave messages will be disabled."
+        ],
+        "message": "leave message [message]** ~~-~~ set the message that will be sent when a user leaves\n\nYou can use these placeholders in the message:\n$user ~~-~~ username\n$mention ~~-~~ user mention\n$guild ~~-~~ guild name\n$membercount ~~-~~ new member count",
+        "setMessage": "Leave message set to:\n"
+    },
+    "auto": {
+        "title": "Auto Role",
+        "help": [
+            "autorole show** ~~-~~ show the current roles set\n**",
+            "autorole user** ~~-~~ add or remove roles that should be given on user join\n**",
+            "autorole bot** ~~-~~ add or remove roles that should be given on bot join"
+        ],
+        "user": "autorole user @role or role name** ~~-~~ add or remove a role that should be given when a user joins\n\nTo remove a role that has been set do the above command.",
+        "userAdd": [
+            "Added role <@&",
+            "> that will be given when a user joins.\n\n**NOTE:** The `Zira` role needs to be above the role you've set, and needs to have the `Manage Roles` permission to give this role."
+        ],
+        "userRemove": [
+            "Removed role <@&",
+            "> from being given when a user joins."
+        ],
+        "botAdd": [
+            "Added role <@&",
+            "> that will be given when a bot is invited.\n\n**NOTE:** The `Zira` role needs to be above the role you've set, and needs to have the `Manage Roles` permission to give this role."
+        ],
+        "botRemove": [
+            "Removed role <@&",
+            "> from being given when a bot invited."
+        ],
+        "bot": "autorole bot @role or role name** ~~-~~ add or remove a role that should be given when a bot is invited\n\nTo remove a role that has been set, do the above command.",
+        "showUser": "User Roles",
+        "showBot": "Bot Roles",
+        "no": "No roles set."
+    },
+    "reset": {
+        "title": "Config Reset :warning:",
+        "question": "Are you sure you want to reset the guild config?\n**EVERYTHING** setup through Zira will be reset.\n\nType `yes` or `no`",
+        "yes": "Guild config has been reset.",
+        "no": "Nothing has been reset.",
+        "perm": "Only the owner of the guild can reset the config."
+    },
+    "list": {
+        "top": "Channel ~~-~~ Message ID ~~-~~ Type ~~-~~ Emoji ~~-~~ Role\n",
+        "title": " Role List",
+        "cont": "List Continued",
+        "null": "If a message ID is null, either reset your config and read the roles, or join the [support server](https://zira.pw/support).",
+        "noTitle": "OwO",
+        "noDesc": "What's this?"
+    },
+    "delete": {
+        "help": [
+            "delete [message ID](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) @role or role name** ~~-~~ remove a role that has been setup by Zira\nDeleted a role but forgot to remove it from Zira first?\nDo **",
+            "delete [message ID](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) check**\n\nTo get the message ID that a role is on, do **",
+            "list**."
+        ],
+        "setup": "Unable to remove the role as it either was not setup by Zira, or is not on the specified message.",
+        "removed": [
+            "\n<@&",
+            "> removed with the emoji "
+        ],
+        "unknown": "Unknown role.",
+        "noRoles": "No roles are set on that message.",
+        "checkRemove": [
+            "Removed ",
+            " roles from the message."
+        ],
+        "checkGood": "All roles exist, none were removed."
+    },
+    "edit": {
+        "help": "edit [message ID](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) new message** ~~-~~ edit a message sent by Zira",
+        "read": [
+            "Unable to get the message in <#",
+            "> because I lack the `Read Messages` or `Read Message History` permissions."
+        ],
+        "unknownGet": "Unable to get that message in <#",
+        "unknownEdit": "Unable to edit the message.",
+        "no": "That message can't be edited by Zira, as it was not sent by Zira.",
+        "edited": "Message has been edited."
+    },
+    "suggestion": {
+        "help": [
+            "suggestion channel** ~~-~~ set the channel that suggestions will be sent to\n\n**",
+            "suggestion submit** ~~-~~ set the channel that people will only be able to make suggestions in\n\n**",
+            "suggestion dm** ~~-~~ set whether or not users will receive updates about their suggestions\n\n**",
+            "suggestion role** ~~-~~ allow users with a specific role to approve, deny suggestions\n\n**",
+            "suggestion trello** ~~-~~ send suggestions to trello\n\n**",
+            "suggestion approve** ~~-~~ send suggestions to a channel when approved"
+        ],
+        "channel": {
+            "help": [
+                "suggestion channel #channel** ~~-~~ set the channel that suggestions will be sent to\n\nTo disable suggestions do, **",
+                "suggestion channel disable**"
+            ],
+            "set": [
+                "Suggestion channel set to <#",
+                ">\n\n**NOTE:** If Zira is not able to send messages to the channel, suggestions will be disabled."
+            ]
+        },
+        "submit": {
+            "help": [
+                "suggestion submit #channel** ~~-~~ set the channel that people will only be able to make suggestions in\n\n**",
+                "suggestion submit disable** to allow suggestions to be submitted in any channel"
+            ],
+            "set": "Submit channel set to <#",
+            "disable": "Suggestions can now be sent in any channel."
+        },
+        "approve": {
+            "help": [
+                "suggestion approve #channel** ~~-~~ set the channel that approved suggestions will be sent to\n\n**",
+                "suggestion approve disable** to disable this feature."
+            ],
+            "set": "Approve channel set to <#",
+            "disable": "Suggestions will no longer be sent to another channel when approved"
+        },
+        "dm": {
+            "set": "Users will now get a DM when their suggestion gets approved, denied, or potentially approved",
+            "disable": "Users will no longer get a DM regarding their suggestions"
+        },
+        "role": {
+            "help": [
+                "suggestion role @role or role name** ~~-~~ allow users with a specific role to approve, deny suggestions\n\n**",
+                "suggestion role revoke** to revoke suggestion access to a previously allowed role"
+            ],
+            "set": "Role set to <@&",
+            "revoke": [
+                "Users with the role <@&",
+                "> can no longer approve, deny suggestions unless they have the `Manage Guild` permission."
+            ],
+            "noset": "You can't revoke access from a role that hasn't been set",
+            "unknown": "Unknown role."
+        },
+        "trello": {
+            "help": [
+                "suggestion trello boardID** ~~-~~ send suggestions to a list on trello\n\n**",
+                "suggestion trello disable** to disable Trello\n\nYou will need to add the user `ZiraDiscord` to the board you desire to use."
+            ],
+            "unknown": "Unknown board. Please add the user `ZiraDiscord` to the board and try again.",
+            "noLists": "There are no lists on the board. Please add a list and try again.",
+            "title": "Verify Board",
+            "verify": "To verify this board please create a card that has the title set to the ID that has been sent to you. After you have done this please type `done`.\n\nYou will have 2 minutes to do this.",
+            "noCard": "A card has not been created with the ID in the title. The ID is now invalid. Please rerun this command.",
+            "list": [
+                "Please pick the list you want suggestions to be sent to\n",
+                "\nTo pick a list just type its the number."
+            ],
+            "timeout": "Command timed out as it has been more than 2 minutes.",
+            "set": "Trello board and list have been set. Suggestions will get sent to trello as well as the channel that you've setup.",
+            "disable": "Trello has been disabled",
+            "noset": "Trello has not been setup therefore nothing has been disabled."
+        },
+        "stop": "Suggestions are now disabled.",
+        "disable": "Suggestions are disabled.",
+        "notSetup": "That message is not a suggestion sent by Zira.",
+        "reason": "Reason given by ",
+        "useChannel": [
+            "Use the channel <#",
+            "> to submit a suggestion."
+        ],
+        "noReason": "No reason was provided."
+    },
+    "submit": {
+        "help": "submit suggestion** ~~-~~ submit your suggestion",
+        "title": "New Suggestion"
+    },
+    "approve": {
+        "help": "approve ID reason** ~~-~~ approve a suggestion\n\nThe ID could either be a message ID or suggestions ID.",
+        "read": [
+            "Unable to approve the suggestion in <#",
+            "> because I lack the `Read Messages` or `Read Message History` permissions."
+        ],
+        "title": "Approved Suggestion",
+        "unknown": "Unable to approve suggestion.",
+        "dm": "**$USER has approved your suggestion:**\n$SUGGESTION\n**Reason:**\n$REASON"
+    },
+    "deny": {
+        "help": "deny ID reason** ~~-~~ deny a suggestion\n\nThe ID could either be a message ID or suggestions ID.",
+        "read": [
+            "Unable to deny the suggestion in <#",
+            "> because I lack the `Read Messages` or `Read Message History` permissions."
+        ],
+        "title": "Denied Suggestion",
+        "unknown": "Unable to deny suggestion.",
+        "dm": "**$USER has denied your suggestion:**\n$SUGGESTION\n**Reason:**\n$REASON"
+    },
+    "maybe": {
+        "help": "maybe ID reason** ~~-~~ potentially approve a suggestion\n\nThe ID could either be a message ID or suggestions ID.",
+        "read": [
+            "Unable to potentially approve the suggestion in <#",
+            "> because I lack the `Read Messages` or `Read Message History` permissions."
+        ],
+        "title": "Potential Suggestion",
+        "unknown": "Unable to potentially approve suggestion.",
+        "dm": "**$USER has potentially approved your suggestion:**\n$SUGGESTION\n**Reason:**\n$REASON"
+    },
+    "once": {
+        "help": "once emoji @role or role name** ~~-~~ add a role with an emoji that can only be claimed once to the set message\n\nThis is useful for accepting guild rules, etc."
+    },
+    "translate": "translate language text** ~~-~~ translate text"
+}
