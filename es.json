@@ -228,7 +228,7 @@
             "> from being given when a user joins."
         ],
         "botAdd": [
-            "Added role <@&",
+            "Se añadió el rol <@&",
             "> that will be given when a bot is invited.\n\n**NOTE:** The `Zira` role needs to be above the role you've set, and needs to have the `Manage Roles` permission to give this role."
         ],
         "botRemove": [
