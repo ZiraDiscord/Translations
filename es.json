@@ -58,9 +58,9 @@
             "role": "Roles",
             "logs": "Logging",
             "suggestion": "Suggestions",
-            "misc": "Miscellaneous"
+            "misc": "Varios"
         },
-        "linksTitle": "Links",
+        "linksTitle": "Enlaces",
         "links": "[Guide to setup Zira](https://demo.zira.pw)\n[Support Guild](https://zira.pw/support)\n[Zira's Dashboard](https://zira.pw)\n[Get Premium](https://zira.pw/premium)\n[Translate Zira](https://translate.zira.pw)",
         "news": "News"
     },
@@ -203,7 +203,7 @@
             "leave channel #channel** ~~-~~ set the channel that leave messages will be sent to\n\nTo stop sending to the channel set, do **",
             "leave channel stop**"
         ],
-        "stop": "Leave messages will stop being sent.",
+        "stop": "Los mensajes de despedida dejarán de ser enviados.",
         "setChannel": [
             "Canal establecido a <#",
             ">\n\n**NOTA:** si Zira no es capaz de enviar mensajes al canal, los mensajes de despedida serán deshabilitados."
