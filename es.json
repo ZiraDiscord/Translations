@@ -322,11 +322,11 @@
         },
         "dm": {
             "set": "Users will now get a DM when their suggestion gets approved, denied, or potentially approved",
-            "disable": "Users will no longer get a DM regarding their suggestions"
+            "disable": "Los usuarios ya no recibirán un MD con respecto a sus sugerencias"
         },
         "role": {
             "help": [
-                "suggestion role @role or role name** ~~-~~ allow users with a specific role to approve, deny suggestions\n\n**",
+                "suggestion role @rol o nombre del rol** ~~-~~ permite a los usuarios con un rol específico aprobar y denegar sugerencias",
                 "suggestion role revoke** to revoke suggestion access to a previously allowed role"
             ],
             "set": "Rol establecido a <@&",
@@ -335,7 +335,7 @@
                 "> ya no pueden aprobar o rechazar sugerencias a menos que tengan el permiso `Administrar Servidor`."
             ],
             "noset": "No puedes revocar el acceso a un rol que no ha sido establecido",
-            "unknown": "Unknown role."
+            "unknown": "Rol desconocido."
         },
         "trello": {
             "help": [
