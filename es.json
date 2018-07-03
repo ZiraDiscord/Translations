@@ -242,10 +242,10 @@
     },
     "reset": {
         "title": "Config Reset :warning:",
-        "question": "Are you sure you want to reset the guild config?\n**EVERYTHING** setup through Zira will be reset.\n\nType `yes` or `no`",
-        "yes": "Guild config has been reset.",
-        "no": "Nothing has been reset.",
-        "perm": "Only the owner of the guild can reset the config."
+        "question": "¿Seguro que quieres restablecer la configuración del servidor?\n**TODO** lo que haya sido configurado en Zira será restablecido.\n\nEscribe `yes` para aceptar o `no` para cancelar",
+        "yes": "La configuración del servidor ha sido restablecida.",
+        "no": "Nada ha sido restablecido.",
+        "perm": "Solo el dueño del servidor puede restablecer la configuración."
     },
     "list": {
         "top": "Channel ~~-~~ Message ID ~~-~~ Type ~~-~~ Emoji ~~-~~ Role\n",
@@ -267,7 +267,7 @@
             "> removido con el emoji "
         ],
         "unknown": "Rol desconocido.",
-        "noRoles": "No roles are set on that message.",
+        "noRoles": "No hay roles establecidos en ese mensaje.",
         "checkRemove": [
             "Removido ",
             " roles from the message."
