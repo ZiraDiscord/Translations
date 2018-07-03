@@ -257,8 +257,8 @@
     },
     "delete": {
         "help": [
-            "remove [message ID](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) @role or role name** ~~-~~ remove a role that has been setup by Zira\nDeleted a role but forgot to remove it from Zira first?\nDo **",
-            "remove [message ID](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) check**\n\nTo get the message ID that a role is on, do **",
+            "delete [message ID](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) @role or role name** ~~-~~ remove a role that has been setup by Zira\nDeleted a role but forgot to remove it from Zira first?\nDo **",
+            "delete [message ID](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) check**\n\nTo get the message ID that a role is on, do **",
             "list**."
         ],
         "setup": "Unable to remove the role as it either was not setup by Zira, or is not on the specified message.",
@@ -388,12 +388,12 @@
         ],
         "title": "Denied Suggestion",
         "unknown": "Unable to deny suggestion.",
-        "dm": "**$USER has denied your suggestion:**\n$SUGGESTION\n**Reason:**\n$REASON"
+        "dm": "**$USER ha rechazado tu sugerencia:**\n$SUGGESTION\n**Razón:**\n$REASON"
     },
     "maybe": {
-        "help": "maybe ID reason** ~~-~~ potentially approve a suggestion\n\nThe ID could either be a message ID or suggestions ID.",
+        "help": "maybe ID razón** ~~-~~ aprueba potencialmente una sugerencia\n\nEl ID puede ser un ID de mensaje o un ID de sugerencia.",
         "read": [
-            "Unable to potentially approve the suggestion in <#",
+            "No se pudo aprobar potencialmente la sugerencia en <#",
             "> porque no tengo los permisos `Leer Mensajes` o `Leer el Historial de Mensajes`."
         ],
         "title": "Sugerencia potencial",
