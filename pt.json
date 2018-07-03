@@ -335,7 +335,7 @@
                 "> can no longer approve, deny suggestions unless they have the `Manage Guild` permission."
             ],
             "noset": "You can't revoke access from a role that hasn't been set",
-            "unknown": "Unknwon role."
+            "unknown": "Unknown role."
         },
         "trello": {
             "help": [
