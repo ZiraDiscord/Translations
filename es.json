@@ -280,17 +280,17 @@
             "No se pudo conseguir el mensaje en <#",
             "> porque no tengo los permisos `Leer Mensajes` o `Leer el Historial de Mensajes`."
         ],
-        "unknownGet": "Unable to get that message in <#",
-        "unknownEdit": "Unable to edit the message.",
-        "no": "That message can't be edited by Zira, as it was not sent by Zira.",
+        "unknownGet": "No se pudo conseguir el mensaje en <#",
+        "unknownEdit": "No se pudo editar el mensaje.",
+        "no": "El mensaje no puede ser editado por Zira porque no fue enviado por ella.",
         "edited": "El mensaje ha sido editado."
     },
     "suggestion": {
         "help": [
-            "suggestion channel** ~~-~~ set the channel that suggestions will be sent to\n\n**",
-            "suggestion submit** ~~-~~ set the channel that people will only be able to make suggestions in\n\n**",
-            "suggestion dm** ~~-~~ set whether or not users will receive updates about their suggestions\n\n**",
-            "suggestion role** ~~-~~ allow users with a specific role to approve, deny suggestions\n\n**",
+            "suggestion channel** ~~-~~ establece el canal al que se enviarán las sugerencias\n\n**",
+            "suggestion submit** ~~-~~ establece un canal para que la gente solo pueda enviar sugerencias allí\n\n**",
+            "suggestion dm** ~~-~~ establece si los usuarios recibirán novedades sobre sus sugerencias o no\n\n**",
+            "suggestion role** ~~-~~ permite a los usuarios con un rol específico aprobar y rechazar sugerencias\n\n**",
             "suggestion trello** ~~-~~ envía las sugerencias a Trello\n\n**",
             "suggestion approve** ~~-~~ send suggestions to a channel when approved"
         ],
