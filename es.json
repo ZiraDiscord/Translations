@@ -92,7 +92,7 @@
         "set": "Mensaje establecido con el ID "
     },
     "add": {
-        "help": "add emoji @role or role name** ~~-~~ add a role with an emoji to the set message",
+        "help": "add emoji @rol o nombre del rol** ~~-~~ añade un rol con un emoji al mensaje establecido",
         "cannotRead": [
             "No puedo añadir la reacción",
             " al mensaje en <#",
@@ -122,21 +122,21 @@
         ]
     },
     "multi": {
-        "help": "multi emoji @role or role name, @role or role name** ~~-~~ add an emoji with multiple roles to the set message",
+        "help": "multi emoji @rol o nombre del rol, @rol o nombre del rol** ~~-~~ añade un emoji con múltiples roles al mensaje establecido",
         "set": [
-            "added with the emoji ",
-            "\n\n**NOTE:** The `Zira` role needs to be above the roles you've set, and needs to have the `Manage Roles` permission to give them."
+            "añadido con el emoji ",
+            "\n\n**NOTA:** El rol `Zira` necesita estar arriba de los roles que estableciste, también necesita el permiso `Administrar Roles` para poder darlos."
         ]
     },
     "remove": {
-        "help": "remove emoji @role or role name** ~~-~~ add an emoji that will remove a role\n\nOptionally you can supply another role. This second role would be given after the first role is removed.",
+        "help": "remove emoji @rol o nombre del rol** ~~-~~ añade un emoji que remueve un rol\n\nTienes la opción de especificar otro rol. Este segundo rol será dado luego de que el primero sea removido.",
         "set": [
-            " will be removed ",
-            " will be added ",
-            "with the emoji ",
-            "\n\n**NOTE:** The `Zira` role needs to be above the roles you've set, and needs to have the `Manage Roles` permission to give them."
+            " será removido ",
+            " será añadido ",
+            "con el emoji ",
+            "\n\n**NOTA:** El rol `Zira` necesita estar arriba de los roles que estableciste, también necesita el permiso `Administrar Roles` para poder darlos."
         ],
-        "limit": "You have reached the limit of 6 remove roles. You can get unlimited remove and toggled roles by [donating](https://zira.pw/premium)"
+        "limit": "Has alcanzado el límite de 6 roles para el comando z/remove. Puedes conseguir roles ilimitados para este comando y z/toggle [donando](https://zira.pw/premium)"
     },
     "toggle": {
         "help": "toggle emoji @role or role name** ~~-~~ add a role with an emoji to the set message",
