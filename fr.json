@@ -135,13 +135,14 @@
             " will be added ",
             "with the emoji ",
             "\n\n**NOTE:** The `Zira` role needs to be above the roles you've set, and needs to have the `Manage Roles` permission to give them."
-        ]
+        ],
+        "limit": "You have reached the limit of 6 remove roles. You can get unlimited remove and toggled roles by [donating](https://zira.pw/premium)"
     },
     "toggle": {
         "help": "toggle emoji @role or role name** ~~-~~ add a role with an emoji to the set message",
         "image": "https://stuff.zira.pw/files/1524932965273.gif",
         "limit": "You have reached the limit of 12 toggled roles. You can get unlimited toggled roles by [donating](https://zira.pw/premium)",
-        "before": "Adding these will result in you reaching the limit of toggled roles. You can get unlimited toggled roles by [donating](https://zira.pw/premium)"
+        "before": "Adding these will result in you reaching the limit of toggled roles. You can get unlimited toggled and remove roles by [donating](https://zira.pw/premium)"
     },
     "perm": {
         "noPerm": "You need be the owner of the guild, or have the `Manage Roles` permission to use these commands.",
