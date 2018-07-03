@@ -248,10 +248,10 @@
         "perm": "Solo el dueño del servidor puede restablecer la configuración."
     },
     "list": {
-        "top": "Channel ~~-~~ Message ID ~~-~~ Type ~~-~~ Emoji ~~-~~ Role\n",
+        "top": "Canal ~~-~~ ID del Mensaje ~~-~~ Tipo ~~-~~ Emoji ~~-~~ Rol\n",
         "title": " Lista de Roles",
-        "cont": "List Continued",
-        "null": "If a message ID is null, either reset your config and read the roles, or join the [support server](https://zira.pw/support).",
+        "cont": "Lista Continuada",
+        "null": "Si la ID de un mensaje es nula, reinicia tu configuración y lee los roles, o únete al [servidor de soporte](https://zira.pw/support).",
         "noTitle": "OwO",
         "noDesc": "What's this?"
     },
@@ -283,7 +283,7 @@
         "unknownGet": "Unable to get that message in <#",
         "unknownEdit": "Unable to edit the message.",
         "no": "That message can't be edited by Zira, as it was not sent by Zira.",
-        "edited": "Message has been edited."
+        "edited": "El mensaje ha sido editado."
     },
     "suggestion": {
         "help": [
@@ -310,7 +310,7 @@
                 "suggestion submit disable** para permitir que las sugerencias sean enviadas en cualquier canal"
             ],
             "set": "Canal de envío de sugerencias establecido a <#",
-            "disable": "Suggestions can now be sent in any channel."
+            "disable": "Las sugerencias ahora pueden enviarse en cualquier canal."
         },
         "approve": {
             "help": [
@@ -318,7 +318,7 @@
                 "suggestion approve disable** para deshabilitar esta característica."
             ],
             "set": "Canal de sugerencias aprobadas establecido a <#",
-            "disable": "Suggestions will no longer be sent to another channel when approved"
+            "disable": "Las sugerencias ya no serán enviadas a otro canal cuando sean aprobadas"
         },
         "dm": {
             "set": "Users will now get a DM when their suggestion gets approved, denied, or potentially approved",
@@ -346,10 +346,10 @@
             "noLists": "No hay listas en el tablero. Por favor añade una lista e intenta de nuevo.",
             "title": "Verificar tablero",
             "verify": "Para verificar este tablero por favor crea una tarjeta que tenga el ID que se te envió como título. Una vez que termines escribe `done`.\n\nTienes 2 minutos para hacer esto.",
-            "noCard": "A card has not been created with the ID in the title. The ID is now invalid. Please rerun this command.",
+            "noCard": "Una tarjeta no ha sido creada con la ID en el título. La ID ahora es inválida. Por favor, vuelve a ejecutar este comando.",
             "list": [
-                "Please pick the list you want suggestions to be sent to\n",
-                "\nTo pick a list just type its the number."
+                "Por favor, escoge a qué lista quieres que las sugerencias sean enviadas\n",
+                "\nPara escoger una lista simplemente escribe su número."
             ],
             "timeout": "Comando terminado ya que se agotó el tiempo de 2 minutos.",
             "set": "El tablero y lista de Trello ha sido establecido. Las sugerencias serán enviadas tanto a Trello como al canal que estableciste.",
