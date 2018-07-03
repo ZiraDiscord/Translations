@@ -190,7 +190,7 @@
             "Channel set to <#",
             ">\n\n**NOTE:** If Zira is not able to send messages to the channel, join messages will be disabled."
         ],
-        "message": "join message message** ~~-~~ set the message that will be sent when a user joins\n\nYou can use these placeholders in the message:\n$user ~~-~~ username\n$mention ~~-~~ user mention\n$guild ~~-~~ guild name\n$membercount ~~-~~ new member count",
+        "message": "join message mensaje** ~~-~~ establece el mensaje que será enviado cuando un usuario se une\n\nPuedes usar estas variables en el mensaje:\n$user ~~-~~ nombre de usuario\n$mention ~~-~~ mención al usuario\n$guild ~~-~~ nombre del servidor\n$membercount ~~-~~ cantidad actual de miembros",
         "setMessage": "Mensaje de bienvenida establecido a:\n"
     },
     "leave": {
