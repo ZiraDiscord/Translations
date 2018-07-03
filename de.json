@@ -292,7 +292,7 @@
             "suggestion dm** ~~-~~ set whether or not users will receive updates about their suggestions\n\n**",
             "suggestion role** ~~-~~ allow users with a specific role to approve, deny suggestions\n\n**",
             "suggestion trello** ~~-~~ send suggestions to trello\n\n**",
-            "suggestion approve** ~~-~~ send suggestions to a channel when approved"
+            "suggestion move** ~~-~~ send suggestions to a channel when approved or denied"
         ],
         "channel": {
             "help": [
@@ -312,13 +312,13 @@
             "set": "Submit channel set to <#",
             "disable": "Suggestions can now be sent in any channel."
         },
-        "approve": {
+        "move": {
             "help": [
-                "suggestion approve #channel** ~~-~~ set the channel that approved suggestions will be sent to\n\n**",
-                "suggestion approve disable** to disable this feature."
+                "suggestion move #channel** ~~-~~ set the channel that approved, denied, or potentially approved suggestions will be sent to\n\n**",
+                "suggestion move disable** to disable this feature."
             ],
-            "set": "Approve channel set to <#",
-            "disable": "Suggestions will no longer be sent to another channel when approved"
+            "set": "Channel set to <#",
+            "disable": "Suggestions will no longer be sent to another channel."
         },
         "dm": {
             "set": "Users will now get a DM when their suggestion gets approved, denied, or potentially approved",
