@@ -135,13 +135,14 @@
             " will be added ",
             "with the emoji ",
             "\n\n**NOTE:** The `Zira` role needs to be above the roles you've set, and needs to have the `Manage Roles` permission to give them."
-        ]
+        ],
+        "limit": "You have reached the limit of 6 remove roles. You can get unlimited remove and toggled roles by [donating](https://zira.pw/premium)"
     },
     "toggle": {
         "help": "toggle emoji @role or role name** ~~-~~ add a role with an emoji to the set message",
         "image": "https://stuff.zira.pw/files/1524932965273.gif",
         "limit": "You have reached the limit of 12 toggled roles. You can get unlimited toggled roles by [donating](https://zira.pw/premium)",
-        "before": "Adding these will result in you reaching the limit of toggled roles. You can get unlimited toggled roles by [donating](https://zira.pw/premium)"
+        "before": "Adding these will result in you reaching the limit of toggled roles. You can get unlimited toggled and remove roles by [donating](https://zira.pw/premium)"
     },
     "perm": {
         "noPerm": "You need be the owner of the guild, or have the `Manage Roles` permission to use these commands.",
@@ -395,12 +396,12 @@
             "Unable to potentially approve the suggestion in <#",
             "> because I lack the `Read Messages` or `Read Message History` permissions."
         ],
-        "title": "Potential Suggestion",
-        "unknown": "Unable to potentially approve suggestion.",
-        "dm": "**$USER has potentially approved your suggestion:**\n$SUGGESTION\n**Reason:**\n$REASON"
+        "title": "Sugerencia potencial",
+        "unknown": "No se pudo aprobar potencialmente la sugerencia.",
+        "dm": "**$USER ha aprobado potencialmente tu sugerencia:**\n$SUGGESTION\n**Razón:**\n$REASON"
     },
     "once": {
-        "help": "once emoji @role or role name** ~~-~~ add a role with an emoji that can only be claimed once to the set message\n\nThis is useful for accepting guild rules, etc."
+        "help": "once emoji @rol o nombre del rol** ~~-~~ añade un rol con un emoji en el mensaje establecido que solo puede ser reclamado una vez\n\nEsto es útil para reglas que aceptar, etc."
     },
     "translate": "translate language text** ~~-~~ translate text"
 }
