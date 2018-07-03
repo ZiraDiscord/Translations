@@ -139,16 +139,16 @@
         "limit": "Has alcanzado el límite de 6 roles para el comando z/remove. Puedes conseguir roles ilimitados para este comando y z/toggle [donando](https://zira.pw/premium)"
     },
     "toggle": {
-        "help": "toggle emoji @role or role name** ~~-~~ add a role with an emoji to the set message",
+        "help": "toggle emoji @rol o nombre del rol** ~~-~~ añade un rol con un emoji al mensaje establecido",
         "image": "https://stuff.zira.pw/files/1524932965273.gif",
         "limit": "Has alcanzado el límite de 12 roles alternables. Puedes obtener roles alternables ilimitados [donando](https://zira.pw/premium)",
-        "before": "Adding these will result in you reaching the limit of toggled roles. You can get unlimited toggled and remove roles by [donating](https://zira.pw/premium)"
+        "before": "Añadir esos hará que alcances el límite de roles del comando z/toggle. Puedes tener roles ilimitados para este comando y el comando z/remove [donando](https://zira.pw/premium)"
     },
     "perm": {
-        "noPerm": "You need be the owner of the guild, or have the `Manage Roles` permission to use these commands.",
-        "noLangPerm": "You need be the owner of the guild, or have the `Manage Server` permission to change the bot's language.",
-        "noMessagePerm": "You need be the owner of the guild, or have the `Manage Messages` permission to purge messages.",
-        "noGuildPerm": "You need be the owner of the guild, or have the `Manage Server` permission to use this command."
+        "noPerm": "Tienes que ser el dueño del servidor o tener el permiso `Administrar Roles` para usar estos comandos.",
+        "noLangPerm": "Tienes que ser el dueño del servidor o tener el permiso `Administrar el Servidor` para cambiar el idioma del bot.",
+        "noMessagePerm": "Tienes que ser el dueño del servidor o tener el permiso `Administrar Mensajes` para eliminar mensajes.",
+        "noGuildPerm": "Tienes que ser el dueño del servidor o tener el permiso `Administrar el Servidor` para usar este comando."
     },
     "lang": {
         "langUpdate": "Idioma actualizado.",
