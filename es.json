@@ -329,13 +329,13 @@
                 "suggestion role @role or role name** ~~-~~ allow users with a specific role to approve, deny suggestions\n\n**",
                 "suggestion role revoke** to revoke suggestion access to a previously allowed role"
             ],
-            "set": "Role set to <@&",
+            "set": "Rol establecido a <@&",
             "revoke": [
-                "Users with the role <@&",
-                "> can no longer approve, deny suggestions unless they have the `Manage Guild` permission."
+                "Usuarios con el rol <@&",
+                "> ya no pueden aprobar o rechazar sugerencias a menos que tengan el permiso `Administrar Servidor`."
             ],
             "noset": "No puedes revocar el acceso a un rol que no ha sido establecido",
-            "unknown": "Unknwon role."
+            "unknown": "Unknown role."
         },
         "trello": {
             "help": [
