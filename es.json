@@ -1,8 +1,8 @@
 {
     "language": "Inglés",
-    "title": "Command Usage",
+    "title": "Uso de Comando",
     "titleError": "Error :warning:",
-    "titleComp": "Complete :white_check_mark:",
+    "titleComp": "Completado :white_check_mark:",
     "unknownChannel": "Canal desconocido.",
     "unknownRole": [
         "Rol desconocido en ",
@@ -13,7 +13,7 @@
         "Emoji desconocido en ",
         " pair."
     ],
-    "premium": "This feature is [donor](https://zira.pw/premium) only.",
+    "premium": "Esta función es solo para [donadores](https://zira.pw/premium).",
     "noChannel": [
         "Por favor, primero establece un canal con **",
         "canal**."
@@ -49,7 +49,7 @@
             "maybe": "aprobar potencialmente una sugerencia\n",
             "deny": "rechazar una sugerencia\n",
             "once": "añadir un rol que pueda reclamarse una vez\n",
-            "prefix": "change the guild's prefix\n",
+            "prefix": "cambiar el prefijo del gremio\n",
             "translate": "traducir texto\n",
             "multi": "añadir múltiples roles a un emoji\n",
             "remove": "añadir un emoji que quite un rol\n"
@@ -76,17 +76,17 @@
     "message": {
         "help": "message [message ID](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) or message** ~~-~~ use an existing message, or create a new one",
         "cannotSend": [
-            "Unable to send a message to <#",
-            "> because I lack the `Send Messages` permission."
+            "No puedo enviar un mensaje a <#",
+            "> porque me falta el permiso de `Enviar mensajes`."
         ],
         "cannotRead": [
-            "Unable to send a message to <#",
-            "> because I lack the `Read Messages` or `Read Message History` permission."
+            "No puedo enviar un mensaje a <#",
+            "> porque me falta el permiso de `Leer mensajes` o ´Leer el historial de mensajes´."
         ],
-        "unknown": "Unable to send message.",
+        "unknown": "No puedo enviar el mensaje.",
         "cannotReadID": [
-            "Unable to get the message from <#",
-            "> because I lack the `Read Messages` or `Read Message History` permission."
+            "No puedo obtener el mensaje de <#",
+            "> porque me falta el permiso de `Leer mensajes` o `Leer el historial de mensajes`."
         ],
         "unknownID": "Unable to set the message ID.",
         "set": "Message set with the ID of "
@@ -96,7 +96,7 @@
         "cannotRead": [
             "Unable to add the reaction",
             " to the message in <#",
-            "> because I lack the `Read Messages` or `Read Message History` permission."
+            "> porque me falta el permiso de `Leer mensajes` o `Leer el historial de mensajes`."
         ],
         "cannotReact": [
             "Unable to add the reaction",
@@ -109,7 +109,7 @@
         ],
         "set": [
             "\n<@&",
-            "> added with the emoji ",
+            "> añadido con el emoji ",
             "\n\n**NOTE:** The `Zira` role needs to be above the role(s) you've set, and needs to have the `Manage Roles` permission to give them."
         ],
         "emoji": [
