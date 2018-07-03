@@ -362,7 +362,7 @@
         "reason": "Reason given by ",
         "useChannel": [
             "Use the channel <#",
-            "> to submit a suggestion."
+            "> para enviar una sugerencia."
         ],
         "noReason": "No se proporcionó una razón."
     },
