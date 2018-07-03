@@ -300,14 +300,14 @@
                 "suggestion channel disable**"
             ],
             "set": [
-                "Suggestion channel set to <#",
-                ">\n\n**NOTE:** If Zira is not able to send messages to the channel, suggestions will be disabled."
+                "Canal de sugerencias establecido a <#",
+                ">\n\n**NOTA:** si Zira no es capaz de enviar mensajes al canal, las sugerencias serán deshabilitadas."
             ]
         },
         "submit": {
             "help": [
-                "suggestion submit #channel** ~~-~~ set the channel that people will only be able to make suggestions in\n\n**",
-                "suggestion submit disable** to allow suggestions to be submitted in any channel"
+                "suggestion submit #canal* ~~-~~ establece un canal para que la gente solo pueda enviar sugerencias allí\n\n**",
+                "suggestion submit disable** para permitir que las sugerencias sean enviadas en cualquier canal"
             ],
             "set": "Canal de envío de sugerencias establecido a <#",
             "disable": "Suggestions can now be sent in any channel."
