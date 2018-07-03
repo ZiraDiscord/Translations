@@ -270,15 +270,15 @@
         "noRoles": "No hay roles establecidos en ese mensaje.",
         "checkRemove": [
             "Removido ",
-            " roles from the message."
+            " roles del mensaje."
         ],
-        "checkGood": "All roles exist, none were removed."
+        "checkGood": "Todos los roles existen, ninguno fue removido."
     },
     "edit": {
-        "help": "edit [message ID](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) new message** ~~-~~ edit a message sent by Zira",
+        "help": "edit [ID del mensaje](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) nuevo mensaje** ~~-~~ edita un mensaje enviado por Zira",
         "read": [
-            "Unable to get the message in <#",
-            "> because I lack the `Read Messages` or `Read Message History` permissions."
+            "No se pudo conseguir el mensaje en <#",
+            "> porque no tengo los permisos `Leer Mensajes` o `Leer el Historial de Mensajes`."
         ],
         "unknownGet": "Unable to get that message in <#",
         "unknownEdit": "Unable to edit the message.",
