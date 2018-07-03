@@ -94,23 +94,23 @@
     "add": {
         "help": "add emoji @role or role name** ~~-~~ add a role with an emoji to the set message",
         "cannotRead": [
-            "Unable to add the reaction",
-            " to the message in <#",
+            "No puedo añadir la reacción",
+            " al mensaje en <#",
             "> porque me falta el permiso de `Leer mensajes` o `Leer el historial de mensajes`."
         ],
         "cannotReact": [
-            "Unable to add the reaction",
-            " to the message in <#",
-            "> because I lack the `Add Reaction` permission."
+            "No puedo añadir la reacción",
+            " al mensaje en <#",
+            "> porque no tengo el permiso de `Añadir reacciones`."
         ],
         "unknown": [
-            "Unable to add the reaction ",
-            " to the message in <#"
+            "No puedo añadir la reacción ",
+            " al mensaje en <#"
         ],
         "set": [
             "\n<@&",
             "> añadido con el emoji ",
-            "\n\n**NOTE:** The `Zira` role needs to be above the role(s) you've set, and needs to have the `Manage Roles` permission to give them."
+            "\n\n**NOTA:** El rol `Zira` necesita estar por encima de los roles que has puesto, y necesita tener el permiso de `Administrar Roles` para darlos."
         ],
         "emoji": [
             "El emoji ",
