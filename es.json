@@ -157,32 +157,32 @@
     "log": {
         "title": "Registrar Comando",
         "help": [
-            "log #channel** ~~-~~ set the channel for logging\n\nTo stop logging, do **",
+            "log #canal** ~~-~~ establece el canal para los registros\n\nPara detener los registros, usa **",
             "log stop**"
         ],
         "set": [
-            "Log channel set to <#",
-            ">\n\n**NOTE:** If Zira is not able to send to the channel, logging will be disabled."
+            "Canal de registros establecido a <#",
+            ">\n\n**NOTA:** si Zira no es capaz de enviar mensajes al canal, los registros serán deshabilitados."
         ],
         "stop": "Mensajes de registro ya no serán enviados.",
         "give": [
-            " reacted ",
-            " to get ",
-            " and get "
+            " reaccionó a ",
+            " para conseguir ",
+            " y conseguir "
         ],
         "remove": [
-            " unreacted ",
-            " to remove "
+            " quitó su reacción ",
+            " para remover "
         ]
     },
     "join": {
-        "title": "Join Command",
+        "title": "Comando Join",
         "help": [
-            "join channel** ~~-~~ set the channel that messages will be sent to\n**",
-            "join message** ~~-~~ set the message that will be sent when a user joins\n\nYou can use these placeholders in the message:\n$user ~~-~~ username\n$mention ~~-~~ user mention\n$guild ~~-~~ guild name\n$membercount ~~-~~ new member count"
+            "join channel** ~~-~~ establece el canal al que se enviarán los mensajes\n**",
+            "join mensaje** ~~-~~ establece el mensaje que será enviado cuando un usuario se una\n\nPuedes usar estas variables en el mensaje:\n$user ~~-~~ nombre de usuario\n$mention ~~-~~ mención al usuario\n$guild ~~-~~ nombre del servidor\n$membercount ~~-~~ cantidad actual de miembros"
         ],
         "channel": [
-            "join channel #channel** ~~-~~ set the channel that join messages will be sent to\n\nTo stop sending to the channel set, do **",
+            "join channel #canal** ~~-~~ establece el canal al que se enviarán los mensajes de bienvenida\n\nPara dejar de enviar mensajes al canal establecido, usa **",
             "join channel stop**"
         ],
         "stop": "Los mensajes de bienvenida ya no serán enviados.",
@@ -194,13 +194,13 @@
         "setMessage": "Mensaje de bienvenida establecido a:\n"
     },
     "leave": {
-        "title": "Leave Command",
+        "title": "Comando Leave",
         "help": [
-            "leave channel** ~~-~~ set the channel that messages will be sent to\n**",
-            "leave message** ~~-~~ set the message that will be sent when a user leave\n\nYou can use these placeholders in the message:\n$user ~~-~~ username\n$mention ~~-~~ user mention\n$guild ~~-~~ guild name\n$membercount ~~-~~ new member count"
+            "leave channel** ~~-~~ establece el canal al que se enviarán los mensajes\n**",
+            "leave mensaje** ~~-~~ establece el mensaje que será enviado cuando un usuario se vaya\n\nPuedes usar estas variables en el mensaje:\n$user ~~-~~ nombre de usuario\n$mention ~~-~~ mención al usuario\n$guild ~~-~~ nombre del servidor\n$membercount ~~-~~ cantidad actual de miembros"
         ],
         "channel": [
-            "leave channel #channel** ~~-~~ set the channel that leave messages will be sent to\n\nTo stop sending to the channel set, do **",
+            "leave channel #canal** ~~-~~ establece el canal al que se enviarán los mensajes de despedida\n\nPara dejar de enviar mensajes al canal establecido, usa **",
             "leave channel stop**"
         ],
         "stop": "Los mensajes de despedida dejarán de ser enviados.",
@@ -214,9 +214,9 @@
     "auto": {
         "title": "Rol automático",
         "help": [
-            "autorole show** ~~-~~ show the current roles set\n**",
-            "autorole user** ~~-~~ add or remove roles that should be given on user join\n**",
-            "autorole bot** ~~-~~ add or remove roles that should be given on bot join"
+            "autorole show** ~~-~~ muestra los roles establecidos actualmente\n**",
+            "autorole user** ~~-~~ añade o remueve los roles que se darán cuando un usuario se una\n**",
+            "autorole bot** ~~-~~ añade o remueve los roles que se darán cuando un bot sea invitado"
         ],
         "user": "autorole user @role or role name** ~~-~~ add or remove a role that should be given when a user joins\n\nTo remove a role that has been set do the above command.",
         "userAdd": [
