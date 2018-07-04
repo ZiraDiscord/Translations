@@ -85,7 +85,7 @@
         ],
         "unknown": "No se pudo enviar el mensaje.",
         "cannotReadID": [
-            "No se pudo obtener el mensaje de <#",
+            "No se pudo conseguir el mensaje de <#",
             "> porque me falta el permiso de `Leer mensajes` o `Leer el historial de mensajes`."
         ],
         "unknownID": "No se pudo establecer el ID del mensaje.",
@@ -94,17 +94,17 @@
     "add": {
         "help": "add emoji @rol o nombre del rol** ~~-~~ añade un rol con un emoji al mensaje establecido",
         "cannotRead": [
-            "No puedo añadir la reacción",
+            "No se pudo añadir la reacción",
             " al mensaje en <#",
             "> porque me falta el permiso de `Leer mensajes` o `Leer el historial de mensajes`."
         ],
         "cannotReact": [
-            "No puedo añadir la reacción",
+            "No se pudo añadir la reacción",
             " al mensaje en <#",
             "> porque no tengo el permiso de `Añadir reacciones`."
         ],
         "unknown": [
-            "No puedo añadir la reacción ",
+            "No se pudo añadir la reacción ",
             " al mensaje en <#"
         ],
         "set": [
