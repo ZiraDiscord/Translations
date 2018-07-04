@@ -76,16 +76,16 @@
     "message": {
         "help": "message [ID del mensaje](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-) o mensaje** ~~-~~ usa un mensaje existente o crea uno nuevo",
         "cannotSend": [
-            "No puedo enviar un mensaje a <#",
+            "No se pudo enviar un mensaje a <#",
             "> porque me falta el permiso de `Enviar mensajes`."
         ],
         "cannotRead": [
-            "No puedo enviar un mensaje a <#",
+            "No se pudo enviar un mensaje a <#",
             "> porque me falta el permiso de `Leer mensajes` o ´Leer el historial de mensajes´."
         ],
-        "unknown": "No puedo enviar el mensaje.",
+        "unknown": "No se pudo enviar el mensaje.",
         "cannotReadID": [
-            "No puedo obtener el mensaje de <#",
+            "No se pudo obtener el mensaje de <#",
             "> porque me falta el permiso de `Leer mensajes` o `Leer el historial de mensajes`."
         ],
         "unknownID": "No se pudo establecer el ID del mensaje.",
@@ -318,7 +318,7 @@
                 "suggestion move disable** to disable this feature."
             ],
             "set": "Canal establecido a <#",
-            "disable": "Suggestions will no longer be sent to another channel."
+            "disable": "Las sugerencias ya no serán enviadas a otro canal."
         },
         "dm": {
             "set": "Los usuarios recibirán un MD cuando su sugerencia sea aprobada, rechazada o potencialmente aprobada",
