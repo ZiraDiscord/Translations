@@ -1,41 +1,41 @@
 {
-    "language": "English",
-    "title": "Command Usage",
-    "titleError": "Error :warning:",
-    "titleComp": "Complete :white_check_mark:",
-    "unknownChannel": "Unknown channel.",
+    "language": "Anglais",
+    "title": "Utilisation de la Commande",
+    "titleError": "Erreur :warning:",
+    "titleComp": "Complété :white_check_mark:",
+    "unknownChannel": "Canal Inconnu.",
     "unknownRole": [
-        "Unknown role in ",
-        " pair."
+        "Rôle inconnu dans ",
+        " paire."
     ],
-    "unknownMessage": "Unknown message.",
+    "unknownMessage": "Message inconnu.",
     "unknownEmoji": [
-        "Unknown emoji in ",
-        " pair."
+        "Emoji inconnu dans ",
+        " paire."
     ],
-    "premium": "This feature is [donor](https://zira.pw/premium) only.",
+    "premium": "Cette fonctionnalité est seulement pour les [donateurs](https://zira.pw/premium).",
     "noChannel": [
-        "Please set a channel first with **",
-        "channel**."
+        "Merci de commencer par configurer un canal avec **",
+        "canal**."
     ],
     "noMessage": [
-        "Please set a message to use with **",
+        "Merci de définir un message à utiliser avec **",
         "message**."
     ],
-    "example": "**Example:**\n",
-    "exampleOr": "**or**\n",
-    "guide": "Guide Page",
+    "example": "**Exemple :**\n",
+    "exampleOr": "**ou**\n",
+    "guide": "Page du Guide",
     "help": {
-        "commandsTitle": "Commands",
+        "commandsTitle": "Commandes",
         "commands": {
-            "channel": "set channel you want to use\n",
-            "message": "set the message you want to use\n",
-            "add": "add a role with an emoji\n",
-            "toggle": "add a role that can be toggled\n",
-            "delete": "delete a role that has been set\n",
-            "edit": "edit a message sent by Zira\n",
-            "list": "list the roles being used\n",
-            "autorole": "give users and bots a role on join\n",
+            "channel": "définir le canal que vous voulez utiliser\n",
+            "message": "définir le message que vous voulez utiliser\n",
+            "add": "ajouter un rôle avec un emoji\n",
+            "toggle": "ajouter un rôle à bascule\n",
+            "delete": "supprimer un rôle qui a été configuré\n",
+            "edit": "éditer un message envoyé par Zira\n",
+            "list": "lister les rôles configurés\n",
+            "autorole": "donner un rôle aux utilisateurs et aux bots qui rejoignent\n",
             "log": "log when Zira gives/takes a role\n",
             "join": "sends a message when a user joins\n",
             "leave": "sends a message when a user leaves\n",
