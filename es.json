@@ -292,7 +292,7 @@
             "suggestion dm** ~~-~~ establece si los usuarios recibirán novedades sobre sus sugerencias o no\n\n**",
             "suggestion role** ~~-~~ permite a los usuarios con un rol específico aprobar y rechazar sugerencias\n\n**",
             "suggestion trello** ~~-~~ envía las sugerencias a Trello\n\n**",
-            "suggestion move** ~~-~~ send suggestions to a channel when approved or denied"
+            "suggestion move** ~~-~~ envía sugerencias a un canal cuando sean aprobadas o rechazadas"
         ],
         "channel": {
             "help": [
