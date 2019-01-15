@@ -68,7 +68,7 @@
     "info": {
       "help": "Info about Zira.",
       "params": "",
-      "fields": ["Version", "GitHub", "Library", "Made By", "Changelog"]
+      "fields": ["Version", "Support", "Library", "Made By", "Changelog"]
     },
     "channel": {
       "help": "Set the active channel.",
