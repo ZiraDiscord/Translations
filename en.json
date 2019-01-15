@@ -311,7 +311,12 @@
       "help": "Setup role logging.",
       "params": " <#channel | disable>",
       "disabled": "Role logging disabled",
-      "set": "Whenever someone reacts to get a role it will be logged to "
+      "set": "Whenever someone reacts to get a role it will be logged to ",
+      "give": "<@$user> reacted $emoji to get <@&$role>",
+      "giveMulti": "<@$user> reacted $emoji to get $roles",
+      "giveRemove": "<@$user> reacted $emoji to remove <@&$role1> and to get <@&$role2>",
+      "remove": "<@$user> unreacted $emoji to remove <@&$role>",
+      "removeMulti": "<@$user> unreacted $emoji to remove $roles"
     },
     "prefix": {
       "help": "Set a custom prefix",
