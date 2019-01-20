@@ -6,25 +6,25 @@
     "complete": "Complete :white_check_mark:"
   },
   "errors": {
-    "generic": "An error has occured. If the error continues to persist please join the support guild.",
-    "unknownChannel": "Unknown channel. If it's the correct channel please make sure I have permissions to view it.",
+    "generic": "An error has occured. If the error continues to persist, please join the support guild.",
+    "unknownChannel": "Unknown channel. If it's the correct channel, please make sure I have permission to view it.",
     "unknownRole": "Unknown role. Please make sure that the role exists.",
     "missingPermissionChannelRead": "I'm missing the permissions `Read Messages` and/or `Read Message History` in the active channel.",
     "missingPermissionChannelReaction": "I'm missing the permissions `Add Reactions` and/or `Use External Emojis` in the active channel.",
     "missingPermissionChannelSend": "I'm missing the permission `Send Messages` in the active channel.",
-    "unknownMessageID": "Unknown message. Please make sure the message ID you put is valid.",
-    "setChannel": "Please set a channel first then try this command again.",
-    "setChannelOrMessage": "Please set a channel and message first then try this command again.",
+    "unknownMessageID": "Unknown message. Please make sure the message ID you used is valid.",
+    "setChannel": "Please set a channel first, then try this command again.",
+    "setChannelOrMessage": "Please set a channel and message first, then try this command again.",
     "ordinalPair": "Unknown role in $pair pair.",
     "usedEmoji": "The emoji in the $pair pair is already used on this message.",
     "usedRole": "The role in the $pair pair is already used on this message.",
-    "unknownMessage": "The active message is unknown please check my permissions and that the message still exists.",
-    "unknownEmoji": "I can't use this emoji. If it's a custom emoji please make sure I'm in the guild where it's from",
+    "unknownMessage": "The active message is unknown, please check my permissions and that the message still exists.",
+    "unknownEmoji": "I can't use this emoji. If it's a custom emoji, please make sure I'm in the guild where it's from",
     "premium": "This feature is [premium](https://zira.pw/premium) only.",
     "suggestionID": "Please try again with a suggestion ID.",
     "unknownSuggestion": "Unknown suggestion.",
-    "suggestionRead": "Unable to get the suggestion $suggestion in <#$channel>. Please make sure I have the permission `Read Messages` in the channel and that the suggestion wasn't deleted.",
-    "suggestionSend": "Unable to send the suggestion to $channel. Please make sure I have the permissions `Read Messages`, `Send Messages`, `Embed Links` in the channel.",
+    "suggestionRead": "Unable to get the suggestion $suggestion in <#$channel>. Please make sure I have the permission `Read Messages` in the channel, and that the suggestion wasn't deleted.",
+    "suggestionSend": "Unable to send the suggestion to $channel. Please make sure I have the permissions `Read Messages`, `Send Messages`, and `Embed Links` in the channel.",
     "suggestionRole": "You need the <@&$role> role to manage suggestions."
   },
   "suggestion": {
@@ -105,25 +105,25 @@
       "setBoard": "Please set a board first.",
       "boardNotFound": {
         "title": "Board Not Found",
-        "description": "I was unable to find that board. Please make sure you have the right board ID and that you have added **`ZiraDiscord`** to the board."
+        "description": "I was unable to find that board. Please make sure you have the right board ID, and that you have added **`ZiraDiscord`** to the board."
       },
       "dm": {
         "id": "Your Trello ID is $id",
-        "success": "To verify this board please create a card that has the title set to the ID that has been sent to you. After you have done this please type `done` in this channel to continue setup.\n\nYou will have 5 minutes to do this.",
+        "success": "To verify this board, please create a card that has the title set to the ID that has been sent to you. After you have done this, please type `done` in this channel to continue the setup.\n\nYou will have 5 minutes to do this.",
         "error": "I was unable to send you the verification DM. Please make sure I can send you a DM."
       },
       "time": "You have ran out of time. Please try again.",
       "noCard": "Unable to find the card. Please try again.",
       "validList": "That is not a valid list. Please input a valid list ID.",
-      "pickNew": "Type the corresponding number to pick a list or `none` to not pick a list for new suggestions.\n\n",
+      "pickNew": "Type the corresponding number to pick a list, or `none` to not pick a list for new suggestions.\n\n",
       "pickNewTitle": "Pick a List for New Suggestions",
-      "pickApprove": "Type the corresponding number to pick a list or `none` to not pick a list for approved suggestions.\n\n",
+      "pickApprove": "Type the corresponding number to pick a list, or `none` to not pick a list for approved suggestions.\n\n",
       "pickApproveTitle": "Pick a List for Approved Suggestions",
-      "pickDenied": "Type the corresponding number to pick a list or `none` to not pick a list for denied suggestions.\n\n",
+      "pickDenied": "Type the corresponding number to pick a list, or `none` to not pick a list for denied suggestions.\n\n",
       "pickDeniedTitle": "Pick a List for Denied Suggestions",
-      "pickPotential": "Type the corresponding number to pick a list or `none` to not pick a list for potential suggestions.\n\n",
+      "pickPotential": "Type the corresponding number to pick a list, or `none` to not pick a list for potential suggestions.\n\n",
       "pickPotentialTitle": "Pick a List for Potential Suggestions",
-      "pickInvalid": "Type the corresponding number to pick a list or `none` to not pick a list for invalid suggestions.\n\n",
+      "pickInvalid": "Type the corresponding number to pick a list, or `none` to not pick a list for invalid suggestions.\n\n",
       "pickInvalidTitle": "Pick a List for Invalid Suggestions",
       "set": "Board and list(s) set."
     },
@@ -133,7 +133,7 @@
       "role": {
         "noParam": "Please supply a role.",
         "disable": "Anyone with the correct permissions can use Zira's commands now",
-        "success": "Now only the guild owner and people who have the role $role can use Zira commands."
+        "success": "Now, only the guild owner and people who have the role $role can use Zira commands."
       },
       "main": [
         {
@@ -179,10 +179,10 @@
       "params": "",
       "title": "Auto Role",
       "ubParams": " <role name | role mention>",
-      "user": "Add a role that should be given when a user joins.\n\nTo remove a role being used in autorole just do the command again.",
+      "user": "Add a role that should be given when a user joins.\n\nTo remove a role being used in autorole, just do the command again.",
       "userAdd": "Added $role will be given when a user joins.",
       "userRemove": "Removed $role from being given when a user joins.",
-      "bot": "Add a role that should be given when a bot joins.\n\nTo remove a role being used in autorole just do the command again.",
+      "bot": "Add a role that should be given when a bot joins.\n\nTo remove a role being used in autorole, just do the command again.",
       "botAdd": "Added $role will be given when a bot joins.",
       "botRemove": "Removed $role from being given when a bot joins.",
       "showUser": "User Roles",
@@ -215,10 +215,10 @@
         "help": " submit <#channel>",
         "description": "Set which channel that suggestion will only be allow to be sent from.",
         "set": "Suggestions will only be allow to be sent from $channel",
-        "disable": "Suggestions can now be sent form any channel."
+        "disable": "Suggestions can now be sent from any channel."
       },
       "dm": {
-        "on": "A DM will get sent to the user of a suggestion when the suggestion gets approved, denied etc.",
+        "on": "A DM will get sent to the user of a suggestion when the suggestion gets approved, denied, etc.",
         "off": "Users will not longer get DMs about suggestions."
       },
       "reaction": {
@@ -234,7 +234,7 @@
         "help": " role <role name | role mention | disable>",
         "description": "Limit approving and denying of suggestions to a certain role.",
         "disable": "Anyone with the permission `Manage Guild` can approve/deny suggestions now.",
-        "set": "Only users with the role $role can approve/deny suggestion now."
+        "set": "Only users with the role $role can approve/deny suggestions now."
       },
       "main": [
         {
@@ -273,7 +273,7 @@
       "description": "You can add a role when Zira is removing the other role. You have to use a comma to seperate the second role, see below for an example.",
       "limit": "You have reached the limit of 6 remove roles. You can get unlimited remove and toggled roles by [donating](https://zira.pw/premium)",
       "remove": "$role will be removed",
-      "removeAdd": "$role1 will be remove and $role2 will be given",
+      "removeAdd": "$role1 will be removed and $role2 will be given",
       "emoji": " with the emoji $emoji"
     },
     "submit": {
@@ -311,7 +311,7 @@
       "help": "Setup role logging.",
       "params": " <#channel | disable>",
       "disabled": "Role logging disabled",
-      "set": "Whenever someone reacts to get a role it will be logged to ",
+      "set": "Whenever someone reacts to get a role, it will be logged to ",
       "give": "<@$user> reacted $emoji to get <@&$role>",
       "giveMulti": "<@$user> reacted $emoji to get $roles",
       "giveRemove": "<@$user> reacted $emoji to remove <@&$role1> and to get <@&$role2>",
@@ -329,7 +329,7 @@
       "params": "",
       "perms" :"I'm missing the permission `Manage Roles`.",
       "done": "I have created the following roles: ",
-      "none": "No roles were created as there are already colors roles."
+      "none": "No roles were created, as there are already color roles."
     },
     "leave": {
       "help": "Send a message when a user leaves.",
@@ -337,7 +337,7 @@
       "placeholderTitle": "Message Placeholders",
       "placeholders": "$user ~~-~~ username\n$mention ~~-~~ user mention\n$guild ~~-~~ guild name\n$membercount ~~-~~ new member count",
       "channelSet": "Leave messages will get sent to ",
-      "channelDisable": "Leave messages will no longer get sent.",
+      "channelDisable": "Leave messages will no longer be sent.",
       "messageSet": "Message set.",
       "messageMissing": "Please provide a message",
       "main": [
