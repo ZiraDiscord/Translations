@@ -122,20 +122,20 @@
       "setBoard": "Por favor establece un tablero primero.",
       "boardNotFound": {
         "title": "Tablero no encontrado",
-        "description": "I was unable to find that board. Please make sure you have the right board ID, and that you have added **`ZiraDiscord`** to the board."
+        "description": "No pude encontrar ese tablero. Por favor asegúrate de que tienes el ID correcto y que agregaste a **`ZiraDiscord`** al tablero."
       },
       "dm": {
-        "id": "Your Trello ID is $id",
-        "success": "To verify this board, please create a card that has the title set to the ID that has been sent to you. After you have done this, please type `done` in this channel to continue the setup.\n\nYou will have 5 minutes to do this.",
-        "error": "I was unable to send you the verification DM. Please make sure I can send you a DM."
+        "id": "Tu ID de Trello es $id",
+        "success": "Para verificar este tablero, por favor crea una carta que tenga como título el ID que se te envió. Luego de que hayas hecho esto, escribe `done` en este canal para continuar la configuración.\n\nTienes 5 minutos para hacer esto.",
+        "error": "No fui capaz de enviarte el MD para la verificación. Por favor asegúrate de que puedo enviarte un MD."
       },
-      "time": "You have ran out of time. Please try again.",
-      "noCard": "Unable to find the card. Please try again.",
-      "validList": "That is not a valid list. Please input a valid list ID.",
-      "pickNew": "Type the corresponding number to pick a list, or `none` to not pick a list for new suggestions.\n\n",
-      "pickNewTitle": "Pick a List for New Suggestions",
-      "pickApprove": "Type the corresponding number to pick a list, or `none` to not pick a list for approved suggestions.\n\n",
-      "pickApproveTitle": "Pick a List for Approved Suggestions",
+      "time": "Te quedaste sin tiempo. Por favor intenta de nuevo.",
+      "noCard": "No pude encontrar la tarjeta. Por favor intenta de nuevo.",
+      "validList": "Esta no es una lista válida. Por favor introduce un ID de lista válido.",
+      "pickNew": "Escribe el número correspondiente para elegir una lista o `none` para no elegir una lista para nuevas sugerencias.\n\n",
+      "pickNewTitle": "Elige una lista para nuevas sugerencias",
+      "pickApprove": "Escribe el número correspondiente para elegir una lista o `none` para no elegir una lista para las sugerencias aprobadas.\n\n",
+      "pickApproveTitle": "Elige una lista para las sugerencias aprobadas",
       "pickDenied": "Type the corresponding number to pick a list, or `none` to not pick a list for denied suggestions.\n\n",
       "pickDeniedTitle": "Pick a List for Denied Suggestions",
       "pickPotential": "Type the corresponding number to pick a list, or `none` to not pick a list for potential suggestions.\n\n",
