@@ -3,17 +3,17 @@
   "titles": {
     "use": "Uso del comando",
     "error": "Error :warning:",
-    "complete": "Complete :white_check_mark:"
+    "complete": "Completado :white_check_mark:"
   },
   "errors": {
-    "generic": "An error has occured. If the error continues to persist, please join the support guild.",
-    "unknownChannel": "Unknown channel. If it's the correct channel, please make sure I have permission to view it.",
-    "unknownRole": "Unknown role. Please make sure that the role exists.",
-    "missingPermissionChannelRead": "I'm missing the permissions `Read Messages` and/or `Read Message History` in the active channel.",
-    "missingPermissionChannelReaction": "I'm missing the permissions `Add Reactions` and/or `Use External Emojis` in the active channel.",
-    "missingPermissionChannelSend": "I'm missing the permission `Send Messages` in the active channel.",
-    "unknownMessageID": "Unknown message. Please make sure the message ID you used is valid.",
-    "setChannel": "Please set a channel first, then try this command again.",
+    "generic": "Ha ocurrido un error. Si el error persiste, por favor únete al servidor de soporte.",
+    "unknownChannel": "Canal desconocido. Si es el canal correcto, por favor asegúrate de que tengo permiso de verlo.",
+    "unknownRole": "Rol desconocido. Por favor asegúrate de que el rol existe.",
+    "missingPermissionChannelRead": "Me faltan los permisos `Leer Mensajes` y/o `Leer Historial de Mensajes` en el canal activo.",
+    "missingPermissionChannelReaction": "Me faltan los permisos `Añadir Reacciones` y/o `Usar Emojis Externos` en el canal activo.",
+    "missingPermissionChannelSend": "Me falta el permiso `Enviar Mensajes` en el canal activo.",
+    "unknownMessageID": "Mensaje desconocido. Por favor asegúrate de que el ID del mensaje que usaste es válido.",
+    "setChannel": "Por favor establece el canal primero, luego intenta usar este comando de nuevo.",
     "setChannelOrMessage": "Please set a channel and message first, then try this command again.",
     "ordinalPair": "Unknown role in $pair pair.",
     "usedEmoji": "The emoji in the $pair pair is already used on this message.",
