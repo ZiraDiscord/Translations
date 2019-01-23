@@ -183,20 +183,20 @@
       "set": "$roles establecidos con el emoji $emoji"
     },
     "delete": {
-      "help": "Remove roles that have been setup.",
-      "params": " <message ID> <role name | role mention | check>",
-      "noRoles": "No roles are set on that message.",
-      "removedCheck": "$num roles removed from that message.",
-      "good": "All roles exist, none were removed.",
-      "removed": "<@&$id> removed with the emoji $emoji",
-      "message": "Unable to remove the role as it wasn't on the specified message."
+      "help": "Remueve roles establecidos.",
+      "params": " <ID del mensaje> <nombre del rol | mención al rol | check>",
+      "noRoles": "No hay roles establecidos en ese mensaje.",
+      "removedCheck": "$num roles removidos de ese mensaje.",
+      "good": "Todos los roles existen, ninguno fue removido.",
+      "removed": "<@&$id> removido con el emoji $emoji",
+      "message": "No pude remover ese rol ya que no está en el mensaje especificado."
     },
     "autorole": {
-      "help": "Give roles on user/bot join..",
+      "help": "Da roles a nuevos usuarios/bots.",
       "params": "",
-      "title": "Auto Role",
-      "ubParams": " <role name | role mention>",
-      "user": "Add a role that should be given when a user joins.\n\nTo remove a role being used in autorole, just do the command again.",
+      "title": "Rol automático",
+      "ubParams": " <nombre del rol | mención al rol>",
+      "user": "Agrega un rol a los nuevos usuarios.\n\nPara dejar de dar un rol a los nuevos usuarios, usa el comando de nuevo.",
       "userAdd": "Added $role will be given when a user joins.",
       "userRemove": "Removed $role from being given when a user joins.",
       "bot": "Add a role that should be given when a bot joins.\n\nTo remove a role being used in autorole, just do the command again.",
