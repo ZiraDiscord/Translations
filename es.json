@@ -77,23 +77,23 @@
         "Versión",
         "Soporte",
         "Librería",
-        "Made By",
-        "Changelog"
+        "Hecho por",
+        "Registro de cambios"
       ]
     },
     "channel": {
-      "help": "Set the active channel.",
+      "help": "Establece el canal activo.",
       "params": " <#channel>",
-      "set": "Channel has been set to: "
+      "set": "El canal ha sido establecido a: "
     },
     "message": {
-      "help": "Set the active message or send a message to the active channel.",
-      "params": " <message ID | message>",
-      "setID": "Message has been set.",
-      "setCreate": "Message set."
+      "help": "Establece el mensaje activo o envía un mensaje al canal activo.",
+      "params": " <ID del mensaje | mensaje>",
+      "setID": "El mensaje ha sido establecido.",
+      "setCreate": "Mensaje establecido."
     },
     "add": {
-      "help": "Add normal role(s) to the active message.",
+      "help": "Agrega roles normales al mensaje activo.",
       "description": "You can add multiple roles at once by providing more emojis and roles. You have to use a comma to seperate each pair, see below for an example.",
       "params": " <emoji> <role name | role mention>",
       "set": "\n<@&$id> added with the emoji $emoji"
@@ -355,7 +355,7 @@
       "placeholders": "$user ~~-~~ username\n$mention ~~-~~ user mention\n$guild ~~-~~ guild name\n$membercount ~~-~~ new member count",
       "channelSet": "Leave messages will get sent to ",
       "channelDisable": "Leave messages will no longer be sent.",
-      "messageSet": "Message set.",
+      "messageSet": "Mensaje establecido.",
       "messageMissing": "Please provide a message",
       "main": [
         {
