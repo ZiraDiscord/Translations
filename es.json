@@ -46,26 +46,26 @@
     "invalidMessage": "**Tu sugerencia:**\n\n$suggestion\n\n**Ha sido marcada como no válida.**",
     "invalidMessageReason": "**Tu sugerencia:**\n\n$suggestion\n\n**Ha sido marcada como no válida con la siguiente razón:**\n\n$reason"
   },
-  "footer": "**NOTE:** The `Zira` role needs to be above the role(s) you've set, and needs to have the `Manage Roles` permission to give them.",
-  "example": "Example",
-  "guidePage": "Guide Page",
-  "userPermissions": "You can't use this command because you are missing the following permission(s): ",
+  "footer": "**NOTA:** El rol `Zira` tiene que estar arriba de los roles que hayas establecido y necesita el permiso `Administrar Roles`para poder darlos.",
+  "example": "Ejemplo",
+  "guidePage": "Página de guía",
+  "userPermissions": "No puedes usar este comando porque te faltan los siguientes permisos: ",
   "help": {
-    "commands": "Commands",
-    "title": "Links",
+    "commands": "Comandos",
+    "title": "Enlaces",
     "links": [
-      "[Guide](https://zira.pw/guide/contents)",
-      "[Support Guild](https://zira.pw/support)",
+      "[Guía](https://zira.pw/guide/contents)",
+      "[Servidor de soporte](https://zira.pw/support)",
       "[Dashboard](https://zira.pw)",
       "[Premium](https://zira.pw/premium)",
-      "[Invite Zira](https://zira.pw/invite)",
-      "[Translate Zira](https://translate.zira.pw/)"
+      "[Invita a Zira](https://zira.pw/invite)",
+      "[Ayuda a traducir a Zira](https://translate.zira.pw/)"
     ],
-    "page": "Page ",
+    "page": "Página ",
     "categories": [
       "Roles",
-      "Suggestion",
-      "Logging",
+      "Sugerencias",
+      "Registros",
       "Miscellaneous"
     ]
   },
