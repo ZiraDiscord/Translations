@@ -118,10 +118,10 @@
     "trello": {
       "help": "Integración con Trello para las sugerencias.",
       "params": " <ID del tablero | toggle>",
-      "supplyBoard": "Please supply a board ID.",
-      "setBoard": "Please set a board first.",
+      "supplyBoard": "Por favor introduce el ID de un tablero.",
+      "setBoard": "Por favor establece un tablero primero.",
       "boardNotFound": {
-        "title": "Board Not Found",
+        "title": "Tablero no encontrado",
         "description": "I was unable to find that board. Please make sure you have the right board ID, and that you have added **`ZiraDiscord`** to the board."
       },
       "dm": {
