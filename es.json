@@ -172,15 +172,15 @@
       "over": "Al agregar esos llegarás al límite de roles alternables. Puedes conseguir roles alternables ilimitados y role removibles [donando](https://zira.pw/premium)"
     },
     "once": {
-      "help": "Added role(s) to the active message that can only be received once.",
+      "help": "Roles que solo pueden ser recibidos una vez agregados.",
       "params": " <emoji> <nombre del rol | mención al rol>"
     },
     "multi": {
-      "help": "Added an emoji that will give multiple roles to the active message.",
-      "params": " <emoji> <role name | role mention>, <role name | role mention>",
-      "ordinal": "The $pos role is unknown.",
-      "usedEmoji": "That emoji is already in use on this message.",
-      "set": "$roles set with the emoji $emoji"
+      "help": "Emoji que da múltiples roles agregado al mensaje activo.",
+      "params": " <emoji> <nombre del rol | mención al rol>, <nombre del rol | mención al rol>",
+      "ordinal": "El rol $pos es desconocido.",
+      "usedEmoji": "Ese emoji ya está en uso en este mensaje.",
+      "set": "$roles establecidos con el emoji $emoji"
     },
     "delete": {
       "help": "Remove roles that have been setup.",
