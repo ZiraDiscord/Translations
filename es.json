@@ -94,30 +94,30 @@
     },
     "add": {
       "help": "Agrega roles normales al mensaje activo.",
-      "description": "You can add multiple roles at once by providing more emojis and roles. You have to use a comma to seperate each pair, see below for an example.",
-      "params": " <emoji> <role name | role mention>",
-      "set": "\n<@&$id> added with the emoji $emoji"
+      "description": "Puedes agregar múltiples roles a la vez agregando más emojis y roles. Tienes que usar una coma para separar cada par, mira un ejemplo abajo.",
+      "params": " <emoji> <nombre del rol | mención al rol>",
+      "set": "\n<@&$id> agregado con el emoji $emoji"
     },
     "list": {
-      "help": "List all roles that have been setup.",
+      "help": "Muestra una lista de los roles establecidos.",
       "params": "",
-      "title": "$name | Role List",
-      "name": "**Name:** ",
-      "channel": "**Channel:** ",
-      "message": "**Message:** ",
+      "title": "$name | Lista de roles",
+      "name": "**Nombre:** ",
+      "channel": "**Canal:** ",
+      "message": "**Mensaje:** ",
       "emoji": "**Emoji:** ",
-      "type": "**Type:** ",
+      "type": "**Tipo:** ",
       "types": [
         "Normal",
-        "Toggle",
+        "Alternable",
         "solo reclamable una vez",
         "Multi",
-        "Remove"
+        "Remover"
       ]
     },
     "trello": {
-      "help": "Trello integration with suggestions.",
-      "params": " <board ID | toggle>",
+      "help": "Integración con Trello para las sugerencias.",
+      "params": " <ID del tablero | toggle>",
       "supplyBoard": "Please supply a board ID.",
       "setBoard": "Please set a board first.",
       "boardNotFound": {
@@ -167,13 +167,13 @@
     },
     "toggle": {
       "help": "Add toggled role(s) to the active message.",
-      "params": " <emoji> <role name | role mention>",
+      "params": " <emoji> <nombre del rol | mención al rol>",
       "limit": "You have reached the limit of 12 toggled roles. You can get unlimited toggled roles by [donating](https://zira.pw/premium)",
       "over": "Adding these will result in you reaching the limit of toggled roles. You can get unlimited toggled and remove roles by [donating](https://zira.pw/premium)"
     },
     "once": {
       "help": "Added role(s) to the active message that can only be received once.",
-      "params": " <emoji> <role name | role mention>"
+      "params": " <emoji> <nombre del rol | mención al rol>"
     },
     "multi": {
       "help": "Added an emoji that will give multiple roles to the active message.",
@@ -286,7 +286,7 @@
     },
     "remove": {
       "help": "Added an emoji that will remove a role to the active message.",
-      "params": " <emoji> <role name | role mention>",
+      "params": " <emoji> <nombre del rol | mención al rol>",
       "description": "You can add a role when Zira is removing the other role. You have to use a comma to seperate the second role, see below for an example.",
       "limit": "You have reached the limit of 6 remove roles. You can get unlimited remove and toggled roles by [donating](https://zira.pw/premium)",
       "remove": "$role will be removed",
