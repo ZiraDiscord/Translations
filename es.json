@@ -140,9 +140,9 @@
       "pickDeniedTitle": "Elige una lista para las sugerencias denegadas",
       "pickPotential": "Escribe el número correspondiente para elegir una lista o `none` para no elegir una lista para las sugerencias potenciales.\n\n",
       "pickPotentialTitle": "Elige una lista para las sugerencias potenciales",
-      "pickInvalid": "Type the corresponding number to pick a list, or `none` to not pick a list for invalid suggestions.\n\n",
-      "pickInvalidTitle": "Pick a List for Invalid Suggestions",
-      "set": "Board and list(s) set."
+      "pickInvalid": "Escribe el número correspondiente para elegir una lista o `none` para no elegir una lista para las sugerencias no válidas.\n\n",
+      "pickInvalidTitle": "Elige una lista para las sugerencias no válidas",
+      "set": "Tablero y listas establecidos."
     },
     "config": {
       "help": "Manage the guild config.",
