@@ -249,9 +249,9 @@
       },
       "role": {
         "help": " role <nombre del rol | mención al rol | disable>",
-        "description": "Limit approving and denying of suggestions to a certain role.",
-        "disable": "Anyone with the permission `Manage Guild` can approve/deny suggestions now.",
-        "set": "Only users with the role $role can approve/deny suggestions now."
+        "description": "Limita el aprobar, denegar, etc. de las sugerencias a un rol específico.",
+        "disable": "Ahora cualquiera con el permiso `Administrar el Servidor` puede aprobar, denegar, etc. las sugerencias.",
+        "set": "Ahora solo los usuarios con el rol $role pueden aprobar, denegar, etc. las sugerencias."
       },
       "main": [
         {
@@ -276,7 +276,7 @@
         },
         {
           "name": " role <role name | role mention>",
-          "value": "Limit approving and denying of suggestions to a certain role."
+          "value": "Limita el aprobar, denegar, etc. de las sugerencias a un rol específico."
         }
       ]
     },
