@@ -6,7 +6,7 @@
     "complete": "Complete :white_check_mark:"
   },
   "errors": {
-    "generic": "An error has occured. If the error continues to persist, please join the support guild.",
+    "generic": "An error has occurred. If the error continues to persist, please join the support guild.",
     "unknownChannel": "Unknown channel. If it's the correct channel, please make sure I have permission to view it.",
     "unknownRole": "Unknown role. Please make sure that the role exists.",
     "missingPermissionChannelRead": "I'm missing the permissions `Read Messages` and/or `Read Message History` in the active channel.",
@@ -43,7 +43,7 @@
     "potentialMessage": "**Your suggestion:**\n\n$suggestion\n\n**Has been potentially approved.**",
     "potentialMessageReason": "**Your suggestion:**\n\n$suggestion\n\n**Has been potentially approved with the reason:**\n\n$reason",
     "invalid": "Invalid Suggestion",
-    "invalidMessage": "**Your suggestion:**\n\n$suggestion\n\n**Has been makred as invalid.**",
+    "invalidMessage": "**Your suggestion:**\n\n$suggestion\n\n**Has been marked as invalid.**",
     "invalidMessageReason": "**Your suggestion:**\n\n$suggestion\n\n**Has been marked as invalid with the reason:**\n\n$reason"
   },
   "footer": "**NOTE:** The `Zira` role needs to be above the role(s) you've set, and needs to have the `Manage Roles` permission to give them.",
@@ -83,7 +83,7 @@
     },
     "add": {
       "help": "Add normal role(s) to the active message.",
-      "description": "You can add multiple roles at once by providing more emojis and roles. You have to use a comma to seperate each pair, see below for an example.",
+      "description": "You can add multiple roles at once by providing more emojis and roles. You have to use a comma to separate each pair, see below for an example.",
       "params": " <emoji> <role name | role mention>",
       "set": "\n<@&$id> added with the emoji $emoji"
     },
@@ -128,7 +128,7 @@
       "set": "Board and list(s) set."
     },
     "config": {
-      "help": "Manage the guild config.",
+      "help": "Manage the guild configuration.",
       "params": "",
       "role": {
         "noParam": "Please supply a role.",
@@ -208,7 +208,7 @@
       "params": "",
       "channel": {
         "help": " channel <new | approved | denied | invalid | potential> <#channel>",
-        "description": "Set which channels new, approved, denied, and invalid suggestions will get sent to.",
+        "description": "Set which channels new, approved, denied, potential, and invalid suggestions will get sent to.",
         "set": "$type suggestions will get sent to $channel"
       },
       "submit": {
@@ -218,7 +218,7 @@
         "disable": "Suggestions can now be sent from any channel."
       },
       "dm": {
-        "on": "A DM will get sent to the user of a suggestion when the suggestion gets approved, denied, etc.",
+        "on": "A DM will get sent to the user of a suggestion when the suggestion gets approved, denied, potentialed, or invalidated, etc.",
         "off": "Users will not longer get DMs about suggestions."
       },
       "reaction": {
@@ -232,7 +232,7 @@
       },
       "role": {
         "help": " role <role name | role mention | disable>",
-        "description": "Limit approving and denying of suggestions to a certain role.",
+        "description": "Limit managing of suggestions to a certain role.",
         "disable": "Anyone with the permission `Manage Guild` can approve/deny suggestions now.",
         "set": "Only users with the role $role can approve/deny suggestions now."
       },
@@ -259,7 +259,7 @@
         },
         {
           "name": " role <role name | role mention>",
-          "value": "Limit approving and denying of suggestions to a certain role."
+          "value": "Limit managing of suggestions to a certain role."
         }
       ]
     },
@@ -270,7 +270,7 @@
     "remove": {
       "help": "Added an emoji that will remove a role to the active message.",
       "params": " <emoji> <role name | role mention>",
-      "description": "You can add a role when Zira is removing the other role. You have to use a comma to seperate the second role, see below for an example.",
+      "description": "You can add a role when Zira is removing the other role. You have to use a comma to separate the second role, see below for an example.",
       "limit": "You have reached the limit of 6 remove roles. You can get unlimited remove and toggled roles by [donating](https://zira.pw/premium)",
       "remove": "$role will be removed",
       "removeAdd": "$role1 will be removed and $role2 will be given",
