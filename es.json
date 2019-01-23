@@ -66,17 +66,17 @@
       "Roles",
       "Sugerencias",
       "Registros",
-      "Miscellaneous"
+      "Varios"
     ]
   },
   "commands": {
     "info": {
-      "help": "Info about Zira.",
+      "help": "Información sobre Zira.",
       "params": "",
       "fields": [
-        "Version",
+        "Versión",
         "Soporte",
-        "Library",
+        "Librería",
         "Made By",
         "Changelog"
       ]
