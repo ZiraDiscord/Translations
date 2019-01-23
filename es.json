@@ -145,31 +145,31 @@
       "set": "Tablero y listas establecidos."
     },
     "config": {
-      "help": "Manage the guild config.",
+      "help": "Administra la configuración del servidor.",
       "params": "",
       "role": {
-        "noParam": "Please supply a role.",
-        "disable": "Anyone with the correct permissions can use Zira's commands now",
-        "success": "Now, only the guild owner and people who have the role $role can use Zira commands."
+        "noParam": "Por favor introduce un rol.",
+        "disable": "Ahora cualquiera con los permisos necesarios puede usar los comandos de Zira",
+        "success": "Ahora solo el dueño del servidor y los usuarios que tengan el rol $role pueden usar los comandos de Zira."
       },
       "main": [
         {
-          "name": " role <role | disable>",
-          "value": "Set or remove which role can use commands."
+          "name": " role <rol | disable>",
+          "value": "Establece o remueve qué rol puede usar los comandos."
         }
       ]
     },
     "edit": {
-      "help": "Edit a message sent by Zira in the active channel.",
-      "params": " <message ID> <new message>",
-      "owner": "That message has not been sent by me.",
-      "success": "Message edited."
+      "help": "Edita un mensaje enviado por Zira en el canal activo.",
+      "params": " <ID del mensaje> <nuevo mensaje>",
+      "owner": "Ese mensaje no fue enviado por mi.",
+      "success": "Mensaje editado."
     },
     "toggle": {
-      "help": "Add toggled role(s) to the active message.",
+      "help": "Agrega roles alternables al mensaje activo.",
       "params": " <emoji> <nombre del rol | mención al rol>",
-      "limit": "You have reached the limit of 12 toggled roles. You can get unlimited toggled roles by [donating](https://zira.pw/premium)",
-      "over": "Adding these will result in you reaching the limit of toggled roles. You can get unlimited toggled and remove roles by [donating](https://zira.pw/premium)"
+      "limit": "Has alcanzado el límite de 12 roles alternables. Puedes conseguir roles alternables ilimitados [donando](https://zira.pw/premium)",
+      "over": "Al agregar esos llegarás al límite de roles alternables. Puedes conseguir roles alternables ilimitados y role removibles [donando](https://zira.pw/premium)"
     },
     "once": {
       "help": "Added role(s) to the active message that can only be received once.",
