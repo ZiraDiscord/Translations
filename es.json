@@ -204,62 +204,62 @@
       "botRemove": "El rol $role ya no se dará a los nuevos bots.",
       "showUser": "Roles de usuario",
       "showBot": "Roles de bots",
-      "nonSet": "No roles set",
+      "nonSet": "No hay roles establecidos",
       "main": [
         {
-          "name": " user <role name | role mention>",
-          "value": "Set role(s) that will be given when a user joins."
+          "name": " user <nombre del rol | mención al rol>",
+          "value": "Roles que se darán a los nuevos usuarios establecidos."
         },
         {
-          "name": " bot <role name | role mention>",
-          "value": "Set role(s) that will be given when a bot joins."
+          "name": " bot <nombre del rol | mención al rol>",
+          "value": "Roles que se darán a los nuevos bots establecidos."
         },
         {
           "name": " show",
-          "value": "Show the current roles set."
+          "value": "Muestra los roles establecidos actualmente."
         }
       ]
     },
     "suggestion": {
-      "help": "Suggestion configuration.",
+      "help": "Configuración de las sugerencias.",
       "params": "",
       "channel": {
-        "help": " channel <new | approved | denied | invalid | potential> <#channel>",
-        "description": "Set which channels new, approved, denied, and invalid suggestions will get sent to.",
-        "set": "$type suggestions will get sent to $channel"
+        "help": " channel <new | approved | denied | invalid | potential> <#canal>",
+        "description": "Establece los canales donde se enviarán las sugerencias nuevas, aprobadas, denegadas, inválidas y potenciales.",
+        "set": "Las sugerencias $type serán enviadas al canal $channel"
       },
       "submit": {
-        "help": " submit <#channel>",
-        "description": "Set which channel that suggestion will only be allow to be sent from.",
-        "set": "Suggestions will only be allow to be sent from $channel",
-        "disable": "Suggestions can now be sent from any channel."
+        "help": " submit <#canal>",
+        "description": "Establece el canal de dónde se deberán enviar las sugerencias.",
+        "set": "Las sugerencias solo podrán enviarse desde el canal $channel",
+        "disable": "Ahora las sugerencias podrán ser enviadas desde cualquier canal."
       },
       "dm": {
-        "on": "A DM will get sent to the user of a suggestion when the suggestion gets approved, denied, etc.",
-        "off": "Users will not longer get DMs about suggestions."
+        "on": "Se enviará un MD al usuario que envió la sugerencia cuando sea aceptada, denegada, etc.",
+        "off": "Los usuarios ya no recibirán MDs sobre sus sugerencias."
       },
       "reaction": {
-        "on": "Emojis will get reacted to new suggestions.",
-        "off": "Emojis will no longer get reacted to new suggestions."
+        "on": "Se agregarán reacciones a las nuevas sugerencias.",
+        "off": "Ya no se agregarán reacciones a las nuevas sugerencias."
       },
       "emojis": {
         "help": " emojis <emoji> <emoji>",
-        "description": "Set the emojis that will get reacted on new suggestions.",
-        "set": "The emojis $emoji1, $emoji2 will get reacted to new suggestions if reactions are turned on."
+        "description": "Establece los emojis que serán agregados como reacciones en las nuevas sugerencias.",
+        "set": "Los emojis $emoji1 y $emoji2 serán agregados como reacciones a las nuevas sugerencias si las reacciones están activadas."
       },
       "role": {
-        "help": " role <role name | role mention | disable>",
+        "help": " role <nombre del rol | mención al rol | disable>",
         "description": "Limit approving and denying of suggestions to a certain role.",
         "disable": "Anyone with the permission `Manage Guild` can approve/deny suggestions now.",
         "set": "Only users with the role $role can approve/deny suggestions now."
       },
       "main": [
         {
-          "name": " channel <new | approved | denied | invalid | potential> <#channel>",
+          "name": " channel <new | approved | denied | invalid | potential> <#canal>",
           "value": "Set which channels new, approved, and denied suggestions will get sent to."
         },
         {
-          "name": " submit <#channel>",
+          "name": " submit <#canal>",
           "value": "Limit the sending of suggestions to one channel."
         },
         {
@@ -272,7 +272,7 @@
         },
         {
           "name": " emojis <emoji> <emoji>",
-          "value": "Set the emojis that will get reacted on new suggestions."
+          "value": "Establece los emojis que serán agregados como reacciones en las nuevas sugerencias."
         },
         {
           "name": " role <role name | role mention>",
