@@ -256,40 +256,40 @@
       "main": [
         {
           "name": " channel <new | approved | denied | invalid | potential> <#canal>",
-          "value": "Set which channels new, approved, and denied suggestions will get sent to."
+          "value": "Establece los canales donde irán las sugerencias nuevas, aprobadas, denegadas, etc."
         },
         {
           "name": " submit <#canal>",
-          "value": "Limit the sending of suggestions to one channel."
+          "value": "Limita el envío de sugerencias a un canal."
         },
         {
           "name": " dm",
-          "value": "Set whether or not users should get a DM about their suggestions."
+          "value": "Establece si los usuarios recibirán un MD sobre sus sugerencias."
         },
         {
           "name": " reaction",
-          "value": "Set whether or not emojis should be reacted to new suggestions."
+          "value": "Establece si se deberían agregar reacciones a las nuevas sugerencias."
         },
         {
           "name": " emojis <emoji> <emoji>",
           "value": "Establece los emojis que serán agregados como reacciones en las nuevas sugerencias."
         },
         {
-          "name": " role <role name | role mention>",
+          "name": " role <nombre del rol | mención del rol>",
           "value": "Limita el aprobar, denegar, etc. de las sugerencias a un rol específico."
         }
       ]
     },
     "invite": {
-      "help": "Invite Zira.",
+      "help": "Invita a Zira.",
       "params": ""
     },
     "remove": {
-      "help": "Added an emoji that will remove a role to the active message.",
+      "help": "Agrega un emoji que removerá un rol al mensaje activo.",
       "params": " <emoji> <nombre del rol | mención al rol>",
-      "description": "You can add a role when Zira is removing the other role. You have to use a comma to seperate the second role, see below for an example.",
-      "limit": "You have reached the limit of 6 remove roles. You can get unlimited remove and toggled roles by [donating](https://zira.pw/premium)",
-      "remove": "$role will be removed",
+      "description": "Puedes agregar un rol cuando Zira remueva uno. Para eso tienes que usar una coma para separar el segundo rol, mira abajo para un ejemplo.",
+      "limit": "Has llegado al límite de 6 roles removibles. Puedes conseguir roles removibles y alternables ilimitados [donando](https://zira.pw/premium)",
+      "remove": "$role será removido",
       "removeAdd": "$role1 will be removed and $role2 will be given",
       "emoji": " with the emoji $emoji"
     },
