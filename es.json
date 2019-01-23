@@ -99,7 +99,7 @@
     "amount": "Cantidad. Cada $2 son 30 días",
     "guild": "Servidor",
     "buy": "Comprar",
-    "features": "<li>Unlimited toggled and remove roles</li><li>Access to set a submit channel</li><li>Trello integration</li><li>Access to set a channel that approved suggestions will get sent to</li><li>Ability to send users a DM when their suggestions gets updated</li>",
+    "features": "<li>Roles ilimitados para toggle y remove</li><li>Poder establecer un canal para enviar sugerencias</li><li>Integración con Trello</li><li>Poder establecer un canal para enviar las sugerencias aprobadas</li><li>La habilidad de enviar un MD a los usuarios cuando su sugerencia sea actualizada</li>",
     "guilds": "Servidores Premium"
   }
 }
