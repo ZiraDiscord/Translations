@@ -78,7 +78,8 @@
         "Soporte",
         "Librería",
         "Hecho por",
-        "Registro de cambios"
+        "Guilds",
+        "Changelog"
       ]
     },
     "channel": {
@@ -354,17 +355,29 @@
       "placeholderTitle": "Message Placeholders",
       "placeholders": "$user ~~-~~ username\n$mention ~~-~~ user mention\n$guild ~~-~~ guild name\n$membercount ~~-~~ new member count",
       "channelSet": "Leave messages will get sent to ",
-      "channelDisable": "Leave messages will no longer be sent.",
-      "messageSet": "Mensaje establecido.",
+      "channelDisable": "Leave messages will no longer get sent.",
+      "messagePick": "Remove a message below by doing **z/leave remove ID**\n\n",
+      "messageSet": "Message added.",
       "messageMissing": "Please provide a message",
+      "messageRemove": "Message removed.",
+      "noMessages": "There are no messages set.",
+      "unknownID": "Unknown ID.",
       "main": [
         {
           "name": " channel <#channel | disable>",
           "value": "Set the channel messages will get sent to when a user leaves."
         },
         {
-          "name": " message <message>",
-          "value": "Set the message to send."
+          "name": " add <message>",
+          "value": "Add a message to send. You can have multiple message for a random message when a user leaves."
+        },
+        {
+          "name": " remove <ID>",
+          "value": "Remove a message that has been set."
+        },
+        {
+          "name": " list",
+          "value": "List all leave messages."
         }
       ]
     },
@@ -391,8 +404,12 @@
           "value": "Add a message to send. You can have multiple message for a random message when a user joins."
         },
         {
-          "name": " remove <message>",
+          "name": " remove <ID>",
           "value": "Remove a message that has been set."
+        },
+        {
+          "name": " list",
+          "value": "List all join messages."
         }
       ]
     },
@@ -400,6 +417,11 @@
       "help": "Set the language for the guild.",
       "params": " <language code>",
       "translate": "If you want Zira in a language that isn't on the list above, you can help translate Zira on [Crowdin](https://translate.zira.pw)"
+    },
+    "vote": {
+      "help": "Vote for the bot.",
+      "params": "",
+      "description": "You can vote for Zira below. Right now, there are no rewards, but there is a reward system in the works for the future.\nYour votes will be stored for use if you vote now, and will be useable when the system is implemented, so all current votes will count.\nYou can vote [here]($link)!"
     }
   }
 }
