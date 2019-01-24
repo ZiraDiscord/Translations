@@ -151,7 +151,7 @@
     "toggle": {
       "help": "Add toggled role(s) to the active message.",
       "params": " <emoji> <role name | role mention>",
-      "limit": "You have reached the limit of 12 toggled roles. You can get unlimited toggled roles by [donating](https://zira.pw/premium)",
+      "limit": "You have reached the limit of 6 toggled roles. You can get unlimited toggled roles by [donating](https://zira.pw/premium)",
       "over": "Adding these will result in you reaching the limit of toggled roles. You can get unlimited toggled and remove roles by [donating](https://zira.pw/premium)"
     },
     "once": {
