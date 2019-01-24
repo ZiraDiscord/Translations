@@ -1,0 +1,390 @@
+{
+    "language": "Português",
+    "titles": {
+      "use": "Como usar",
+      "error": "Erro :warning:",
+      "complete": "Feito :white_check_mark:"
+    },
+    "errors": {
+      "generic": "Um erro aconteceu. Se o erro continue a persistir, por favor entre no servidor de suporte.",
+      "unknownChannel": "Canal desconhecido. Se isso é um canal, verifique se eu tenho permissão de vê-lo.",
+      "unknownRole": "Cargo desconhecido. Por favor, verifique se esse cargo existe.",
+      "missingPermissionChannelRead": "Eu preciso ter permissão de `Ler Mensagens` e/ou `Ler Histórico de Mensagens` nesse canal.",
+      "missingPermissionChannelReaction": "Eu preciso ter permissões de `Adicionar Reações` e/ou `Usar Emojis Externos` nesse canal.",
+      "missingPermissionChannelSend": "Eu preciso ter permissão `Enviar Mensagens` nesse canal.",
+      "unknownMessageID": "Mensagem desconhecida. Por favor, verifique se o ID fornecido é válido.",
+      "setChannel": "Por favor, defina o canal primeiro e então tente esse comando novamente.",
+      "setChannelOrMessage": "Por favor defina o canal e a mensagem primeiro, então tente esse comando novamente.",
+      "ordinalPair": "Cargo desconhecido em $pair pair.",
+      "usedEmoji": "O Emoji no $pair pair já está sendo usado na mensagem.",
+      "usedRole": "O Cargo no $pair pair já está sendo usado na mensagem.",
+      "unknownMessage": "A mensagem selecionada é desconhecida, por favor, verifique minhas permissões caso essa mensagem exista.",
+      "unknownEmoji": "Eu não posso usar esse emoji. Isso é um emoji personalizado, por favor, verifique se eu estou no servidor onde ele foi criado.",
+      "premium": "Esse recurso é [premium](https://zira.pw/premium) apenas.",
+      "suggestionID": "Por favor, tente novamente com o ID sugestão.",
+      "unknownSuggestion": "Sugestão desconhecida.",
+      "suggestionRead": "Impossível de conseguir a sugestão $suggestion em <#$channel>. Por favor verifique se tenho permissão de `Ler Mensagens` nesse canal, e que a sugestão não foi excluída.",
+      "suggestionSend": "Não é possível enviar a sugestão para $channel. Por favor, verifique se eu tenho as permissões `Ler Mensagens`,` Enviar Mensagens` e `Embed Links` no canal.",
+      "suggestionRole": "Você precisa do cargo <@&$role> para editar essa sugestão."
+    },
+    "suggestion": {
+      "reason": "Motivo",
+      "noReason": "Sem Motivo",
+      "submitted": "Enviada",
+      "submittedBy": "Enviada por:",
+      "new": "Nova Sugestão",
+      "approved": "Sugestão Aprovada",
+      "approvedMessage": "**Sua sugestão:**\n\n$suggestion\n\n**Foi aprovada.**",
+      "approvedMessageReason": "**Sua Sugestão:**\n\n$suggestion\n\n**Foi aprovada pelo motivo:**\n\n$reason",
+      "denied": "Sugestão Negada",
+      "deniedMessage": "**Sua Sugestão:**\n\n$suggestion\n\n**Foi negada.**",
+      "deniedMessageReason": "**Sua Sugestão:**\n\n$suggestion\n\n**Foi negada pelo motivo:**\n\n$reason",
+      "potential": "Sugestão em Potencial",
+      "potentialMessage": "**Sua Sugestão:**\n\n$suggestion\n\n**Foi potencialmente aprovada.**",
+      "potentialMessageReason": "**Sua Sugestão:**\n\n$suggestion\n\n**Foi potencialmente aprovado pelo motivo:**\n\n$reason",
+      "invalid": "Sugestão Inválida",
+      "invalidMessage": "**Sua Sugestão:**\n\n$suggestion\n\n**Foi marcada como inválida.**",
+      "invalidMessageReason": "**Sua Sugestão:**\n\n$suggestion\n\n**Foi marcada como inválida pelo motivo:**\n\n$reason"
+    },
+    "footer": "** NOTA: ** O `Zira` precisa estar acima do(s) Cargo(s) definido(s) e precisa ter a permissão `Gerenciar Cargos` para fornecê-los.",
+    "example": "Exemplo",
+    "guidePage": "Página do Guia",
+    "userPermissions": "Você não pode usar este comando porque está faltando a(s) seguinte(s) permissão(ões):",
+    "help": {
+      "commands": "Comandos",
+      "title": "Links",
+      "links": [
+        "[Guia](https://zira.pw/guide/contents)",
+        "[Servidor de Suporte](https://zira.pw/support)",
+        "[Painel de Controle](https://zira.pw)",
+        "[Premium](https://zira.pw/premium)",
+        "[Convide Zira](https://zira.pw/invite)",
+        "[Traduza Zira](https://translate.zira.pw/)"
+      ],
+      "page": "Página ",
+      "categories": ["Cargos", "Sugestões", "Registros", "Diversos"]
+    },
+    "commands": {
+      "info": {
+        "help": "Informações sobre Zira.",
+        "params": "",
+        "fields": ["Versão", "Suporte", "Biblioteca", "Criado por", "Registro de Alterações"]
+      },
+      "channel": {
+        "help": "Defina o canal ativo.",
+        "params": " <#channel>",
+        "set": "Canal foi deninido como: "
+      },
+      "message": {
+        "help": "Defina a mensagem ativa ou envie uma mensagem para o canal ativo.",
+        "params": " <mensagem ID | mensagem>",
+        "setID": "Mensagem foi definida.",
+        "setCreate": "Mensagem definida."
+      },
+      "add": {
+        "help": "Adiciona cargo(s) normais para a mensagem ativa.",
+        "description": "Você pode adicionar vários cargos de uma só vez fornecendo mais emojis e cargos. Você tem que usar uma vírgula para separar cada par, veja abaixo um exemplo.",
+        "params": " <emoji> <nome cargo | menção cargo>",
+        "set": "\n<@&$id> adicionado com o emoji $emoji"
+      },
+      "list": {
+        "help": "Listar todos os cargos que foram configurados.",
+        "params": "",
+        "title": "$name | Lista de Cargos",
+        "name": "**Nome:** ",
+        "channel": "**Canal:** ",
+        "message": "**Mensagem:** ",
+        "emoji": "**Emoji:** ",
+        "type": "**Tipo:** ",
+        "types": ["Normal", "Alternada", "Única", "Múltipla", "Remover"]
+      },
+      "trello": {
+        "help": "Integração Trello com sugestões.",
+        "params": " <board ID | toggle>",
+        "supplyBoard": "Please supply a board ID.",
+        "setBoard": "Please set a board first.",
+        "boardNotFound": {
+          "title": "Board Not Found",
+          "description": "I was unable to find that board. Please make sure you have the right board ID, and that you have added **`ZiraDiscord`** to the board."
+        },
+        "dm": {
+          "id": "Your Trello ID is $id",
+          "success": "To verify this board, please create a card that has the title set to the ID that has been sent to you. After you have done this, please type `done` in this channel to continue the setup.\n\nYou will have 5 minutes to do this.",
+          "error": "I was unable to send you the verification DM. Please make sure I can send you a DM."
+        },
+        "time": "You have ran out of time. Please try again.",
+        "noCard": "Unable to find the card. Please try again.",
+        "validList": "That is not a valid list. Please input a valid list ID.",
+        "pickNew": "Type the corresponding number to pick a list, or `none` to not pick a list for new suggestions.\n\n",
+        "pickNewTitle": "Pick a List for New Suggestions",
+        "pickApprove": "Type the corresponding number to pick a list, or `none` to not pick a list for approved suggestions.\n\n",
+        "pickApproveTitle": "Pick a List for Approved Suggestions",
+        "pickDenied": "Type the corresponding number to pick a list, or `none` to not pick a list for denied suggestions.\n\n",
+        "pickDeniedTitle": "Pick a List for Denied Suggestions",
+        "pickPotential": "Type the corresponding number to pick a list, or `none` to not pick a list for potential suggestions.\n\n",
+        "pickPotentialTitle": "Pick a List for Potential Suggestions",
+        "pickInvalid": "Type the corresponding number to pick a list, or `none` to not pick a list for invalid suggestions.\n\n",
+        "pickInvalidTitle": "Pick a List for Invalid Suggestions",
+        "set": "Board and list(s) set."
+      },
+      "config": {
+        "help": "Gerenciar configurações do servidor.",
+        "params": "",
+        "role": {
+          "noParam": "Por favor forneça um cargo..",
+          "disable": "Qualquer pessoa com as permissões confirmadas pode usar os comandos do Zira agora",
+          "success": "Agora, apenas o dono da guilda e as pessoas que têm o cargo $role podem usar os comandos do Zira."
+        },
+        "main": [
+          {
+            "name": " cargo <cargo | desativar>",
+            "value": "Defina ou remova o cargo que poderá usar comandos."
+          }
+        ]
+      },
+      "edit": {
+        "help": "Edite uma mensagem enviada por Zira nesse canal.",
+        "params": " <mensagem ID> <nova mensagem>",
+        "owner": "Essa mensagem não foi enviada por mim.",
+        "success": "Mensagem editada."
+      },
+      "toggle": {
+        "help": "Adiciona cargo(s) alternado(s) na mensagem ativa.",
+        "params": " <emoji> <nome cargo | menção cargo>",
+        "limit": "Você atingiu o limite de 12 funções alternadas. Você pode obter cargos ilimitados alternados em [doar](https://zira.pw/premium)",
+        "over": "Adicioná-los resultará no limite de funções alternadas. Você pode obter ilimitado toggled e remover cargos por [donating](https://zira.pw/premium)"
+      },
+      "once": {
+        "help": "Cargo(s) adicionado(s) à mensagem ativa que só pode ser recebida uma vez.",
+        "params": " <emoji> <nome cargo | menção cargo>"
+      },
+      "multi": {
+        "help": "Adicionado um emoji que dará várias funções à mensagem ativa.",
+        "params": " <emoji> <nome cargo | menção cargo>, <nome cargo | menção cargo>",
+        "ordinal": "O cargo $pos é desconhecido.",
+        "usedEmoji": "Esse emoji já está em uso nesta mensagem.",
+        "set": "$roles defina usando $emoji"
+      },
+      "delete": {
+        "help": "Remova os cargos que foram configurados.",
+        "params": " <mensagem ID> <nome cargo | menção cargo | check>",
+        "noRoles": "Nenhum cargo está definido nessa mensagem.",
+        "removedCheck": "$num cargos removidos da mensagem.",
+        "good": "Todos os cargos existem, nenhum foi removido.",
+        "removed": "<@&$id> removido com o emoji $emoji",
+        "message": "Não é possível remover o cargo, pois ele não estava na mensagem especificada."
+      },
+      "autorole": {
+        "help": "Dar cargo ao usuário/bot quando entrar..",
+        "params": "",
+        "title": "Auto Role",
+        "ubParams": " <nome cargo | menção cargo>",
+        "user": "Adicionar um cargo que deve ser dado quando um usuário entra no servidor.\n\nPara remover um cargo sendo usado no autorole, basta fazer o comando novamente.",
+        "userAdd": "Adicionado cargo $role irá ser dado quando usuários entrarem no servidor.",
+        "userRemove": "Removido cargo $role que iria ser dado quando um usuário entra no servidor.",
+        "bot": "Adicionar um cargo que deve ser dado quando um bot entra no servidor.\n\nPara remover um cargo sendo usado no autorole, basta fazer o comando novamente.",
+        "botAdd": "Adicionado cargo $role irá ser dado quando bots entrarem no servidor.",
+        "botRemove": "Removido cargo $rol que iria ser dado quando um bot entra no servidor.",
+        "showUser": "Cargos Usuários",
+        "showBot": "Cargos Bot",
+        "nonSet": "Nenhum cargo definido",
+
+
+        "main": [
+          {
+            "name": " usuario <nome cargo | menção cargo>",
+            "value": "Define o(s) cargo(s) que um usuário receberá quando entrar no servidor."
+          },
+          {
+            "name": " bot <nome cargo | menção cargo>",
+            "value": "Define o(s) cargo(s) que um bot receberá quando entrar no servidor."
+          },
+          {
+            "name": " ver",
+            "value": "Ver os atuais cargo(s) definido(s)."
+          }
+        ]
+      },
+      "suggestion": {
+        "help": "Configuração de Sugestão.",
+        "params": "",
+        "channel": {
+          "help": " canal <novo | aprovado | negado | inválido | potencial> <#canal>",
+          "description": "Define um canal entre novo, aprovado, negado, inválido e sugestões em potencial serão enviadas.",
+          "set": "$type sugestões irão ser enviadas para $channel"
+        },
+        "submit": {
+          "help": " submit <#channel>",
+          "description": "Defina de qual canal essa sugestão só poderá ser enviada.",
+          "set": "Sugestões só poderão ser enviadas do canal $channel",
+          "disable": "Sugestões agora podem ser enviadas de qualquer canal."
+        },
+        "dm": {
+          "on": "Uma mensagem no DM será enviada ao usuário de uma sugestão quando a sugestão for aprovada, negada, potencializada ou invalidada, etc.",
+          "off": "Usuários não receberão mais mensagens no DM sobre sugestões."
+        },
+        "reaction": {
+          "on": "Emojis reagirão a novas sugestões.",
+          "off": "Emojis não serão mais reagidos a novas sugestões."
+        },
+        "emojis": {
+          "help": " emojis <emoji> <emoji>",
+          "description": "Defina os emojis que serão reagidos em novas sugestões.",
+          "set": "Os emojis $emoji1, $emoji2 serão reagidos a novas sugestões se as reações forem ativadas."
+        },
+        "role": {
+          "help": " cargo <nome cargo | menção cargo | desativar>",
+          "description": "Limitar o gerenciamento de sugestões para uma determinado cargo.",
+          "disable": "Qualquer um com a permissão` Gerenciar Servidor` pode aprovar/negar sugestões agora.",
+          "set": "Somente usuários com o cargo $role podem aprovar/negar sugestões agora."
+        },
+        "main": [
+          {
+            "name": " canal <novo | aprovado | negado | inválido | potencial> <#canal>",
+            "value": "Defina quais canais as sugestões novas, aprovadas e negadas serão enviadas."
+          },
+          {
+            "name": " enviar <#canal>",
+            "value": "Limite o envio de sugestões para um canal."
+          },
+          {
+            "name": " dm",
+            "value": "Defina se os usuários devem ou não obter um DM sobre suas sugestões."
+          },
+          {
+            "name": " reação",
+            "value": "Defina se os emojis devem ou não reagir a novas sugestões."
+          },
+          {
+            "name": " emojis <emoji> <emoji>",
+            "value": "Defina os emojis que serão reagidos em novas sugestões."
+          },
+          {
+            "name": " cargo <nome cargo | menção cargo>",
+            "value": "Limite o gerenciamento de sugestões para um determinado cargo."
+          }
+        ]
+      },
+      "invite": {
+        "help": "Convide Zira.",
+        "params": ""
+      },
+      "remove": {
+        "help": "Adicionado um emoji que removerá um cargo da mensagem ativa.",
+        "params": " <emoji> <nome cargo | menção cargo>",
+        "description": "Você pode adicionar um cargo quando a Zira estiver removendo o outro cargo. Você tem que usar uma vírgula para separar o segundo cargo, veja abaixo um exemplo.",
+        "limit": "Você atingiu o limite de 6 remover cargos. Você pode obter cargos ilimitados para remover e adicionar [doe](https://zira.pw/premium)",
+        "remove": "$role será removida.",
+        "removeAdd": "$role1 será removida e $role2 será dada.",
+        "emoji": " com o emoji $emoji"
+      },
+      "submit": {
+        "help": " Envie uma sugestão",
+        "params": " <sugestão>",
+        "noChannel": "Isso não é um canal de sugestão. Por favor, defina um.",
+        "wrongChannel": "Use <#$channel> para enviar uma sugestão.",
+        "card": {
+          "title": "Nova Sugestão: $suggestion",
+          "body": "$suggestion\n\nEnviada por: $user"
+        },
+        "success": "Sugestão Enviada."
+      },
+      "approve": {
+        "help": "Aprovar uma sugestão",
+        "params": " <sugestão ID | mensagem ID>",
+        "success": "A sugestão foi aprovada."
+      },
+      "deny": {
+        "help": "Negar uma sugestão",
+        "params": " <sugestão ID | mensagem ID>",
+        "success": "A sugestão foi negada."
+      },
+      "maybe": {
+        "help": "Aprovar potencialmente uma sugestão.",
+        "params": " <sugestão ID | mensagem ID>",
+        "success": "A sugestão foi potencialmente aprovada."
+      },
+      "invalid": {
+        "help": "Defina a sugestão como inválida.",
+        "params": " <sugestão ID | mensagem ID>",
+        "success": "A sugestão foi definida como inválida"
+      },
+      "log": {
+        "help": "Defina cargo para registros (logs).",
+        "params": " <#canal | desativar>",
+        "disabled": "Cargo para registros desativado",
+        "set": "Sempre que alguém reage para conseguir um cargo, será registrado ",
+        "give": "<@$user> reagiu com $emoji para ganhar <@&$role>",
+        "giveMulti": "<@$user> reagiu com $emoji para ganhar $roles",
+        "giveRemove": "<@$user> reagiu $emoji para remover <@&$role1> e ganhar <@&$role2>",
+        "remove": "<@$user> removeu a reação $emoji para remover <@&$role>",
+        "removeMulti": "<@$user> removeu a reação $emoji para remover $roles"
+      },
+      "prefix": {
+        "help": "Define um prefixo",
+        "params": " <prefixo>",
+        "error": "Por favor, forneça um prefixo entre 1 e 10 caracteres e tenha pelo menos um desses caracteres nele:  `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
+        "set": "Prefixo do servidor definido para: "
+      },
+      "colors": {
+        "help": "Zira irá criar 8 cargos coloridos",
+        "params": "",
+        "perms" :"Eu preciso ter permissão `Gerenciar Cargos`.",
+        "done": "Eu criei os seguintes cargos: ",
+        "none": "Nenhuma função foi criada, pois já existem cargos coloridos."
+      },
+      "leave": {
+        "help": "Envia uma mensagem quando o usuário sai do servidor.",
+        "params": "",
+        "placeholderTitle": "Variáveis da Mensagem",
+        "placeholders": "$user ~~-~~ nome do usuário\n$mention ~~-~~ menção do usuário\n$guild ~~-~~ nome do servidor\n$membercount ~~-~~ nova quantidade de membros",
+        "channelSet": "Mensagens de saída enviadas para ",
+        "channelDisable": "Canal de mensagens de saída foi desativado.",
+        "messageSet": "Mensagem definida.",
+        "messageMissing": "Por favor, envie uma mensagem válida.",
+        "main": [
+          {
+            "name": " canal <#canal | desativar>",
+            "value": "Definir as mensagens do canal será enviado para quando um usuário sair."
+          },
+          {
+            "name": " mensagem <mensagem>",
+            "value": "Define a mensagem que será enviada."
+          }
+        ]
+      },
+      "join": {
+        "help": "Enviar uma mensagem quando um usuário entra no servidor.",
+        "params": "",
+        "placeholderTitle": "Variáveis da Mensagem",
+        "placeholders": "$user ~~-~~ nome do usuário\n$mention ~~-~~ menção do usuário\n$guild ~~-~~ nome do servidor\n$membercount ~~-~~ nova quantidade de membros",
+        "channelSet": "Mensagens de entrada enviadas para ",
+        "channelDisable": "Canal de mensagens de entrada foi desativado.",
+        "messagePick": "Remova uma mensagem abaixo fazendo **z/entrada remover ID**\n\n",
+        "messageSet": "Mensagem adicionada.",
+        "messageMissing": "Por favor, envie uma mensagem válida",
+        "messageRemove": "Mensagem Removida.",
+        "noMessages": "Não há mensagens configuradas.",
+        "unknownID": "ID desconhecido.",
+        "main": [
+          {
+            "name": " canal <#canal | desativar>",
+            "value": "Definir as mensagens do canal será enviado para quando um usuário entra no servidor."
+          },
+          {
+            "name": " adicionar <mensagem>",
+            "value": "Adicione uma mensagem para enviar quando um usuário entrar. Você pode ter várias mensagens para uma mensagem aleatória quando um usuário entrar."
+          },
+          {
+            "name": " remover <mensagem>",
+            "value": "Remover uma mensagem que foi definida."
+          }
+        ]
+      },
+      "lang": {
+        "help": "Define o idioma do servidor.",
+        "params": " <código da língua>",
+        "translate" :"Se você quer Zira em um idioma que não está na lista acima, você pode ajudar a traduzir o Zira [traduza](https://translate.zira.pw)"
+      }
+    }
+  }
