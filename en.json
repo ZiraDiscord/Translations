@@ -184,7 +184,7 @@
       "userRemove": "$role will no longer be given when a user joins.",
       "bot": "Add a role that should be given when a bot joins.\n\nTo remove a role being used in autorole, just do the command again.",
       "botAdd": "$role will be given when a bot joins.",
-      "botRemove": "$role will not longer be given when a bot joins.",
+      "botRemove": "$role will no longer be given when a bot joins.",
       "showUser": "User Roles",
       "showBot": "Bot Roles",
       "nonSet": "No roles set",
