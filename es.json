@@ -169,7 +169,7 @@
     "toggle": {
       "help": "Agrega roles alternables al mensaje activo.",
       "params": " <emoji> <nombre del rol | mención al rol>",
-      "limit": "Has alcanzado el límite de 12 roles alternables. Puedes conseguir roles alternables ilimitados [donando](https://zira.pw/premium)",
+      "limit": "You have reached the limit of 6 toggled roles. You can get unlimited toggled roles by [donating](https://zira.pw/premium)",
       "over": "Al agregar esos llegarás al límite de roles alternables. Puedes conseguir roles alternables ilimitados y role removibles [donando](https://zira.pw/premium)"
     },
     "once": {
