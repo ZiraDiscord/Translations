@@ -202,7 +202,7 @@
       "userRemove": "El rol $role ya no se dará a los nuevos usuarios.",
       "bot": "Agrega un rol a los nuevos bots.\n\nPara dejar de dar un rol a los nuevos bots, usa el comando de nuevo.",
       "botAdd": "El rol $role se dará a los nuevos bots.",
-      "botRemove": "$role will no longer be given when a bot joins.",
+      "botRemove": "El rol $role ya no se se dará a los nuevos bots.",
       "showUser": "Roles de usuario",
       "showBot": "Roles de bots",
       "nonSet": "No hay roles establecidos",
@@ -226,7 +226,7 @@
       "params": "",
       "channel": {
         "help": " channel <new | approved | denied | invalid | potential> <#canal>",
-        "description": "Set which channels new, approved, denied, potential, and invalid suggestions will get sent to.",
+        "description": "Establece los canales donde se enviarán las sugerencias nuevas, aprobadas, denegadas, potenciales e inválidas.",
         "set": "Las sugerencias $type serán enviadas al canal $channel"
       },
       "submit": {
@@ -236,7 +236,7 @@
         "disable": "Ahora las sugerencias podrán ser enviadas desde cualquier canal."
       },
       "dm": {
-        "on": "A DM will get sent to the user of a suggestion when the suggestion gets approved, denied, potentialed, or invalidated, etc.",
+        "on": "Se enviará un MD al usuario que envió la sugerencia cuando sea marcada como aceptada, denegada, potencial o no válida.",
         "off": "Los usuarios ya no recibirán MDs sobre sus sugerencias."
       },
       "reaction": {
@@ -250,7 +250,7 @@
       },
       "role": {
         "help": " role <nombre del rol | mención al rol | disable>",
-        "description": "Limit managing of suggestions to a certain role.",
+        "description": "Limita la administración de las sugerencias a un rol específico.",
         "disable": "Ahora cualquiera con el permiso `Administrar el Servidor` puede aprobar, denegar, etc. las sugerencias.",
         "set": "Ahora solo los usuarios con el rol $role pueden aprobar, denegar, etc. las sugerencias."
       },
@@ -277,7 +277,7 @@
         },
         {
           "name": " role <nombre del rol | mención del rol>",
-          "value": "Limit managing of suggestions to a certain role."
+          "value": "Limita la administración de las sugerencias a un rol específico."
         }
       ]
     },
@@ -288,17 +288,17 @@
     "remove": {
       "help": "Agrega un emoji que removerá un rol al mensaje activo.",
       "params": " <emoji> <nombre del rol | mención al rol>",
-      "description": "You can add a role when Zira is removing the other role. You have to use a comma to separate the second role, see below for an example.",
+      "description": "Puedes agregar un rol cuando Zira remueva el otro. Para eso tienes que usar una coma para separar el segundo rol, mira un ejemplo abajo.",
       "limit": "Has llegado al límite de 6 roles removibles. Puedes conseguir roles removibles y alternables ilimitados [donando](https://zira.pw/premium)",
       "remove": "$role será removido",
-      "removeAdd": "$role1 will be removed and $role2 will be given",
-      "emoji": " with the emoji $emoji"
+      "removeAdd": "$role1 será removido y $role2 será dado",
+      "emoji": " con el emoji $emoji"
     },
     "submit": {
-      "help": " Submit a suggestion",
-      "params": " <suggestion>",
-      "noChannel": "There is no suggestion channel. Please set one.",
-      "wrongChannel": "Use <#$channel> to submit a suggestion.",
+      "help": " Envía una sugerencia",
+      "params": " <sugerencia>",
+      "noChannel": "No hay un canal de sugerencias. Por favor establece uno.",
+      "wrongChannel": "Usa el canal <#$channel> para enviar una sugerencia.",
       "card": {
         "title": "New Suggestion: $suggestion",
         "body": "$suggestion\n\nSubmitted by: $user"
