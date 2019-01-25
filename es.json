@@ -300,8 +300,8 @@
       "noChannel": "No hay un canal de sugerencias. Por favor establece uno.",
       "wrongChannel": "Usa el canal <#$channel> para enviar una sugerencia.",
       "card": {
-        "title": "New Suggestion: $suggestion",
-        "body": "$suggestion\n\nSubmitted by: $user"
+        "title": "Nueva sugerencia: $suggestion",
+        "body": "$suggestion\n\nEnviada por: $user"
       },
       "success": "Suggestion submitted."
     },
