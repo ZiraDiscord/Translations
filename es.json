@@ -6,7 +6,7 @@
     "complete": "Completado :white_check_mark:"
   },
   "errors": {
-    "generic": "An error has occurred. If the error continues to persist, please join the support guild.",
+    "generic": "Ha ocurrido un error. Si el error persiste, por favor únete al servidor de soporte.",
     "unknownChannel": "Canal desconocido. Si es el canal correcto, por favor asegúrate de que tengo permiso de verlo.",
     "unknownRole": "Rol desconocido. Por favor asegúrate de que el rol existe.",
     "missingPermissionChannelRead": "Me faltan los permisos `Leer mensajes` y/o `Leer el historial de mensajes` en el canal activo.",
@@ -43,7 +43,7 @@
     "potentialMessage": "**Tu sugerencia:**\n\n$suggestion\n\n**Ha sido marcada como potencial.**",
     "potentialMessageReason": "**Tu sugerencia:**\n\n$suggestion\n\n**Ha sido marcada como potencial con la siguiente razón:**\n\n$reason",
     "invalid": "Sugerencia no válida",
-    "invalidMessage": "**Your suggestion:**\n\n$suggestion\n\n**Has been marked as invalid.**",
+    "invalidMessage": "**Tu sugeerncia:**\n\n$suggestion\n\n**Ha sido marcada como no válida.**",
     "invalidMessageReason": "**Tu sugerencia:**\n\n$suggestion\n\n**Ha sido marcada como no válida con la siguiente razón:**\n\n$reason"
   },
   "footer": "**NOTA:** El rol `Zira` tiene que estar arriba de los roles que hayas establecido y necesita el permiso `Administrar Roles`para poder darlos.",
@@ -78,8 +78,8 @@
         "Soporte",
         "Librería",
         "Hecho por",
-        "Guilds",
-        "Changelog"
+        "Servidores",
+        "Registro de cambios"
       ]
     },
     "channel": {
@@ -95,7 +95,7 @@
     },
     "add": {
       "help": "Agrega roles normales al mensaje activo.",
-      "description": "You can add multiple roles at once by providing more emojis and roles. You have to use a comma to separate each pair, see below for an example.",
+      "description": "Puedes agregar múltiples roles a la vez agregando más emojis y roles. Tienes que usar una coma para separar cada par, mira un ejemplo abajo.",
       "params": " <emoji> <nombre del rol | mención al rol>",
       "set": "\n<@&$id> agregado con el emoji $emoji"
     },
@@ -146,7 +146,7 @@
       "set": "Tablero y listas establecidos."
     },
     "config": {
-      "help": "Manage the guild configuration.",
+      "help": "Administra la configuración del servidor.",
       "params": "",
       "role": {
         "noParam": "Por favor introduce un rol.",
@@ -169,7 +169,7 @@
     "toggle": {
       "help": "Agrega roles alternables al mensaje activo.",
       "params": " <emoji> <nombre del rol | mención al rol>",
-      "limit": "You have reached the limit of 6 toggled roles. You can get unlimited toggled roles by [donating](https://zira.pw/premium)",
+      "limit": "Has alcanzado el límite de 6 roles alternables. Puedes conseguir roles alternables ilimitados [donando](https://zira.pw/premium)",
       "over": "Al agregar esos llegarás al límite de roles alternables. Puedes conseguir roles alternables ilimitados y role removibles [donando](https://zira.pw/premium)"
     },
     "once": {
@@ -198,10 +198,10 @@
       "title": "Rol automático",
       "ubParams": " <nombre del rol | mención al rol>",
       "user": "Agrega un rol a los nuevos usuarios.\n\nPara dejar de dar un rol a los nuevos usuarios, usa el comando de nuevo.",
-      "userAdd": "$role will be given when a user joins.",
-      "userRemove": "$role will no longer be given when a user joins.",
+      "userAdd": "El rol $role se dará a los nuevos usuarios.",
+      "userRemove": "El rol $role ya no se dará a los nuevos usuarios.",
       "bot": "Agrega un rol a los nuevos bots.\n\nPara dejar de dar un rol a los nuevos bots, usa el comando de nuevo.",
-      "botAdd": "$role will be given when a bot joins.",
+      "botAdd": "El rol $role se dará a los nuevos bots.",
       "botRemove": "$role will no longer be given when a bot joins.",
       "showUser": "Roles de usuario",
       "showBot": "Roles de bots",
