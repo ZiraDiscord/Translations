@@ -303,10 +303,10 @@
         "title": "Nueva sugerencia: $suggestion",
         "body": "$suggestion\n\nEnviada por: $user"
       },
-      "success": "Suggestion submitted."
+      "success": "Sugerencia enviada."
     },
     "approve": {
-      "help": "Approve a suggestion",
+      "help": "Aprueba una sugerencia",
       "params": " <suggestion ID | message ID>",
       "success": "The suggestion has been approved."
     },
