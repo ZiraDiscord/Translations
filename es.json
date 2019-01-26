@@ -307,121 +307,121 @@
     },
     "approve": {
       "help": "Aprueba una sugerencia",
-      "params": " <suggestion ID | message ID>",
-      "success": "The suggestion has been approved."
+      "params": " <ID de la sugerencia | ID del mensaje>",
+      "success": "La sugerencia ha sido aprobada."
     },
     "deny": {
-      "help": "Deny a suggestion",
-      "params": " <suggestion ID | message ID>",
-      "success": "The suggestion has been denied."
+      "help": "Deniega una sugerencia",
+      "params": " <ID de la sugerencia | ID del mensaje>",
+      "success": "La sugerencia ha sido denegada."
     },
     "maybe": {
-      "help": "Potential approve a suggestion.",
-      "params": " <suggestion ID | message ID>",
-      "success": "The suggestion has been potentially approved."
+      "help": "Marca una sugerencia como potencial.",
+      "params": " <ID de la sugerencia | ID del mensaje>",
+      "success": "La sugerencia ha sido marcada como potencial."
     },
     "invalid": {
-      "help": "Mark a suggestion as invalid.",
-      "params": " <suggestion ID | message ID>",
-      "success": "The suggestion has been marked as invalid."
+      "help": "Marca una sugerencia como no válida.",
+      "params": " <ID de la sugerencia | ID del mensaje>",
+      "success": "La sugerencia ha sido marcada como no válida."
     },
     "log": {
-      "help": "Setup role logging.",
-      "params": " <#channel | disable>",
-      "disabled": "Role logging disabled",
-      "set": "Whenever someone reacts to get a role, it will be logged to ",
-      "give": "<@$user> reacted $emoji to get <@&$role>",
-      "giveMulti": "<@$user> reacted $emoji to get $roles",
-      "giveRemove": "<@$user> reacted $emoji to remove <@&$role1> and to get <@&$role2>",
-      "remove": "<@$user> unreacted $emoji to remove <@&$role>",
-      "removeMulti": "<@$user> unreacted $emoji to remove $roles"
+      "help": "Configura el registro de roles.",
+      "params": " <#canal | disable>",
+      "disabled": "Registro de roles desactivado",
+      "set": "Cuando alguien reaccione para conseguir un rol, será registrado en ",
+      "give": "<@$user> reaccionó con $emoji para conseguir el rol <@&$role>",
+      "giveMulti": "<@$user> reaccionó con $emoji para conseguir los roles $roles",
+      "giveRemove": "<@$user> reaccionó con $emoji para remover el rol <@&$role1> y conseguir <@&$role2>",
+      "remove": "<@$user> quitó su reacción $emoji para remover el rol <@&$role>",
+      "removeMulti": "<@$user> quitó su reación $emoji para remover los roles $roles"
     },
     "prefix": {
-      "help": "Set a custom prefix",
-      "params": " <prefix>",
-      "error": "Please provide a prefix that's between 1 and 10 characters and has at least one of these characters in it:  `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
-      "set": "Guild prefix set to "
+      "help": "Establece un prefijo personalizado",
+      "params": " <prefijo>",
+      "error": "Por favor elige un prefijo entre 1 y 10 caracteres que tenga al menos uno de los siguientes caracteres:  `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
+      "set": "Prefijo establecido a "
     },
     "colors": {
-      "help": "Zira will create 8 colored roles",
+      "help": "Zira creará 8 roles de colores",
       "params": "",
-      "perms": "I'm missing the permission `Manage Roles`.",
-      "done": "I have created the following roles: ",
-      "none": "No roles were created, as there are already color roles."
+      "perms": "Me falta el permiso `Administrar roles`.",
+      "done": "He creado los siguientes roles: ",
+      "none": "No se crearon roles porque ya hay roles de colores."
     },
     "leave": {
-      "help": "Send a message when a user leaves.",
+      "help": "Envía un mensaje cuando un usuario se vaya.",
       "params": "",
-      "placeholderTitle": "Message Placeholders",
-      "placeholders": "$user ~~-~~ username\n$mention ~~-~~ user mention\n$guild ~~-~~ guild name\n$membercount ~~-~~ new member count",
-      "channelSet": "Leave messages will get sent to ",
-      "channelDisable": "Leave messages will no longer get sent.",
-      "messagePick": "Remove a message below by doing **z/leave remove ID**\n\n",
-      "messageSet": "Message added.",
-      "messageMissing": "Please provide a message",
-      "messageRemove": "Message removed.",
-      "noMessages": "There are no messages set.",
-      "unknownID": "Unknown ID.",
+      "placeholderTitle": "Variables para el mensaje",
+      "placeholders": "$user ~~-~~ nombre de usuario\n$mention ~~-~~ mención al usuario\n$guild ~~-~~ nombre del servidor\n$membercount ~~-~~ cantidad actual de miembros",
+      "channelSet": "Los mensajes de despedida serán enviados al canal ",
+      "channelDisable": "Los mensajes de despedida ya no serán enviados.",
+      "messagePick": "Remueve un mensaje usando **z/leave remove ID**\n\n",
+      "messageSet": "Mensaje agregado.",
+      "messageMissing": "Por favor proporciona un mensaje",
+      "messageRemove": "Mensaje removido.",
+      "noMessages": "No hay mensajes establecidos.",
+      "unknownID": "ID desconocida.",
       "main": [
         {
-          "name": " channel <#channel | disable>",
-          "value": "Set the channel messages will get sent to when a user leaves."
+          "name": " channel <#canal | disable>",
+          "value": "Establece el canal donde se enviarán los mensajes cuando un usuario se vaya."
         },
         {
-          "name": " add <message>",
-          "value": "Add a message to send. You can have multiple message for a random message when a user leaves."
+          "name": " add <mensaje>",
+          "value": "Agrega un mensaje para enviar. Puedes tener múltiples mensajes para enviar un mensaje aleatorio cuando un usuario se vaya."
         },
         {
           "name": " remove <ID>",
-          "value": "Remove a message that has been set."
+          "value": "Remueve un mensaje establecido."
         },
         {
           "name": " list",
-          "value": "List all leave messages."
+          "value": "Muestra una lista con todos los mensajes de despedida."
         }
       ]
     },
     "join": {
-      "help": "Send a message when a user joins.",
+      "help": "Envía un mensaje cuando un usuario se una.",
       "params": "",
-      "placeholderTitle": "Message Placeholders",
-      "placeholders": "$user ~~-~~ username\n$mention ~~-~~ user mention\n$guild ~~-~~ guild name\n$membercount ~~-~~ new member count",
-      "channelSet": "Join messages will get sent to ",
-      "channelDisable": "Join messages will no longer get sent.",
-      "messagePick": "Remove a message below by doing **z/join remove ID**\n\n",
-      "messageSet": "Message added.",
-      "messageMissing": "Please provide a message",
-      "messageRemove": "Message removed.",
-      "noMessages": "There are no messages set.",
-      "unknownID": "Unknown ID.",
+      "placeholderTitle": "Variables para el mensaje",
+      "placeholders": "$user ~~-~~ nombre de usuario\n$mention ~~-~~ mención al usuario\n$guild ~~-~~ nombre del servidor\n$membercount ~~-~~ cantidad actual de miembros",
+      "channelSet": "Los mensajes de bienvenida serán enviados al canal ",
+      "channelDisable": "Los mensajes de bienvenida ya no serán enviados.",
+      "messagePick": "Remueve un mensaje usando **z/join remove ID**\n\n",
+      "messageSet": "Mensaje agregado.",
+      "messageMissing": "Por favor proporciona un mensaje",
+      "messageRemove": "Mensaje removido.",
+      "noMessages": "No hay mensajes establecidos.",
+      "unknownID": "ID desconocida.",
       "main": [
         {
-          "name": " channel <#channel | disable>",
-          "value": "Set the channel messages will get sent to when a user joins."
+          "name": " channel <#canal | disable>",
+          "value": "Establece el canal donde se enviarán los mensajes cuando un usuario se una."
         },
         {
-          "name": " add <message>",
-          "value": "Add a message to send. You can have multiple message for a random message when a user joins."
+          "name": " add <mensaje>",
+          "value": "Agrega un mensaje para enviar. Puedes tener múltiples mensajes para enviar un mensaje aleatorio cuando un usuario se una."
         },
         {
           "name": " remove <ID>",
-          "value": "Remove a message that has been set."
+          "value": "Remueve un mensaje establecido."
         },
         {
           "name": " list",
-          "value": "List all join messages."
+          "value": "Muestra una lista con todos los mensajes de bienvenida."
         }
       ]
     },
     "lang": {
-      "help": "Set the language for the guild.",
-      "params": " <language code>",
-      "translate": "If you want Zira in a language that isn't on the list above, you can help translate Zira on [Crowdin](https://translate.zira.pw)"
+      "help": "Establece el idioma para el servidor.",
+      "params": " <código del idioma>",
+      "translate": "Si quieres que Zira esté en un idioma que no está en la lista de arriba, puedes ayudar a traducir a Zira en [Crowdin](https://translate.zira.pw)"
     },
     "vote": {
-      "help": "Vote for the bot.",
+      "help": "Vota por el bot.",
       "params": "",
-      "description": "You can vote for Zira below. Right now, there are no rewards, but there is a reward system in the works for the future.\nYour votes will be stored for use if you vote now, and will be useable when the system is implemented, so all current votes will count.\nYou can vote [here]($link)!"
+      "description": "Puedes votar por Zira abajo. Por ahora no hay recompensas pero hay un sistema de recompensas en progreso para el futuro.\nTus votos serán guardados si votas ahora, y podrás usarlos cuando el sistema sea implementado así que todos los votos actuales contarán.\n¡Puedes votar [aquí]($link)!"
     }
   }
 }
