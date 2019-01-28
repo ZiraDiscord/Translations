@@ -416,6 +416,7 @@
     "lang": {
       "help": "Установить язык для гильдии.",
       "params": " <код языка>",
+      "update": "Language set.",
       "translate": "Если вы хотите использовать Zira на языке, которого нет в списке выше, вы можете помочь с переводом Zira на [Crowdin] (https://translate.zira.pw)"
     },
     "vote": {
