@@ -398,6 +398,7 @@
     "lang": {
       "help": "Set the language for the guild.",
       "params": " <language code>",
+      "update": "Language set.",
       "translate" :"If you want Zira in a language that isn't on the list above, you can help translate Zira on [Crowdin](https://translate.zira.pw)"
     },
     "vote": {
