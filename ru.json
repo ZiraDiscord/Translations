@@ -9,44 +9,44 @@
     "generic": "Произошла ошибка. Если ошибка продолжает сохраняться, пожалуйста, присоединитесь к гильдии поддержки.",
     "unknownChannel": "Канал неизвестен. Если канал указан правильно, пожалуйста, убедитесь, что у меня есть разрешение на его просмотр.",
     "unknownRole": "Роль неизвестна. Пожалуйста, убедитесь, что роль существует.",
-    "missingPermissionChannelRead": "I'm missing the permissions `Read Messages` and/or `Read Message History` in the active channel.",
-    "missingPermissionChannelReaction": "I'm missing the permissions `Add Reactions` and/or `Use External Emojis` in the active channel.",
-    "missingPermissionChannelSend": "I'm missing the permission `Send Messages` in the active channel.",
+    "missingPermissionChannelRead": "Утеряны разрешения `Чтение сообщений` и/или `Чтение истории сообщений` на активном канале.",
+    "missingPermissionChannelReaction": "Утеряны разрешения `Добавлять реакции` и/или `Использовать сторонние эмодзи` на активном канале.",
+    "missingPermissionChannelSend": "Утеряны разрешения `Отправлять сообщения` на активном канале.",
     "unknownMessageID": "Неизвестное сообщение. Пожалуйста, убедитесь, что идентификатор сообщения, указанный вами, действителен.",
     "setChannel": "Пожалуйста, сначала укажите канал, а затем повторите эту команду.",
     "setChannelOrMessage": "Пожалуйста, сначала укажите канал и сообщение, а затем повторите эту команду.",
-    "ordinalPair": "Unknown role in $pair pair.",
-    "usedEmoji": "The emoji in the $pair pair is already used on this message.",
-    "usedRole": "The role in the $pair pair is already used on this message.",
-    "unknownMessage": "The active message is unknown, please check my permissions and that the message still exists.",
+    "ordinalPair": "Неизвестная роль в $pair паре.",
+    "usedEmoji": "Эмодзи в паре $pair уже используется для этого сообщения.",
+    "usedRole": "Роль в паре $pair уже используется для этого сообщения.",
+    "unknownMessage": "Активное сообщение неизвестно, пожалуйста, проверьте мои разрешения и что сообщение всё ещё существует.",
     "unknownEmoji": "Я не могу использовать этот emoji. Если этот emoji пользовательский, пожалуйста убедитесь, что я нахожусь в гильдии, к которой он принадлежит",
     "premium": "Для этой функции требуется [премиум доступ](https://zira.pw/premium) только.",
-    "suggestionID": "Please try again with a suggestion ID.",
+    "suggestionID": "Пожалуйста, попробуйте ещё раз с предложенным ID.",
     "unknownSuggestion": "Неизвестные предложение.",
-    "suggestionRead": "Unable to get the suggestion $suggestion in <#$channel>. Please make sure I have the permission `Read Messages` in the channel, and that the suggestion wasn't deleted.",
-    "suggestionSend": "Unable to send the suggestion to $channel. Please make sure I have the permissions `Read Messages`, `Send Messages`, and `Embed Links` in the channel.",
-    "suggestionRole": "You need the <@&$role> role to manage suggestions."
+    "suggestionRead": "Невозможно получить предложение $suggestion на <#$channel>. Пожалуйста, убедитесь что я имею разрешения на `Чтение сообщений` на канале и что предложения не удалены.",
+    "suggestionSend": "Не удается отправить предложение на $channel. Пожалуйста, убедитесь, что у меня есть разрешения «Читать сообщения», «отправить» и «Вставлять ссылки» на канале.",
+    "suggestionRole": "Вам нужна < @&$role> роль для управления предложениями."
   },
   "suggestion": {
     "reason": "Причина",
     "noReason": "Причина не указана",
-    "submitted": "Submitted",
-    "submittedBy": "Submitted by:",
+    "submitted": "Отправлено",
+    "submittedBy": "Отправлено:",
     "new": "Новое предложение",
-    "approved": "Approved Suggestion",
-    "approvedMessage": "**Your suggestion:**\n\n$suggestion\n\n**Has been approved.**",
-    "approvedMessageReason": "**Your suggestion:**\n\n$suggestion\n\n**Has been approved with the reason:**\n\n$reason",
-    "denied": "Denied Suggestion",
-    "deniedMessage": "**Your suggestion:**\n\n$suggestion\n\n**Has been denied.**",
-    "deniedMessageReason": "**Your suggestion:**\n\n$suggestion\n\n**Has been denied with the reason:**\n\n$reason",
-    "potential": "Potential Suggestion",
-    "potentialMessage": "**Your suggestion:**\n\n$suggestion\n\n**Has been potentially approved.**",
-    "potentialMessageReason": "**Your suggestion:**\n\n$suggestion\n\n**Has been potentially approved with the reason:**\n\n$reason",
-    "invalid": "Invalid Suggestion",
-    "invalidMessage": "**Your suggestion:**\n\n$suggestion\n\n**Has been marked as invalid.**",
-    "invalidMessageReason": "**Your suggestion:**\n\n$suggestion\n\n**Has been marked as invalid with the reason:**\n\n$reason"
+    "approved": "Утвержденное предложение",
+    "approvedMessage": "** Ваше предложение: **\n\n$suggestion\n\n** было принято.* *",
+    "approvedMessageReason": "** Ваше предложение: **\n\n$suggestion\n\n** было одобрено с причиной: **\n\n$reason",
+    "denied": "Отклонённые предложения",
+    "deniedMessage": "** Ваше предложение: **\n\n$suggestion\n\n** было отклонено.* *",
+    "deniedMessageReason": "** Ваше предложение: **\n\n$suggestion\n\n** было отклонено по причине: **\n\n$reason",
+    "potential": "Потенциальное предложение",
+    "potentialMessage": "** Ваше предложение: **\n\n$suggestion\n\n** было потенциально одобрено.* *",
+    "potentialMessageReason": "** Ваше предложение: **\n\n$suggestion\n\n** было потенциально одобрено с причиной: **\n\n$reason",
+    "invalid": "Неверное предложение",
+    "invalidMessage": "** Ваше предложение: **\n\n$suggestion\n\n** было помечено как недопустимое.* *",
+    "invalidMessageReason": "** Ваше предложение: **\n\n$suggestion\n\n** было помечено как недопустимое по причине* *\n\n$reason"
   },
-  "footer": "**NOTE:** The `Zira` role needs to be above the role(s) you've set, and needs to have the `Manage Roles` permission to give them.",
+  "footer": "**Обратите внимание: ** «Zira» роль должна быть выше установливаемых ролей, и должна иметь разрешение «Управление ролями».",
   "example": "Пример",
   "guidePage": "Страница руководства",
   "userPermissions": "Эту команду нельзя использовать, потому что вам не хватает следующих(его) прав(а): ",
@@ -89,14 +89,14 @@
     },
     "message": {
       "help": "Установите активное сообщение или отправьте сообщение на активный канал.",
-      "params": " <message ID | message>",
+      "params": " <ID сообщения | сообщение>",
       "setID": "Сообщение было установлено.",
       "setCreate": "Сообщение установлено."
     },
     "add": {
-      "help": "Add normal role(s) to the active message.",
+      "help": "Добавление обычной роли для активного сообщения.",
       "description": "Вы можете добавить одновременно несколько ролей, указав больше ролей и эмодзи. Необходимо использовать запятую для разделения каждой пары, смотрите пример ниже.",
-      "params": " <emoji> <role name | role mention>",
+      "params": " <название эмодзи> <Название роли | упоминание роли>",
       "set": "\n<@&$id> added with the emoji $emoji"
     },
     "list": {
@@ -111,7 +111,7 @@
       "types": [
         "Normal",
         "Toggle",
-        "Once",
+        "Единожды",
         "Multi",
         "Удалить"
       ]
@@ -168,13 +168,13 @@
     },
     "toggle": {
       "help": "Add toggled role(s) to the active message.",
-      "params": " <emoji> <role name | role mention>",
+      "params": " <название эмодзи> <Название роли | упоминание роли>",
       "limit": "You have reached the limit of 6 toggled roles. You can get unlimited toggled roles by [donating](https://zira.pw/premium)",
       "over": "Adding these will result in you reaching the limit of toggled roles. You can get unlimited toggled and remove roles by [donating](https://zira.pw/premium)"
     },
     "once": {
       "help": "Added role(s) to the active message that can only be received once.",
-      "params": " <emoji> <role name | role mention>"
+      "params": " <название эмодзи> <Название роли | упоминание роли>"
     },
     "multi": {
       "help": "Added an emoji that will give multiple roles to the active message.",
@@ -287,7 +287,7 @@
     },
     "remove": {
       "help": "Added an emoji that will remove a role to the active message.",
-      "params": " <emoji> <role name | role mention>",
+      "params": " <название эмодзи> <Название роли | упоминание роли>",
       "description": "You can add a role when Zira is removing the other role. You have to use a comma to separate the second role, see below for an example.",
       "limit": "You have reached the limit of 6 remove roles. You can get unlimited remove and toggled roles by [donating](https://zira.pw/premium)",
       "remove": "$role will be removed",
@@ -416,7 +416,7 @@
     "lang": {
       "help": "Установить язык для гильдии.",
       "params": " <код языка>",
-      "update": "Language set.",
+      "update": "Настроить язык.",
       "translate": "Если вы хотите использовать Zira на языке, которого нет в списке выше, вы можете помочь с переводом Zira на [Crowdin] (https://translate.zira.pw)"
     },
     "vote": {
