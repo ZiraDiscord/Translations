@@ -1,0 +1,428 @@
+{
+  "language": "Türkçe",
+  "titles": {
+    "use": "Komut Kullanımı",
+    "error": "Hata :warning:",
+    "complete": "Tamamlandı :white_check_mark:"
+  },
+  "errors": {
+    "generic": "Bir hata oluştu. Eğer hata oluşmaya devam ederse lütfen destek sunucumuza gelin.",
+    "unknownChannel": "Kanal bulunamadı. Eğer kanalın olduğundan eminseniz lütfen görme yetkimin olduğundan emin olun.",
+    "unknownRole": "Rol bulunamadı. Lütfen rolün var oluğundan emin olun.",
+    "missingPermissionChannelRead": "Geçerli kanalda `Mesajları Oku` ve/veya `Mesaj Geçmişini Oku` yetkisine sahip değilim.",
+    "missingPermissionChannelReaction": "Geçerli kanalda `Tepki Ekle` ve/veya `Dış Emojileri Kullan` yetkisine sahip değilim.",
+    "missingPermissionChannelSend": "Geçerli kanalda `Mesaj Gönder` yetkisine sahip değilim.",
+    "unknownMessageID": "Mesaj bulunamadı. Lütfen gidiğiniz mesaj ID'sinin doğru olduğundan emin olun.",
+    "setChannel": "Lütfen önce bir kanal ayarlayın ve bu komutu tekrar kullanın.",
+    "setChannelOrMessage": "Lütfen bir kanal ve mesaj ayarlayın ve bu komutu tekrar kullanın.",
+    "ordinalPair": "$pair seçeneğinde bilinmeyen rol.",
+    "usedEmoji": "Bu emoji $pair seçeneğinde zaten kullanılıyor.",
+    "usedRole": "Bu rol $pair seçeneğinde zaten kullanılıyor.",
+    "unknownMessage": "Etkinleştirilen mesaj bulunamıyor, lütfen yetkilerimi ve mesajın hala var olduğundan emin olun.",
+    "unknownEmoji": "Bu emojiyi kullanamam. Eğer özel bir emojiyse, lütfen emojinin sunucusunda olduğumdan emin olun",
+    "premium": "Bu özellik sadece [premium](https://zira.pw/premium) özelliğidir.",
+    "suggestionID": "Lütfen öneri ID'si ile tekrar deneyin.",
+    "unknownSuggestion": "Bilinmeyen öneri.",
+    "suggestionRead": "<#$channel> kanalındaki $suggestion önerisi alınırken bir hata oluştu. Lütfen `Mesajları Oku` yetkimin olduğundan ve önerinin hala var olduğundan emin olun.",
+    "suggestionSend": "$channel kanalına öneri gönderilemiyor. Lütfen o kanalda `Mesajları Oku`, `Mesaj Gönder` ve `Embed Linkleri` yetkimin olduğundan emin olun.",
+    "suggestionRole": "Önerileri yönetebilmek için <@&$role> rolüne ihtiyacınız var."
+  },
+  "suggestion": {
+    "reason": "Neden",
+    "noReason": "Neden belirtilmedi",
+    "submitted": "Gönderildi",
+    "submittedBy": "Gönderen:",
+    "new": "Yeni Öneri",
+    "approved": "Onaylanmış Öneri",
+    "approvedMessage": "**Öneriniz:**\n\n$suggestion\n\n**onaylanmıştır.**",
+    "approvedMessageReason": "**Öneriniz:**\n\n$suggestion\n\n**Şu nedenle onaylanmıştır:**\n\n$reason",
+    "denied": "Reddedilen Öneri",
+    "deniedMessage": "**Öneriniz:**\n\n$suggestion\n\n**reddedildi.**",
+    "deniedMessageReason": "**Öneriniz:**\n\n$suggestion\n\n**Şu nedenle reddedildi:**\n\n$reason",
+    "potential": "Potansiyel Öneri",
+    "potentialMessage": "**Öneriniz:**\n\n$suggestion\n\n**potansiyel olarak onaylanmıştır.**",
+    "potentialMessageReason": "**Öneriniz:**\n\n$suggestion\n\n**Şu nedenle potansiyel olarak onaylanmıştır:**\n\n$reason",
+    "invalid": "Geçersiz Öneri",
+    "invalidMessage": "**Öneriniz:**\n\n$suggestion\n\n**geçersiz olarak işaretlendi.**",
+    "invalidMessageReason": "**Öneriniz:**\n\n$suggestion\n\n**Şu nedenle geçersiz olarak işaretlendi:**\n\n$reason"
+  },
+  "footer": "**NOT:** `Zira` rolü, rolleri verebilmesi için ayarladığınız rollerden yukarıda ve `Rolleri Yönet` yetkisine sahip olmalıdır.",
+  "example": "Örnek",
+  "guidePage": "Rehber Sayfası",
+  "userPermissions": "Aşağıdaki yetkilere sahip olmadığınız için bu komutu kullanamazsınız: ",
+  "help": {
+    "commands": "Komutlar",
+    "title": "Bağlantılar",
+    "links": [
+      "[Rehber](https://zira.pw/guide/contents)",
+      "[Destek Sunucusu](https://zira.pw/support)",
+      "[Kontrol Paneli](https://zira.pw)",
+      "[Premium](https://zira.pw/premium)",
+      "[Zira'yı Davet Et](https://zira.pw/invite)",
+      "[Zira'yı Çevir](https://translate.zira.pw/)"
+    ],
+    "page": "Sayfa ",
+    "categories": [
+      "Roller",
+      "Öneri",
+      "Kayıtlar",
+      "Diğerleri"
+    ]
+  },
+  "commands": {
+    "info": {
+      "help": "Zira hakkında bilgi.",
+      "params": "",
+      "fields": [
+        "Sürüm",
+        "Destek",
+        "Kütüphane",
+        "Yapımcı",
+        "Sunucular",
+        "Değişim Kaydı"
+      ]
+    },
+    "channel": {
+      "help": "Aktif kanalı ayarla.",
+      "params": " <#kanal>",
+      "set": "Kanal şu olarak ayarlandı: "
+    },
+    "message": {
+      "help": "Aktif mesaj kanalını ayarla veya kanala mesaj gönder.",
+      "params": " <mesaj ID'si | mesaj>",
+      "setID": "Mesaj gönderildi.",
+      "setCreate": "Mesaj ayarlandı."
+    },
+    "add": {
+      "help": "Aktif mesaja normal roller ekle.",
+      "description": "Daha fazla emoji ve rol belirterek aynı zamanda birden fazla rol ekleyebilirsiniz. Her seçenekten sonra virgül kullanarak ayırabilirsiniz, örnek aşağıdadır.",
+      "params": " <emoji> <rol ismi | rol etiketi>",
+      "set": "\n<@&$id> rolü $emoji emojisi ile eklendi"
+    },
+    "list": {
+      "help": "Kurulu tüm rolleri listele.",
+      "params": "",
+      "title": "$name | Rol Listesi",
+      "name": "**İsim:** ",
+      "channel": "**Kanal:** ",
+      "message": "**Mesaj:** ",
+      "emoji": "**Emoji:** ",
+      "type": "**Tür:** ",
+      "types": [
+        "Normal",
+        "Aç/Kapat",
+        "Bir kez",
+        "Çoklu",
+        "Kaldır"
+      ]
+    },
+    "trello": {
+      "help": "Öneriler için Trello entegrasyonu.",
+      "params": " <board ID | aç/kapat>",
+      "supplyBoard": "Lütfen bir board ID'si girin.",
+      "setBoard": "Lütfen önce board'ı ayarlayın.",
+      "boardNotFound": {
+        "title": "Board Bulunamadı",
+        "description": "Belirttiğiniz board'ı bulamadım. Lütfen doğru board ID'sini girdiğinize emin olun ve board'a **`ZiraDiscord`**'u eklediğinizden emin olun."
+      },
+      "dm": {
+        "id": "Trello ID'niz: $id",
+        "success": "Bu board'ı onaylamak için, lütfen size gönderilen mesajdaki ID'yi başlığı olarak ayarlayın. Bu işlemleri tamamladıktan sonra bu kanalda `done` yazın ve yükleme işlemine devam edin.\n\nBunu yapmak için 5 dakikanız var.",
+        "error": "Doğrulama DM'ini gönderemiyorum. Lütfen DM'lerinin açık olduğundan emin ol."
+      },
+      "time": "Zaman doldu. Lütfen tekrar deneyin.",
+      "noCard": "Kart bulunamadı. Lütfen tekrar deneyin.",
+      "validList": "Geçerli bir liste girilmedi. Lütfen geçerli bir listenin ID'sini girin.",
+      "pickNew": "Bir liste seçmek için numarasını veya yeni öneriler için bir liste seçmemek için `none` girin.\n\n",
+      "pickNewTitle": "Yeni Öneriler için Bir Liste Seçin",
+      "pickApprove": "Bir liste seçmek için numarasını veya onaylanmış öneriler için bir liste seçmemek için `none` girin.\n\n",
+      "pickApproveTitle": "Onaylanmış Öneriler için Bir Liste Seçin",
+      "pickDenied": "Bir liste seçmek için numarasını veya reddedilmiş öneriler için bir liste seçmemek için `none` girin.\n\n",
+      "pickDeniedTitle": "Reddedilmiş Öneriler için Bir Liste Seçin",
+      "pickPotential": "Bir liste seçmek için numarasını veya potansiyel öneriler için bir liste seçmemek için `none` girin.\n\n",
+      "pickPotentialTitle": "Potansiyel Öneriler için Bir Liste Seçin",
+      "pickInvalid": "Bir liste seçmek için numarasını veya geçersiz öneriler için bir liste seçmemek için `none` girin.\n\n",
+      "pickInvalidTitle": "Geçersiz Öneriler için Bir Liste Seçin",
+      "set": "Board ve liste(ler) ayarlandı."
+    },
+    "config": {
+      "help": "Sunucu ayarlarını yönet.",
+      "params": "",
+      "role": {
+        "noParam": "Lütfen bir rol girin.",
+        "disable": "Doğru yetkilere sahip herkes bundan sonra Zira'nın komutlarını kullanabilir",
+        "success": "Bundan sonra artık sadece sunucunun sahibi ve $role rolüne sahip kullanıcılar Zira'nın komutlarını kullanabilir."
+      },
+      "main": [
+        {
+          "name": " rol <role | disable>",
+          "value": "Hangi rolün komutları kullanabileceğini veya kullanamayacağını ayarlayın."
+        }
+      ]
+    },
+    "edit": {
+      "help": "Aktif kanalda Zira'nın gönderdiği bir mesajı düzenleyin.",
+      "params": "<mesaj ID'si> <yeni mesaj>",
+      "owner": "Bu mesaj Zira tarafından gönderilmemiş.",
+      "success": "Mesaj düzenlendi."
+    },
+    "toggle": {
+      "help": "Geçerli mesaja açıp kapanabilir roller ekle.",
+      "params": "<emoji> <rol adı | rol etiketi>",
+      "limit": "En fazla 6 adet açıp kapatılabilir rol limitine ulaştınız. [Bağış](https://zira.pw/premium) yaparak sınırsız hak elde edebilirsiniz.",
+      "over": "Bunu eklemeniz açıp kapanabilir rol limitinize ulaşmanıza neden olacaktır. [Bağış](https://zira.pw/premium) yaparak limitinizi sınırsız yapabilirsiniz."
+    },
+    "once": {
+      "help": "Aktif mesaja sadece bir kez alınabilir rol(ler) eklendi.",
+      "params": " <emoji> <rol adı | rol etiketi>"
+    },
+    "multi": {
+      "help": "Aktif mesaja birden çok rol veren emoji eklendi.",
+      "params": " <emoji> <rol adı | rol etiketi>, <rol adı | rol etiketi>",
+      "ordinal": "$pos rolü bulunamıyor.",
+      "usedEmoji": "Bu emoji bu mesajda zaten kullanılıyor.",
+      "set": "$roles, $emoji ile ayarlandı"
+    },
+    "delete": {
+      "help": "Ayarlanmış rolleri kaldırın.",
+      "params": " <mesaj ID'si> <rol ismi | rol etiketi | kontrol>",
+      "noRoles": "Bu mesajda herhangi bir rol ayarlı değil.",
+      "removedCheck": "Bu mesajdan $num sayıda rol kaldırıldı.",
+      "good": "Tüm roller geçerli, hiçbiri silinmedi.",
+      "removed": "$emoji emojisine bağlı <@&$id> rol silindi",
+      "message": "Rol, belirtilen mesajda geçerli olmadığı için kaldırılamadı."
+    },
+    "autorole": {
+      "help": "Kullanıcılar/botlar girdiğinde rol verin..",
+      "params": "",
+      "title": "Otomatik Rol",
+      "ubParams": " <rol ismi | rol etiketi>",
+      "user": "Bir kullanıcı girince verilmesi gereken rol ekleyin.\n\nOtomatik rol için kullanılan bir rolü kaldırmak için komutu tekrar kullanın.",
+      "userAdd": "$role rolü yeni kullanıcılar girince o kullanıcıya verilecek.",
+      "userRemove": "$role rolü bundan sonra yeni giren kullanıcılara verilmeyecek.",
+      "bot": "Bir bot girince verilmesi gereken rol ekleyin.\n\nOtomatik rol için kullanılan bir rolü kaldırmak için komutu tekrar kullanın.",
+      "botAdd": "$role rolü yeni botlar girince o bota verilecek.",
+      "botRemove": "$role rolü bundan sonra yeni giren botlara verilmeyecek.",
+      "showUser": "Kullanıcı Rolleri",
+      "showBot": "Bot Rolleri",
+      "nonSet": "Ayarlı rol yok",
+      "main": [
+        {
+          "name": " kullanıcı <rol isim | rol etiketi>",
+          "value": "Kullanıcılar katılınca verilecek rolleri ayarla."
+        },
+        {
+          "name": " bot <rol ismi | rol etiketi>",
+          "value": "Botlar katılınca verilecek rolleri ayarla."
+        },
+        {
+          "name": " göster",
+          "value": "Şuanda ayarlı rolleri göster."
+        }
+      ]
+    },
+    "suggestion": {
+      "help": "Öneri ayarları.",
+      "params": "",
+      "channel": {
+        "help": " channel <new | approved | denied | invalid | potential> <#kanal>",
+        "description": "Hangi kanalın yeni, onaylanmış, reddedilmiş, potansiyel ve geçersiz önerilerin gönderileceği kanalı ayarlayın.",
+        "set": "$type türündeki öneriler $channel kanalına gönderilecek."
+      },
+      "submit": {
+        "help": " submit <#kanal>",
+        "description": "Önerilerin sadece hangi kanaldan gönderileceğini ayarlayın.",
+        "set": "Öneriler bundan sonra sadece $channel kanalından gönderilebilecek.",
+        "disable": "Öneriler artık her kanaldan gönderilebilir."
+      },
+      "dm": {
+        "on": "Öneri onaylandığında, reddedildiğinde, potansiyel onay aldığında veya geçersiz olarak işaretlendiğide kullanıcıya bir DM gönderilecek.",
+        "off": "Kullanıcılar artık önerileri hakkında DM almayacak."
+      },
+      "reaction": {
+        "on": "Emojiler bundan sonra yeni önerilere tepki olarak eklenecek.",
+        "off": "Emojiler bundan sonra yeni önerilere tepki olarak eklenmeyecek."
+      },
+      "emojis": {
+        "help": " emojis <emoji> <emoji>",
+        "description": "Yeni önerilere eklencek olan emojileri ayarlayın.",
+        "set": "$emoji1, $emoji2 emojileri, tepki ayarı açıksa yeni önerilere eklenecek."
+      },
+      "role": {
+        "help": " role <rol ismi | rol etiketi | disable>",
+        "description": "Bir rolün gönderebileceği öneri sayısını ayarlayın.",
+        "disable": "Bundan sonra `Sunucuyu Yönet` yetkisine sahip herhangi biri önerileri onaylayabilir ve reddedebilir.",
+        "set": "Bundan sonra sadece $role rolüne sahip kullanıcılar önerileri onaylayabilir veya reddebilir."
+      },
+      "main": [
+        {
+          "name": " channel <new | approved | denied | invalid | potential> <#kanal>",
+          "value": "Yeni, onaylanmış ve reddedilmiş önerilerin gönderileceği kanalı ayarlayın."
+        },
+        {
+          "name": " submit <#kanal>",
+          "value": "Bir kanala gönderilebilecek öneri limitini ayarlayın."
+        },
+        {
+          "name": " dm",
+          "value": "Kullanıcıların önerileri hakkında DM alıp almayacaklarını ayarlayın."
+        },
+        {
+          "name": " tepki",
+          "value": "Yeni önerilere emojilerin eklenip eklenmeyeceğini ayarlayın."
+        },
+        {
+          "name": " emojis <emoji> <emoji>",
+          "value": "Yeni önerilere eklencek olan emojileri ayarlayın."
+        },
+        {
+          "name": " role <rol ismi | rol etiketi>",
+          "value": "Bir rolün gönderebileceği öneri sayısını ayarlayın."
+        }
+      ]
+    },
+    "invite": {
+      "help": "Zira'yı davet et.",
+      "params": ""
+    },
+    "remove": {
+      "help": "Aktif mesaja bir rolü kaldıracak emoji eklendi.",
+      "params": " <emoji> <rol ismi | rol etiketi>",
+      "description": "Zira bir rolü kaldırırkan siz başka bir rol ekleyebilirsiniz. Bunun için diğer rolden önce virgül kullanmalısınız. Örnek aşağıdadır.",
+      "limit": "Rol kaldırma limiti olan 6'ya ulaştınız. Limitsiz rol kaldırmaya sahip olmak için [bağış](https://zira.pw/premium) yapabilirsiniz.",
+      "remove": "$role rolü kaldırılacak",
+      "removeAdd": "$role1 kaldırılacak ve $role2 rolü verilecek",
+      "emoji": " $emoji emojisi ile"
+    },
+    "submit": {
+      "help": " Bir öneri gönder",
+      "params": " <öneri>",
+      "noChannel": "Ayarlanmış bir öneri kanalı yok. Lütfen bir tane ayarlayın.",
+      "wrongChannel": "Öneri göndermek için <#$channel> kanalını kullanın.",
+      "card": {
+        "title": "Yeni Öneri: $suggestion",
+        "body": "$suggestion\n\nGönderen: $user"
+      },
+      "success": "Öneri gönderildi."
+    },
+    "approve": {
+      "help": "Öneriyi onayla",
+      "params": " <öneri ID'si | mesaj ID'si>",
+      "success": "Öneri onaylandı."
+    },
+    "deny": {
+      "help": "Öneri reddet",
+      "params": " <öneri ID'si | mesaj ID'si>",
+      "success": "Öneri reddedildi."
+    },
+    "maybe": {
+      "help": "Potansiyel olarak öneri onayla.",
+      "params": " <öneri ID'si | mesaj ID'si>",
+      "success": "Öneri potansiyel olarak onaylandı."
+    },
+    "invalid": {
+      "help": "Öneriyi geçersiz olarak işaretle.",
+      "params": " <öneri ID'si | mesaj ID'si>",
+      "success": "Öneri geçersiz olarak işaretlendi."
+    },
+    "log": {
+      "help": "Rol kayıtlarını kur.",
+      "params": " <#kanal | disable>",
+      "disabled": "Rol kayıtları devredışı bırakıldı",
+      "set": "Tepki ekleyince verilen roller bundan sonra şuraya kayıt edilecek ",
+      "give": "<@$user>, <@&$role> rolü için $emoji tepkisi ekledi",
+      "giveMulti": "<@$user>, $roles rolleri için $emoji tepkisi ekledi",
+      "giveRemove": "<@$user>, <@&$role1> rolünü kaldırmak ve <@&$role2> rolünü almak için $emoji tepkisini ekledi",
+      "remove": "<@$user>, <@&$role> rolünü kaldırmak için $emoji tepkisini ekledi",
+      "removeMulti": "<@$user>, $roles rollerini kaldırmak için $emoji tepkisini ekledi"
+    },
+    "prefix": {
+      "help": "Özel önek ekle",
+      "params": " <önek>",
+      "error": "Lütfen 1 ila 10 karakter arasında bir önek yazın. Yazdığınız önekte şunlardan en az bir tanesinin olması gerekmektedir: `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
+      "set": "Sunucu prefixi şu olarak ayarlandı "
+    },
+    "colors": {
+      "help": "Zira, 8 tane renkli rol oluşturacaktır",
+      "params": "",
+      "perms": "`Rolleri Yönet` yetkisine sahip değilim.",
+      "done": "Şu rolleri oluşturdum: ",
+      "none": "Hali hazırda roller olduğu için hiçbir rol oluşturulmadı."
+    },
+    "leave": {
+      "help": "Kullanıcı ayrılınca bir mesaj gönder.",
+      "params": "",
+      "placeholderTitle": "Mesaj Etiketleri",
+      "placeholders": "$user ~~-~~ kullanıcı adı\n$mention ~~-~~ kullanıcı etiketi\n$guild ~~-~~ sunucu adı\n$membercount ~~-~~ yeni kullanıcı sayısı",
+      "channelSet": "Çıkış mesajları şuraya gönderilecek: ",
+      "channelDisable": "Çıkış mesajları bundan sonra gönderilmeyecek.",
+      "messagePick": "Aşağıdaki bir mesajı kaldırmak için **z/leave kaldırma ID'si** komutunu kullanın.\n\n",
+      "messageSet": "Mesaj eklendi.",
+      "messageMissing": "Lütfen bir mesaj girin",
+      "messageRemove": "Mesaj silindi.",
+      "noMessages": "Gönderilmiş bir mesaj yok.",
+      "unknownID": "ID bilinmiyor.",
+      "main": [
+        {
+          "name": " channel <#kanal | disable>",
+          "value": "Kullanıcılar çıkış yaptığında mesajların gönderileceği kanalı ayarla."
+        },
+        {
+          "name": " add <mesaj>",
+          "value": "Göndermek için bir mesaj ayarla. Rastgele gönderilmesi için birden fazla mesaj ekleyebilirsiniz."
+        },
+        {
+          "name": " remove <ID>",
+          "value": "Gönderilmiş bir mesajı sil."
+        },
+        {
+          "name": " liste",
+          "value": "Tüm çıkış mesajlarıın listele."
+        }
+      ]
+    },
+    "join": {
+      "help": "Bir kullanıcı katılınca mesaj gönder.",
+      "params": "",
+      "placeholderTitle": "Mesaj Etiketleri",
+      "placeholders": "$user ~~-~~ kullanıcı adı\n$mention ~~-~~ kullanıcı etiketi\n$guild ~~-~~ sunucu adı\n$membercount ~~-~~ yeni kullanıcı sayısı",
+      "channelSet": "Giriş mesajları şuraya gönderilecek: ",
+      "channelDisable": "Bundan sonra giriş mesajları gönderilmeyecek.",
+      "messagePick": "Aşağıdaki bir mesajı kaldırmak için **z/join kaldırma ID'si** komutunu kullanın.\n\n",
+      "messageSet": "Mesaj eklendi.",
+      "messageMissing": "Lütfen bir mesaj girin",
+      "messageRemove": "Mesaj silindi.",
+      "noMessages": "Gönderilmiş bir mesaj yok.",
+      "unknownID": "ID bilinmiyor.",
+      "main": [
+        {
+          "name": " kanal <#kanal | disable>",
+          "value": "Bir kullanıcı katıldığından mesajların atılacağı kanalı ayarlayın."
+        },
+        {
+          "name": " add <mesaj>",
+          "value": "Gönderilmek için bir mesaj ekle. Rastgele gönderilmesi için birden fazla mesaj ekleyebilirsiniz."
+        },
+        {
+          "name": " remove <ID>",
+          "value": "Gönderilmiş bir mesajı sil."
+        },
+        {
+          "name": " liste",
+          "value": "Tüm giriş mesajlarını listele."
+        }
+      ]
+    },
+    "lang": {
+      "help": "Sunucunun dilini ayarla.",
+      "params": " <dil kodu>",
+      "update": "Dil ayarlandı.",
+      "translate": "Eğer Zira'yı yukarıda olmayan başka bir dilde görmek istiyorsanız, Zira'nın [Crowdin](https://translate.zira.pw) üzerinde çevrilmesine yardım edebilirsiniz."
+    },
+    "vote": {
+      "help": "Botu oyla.",
+      "params": "",
+      "description": "Aşağıdan Zira'yı oylayabilirsiniz. Şimdilik herhangi bir ödül yok ancak bir ödül sistemi üzerinde çalışmalar yapıyoruz.\nKullandığınız oylar kayıt altına alınacak ve gelecek olan sistemde de şuanda kullandığınız tüm oylar geçerli olacak.\nOylamak için [buraya]($link) tıklayabilirsiniz!"
+    }
+  }
+}
