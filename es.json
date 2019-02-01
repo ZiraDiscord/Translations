@@ -416,7 +416,7 @@
     "lang": {
       "help": "Establece el idioma para el servidor.",
       "params": " <código del idioma>",
-      "update": "Language set.",
+      "update": "Idioma establecido.",
       "translate": "Si quieres que Zira esté en un idioma que no está en la lista de arriba, puedes ayudar a traducir a Zira en [Crowdin](https://translate.zira.pw)"
     },
     "vote": {
