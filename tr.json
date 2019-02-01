@@ -71,7 +71,7 @@
   },
   "commands": {
     "info": {
-      "help": "Zira hakkında bilgi.",
+      "help": "Zira hakkında bilgi gösterir.",
       "params": "",
       "fields": [
         "Sürüm",
@@ -83,12 +83,12 @@
       ]
     },
     "channel": {
-      "help": "Aktif kanalı ayarla.",
+      "help": "Aktif kanalı ayarlar.",
       "params": " <#kanal>",
       "set": "Kanal şu olarak ayarlandı: "
     },
     "message": {
-      "help": "Aktif mesaj kanalını ayarla veya kanala mesaj gönder.",
+      "help": "Aktif mesaj kanalını ayarlar veya kanala mesaj gönderir.",
       "params": " <mesaj ID'si | mesaj>",
       "setID": "Mesaj gönderildi.",
       "setCreate": "Mesaj ayarlandı."
@@ -100,7 +100,7 @@
       "set": "\n<@&$id> rolü $emoji emojisi ile eklendi"
     },
     "list": {
-      "help": "Kurulu tüm rolleri listele.",
+      "help": "Kurulu tüm rolleri listeler.",
       "params": "",
       "title": "$name | Rol Listesi",
       "name": "**İsim:** ",
@@ -117,7 +117,7 @@
       ]
     },
     "trello": {
-      "help": "Öneriler için Trello entegrasyonu.",
+      "help": "Öneriler için Trello entegrasyonunu ayarlar.",
       "params": " <board ID | aç/kapat>",
       "supplyBoard": "Lütfen bir board ID'si girin.",
       "setBoard": "Lütfen önce board'ı ayarlayın.",
@@ -146,7 +146,7 @@
       "set": "Board ve liste(ler) ayarlandı."
     },
     "config": {
-      "help": "Sunucu ayarlarını yönet.",
+      "help": "Sunucu ayarlarını yönetmeye yarar.",
       "params": "",
       "role": {
         "noParam": "Lütfen bir rol girin.",
@@ -161,7 +161,7 @@
       ]
     },
     "edit": {
-      "help": "Aktif kanalda Zira'nın gönderdiği bir mesajı düzenleyin.",
+      "help": "Aktif kanalda Zira'nın gönderdiği bir mesajı düzenler.",
       "params": "<mesaj ID'si> <yeni mesaj>",
       "owner": "Bu mesaj Zira tarafından gönderilmemiş.",
       "success": "Mesaj düzenlendi."
@@ -173,18 +173,18 @@
       "over": "Bunu eklemeniz açıp kapanabilir rol limitinize ulaşmanıza neden olacaktır. [Bağış](https://zira.pw/premium) yaparak limitinizi sınırsız yapabilirsiniz."
     },
     "once": {
-      "help": "Aktif mesaja sadece bir kez alınabilir rol(ler) eklendi.",
+      "help": "Aktif mesaja sadece bir kez alınabilir rol ekler.",
       "params": " <emoji> <rol adı | rol etiketi>"
     },
     "multi": {
-      "help": "Aktif mesaja birden çok rol veren emoji eklendi.",
+      "help": "Aktif mesaja birden çok rol veren emoji ekler.",
       "params": " <emoji> <rol adı | rol etiketi>, <rol adı | rol etiketi>",
       "ordinal": "$pos rolü bulunamıyor.",
       "usedEmoji": "Bu emoji bu mesajda zaten kullanılıyor.",
       "set": "$roles, $emoji ile ayarlandı"
     },
     "delete": {
-      "help": "Ayarlanmış rolleri kaldırın.",
+      "help": "Ayarlanmış rolleri kaldırır.",
       "params": " <mesaj ID'si> <rol ismi | rol etiketi | kontrol>",
       "noRoles": "Bu mesajda herhangi bir rol ayarlı değil.",
       "removedCheck": "Bu mesajdan $num sayıda rol kaldırıldı.",
@@ -193,7 +193,7 @@
       "message": "Rol, belirtilen mesajda geçerli olmadığı için kaldırılamadı."
     },
     "autorole": {
-      "help": "Kullanıcılar/botlar girdiğinde rol verin..",
+      "help": "Kullanıcılar veya botlar girdiğinde rol verir.",
       "params": "",
       "title": "Otomatik Rol",
       "ubParams": " <rol ismi | rol etiketi>",
@@ -222,7 +222,7 @@
       ]
     },
     "suggestion": {
-      "help": "Öneri ayarları.",
+      "help": "Öneri ayarlarını gösterir.",
       "params": "",
       "channel": {
         "help": " channel <new | approved | denied | invalid | potential> <#kanal>",
@@ -286,7 +286,7 @@
       "params": ""
     },
     "remove": {
-      "help": "Aktif mesaja bir rolü kaldıracak emoji eklendi.",
+      "help": "Aktif mesaja kullanıcıdan bir rolü kaldıracak emoji ekler.",
       "params": " <emoji> <rol ismi | rol etiketi>",
       "description": "Zira bir rolü kaldırırkan siz başka bir rol ekleyebilirsiniz. Bunun için diğer rolden önce virgül kullanmalısınız. Örnek aşağıdadır.",
       "limit": "Rol kaldırma limiti olan 6'ya ulaştınız. Limitsiz rol kaldırmaya sahip olmak için [bağış](https://zira.pw/premium) yapabilirsiniz.",
@@ -295,7 +295,7 @@
       "emoji": " $emoji emojisi ile"
     },
     "submit": {
-      "help": " Bir öneri gönder",
+      "help": " Bir öneri gönderir.",
       "params": " <öneri>",
       "noChannel": "Ayarlanmış bir öneri kanalı yok. Lütfen bir tane ayarlayın.",
       "wrongChannel": "Öneri göndermek için <#$channel> kanalını kullanın.",
@@ -306,27 +306,27 @@
       "success": "Öneri gönderildi."
     },
     "approve": {
-      "help": "Öneriyi onayla",
+      "help": "Öneriyi onaylar.",
       "params": " <öneri ID'si | mesaj ID'si>",
       "success": "Öneri onaylandı."
     },
     "deny": {
-      "help": "Öneri reddet",
+      "help": "Öneri reddeder.",
       "params": " <öneri ID'si | mesaj ID'si>",
       "success": "Öneri reddedildi."
     },
     "maybe": {
-      "help": "Potansiyel olarak öneri onayla.",
+      "help": "Bir öneriyi potansiyel olarak onaylar.",
       "params": " <öneri ID'si | mesaj ID'si>",
       "success": "Öneri potansiyel olarak onaylandı."
     },
     "invalid": {
-      "help": "Öneriyi geçersiz olarak işaretle.",
+      "help": "Bir öneriyi geçersiz olarak işaretler.",
       "params": " <öneri ID'si | mesaj ID'si>",
       "success": "Öneri geçersiz olarak işaretlendi."
     },
     "log": {
-      "help": "Rol kayıtlarını kur.",
+      "help": "Rol kayıtlarını kurmaya yarar.",
       "params": " <#kanal | disable>",
       "disabled": "Rol kayıtları devredışı bırakıldı",
       "set": "Tepki ekleyince verilen roller bundan sonra şuraya kayıt edilecek ",
@@ -337,20 +337,20 @@
       "removeMulti": "<@$user>, $roles rollerini kaldırmak için $emoji tepkisini ekledi"
     },
     "prefix": {
-      "help": "Özel önek ekle",
+      "help": "Özel önek ekler.",
       "params": " <önek>",
       "error": "Lütfen 1 ila 10 karakter arasında bir önek yazın. Yazdığınız önekte şunlardan en az bir tanesinin olması gerekmektedir: `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
       "set": "Sunucu prefixi şu olarak ayarlandı "
     },
     "colors": {
-      "help": "Zira, 8 tane renkli rol oluşturacaktır",
+      "help": "Zira, 8 adet renkli rol oluşturur.",
       "params": "",
       "perms": "`Rolleri Yönet` yetkisine sahip değilim.",
       "done": "Şu rolleri oluşturdum: ",
       "none": "Hali hazırda roller olduğu için hiçbir rol oluşturulmadı."
     },
     "leave": {
-      "help": "Kullanıcı ayrılınca bir mesaj gönder.",
+      "help": "Kullanıcı ayrılınca bir mesaj göndertir.",
       "params": "",
       "placeholderTitle": "Mesaj Etiketleri",
       "placeholders": "$user ~~-~~ kullanıcı adı\n$mention ~~-~~ kullanıcı etiketi\n$guild ~~-~~ sunucu adı\n$membercount ~~-~~ yeni kullanıcı sayısı",
@@ -382,7 +382,7 @@
       ]
     },
     "join": {
-      "help": "Bir kullanıcı katılınca mesaj gönder.",
+      "help": "Bir kullanıcı katılınca mesaj göndertir.",
       "params": "",
       "placeholderTitle": "Mesaj Etiketleri",
       "placeholders": "$user ~~-~~ kullanıcı adı\n$mention ~~-~~ kullanıcı etiketi\n$guild ~~-~~ sunucu adı\n$membercount ~~-~~ yeni kullanıcı sayısı",
@@ -414,7 +414,7 @@
       ]
     },
     "lang": {
-      "help": "Sunucunun dilini ayarla.",
+      "help": "Sunucunun dilini ayarlar.",
       "params": " <dil kodu>",
       "update": "Dil ayarlandı.",
       "translate": "Eğer Zira'yı yukarıda olmayan başka bir dilde görmek istiyorsanız, Zira'nın [Crowdin](https://translate.zira.pw) üzerinde çevrilmesine yardım edebilirsiniz."
