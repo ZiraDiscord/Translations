@@ -1,5 +1,5 @@
 {
-  "language": "English",
+  "language": "Pirate English",
   "titles": {
     "use": "Command Usage",
     "error": "Error :warning:",
@@ -62,13 +62,25 @@
       "[Translate Zira](https://translate.zira.pw/)"
     ],
     "page": "Page ",
-    "categories": ["Roles", "Suggestion", "Logging", "Miscellaneous"]
+    "categories": [
+      "Roles",
+      "Suggestion",
+      "Logging",
+      "Miscellaneous"
+    ]
   },
   "commands": {
     "info": {
       "help": "Info about Zira.",
       "params": "",
-      "fields": ["Version", "Support", "Library", "Made By", "Guilds", "Changelog"]
+      "fields": [
+        "Version",
+        "Support",
+        "Library",
+        "Made By",
+        "Guilds",
+        "Changelog"
+      ]
     },
     "channel": {
       "help": "Set the active channel.",
@@ -96,7 +108,13 @@
       "message": "**Message:** ",
       "emoji": "**Emoji:** ",
       "type": "**Type:** ",
-      "types": ["Normal", "Toggle", "Once", "Multi", "Remove"]
+      "types": [
+        "Normal",
+        "Toggle",
+        "Once",
+        "Multi",
+        "Remove"
+      ]
     },
     "trello": {
       "help": "Trello integration with suggestions.",
@@ -327,7 +345,7 @@
     "colors": {
       "help": "Zira will create 8 colored roles",
       "params": "",
-      "perms" :"I'm missing the permission `Manage Roles`.",
+      "perms": "I'm missing the permission `Manage Roles`.",
       "done": "I have created the following roles: ",
       "none": "No roles were created, as there are already color roles."
     },
@@ -399,7 +417,7 @@
       "help": "Set the language for the guild.",
       "params": " <language code>",
       "update": "Language set.",
-      "translate" :"If you want Zira in a language that isn't on the list above, you can help translate Zira on [Crowdin](https://translate.zira.pw)"
+      "translate": "If you want Zira in a language that isn't on the list above, you can help translate Zira on [Crowdin](https://translate.zira.pw)"
     },
     "vote": {
       "help": "Vote for the bot.",
