@@ -143,7 +143,7 @@
       "pickPotentialTitle": "Alege o Listă pentru Sugestii Potențiale",
       "pickInvalid": "Scrie numărul corespondent pentru a alege o listă, sau 'none' pentru a nu alege o listă pentru sugestii invalide.\n\n",
       "pickInvalidTitle": "Alege o Listă pentru Sugestii Invalide",
-      "set": "Board and list(s) set."
+      "set": "Tablă și listă/liste setate."
     },
     "config": {
       "help": "Modifică setările server-ului.",
@@ -161,7 +161,7 @@
       ]
     },
     "edit": {
-      "help": "Edit a message sent by Zira in the active channel.",
+      "help": "Editează un mesaj trimis de Zira în canalul activ.",
       "params": " <ID mesaj> <mesaj nou>",
       "owner": "Acel mesaj nu a fost trimis de mine.",
       "success": "Mesaj editat."
