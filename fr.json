@@ -1,8 +1,8 @@
 {
   "language": "Anglais",
   "titles": {
-    "use": "Command Usage",
-    "error": "Error :warning:",
+    "use": "Utilisation de la commande",
+    "error": "Erreur :warning:",
     "complete": "Complete :white_check_mark:"
   },
   "errors": {
