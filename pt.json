@@ -9,6 +9,7 @@
     "generic": "Ocorreu um erro. Se o error persistir, por favor junte-se a guilda de apoio.",
     "unknownChannel": "Canal desconhecido. Se é o canal correto, por favor certifique-se de que tenho permissão para visualizá-lo.",
     "unknownRole": "Cargo desconhecido. Por favor certifique-se que o cargo existe.",
+
     "missingPermissionChannelRead": "I'm missing the permissions `Read Messages` and/or `Read Message History` in the active channel.",
     "missingPermissionChannelReaction": "I'm missing the permissions `Add Reactions` and/or `Use External Emojis` in the active channel.",
     "missingPermissionChannelSend": "I'm missing the permission `Send Messages` in the active channel.",
