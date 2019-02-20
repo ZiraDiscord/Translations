@@ -1,5 +1,5 @@
 {
-  "language": "Angielski",
+  "language": "Polski",
   "titles": {
     "use": "Użycie Polecenia",
     "error": "Błąd :warning:",
@@ -19,11 +19,13 @@
     "usedEmoji": "Emoji w parze $pair jest już w użyciu na tej wiadomości.",
     "usedRole": "Rola w parze $pair jest już w użyciu na tej wiadomości.",
     "unknownMessage": "Aktywna wiadomość jest nieznana, sprawdź moje zezwolenia i czy wiadomość ciągle istnieje.",
-    "unknownEmoji": "Nie mogę używać tego emoji. Jeśli jest to zewnętrzna wiadomość upewnij się że jestem w gilidii w której ona się znajduje",
+
+    "unknownEmoji": "Nie mogę używać tego emoji. Jeśli jest to zewnętrzny emoji upewnij się że jestem w gilidii w której on się znajduje",
     "premium": "Ta opcja jest ekskluzywna dla [premium] (https://zira.pw/premium).",
-    "suggestionID": "Spróbuj ponownie z ID sugestji.",
+    "suggestionID": "Spróbuj ponownie z ID sugestii.",
     "unknownSuggestion": "Nieznana sugestia.",
-    "suggestionRead": "Nie można pobrać sugestji $suggestion w <#$channel>. Upewnij się że posiadam zezwolenie `Czytanie Wiadomości` w tym kanale, I cyz sugestia nie została usunięta.",
+    "suggestionRead": "Nie można pobrać sugestii $suggestion w <#$channel>. Upewnij się że posiadam zezwolenie `Czytanie Wiadomości` w tym kanale, I cyz sugestia nie została usunięta.",
+
     "suggestionSend": "Nie można wysłać sugestji do $channel. Upewnij się że posiadam uprawnienia `Czytanie Wiadomości`, `Wysyłanie Wiadomości` i `Zamieszczanie Linków` w tym kanale.",
     "suggestionRole": "Potrzebujesz rolę <@&$role> aby zarządzać sugestiami."
   },
