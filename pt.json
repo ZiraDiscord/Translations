@@ -18,41 +18,41 @@
     "ordinalPair": "Unknown role in $pair pair.",
     "usedEmoji": "The emoji in the $pair pair is already used on this message.",
     "usedRole": "The role in the $pair pair is already used on this message.",
-    "unknownMessage": "The active message is unknown, please check my permissions and that the message still exists.",
+    "unknownMessage": "A mensagem activa é desconhecida, por favor verifique as minhas permissões e se a mensagem ainda existe.",
     "unknownEmoji": "I can't use this emoji. If it's a custom emoji, please make sure I'm in the guild where it's from",
     "premium": "This feature is [premium](https://zira.pw/premium) only.",
-    "suggestionID": "Please try again with a suggestion ID.",
-    "unknownSuggestion": "Unknown suggestion.",
+    "suggestionID": "Por favor tente outra vez com um ID de sugestão.",
+    "unknownSuggestion": "Sugestão desconhecida.",
     "suggestionRead": "Unable to get the suggestion $suggestion in <#$channel>. Please make sure I have the permission `Read Messages` in the channel, and that the suggestion wasn't deleted.",
     "suggestionSend": "Unable to send the suggestion to $channel. Please make sure I have the permissions `Read Messages`, `Send Messages`, and `Embed Links` in the channel.",
     "suggestionRole": "You need the <@&$role> role to manage suggestions."
   },
   "suggestion": {
-    "reason": "Reason",
-    "noReason": "No reason",
-    "submitted": "Submitted",
-    "submittedBy": "Submitted by:",
-    "new": "New Suggestion",
-    "approved": "Approved Suggestion",
-    "approvedMessage": "**Your suggestion:**\n\n$suggestion\n\n**Has been approved.**",
-    "approvedMessageReason": "**Your suggestion:**\n\n$suggestion\n\n**Has been approved with the reason:**\n\n$reason",
-    "denied": "Denied Suggestion",
+    "reason": "Razão",
+    "noReason": "Sem razão",
+    "submitted": "Submetido",
+    "submittedBy": "Submetido por:",
+    "new": "Nova Sugestão",
+    "approved": "Sugestão Aprovada",
+    "approvedMessage": "**A sua sugestão:**\n\n$suggestion\n\n**Foi approvada**",
+    "approvedMessageReason": "**A sua sugestão:**\n\n$suggestion\n\n**Foi approvada com a seguinte razão:**\n\n$reason",
+    "denied": "Sugestão Recusada",
     "deniedMessage": "**Your suggestion:**\n\n$suggestion\n\n**Has been denied.**",
     "deniedMessageReason": "**Your suggestion:**\n\n$suggestion\n\n**Has been denied with the reason:**\n\n$reason",
     "potential": "Potential Suggestion",
     "potentialMessage": "**Your suggestion:**\n\n$suggestion\n\n**Has been potentially approved.**",
     "potentialMessageReason": "**Your suggestion:**\n\n$suggestion\n\n**Has been potentially approved with the reason:**\n\n$reason",
-    "invalid": "Invalid Suggestion",
+    "invalid": "Sugestão Invalida",
     "invalidMessage": "**Your suggestion:**\n\n$suggestion\n\n**Has been marked as invalid.**",
     "invalidMessageReason": "**Your suggestion:**\n\n$suggestion\n\n**Has been marked as invalid with the reason:**\n\n$reason"
   },
   "footer": "**NOTE:** The `Zira` role needs to be above the role(s) you've set, and needs to have the `Manage Roles` permission to give them.",
-  "example": "Example",
+  "example": "Exemplo",
   "guidePage": "Guide Page",
   "userPermissions": "You can't use this command because you are missing the following permission(s): ",
   "help": {
-    "commands": "Commands",
-    "title": "Links",
+    "commands": "Comandos",
+    "title": "Hiperligações",
     "links": [
       "[Guide](https://zira.pw/guide/contents)",
       "[Support Guild](https://zira.pw/support)",
@@ -61,23 +61,23 @@
       "[Invite Zira](https://zira.pw/invite)",
       "[Translate Zira](https://translate.zira.pw/)"
     ],
-    "page": "Page ",
+    "page": "Página ",
     "categories": [
-      "Roles",
-      "Suggestion",
+      "Cargos",
+      "Sugestões",
       "Logging",
       "Miscellaneous"
     ]
   },
   "commands": {
     "info": {
-      "help": "Info about Zira.",
+      "help": "Informação sobre a Zira.",
       "params": "",
       "fields": [
-        "Version",
-        "Support",
-        "Library",
-        "Made By",
+        "Versão",
+        "Suporte",
+        "Livraria",
+        "Feito por",
         "Guilds",
         "Changelog"
       ]
@@ -113,11 +113,11 @@
         "Toggle",
         "Once",
         "Multi",
-        "Remove"
+        "Remover"
       ]
     },
     "trello": {
-      "help": "Trello integration with suggestions.",
+      "help": "Trello integrado com sugestões.",
       "params": " <board ID | toggle>",
       "supplyBoard": "Please supply a board ID.",
       "setBoard": "Please set a board first.",
@@ -126,12 +126,12 @@
         "description": "I was unable to find that board. Please make sure you have the right board ID, and that you have added **`ZiraDiscord`** to the board."
       },
       "dm": {
-        "id": "Your Trello ID is $id",
+        "id": "O seu ID do Trello é $id",
         "success": "To verify this board, please create a card that has the title set to the ID that has been sent to you. After you have done this, please type `done` in this channel to continue the setup.\n\nYou will have 5 minutes to do this.",
         "error": "I was unable to send you the verification DM. Please make sure I can send you a DM."
       },
-      "time": "You have ran out of time. Please try again.",
-      "noCard": "Unable to find the card. Please try again.",
+      "time": "Ficou sem tempo. Por favor tente novamente.",
+      "noCard": "Não foi possivel encontrar o cartão. Por favor tente novamente.",
       "validList": "That is not a valid list. Please input a valid list ID.",
       "pickNew": "Type the corresponding number to pick a list, or `none` to not pick a list for new suggestions.\n\n",
       "pickNewTitle": "Pick a List for New Suggestions",
@@ -188,7 +188,7 @@
       "params": " <message ID> <role name | role mention | check>",
       "noRoles": "No roles are set on that message.",
       "removedCheck": "$num roles removed from that message.",
-      "good": "All roles exist, none were removed.",
+      "good": "Todos os cargos existem, nenhum foi removido.",
       "removed": "<@&$id> removed with the emoji $emoji",
       "message": "Unable to remove the role as it wasn't on the specified message."
     },
@@ -203,9 +203,9 @@
       "bot": "Add a role that should be given when a bot joins.\n\nTo remove a role being used in autorole, just do the command again.",
       "botAdd": "$role will be given when a bot joins.",
       "botRemove": "$role will no longer be given when a bot joins.",
-      "showUser": "User Roles",
-      "showBot": "Bot Roles",
-      "nonSet": "No roles set",
+      "showUser": "Cargos de Utilizadores",
+      "showBot": "Cargos de Bot",
+      "nonSet": "Nenhum cargo definido",
       "main": [
         {
           "name": " user <role name | role mention>",
@@ -216,8 +216,8 @@
           "value": "Set role(s) that will be given when a bot joins."
         },
         {
-          "name": " show",
-          "value": "Show the current roles set."
+          "name": " mostrar",
+          "value": "Mostrar os cargos actualmente definidos."
         }
       ]
     },
