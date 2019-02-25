@@ -423,6 +423,12 @@
       "help": "Botu oyla.",
       "params": "",
       "description": "Aşağıdan Zira'yı oylayabilirsiniz. Şimdilik herhangi bir ödül yok ancak bir ödül sistemi üzerinde çalışmalar yapıyoruz.\nKullandığınız oylar kayıt altına alınacak ve gelecek olan sistemde de şuanda kullandığınız tüm oylar geçerli olacak.\nOylamak için [buraya]($link) tıklayabilirsiniz!"
+    },
+    "rooms": {
+      "help": "Setup Private Rooms",
+      "params": "",
+      "title": "Private Rooms Setup!",
+      "description": "Don't sync permissions if you move the channel to a category. I'll need the permission `Manage Channels` to create and delete private rooms."
     }
   }
 }
