@@ -39,7 +39,7 @@
     "denied": "Sugestão Recusada",
     "deniedMessage": "**Sua sugestão:**\n\n$suggestion\n\n**Foi negada.**",
     "deniedMessageReason": "**Sua sugestão:**\n\n$suggestion\n\n**Foi negada com o seguinte motivo:**\n\n$reason",
-    "potential": "Potential Suggestion",
+    "potential": "Potencial Sugestão",
     "potentialMessage": "**Sua sugestão:**\n\n$suggestion\n\n**Foi aprovada com sucesso.**",
     "potentialMessageReason": "**Sua sugestão:**\n\n$suggestion\n\n**Foi aprovada com o seguinte motivo:**\n\n$reason",
     "invalid": "Sugestão Invalida",
@@ -140,7 +140,7 @@
       "pickDenied": "Type the corresponding number to pick a list, or `none` to not pick a list for denied suggestions.\n\n",
       "pickDeniedTitle": "Pick a List for Denied Suggestions",
       "pickPotential": "Type the corresponding number to pick a list, or `none` to not pick a list for potential suggestions.\n\n",
-      "pickPotentialTitle": "Pick a List for Potential Suggestions",
+      "pickPotentialTitle": "Escolha a lista para potenciais sugestões",
       "pickInvalid": "Type the corresponding number to pick a list, or `none` to not pick a list for invalid suggestions.\n\n",
       "pickInvalidTitle": "Pick a List for Invalid Suggestions",
       "set": "Board and list(s) set."
@@ -225,8 +225,8 @@
       "help": "Suggestion configuration.",
       "params": "",
       "channel": {
-        "help": " channel <new | approved | denied | invalid | potential> <#channel>",
-        "description": "Set which channels new, approved, denied, potential, and invalid suggestions will get sent to.",
+        "help": " canal <novo | aprovado | negado | invalido | potencial> <#canal>",
+        "description": "Definir quais canais onde as sugestões novas, aprovadas, negadas, potenciais, e invalidas são enviadas.",
         "set": "$type guestões irão ser enviadas para $channel"
       },
       "submit": {
@@ -423,6 +423,12 @@
       "help": "Vote no bot.",
       "params": "",
       "description": "Você pode votar na Zira abaixo. No momento, não tem recompensas, mas existe um sistema de recompensas nas obras para o futuro.\nO seu voto vai ser armazenado para ser usado se ter acabado de votar, e vai ser utilizavel quando o sistema estiver implementado, então todos os atuais votos irão ser contados.\nVocê pode votar [aqui]($link)!"
+    },
+    "rooms": {
+      "help": "Setup Private Rooms",
+      "params": "",
+      "title": "Private Rooms Setup!",
+      "description": "Don't sync permissions if you move the channel to a category. I'll need the permission `Manage Channels` to create and delete private rooms."
     }
   }
 }
