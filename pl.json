@@ -19,13 +19,11 @@
     "usedEmoji": "Emoji w parze $pair jest już w użyciu na tej wiadomości.",
     "usedRole": "Rola w parze $pair jest już w użyciu na tej wiadomości.",
     "unknownMessage": "Aktywna wiadomość jest nieznana, sprawdź moje zezwolenia i czy wiadomość ciągle istnieje.",
-
     "unknownEmoji": "Nie mogę używać tego emoji. Jeśli jest to zewnętrzny emoji upewnij się że jestem w gilidii w której on się znajduje",
     "premium": "Ta opcja jest ekskluzywna dla [premium] (https://zira.pw/premium).",
     "suggestionID": "Spróbuj ponownie z ID sugestii.",
     "unknownSuggestion": "Nieznana sugestia.",
     "suggestionRead": "Nie można pobrać sugestii $suggestion w <#$channel>. Upewnij się że posiadam zezwolenie `Czytanie Wiadomości` w tym kanale, I cyz sugestia nie została usunięta.",
-
     "suggestionSend": "Nie można wysłać sugestji do $channel. Upewnij się że posiadam uprawnienia `Czytanie Wiadomości`, `Wysyłanie Wiadomości` i `Zamieszczanie Linków` w tym kanale.",
     "suggestionRole": "Potrzebujesz rolę <@&$role> aby zarządzać sugestiami."
   },
@@ -425,6 +423,12 @@
       "help": "Zagłosuj na bota.",
       "params": "",
       "description": "Możesz zagłosować na Zira poniżej. Obecnie nie ma nagród, ale system nagradzania jest w drodze. \nTwoje głosy zostaną zachowane do użycia jeśli zagłosujesz teraz, oraz będą gotowe do użycia kiedy system zostanie ustalony, wszystkie obecne głosy zostaną policzone. \nMożesz zagłosować tutaj [here]($link)!"
+    },
+    "rooms": {
+      "help": "Setup Private Rooms",
+      "params": "",
+      "title": "Private Rooms Setup!",
+      "description": "Don't sync permissions if you move the channel to a category. I'll need the permission `Manage Channels` to create and delete private rooms."
     }
   }
 }
