@@ -423,6 +423,12 @@
       "help": "Votez pour le bot.",
       "params": "",
       "description": "Vous pouvez voter pour Zira ci-dessous. À l’heure actuelle, il n’y a aucune récompense, mais il existe un système de récompense les travaux pour l’avenir.\nvos votes seront stockés pour une utilisation si vous votez maintenant, et sera utilisable lorsque le système est en place, donc tous les votes actuels seront pris en compte.\nvous pouvez voter [here]($link) !"
+    },
+    "rooms": {
+      "help": "Setup Private Rooms",
+      "params": "",
+      "title": "Private Rooms Setup!",
+      "description": "Don't sync permissions if you move the channel to a category. I'll need the permission `Manage Channels` to create and delete private rooms."
     }
   }
 }
