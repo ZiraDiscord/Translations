@@ -425,10 +425,10 @@
       "description": "Możesz zagłosować na Zira poniżej. Obecnie nie ma nagród, ale system nagradzania jest w drodze. \nTwoje głosy zostaną zachowane do użycia jeśli zagłosujesz teraz, oraz będą gotowe do użycia kiedy system zostanie ustalony, wszystkie obecne głosy zostaną policzone. \nMożesz zagłosować tutaj [here]($link)!"
     },
     "rooms": {
-      "help": "Setup Private Rooms",
+      "help": "Tworzenie prywatnych Pokoji",
       "params": "",
-      "title": "Private Rooms Setup!",
-      "description": "Don't sync permissions if you move the channel to a category. I'll need the permission `Manage Channels` to create and delete private rooms."
+      "title": "Tworzenie prywatnych pokoji!",
+      "description": "Nie zgrywaj zezwoleń jeśli przeniesiesz kanał do nowej kategorii. Potrzebuje zezwolenia `Zarządzanie Kanałami` aby tworzyć i usuwać przywatne kanały."
     }
   }
 }
