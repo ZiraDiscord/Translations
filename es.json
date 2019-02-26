@@ -425,10 +425,10 @@
       "description": "Puedes votar por Zira abajo. Por ahora no hay recompensas pero hay un sistema de recompensas en progreso para el futuro.\nTus votos serán guardados si votas ahora, y podrás usarlos cuando el sistema sea implementado así que todos los votos actuales contarán.\n¡Puedes votar [aquí]($link)!"
     },
     "rooms": {
-      "help": "Setup Private Rooms",
+      "help": "Configura las salas privadas",
       "params": "",
-      "title": "Private Rooms Setup!",
-      "description": "Don't sync permissions if you move the channel to a category. I'll need the permission `Manage Channels` to create and delete private rooms."
+      "title": "Salas privadas configuradas",
+      "description": "No sincronices los permisos si mueves el canal a una categoría. Necesitaré el permiso `Administrar Canales` para crear y borrar salas privadas."
     }
   }
 }
