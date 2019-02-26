@@ -15,9 +15,9 @@
     "unknownMessageID": "Mensagem Desconhecida. Por favor certifique-se que o ID da mensagem que utilizou é válido.",
     "setChannel": "Por favor defina um canal primeiro, depois tente utilizar este comando novamente.",
     "setChannelOrMessage": "Por favor defina um canal e uma mensage primeiro, depois tente utilizar este comando novamente.",
-    "ordinalPair": "Cargo desconhecido no $pair argumento.",
-    "usedEmoji": "O emoji no $pair argumento já está sendo usado nesta mensagem.",
-    "usedRole": "O cargo no $pair argumento já está sendo usado nesta mensagem.",
+    "ordinalPair": "Cargo desconhecido no par $pair.",
+    "usedEmoji": "O emoji no pair $pair já está a ser utilizado nesta mensagem.",
+    "usedRole": "O cargo no par $pair já está a ser utilizado nesta mensagem.",
     "unknownMessage": "A mensagem activa é desconhecida, por favor verifique as minhas permissões e se a mensagem ainda existe.",
     "unknownEmoji": "Eu não posso usar este emoji! Se for um emoji customizado, eu preciso estar neste servidor para eu poder utiliza-lo",
     "premium": "Este recurso necessita de [premium](https://zira.pw/premium) para usar-lo.",
@@ -56,7 +56,7 @@
     "links": [
       "[Guide](https://zira.pw/guide/contents)",
       "[Servidor de Suporte](https://zira.pw/support)",
-      "[Dashboard](https://zira.pw)",
+      "[Painel de Controlo](https://zira.pw)",
       "[Premium](https://zira.pw/premium)",
       "[Convide Zira](https://zira.pw/invite)",
       "[Traduza Zira](https://translate.zira.pw/)"
@@ -97,7 +97,7 @@
       "help": "Adicione um Cargo(s) para a respectiva mensagem.",
       "description": "Você pode adicionar vários cargos ao mesmo, colocando mais emojis e cargos. Você tem que usar uma virgula para separar os emojis com o respectivo cargo, veja um exemplo abaixo.",
       "params": " <emoji> <role name | role mention>",
-      "set": "\n<@&$id> foi adicionado com o emoji $emoji\n"
+      "set": "\n<@&$id> foi adicionado com o emoji $emoji"
     },
     "list": {
       "help": "Lista de todos os cargos que foram setados.",
@@ -169,7 +169,7 @@
     "toggle": {
       "help": "Add toggled role(s) to the active message.",
       "params": " <emoji> <role name | role mention>",
-      "limit": "Você atingiu o limite de 6 mudanças de cargos. Você pode ter ilimitado mudanças de cargos com [Doações](https://zira.pw/premium)",
+      "limit": "Você atingiu o limite de 6 mudanças de cargos. Você pode ter ilimitado mudanças de cargos com [donating](https://zira.pw/premium)",
       "over": "Adding these will result in you reaching the limit of toggled roles. You can get unlimited toggled and remove roles by [donating](https://zira.pw/premium)"
     },
     "once": {
@@ -289,7 +289,7 @@
       "help": "Adicione um emoji que irá remover um cargo na atual mensagem.",
       "params": " <emoji> <role name | role mention>",
       "description": "Você pode adicionar um cargo quando Zira estiver removendo outro cargo. Você tem que usar uma virgula para separar o segundo cargo, olhe um exemplo abaixo.",
-      "limit": "Você atingiu o limite de 6 cargos removidos. Você pode ter ilimitado removendo e mudando cargos com [doações](https://zira.pw/premium)",
+      "limit": "Você atingiu o limite de 6 cargos removidos. Você pode ter ilimitado removendo e mudando cargos com [donating](https://zira.pw/premium)",
       "remove": "$role vai ser removida",
       "removeAdd": "$role1 vai ser removida e $role2 vai ser entregue",
       "emoji": " com o emoji $emoji"
@@ -422,7 +422,7 @@
     "vote": {
       "help": "Vote no bot.",
       "params": "",
-      "description": "Você pode votar na Zira abaixo. No momento, não tem recompensas, mas existe um sistema de recompensas nas obras para o futuro.\nO seu voto vai ser armazenado para ser usado se ter acabado de votar, e vai ser utilizavel quando o sistema estiver implementado, então todos os atuais votos irão ser contados.\nVocê pode votar [aqui]($link)!"
+      "description": "Você pode votar na Zira abaixo. No momento, não tem recompensas, mas existe um sistema de recompensas nas obras para o futuro.\nO seu voto vai ser armazenado para ser usado se ter acabado de votar, e vai ser utilizavel quando o sistema estiver implementado, então todos os atuais votos irão ser contados.\nVocê pode votar [here]($link)!"
     },
     "rooms": {
       "help": "Setup Private Rooms",
