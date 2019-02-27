@@ -1,12 +1,12 @@
 {
-  "language": "English",
+  "language": "Αγγλικά",
   "titles": {
-    "use": "Command Usage",
-    "error": "Error :warning:",
-    "complete": "Complete :white_check_mark:"
+    "use": "Εντολών Χρήση",
+    "error": "Λάθος :warning:",
+    "complete": "Πλήρης :white_check_mark:"
   },
   "errors": {
-    "generic": "An error has occurred. If the error continues to persist, please join the support guild.",
+    "generic": "Παρουσιάστηκε σφάλμα. Εάν το σφάλμα εξακολουθεί να παραμένει, παρακαλούμε να συμμετάσχετε στη συντεχνία υποστήριξης.",
     "unknownChannel": "Unknown channel. If it's the correct channel, please make sure I have permission to view it.",
     "unknownRole": "Unknown role. Please make sure that the role exists.",
     "missingPermissionChannelRead": "I'm missing the permissions `Read Messages` and/or `Read Message History` in the active channel.",
@@ -28,12 +28,12 @@
     "suggestionRole": "You need the <@&$role> role to manage suggestions."
   },
   "suggestion": {
-    "reason": "Reason",
-    "noReason": "No reason",
-    "submitted": "Submitted",
-    "submittedBy": "Submitted by:",
-    "new": "New Suggestion",
-    "approved": "Approved Suggestion",
+    "reason": "Λόγος",
+    "noReason": "Οχι λόγος",
+    "submitted": "Υποβλήθηκε",
+    "submittedBy": "Που υποβάλλονται από:",
+    "new": "Νέα Υπόδειξη",
+    "approved": "Εγκεκριμένη πρόταση",
     "approvedMessage": "**Your suggestion:**\n\n$suggestion\n\n**Has been approved.**",
     "approvedMessageReason": "**Your suggestion:**\n\n$suggestion\n\n**Has been approved with the reason:**\n\n$reason",
     "denied": "Denied Suggestion",
@@ -47,18 +47,18 @@
     "invalidMessageReason": "**Your suggestion:**\n\n$suggestion\n\n**Has been marked as invalid with the reason:**\n\n$reason"
   },
   "footer": "**NOTE:** The `Zira` role needs to be above the role(s) you've set, and needs to have the `Manage Roles` permission to give them.",
-  "example": "Example",
-  "guidePage": "Guide Page",
-  "userPermissions": "You can't use this command because you are missing the following permission(s): ",
+  "example": "Παράδειγμα",
+  "guidePage": "Οδηγός Σελίδα",
+  "userPermissions": "Δεν μπορείτε να χρησιμοποιήσετε αυτήν την εντολή, επειδή σας λείπουν τα ακόλουθα δικαιώματα: ",
   "help": {
-    "commands": "Commands",
-    "title": "Links",
+    "commands": "Εντολές",
+    "title": "Συνδέσεις",
     "links": [
-      "[Guide](https://zira.pw/guide/contents)",
-      "[Support Guild](https://zira.pw/support)",
-      "[Dashboard](https://zira.pw)",
-      "[Premium](https://zira.pw/premium)",
-      "[Invite Zira](https://zira.pw/invite)",
+      "[Οδηγός](https://zira.pw/guide/contents)",
+      "[Υποστήριξη της Guild](https://zira.pw/support)",
+      "[Ταμπλό](https://zira.pw)",
+      "[Ασφάλιστρο](https://zira.pw/premium)",
+      "[Προσκαλέστε τον Zira](https://zira.pw/invite)",
       "[Translate Zira](https://translate.zira.pw/)"
     ],
     "page": "Page ",
