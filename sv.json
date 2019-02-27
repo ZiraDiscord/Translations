@@ -58,81 +58,81 @@
       "[Supportserver](https://zira.pw/support)",
       "[Kontrollpanel](https://zira.pw)",
       "[Premium](https://zira.pw/premium)",
-      "[Invite Zira](https://zira.pw/invite)",
-      "[Translate Zira](https://translate.zira.pw/)"
+      "[Bjud in Zira](https://zira.pw/invite)",
+      "[Översätt Zira](https://translate.zira.pw/)"
     ],
-    "page": "Page ",
+    "page": "Sida ",
     "categories": [
-      "Roles",
-      "Suggestion",
-      "Logging",
-      "Miscellaneous"
+      "Roller",
+      "Förslag",
+      "Loggning",
+      "Diverse"
     ]
   },
   "commands": {
     "info": {
-      "help": "Info about Zira.",
+      "help": "Info om Zira.",
       "params": "",
       "fields": [
         "Version",
         "Support",
-        "Library",
-        "Made By",
-        "Guilds",
-        "Changelog"
+        "Bibliotek",
+        "Gjord av",
+        "Servrar",
+        "Ändringslogg"
       ]
     },
     "channel": {
-      "help": "Set the active channel.",
-      "params": " <#channel>",
-      "set": "Channel has been set to: "
+      "help": "Ange den nuvarande kanalen.",
+      "params": " <#kanal>",
+      "set": "Kanal har ställts in som: "
     },
     "message": {
-      "help": "Set the active message or send a message to the active channel.",
+      "help": "Ställ in det aktiva meddelandet eller skicka ett meddelande till den aktiva kanalen.",
       "params": " <message ID | message>",
-      "setID": "Message has been set.",
-      "setCreate": "Message set."
+      "setID": "Meddelande har blivit inställt.",
+      "setCreate": "Meddelande inställt."
     },
     "add": {
-      "help": "Add normal role(s) to the active message.",
-      "description": "You can add multiple roles at once by providing more emojis and roles. You have to use a comma to separate each pair, see below for an example.",
-      "params": " <emoji> <role name | role mention>",
-      "set": "\n<@&$id> added with the emoji $emoji"
+      "help": "Lägg till normala roll(er) till det aktiva meddelandet.",
+      "description": "Du kan lägga till flera roller samtidigt genom att inkludera fler emojis och roller. Du måste använde ett komma för att separera varje par, se nedan för ett exempel.",
+      "params": " <emoji> <rollnamn | rollbenämning>",
+      "set": "\n<@&$id> tillagd med $emoji emojin"
     },
     "list": {
-      "help": "List all roles that have been setup.",
+      "help": "Lista all roller som har ställts in.",
       "params": "",
-      "title": "$name | Role List",
-      "name": "**Name:** ",
-      "channel": "**Channel:** ",
-      "message": "**Message:** ",
+      "title": "$name | Rollista",
+      "name": "**Namn:** ",
+      "channel": "**Kanal:** ",
+      "message": "**Meddelande:** ",
       "emoji": "**Emoji:** ",
-      "type": "**Type:** ",
+      "type": "**Typ:** ",
       "types": [
         "Normal",
-        "Toggle",
-        "Once",
+        "Växla",
+        "En gång",
         "Multi",
-        "Remove"
+        "Ta bort"
       ]
     },
     "trello": {
-      "help": "Trello integration with suggestions.",
+      "help": "Trello integration med förslag.",
       "params": " <board ID | toggle>",
-      "supplyBoard": "Please supply a board ID.",
-      "setBoard": "Please set a board first.",
+      "supplyBoard": "Vänligen ange ett tavel-ID.",
+      "setBoard": "Vänligen ange en tavla först.",
       "boardNotFound": {
-        "title": "Board Not Found",
-        "description": "I was unable to find that board. Please make sure you have the right board ID, and that you have added **`ZiraDiscord`** to the board."
+        "title": "Tavla hittades inte",
+        "description": "Jag kunde inte hitta den tavlan. Vänligen se till att du har rätt tavel-ID och att du har lagt till **`ZiraDiscord`** till tavlan."
       },
       "dm": {
-        "id": "Your Trello ID is $id",
+        "id": "Ditt Trello ID är $id",
         "success": "To verify this board, please create a card that has the title set to the ID that has been sent to you. After you have done this, please type `done` in this channel to continue the setup.\n\nYou will have 5 minutes to do this.",
-        "error": "I was unable to send you the verification DM. Please make sure I can send you a DM."
+        "error": "Jag kunde inte skicka verifikationsmeddelandet till dig. Vänligen se till att jag kan skicka dig ett DM."
       },
-      "time": "You have ran out of time. Please try again.",
-      "noCard": "Unable to find the card. Please try again.",
-      "validList": "That is not a valid list. Please input a valid list ID.",
+      "time": "Du har fått slut på tid. Vänligen försök igen.",
+      "noCard": "Kunde inte hitta kortet. Vänligen försök igen.",
+      "validList": "Detta är inte en giltig lista. Vänligen ange ett giltigt list-ID.",
       "pickNew": "Skriv motsvarande nummer för att välja en lista, eller `none` för att inte välja en lista för nya förslag.\n\n",
       "pickNewTitle": "Välj en lista för nya förslag",
       "pickApprove": "Skriv motsvarande nummer för att välja en lista, eller `none` för att inte välja en lista för godkända förslag.\n\n",
@@ -168,43 +168,43 @@
     },
     "toggle": {
       "help": "Lägg till växlade roller till nuvarande meddelande.",
-      "params": " <emoji> <role name | role mention>",
+      "params": " <emoji> <rollnamn | rollbenämning>",
       "limit": "Du har uppnått gräsen av 6 växlade roller. Du kan få oändligt växlade roller genom att [donera](https://zira.pw/premium)",
-      "over": "Adding these will result in you reaching the limit of toggled roles. You can get unlimited toggled and remove roles by [donating](https://zira.pw/premium)"
+      "over": "Att lägga till dessa resulterar i att du uppnår gränsen för växlade roller. Du kan få oändligt växlade roller och ta bort roller genom att [donera](https://zira.pw/premium)"
     },
     "once": {
-      "help": "Added role(s) to the active message that can only be received once.",
-      "params": " <emoji> <role name | role mention>"
+      "help": "La till roll(erna) till nuvarande meddelande som bara kan tas emot en gång.",
+      "params": " <emoji> <rollnamn | rollbenämning>"
     },
     "multi": {
-      "help": "Added an emoji that will give multiple roles to the active message.",
+      "help": "La till en emoji som ger flera roller till nuvarande meddelande.",
       "params": " <emoji> <role name | role mention>, <role name | role mention>",
-      "ordinal": "The $pos role is unknown.",
-      "usedEmoji": "That emoji is already in use on this message.",
-      "set": "$roles set with the emoji $emoji"
+      "ordinal": "$pos-rollen är okänd.",
+      "usedEmoji": "Den emojin används redan på detta meddelande.",
+      "set": "$roles inställda med emojin $emoji"
     },
     "delete": {
-      "help": "Remove roles that have been setup.",
+      "help": "Ta bort roller som har ställts in.",
       "params": " <message ID> <role name | role mention | check>",
-      "noRoles": "No roles are set on that message.",
-      "removedCheck": "$num roles removed from that message.",
-      "good": "All roles exist, none were removed.",
-      "removed": "<@&$id> removed with the emoji $emoji",
-      "message": "Unable to remove the role as it wasn't on the specified message."
+      "noRoles": "Inga roller är inställda på det meddelandet.",
+      "removedCheck": "$num roller togs bort från det meddelandet.",
+      "good": "Alla roller finns, inga togs bort.",
+      "removed": "<@&$id> togs bort med emojin $emoji",
+      "message": "Kunde inte ta bort rollen eftersom det inte var på det angivna meddelandet."
     },
     "autorole": {
-      "help": "Give roles on user/bot join..",
+      "help": "Ger roller när användare/bot går med..",
       "params": "",
-      "title": "Auto Role",
+      "title": "Autoroll",
       "ubParams": " <role name | role mention>",
-      "user": "Add a role that should be given when a user joins.\n\nTo remove a role being used in autorole, just do the command again.",
-      "userAdd": "$role will be given when a user joins.",
-      "userRemove": "$role will no longer be given when a user joins.",
-      "bot": "Add a role that should be given when a bot joins.\n\nTo remove a role being used in autorole, just do the command again.",
-      "botAdd": "$role will be given when a bot joins.",
-      "botRemove": "$role will no longer be given when a bot joins.",
-      "showUser": "User Roles",
-      "showBot": "Bot Roles",
+      "user": "Lägg till en roll som ska ges när en användare går med.\n\nFör att ta bort en roll från att användas i autoroll, använda bara kommandot igen.",
+      "userAdd": "$role kommer ges när en användare går med.",
+      "userRemove": "$role kommer inte längre ges när en användare går med.",
+      "bot": "Lägg till en roll som ska ges när en bot går med.\n\nFör att ta bort en roll från att användas i autoroll, använda bara kommandot igen.",
+      "botAdd": "$role kommer ges när en bot går med.",
+      "botRemove": "$role kommer inte längre ges när en bot går med.",
+      "showUser": "Användarroller",
+      "showBot": "Botroller",
       "nonSet": "No roles set",
       "main": [
         {
@@ -268,7 +268,7 @@
           "value": "Set whether or not users should get a DM about their suggestions."
         },
         {
-          "name": " reaction",
+          "name": " reaktion",
           "value": "Set whether or not emojis should be reacted to new suggestions."
         },
         {
@@ -282,31 +282,31 @@
       ]
     },
     "invite": {
-      "help": "Invite Zira.",
+      "help": "Bjud in Zira.",
       "params": ""
     },
     "remove": {
       "help": "Added an emoji that will remove a role to the active message.",
-      "params": " <emoji> <role name | role mention>",
+      "params": " <emoji> <rollnamn | rollbenämning>",
       "description": "You can add a role when Zira is removing the other role. You have to use a comma to separate the second role, see below for an example.",
       "limit": "You have reached the limit of 6 remove roles. You can get unlimited remove and toggled roles by [donating](https://zira.pw/premium)",
-      "remove": "$role will be removed",
-      "removeAdd": "$role1 will be removed and $role2 will be given",
-      "emoji": " with the emoji $emoji"
+      "remove": "$role kommer tas bort",
+      "removeAdd": "$role1 kommer tas bort och $role2 kommer att ges",
+      "emoji": " med emojin $emoji"
     },
     "submit": {
-      "help": " Submit a suggestion",
-      "params": " <suggestion>",
-      "noChannel": "There is no suggestion channel. Please set one.",
-      "wrongChannel": "Use <#$channel> to submit a suggestion.",
+      "help": " Skicka ett förslag",
+      "params": " <förslag>",
+      "noChannel": "Det finns ingen förslagskanal. Vänligen ställ in en.",
+      "wrongChannel": "Använd <#$channel> för att lämna ett förslag.",
       "card": {
-        "title": "New Suggestion: $suggestion",
-        "body": "$suggestion\n\nSubmitted by: $user"
+        "title": "Nytt förslag: $suggestion",
+        "body": "$suggestion\n\nInskickat av: $user"
       },
-      "success": "Suggestion submitted."
+      "success": "Förslag inskickat."
     },
     "approve": {
-      "help": "Approve a suggestion",
+      "help": "Godkänn ett förslag",
       "params": " <suggestion ID | message ID>",
       "success": "The suggestion has been approved."
     },
