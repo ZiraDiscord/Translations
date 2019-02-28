@@ -127,7 +127,7 @@
       },
       "dm": {
         "id": "Ditt Trello ID är $id",
-        "success": "To verify this board, please create a card that has the title set to the ID that has been sent to you. After you have done this, please type `done` in this channel to continue the setup.\n\nYou will have 5 minutes to do this.",
+        "success": "Vänligen skapa ett kort som har titeln satt till det ID som skickats till dig för att verifiera denna tavla. När du gjort detta, vänligen skriv `done` i denna kanal för att fortsätta uppstarten.\n\nDu har 5 minuter på dig.",
         "error": "Jag kunde inte skicka verifikationsmeddelandet till dig. Vänligen se till att jag kan skicka dig ett DM."
       },
       "time": "Du har fått slut på tid. Vänligen försök igen.",
@@ -205,7 +205,7 @@
       "botRemove": "$role kommer inte längre ges när en bot går med.",
       "showUser": "Användarroller",
       "showBot": "Botroller",
-      "nonSet": "No roles set",
+      "nonSet": "Inga roller satta",
       "main": [
         {
           "name": " user <role name | role mention>",
