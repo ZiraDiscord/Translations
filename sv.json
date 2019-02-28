@@ -1,0 +1,434 @@
+{
+  "language": "Engelska",
+  "titles": {
+    "use": "Kommandoanvändning",
+    "error": "Fel :warning:",
+    "complete": "Klart :white_check_mark:"
+  },
+  "errors": {
+    "generic": "Ett fel har uppstått. Om felet består, vänligen gå med i supportservern.",
+    "unknownChannel": "Okänd kanal. Om det är rätt kanal, se till att jag har behörighet att visa den.",
+    "unknownRole": "Okänd roll. Kontrollera att rollen existerar.",
+    "missingPermissionChannelRead": "Jag saknar behörigheterna `Läsa meddelanden` och/eller 'Läsa meddelandehistoria' i nuvarande kanal.",
+    "missingPermissionChannelReaction": "Jag saknar behörigheterna `Lägg till reaktioner` och/eller 'Använd exterrna emoij' i nuvarande kanal.",
+    "missingPermissionChannelSend": "Jag saknar behörigheten `Skicka meddelanden` i nuvarande kanal.",
+    "unknownMessageID": "Okänt meddelande. Kontrollera att det meddelande-ID du använde är giltigt.",
+    "setChannel": "Vänligen ange en kanal först, prova sedan det här kommandot igen.",
+    "setChannelOrMessage": "Vänligen ange en kanal och ett meddelande först, prova sedan det här kommandot igen.",
+    "ordinalPair": "Okänd roll i $pair-paret.",
+    "usedEmoji": "Emojin i $pair-paret används redan på detta meddelande.",
+    "usedRole": "Rollen i $pair-paret används redan på detta meddelande.",
+    "unknownMessage": "Det nuvarande meddelandet är okänt, vänligen kontrollera mina behörigheter och att meddelandet finns kvar.",
+    "unknownEmoji": "Jag kan inte använda denna emoji. Om det är en anpassad emoji, vänligen se till att jag är i den server den kommer från",
+    "premium": "Denna funktion är endast [premium](https://zira.pw/premium).",
+    "suggestionID": "Vänligen försök igen med ett förslag-ID.",
+    "unknownSuggestion": "Okänt förslag.",
+    "suggestionRead": "Kunde inte hämta förslaget $suggestion i <#$channel>. Vänligen se till att jag har behörigheten `Läsa meddelanden` i kanalen och att förslaget inte tagits bort.",
+    "suggestionSend": "Kunde inte skicka förslaget till $channel. Vänligen se till att jag har behörigheterna `Läsa meddelanden`, `Skicka meddelanden` och `Bädda in länkar` i kanalen.",
+    "suggestionRole": "Du behöver <@&$role>-rollen för att hantera förslag."
+  },
+  "suggestion": {
+    "reason": "Anledning",
+    "noReason": "Ingen anledning",
+    "submitted": "Inskickat",
+    "submittedBy": "Inskickat av:",
+    "new": "Nytt förslag",
+    "approved": "Godkänt förslag",
+    "approvedMessage": "**Ditt förslag:**\n\n$suggestion\n\n**Har godkänts.**",
+    "approvedMessageReason": "**Ditt förslag:**\n\n$suggestion\n\n**Har godkänts med anledningen:**\n\n$reason",
+    "denied": "Nekat förslag",
+    "deniedMessage": "**Ditt förslag:**\n\n$suggestion\n\n**Har nekats.**",
+    "deniedMessageReason": "**Ditt förslag:**\n\n$suggestion\n\n**Har nekats med anledningen:**\n\n$reason",
+    "potential": "Potentiellt förslag",
+    "potentialMessage": "**Ditt förslag:**\n\n$suggestion\n\n**Har potentiellt godkänts.**",
+    "potentialMessageReason": "**Ditt förslag:**\n\n$suggestion\n\n**Har potentiellt godkänts med anledningen:**\n\n$reason",
+    "invalid": "Ogiltigt förslag",
+    "invalidMessage": "**Ditt förslag:**\n\n$suggestion\n\n**Har markerats som ogiltigt.**",
+    "invalidMessageReason": "**Ditt förslag:**\n\n$suggestion\n\n**Har markerats som ogiltigt med anledningen:**\n\n$reason"
+  },
+  "footer": "**NOTERA:** `Zira`-rollen behöver vara ovanför rollerna du angett och behöver ha `Hantera roller`-behörigheten för att ge dem.",
+  "example": "Exempel",
+  "guidePage": "Guidesida",
+  "userPermissions": "Du kan inte använda detta kommando eftersom du saknar följande behörighet(er): ",
+  "help": {
+    "commands": "Kommandon",
+    "title": "Länkar",
+    "links": [
+      "[Guide](https://zira.pw/guide/contents)",
+      "[Supportserver](https://zira.pw/support)",
+      "[Kontrollpanel](https://zira.pw)",
+      "[Premium](https://zira.pw/premium)",
+      "[Bjud in Zira](https://zira.pw/invite)",
+      "[Översätt Zira](https://translate.zira.pw/)"
+    ],
+    "page": "Sida ",
+    "categories": [
+      "Roller",
+      "Förslag",
+      "Loggning",
+      "Diverse"
+    ]
+  },
+  "commands": {
+    "info": {
+      "help": "Info om Zira.",
+      "params": "",
+      "fields": [
+        "Version",
+        "Support",
+        "Bibliotek",
+        "Gjord av",
+        "Servrar",
+        "Ändringslogg"
+      ]
+    },
+    "channel": {
+      "help": "Ange den nuvarande kanalen.",
+      "params": " <#kanal>",
+      "set": "Kanal har ställts in som: "
+    },
+    "message": {
+      "help": "Ställ in det aktiva meddelandet eller skicka ett meddelande till den aktiva kanalen.",
+      "params": " <message ID | message>",
+      "setID": "Meddelande har blivit inställt.",
+      "setCreate": "Meddelande inställt."
+    },
+    "add": {
+      "help": "Lägg till normala roll(er) till det aktiva meddelandet.",
+      "description": "Du kan lägga till flera roller samtidigt genom att inkludera fler emojis och roller. Du måste använde ett komma för att separera varje par, se nedan för ett exempel.",
+      "params": " <emoji> <rollnamn | rollbenämning>",
+      "set": "\n<@&$id> tillagd med $emoji emojin"
+    },
+    "list": {
+      "help": "Lista all roller som har ställts in.",
+      "params": "",
+      "title": "$name | Rollista",
+      "name": "**Namn:** ",
+      "channel": "**Kanal:** ",
+      "message": "**Meddelande:** ",
+      "emoji": "**Emoji:** ",
+      "type": "**Typ:** ",
+      "types": [
+        "Normal",
+        "Växla",
+        "En gång",
+        "Multi",
+        "Ta bort"
+      ]
+    },
+    "trello": {
+      "help": "Trello integration med förslag.",
+      "params": " <board ID | toggle>",
+      "supplyBoard": "Vänligen ange ett tavel-ID.",
+      "setBoard": "Vänligen ange en tavla först.",
+      "boardNotFound": {
+        "title": "Tavla hittades inte",
+        "description": "Jag kunde inte hitta den tavlan. Vänligen se till att du har rätt tavel-ID och att du har lagt till **`ZiraDiscord`** till tavlan."
+      },
+      "dm": {
+        "id": "Ditt Trello ID är $id",
+        "success": "Vänligen skapa ett kort som har titeln satt till det ID som skickats till dig för att verifiera denna tavla. När du gjort detta, vänligen skriv `done` i denna kanal för att fortsätta uppstarten.\n\nDu har 5 minuter på dig.",
+        "error": "Jag kunde inte skicka verifikationsmeddelandet till dig. Vänligen se till att jag kan skicka dig ett DM."
+      },
+      "time": "Du har fått slut på tid. Vänligen försök igen.",
+      "noCard": "Kunde inte hitta kortet. Vänligen försök igen.",
+      "validList": "Detta är inte en giltig lista. Vänligen ange ett giltigt list-ID.",
+      "pickNew": "Skriv motsvarande nummer för att välja en lista, eller `none` för att inte välja en lista för nya förslag.\n\n",
+      "pickNewTitle": "Välj en lista för nya förslag",
+      "pickApprove": "Skriv motsvarande nummer för att välja en lista, eller `none` för att inte välja en lista för godkända förslag.\n\n",
+      "pickApproveTitle": "Välj en lista för godkända förslag",
+      "pickDenied": "Skriv motsvarande nummer för att välja en lista, eller `none` för att inte välja en lista för nekade förslag.\n\n",
+      "pickDeniedTitle": "Välj en lista för nekade förslag",
+      "pickPotential": "Skriv motsvarande nummer för att välja en lista, eller `none` för att inte välja en lista för potentiella förslag.\n\n",
+      "pickPotentialTitle": "Välj en lista för potentiella förslag",
+      "pickInvalid": "Skriv motsvarande nummer för att välja en lista, eller `none` för att inte välja en lista för ogiltiga förslag.\n\n",
+      "pickInvalidTitle": "Välj en lista för ogiltiga förslag",
+      "set": "Tavla och listor inställt."
+    },
+    "config": {
+      "help": "Hantera serverkonfiguration.",
+      "params": "",
+      "role": {
+        "noParam": "Vänligen ange en roll.",
+        "disable": "Vem som helst med korrekta behörigheter kan använda Ziras kommandon nu",
+        "success": "Nu kan bara serverägaren och personer som har $role-rollen använda Zirakommandon."
+      },
+      "main": [
+        {
+          "name": " role <role | disable>",
+          "value": "Ange eller ta bort roller som kan använda kommandon."
+        }
+      ]
+    },
+    "edit": {
+      "help": "Redigerar ett meddelande som skickats av Zira i nuvarande kanal.",
+      "params": " <message ID> <new message>",
+      "owner": "Det meddelandet har inte skickats av mig.",
+      "success": "Meddelande redigerat."
+    },
+    "toggle": {
+      "help": "Lägg till växlade roller till nuvarande meddelande.",
+      "params": " <emoji> <rollnamn | rollbenämning>",
+      "limit": "Du har uppnått gräsen av 6 växlade roller. Du kan få oändligt växlade roller genom att [donera](https://zira.pw/premium)",
+      "over": "Att lägga till dessa resulterar i att du uppnår gränsen för växlade roller. Du kan få oändligt växlade roller och ta bort roller genom att [donera](https://zira.pw/premium)"
+    },
+    "once": {
+      "help": "La till roll(erna) till nuvarande meddelande som bara kan tas emot en gång.",
+      "params": " <emoji> <rollnamn | rollbenämning>"
+    },
+    "multi": {
+      "help": "La till en emoji som ger flera roller till nuvarande meddelande.",
+      "params": " <emoji> <role name | role mention>, <role name | role mention>",
+      "ordinal": "$pos-rollen är okänd.",
+      "usedEmoji": "Den emojin används redan på detta meddelande.",
+      "set": "$roles inställda med emojin $emoji"
+    },
+    "delete": {
+      "help": "Ta bort roller som har ställts in.",
+      "params": " <message ID> <role name | role mention | check>",
+      "noRoles": "Inga roller är inställda på det meddelandet.",
+      "removedCheck": "$num roller togs bort från det meddelandet.",
+      "good": "Alla roller finns, inga togs bort.",
+      "removed": "<@&$id> togs bort med emojin $emoji",
+      "message": "Kunde inte ta bort rollen eftersom det inte var på det angivna meddelandet."
+    },
+    "autorole": {
+      "help": "Ger roller när användare/bot går med..",
+      "params": "",
+      "title": "Autoroll",
+      "ubParams": " <role name | role mention>",
+      "user": "Lägg till en roll som ska ges när en användare går med.\n\nFör att ta bort en roll från att användas i autoroll, använda bara kommandot igen.",
+      "userAdd": "$role kommer ges när en användare går med.",
+      "userRemove": "$role kommer inte längre ges när en användare går med.",
+      "bot": "Lägg till en roll som ska ges när en bot går med.\n\nFör att ta bort en roll från att användas i autoroll, använda bara kommandot igen.",
+      "botAdd": "$role kommer ges när en bot går med.",
+      "botRemove": "$role kommer inte längre ges när en bot går med.",
+      "showUser": "Användarroller",
+      "showBot": "Botroller",
+      "nonSet": "Inga roller satta",
+      "main": [
+        {
+          "name": " user <role name | role mention>",
+          "value": "Set role(s) that will be given when a user joins."
+        },
+        {
+          "name": " bot <role name | role mention>",
+          "value": "Set role(s) that will be given when a bot joins."
+        },
+        {
+          "name": " show",
+          "value": "Show the current roles set."
+        }
+      ]
+    },
+    "suggestion": {
+      "help": "Suggestion configuration.",
+      "params": "",
+      "channel": {
+        "help": " channel <new | approved | denied | invalid | potential> <#channel>",
+        "description": "Set which channels new, approved, denied, potential, and invalid suggestions will get sent to.",
+        "set": "$type suggestions will get sent to $channel"
+      },
+      "submit": {
+        "help": " submit <#channel>",
+        "description": "Set which channel that suggestion will only be allow to be sent from.",
+        "set": "Suggestions will only be allow to be sent from $channel",
+        "disable": "Suggestions can now be sent from any channel."
+      },
+      "dm": {
+        "on": "A DM will get sent to the user of a suggestion when the suggestion gets approved, denied, potentialed, or invalidated, etc.",
+        "off": "Users will not longer get DMs about suggestions."
+      },
+      "reaction": {
+        "on": "Emojis will get reacted to new suggestions.",
+        "off": "Emojis will no longer get reacted to new suggestions."
+      },
+      "emojis": {
+        "help": " emojis <emoji> <emoji>",
+        "description": "Set the emojis that will get reacted on new suggestions.",
+        "set": "The emojis $emoji1, $emoji2 will get reacted to new suggestions if reactions are turned on."
+      },
+      "role": {
+        "help": " role <role name | role mention | disable>",
+        "description": "Limit managing of suggestions to a certain role.",
+        "disable": "Anyone with the permission `Manage Guild` can approve/deny suggestions now.",
+        "set": "Only users with the role $role can approve/deny suggestions now."
+      },
+      "main": [
+        {
+          "name": " channel <new | approved | denied | invalid | potential> <#channel>",
+          "value": "Set which channels new, approved, and denied suggestions will get sent to."
+        },
+        {
+          "name": " submit <#channel>",
+          "value": "Limit the sending of suggestions to one channel."
+        },
+        {
+          "name": " dm",
+          "value": "Set whether or not users should get a DM about their suggestions."
+        },
+        {
+          "name": " reaktion",
+          "value": "Set whether or not emojis should be reacted to new suggestions."
+        },
+        {
+          "name": " emojis <emoji> <emoji>",
+          "value": "Set the emojis that will get reacted on new suggestions."
+        },
+        {
+          "name": " role <role name | role mention>",
+          "value": "Limit managing of suggestions to a certain role."
+        }
+      ]
+    },
+    "invite": {
+      "help": "Bjud in Zira.",
+      "params": ""
+    },
+    "remove": {
+      "help": "Added an emoji that will remove a role to the active message.",
+      "params": " <emoji> <rollnamn | rollbenämning>",
+      "description": "You can add a role when Zira is removing the other role. You have to use a comma to separate the second role, see below for an example.",
+      "limit": "You have reached the limit of 6 remove roles. You can get unlimited remove and toggled roles by [donating](https://zira.pw/premium)",
+      "remove": "$role kommer tas bort",
+      "removeAdd": "$role1 kommer tas bort och $role2 kommer att ges",
+      "emoji": " med emojin $emoji"
+    },
+    "submit": {
+      "help": " Skicka ett förslag",
+      "params": " <förslag>",
+      "noChannel": "Det finns ingen förslagskanal. Vänligen ställ in en.",
+      "wrongChannel": "Använd <#$channel> för att lämna ett förslag.",
+      "card": {
+        "title": "Nytt förslag: $suggestion",
+        "body": "$suggestion\n\nInskickat av: $user"
+      },
+      "success": "Förslag inskickat."
+    },
+    "approve": {
+      "help": "Godkänn ett förslag",
+      "params": " <suggestion ID | message ID>",
+      "success": "The suggestion has been approved."
+    },
+    "deny": {
+      "help": "Deny a suggestion",
+      "params": " <suggestion ID | message ID>",
+      "success": "The suggestion has been denied."
+    },
+    "maybe": {
+      "help": "Potential approve a suggestion.",
+      "params": " <suggestion ID | message ID>",
+      "success": "The suggestion has been potentially approved."
+    },
+    "invalid": {
+      "help": "Mark a suggestion as invalid.",
+      "params": " <suggestion ID | message ID>",
+      "success": "The suggestion has been marked as invalid."
+    },
+    "log": {
+      "help": "Setup role logging.",
+      "params": " <#channel | disable>",
+      "disabled": "Role logging disabled",
+      "set": "Whenever someone reacts to get a role, it will be logged to ",
+      "give": "<@$user> reacted $emoji to get <@&$role>",
+      "giveMulti": "<@$user> reacted $emoji to get $roles",
+      "giveRemove": "<@$user> reacted $emoji to remove <@&$role1> and to get <@&$role2>",
+      "remove": "<@$user> unreacted $emoji to remove <@&$role>",
+      "removeMulti": "<@$user> unreacted $emoji to remove $roles"
+    },
+    "prefix": {
+      "help": "Set a custom prefix",
+      "params": " <prefix>",
+      "error": "Please provide a prefix that's between 1 and 10 characters and has at least one of these characters in it:  `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
+      "set": "Guild prefix set to "
+    },
+    "colors": {
+      "help": "Zira will create 8 colored roles",
+      "params": "",
+      "perms": "I'm missing the permission `Manage Roles`.",
+      "done": "I have created the following roles: ",
+      "none": "No roles were created, as there are already color roles."
+    },
+    "leave": {
+      "help": "Send a message when a user leaves.",
+      "params": "",
+      "placeholderTitle": "Message Placeholders",
+      "placeholders": "$user ~~-~~ username\n$mention ~~-~~ user mention\n$guild ~~-~~ guild name\n$membercount ~~-~~ new member count",
+      "channelSet": "Leave messages will get sent to ",
+      "channelDisable": "Leave messages will no longer get sent.",
+      "messagePick": "Remove a message below by doing **z/leave remove ID**\n\n",
+      "messageSet": "Message added.",
+      "messageMissing": "Please provide a message",
+      "messageRemove": "Message removed.",
+      "noMessages": "There are no messages set.",
+      "unknownID": "Unknown ID.",
+      "main": [
+        {
+          "name": " channel <#channel | disable>",
+          "value": "Set the channel messages will get sent to when a user leaves."
+        },
+        {
+          "name": " add <message>",
+          "value": "Add a message to send. You can have multiple message for a random message when a user leaves."
+        },
+        {
+          "name": " remove <ID>",
+          "value": "Remove a message that has been set."
+        },
+        {
+          "name": " list",
+          "value": "List all leave messages."
+        }
+      ]
+    },
+    "join": {
+      "help": "Send a message when a user joins.",
+      "params": "",
+      "placeholderTitle": "Message Placeholders",
+      "placeholders": "$user ~~-~~ username\n$mention ~~-~~ user mention\n$guild ~~-~~ guild name\n$membercount ~~-~~ new member count",
+      "channelSet": "Join messages will get sent to ",
+      "channelDisable": "Join messages will no longer get sent.",
+      "messagePick": "Remove a message below by doing **z/join remove ID**\n\n",
+      "messageSet": "Message added.",
+      "messageMissing": "Please provide a message",
+      "messageRemove": "Message removed.",
+      "noMessages": "There are no messages set.",
+      "unknownID": "Unknown ID.",
+      "main": [
+        {
+          "name": " channel <#channel | disable>",
+          "value": "Set the channel messages will get sent to when a user joins."
+        },
+        {
+          "name": " add <message>",
+          "value": "Add a message to send. You can have multiple message for a random message when a user joins."
+        },
+        {
+          "name": " remove <ID>",
+          "value": "Remove a message that has been set."
+        },
+        {
+          "name": " list",
+          "value": "List all join messages."
+        }
+      ]
+    },
+    "lang": {
+      "help": "Set the language for the guild.",
+      "params": " <language code>",
+      "update": "Language set.",
+      "translate": "If you want Zira in a language that isn't on the list above, you can help translate Zira on [Crowdin](https://translate.zira.pw)"
+    },
+    "vote": {
+      "help": "Vote for the bot.",
+      "params": "",
+      "description": "You can vote for Zira below. Right now, there are no rewards, but there is a reward system in the works for the future.\nYour votes will be stored for use if you vote now, and will be useable when the system is implemented, so all current votes will count.\nYou can vote [here]($link)!"
+    },
+    "rooms": {
+      "help": "Setup Private Rooms",
+      "params": "",
+      "title": "Private Rooms Setup!",
+      "description": "Don't sync permissions if you move the channel to a category. I'll need the permission `Manage Channels` to create and delete private rooms."
+    }
+  }
+}

@@ -1,119 +1,119 @@
 {
-  "language": "Anglais",
+  "language": "Αγγλικά",
   "titles": {
-    "use": "Utilisation de la commande",
-    "error": "Erreur :warning:",
-    "complete": "Terminé :white_check_mark:"
+    "use": "Εντολών Χρήση",
+    "error": "Λάθος :warning:",
+    "complete": "Πλήρης :white_check_mark:"
   },
   "errors": {
-    "generic": "Une erreur s’est produite. Si l’erreur persiste, veuillez rejoindre le serveur du support.",
-    "unknownChannel": "Salon inconnu. Si c’est le salon approprié, veillez vous assurer que j’ai la permission de le lire.",
-    "unknownRole": "Rôle inconnu. Veuillez vous assurer que le rôle existe.",
-    "missingPermissionChannelRead": "Il me manque les permissions `Lire les messages` et/ou `Lire l'historique des messages` dans le salon actif.",
-    "missingPermissionChannelReaction": "Il me manque les permissions `Ajouter des réactions` et/ou `Utiliser des Emojis externes` dans le salon actif.",
-    "missingPermissionChannelSend": "Il me manque l’autorisation `Envoyer des Messages` dans le salon actif.",
-    "unknownMessageID": "Message inconnu. Veuillez vous assurer que l’ID de message que vous avez utilisé est valide.",
-    "setChannel": "Veuillez d'abord définir un salon, puis réessayer cette commande.",
-    "setChannelOrMessage": "Veuillez d'abord définir un salon et un message, puis réessayer cette commande.",
-    "ordinalPair": "Rôle inconnu dans la paire de $pair.",
-    "usedEmoji": "L’emoji dans la paire de $pair est déjà utilisé sur ce message.",
-    "usedRole": "Le rôle dans la paire de $pair est déjà utilisé sur ce message.",
-    "unknownMessage": "Le message actif est inconnu, veuillez vérifier mes permissions et que le message existe toujours.",
-    "unknownEmoji": "Je ne peux pas utiliser cet emoji. Si c’est un emoji personnalisé, s’il vous plaît assurez-vous que je suis sur le serveur d'où il vient",
-    "premium": "Cette fonction est [premium](https://zira.pw/premium) seulement.",
-    "suggestionID": "S’il vous plaît essayer de nouveau avec une suggestion d' ID.",
-    "unknownSuggestion": "Suggestion inconnue.",
-    "suggestionRead": "Impossible d’obtenir la suggestion $suggestion dans <#$channel>. Veuillez vous assurer que j’ai l’autorisation « Read Messages » dans le canal, et que la suggestion n’a pas été supprimée.",
-    "suggestionSend": "Impossible d’envoyer la suggestion dans $channel. Assurez-vous que j’ai les autorisations `Lire les messages`, `Envoyer des Messages` et `Intégrer des liens` dans le salon.",
-    "suggestionRole": "Vous devez le rôle <@&$role> pour gérer les suggestions."
+    "generic": "Παρουσιάστηκε σφάλμα. Εάν το σφάλμα εξακολουθεί να παραμένει, παρακαλούμε να συμμετάσχετε στη συντεχνία υποστήριξης.",
+    "unknownChannel": "Unknown channel. If it's the correct channel, please make sure I have permission to view it.",
+    "unknownRole": "Unknown role. Please make sure that the role exists.",
+    "missingPermissionChannelRead": "I'm missing the permissions `Read Messages` and/or `Read Message History` in the active channel.",
+    "missingPermissionChannelReaction": "I'm missing the permissions `Add Reactions` and/or `Use External Emojis` in the active channel.",
+    "missingPermissionChannelSend": "I'm missing the permission `Send Messages` in the active channel.",
+    "unknownMessageID": "Unknown message. Please make sure the message ID you used is valid.",
+    "setChannel": "Please set a channel first, then try this command again.",
+    "setChannelOrMessage": "Please set a channel and message first, then try this command again.",
+    "ordinalPair": "Unknown role in $pair pair.",
+    "usedEmoji": "The emoji in the $pair pair is already used on this message.",
+    "usedRole": "The role in the $pair pair is already used on this message.",
+    "unknownMessage": "The active message is unknown, please check my permissions and that the message still exists.",
+    "unknownEmoji": "I can't use this emoji. If it's a custom emoji, please make sure I'm in the guild where it's from",
+    "premium": "This feature is [premium](https://zira.pw/premium) only.",
+    "suggestionID": "Please try again with a suggestion ID.",
+    "unknownSuggestion": "Unknown suggestion.",
+    "suggestionRead": "Unable to get the suggestion $suggestion in <#$channel>. Please make sure I have the permission `Read Messages` in the channel, and that the suggestion wasn't deleted.",
+    "suggestionSend": "Unable to send the suggestion to $channel. Please make sure I have the permissions `Read Messages`, `Send Messages`, and `Embed Links` in the channel.",
+    "suggestionRole": "You need the <@&$role> role to manage suggestions."
   },
   "suggestion": {
-    "reason": "Motif",
-    "noReason": "Pas de motif",
-    "submitted": "Proposé",
-    "submittedBy": "Proposé par :",
-    "new": "Nouvelle Suggestion",
-    "approved": "Suggestion approuvée",
-    "approvedMessage": "**Votre suggestion:**\n\n$suggestion\n\n**A été approuvée.* *",
-    "approvedMessageReason": "**Votre suggestion:**\n\n$suggestion\n\n**a été approuvée avec le motif:**\n\n$reason",
-    "denied": "Suggestion refusée",
-    "deniedMessage": "**Votre suggestion:**\n\n$suggestion\n\n**A été refusée.* *",
-    "deniedMessageReason": "**Votre suggestion:**\n\n$suggestion\n\n**a été refusée avec le motif:**\n\n$reason",
-    "potential": "Suggestion potentielle",
-    "potentialMessage": "**Votre suggestion:**\n\n$suggestion\n\n**A été potentiellement approuvée.* *",
-    "potentialMessageReason": "**Votre suggestion:**\n\n$suggestion\n\n**a été potentiellement approuvée avec le motif:**\n\n$reason",
-    "invalid": "Suggestion invalide",
-    "invalidMessage": "**Votre suggestion:**\n\n$suggestion\n\n**A été marquée comme invalide.* *",
-    "invalidMessageReason": "**Votre suggestion:**\n\n$suggestion\n\n**a été marquée comme invalide avec le motif:**\n\n$reason"
+    "reason": "Λόγος",
+    "noReason": "Οχι λόγος",
+    "submitted": "Υποβλήθηκε",
+    "submittedBy": "Που υποβάλλονται από:",
+    "new": "Νέα Υπόδειξη",
+    "approved": "Εγκεκριμένη πρόταση",
+    "approvedMessage": "**Your suggestion:**\n\n$suggestion\n\n**Has been approved.**",
+    "approvedMessageReason": "**Your suggestion:**\n\n$suggestion\n\n**Has been approved with the reason:**\n\n$reason",
+    "denied": "Denied Suggestion",
+    "deniedMessage": "**Your suggestion:**\n\n$suggestion\n\n**Has been denied.**",
+    "deniedMessageReason": "**Your suggestion:**\n\n$suggestion\n\n**Has been denied with the reason:**\n\n$reason",
+    "potential": "Potential Suggestion",
+    "potentialMessage": "**Your suggestion:**\n\n$suggestion\n\n**Has been potentially approved.**",
+    "potentialMessageReason": "**Your suggestion:**\n\n$suggestion\n\n**Has been potentially approved with the reason:**\n\n$reason",
+    "invalid": "Invalid Suggestion",
+    "invalidMessage": "**Your suggestion:**\n\n$suggestion\n\n**Has been marked as invalid.**",
+    "invalidMessageReason": "**Your suggestion:**\n\n$suggestion\n\n**Has been marked as invalid with the reason:**\n\n$reason"
   },
-  "footer": "** NOTE : ** le rôle `Zira` doit être plus haut que le(s) rôle(s) que vous avez défini(s) et doit disposer de l’autorisation `Gérer les rôles` pour leur donner.",
-  "example": "Exemple",
-  "guidePage": "Page du Guide",
-  "userPermissions": "Vous ne pouvez pas utiliser cette commande car il vous manque l’ (ou les) autorisation(s) suivante(s) : ",
+  "footer": "**NOTE:** The `Zira` role needs to be above the role(s) you've set, and needs to have the `Manage Roles` permission to give them.",
+  "example": "Παράδειγμα",
+  "guidePage": "Οδηγός Σελίδα",
+  "userPermissions": "Δεν μπορείτε να χρησιμοποιήσετε αυτήν την εντολή, επειδή σας λείπουν τα ακόλουθα δικαιώματα: ",
   "help": {
-    "commands": "Commandes",
-    "title": "Liens",
+    "commands": "Εντολές",
+    "title": "Συνδέσεις",
     "links": [
-      "[Guide](https://zira.pw/guide/contents)",
-      "[Serveur du support] (https://zira.pw/support)",
-      "[Dashboard](https://zira.pw)",
-      "[Premium](https://zira.pw/premium)",
-      "[Inviter Zira] (https://zira.pw/invite)",
-      "[Traduire Zira] (https://translate.zira.pw/)"
+      "[Οδηγός](https://zira.pw/guide/contents)",
+      "[Υποστήριξη της Guild](https://zira.pw/support)",
+      "[Ταμπλό](https://zira.pw)",
+      "[Ασφάλιστρο](https://zira.pw/premium)",
+      "[Προσκαλέστε τον Zira](https://zira.pw/invite)",
+      "[Translate Zira](https://translate.zira.pw/)"
     ],
     "page": "Page ",
     "categories": [
-      "Rôles",
+      "Roles",
       "Suggestion",
       "Logging",
-      "Divers"
+      "Miscellaneous"
     ]
   },
   "commands": {
     "info": {
-      "help": "Informations à propos de Zira.",
+      "help": "Info about Zira.",
       "params": "",
       "fields": [
         "Version",
         "Support",
-        "Bibliothèque",
-        "Fait par",
-        "Serveurs",
+        "Library",
+        "Made By",
+        "Guilds",
         "Changelog"
       ]
     },
     "channel": {
-      "help": "Définir le salon actif.",
+      "help": "Set the active channel.",
       "params": " <#channel>",
-      "set": "Le salon a été défini dans: "
+      "set": "Channel has been set to: "
     },
     "message": {
-      "help": "Définir le message actif ou envoyer un message sur le salon actif.",
+      "help": "Set the active message or send a message to the active channel.",
       "params": " <message ID | message>",
-      "setID": "Le message a été défini.",
-      "setCreate": "Message Configuré."
+      "setID": "Message has been set.",
+      "setCreate": "Message set."
     },
     "add": {
-      "help": "Ajouter le(s) rôle(s) normal(/aux) au message actif.",
-      "description": "Vous pouvez ajouter plusieurs rôles à la fois en indiquant plus d'émojis et rôles. Vous devez utilisez une virgule pour séparer chaque paire, voir ci-dessous pour un exemple.",
+      "help": "Add normal role(s) to the active message.",
+      "description": "You can add multiple roles at once by providing more emojis and roles. You have to use a comma to separate each pair, see below for an example.",
       "params": " <emoji> <role name | role mention>",
-      "set": "\n<@&$id> ajoutée avec les emoji $emoji"
+      "set": "\n<@&$id> added with the emoji $emoji"
     },
     "list": {
-      "help": "Lister tous les rôles qui ont été configurés.",
+      "help": "List all roles that have been setup.",
       "params": "",
-      "title": "$name | Liste des rôles",
-      "name": "**Nom:** ",
-      "channel": "**Salon:** ",
+      "title": "$name | Role List",
+      "name": "**Name:** ",
+      "channel": "**Channel:** ",
       "message": "**Message:** ",
-      "emoji": "**Émoji:** ",
+      "emoji": "**Emoji:** ",
       "type": "**Type:** ",
       "types": [
         "Normal",
         "Toggle",
-        "Rôle Utilisable Une Seule Fois",
+        "Once",
         "Multi",
-        "Supprimer"
+        "Remove"
       ]
     },
     "trello": {
@@ -136,40 +136,40 @@
       "pickNew": "Type the corresponding number to pick a list, or `none` to not pick a list for new suggestions.\n\n",
       "pickNewTitle": "Pick a List for New Suggestions",
       "pickApprove": "Type the corresponding number to pick a list, or `none` to not pick a list for approved suggestions.\n\n",
-      "pickApproveTitle": "Obtenir une liste des suggestions approuvées",
-      "pickDenied": "Tapez le numéro correspondant pour choisir une liste, ou `none` pour ne pas choisir de liste pour les suggestions refusées.\n\n",
-      "pickDeniedTitle": "Obtenir une liste des suggestions refusées",
-      "pickPotential": "Tapez le numéro correspondant pour choisir une liste, ou `none` pour ne pas choisir de liste pour les suggestions potentielles.\n\n",
-      "pickPotentialTitle": "Obtenir une liste des suggestions potentielles",
-      "pickInvalid": "Tapez le numéro correspondant pour choisir une liste, ou `none` pour ne pas choisir de liste pour les suggestions invalides.\n\n",
-      "pickInvalidTitle": "Obtenir une liste des suggestions invalides",
-      "set": "Configuration du tableau de bord et de(s) liste(s)."
+      "pickApproveTitle": "Pick a List for Approved Suggestions",
+      "pickDenied": "Type the corresponding number to pick a list, or `none` to not pick a list for denied suggestions.\n\n",
+      "pickDeniedTitle": "Pick a List for Denied Suggestions",
+      "pickPotential": "Type the corresponding number to pick a list, or `none` to not pick a list for potential suggestions.\n\n",
+      "pickPotentialTitle": "Pick a List for Potential Suggestions",
+      "pickInvalid": "Type the corresponding number to pick a list, or `none` to not pick a list for invalid suggestions.\n\n",
+      "pickInvalidTitle": "Pick a List for Invalid Suggestions",
+      "set": "Board and list(s) set."
     },
     "config": {
-      "help": "Gérer la configuration du serveur.",
+      "help": "Manage the guild configuration.",
       "params": "",
       "role": {
-        "noParam": "Veuillez indiquer un rôle.",
-        "disable": "Toute personne disposant des permissions appropriées peut utiliser des commandes de Zira maintenant",
-        "success": "Maintenant, seuls le propriétaire du serveur et les personnes qui ont le rôle $role peuvent utiliser des commandes de Zira."
+        "noParam": "Please supply a role.",
+        "disable": "Anyone with the correct permissions can use Zira's commands now",
+        "success": "Now, only the guild owner and people who have the role $role can use Zira commands."
       },
       "main": [
         {
           "name": " role <role | disable>",
-          "value": "Définir ou supprimer quel rôle peut utiliser les commandes."
+          "value": "Set or remove which role can use commands."
         }
       ]
     },
     "edit": {
-      "help": "Modifier un message envoyé par Zira dans le salon actif.",
+      "help": "Edit a message sent by Zira in the active channel.",
       "params": " <message ID> <new message>",
-      "owner": "Ce message n’a pas été envoyé par moi.",
-      "success": "Message édité."
+      "owner": "That message has not been sent by me.",
+      "success": "Message edited."
     },
     "toggle": {
-      "help": "Ajouter le(s) rôle(s) modifié(s) au message actif.",
+      "help": "Add toggled role(s) to the active message.",
       "params": " <emoji> <role name | role mention>",
-      "limit": "Vous avez atteint la limite de 6 rôles modifiés. Vous pouvez obtenir des rôles modifiés illimités en [donating](https://zira.pw/premium)",
+      "limit": "You have reached the limit of 6 toggled roles. You can get unlimited toggled roles by [donating](https://zira.pw/premium)",
       "over": "Adding these will result in you reaching the limit of toggled roles. You can get unlimited toggled and remove roles by [donating](https://zira.pw/premium)"
     },
     "once": {
@@ -204,12 +204,12 @@
       "botAdd": "$role will be given when a bot joins.",
       "botRemove": "$role will no longer be given when a bot joins.",
       "showUser": "User Roles",
-      "showBot": "Rôles de bot",
-      "nonSet": "Pas de rôles définis",
+      "showBot": "Bot Roles",
+      "nonSet": "No roles set",
       "main": [
         {
           "name": " user <role name | role mention>",
-          "value": "Définissez le(s) rôle(s) attriubé(s) lorsqu’un utilisateur rejoint."
+          "value": "Set role(s) that will be given when a user joins."
         },
         {
           "name": " bot <role name | role mention>",
@@ -261,11 +261,11 @@
         },
         {
           "name": " submit <#channel>",
-          "value": "Limiter l’envoi de suggestions à un seul canal."
+          "value": "Limit the sending of suggestions to one channel."
         },
         {
           "name": " dm",
-          "value": "Définir si oui ou non les utilisateurs doivent obtenir un MP sur leurs suggestions."
+          "value": "Set whether or not users should get a DM about their suggestions."
         },
         {
           "name": " reaction",
@@ -282,65 +282,65 @@
       ]
     },
     "invite": {
-      "help": "Inviter Zira.",
+      "help": "Invite Zira.",
       "params": ""
     },
     "remove": {
-      "help": "Ajouté un emoji qui va supprimer un rôle au message actif.",
+      "help": "Added an emoji that will remove a role to the active message.",
       "params": " <emoji> <role name | role mention>",
-      "description": "Vous pouvez ajouter un rôle lorsque Zira supprime l’autre rôle. Vous devez utiliser une virgule pour séparer le second rôle, voir ci-dessous pour un exemple.",
-      "limit": "Vous avez atteint la limite de 6 rôles enlevés. Vous pouvez obtenir des rôles modifiés et enlevés illimités en [donating](https://zira.pw/premium)",
-      "remove": "$role sera supprimé",
-      "removeAdd": "$role1 sera supprimé et $role2 sera donné",
-      "emoji": " avec l'emoji $emoji"
+      "description": "You can add a role when Zira is removing the other role. You have to use a comma to separate the second role, see below for an example.",
+      "limit": "You have reached the limit of 6 remove roles. You can get unlimited remove and toggled roles by [donating](https://zira.pw/premium)",
+      "remove": "$role will be removed",
+      "removeAdd": "$role1 will be removed and $role2 will be given",
+      "emoji": " with the emoji $emoji"
     },
     "submit": {
-      "help": " Soumettre une suggestion",
+      "help": " Submit a suggestion",
       "params": " <suggestion>",
-      "noChannel": "Il n’y a aucun salon de suggestion. Veuillez en définir un.",
-      "wrongChannel": "Utilisez <#$channel> pour soumettre une suggestion.",
+      "noChannel": "There is no suggestion channel. Please set one.",
+      "wrongChannel": "Use <#$channel> to submit a suggestion.",
       "card": {
-        "title": "Nouvelle Suggestion : $suggestion",
-        "body": "$suggestion\n\nsoumise par : $user"
+        "title": "New Suggestion: $suggestion",
+        "body": "$suggestion\n\nSubmitted by: $user"
       },
-      "success": "Suggestion soumise."
+      "success": "Suggestion submitted."
     },
     "approve": {
-      "help": "Approuver une suggestion",
+      "help": "Approve a suggestion",
       "params": " <suggestion ID | message ID>",
-      "success": "La suggestion a été approuvée."
+      "success": "The suggestion has been approved."
     },
     "deny": {
-      "help": "Refuser une suggestion",
+      "help": "Deny a suggestion",
       "params": " <suggestion ID | message ID>",
-      "success": "La suggestion a été refusée."
+      "success": "The suggestion has been denied."
     },
     "maybe": {
-      "help": "Potentiellement approuver une suggestion.",
+      "help": "Potential approve a suggestion.",
       "params": " <suggestion ID | message ID>",
-      "success": "La suggestion a été potentiellement approuvée."
+      "success": "The suggestion has been potentially approved."
     },
     "invalid": {
-      "help": "Marquer une suggestion comme étant invalide.",
+      "help": "Mark a suggestion as invalid.",
       "params": " <suggestion ID | message ID>",
-      "success": "La suggestion a été marquée comme invalide."
+      "success": "The suggestion has been marked as invalid."
     },
     "log": {
       "help": "Setup role logging.",
       "params": " <#channel | disable>",
       "disabled": "Role logging disabled",
       "set": "Whenever someone reacts to get a role, it will be logged to ",
-      "give": "<@$user> a réagi avec $emoji pour obtenir <@&$role >",
-      "giveMulti": "<@$user> a réagi avec $emoji pour obtenir $roles",
-      "giveRemove": "<@$user> a réagi $emoji pour retirer <@&$role1> et obtenir <@&$role2 >",
-      "remove": "<@$user> a enlevé $emoji pour supprimer <@&$role >",
-      "removeMulti": "<@$user> a enlevé $emoji pour supprimer $roles"
+      "give": "<@$user> reacted $emoji to get <@&$role>",
+      "giveMulti": "<@$user> reacted $emoji to get $roles",
+      "giveRemove": "<@$user> reacted $emoji to remove <@&$role1> and to get <@&$role2>",
+      "remove": "<@$user> unreacted $emoji to remove <@&$role>",
+      "removeMulti": "<@$user> unreacted $emoji to remove $roles"
     },
     "prefix": {
-      "help": "Définir un préfixe personnalisé",
+      "help": "Set a custom prefix",
       "params": " <prefix>",
-      "error": "Veuillez fournir un préfixe qui se situe entre 1 et 10 caractères et comprend au moins un de ces caractères : `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
-      "set": "Préfixe de serveur défini comme "
+      "error": "Please provide a prefix that's between 1 and 10 characters and has at least one of these characters in it:  `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
+      "set": "Guild prefix set to "
     },
     "colors": {
       "help": "Zira will create 8 colored roles",
@@ -414,15 +414,15 @@
       ]
     },
     "lang": {
-      "help": "Définir la langue pour le serveur.",
+      "help": "Set the language for the guild.",
       "params": " <language code>",
-      "update": "Langue définie.",
-      "translate": "Si vous voulez Zira dans une langue qui n’est pas sur la liste ci-dessus, vous pouvez aider à traduire Zira sur [Crowdin](https://translate.zira.pw)"
+      "update": "Language set.",
+      "translate": "If you want Zira in a language that isn't on the list above, you can help translate Zira on [Crowdin](https://translate.zira.pw)"
     },
     "vote": {
-      "help": "Votez pour le bot.",
+      "help": "Vote for the bot.",
       "params": "",
-      "description": "Vous pouvez voter pour Zira ci-dessous. À l’heure actuelle, il n’y a aucune récompense, mais il existe un système de récompense les travaux pour l’avenir.\nvos votes seront stockés pour une utilisation si vous votez maintenant, et sera utilisable lorsque le système est en place, donc tous les votes actuels seront pris en compte.\nvous pouvez voter [here]($link) !"
+      "description": "You can vote for Zira below. Right now, there are no rewards, but there is a reward system in the works for the future.\nYour votes will be stored for use if you vote now, and will be useable when the system is implemented, so all current votes will count.\nYou can vote [here]($link)!"
     },
     "rooms": {
       "help": "Setup Private Rooms",

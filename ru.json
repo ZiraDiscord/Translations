@@ -423,6 +423,12 @@
       "help": "Проголосовать за бота.",
       "params": "",
       "description": "Вы можете проголосовать за Zira ниже. На данный момент за это нет никаких наград, но система наград запланирована на будущее.\nВаши голоса будут сохранены если вы проголосуете сейчас и будут использованы при внедрении системы, поэтому все голоса будут учтены.\nВы можете проголосовать [здесь]($link)!"
+    },
+    "rooms": {
+      "help": "Setup Private Rooms",
+      "params": "",
+      "title": "Private Rooms Setup!",
+      "description": "Don't sync permissions if you move the channel to a category. I'll need the permission `Manage Channels` to create and delete private rooms."
     }
   }
 }
