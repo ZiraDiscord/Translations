@@ -213,7 +213,7 @@
         },
         {
           "name": " bot <role name | role mention>",
-          "value": "Set role(s) that will be given when a bot joins."
+          "value": "Defina um cargo(s) que irão ser entregues quando um bot entrar no servidor."
         },
         {
           "name": " mostrar",
@@ -356,7 +356,7 @@
       "placeholders": "$user ~~-~~ username\n$mention ~~-~~ user mention\n$guild ~~-~~ guild name\n$membercount ~~-~~ new member count",
       "channelSet": "Mensagens de Saída irão ser enviadas para ",
       "channelDisable": "Mensagens de Saída não irão ser enviadas.",
-      "messagePick": "Remove a message below by doing **z/leave remove ID**\n\n",
+      "messagePick": "Remova uma mensagem abaixo fazendo **z/leave remove ID**\n\n",
       "messageSet": "Mensagem Adicionada.",
       "messageMissing": "Por favor, providencie uma mensagem",
       "messageRemove": "Mensagem removida.",
