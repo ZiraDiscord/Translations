@@ -209,20 +209,20 @@
       "main": [
         {
           "name": " user <role name | role mention>",
-          "value": "Set role(s) that will be given when a user joins."
+          "value": "Ställ in roll(er) som ges när en användare går med."
         },
         {
           "name": " bot <role name | role mention>",
-          "value": "Set role(s) that will be given when a bot joins."
+          "value": "Ställ in roll(er) som ges när en bot går med."
         },
         {
-          "name": " show",
-          "value": "Show the current roles set."
+          "name": " visa",
+          "value": "Visar nuvarande satta roller."
         }
       ]
     },
     "suggestion": {
-      "help": "Suggestion configuration.",
+      "help": "Förslagskonfiguration.",
       "params": "",
       "channel": {
         "help": " channel <new | approved | denied | invalid | potential> <#channel>",
