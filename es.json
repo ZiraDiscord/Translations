@@ -20,7 +20,7 @@
     "usedRole": "El rol en el $pair par ya está siendo usado en este mensaje.",
     "unknownMessage": "El mensaje activo es desconocido, por favor revisa mis permisos y que el mensaje aún exista.",
     "unknownEmoji": "No puedo usar este emoji. Si es un emoji personalizado, asegúrate que estoy en el servidor de donde proviene",
-    "premium": "Esta característica es [premium](https://zira.pw/premium).",
+    "premium": "Esta característica es [premium](https://zira.ovh/premium).",
     "suggestionID": "Por favor intenta de nuevo con un ID de sugerencia.",
     "unknownSuggestion": "Sugerencia desconocida.",
     "suggestionRead": "No pude encontrar la sugerencia $suggestion en <#$channel>. Por favor asegúrate de que tengo el permiso `Leer Mensajes` en el canal y que la sugerencia no fue eliminada.",
@@ -54,12 +54,12 @@
     "commands": "Comandos",
     "title": "Enlaces",
     "links": [
-      "[Guía](https://zira.pw/guide/contents)",
-      "[Servidor de soporte](https://zira.pw/support)",
-      "[Dashboard](https://zira.pw)",
-      "[Premium](https://zira.pw/premium)",
-      "[Invita a Zira](https://zira.pw/invite)",
-      "[Ayuda a traducir a Zira](https://translate.zira.pw/)"
+      "[Guía](https://docs.zira.ovh/)",
+      "[Servidor de soporte](https://zira.ovh/support)",
+      "[Dashboard](https://zira.ovh)",
+      "[Premium](https://zira.ovh/premium)",
+      "[Invita a Zira](https://zira.ovh/invite)",
+      "[Ayuda a traducir a Zira](https://translate.zira.ovh/)"
     ],
     "page": "Página ",
     "categories": [
@@ -169,8 +169,8 @@
     "toggle": {
       "help": "Agrega roles alternables al mensaje activo.",
       "params": " <emoji> <nombre del rol | mención al rol>",
-      "limit": "Has alcanzado el límite de 6 roles alternables. Puedes conseguir roles alternables ilimitados [donando](https://zira.pw/premium)",
-      "over": "Al agregar esos llegarás al límite de roles alternables. Puedes conseguir roles alternables ilimitados y role removibles [donando](https://zira.pw/premium)"
+      "limit": "Has alcanzado el límite de 6 roles alternables. Puedes conseguir roles alternables ilimitados [donando](https://zira.ovh/premium)",
+      "over": "Al agregar esos llegarás al límite de roles alternables. Puedes conseguir roles alternables ilimitados y role removibles [donando](https://zira.ovh/premium)"
     },
     "once": {
       "help": "Roles que solo pueden ser recibidos una vez agregados.",
@@ -289,7 +289,7 @@
       "help": "Agrega un emoji que removerá un rol al mensaje activo.",
       "params": " <emoji> <nombre del rol | mención al rol>",
       "description": "Puedes agregar un rol cuando Zira remueva el otro. Para eso tienes que usar una coma para separar el segundo rol, mira un ejemplo abajo.",
-      "limit": "Has llegado al límite de 6 roles removibles. Puedes conseguir roles removibles y alternables ilimitados [donando](https://zira.pw/premium)",
+      "limit": "Has llegado al límite de 6 roles removibles. Puedes conseguir roles removibles y alternables ilimitados [donando](https://zira.ovh/premium)",
       "remove": "$role será removido",
       "removeAdd": "$role1 será removido y $role2 será dado",
       "emoji": " con el emoji $emoji"
@@ -417,7 +417,7 @@
       "help": "Establece el idioma para el servidor.",
       "params": " <código del idioma>",
       "update": "Idioma establecido.",
-      "translate": "Si quieres que Zira esté en un idioma que no está en la lista de arriba, puedes ayudar a traducir a Zira en [Crowdin](https://translate.zira.pw)"
+      "translate": "Si quieres que Zira esté en un idioma que no está en la lista de arriba, puedes ayudar a traducir a Zira en [Crowdin](https://translate.zira.ovh)"
     },
     "vote": {
       "help": "Vota por el bot.",

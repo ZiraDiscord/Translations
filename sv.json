@@ -20,7 +20,7 @@
     "usedRole": "Rollen i $pair-paret används redan på detta meddelande.",
     "unknownMessage": "Det nuvarande meddelandet är okänt, vänligen kontrollera mina behörigheter och att meddelandet finns kvar.",
     "unknownEmoji": "Jag kan inte använda denna emoji. Om det är en anpassad emoji, vänligen se till att jag är i den server den kommer från",
-    "premium": "Denna funktion är endast [premium](https://zira.pw/premium).",
+    "premium": "Denna funktion är endast [premium](https://zira.ovh/premium).",
     "suggestionID": "Vänligen försök igen med ett förslag-ID.",
     "unknownSuggestion": "Okänt förslag.",
     "suggestionRead": "Kunde inte hämta förslaget $suggestion i <#$channel>. Vänligen se till att jag har behörigheten `Läsa meddelanden` i kanalen och att förslaget inte tagits bort.",
@@ -54,12 +54,12 @@
     "commands": "Kommandon",
     "title": "Länkar",
     "links": [
-      "[Guide](https://zira.pw/guide/contents)",
-      "[Supportserver](https://zira.pw/support)",
-      "[Kontrollpanel](https://zira.pw)",
-      "[Premium](https://zira.pw/premium)",
-      "[Bjud in Zira](https://zira.pw/invite)",
-      "[Översätt Zira](https://translate.zira.pw/)"
+      "[Guide](https://docs.zira.ovh/)",
+      "[Supportserver](https://zira.ovh/support)",
+      "[Kontrollpanel](https://zira.ovh)",
+      "[Premium](https://zira.ovh/premium)",
+      "[Bjud in Zira](https://zira.ovh/invite)",
+      "[Översätt Zira](https://translate.zira.ovh/)"
     ],
     "page": "Sida ",
     "categories": [
@@ -169,8 +169,8 @@
     "toggle": {
       "help": "Lägg till växlade roller till nuvarande meddelande.",
       "params": " <emoji> <rollnamn | rollbenämning>",
-      "limit": "Du har uppnått gräsen av 6 växlade roller. Du kan få oändligt växlade roller genom att [donera](https://zira.pw/premium)",
-      "over": "Att lägga till dessa resulterar i att du uppnår gränsen för växlade roller. Du kan få oändligt växlade roller och ta bort roller genom att [donera](https://zira.pw/premium)"
+      "limit": "Du har uppnått gräsen av 6 växlade roller. Du kan få oändligt växlade roller genom att [donera](https://zira.ovh/premium)",
+      "over": "Att lägga till dessa resulterar i att du uppnår gränsen för växlade roller. Du kan få oändligt växlade roller och ta bort roller genom att [donera](https://zira.ovh/premium)"
     },
     "once": {
       "help": "La till roll(erna) till nuvarande meddelande som bara kan tas emot en gång.",
@@ -289,7 +289,7 @@
       "help": "Added an emoji that will remove a role to the active message.",
       "params": " <emoji> <rollnamn | rollbenämning>",
       "description": "You can add a role when Zira is removing the other role. You have to use a comma to separate the second role, see below for an example.",
-      "limit": "You have reached the limit of 6 remove roles. You can get unlimited remove and toggled roles by [donating](https://zira.pw/premium)",
+      "limit": "You have reached the limit of 6 remove roles. You can get unlimited remove and toggled roles by [donating](https://zira.ovh/premium)",
       "remove": "$role kommer tas bort",
       "removeAdd": "$role1 kommer tas bort och $role2 kommer att ges",
       "emoji": " med emojin $emoji"
@@ -417,7 +417,7 @@
       "help": "Set the language for the guild.",
       "params": " <language code>",
       "update": "Language set.",
-      "translate": "If you want Zira in a language that isn't on the list above, you can help translate Zira on [Crowdin](https://translate.zira.pw)"
+      "translate": "If you want Zira in a language that isn't on the list above, you can help translate Zira on [Crowdin](https://translate.zira.ovh)"
     },
     "vote": {
       "help": "Vote for the bot.",
