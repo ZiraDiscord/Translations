@@ -20,7 +20,7 @@
     "usedRole": "Bu rol $pair seçeneğinde zaten kullanılıyor.",
     "unknownMessage": "Etkinleştirilen mesaj bulunamıyor, lütfen yetkilerimi ve mesajın hala var olduğundan emin olun.",
     "unknownEmoji": "Bu emojiyi kullanamam. Eğer özel bir emojiyse, lütfen emojinin sunucusunda olduğumdan emin olun",
-    "premium": "Bu özellik sadece [premium](https://zira.pw/premium) özelliğidir.",
+    "premium": "This feature is [premium](https://zira.ovh/premium) only.",
     "suggestionID": "Lütfen öneri ID'si ile tekrar deneyin.",
     "unknownSuggestion": "Bilinmeyen öneri.",
     "suggestionRead": "<#$channel> kanalındaki $suggestion önerisi alınırken bir hata oluştu. Lütfen `Mesajları Oku` yetkimin olduğundan ve önerinin hala var olduğundan emin olun.",
@@ -54,12 +54,12 @@
     "commands": "Komutlar",
     "title": "Bağlantılar",
     "links": [
-      "[Rehber](https://zira.pw/guide/contents)",
-      "[Destek Sunucusu](https://zira.pw/support)",
-      "[Kontrol Paneli](https://zira.pw)",
-      "[Premium](https://zira.pw/premium)",
-      "[Zira'yı Davet Et](https://zira.pw/invite)",
-      "[Zira'yı Çevir](https://translate.zira.pw/)"
+      "[Guide](https://docs.zira.ovh/)",
+      "[Support Guild](https://zira.ovh/support)",
+      "[Dashboard](https://zira.ovh)",
+      "[Premium](https://zira.ovh/premium)",
+      "[Invite Zira](https://zira.ovh/invite)",
+      "[Translate Zira](https://translate.zira.ovh/)"
     ],
     "page": "Sayfa ",
     "categories": [
@@ -169,8 +169,8 @@
     "toggle": {
       "help": "Geçerli mesaja açıp kapanabilir roller ekle.",
       "params": "<emoji> <rol adı | rol etiketi>",
-      "limit": "En fazla 6 adet açıp kapatılabilir rol limitine ulaştınız. [Bağış](https://zira.pw/premium) yaparak sınırsız hak elde edebilirsiniz.",
-      "over": "Bunu eklemeniz açıp kapanabilir rol limitinize ulaşmanıza neden olacaktır. [Bağış](https://zira.pw/premium) yaparak limitinizi sınırsız yapabilirsiniz."
+      "limit": "You have reached the limit of 6 toggled roles. You can get unlimited toggled roles by [donating](https://zira.ovh/premium)",
+      "over": "Adding these will result in you reaching the limit of toggled roles. You can get unlimited toggled and remove roles by [donating](https://zira.ovh/premium)"
     },
     "once": {
       "help": "Aktif mesaja sadece bir kez alınabilir rol ekler.",
@@ -289,7 +289,7 @@
       "help": "Aktif mesaja kullanıcıdan bir rolü kaldıracak emoji ekler.",
       "params": " <emoji> <rol ismi | rol etiketi>",
       "description": "Zira bir rolü kaldırırkan siz başka bir rol ekleyebilirsiniz. Bunun için diğer rolden önce virgül kullanmalısınız. Örnek aşağıdadır.",
-      "limit": "Rol kaldırma limiti olan 6'ya ulaştınız. Limitsiz rol kaldırmaya sahip olmak için [bağış](https://zira.pw/premium) yapabilirsiniz.",
+      "limit": "You have reached the limit of 6 remove roles. You can get unlimited remove and toggled roles by [donating](https://zira.ovh/premium)",
       "remove": "$role rolü kaldırılacak",
       "removeAdd": "$role1 kaldırılacak ve $role2 rolü verilecek",
       "emoji": " $emoji emojisi ile"
@@ -417,7 +417,7 @@
       "help": "Sunucunun dilini ayarlar.",
       "params": " <dil kodu>",
       "update": "Dil ayarlandı.",
-      "translate": "Eğer Zira'yı yukarıda olmayan başka bir dilde görmek istiyorsanız, Zira'nın [Crowdin](https://translate.zira.pw) üzerinde çevrilmesine yardım edebilirsiniz."
+      "translate": "If you want Zira in a language that isn't on the list above, you can help translate Zira on [Crowdin](https://translate.zira.ovh)"
     },
     "vote": {
       "help": "Botu oyla.",
