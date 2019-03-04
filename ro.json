@@ -20,7 +20,7 @@
     "usedRole": "Rolul în perechea $pair este deja folosit pentru acest mesaj.",
     "unknownMessage": "Mesajul activ este necunoscut, asigură-te că am permisiunea să îl văd și că încă există.",
     "unknownEmoji": "Nu pot folosi acest emoji. Dacă este un emoji custom, asigură-te că sunt in server-ul din care provine",
-    "premium": "Această funcție este doar [premium](https://zira.pw/premium).",
+    "premium": "This feature is [premium](https://zira.ovh/premium) only.",
     "suggestionID": "Încercați din nou cu un ID de sugestie.",
     "unknownSuggestion": "Sugestie necunoscută.",
     "suggestionRead": "Nu s-a putut găsi sugestia $suggestion în <#$channel>. Asigurați-vă că am permisiunea 'Citește Mesaje' în acel canal, și că sugestia nu a fost ștearsă.",
@@ -54,12 +54,12 @@
     "commands": "Comenzi",
     "title": "Link-uri",
     "links": [
-      "[Ghid](https://zira.pw/guide/contents)",
-      "[Server pentru ajutor](https://zira.pw/support)",
-      "[Meniu de control](https://zira.pw)",
-      "[Premium](https://zira.pw/premium)",
-      "[Invită Zira](https://zira.pw/invite)",
-      "[Tradu Zira](https://translate.zira.pw/)"
+      "[Guide](https://docs.zira.ovh/)",
+      "[Support Guild](https://zira.ovh/support)",
+      "[Dashboard](https://zira.ovh)",
+      "[Premium](https://zira.ovh/premium)",
+      "[Invite Zira](https://zira.ovh/invite)",
+      "[Translate Zira](https://translate.zira.ovh/)"
     ],
     "page": "Pagină ",
     "categories": [
@@ -169,8 +169,8 @@
     "toggle": {
       "help": "Adaugă rol(uri) comutabile la mesajul activ.",
       "params": " <emoji> <nume rol | menționare rol>",
-      "limit": "Ai ajuns la limita de 6 roluri comutabile. Poți să obții roluri comutabile nelimitate [donând](https://zira.pw/premium)",
-      "over": "Adăugarea acestora va rezulta în atingerea limitei de roluri comutabile. Poți să obții roluri comutabile nelimitate [donând](https://zira.pw/premium)"
+      "limit": "You have reached the limit of 6 toggled roles. You can get unlimited toggled roles by [donating](https://zira.ovh/premium)",
+      "over": "Adding these will result in you reaching the limit of toggled roles. You can get unlimited toggled and remove roles by [donating](https://zira.ovh/premium)"
     },
     "once": {
       "help": "Added role(s) to the active message that can only be received once.",
@@ -289,7 +289,7 @@
       "help": "Added an emoji that will remove a role to the active message.",
       "params": " <emoji> <nume rol | menționare rol>",
       "description": "You can add a role when Zira is removing the other role. You have to use a comma to separate the second role, see below for an example.",
-      "limit": "You have reached the limit of 6 remove roles. You can get unlimited remove and toggled roles by [donating](https://zira.pw/premium)",
+      "limit": "You have reached the limit of 6 remove roles. You can get unlimited remove and toggled roles by [donating](https://zira.ovh/premium)",
       "remove": "$role will be removed",
       "removeAdd": "$role1 will be removed and $role2 will be given",
       "emoji": " with the emoji $emoji"
@@ -417,7 +417,7 @@
       "help": "Set the language for the guild.",
       "params": " <codul limbii>",
       "update": "Limbă setată.",
-      "translate": "If you want Zira in a language that isn't on the list above, you can help translate Zira on [Crowdin](https://translate.zira.pw)"
+      "translate": "If you want Zira in a language that isn't on the list above, you can help translate Zira on [Crowdin](https://translate.zira.ovh)"
     },
     "vote": {
       "help": "Vote for the bot.",
