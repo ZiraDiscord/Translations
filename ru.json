@@ -20,7 +20,7 @@
     "usedRole": "Роль в паре $pair уже используется для этого сообщения.",
     "unknownMessage": "Активное сообщение неизвестно, пожалуйста, проверьте мои разрешения и что сообщение всё ещё существует.",
     "unknownEmoji": "Я не могу использовать этот emoji. Если этот emoji пользовательский, пожалуйста убедитесь, что я нахожусь в гильдии, к которой он принадлежит",
-    "premium": "Для этой функции требуется [премиум доступ](https://zira.pw/premium) только.",
+    "premium": "This feature is [premium](https://zira.ovh/premium) only.",
     "suggestionID": "Пожалуйста, попробуйте ещё раз с предложенным ID.",
     "unknownSuggestion": "Неизвестные предложение.",
     "suggestionRead": "Невозможно получить предложение $suggestion на <#$channel>. Пожалуйста, убедитесь что я имею разрешения на `Чтение сообщений` на канале и что предложения не удалены.",
@@ -54,12 +54,12 @@
     "commands": "Команды",
     "title": "Ссылки",
     "links": [
-      "[Руководство](https://zira.pw/guide/contents)",
-      "[Гильдия поддержки](https://zira.pw/support)",
-      "[Сайт](https://zira.pw)",
-      "[Премиум](https://zira.pw/premium)",
-      "[Пригласить Zira](https://zira.pw/invite)",
-      "[Помочь с переводом Zira](https://translate.zira.pw/)"
+      "[Guide](https://docs.zira.ovh/)",
+      "[Support Guild](https://zira.ovh/support)",
+      "[Dashboard](https://zira.ovh)",
+      "[Premium](https://zira.ovh/premium)",
+      "[Invite Zira](https://zira.ovh/invite)",
+      "[Translate Zira](https://translate.zira.ovh/)"
     ],
     "page": "Страница ",
     "categories": [
@@ -169,8 +169,8 @@
     "toggle": {
       "help": "Добавление переключаемой роли для активного сообщения.",
       "params": " <название эмодзи> <Название роли | упоминание роли>",
-      "limit": "Вы достигли лимита в 6 переключаемых ролей. Вы сможете получить неограниченное количество переключаемых ролей, если приобретёте [премиум](https://zira.pw/premium)",
-      "over": "Добавив это, вы достигнете лимита переключаемых ролей. Вы сможете получить неограниченное количество переключаемых ролей, если приобретёте [премиум] (https://zira.pw/premium)"
+      "limit": "You have reached the limit of 6 toggled roles. You can get unlimited toggled roles by [donating](https://zira.ovh/premium)",
+      "over": "Adding these will result in you reaching the limit of toggled roles. You can get unlimited toggled and remove roles by [donating](https://zira.ovh/premium)"
     },
     "once": {
       "help": "Добавлена роль(и) на активное сообщение, которое может быть получено только один раз.",
@@ -289,7 +289,7 @@
       "help": "Добавлен эмодзи, который удалит роль из активного сообщения.",
       "params": " <название эмодзи> <Название роли | упоминание роли>",
       "description": "Вы можете добавить роль, когда Zira удаляет другую роль. Вы должны использовать запятую для разделения второй роли, см. Пример ниже.",
-      "limit": "Вы достигли предела в 6 удаленных ролей. Вы можете получить неограниченное количество ролей для удаления и переключения [пожертвованием] (https://zira.pw/premium)",
+      "limit": "You have reached the limit of 6 remove roles. You can get unlimited remove and toggled roles by [donating](https://zira.ovh/premium)",
       "remove": "$role удалена",
       "removeAdd": "$role1 будет удалена и $role2 будет выдана",
       "emoji": " с эмодзи $emoji"
@@ -417,7 +417,7 @@
       "help": "Установить язык для гильдии.",
       "params": " <код языка>",
       "update": "Настроить язык.",
-      "translate": "Если вы хотите использовать Zira на языке, которого нет в списке выше, вы можете помочь с переводом Zira на [Crowdin] (https://translate.zira.pw)"
+      "translate": "If you want Zira in a language that isn't on the list above, you can help translate Zira on [Crowdin](https://translate.zira.ovh)"
     },
     "vote": {
       "help": "Проголосовать за бота.",
