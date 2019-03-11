@@ -222,7 +222,7 @@
       ]
     },
     "suggestion": {
-      "help": "Suggestion configuration.",
+      "help": "Configuração de sugestão.",
       "params": "",
       "channel": {
         "help": " canal <novo | aprovado | negado | invalido | potencial> <#canal>",
