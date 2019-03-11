@@ -20,7 +20,7 @@
     "usedRole": "Rolul în perechea $pair este deja folosit pentru acest mesaj.",
     "unknownMessage": "Mesajul activ este necunoscut, asigură-te că am permisiunea să îl văd și că încă există.",
     "unknownEmoji": "Nu pot folosi acest emoji. Dacă este un emoji custom, asigură-te că sunt in server-ul din care provine",
-    "premium": "This feature is [premium](https://zira.ovh/premium) only.",
+    "premium": "Această funcție este doar [premium](https://zira.ovh/premium).",
     "suggestionID": "Încercați din nou cu un ID de sugestie.",
     "unknownSuggestion": "Sugestie necunoscută.",
     "suggestionRead": "Nu s-a putut găsi sugestia $suggestion în <#$channel>. Asigurați-vă că am permisiunea 'Citește Mesaje' în acel canal, și că sugestia nu a fost ștearsă.",
@@ -54,12 +54,12 @@
     "commands": "Comenzi",
     "title": "Link-uri",
     "links": [
-      "[Guide](https://docs.zira.ovh/)",
-      "[Support Guild](https://zira.ovh/support)",
-      "[Dashboard](https://zira.ovh)",
+      "[Ghid](https://docs.zira.ovh/)",
+      "[Server pentru ajutor](https://zira.ovh/support)",
+      "[Meniu de control](https://zira.ovh)",
       "[Premium](https://zira.ovh/premium)",
-      "[Invite Zira](https://zira.ovh/invite)",
-      "[Translate Zira](https://translate.zira.ovh/)"
+      "[Invită Zira](https://zira.ovh/invite)",
+      "[Tradu Zira](https://translate.zira.ovh/)"
     ],
     "page": "Pagină ",
     "categories": [
@@ -169,8 +169,8 @@
     "toggle": {
       "help": "Adaugă rol(uri) comutabile la mesajul activ.",
       "params": " <emoji> <nume rol | menționare rol>",
-      "limit": "You have reached the limit of 6 toggled roles. You can get unlimited toggled roles by [donating](https://zira.ovh/premium)",
-      "over": "Adding these will result in you reaching the limit of toggled roles. You can get unlimited toggled and remove roles by [donating](https://zira.ovh/premium)"
+      "limit": "Ai ajuns la limita de 6 roluri comutabile. Poți să obții roluri comutabile nelimitate [donând](https://zira.ovh/premium)",
+      "over": "Adăugarea acestora va rezulta în atingerea limitei de roluri comutabile. Poți să obții roluri comutabile nelimitate [donând](https://zira.ovh/premium)"
     },
     "once": {
       "help": "Added role(s) to the active message that can only be received once.",

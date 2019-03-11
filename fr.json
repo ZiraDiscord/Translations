@@ -20,7 +20,7 @@
     "usedRole": "Le rôle dans la paire de $pair est déjà utilisé sur ce message.",
     "unknownMessage": "Le message actif est inconnu, veuillez vérifier mes permissions et que le message existe toujours.",
     "unknownEmoji": "Je ne peux pas utiliser cet emoji. Si c’est un emoji personnalisé, s’il vous plaît assurez-vous que je suis sur le serveur d'où il vient",
-    "premium": "This feature is [premium](https://zira.ovh/premium) only.",
+    "premium": "Cette fonction est [premium](https://zira.ovh/premium) seulement.",
     "suggestionID": "S’il vous plaît essayer de nouveau avec une suggestion d' ID.",
     "unknownSuggestion": "Suggestion inconnue.",
     "suggestionRead": "Impossible d’obtenir la suggestion $suggestion dans <#$channel>. Veuillez vous assurer que j’ai l’autorisation « Read Messages » dans le canal, et que la suggestion n’a pas été supprimée.",
@@ -55,11 +55,11 @@
     "title": "Liens",
     "links": [
       "[Guide](https://docs.zira.ovh/)",
-      "[Support Guild](https://zira.ovh/support)",
+      "[Serveur du support] (https://zira.ovh/support)",
       "[Dashboard](https://zira.ovh)",
       "[Premium](https://zira.ovh/premium)",
-      "[Invite Zira](https://zira.ovh/invite)",
-      "[Translate Zira](https://translate.zira.ovh/)"
+      "[Inviter Zira] (https://zira.ovh/invite)",
+      "[Traduire Zira] (https://translate.zira.ovh/)"
     ],
     "page": "Page ",
     "categories": [
@@ -169,7 +169,7 @@
     "toggle": {
       "help": "Ajouter le(s) rôle(s) modifié(s) au message actif.",
       "params": " <emoji> <role name | role mention>",
-      "limit": "You have reached the limit of 6 toggled roles. You can get unlimited toggled roles by [donating](https://zira.ovh/premium)",
+      "limit": "Vous avez atteint la limite de 6 rôles modifiés. Vous pouvez obtenir des rôles modifiés illimités en [donating](https://zira.ovh/premium)",
       "over": "Adding these will result in you reaching the limit of toggled roles. You can get unlimited toggled and remove roles by [donating](https://zira.ovh/premium)"
     },
     "once": {
@@ -289,7 +289,7 @@
       "help": "Ajouté un emoji qui va supprimer un rôle au message actif.",
       "params": " <emoji> <role name | role mention>",
       "description": "Vous pouvez ajouter un rôle lorsque Zira supprime l’autre rôle. Vous devez utiliser une virgule pour séparer le second rôle, voir ci-dessous pour un exemple.",
-      "limit": "You have reached the limit of 6 remove roles. You can get unlimited remove and toggled roles by [donating](https://zira.ovh/premium)",
+      "limit": "Vous avez atteint la limite de 6 rôles enlevés. Vous pouvez obtenir des rôles modifiés et enlevés illimités en [donating](https://zira.ovh/premium)",
       "remove": "$role sera supprimé",
       "removeAdd": "$role1 sera supprimé et $role2 sera donné",
       "emoji": " avec l'emoji $emoji"
@@ -417,7 +417,7 @@
       "help": "Définir la langue pour le serveur.",
       "params": " <language code>",
       "update": "Langue définie.",
-      "translate": "If you want Zira in a language that isn't on the list above, you can help translate Zira on [Crowdin](https://translate.zira.ovh)"
+      "translate": "Si vous voulez Zira dans une langue qui n’est pas sur la liste ci-dessus, vous pouvez aider à traduire Zira sur [Crowdin](https://translate.zira.ovh)"
     },
     "vote": {
       "help": "Votez pour le bot.",
