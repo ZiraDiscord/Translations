@@ -25,7 +25,8 @@
     "unknownSuggestion": "Okänt förslag.",
     "suggestionRead": "Kunde inte hämta förslaget $suggestion i <#$channel>. Vänligen se till att jag har behörigheten `Läsa meddelanden` i kanalen och att förslaget inte tagits bort.",
     "suggestionSend": "Kunde inte skicka förslaget till $channel. Vänligen se till att jag har behörigheterna `Läsa meddelanden`, `Skicka meddelanden` och `Bädda in länkar` i kanalen.",
-    "suggestionRole": "Du behöver <@&$role>-rollen för att hantera förslag."
+    "suggestionRole": "Du behöver <@&$role>-rollen för att hantera förslag.",
+    "maxReactions": "There are 20 reactions on this message. This is a limitation on Discord's end. Please add and set another message to add more reaction roles."
   },
   "suggestion": {
     "reason": "Anledning",
@@ -169,7 +170,7 @@
     "toggle": {
       "help": "Lägg till växlade roller till nuvarande meddelande.",
       "params": " <emoji> <rollnamn | rollbenämning>",
-      "limit": "Du har uppnått gräsen av 6 växlade roller. Du kan få oändligt växlade roller genom att [donera](https://zira.ovh/premium)",
+      "limit": "Du har uppnått gränsen av 6 växlade roller. Du kan få oändligt växlade roller genom att [donera](https://zira.ovh/premium)",
       "over": "Att lägga till dessa resulterar i att du uppnår gränsen för växlade roller. Du kan få oändligt växlade roller och ta bort roller genom att [donera](https://zira.ovh/premium)"
     },
     "once": {
@@ -288,8 +289,8 @@
     "remove": {
       "help": "La till en emoji som tar bort en roll på det nuvarande meddelandet.",
       "params": " <emoji> <rollnamn | rollbenämning>",
-      "description": "You can add a role when Zira is removing the other role. You have to use a comma to separate the second role, see below for an example.",
-      "limit": "You have reached the limit of 6 remove roles. You can get unlimited remove and toggled roles by [donating](https://zira.ovh/premium)",
+      "description": "Du kan lägga till en roll när Zira tar bort den andra rollen. Du måste använda ett komma för att separera den andra rollen, se nedan för ett exempel.",
+      "limit": "Du har uppnått gränsen av 6 växlade roller. Du kan få oändligt växlade roller genom att [donera](https://zira.ovh/premium)",
       "remove": "$role kommer tas bort",
       "removeAdd": "$role1 kommer tas bort och $role2 kommer att ges",
       "emoji": " med emojin $emoji"
@@ -414,10 +415,10 @@
       ]
     },
     "lang": {
-      "help": "Set the language for the guild.",
-      "params": " <language code>",
-      "update": "Language set.",
-      "translate": "If you want Zira in a language that isn't on the list above, you can help translate Zira on [Crowdin](https://translate.zira.ovh)"
+      "help": "Anger språket för servern.",
+      "params": " <språkkod>",
+      "update": "Språket inställt.",
+      "translate": "Om du vill ha Zira i ett språk som inte finns på listan ovan, kan du hjälpa till att översätta Zira på [Crowdin](https://translate.zira.ovh)"
     },
     "vote": {
       "help": "Rösta på botten.",
