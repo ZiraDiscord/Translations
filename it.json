@@ -25,7 +25,8 @@
     "unknownSuggestion": "Unknown suggestion.",
     "suggestionRead": "Unable to get the suggestion $suggestion in <#$channel>. Please make sure I have the permission `Read Messages` in the channel, and that the suggestion wasn't deleted.",
     "suggestionSend": "Unable to send the suggestion to $channel. Please make sure I have the permissions `Read Messages`, `Send Messages`, and `Embed Links` in the channel.",
-    "suggestionRole": "You need the <@&$role> role to manage suggestions."
+    "suggestionRole": "You need the <@&$role> role to manage suggestions.",
+    "maxReactions": "There are 20 reactions on this message. This is a limitation on Discord's end. Please add and set another message to add more reaction roles."
   },
   "suggestion": {
     "reason": "Reason",

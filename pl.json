@@ -20,12 +20,13 @@
     "usedRole": "Rola w parze $pair jest już w użyciu na tej wiadomości.",
     "unknownMessage": "Aktywna wiadomość jest nieznana, sprawdź moje zezwolenia i czy wiadomość ciągle istnieje.",
     "unknownEmoji": "Nie mogę używać tego emoji. Jeśli jest to zewnętrzny emoji upewnij się że jestem w gilidii w której on się znajduje",
-    "premium": "Ta opcja jest ekskluzywna dla [premium] (https://zira.ovh/premium).",
+    "premium": "Ta funkcja jest dostępna tylko dla użytkowników [premium] (https://zira.ovh/premium).",
     "suggestionID": "Spróbuj ponownie z ID sugestii.",
     "unknownSuggestion": "Nieznana sugestia.",
     "suggestionRead": "Nie można pobrać sugestii $suggestion w <#$channel>. Upewnij się że posiadam zezwolenie `Czytanie Wiadomości` w tym kanale, I cyz sugestia nie została usunięta.",
     "suggestionSend": "Nie można wysłać sugestji do $channel. Upewnij się że posiadam uprawnienia `Czytanie Wiadomości`, `Wysyłanie Wiadomości` i `Zamieszczanie Linków` w tym kanale.",
-    "suggestionRole": "Potrzebujesz rolę <@&$role> aby zarządzać sugestiami."
+    "suggestionRole": "Potrzebujesz rolę <@&$role> aby zarządzać sugestiami.",
+    "maxReactions": "There are 20 reactions on this message. This is a limitation on Discord's end. Please add and set another message to add more reaction roles."
   },
   "suggestion": {
     "reason": "Powód",
@@ -54,12 +55,12 @@
     "commands": "Polecenia",
     "title": "Linki",
     "links": [
-      "[Guide](https://docs.zira.ovh/)",
-      "[Gildia Wsparcia] (https://zira.ovh/support)",
+      "[Guide] (https://docs.zira.ovh/)",
+      "[Support Guild](https://zira.ovh/support)",
       "[Dashboard](https://zira.ovh)",
       "[Premium](https://zira.ovh/premium)",
-      "[Zaproś Zira](https://zira.ovh/invite)",
-      "[Przetłumacz Zira](https://translate.zira.ovh/)"
+      "[Invite Zira](https://zira.ovh/invite)",
+      "[Translate Zira](https://translate.zira.ovh/)"
     ],
     "page": "Strona ",
     "categories": [
@@ -169,7 +170,7 @@
     "toggle": {
       "help": "Dodaj przełączane role do aktywnej wiadomości.",
       "params": " <emoji> <role name | role mention>",
-      "limit": "Osiągnołeś limit 6 przełączanych ról. Możesz uzyskać nieskończenie wiele przęłączanych ról przez [donating](https://zira.ovh/premium)",
+      "limit": "Osiągnąłeś limit 6 przełączanych ról. Możesz otrzymać nieskończoną ilość przez [donating](https://zira.ovh/premium)",
       "over": "Dodawanie tych ról przekroczy limit przełączanych ról. Możesz uzyskać dostęp do nieskończonej ilości przełączanych ról przez [donating](https://zira.ovh/premium)"
     },
     "once": {
