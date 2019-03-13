@@ -26,7 +26,7 @@
     "suggestionRead": "Nie można pobrać sugestii $suggestion w <#$channel>. Upewnij się że posiadam zezwolenie `Czytanie Wiadomości` w tym kanale, I cyz sugestia nie została usunięta.",
     "suggestionSend": "Nie można wysłać sugestji do $channel. Upewnij się że posiadam uprawnienia `Czytanie Wiadomości`, `Wysyłanie Wiadomości` i `Zamieszczanie Linków` w tym kanale.",
     "suggestionRole": "Potrzebujesz rolę <@&$role> aby zarządzać sugestiami.",
-    "maxReactions": "There are 20 reactions on this message. This is a limitation on Discord's end. Please add and set another message to add more reaction roles."
+    "maxReactions": "Na tej wiadomości znajduje się 20 reakcji. Jest to limit nałożony przez Discord. Dodaj i ustaw inną wiadomość aby dodać więcej reakcji z rolami."
   },
   "suggestion": {
     "reason": "Powód",
