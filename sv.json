@@ -20,13 +20,13 @@
     "usedRole": "Rollen i $pair-paret används redan på detta meddelande.",
     "unknownMessage": "Det nuvarande meddelandet är okänt, vänligen kontrollera mina behörigheter och att meddelandet finns kvar.",
     "unknownEmoji": "Jag kan inte använda denna emoji. Om det är en anpassad emoji, vänligen se till att jag är i den server den kommer från",
-    "premium": "Denna funktion är endast [premium](https://zira.ovh/premium).",
+    "premium": "Denna funktion gäller endast för [premium](https://zira.ovh/premium).",
     "suggestionID": "Vänligen försök igen med ett förslag-ID.",
     "unknownSuggestion": "Okänt förslag.",
     "suggestionRead": "Kunde inte hämta förslaget $suggestion i <#$channel>. Vänligen se till att jag har behörigheten `Läsa meddelanden` i kanalen och att förslaget inte tagits bort.",
     "suggestionSend": "Kunde inte skicka förslaget till $channel. Vänligen se till att jag har behörigheterna `Läsa meddelanden`, `Skicka meddelanden` och `Bädda in länkar` i kanalen.",
     "suggestionRole": "Du behöver <@&$role>-rollen för att hantera förslag.",
-    "maxReactions": "There are 20 reactions on this message. This is a limitation on Discord's end. Please add and set another message to add more reaction roles."
+    "maxReactions": "Det finns 20 reaktioner på detta meddelande. Detta är en begränsning på Discords sida. Vänligen lägg till och ange ett annat meddelande för att lägga till fler reaktionsroller."
   },
   "suggestion": {
     "reason": "Anledning",
