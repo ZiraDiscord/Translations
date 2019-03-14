@@ -96,7 +96,7 @@
     },
     "add": {
       "help": "Lägg till normala roll(er) till det aktiva meddelandet.",
-      "description": "Du kan lägga till flera roller samtidigt genom att inkludera fler emojis och roller. Du måste använde ett komma för att separera varje par, se nedan för ett exempel.",
+      "description": "Du kan lägga till flera roller samtidigt genom att inkludera fler emojis och roller. Du måste använda ett komma för att separera varje par, se nedan för ett exempel.",
       "params": " <emoji> <rollnamn | rollbenämning>",
       "set": "\n<@&$id> tillagd med $emoji emojin"
     },
