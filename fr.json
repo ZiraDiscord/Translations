@@ -20,13 +20,13 @@
     "usedRole": "Le rôle dans la paire de $pair est déjà utilisé sur ce message.",
     "unknownMessage": "Le message actif est inconnu, veuillez vérifier mes permissions et que le message existe toujours.",
     "unknownEmoji": "Je ne peux pas utiliser cet emoji. Si c’est un emoji personnalisé, s’il vous plaît assurez-vous que je suis sur le serveur d'où il vient",
-    "premium": "This feature is [premium](https://zira.ovh/premium) only.",
+    "premium": "Cette fonctionnalité est [premium](https://zira.ovh/premium) seulement.",
     "suggestionID": "S’il vous plaît essayer de nouveau avec une suggestion d' ID.",
     "unknownSuggestion": "Suggestion inconnue.",
     "suggestionRead": "Impossible d’obtenir la suggestion $suggestion dans <#$channel>. Veuillez vous assurer que j’ai l’autorisation « Read Messages » dans le canal, et que la suggestion n’a pas été supprimée.",
     "suggestionSend": "Impossible d’envoyer la suggestion dans $channel. Assurez-vous que j’ai les autorisations `Lire les messages`, `Envoyer des Messages` et `Intégrer des liens` dans le salon.",
     "suggestionRole": "Vous devez le rôle <@&$role> pour gérer les suggestions.",
-    "maxReactions": "There are 20 reactions on this message. This is a limitation on Discord's end. Please add and set another message to add more reaction roles."
+    "maxReactions": "Il y a 20 réactions sur ce message. C'est la limite maximale sur Discord. Prière d'ajouter et de configurer un autre message pour ajouter plus de rôles via réaction."
   },
   "suggestion": {
     "reason": "Motif",
@@ -56,11 +56,11 @@
     "title": "Liens",
     "links": [
       "[Guide](https://docs.zira.ovh/)",
-      "[Support Guild](https://zira.ovh/support)",
+      "[Serveur du support] (https://zira.ovh/support)",
       "[Dashboard](https://zira.ovh)",
       "[Premium](https://zira.ovh/premium)",
-      "[Invite Zira](https://zira.ovh/invite)",
-      "[Translate Zira](https://translate.zira.ovh/)"
+      "[Inviter Zira] (https://zira.ovh/invite)",
+      "[Traduire Zira] (https://translate.zira.ovh/)"
     ],
     "page": "Page ",
     "categories": [
@@ -118,16 +118,16 @@
       ]
     },
     "trello": {
-      "help": "Trello integration with suggestions.",
+      "help": "Intégration de Trello avec des suggestions.",
       "params": " <board ID | toggle>",
       "supplyBoard": "Please supply a board ID.",
-      "setBoard": "Please set a board first.",
+      "setBoard": "Merci de d'abord définir un tableau.",
       "boardNotFound": {
-        "title": "Board Not Found",
-        "description": "I was unable to find that board. Please make sure you have the right board ID, and that you have added **`ZiraDiscord`** to the board."
+        "title": "Tableau introuvable",
+        "description": "J’ai été incapable de trouver ce tableau. S’il vous plaît assurez-vous que vous avez l’ID correcte, et que vous avez ajouté **ZiraDiscord** au tableau."
       },
       "dm": {
-        "id": "Your Trello ID is $id",
+        "id": "Votre ID Trello est $id",
         "success": "To verify this board, please create a card that has the title set to the ID that has been sent to you. After you have done this, please type `done` in this channel to continue the setup.\n\nYou will have 5 minutes to do this.",
         "error": "I was unable to send you the verification DM. Please make sure I can send you a DM."
       },
