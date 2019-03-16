@@ -129,7 +129,7 @@
       "dm": {
         "id": "Votre ID Trello est $id",
         "success": "To verify this board, please create a card that has the title set to the ID that has been sent to you. After you have done this, please type `done` in this channel to continue the setup.\n\nYou will have 5 minutes to do this.",
-        "error": "I was unable to send you the verification DM. Please make sure I can send you a DM."
+        "error": "Je n'ai pas pu vous envoyer la vérification en message privé. Veuillez vous assurer que je peux vous envoyer des messages privés."
       },
       "time": "You have ran out of time. Please try again.",
       "noCard": "Unable to find the card. Please try again.",
