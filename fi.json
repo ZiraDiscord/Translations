@@ -47,52 +47,52 @@
     "invalidMessage": "**Your suggestion:**\n\n$suggestion\n\n**Has been marked as invalid.**",
     "invalidMessageReason": "**Your suggestion:**\n\n$suggestion\n\n**Has been marked as invalid with the reason:**\n\n$reason"
   },
-  "footer": "**NOTE:** The `Zira` role needs to be above the role(s) you've set, and needs to have the `Manage Roles` permission to give them.",
-  "example": "Example",
-  "guidePage": "Guide Page",
-  "userPermissions": "You can't use this command because you are missing the following permission(s): ",
+  "footer": "** HUOMIOI: ** Roolin ”Zira” on oltava ylempänä kuin rooli(t) joita yrität antaa, ja tarvitsee oikeuden `Muokkaa Rooleja` antaakseen roolin heille.",
+  "example": "Esimerkki",
+  "guidePage": "Ohje sivu",
+  "userPermissions": "Et voi käyttää tätä komentoa, koska sinulta puuttuu seuraavat käyttöoikeude(t): ",
   "help": {
-    "commands": "Commands",
-    "title": "Links",
+    "commands": "Komennot",
+    "title": "Linkit",
     "links": [
       "[Guide](https://docs.zira.ovh/)",
-      "[Support Guild](https://zira.ovh/support)",
+      "[Tuki] (https://zira.ovh/support)",
       "[Dashboard](https://zira.ovh)",
       "[Premium](https://zira.ovh/premium)",
-      "[Invite Zira](https://zira.ovh/invite)",
-      "[Translate Zira](https://translate.zira.ovh/)"
+      "[Kutsu Zira] (https://zira.ovh/invite)",
+      "[Auta kääntämään Zira] (https://translate.zira.ovh/)"
     ],
-    "page": "Page ",
+    "page": "Sivu ",
     "categories": [
-      "Roles",
-      "Suggestion",
-      "Logging",
-      "Miscellaneous"
+      "Roolit",
+      "Uusi ehdotus",
+      "Kirjautuminen",
+      "Sekalaiset"
     ]
   },
   "commands": {
     "info": {
-      "help": "Info about Zira.",
+      "help": "Tietoa Zirasta.",
       "params": "",
       "fields": [
-        "Version",
-        "Support",
-        "Library",
-        "Made By",
+        "Versio",
+        "Tuki",
+        "Kirjasto",
+        "Tekijä",
         "Guilds",
-        "Changelog"
+        "Muutosloki"
       ]
     },
     "channel": {
-      "help": "Set the active channel.",
-      "params": " <#channel>",
-      "set": "Channel has been set to: "
+      "help": "Aseta aktiivinen kanava.",
+      "params": " <#kanava>",
+      "set": "Kanava on asetettu: "
     },
     "message": {
       "help": "Set the active message or send a message to the active channel.",
       "params": " <message ID | message>",
       "setID": "Message has been set.",
-      "setCreate": "Message set."
+      "setCreate": "Viesti asetettu."
     },
     "add": {
       "help": "Add normal role(s) to the active message.",
@@ -196,17 +196,17 @@
     "autorole": {
       "help": "Give roles on user/bot join..",
       "params": "",
-      "title": "Auto Role",
+      "title": "Auto rooli",
       "ubParams": " <role name | role mention>",
       "user": "Add a role that should be given when a user joins.\n\nTo remove a role being used in autorole, just do the command again.",
-      "userAdd": "$role will be given when a user joins.",
+      "userAdd": "$role annetaan kun käyttäjä liittyy.",
       "userRemove": "$role will no longer be given when a user joins.",
       "bot": "Add a role that should be given when a bot joins.\n\nTo remove a role being used in autorole, just do the command again.",
       "botAdd": "$role will be given when a bot joins.",
-      "botRemove": "$role will no longer be given when a bot joins.",
-      "showUser": "User Roles",
-      "showBot": "Bot Roles",
-      "nonSet": "No roles set",
+      "botRemove": "$role ei enään anneta kun botti liittyy.",
+      "showUser": "Käyttäjän roolit",
+      "showBot": "Botin roolit",
+      "nonSet": "Ei rooleja asettu",
       "main": [
         {
           "name": " user <role name | role mention>",
@@ -217,7 +217,7 @@
           "value": "Set role(s) that will be given when a bot joins."
         },
         {
-          "name": " show",
+          "name": " näytä",
           "value": "Show the current roles set."
         }
       ]
