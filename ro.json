@@ -20,13 +20,13 @@
     "usedRole": "Rolul în perechea $pair este deja folosit pentru acest mesaj.",
     "unknownMessage": "Mesajul activ este necunoscut, asigură-te că am permisiunea să îl văd și că încă există.",
     "unknownEmoji": "Nu pot folosi acest emoji. Dacă este un emoji custom, asigură-te că sunt in server-ul din care provine",
-    "premium": "This feature is [premium](https://zira.ovh/premium) only.",
+    "premium": "Această funcție poate fi folosită doar cu [premium](https://zira.ovh/premium).",
     "suggestionID": "Încercați din nou cu un ID de sugestie.",
     "unknownSuggestion": "Sugestie necunoscută.",
     "suggestionRead": "Nu s-a putut găsi sugestia $suggestion în <#$channel>. Asigurați-vă că am permisiunea 'Citește Mesaje' în acel canal, și că sugestia nu a fost ștearsă.",
     "suggestionSend": "Nu pot trimite sugestii in $channel. Asigură-te că am permisiunile 'Citește Mesage', 'Trimite Mesaje', și 'Trimite Link-uri' în acel canal.",
     "suggestionRole": "Ai nevoie de rolul <@&$role> pentru a modifica sugestii.",
-    "maxReactions": "There are 20 reactions on this message. This is a limitation on Discord's end. Please add and set another message to add more reaction roles."
+    "maxReactions": "Pe un mesaj se pot adăuga maxim 20 de reacții. Pentru a adăuga mai multe roluri cu reacții, trimite și setează un alt mesaj."
   },
   "suggestion": {
     "reason": "Motiv",
@@ -55,12 +55,12 @@
     "commands": "Comenzi",
     "title": "Link-uri",
     "links": [
-      "[Guide](https://docs.zira.ovh/)",
-      "[Support Guild](https://zira.ovh/support)",
-      "[Dashboard](https://zira.ovh)",
+      "[Ghid](https://docs.zira.ovh/)",
+      "[Server de suport](https://zira.ovh/support)",
+      "[Panou de control](https://zira.ovh)",
       "[Premium](https://zira.ovh/premium)",
-      "[Invite Zira](https://zira.ovh/invite)",
-      "[Translate Zira](https://translate.zira.ovh/)"
+      "[Invită Zira](https://zira.ovh/invite)",
+      "[Tradu Zira](https://translate.zira.ovh/)"
     ],
     "page": "Pagină ",
     "categories": [
@@ -180,7 +180,7 @@
     "multi": {
       "help": "Added an emoji that will give multiple roles to the active message.",
       "params": " <emoji> <role name | role mention>, <role name | role mention>",
-      "ordinal": "The $pos role is unknown.",
+      "ordinal": "Rolul $pos este necunoscut.",
       "usedEmoji": "That emoji is already in use on this message.",
       "set": "$roles set with the emoji $emoji"
     },
