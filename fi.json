@@ -1,9 +1,9 @@
 {
   "language": "Englanti",
   "titles": {
-    "use": "Command Usage",
+    "use": "Komennon käyttö",
     "error": "Virhe :warning:",
-    "complete": "Complete :white_check_mark:"
+    "complete": "Valmis :white_check_mark:"
   },
   "errors": {
     "generic": "An error has occurred. If the error continues to persist, please join the support guild.",
@@ -104,17 +104,17 @@
       "help": "List all roles that have been setup.",
       "params": "",
       "title": "$name | Role List",
-      "name": "**Name:** ",
-      "channel": "**Channel:** ",
-      "message": "**Message:** ",
-      "emoji": "**Emoji:** ",
-      "type": "**Type:** ",
+      "name": "** Nimi: ** ",
+      "channel": "**Kanava:** ",
+      "message": "** Viesti: ** ",
+      "emoji": "** Emoji: ** ",
+      "type": "** Kirjoita: ** ",
       "types": [
-        "Normal",
+        "Normaali",
         "Toggle",
-        "Once",
+        "Kerran",
         "Multi",
-        "Remove"
+        "Poista"
       ]
     },
     "trello": {
@@ -231,7 +231,7 @@
         "set": "$type suggestions will get sent to $channel"
       },
       "submit": {
-        "help": " submit <#channel>",
+        "help": " lähetä <#channel>",
         "description": "Set which channel that suggestion will only be allow to be sent from.",
         "set": "Suggestions will only be allow to be sent from $channel",
         "disable": "Suggestions can now be sent from any channel."
@@ -261,7 +261,7 @@
           "value": "Set which channels new, approved, and denied suggestions will get sent to."
         },
         {
-          "name": " submit <#channel>",
+          "name": " lähetä <#channel>",
           "value": "Limit the sending of suggestions to one channel."
         },
         {
@@ -269,7 +269,7 @@
           "value": "Set whether or not users should get a DM about their suggestions."
         },
         {
-          "name": " reaction",
+          "name": " reaktio",
           "value": "Set whether or not emojis should be reacted to new suggestions."
         },
         {
@@ -283,7 +283,7 @@
       ]
     },
     "invite": {
-      "help": "Invite Zira.",
+      "help": "Kutsu Zira.",
       "params": ""
     },
     "remove": {
@@ -338,9 +338,9 @@
       "removeMulti": "<@$user> unreacted $emoji to remove $roles"
     },
     "prefix": {
-      "help": "Set a custom prefix",
+      "help": "Aseta custom prefix",
       "params": " <prefix>",
-      "error": "Please provide a prefix that's between 1 and 10 characters and has at least one of these characters in it:  `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
+      "error": "Aseta prefix joka on 1-10 merkkiä pitkä sekä sisältää yhden näistä merkeistä:  `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
       "set": "Guild prefix set to "
     },
     "colors": {
@@ -377,7 +377,7 @@
           "value": "Remove a message that has been set."
         },
         {
-          "name": " list",
+          "name": " lista",
           "value": "List all leave messages."
         }
       ]
@@ -409,7 +409,7 @@
           "value": "Remove a message that has been set."
         },
         {
-          "name": " list",
+          "name": " lista",
           "value": "List all join messages."
         }
       ]
@@ -421,7 +421,7 @@
       "translate": "If you want Zira in a language that isn't on the list above, you can help translate Zira on [Crowdin](https://translate.zira.ovh)"
     },
     "vote": {
-      "help": "Vote for the bot.",
+      "help": "Äänestä bottia.",
       "params": "",
       "description": "You can vote for Zira below. Right now, there are no rewards, but there is a reward system in the works for the future.\nYour votes will be stored for use if you vote now, and will be useable when the system is implemented, so all current votes will count.\nYou can vote [here]($link)!"
     },
