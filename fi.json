@@ -8,7 +8,7 @@
   "errors": {
     "generic": "An error has occurred. If the error continues to persist, please join the support guild.",
     "unknownChannel": "Unknown channel. If it's the correct channel, please make sure I have permission to view it.",
-    "unknownRole": "Unknown role. Please make sure that the role exists.",
+    "unknownRole": "Tuntematon rooli. Varmista että rooli on olemassa.",
     "missingPermissionChannelRead": "I'm missing the permissions `Read Messages` and/or `Read Message History` in the active channel.",
     "missingPermissionChannelReaction": "I'm missing the permissions `Add Reactions` and/or `Use External Emojis` in the active channel.",
     "missingPermissionChannelSend": "I'm missing the permission `Send Messages` in the active channel.",
