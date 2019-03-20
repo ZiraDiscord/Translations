@@ -9,7 +9,7 @@
     "generic": "An error has occurred. If the error continues to persist, please join the support guild.",
     "unknownChannel": "Unknown channel. If it's the correct channel, please make sure I have permission to view it.",
     "unknownRole": "Tuntematon rooli. Varmista että rooli on olemassa.",
-    "missingPermissionChannelRead": "I'm missing the permissions `Read Messages` and/or `Read Message History` in the active channel.",
+    "missingPermissionChannelRead": "Minulta puuttuu käyttöoikeudet `Luetut viestit` ja/tai `Lue viestihistoriaa` aktiivisella kanavalla.",
     "missingPermissionChannelReaction": "I'm missing the permissions `Add Reactions` and/or `Use External Emojis` in the active channel.",
     "missingPermissionChannelSend": "I'm missing the permission `Send Messages` in the active channel.",
     "unknownMessageID": "Unknown message. Please make sure the message ID you used is valid.",
@@ -341,7 +341,7 @@
       "help": "Aseta custom prefix",
       "params": " <prefix>",
       "error": "Aseta prefix joka on 1-10 merkkiä pitkä sekä sisältää yhden näistä merkeistä:  `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
-      "set": "Guild prefix set to "
+      "set": "Guild prefix asetettu "
     },
     "colors": {
       "help": "Zira will create 8 colored roles",
@@ -358,18 +358,18 @@
       "channelSet": "Leave messages will get sent to ",
       "channelDisable": "Leave messages will no longer get sent.",
       "messagePick": "Remove a message below by doing **z/leave remove ID**\n\n",
-      "messageSet": "Message added.",
-      "messageMissing": "Please provide a message",
-      "messageRemove": "Message removed.",
-      "noMessages": "There are no messages set.",
-      "unknownID": "Unknown ID.",
+      "messageSet": "Viesti asetettu.",
+      "messageMissing": "Kirjoita viesti",
+      "messageRemove": "Viesti poistettu.",
+      "noMessages": "Viestiä ei ole asetettu.",
+      "unknownID": "Tuntematon ID.",
       "main": [
         {
           "name": " channel <#channel | disable>",
           "value": "Set the channel messages will get sent to when a user leaves."
         },
         {
-          "name": " add <message>",
+          "name": " lisää <message>",
           "value": "Add a message to send. You can have multiple message for a random message when a user leaves."
         },
         {
@@ -390,11 +390,11 @@
       "channelSet": "Join messages will get sent to ",
       "channelDisable": "Join messages will no longer get sent.",
       "messagePick": "Remove a message below by doing **z/join remove ID**\n\n",
-      "messageSet": "Message added.",
-      "messageMissing": "Please provide a message",
-      "messageRemove": "Message removed.",
-      "noMessages": "There are no messages set.",
-      "unknownID": "Unknown ID.",
+      "messageSet": "Viesti asetettu.",
+      "messageMissing": "Kirjoita viesti",
+      "messageRemove": "Viesti poistettu.",
+      "noMessages": "Viestiä ei ole asetettu.",
+      "unknownID": "Tuntematon ID.",
       "main": [
         {
           "name": " channel <#channel | disable>",
@@ -405,7 +405,7 @@
           "value": "Add a message to send. You can have multiple message for a random message when a user joins."
         },
         {
-          "name": " remove <ID>",
+          "name": " poista <ID>",
           "value": "Remove a message that has been set."
         },
         {
@@ -417,8 +417,8 @@
     "lang": {
       "help": "Set the language for the guild.",
       "params": " <language code>",
-      "update": "Language set.",
-      "translate": "If you want Zira in a language that isn't on the list above, you can help translate Zira on [Crowdin](https://translate.zira.ovh)"
+      "update": "Kieli asetettu.",
+      "translate": "Jos haluat Ziran kielellä, joka ei ole luettelossa, voit auttaa kääntämään Ziraa [Crowdin](https://translate.zira.ovh)"
     },
     "vote": {
       "help": "Äänestä bottia.",
