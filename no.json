@@ -23,9 +23,9 @@
     "premium": "Denne funksjonen er kun for [premium](https://zira.ovh/premium).",
     "suggestionID": "Prøv på nytt med forslag-ID.",
     "unknownSuggestion": "Ukjent forslag.",
-    "suggestionRead": "Unable to get the suggestion $suggestion in <#$channel>. Please make sure I have the permission `Read Messages` in the channel, and that the suggestion wasn't deleted.",
-    "suggestionSend": "Unable to send the suggestion to $channel. Please make sure I have the permissions `Read Messages`, `Send Messages`, and `Embed Links` in the channel.",
-    "suggestionRole": "You need the <@&$role> role to manage suggestions.",
+    "suggestionRead": "Kan ikke hente forslag $suggestion i <#$channel>. Kontroller at jeg har tillatelse \"Lese meldinger\" i kanalen, og at forslaget ikke ble slettet.",
+    "suggestionSend": "Kan ikke sende forslag til $channel. Kontroller at jeg har tillatelsene 'Lese meldinger', \"Sende meldinger\" og \"Bygge lenker\" i kanalen.",
+    "suggestionRole": "Du trenger < @&$role> rollen å styre forslag.",
     "maxReactions": "Det er 20 reaksjoner på denne meldingen. Dette er en grense fra Discord sin side. Vennligst legg til og sett en annen melding for å legge til flere reaksjons roller."
   },
   "suggestion": {
@@ -41,7 +41,7 @@
     "deniedMessage": "** Ditt forslag: **\n\n$suggestion\n\n** har blitt avvist.* *",
     "deniedMessageReason": "** Ditt forslag: **\n\n$suggestion\n\n** har blitt avvist med årsaken: **\n\n$reason",
     "potential": "Mulig Forslag",
-    "potentialMessage": "**Your suggestion:**\n\n$suggestion\n\n**Has been potentially approved.**",
+    "potentialMessage": "** Ditt forslag: **\n\n$suggestion\n\n**Har potensielt blitt godkjent.* *",
     "potentialMessageReason": "** Ditt forslag: **\n\n$suggestion\n\n**Har potensielt blitt godkjent med begrunnelse:**\n\n$reason",
     "invalid": "Ugyldig Forslag",
     "invalidMessage": "** Ditt forslag: **\n\n$suggestion\n\n**Har blitt markert som ugyldig.* *",
@@ -49,13 +49,13 @@
   },
   "footer": "** NB: ** rollen 'Zira' må være over rollen(e) du har angitt, og må ha tillatelsen \"Administrere roller\" for å gi dem.",
   "example": "Eksempel",
-  "guidePage": "Guide Page",
-  "userPermissions": "You can't use this command because you are missing the following permission(s): ",
+  "guidePage": "Veiledning Side",
+  "userPermissions": "Du kan ikke bruke denne kommandoen fordi du mangler følgende tillatelse(r): ",
   "help": {
     "commands": "Kommandoer",
     "title": "Linker",
     "links": [
-      "[Guide](https://docs.zira.ovh/)",
+      "[Veiledning](https://docs.zira.ovh/)",
       "[Support Guild](https://zira.ovh/support)",
       "[Dashboard](https://zira.ovh)",
       "[Premium](https://zira.ovh/premium)",
@@ -90,12 +90,12 @@
     },
     "message": {
       "help": "Angi den aktive meldingen eller send en melding til aktiv kanal.",
-      "params": " <message ID | message>",
+      "params": " <melding ID | melding>",
       "setID": "Melding har blitt satt.",
       "setCreate": "Melding satt."
     },
     "add": {
-      "help": "Add normal role(s) to the active message.",
+      "help": "Legg vanlig(e) rolle(r) i den aktive meldingen.",
       "description": "Du kan legge til flere roller på en gang ved å angi flere emojier og roller. Du må bruke komma for å separere hvert par, se eksempel nedenfor.",
       "params": " <emoji> <role name | role mention>",
       "set": "\n<@&$id> added with the emoji $emoji"
@@ -129,19 +129,19 @@
       "dm": {
         "id": "Din Trello ID er $id",
         "success": "To verify this board, please create a card that has the title set to the ID that has been sent to you. After you have done this, please type `done` in this channel to continue the setup.\n\nYou will have 5 minutes to do this.",
-        "error": "I was unable to send you the verification DM. Please make sure I can send you a DM."
+        "error": "Jeg kunne ikke sende bekreftelse melding. Kontroller at jeg kan sende deg en privatmelding."
       },
-      "time": "You have ran out of time. Please try again.",
-      "noCard": "Unable to find the card. Please try again.",
-      "validList": "That is not a valid list. Please input a valid list ID.",
+      "time": "Tiden har løpt ut. Vennligst prøv igjen.",
+      "noCard": "Kunne ikke finne kort. Vennligst prøv igjen.",
+      "validList": "Det er ikke en gyldig liste. Vennligst oppgi en gyldig liste ID.",
       "pickNew": "Type the corresponding number to pick a list, or `none` to not pick a list for new suggestions.\n\n",
       "pickNewTitle": "Pick a List for New Suggestions",
       "pickApprove": "Type the corresponding number to pick a list, or `none` to not pick a list for approved suggestions.\n\n",
-      "pickApproveTitle": "Pick a List for Approved Suggestions",
+      "pickApproveTitle": "Velg en liste for godkjente forslag",
       "pickDenied": "Type the corresponding number to pick a list, or `none` to not pick a list for denied suggestions.\n\n",
-      "pickDeniedTitle": "Pick a List for Denied Suggestions",
+      "pickDeniedTitle": "Velg en liste for avviste forslag",
       "pickPotential": "Type the corresponding number to pick a list, or `none` to not pick a list for potential suggestions.\n\n",
-      "pickPotentialTitle": "Pick a List for Potential Suggestions",
+      "pickPotentialTitle": "Velg en liste for potensielle forslag",
       "pickInvalid": "Type the corresponding number to pick a list, or `none` to not pick a list for invalid suggestions.\n\n",
       "pickInvalidTitle": "Pick a List for Invalid Suggestions",
       "set": "Board and list(s) set."
@@ -150,7 +150,7 @@
       "help": "Administrere guild konfigurasjonen.",
       "params": "",
       "role": {
-        "noParam": "Please supply a role.",
+        "noParam": "Vennligst angi en rolle.",
         "disable": "Anyone with the correct permissions can use Zira's commands now",
         "success": "Nå, bare guild eier og personer som har rollen $role kan bruke Zira kommandoer."
       },
@@ -214,7 +214,7 @@
         },
         {
           "name": " bot <role name | role mention>",
-          "value": "Set role(s) that will be given when a bot joins."
+          "value": "Angi rolle(r) som gis når en bot blir med."
         },
         {
           "name": " vis",
@@ -227,22 +227,22 @@
       "params": "",
       "channel": {
         "help": " channel <new | approved | denied | invalid | potential> <#channel>",
-        "description": "Set which channels new, approved, denied, potential, and invalid suggestions will get sent to.",
-        "set": "$type suggestions will get sent to $channel"
+        "description": "Angi hvilke kanaler nye, godkjente, avviste, potensiale, og ugyldige forslag vil bli sendt til.",
+        "set": "$type forslag vil bli sendt til $channel"
       },
       "submit": {
         "help": " submit <#channel>",
-        "description": "Set which channel that suggestion will only be allow to be sent from.",
-        "set": "Suggestions will only be allow to be sent from $channel",
-        "disable": "Suggestions can now be sent from any channel."
+        "description": "Angi hvilken kanal som forslag skal bare kunne sendes fra.",
+        "set": "Forslag kan nå kun bli sendt fra $channel",
+        "disable": "Forslag kan nå sendes fra hvilken som helst kanal."
       },
       "dm": {
         "on": "En privat melding vil bli sendt til brukeren som har laget et forslag blir godtkjent, avvist, potensielt, eller satt som ugyldig, etc..",
         "off": "Brukere vil ikke lenger motta privat meldinger om forslag."
       },
       "reaction": {
-        "on": "Emojis will get reacted to new suggestions.",
-        "off": "Emojis will no longer get reacted to new suggestions."
+        "on": "Emojier vil bli reagert på nye forslag.",
+        "off": "Emojier vil ikke lenger bli reagert på nye forslag."
       },
       "emojis": {
         "help": " emojier <emoji> - <emoji>",
@@ -251,14 +251,14 @@
       },
       "role": {
         "help": " role <role name | role mention | disable>",
-        "description": "Limit managing of suggestions to a certain role.",
+        "description": "Begrens administrering av forslag til en spesiell rolle.",
         "disable": "Alle med tillatelsen \"Administrere Guild\" kan godkjenne/avvise forslag nå.",
-        "set": "Only users with the role $role can approve/deny suggestions now."
+        "set": "Bare brukere med rolle $role kan godkjenne/avvise forslag nå."
       },
       "main": [
         {
           "name": " channel <new | approved | denied | invalid | potential> <#channel>",
-          "value": "Set which channels new, approved, and denied suggestions will get sent to."
+          "value": "Angi hvilke kanaler nye, godkjente og avviste forslag vil bli sendt til."
         },
         {
           "name": " submit <#channel>",
@@ -266,7 +266,7 @@
         },
         {
           "name": " privat melding",
-          "value": "Set whether or not users should get a DM about their suggestions."
+          "value": "Angi om brukere skal/ikke skal motta meldiner om forslagene deres."
         },
         {
           "name": " reaksjon",
@@ -324,7 +324,7 @@
     "invalid": {
       "help": "Marker et forslag som ugyldig.",
       "params": " <forslags ID | melding ID>",
-      "success": "The suggestion has been marked as invalid."
+      "success": "Ditt forslag har blitt markert som ugyldig."
     },
     "log": {
       "help": "Sett opp rolle logging.",
@@ -406,7 +406,7 @@
         },
         {
           "name": " fjern <ID>",
-          "value": "Remove a message that has been set."
+          "value": "Fjern en melding som har blitt satt."
         },
         {
           "name": " liste",
