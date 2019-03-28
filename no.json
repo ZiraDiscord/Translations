@@ -120,11 +120,11 @@
     "trello": {
       "help": "Trello integrasjon med forslag.",
       "params": " <board ID | toggle>",
-      "supplyBoard": "Please supply a board ID.",
-      "setBoard": "Please set a board first.",
+      "supplyBoard": "Vennligst angi en tavle ID.",
+      "setBoard": "Vennligst angi en tavle først.",
       "boardNotFound": {
-        "title": "Board Not Found",
-        "description": "I was unable to find that board. Please make sure you have the right board ID, and that you have added **`ZiraDiscord`** to the board."
+        "title": "Tavle ikke funnet",
+        "description": "Jeg klarte ikke å finne den tavlen. Vennligst sjekk at du har den korrekte tavle IDen, og at du har lagt til **`ZiraDiscord`** til i tavlen."
       },
       "dm": {
         "id": "Din Trello ID er $id",
@@ -135,16 +135,16 @@
       "noCard": "Kunne ikke finne kort. Vennligst prøv igjen.",
       "validList": "Det er ikke en gyldig liste. Vennligst oppgi en gyldig liste ID.",
       "pickNew": "Type the corresponding number to pick a list, or `none` to not pick a list for new suggestions.\n\n",
-      "pickNewTitle": "Pick a List for New Suggestions",
-      "pickApprove": "Type the corresponding number to pick a list, or `none` to not pick a list for approved suggestions.\n\n",
+      "pickNewTitle": "Velg en liste for nye forslag",
+      "pickApprove": "Skriv inn det tilsvarende nummeret for å velge en liste, eller `ingen` for å ikke velge en liste for godkjente forslag.\n\n",
       "pickApproveTitle": "Velg en liste for godkjente forslag",
-      "pickDenied": "Type the corresponding number to pick a list, or `none` to not pick a list for denied suggestions.\n\n",
+      "pickDenied": "Skriv inn det tilsvarende nummeret for å velge en liste, eller `ingen` for å ikke velge en liste for avviste forslag.\n\n",
       "pickDeniedTitle": "Velg en liste for avviste forslag",
-      "pickPotential": "Type the corresponding number to pick a list, or `none` to not pick a list for potential suggestions.\n\n",
+      "pickPotential": "Skriv inn det tilsvarende nummeret for å velge en liste, eller `ingen` for å ikke velge en liste for potensielle forslag.\n\n",
       "pickPotentialTitle": "Velg en liste for potensielle forslag",
-      "pickInvalid": "Type the corresponding number to pick a list, or `none` to not pick a list for invalid suggestions.\n\n",
-      "pickInvalidTitle": "Pick a List for Invalid Suggestions",
-      "set": "Board and list(s) set."
+      "pickInvalid": "Skriv inn det tilsvarende nummeret for å velge en liste, eller `ingen` for å ikke velge en liste for ugyldige forslag.\n\n",
+      "pickInvalidTitle": "Velg en liste for ugyldige forslag",
+      "set": "Tavle og liste(r) sett."
     },
     "config": {
       "help": "Administrere guild konfigurasjonen.",
