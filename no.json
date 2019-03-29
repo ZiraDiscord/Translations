@@ -97,8 +97,8 @@
     "add": {
       "help": "Legg vanlig(e) rolle(r) i den aktive meldingen.",
       "description": "Du kan legge til flere roller på en gang ved å angi flere emojier og roller. Du må bruke komma for å separere hvert par, se eksempel nedenfor.",
-      "params": " <emoji> <role name | role mention>",
-      "set": "\n<@&$id> added with the emoji $emoji"
+      "params": " <emoji> <rolle navn | nevn rolle>",
+      "set": "\n<@&$id> lagt til med emoji $emoji"
     },
     "list": {
       "help": "Liste alle roller som har blitt satt opp.",
@@ -119,7 +119,7 @@
     },
     "trello": {
       "help": "Trello integrasjon med forslag.",
-      "params": " <board ID | toggle>",
+      "params": " <tavle ID | toggle>",
       "supplyBoard": "Vennligst angi en tavle ID.",
       "setBoard": "Vennligst angi en tavle først.",
       "boardNotFound": {
@@ -128,13 +128,13 @@
       },
       "dm": {
         "id": "Din Trello ID er $id",
-        "success": "To verify this board, please create a card that has the title set to the ID that has been sent to you. After you have done this, please type `done` in this channel to continue the setup.\n\nYou will have 5 minutes to do this.",
+        "success": "For å verifisere denne tavlen, vennligst opprett et kort som har IDen som har blitt sendt til deg som tittel. Etter du har gjort dette, vennligst skriv `ferdig` i denne kanalen for å fortsette installasjonen.\n\nDu har fem minutter på å gjøre dette.",
         "error": "Jeg kunne ikke sende bekreftelse melding. Kontroller at jeg kan sende deg en privatmelding."
       },
       "time": "Tiden har løpt ut. Vennligst prøv igjen.",
       "noCard": "Kunne ikke finne kort. Vennligst prøv igjen.",
       "validList": "Det er ikke en gyldig liste. Vennligst oppgi en gyldig liste ID.",
-      "pickNew": "Type the corresponding number to pick a list, or `none` to not pick a list for new suggestions.\n\n",
+      "pickNew": "Skriv inn det tilsvarende nummeret for å velge en liste, eller `ingen` for å ikke velge en liste for nye forslag.\n\n",
       "pickNewTitle": "Velg en liste for nye forslag",
       "pickApprove": "Skriv inn det tilsvarende nummeret for å velge en liste, eller `ingen` for å ikke velge en liste for godkjente forslag.\n\n",
       "pickApproveTitle": "Velg en liste for godkjente forslag",
@@ -151,45 +151,45 @@
       "params": "",
       "role": {
         "noParam": "Vennligst angi en rolle.",
-        "disable": "Anyone with the correct permissions can use Zira's commands now",
+        "disable": "Alle med de riktige tillatelsene kan nå bruke Zira's kommandoer",
         "success": "Nå, bare guild eier og personer som har rollen $role kan bruke Zira kommandoer."
       },
       "main": [
         {
-          "name": " role <role | disable>",
-          "value": "Set or remove which role can use commands."
+          "name": " rolle <rolle | deaktiver>",
+          "value": "Angi eller fjerne hvilken rolle som kan bruke kommandoer."
         }
       ]
     },
     "edit": {
-      "help": "Edit a message sent by Zira in the active channel.",
-      "params": " <message ID> <new message>",
-      "owner": "That message has not been sent by me.",
+      "help": "Redigere en melding sendt av Zira i den aktive kanalen.",
+      "params": " <melding ID> <ny melding>",
+      "owner": "Den meldingen har ikke blitt sendt av meg.",
       "success": "Melding endret."
     },
     "toggle": {
-      "help": "Add toggled role(s) to the active message.",
-      "params": " <emoji> <role name | role mention>",
+      "help": "La til aktiv(e)/inaktiv(e) rolle(r) til den aktive meldingen.",
+      "params": " <emoji> <rolle navn | nevn rolle>",
       "limit": "You have reached the limit of 6 toggled roles. You can get unlimited toggled roles by [donating](https://zira.ovh/premium)",
-      "over": "Adding these will result in you reaching the limit of toggled roles. You can get unlimited toggled and remove roles by [donating](https://zira.ovh/premium)"
+      "over": "Hvis disse blir lagt til vil det resultere i at du når grensen for mengden aktivere/deaktivere roller. Du kan få uendelig aktiverte/deaktivere og fjerne roller ved å [donere] (https://zira.ovh/premium)"
     },
     "once": {
-      "help": "Added role(s) to the active message that can only be received once.",
-      "params": " <emoji> <role name | role mention>"
+      "help": "La til rolle(r) til den aktive meldingen som bare kan bli mottatt en gang.",
+      "params": " <emoji> <rolle navn | nevn rolle>"
     },
     "multi": {
-      "help": "Added an emoji that will give multiple roles to the active message.",
-      "params": " <emoji> <role name | role mention>, <role name | role mention>",
+      "help": "La til en emoji som vil gi flere roller til den aktive meldingen.",
+      "params": " <emoji> <rolle navn | nevn rolle>, <rolle navn | nevn rolle>",
       "ordinal": "Rollen $pos er ukjent.",
       "usedEmoji": "Den emojien er allerede i bruk på denne meldingen.",
       "set": "$roles angitt med emoji $emoji"
     },
     "delete": {
       "help": "Fjern roller som har blitt satt opp.",
-      "params": " <message ID> <role name | role mention | check>",
+      "params": " <melding ID> <rolle navn | nevn rolle | sjekk>",
       "noRoles": "Ingen roller er satt på den meldingen.",
-      "removedCheck": "$num roles removed from that message.",
-      "good": "All roles exist, none were removed.",
+      "removedCheck": "$num roller fjernet fra den meldingen.",
+      "good": "Alle roller eksisterer, ingen ble fjernet.",
       "removed": "<@&$id> fjernet med emoji $emoji",
       "message": "Kan ikke fjerne rollen siden den ikke var på den angitte meldingen."
     },
@@ -261,7 +261,7 @@
           "value": "Angi hvilke kanaler nye, godkjente og avviste forslag vil bli sendt til."
         },
         {
-          "name": " submit <#channel>",
+          "name": " send <#kanal>",
           "value": "Begrense sendingen av forslag til en kanal."
         },
         {
@@ -270,7 +270,7 @@
         },
         {
           "name": " reaksjon",
-          "value": "Set whether or not emojis should be reacted to new suggestions."
+          "value": "Angi hvorvidt emojier ska reagerte på nye forslag."
         },
         {
           "name": " emojier <emoji> - <emoji>",
@@ -288,7 +288,7 @@
     },
     "remove": {
       "help": "La til en emoji som vil fjerne en rolle til den aktive meldingen.",
-      "params": " <emoji> <role name | role mention>",
+      "params": " <emoji> <rolle navn | nevn rolle>",
       "description": "Du kan legge til en rolle når Zira fjerner den andre rollen. Du må bruke et komma for å separere den andre rollen, se under for eksempel.",
       "limit": "You have reached the limit of 6 remove roles. You can get unlimited remove and toggled roles by [donating](https://zira.ovh/premium)",
       "remove": "$role vil bli fjernet",
@@ -334,8 +334,8 @@
       "give": "< @$user> reagerte $emoji for å få < @&$role >",
       "giveMulti": "< @$user> reagerte $emoji for å få $roles",
       "giveRemove": "<@$user> reacted $emoji to remove <@&$role1> and to get <@&$role2>",
-      "remove": "<@$user> unreacted $emoji to remove <@&$role>",
-      "removeMulti": "<@$user> unreacted $emoji to remove $roles"
+      "remove": "<@$user> fjernet reaksjon $emoji for å fjerne <@&$role>",
+      "removeMulti": "<@$user> fjernet reaksjon $emoji for å fjerne $roles"
     },
     "prefix": {
       "help": "Angi et egendefinert prefiks",
@@ -429,7 +429,7 @@
       "help": "Sett opp Private Rom",
       "params": "",
       "title": "Privat Rom satt opp!",
-      "description": "Don't sync permissions if you move the channel to a category. I'll need the permission `Manage Channels` to create and delete private rooms."
+      "description": "Ikke synkronisere tillatelser hvis du flytter kanalen til en kategori. Jeg trenger tillatelsen \"Administrere kanaler\" for å opprette og slette private rom."
     }
   }
 }
