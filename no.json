@@ -170,7 +170,7 @@
     "toggle": {
       "help": "La til aktiv(e)/inaktiv(e) rolle(r) til den aktive meldingen.",
       "params": " <emoji> <rolle navn | nevn rolle>",
-      "limit": "You have reached the limit of 6 toggled roles. You can get unlimited toggled roles by [donating](https://zira.ovh/premium)",
+      "limit": "Du har nådd grensen på seks aktiverte/deaktivere roller. Du kan få uendelige aktiverte/deaktivere roller ved å [donere](https://zira.ovh/premium)",
       "over": "Hvis disse blir lagt til vil det resultere i at du når grensen for mengden aktivere/deaktivere roller. Du kan få uendelig aktiverte/deaktivere og fjerne roller ved å [donere] (https://zira.ovh/premium)"
     },
     "once": {
