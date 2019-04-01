@@ -26,7 +26,7 @@
     "suggestionRead": "Unable t' get th' suggestion $suggestion in <#$channel>. make sure I 'ave th' permission `Read Messages` in th' channel, 'n that th' suggestion wasn't scuttled.",
     "suggestionSend": "Unable t' send th' suggestion t' $channel. make sure I 'ave th' permissions `Read Messages`, `Send Messages`, 'n `Embed Links` in th' channel.",
     "suggestionRole": "Ye needs th' <@&$role> role t' manage suggestions.",
-    "maxReactions": "There are 20 reactions on this message. This is a limitation on Discord's end. Please add and set another message to add more reaction roles."
+    "maxReactions": "There be too many reactions on this message. Discord's galleon can only support 20! Please add and set another message t' add more reaction roles."
   },
   "suggestion": {
     "reason": "Reason",
