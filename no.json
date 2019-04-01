@@ -197,7 +197,7 @@
       "help": "Gi rolle når en bruker/bot blir med..",
       "params": "",
       "title": "Automatisk Rolle",
-      "ubParams": " <role name | role mention>",
+      "ubParams": " <rolle navn | nevn rolle>",
       "user": "Legg til en rolle som bør gis når en bruker blir med.\n\nFor å fjerne en rolle som blir brukt i automatisk rolle, bruk kommandoen igjen.",
       "userAdd": "$role gis når en bruker blir med.",
       "userRemove": "$role vil ikke lenger bli gitt når en bruker blir med.",
@@ -209,11 +209,11 @@
       "nonSet": "Ingen roller satt",
       "main": [
         {
-          "name": " user <role name | role mention>",
+          "name": " bruker <rolle navn | nevn rolle>",
           "value": "Sett rolle(r) som vil bli gitt når en bruker blir med."
         },
         {
-          "name": " bot <role name | role mention>",
+          "name": " bot <rolle navn | nevn rolle>",
           "value": "Angi rolle(r) som gis når en bot blir med."
         },
         {
@@ -226,12 +226,12 @@
       "help": "Forslag-konfigurasjon.",
       "params": "",
       "channel": {
-        "help": " channel <new | approved | denied | invalid | potential> <#channel>",
+        "help": " kanal <ny | godkjent | avvist | ugyldig | potensiell> <#kanal>",
         "description": "Angi hvilke kanaler nye, godkjente, avviste, potensiale, og ugyldige forslag vil bli sendt til.",
         "set": "$type forslag vil bli sendt til $channel"
       },
       "submit": {
-        "help": " submit <#channel>",
+        "help": " send <#channel>",
         "description": "Angi hvilken kanal som forslag skal bare kunne sendes fra.",
         "set": "Forslag kan nå kun bli sendt fra $channel",
         "disable": "Forslag kan nå sendes fra hvilken som helst kanal."
@@ -247,17 +247,17 @@
       "emojis": {
         "help": " emojier <emoji> - <emoji>",
         "description": "Angi emojier som vil bli reagerte på ved nye forslag.",
-        "set": "The emojis $emoji1, $emoji2 will get reacted to new suggestions if reactions are turned on."
+        "set": "Emojiene $emoji1, $emoji2 vil bli reagert på nye forslag hvis reaksjoner er aktivert."
       },
       "role": {
-        "help": " role <role name | role mention | disable>",
+        "help": " rolle <rolle navn | nevn rolle | deaktiver>",
         "description": "Begrens administrering av forslag til en spesiell rolle.",
         "disable": "Alle med tillatelsen \"Administrere Guild\" kan godkjenne/avvise forslag nå.",
         "set": "Bare brukere med rolle $role kan godkjenne/avvise forslag nå."
       },
       "main": [
         {
-          "name": " channel <new | approved | denied | invalid | potential> <#channel>",
+          "name": " kanal <ny | godkjent | avvist | ugyldig | potensiell> <#kanal>",
           "value": "Angi hvilke kanaler nye, godkjente og avviste forslag vil bli sendt til."
         },
         {
@@ -290,7 +290,7 @@
       "help": "La til en emoji som vil fjerne en rolle til den aktive meldingen.",
       "params": " <emoji> <rolle navn | nevn rolle>",
       "description": "Du kan legge til en rolle når Zira fjerner den andre rollen. Du må bruke et komma for å separere den andre rollen, se under for eksempel.",
-      "limit": "You have reached the limit of 6 remove roles. You can get unlimited remove and toggled roles by [donating](https://zira.ovh/premium)",
+      "limit": "Du har nådd grensen på seks fjern roller. Du kan få uendelige fjern roller ved å [donere](https://zira.ovh/premium)",
       "remove": "$role vil bli fjernet",
       "removeAdd": "$role1 vil bli fjernet og $role2 vil bli gitt",
       "emoji": " med emojien $emoji"
@@ -333,7 +333,7 @@
       "set": "Når noen reagerer for å få en rolle, logges det til ",
       "give": "< @$user> reagerte $emoji for å få < @&$role >",
       "giveMulti": "< @$user> reagerte $emoji for å få $roles",
-      "giveRemove": "<@$user> reacted $emoji to remove <@&$role1> and to get <@&$role2>",
+      "giveRemove": "<@$user> reagerte $emoji for å fjerne <@&$role1> for å få <@&$role2>",
       "remove": "<@$user> fjernet reaksjon $emoji for å fjerne <@&$role>",
       "removeMulti": "<@$user> fjernet reaksjon $emoji for å fjerne $roles"
     },
