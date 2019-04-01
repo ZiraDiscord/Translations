@@ -180,7 +180,7 @@
     "multi": {
       "help": "La till en emoji som ger flera roller till nuvarande meddelande.",
       "params": " <emoji> <rollnamn | rollnämning>, <rollnamn | rollnämning>",
-      "ordinal": "$pos-rollen är okänd.",
+      "ordinal": "$pos -rollen är okänd.",
       "usedEmoji": "Den emojin används redan på detta meddelande.",
       "set": "$roles inställda med emojin $emoji"
     },
