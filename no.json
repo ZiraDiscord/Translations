@@ -386,7 +386,7 @@
       "help": "Send en melding når en bruker blir med.",
       "params": "",
       "placeholderTitle": "Melding Plassholdere",
-      "placeholders": "$user ~ ~-~ ~ brukernavn\n$mention ~ ~-~ ~ bruker henvisning\n$guild ~ ~-~ ~ guild navn\n$membercount ~ ~-~ ~ antall nye medlemmer",
+      "placeholders": "$user ~~-~~ brukernavn\n$mention ~~-~~ bruker nevning\n$guild ~~-~~ guild navn\n$membercount ~~-~~ antall nye medlemmer",
       "channelSet": "Ble med melding sendt til ",
       "channelDisable": "Ble med meldinger vil ikke lenger bli sendt.",
       "messagePick": "Fjern en melding under ved å **z/leave remove ID**\n\n",
