@@ -136,13 +136,13 @@
       "validList": "Das ist keine gültige Liste. Bitte gebe eine gültige Listen ID ein.",
       "pickNew": "Gebe die entsprechende Nummer ein, um eine Liste auszuwählen, oder \"keine\", um keine Liste für neue Vorschläge auszuwählen.",
       "pickNewTitle": "Wähle eine Liste für neue Vorschläge aus",
-      "pickApprove": "Gebe die entsprechende Nummer ein, um eine Liste auszuwählen, oder \"keine\",  um keine Liste für genehmigte Vorschläge auszuwählen.",
+      "pickApprove": "Gebe die entsprechende Nummer ein, um eine Liste auszuwählen, oder \"keine\",  um keine Liste für genehmigte Vorschläge auszuwählen.\n\n",
       "pickApproveTitle": "Wähle eine Liste für genehmigte Vorschläge aus",
-      "pickDenied": "Gebe die entsprechende Nummer ein, um eine Liste auszuwählen, oder \"keine\",  um keine Liste für abgelehnte Vorschläge auszuwählen.",
+      "pickDenied": "Gebe die entsprechende Nummer ein, um eine Liste auszuwählen, oder \"keine\", um keine Liste für abgelehnte Vorschläge auszuwählen.\n\n",
       "pickDeniedTitle": "Wähle eine Liste für abgelehnte Vorschläge aus",
-      "pickPotential": "Gebe die entsprechende Nummer ein, um eine Liste auszuwählen, oder \"keine\", um keine Liste für mögliche Vorschläge auszuwählen.",
+      "pickPotential": "Gebe die entsprechende Nummer ein, um eine Liste auszuwählen, oder \"keine\", um keine Liste für mögliche Vorschläge auszuwählen.\n\n",
       "pickPotentialTitle": "Wähle eine Liste mit möglichen Vorschlägen aus",
-      "pickInvalid": "Gebe die entsprechende Nummer ein, um eine Liste auszuwählen, oder \"keine\",  um keine Liste für ungültige Vorschläge auszuwählen.",
+      "pickInvalid": "Gebe die entsprechende Nummer ein, um eine Liste auszuwählen, oder \"keine\", um keine Liste für ungültige Vorschläge auszuwählen.\n\n",
       "pickInvalidTitle": "Wähle eine Liste für ungültige Vorschläge aus",
       "set": "Board und Liste(n) festlegen."
     },
@@ -163,7 +163,7 @@
     },
     "edit": {
       "help": "Bearbeite eine von Zira gesendete Nachricht, im aktiven Kanal.",
-      "params": " <nachrichten ID | neue nachricht>",
+      "params": " <nachrichten ID> | <neue nachricht>",
       "owner": "Diese Nachricht wurde von mir nicht gesendet.",
       "success": "Nachricht editiert."
     },
@@ -228,31 +228,31 @@
       "channel": {
         "help": " kanal <neu | genehmigt | abgelehnt | ungültig | möglich> <#kanal>",
         "description": "Lege fest, an welche Kanäle neue, genehmigte, abgelehnte, mögliche und ungültige Vorschläge gesendet werden sollen.",
-        "set": "$typ vorschläge werden an $kanal gesendet"
+        "set": "$type vorschläge werden an $channel gesendet"
       },
       "submit": {
         "help": " senden <#kanal>",
-        "description": "Set which channel that suggestion will only be allow to be sent from.",
-        "set": "Suggestions will only be allow to be sent from $channel",
-        "disable": "Suggestions can now be sent from any channel."
+        "description": "Legen Sie fest, von welchem Kanal aus dieser Vorschlag gesendet werden darf.",
+        "set": "Vorschläge können nur in $channel gesendet werden",
+        "disable": "Vorschläge können jetzt von jedem Channel gesendet werde."
       },
       "dm": {
-        "on": "A DM will get sent to the user of a suggestion when the suggestion gets approved, denied, potentialed, or invalidated, etc.",
-        "off": "Users will not longer get DMs about suggestions."
+        "on": "Eine DM wird dem Benutzer der den Vorschlag gemacht hat gesendet wenn diese Angenommen, Verweigerte, Potenziel ist oder ungültig ist, etc.",
+        "off": "Benutzer werden nicht mehr DMs über Anregungen erhalten."
       },
       "reaction": {
-        "on": "Emojis will get reacted to new suggestions.",
-        "off": "Emojis will no longer get reacted to new suggestions."
+        "on": "Mit Emojis wird nun auf jeden neuen Vorschlag reagiert.",
+        "off": "Mit Emojis wird nun nicht mehr auf jeden neuen Vorschlag reagiert."
       },
       "emojis": {
         "help": " emojis <emoji> <emoji>",
-        "description": "Set the emojis that will get reacted on new suggestions.",
-        "set": "The emojis $emoji1, $emoji2 will get reacted to new suggestions if reactions are turned on."
+        "description": "Setze das Emoji für die Reaktion auf neue Vorschläge.",
+        "set": "Mit den Emojis $emoji1, $emoji2 wird nun auf neue Vorschläge reagiert, wenn diese Option an ist eingeschaltet sind."
       },
       "role": {
-        "help": " role <role name | role mention | disable>",
-        "description": "Limit managing of suggestions to a certain role.",
-        "disable": "Anyone with the permission `Manage Guild` can approve/deny suggestions now.",
+        "help": " role <rollen name | rollen erwähnung | ausschalten>",
+        "description": "Verwaltung des Limits für eine gewisse Rolle.",
+        "disable": "Jeder, der die Berechtigung 'Verwalten Gilde' hat, kann Vorschläge genehmigen/verbieten.",
         "set": "Only users with the role $role can approve/deny suggestions now."
       },
       "main": [
@@ -274,11 +274,11 @@
         },
         {
           "name": " emojis <emoji> <emoji>",
-          "value": "Set the emojis that will get reacted on new suggestions."
+          "value": "Setze das Emoji für die Reaktion auf neue Vorschläge."
         },
         {
           "name": " rolle <rollen name | rollen erwähnung>",
-          "value": "Limit managing of suggestions to a certain role."
+          "value": "Verwaltung des Limits für eine gewisse Rolle."
         }
       ]
     },
