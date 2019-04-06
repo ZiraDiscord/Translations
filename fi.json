@@ -15,9 +15,9 @@
     "unknownMessageID": "Unknown message. Please make sure the message ID you used is valid.",
     "setChannel": "Please set a channel first, then try this command again.",
     "setChannelOrMessage": "Please set a channel and message first, then try this command again.",
-    "ordinalPair": "Unknown role in $pair pair.",
-    "usedEmoji": "The emoji in the $pair pair is already used on this message.",
-    "usedRole": "The role in the $pair pair is already used on this message.",
+    "ordinalPair": "Tuntematon rooli $pair parissa.",
+    "usedEmoji": "$pair parissa kaytetty emoji on jo käytössä tässä viestissä.",
+    "usedRole": "$pair parissa kaytetty rooli on jo käytössä tässä viestissä.",
     "unknownMessage": "The active message is unknown, please check my permissions and that the message still exists.",
     "unknownEmoji": "En voi käyttää tuota emojia. Jos se on custom emoji, varmistathan että minä voin käyttää sitä",
     "premium": "Tämä ominaisuus on [premium](https://zira.ovh/premium) ainoastan.",
@@ -131,7 +131,7 @@
         "success": "To verify this board, please create a card that has the title set to the ID that has been sent to you. After you have done this, please type `done` in this channel to continue the setup.\n\nYou will have 5 minutes to do this.",
         "error": "I was unable to send you the verification DM. Please make sure I can send you a DM."
       },
-      "time": "You have ran out of time. Please try again.",
+      "time": "Aikasi on loppunut. Yritä uudestaan.",
       "noCard": "Unable to find the card. Please try again.",
       "validList": "That is not a valid list. Please input a valid list ID.",
       "pickNew": "Type the corresponding number to pick a list, or `none` to not pick a list for new suggestions.\n\n",
@@ -165,7 +165,7 @@
       "help": "Edit a message sent by Zira in the active channel.",
       "params": " <message ID> <new message>",
       "owner": "That message has not been sent by me.",
-      "success": "Message edited."
+      "success": "Viesti muokattu."
     },
     "toggle": {
       "help": "Add toggled role(s) to the active message.",
@@ -218,7 +218,7 @@
         },
         {
           "name": " näytä",
-          "value": "Show the current roles set."
+          "value": "Näytä tämänhetkiset asetetut roolit."
         }
       ]
     },
@@ -253,12 +253,12 @@
         "help": " role <role name | role mention | disable>",
         "description": "Limit managing of suggestions to a certain role.",
         "disable": "Anyone with the permission `Manage Guild` can approve/deny suggestions now.",
-        "set": "Only users with the role $role can approve/deny suggestions now."
+        "set": "Vain käyttäjät joilla on rooli $role voivat hyväksyä/hylätä ehdotuksia nyt."
       },
       "main": [
         {
           "name": " channel <new | approved | denied | invalid | potential> <#channel>",
-          "value": "Set which channels new, approved, and denied suggestions will get sent to."
+          "value": "Aseta mille kanaville uudet, hyväksytyt ja hylätyt ehdotukset tullaan lähettämään."
         },
         {
           "name": " lähetä <#channel>",
@@ -291,7 +291,7 @@
       "params": " <emoji> <role name | role mention>",
       "description": "You can add a role when Zira is removing the other role. You have to use a comma to separate the second role, see below for an example.",
       "limit": "You have reached the limit of 6 remove roles. You can get unlimited remove and toggled roles by [donating](https://zira.ovh/premium)",
-      "remove": "$role will be removed",
+      "remove": "$role poistetaan",
       "removeAdd": "$role1 will be removed and $role2 will be given",
       "emoji": " with the emoji $emoji"
     },
@@ -301,20 +301,20 @@
       "noChannel": "There is no suggestion channel. Please set one.",
       "wrongChannel": "Use <#$channel> to submit a suggestion.",
       "card": {
-        "title": "New Suggestion: $suggestion",
+        "title": "Uusi ehdotus: $suggestion",
         "body": "$suggestion\n\nSubmitted by: $user"
       },
       "success": "Suggestion submitted."
     },
     "approve": {
-      "help": "Approve a suggestion",
+      "help": "Hyväksy ehdotus",
       "params": " <suggestion ID | message ID>",
-      "success": "The suggestion has been approved."
+      "success": "Ehdotus on hyväksytty."
     },
     "deny": {
       "help": "Deny a suggestion",
       "params": " <suggestion ID | message ID>",
-      "success": "The suggestion has been denied."
+      "success": "Ehdotus on hylätty."
     },
     "maybe": {
       "help": "Potential approve a suggestion.",
@@ -347,11 +347,11 @@
       "help": "Zira will create 8 colored roles",
       "params": "",
       "perms": "I'm missing the permission `Manage Roles`.",
-      "done": "I have created the following roles: ",
+      "done": "Olen luonut seuraavat roolit: ",
       "none": "No roles were created, as there are already color roles."
     },
     "leave": {
-      "help": "Send a message when a user leaves.",
+      "help": "Lähetä viesti kun käyttäjä lähtee.",
       "params": "",
       "placeholderTitle": "Message Placeholders",
       "placeholders": "$user ~~-~~ username\n$mention ~~-~~ user mention\n$guild ~~-~~ guild name\n$membercount ~~-~~ new member count",
@@ -373,7 +373,7 @@
           "value": "Add a message to send. You can have multiple message for a random message when a user leaves."
         },
         {
-          "name": " remove <ID>",
+          "name": " poista <ID>",
           "value": "Remove a message that has been set."
         },
         {
