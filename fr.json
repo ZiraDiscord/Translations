@@ -1,5 +1,5 @@
 {
-  "language": "Anglais",
+  "language": "Français",
   "titles": {
     "use": "Utilisation de la commande",
     "error": "Erreur :warning:",
@@ -133,10 +133,10 @@
       },
       "time": "Votre temps a expiré. Veuillez réessayer.",
       "noCard": "Incapable de trouver la carte. Veuillez réessayer.",
-      "validList": "That is not a valid list. Please input a valid list ID.",
-      "pickNew": "Type the corresponding number to pick a list, or `none` to not pick a list for new suggestions.\n\n",
-      "pickNewTitle": "Pick a List for New Suggestions",
-      "pickApprove": "Type the corresponding number to pick a list, or `none` to not pick a list for approved suggestions.\n\n",
+      "validList": "Ce n’est pas une liste valide. Veuillez entrer un ID de liste valide.",
+      "pickNew": "Tapez le numéro correspondant pour choisir une liste, ou `none` pour ne pas choisir de liste pour les nouvelles suggestions.\n\n",
+      "pickNewTitle": "Obtenir une liste des nouvelles suggestions",
+      "pickApprove": "Tapez le numéro correspondant pour choisir une liste, ou `none` pour ne pas choisir de liste pour les suggestions approuvées.\n\n",
       "pickApproveTitle": "Obtenir une liste des suggestions approuvées",
       "pickDenied": "Tapez le numéro correspondant pour choisir une liste, ou `none` pour ne pas choisir de liste pour les suggestions refusées.\n\n",
       "pickDeniedTitle": "Obtenir une liste des suggestions refusées",
@@ -170,40 +170,40 @@
     "toggle": {
       "help": "Ajouter le(s) rôle(s) modifié(s) au message actif.",
       "params": " <emoji> <role name | role mention>",
-      "limit": "You have reached the limit of 6 toggled roles. You can get unlimited toggled roles by [donating](https://zira.ovh/premium)",
-      "over": "Adding these will result in you reaching the limit of toggled roles. You can get unlimited toggled and remove roles by [donating](https://zira.ovh/premium)"
+      "limit": "Vous avez atteint la limite de 6 rôles modifiés. Vous pouvez obtenir des rôles modifiés illimités en [faisant un don](https://zira.ovh/premium)",
+      "over": "Ajouter cela vous fera atteindre la limite des rôles activés. Vous pouvez obtenir des rôles modifiés illimités et supprimer des rôles en [faisant un don](https://zira.ovh/premium)"
     },
     "once": {
-      "help": "Added role(s) to the active message that can only be received once.",
+      "help": "Rôle(s) ajouté(s) au message actif qui ne peut (peuvent) être reçu(s) qu’une fois.",
       "params": " <emoji> <role name | role mention>"
     },
     "multi": {
-      "help": "Added an emoji that will give multiple roles to the active message.",
+      "help": "Ajouté un emoji qui va donner plusieurs rôles sur le message actif.",
       "params": " <emoji> <role name | role mention>, <role name | role mention>",
-      "ordinal": "The $pos role is unknown.",
+      "ordinal": "Le rôle $pos est inconnu.",
       "usedEmoji": "Cette emoji est déjà utilisé sur ce message.",
-      "set": "$roles set with the emoji $emoji"
+      "set": "$roles> définis avec les emoji $emoji"
     },
     "delete": {
       "help": "Retirer tous les rôles qui ont été configurés.",
       "params": " <message ID> <role name | role mention | check>",
       "noRoles": "Aucun rôles ne sont définit sur ce message",
-      "removedCheck": "$num roles removed from that message.",
+      "removedCheck": "$num rôles retirés de ce message.",
       "good": "Tous les rôles existent, aucune n’ont été retirés.",
-      "removed": "<@&$id> removed with the emoji $emoji",
-      "message": "Unable to remove the role as it wasn't on the specified message."
+      "removed": "<@&$id> enlevé avec les emoji $emoji",
+      "message": "Impossible de supprimer le rôle puisque ce n’était pas sur le message spécifié."
     },
     "autorole": {
-      "help": "Give roles on user/bot join..",
+      "help": "Donne des rôles quand l’utilisateur/bot rejoint le serveur.",
       "params": "",
       "title": "Rôle Automatique",
       "ubParams": " <role name | role mention>",
-      "user": "Add a role that should be given when a user joins.\n\nTo remove a role being used in autorole, just do the command again.",
-      "userAdd": "$role will be given when a user joins.",
-      "userRemove": "$role will no longer be given when a user joins.",
-      "bot": "Add a role that should be given when a bot joins.\n\nTo remove a role being used in autorole, just do the command again.",
-      "botAdd": "$role will be given when a bot joins.",
-      "botRemove": "$role will no longer be given when a bot joins.",
+      "user": "Ajout d’un rôle qui ne sera accordé que lorsqu’un utilisateur rejoint.\n\nPour supprimer un rôle utilisé dans un rôle automatique, refaites juste la commande.",
+      "userAdd": "$role sera donné lorsqu’un utilisateur rejoint.",
+      "userRemove": "$role ne sera plus donné lorsqu’un utilisateur rejoint.",
+      "bot": "Ajout d’un rôle qui ne sera accordé que lorsqu’un bot rejoint.\n\nPour supprimer un rôle utilisé dans un rôle automatique, refaites juste la commande.",
+      "botAdd": "$role sera donné lorsqu’un bot rejoint.",
+      "botRemove": "$role ne sera plus donné lorsqu’un bot rejoint.",
       "showUser": "Rôles d’utilisateur",
       "showBot": "Rôles de bot",
       "nonSet": "Pas de rôles définis",
@@ -213,52 +213,52 @@
           "value": "Définissez le(s) rôle(s) attriubé(s) lorsqu’un utilisateur rejoint."
         },
         {
-          "name": " bot <role name | role mention>",
-          "value": "Set role(s) that will be given when a bot joins."
+          "name": " bot <nom du rôle | mention du rôle>",
+          "value": "Définissez le(s) rôle(s) attriubé(s) lorsqu’un bot rejoint."
         },
         {
           "name": " montrer",
-          "value": "Show the current roles set."
+          "value": "Afficher l’ensemble de rôles actuels définis."
         }
       ]
     },
     "suggestion": {
-      "help": "Suggestion configuration.",
+      "help": "Configuration pour suggestion.",
       "params": "",
       "channel": {
-        "help": " channel <new | approved | denied | invalid | potential> <#channel>",
-        "description": "Set which channels new, approved, denied, potential, and invalid suggestions will get sent to.",
-        "set": "$type suggestions will get sent to $channel"
+        "help": " salon <nouveau | approuvé | refusé | invalide | potentiel> <#salon>",
+        "description": "Définir dans quels salons les suggestions nouvelles, approuvées, refusées, potentielles, et non valides seront envoyées.",
+        "set": "Les suggestions $type vont être envoyées à $channel"
       },
       "submit": {
         "help": " soumettre<#salon>",
-        "description": "Set which channel that suggestion will only be allow to be sent from.",
-        "set": "Suggestions will only be allow to be sent from $channel",
-        "disable": "Suggestions can now be sent from any channel."
+        "description": "Définit depuis quel salon seulement l'envoie de suggestions sera autorisé.",
+        "set": "Les suggestions seront uniquement autorisées à être envoyées à partir de $channel",
+        "disable": "Les suggestions peuvent maintenant être envoyées depuis n’importe quel salon."
       },
       "dm": {
         "on": "Un message privé sera envoyer à l'utilisateur lorsque la suggestion sera approuvé , nié , mise à part pour le moment , invalide, etc.",
         "off": "Les utilisateurs ne recevront plus de messages privés à propos des suggestions."
       },
       "reaction": {
-        "on": "Emojis will get reacted to new suggestions.",
-        "off": "Emojis will no longer get reacted to new suggestions."
+        "on": "Les émojis vont être ajoutés comme réactions aux nouvelles suggestions.",
+        "off": "Les émojis ne seront plus ajoutés comme réactions aux nouvelles suggestions."
       },
       "emojis": {
         "help": " émoticônes<emoji><emoji>",
-        "description": "Set the emojis that will get reacted on new suggestions.",
-        "set": "The emojis $emoji1, $emoji2 will get reacted to new suggestions if reactions are turned on."
+        "description": "Définissez les émojis qui vont être ajoutés comme réactions aux nouvelles suggestions.",
+        "set": "Les émojis $emoji1, $emoji2 vont être ajoutés comme réactions aux nouvelles propositions si les réactions sont activées."
       },
       "role": {
         "help": " rôle de <nom du rôle | mention du rôle | désactiver>",
-        "description": "Limit managing of suggestions to a certain role.",
-        "disable": "Anyone with the permission `Manage Guild` can approve/deny suggestions now.",
-        "set": "Only users with the role $role can approve/deny suggestions now."
+        "description": "Limiter la gestion des suggestions à un certain rôle.",
+        "disable": "Toute personne ayant l’autorisation `Gérer le serveur` peut maintenant approuver/refuser les suggestions.",
+        "set": "Seuls les utilisateurs ayant le rôle $role peuvent maintenant approuver/refuser suggestions."
       },
       "main": [
         {
           "name": " salon <nouveau | apprové | nié | invalid | potentiel> <#salon>",
-          "value": "Set which channels new, approved, and denied suggestions will get sent to."
+          "value": "Définir dans quels salons les suggestions nouvelles, approuvées, et refusées seront envoyées."
         },
         {
           "name": " submit <#channel>",
@@ -270,15 +270,15 @@
         },
         {
           "name": " reaction",
-          "value": "Set whether or not emojis should be reacted to new suggestions."
+          "value": "Définir si oui ou non les émoticônes seront ajoutés comme réactions aux nouvelles suggestions."
         },
         {
           "name": " émoticônes<emoji><emoji>",
-          "value": "Set the emojis that will get reacted on new suggestions."
+          "value": "Définissez les émojis qui vont être ajoutés comme réactions aux nouvelles suggestions."
         },
         {
           "name": " rôle<nom du rôle | mention du rôle>",
-          "value": "Limit managing of suggestions to a certain role."
+          "value": "Limiter la gestion des suggestions à un certain rôle."
         }
       ]
     },
@@ -290,7 +290,7 @@
       "help": "Ajouté un emoji qui va supprimer un rôle au message actif.",
       "params": " <emoji> <role name | role mention>",
       "description": "Vous pouvez ajouter un rôle lorsque Zira supprime l’autre rôle. Vous devez utiliser une virgule pour séparer le second rôle, voir ci-dessous pour un exemple.",
-      "limit": "You have reached the limit of 6 remove roles. You can get unlimited remove and toggled roles by [donating](https://zira.ovh/premium)",
+      "limit": "Vous avez atteint la limite de 6 rôles modifiés. Vous pouvez obtenir des rôles enlevés et modifiés illimités en [faisant un don](https://zira.ovh/premium)",
       "remove": "$role sera supprimé",
       "removeAdd": "$role1 sera supprimé et $role2 sera donné",
       "emoji": " avec l'emoji $emoji"
@@ -330,7 +330,7 @@
       "help": "Configurer l'enregistrement des rôles.",
       "params": " <#channel | disable>",
       "disabled": "Enregistrement des rôles désactiver",
-      "set": "Whenever someone reacts to get a role, it will be logged to ",
+      "set": "Chaque fois que quelqu'un réagit pour obtenir un rôle, cela sera notifié dans ",
       "give": "<@$user> a réagi avec $emoji pour obtenir <@&$role >",
       "giveMulti": "<@$user> a réagi avec $emoji pour obtenir $roles",
       "giveRemove": "<@$user> a réagi $emoji pour retirer <@&$role1> et obtenir <@&$role2 >",
@@ -354,10 +354,10 @@
       "help": "Envoyer un message lorsqu'un utilisateur part.",
       "params": "",
       "placeholderTitle": "Message Temporaire",
-      "placeholders": "$user ~~-~~ username\n$mention ~~-~~ user mention\n$guild ~~-~~ guild name\n$membercount ~~-~~ new member count",
-      "channelSet": "Leave messages will get sent to ",
-      "channelDisable": "Leave messages will no longer get sent.",
-      "messagePick": "Remove a message below by doing **z/leave remove ID**\n\n",
+      "placeholders": "$user ~~-~~ nom d'utilisateur\n$mention ~~-~~ mentions de l'utilisateur\n$guild ~~-~~ nom du serveur\n$membercount ~~-~~ nouveau nombre de membres",
+      "channelSet": "Les messages de départ seront envoyés là ",
+      "channelDisable": "Les messages de départ ne seront plus envoyés.",
+      "messagePick": "Supprimer un message ci-dessous en faisant ** z/leave remove ID **\n\n",
       "messageSet": "Message ajouté.",
       "messageMissing": "Veuillez fournir un message",
       "messageRemove": "Message supprimé.",
@@ -366,11 +366,11 @@
       "main": [
         {
           "name": " salon < #salon | désactiver >",
-          "value": "Set the channel messages will get sent to when a user leaves."
+          "value": "Définir le salon où les messages seront envoyés lorsqu’un utilisateur quitte le serveur."
         },
         {
           "name": " ajouter <message>",
-          "value": "Add a message to send. You can have multiple message for a random message when a user leaves."
+          "value": "Ajouter un message à envoyer. Vous pouvez avoir plusieurs messages pour un message au hasard lorsqu’un utilisateur quitte le serveur."
         },
         {
           "name": " supprimer <ID>",
@@ -378,7 +378,7 @@
         },
         {
           "name": " liste",
-          "value": "List all leave messages."
+          "value": "Lister tous les messages de départ."
         }
       ]
     },
@@ -387,8 +387,8 @@
       "params": "",
       "placeholderTitle": "Message Temporaire",
       "placeholders": "$user ~~-~~ nom d'utilisateur\n$mention ~~-~~ mentions de l'utilisateur\n$guild ~~-~~ nom de la confrérie\n$membercount ~~-~~ nouveau nombre de membre",
-      "channelSet": "Join messages will get sent to ",
-      "channelDisable": "Join messages will no longer get sent.",
+      "channelSet": "Les messages d'arrivée seront envoyés là ",
+      "channelDisable": "Les messages d'arrivée ne seront plus envoyés.",
       "messagePick": "Supprimer un message ci-dessous en faisant ** z/join supprimer ID **\n\n",
       "messageSet": "Message ajouté.",
       "messageMissing": "Veuillez fournir un message",
@@ -398,7 +398,7 @@
       "main": [
         {
           "name": " salon < #salon | désactiver >",
-          "value": "Set the channel messages will get sent to when a user joins."
+          "value": "Définir le salon où les messages seront envoyés lorsqu’un utilisateur rejoint le serveur."
         },
         {
           "name": " ajouter <message>",
