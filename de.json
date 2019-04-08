@@ -233,7 +233,7 @@
       "submit": {
         "help": " senden <#kanal>",
         "description": "Lege fest, von welchem Kanal aus dieser Vorschlag gesendet werden darf.",
-        "set": "Vorschläge können nur in $channel gesendet werden",
+        "set": "Suggestions will only be allow to be sent from $channel",
         "disable": "Vorschläge können jetzt von jedem Channel gesendet werden."
       },
       "dm": {
