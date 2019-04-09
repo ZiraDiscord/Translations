@@ -179,7 +179,7 @@
     },
     "multi": {
       "help": "Ein Emoji wurde hinzugefügt, das der aktiven Nachricht mehrere Rollen zuweist.",
-      "params": " <emoji> <rollen name | rollen mention>, <rollen name | rollen mention>",
+      "params": " <emoji> <rollen name | rollen erwähnung>, <rollen name | rollen erwähnung>",
       "ordinal": "Die $pos Rolle ist unbekannt.",
       "usedEmoji": "Dieses Emoji wird bereits für diese Nachricht verwendet.",
       "set": "$roles mit dem Emoji $emoji gesetzt"
@@ -194,7 +194,7 @@
       "message": "Die Rolle konnte nicht entfernt werden, da sie nicht in der angegebenen Nachricht enthalten war."
     },
     "autorole": {
-      "help": "Gibt Rollen den User/Bot beim Joinen..",
+      "help": "Gibt Rollen den Benutzer/Bot beim Betreten..",
       "params": "",
       "title": "Automatische Rollen",
       "ubParams": " <rollen name | rollen erwähnung>",
@@ -232,53 +232,53 @@
       },
       "submit": {
         "help": " senden <#kanal>",
-        "description": "Legen Sie fest, von welchem Kanal aus dieser Vorschlag gesendet werden darf.",
-        "set": "Vorschläge können nur in $channel gesendet werden",
-        "disable": "Vorschläge können jetzt von jedem Channel gesendet werde."
+        "description": "Lege fest, von welchem Kanal aus dieser Vorschlag gesendet werden darf.",
+        "set": "Vorschläge können nur gesendet werden von $channel",
+        "disable": "Vorschläge können jetzt von jedem Channel gesendet werden."
       },
       "dm": {
-        "on": "Eine DM wird dem Benutzer der den Vorschlag gemacht hat gesendet wenn diese Angenommen, Verweigerte, Potenziel ist oder ungültig ist, etc.",
-        "off": "Benutzer werden nicht mehr DMs über Anregungen erhalten."
+        "on": "Ein DM wird an den Benutzer eines Vorschlags gesendet, wenn der Vorschlag genehmigt, abgelehnt, möglich oder ungültig gemacht wird, etc.",
+        "off": "Benutzer werden keine DMs mehr über Vorschläge erhalten."
       },
       "reaction": {
-        "on": "Mit Emojis wird nun auf jeden neuen Vorschlag reagiert.",
-        "off": "Mit Emojis wird nun nicht mehr auf jeden neuen Vorschlag reagiert."
+        "on": "Emojis werden auf neue Vorschläge reagieren.",
+        "off": "Emojis werden nicht mehr auf neue Vorschläge reagieren."
       },
       "emojis": {
         "help": " emojis <emoji> <emoji>",
-        "description": "Setze das Emoji für die Reaktion auf neue Vorschläge.",
-        "set": "Mit den Emojis $emoji1, $emoji2 wird nun auf neue Vorschläge reagiert, wenn diese Option an ist eingeschaltet sind."
+        "description": "Setzt die Emojis, die auf neue Vorschläge reagieren.",
+        "set": "Die Emojis $emoji1, $emoji2 werden auf neue Vorschläge reagieren, wenn Reaktionen eingestellt werden."
       },
       "role": {
-        "help": " role <rollen name | rollen erwähnung | ausschalten>",
-        "description": "Verwaltung des Limits für eine gewisse Rolle.",
-        "disable": "Jeder, der die Berechtigung 'Verwalten Gilde' hat, kann Vorschläge genehmigen/verbieten.",
-        "set": "Only users with the role $role can approve/deny suggestions now."
+        "help": " rolle <rolle name | rolle erwähnung | abgeschaltet>",
+        "description": "Beschränke die Verwaltung von Vorschlägen auf eine bestimmte Rolle.",
+        "disable": "Jeder mit der Berechtigung `Verwalte Discord` kann jetzt Vorschläge genehmigen/ablehnen.",
+        "set": "Nur Benutzer mit der Rolle $role können jetzt Vorschläge genehmigen/ablehnen."
       },
       "main": [
         {
           "name": " kanal <neu | genehmigt | abgelehnt | ungültig | möglich> <#kanal>",
-          "value": "Set which channels new, approved, and denied suggestions will get sent to."
+          "value": "Lege fest, an welche Kanäle neue, genehmigte und abgelehnte Vorschläge gesendet werden sollen."
         },
         {
           "name": " senden <#kanal>",
-          "value": "Limit the sending of suggestions to one channel."
+          "value": "Beschränke das Senden von Vorschlägen auf einen Kanal."
         },
         {
           "name": " dm",
-          "value": "Set whether or not users should get a DM about their suggestions."
+          "value": "Stelle ein, ob Benutzer ein DM über ihre Vorschläge erhalten sollen oder nicht."
         },
         {
           "name": " reaktion",
-          "value": "Set whether or not emojis should be reacted to new suggestions."
+          "value": "Stelle ein, ob Emojis auf neue Vorschläge reagiert werden sollen oder nicht."
         },
         {
           "name": " emojis <emoji> <emoji>",
-          "value": "Setze das Emoji für die Reaktion auf neue Vorschläge."
+          "value": "Setzt die Emojis, die auf neue Vorschläge reagieren."
         },
         {
           "name": " rolle <rollen name | rollen erwähnung>",
-          "value": "Verwaltung des Limits für eine gewisse Rolle."
+          "value": "Beschränke die Verwaltung von Vorschlägen auf eine bestimmte Rolle."
         }
       ]
     },
@@ -287,149 +287,149 @@
       "params": ""
     },
     "remove": {
-      "help": "Added an emoji that will remove a role to the active message.",
+      "help": "Ein Emoji wurde hinzugefügt, das eine Rolle in der aktiven Nachricht entfernt.",
       "params": " <emoji> <rollen name | rollen erwähnung>",
-      "description": "You can add a role when Zira is removing the other role. You have to use a comma to separate the second role, see below for an example.",
-      "limit": "You have reached the limit of 6 remove roles. You can get unlimited remove and toggled roles by [donating](https://zira.ovh/premium)",
-      "remove": "$role will be removed",
-      "removeAdd": "$role1 will be removed and $role2 will be given",
-      "emoji": " with the emoji $emoji"
+      "description": "Du kannst eine Rolle hinzufügen, wenn Zira die andere Rolle entfernt. Du müsstest die zweite Rolle durch ein Komma trennen, siehe unten für ein Beispiel.",
+      "limit": "Du hast die Grenze von 6 rollen entfernen erreicht. Du kannst unbegrenzt viele Rollen entfernen und umschalten, indem Du [spenden](https://zira.ovh/premium)",
+      "remove": "$role wurde entfernt",
+      "removeAdd": "$role1 wird entfernt und $role2 wird vergeben",
+      "emoji": " mit dem Emoji $emoji"
     },
     "submit": {
-      "help": " Submit a suggestion",
+      "help": " Ein Vorschlag eingereicht",
       "params": " <vorschlag>",
-      "noChannel": "There is no suggestion channel. Please set one.",
-      "wrongChannel": "Use <#$channel> to submit a suggestion.",
+      "noChannel": "Es gibt keinen Vorschlagskanal. Bitte stelle einen ein.",
+      "wrongChannel": "Verwende <#$channel>, um einen Vorschlag einzureichen.",
       "card": {
-        "title": "New Suggestion: $suggestion",
-        "body": "$suggestion\n\nSubmitted by: $user"
+        "title": "Neuer Vorschlag: $suggestion",
+        "body": "$suggestion\n\nVorschlag von: $user"
       },
-      "success": "Suggestion submitted."
+      "success": "Vorschlag eingereicht."
     },
     "approve": {
-      "help": "Approve a suggestion",
-      "params": " <suggestion ID | message ID>",
-      "success": "The suggestion has been approved."
+      "help": "Einen Vorschlag annehmen",
+      "params": " <vorschlag ID | nachricht ID>",
+      "success": "Der Vorschlag wurde angenommen."
     },
     "deny": {
-      "help": "Deny a suggestion",
-      "params": " <suggestion ID | message ID>",
-      "success": "The suggestion has been denied."
+      "help": "Einen Vorschlag ablehnen",
+      "params": " <vorschlag ID | nachricht ID>",
+      "success": "Der Vorschlag wurde abgelehnt."
     },
     "maybe": {
-      "help": "Potential approve a suggestion.",
-      "params": " <suggestion ID | message ID>",
-      "success": "The suggestion has been potentially approved."
+      "help": "Möglicherweise genehmigst du einen Vorschlag.",
+      "params": " <vorschlag ID | nachricht ID>",
+      "success": "Der Vorschlag wurde möglicherweise angenommen."
     },
     "invalid": {
-      "help": "Mark a suggestion as invalid.",
-      "params": " <suggestion ID | message ID>",
-      "success": "The suggestion has been marked as invalid."
+      "help": "Markiere einen Vorschlag als ungültig.",
+      "params": " <vorschlag ID | nachricht ID>",
+      "success": "Der Vorschlag wurde als ungültig markiert."
     },
     "log": {
-      "help": "Setup role logging.",
-      "params": " <#channel | disable>",
-      "disabled": "Role logging disabled",
-      "set": "Whenever someone reacts to get a role, it will be logged to ",
-      "give": "<@$user> reacted $emoji to get <@&$role>",
-      "giveMulti": "<@$user> reacted $emoji to get $roles",
-      "giveRemove": "<@$user> reacted $emoji to remove <@&$role1> and to get <@&$role2>",
-      "remove": "<@$user> unreacted $emoji to remove <@&$role>",
-      "removeMulti": "<@$user> unreacted $emoji to remove $roles"
+      "help": "Einrichten der Rollenprotokollierung.",
+      "params": " <#kanal | abgeschaltet>",
+      "disabled": "Rollenprotokollierung deaktiviert",
+      "set": "Wann immer jemand reagiert, um eine Rolle zu erhalten, wird es protokolliert ",
+      "give": "< @$user> reagierte mit $emoji um < @&$role > zu bekommen",
+      "giveMulti": "< @$user> reagierte mit $emoji um $roles zu bekommen",
+      "giveRemove": "<@$user> regierte mit $emoji damit <@&$role1> durch <@&$role2> ausgetauscht wird",
+      "remove": "<@$user> entfernte Reaktion $emoji um <@&$role> zu entfernen",
+      "removeMulti": "<@$user> entfernte Reaktion $emoji um <@&$roles> zu entfernen"
     },
     "prefix": {
       "help": "Festlegen eines benutzerdefinierten Präfixes",
       "params": " <prefix>",
       "error": "Bitte gebe ein Präfix an, das zwischen 1 und 10 Zeichen lang ist und mindestens eines dieser Zeichen enthält:  `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
-      "set": "Guild prefix set to "
+      "set": "Discord Präfix gesetzt auf "
     },
     "colors": {
-      "help": "Zira will create 8 colored roles",
+      "help": "Zira wird 8 farbige Rollen erstellen",
       "params": "",
-      "perms": "I'm missing the permission `Manage Roles`.",
-      "done": "I have created the following roles: ",
-      "none": "No roles were created, as there are already color roles."
+      "perms": "Ich vermisse die Berechtigung `Rollen verwalten`.",
+      "done": "Ich habe die folgenden Rollen angelegt: ",
+      "none": "Es wurden keine Rollen angelegt, da es bereits Farbrollen gibt."
     },
     "leave": {
-      "help": "Send a message when a user leaves.",
+      "help": "Sendet eine Nachricht, wenn ein Benutzer austritt.",
       "params": "",
-      "placeholderTitle": "Message Placeholders",
-      "placeholders": "$user ~~-~~ username\n$mention ~~-~~ user mention\n$guild ~~-~~ guild name\n$membercount ~~-~~ new member count",
-      "channelSet": "Leave messages will get sent to ",
-      "channelDisable": "Leave messages will no longer get sent.",
-      "messagePick": "Remove a message below by doing **z/leave remove ID**\n\n",
+      "placeholderTitle": "Platzhalter für Nachrichten",
+      "placeholders": "$user ~ ~-~ ~-~ ~-~ Benutzername\n$mention ~ ~-~ ~-~  Benutzer erwähnen\n$guild ~ ~-~ ~-~ ~-~ Discordname\n$membercount ~ ~-~ neue Mitglieder anzahl",
+      "channelSet": "Austreten Nachrichten wird gesendet an ",
+      "channelDisable": "Austreten Nachrichten wird nicht länger gesendet.",
+      "messagePick": "Entferne eine der folgenden Nachrichten, indem du **z/leave entfernen ID** ausführst\n\n",
       "messageSet": "Nachricht hinzugefügt.",
-      "messageMissing": "Please provide a message",
+      "messageMissing": "Bitte gebe eine Nachricht an",
       "messageRemove": "Nachricht entfernt.",
-      "noMessages": "There are no messages set.",
-      "unknownID": "Unbekannte ID.",
-      "main": [
-        {
-          "name": " channel <#channel | disable>",
-          "value": "Set the channel messages will get sent to when a user leaves."
-        },
-        {
-          "name": " hinzufügen <nachricht>",
-          "value": "Add a message to send. You can have multiple message for a random message when a user leaves."
-        },
-        {
-          "name": " entferne <ID>",
-          "value": "Remove a message that has been set."
-        },
-        {
-          "name": " liste",
-          "value": "List all leave messages."
-        }
-      ]
-    },
-    "join": {
-      "help": "Send a message when a user joins.",
-      "params": "",
-      "placeholderTitle": "Message Placeholders",
-      "placeholders": "$user ~~-~~ username\n$mention ~~-~~ user mention\n$guild ~~-~~ guild name\n$membercount ~~-~~ new member count",
-      "channelSet": "Join messages will get sent to ",
-      "channelDisable": "Join messages will no longer get sent.",
-      "messagePick": "Remove a message below by doing **z/join remove ID**\n\n",
-      "messageSet": "Nachricht hinzugefügt.",
-      "messageMissing": "Please provide a message",
-      "messageRemove": "Nachricht entfernt.",
-      "noMessages": "There are no messages set.",
+      "noMessages": "Es sind keine Meldungen gesetzt.",
       "unknownID": "Unbekannte ID.",
       "main": [
         {
           "name": " kanal <#kanal | abgeschaltet>",
-          "value": "Set the channel messages will get sent to when a user joins."
+          "value": "Stelle ein an welchen Kanal nachrichten gesendet werden, wenn ein Benutzer austritt."
         },
         {
           "name": " hinzufügen <nachricht>",
-          "value": "Add a message to send. You can have multiple message for a random message when a user joins."
+          "value": "Füge eine Nachricht zum Senden hinzu. Du kannst mehrere Nachrichten machen, für eine Zufalls nachricht, wenn ein Benutzer austritt."
         },
         {
           "name": " entferne <ID>",
-          "value": "Remove a message that has been set."
+          "value": "Entferne eine eingestellte Nachricht."
         },
         {
           "name": " liste",
-          "value": "List all join messages."
+          "value": "Listet alle Austritts Nachrichten auf."
+        }
+      ]
+    },
+    "join": {
+      "help": "Sendet eine Nachricht, wenn ein Benutzer beitritt.",
+      "params": "",
+      "placeholderTitle": "Platzhalter für Nachrichten",
+      "placeholders": "$user ~ ~-~ ~-~ ~-~ Benutzername\n$mention ~ ~-~ ~-~  Benutzer erwähnen\n$guild ~ ~-~ ~-~ ~-~ Discordname\n$membercount ~ ~-~ neue Mitglieder anzahl",
+      "channelSet": "Beitritts Nachrichten werden gesendet an ",
+      "channelDisable": "Beitritts Nachrichten werden nicht mehr gesendet.",
+      "messagePick": "Entferne eine der folgenden Nachrichten, indem du **z/join entfernen ID**\n\n",
+      "messageSet": "Nachricht hinzugefügt.",
+      "messageMissing": "Bitte gebe eine Nachricht an",
+      "messageRemove": "Nachricht entfernt.",
+      "noMessages": "Es sind keine Meldungen gesetzt.",
+      "unknownID": "Unbekannte ID.",
+      "main": [
+        {
+          "name": " kanal <#kanal | abgeschaltet>",
+          "value": "Stelle ein, an welche Kanal nachrichten gesendet werden, wenn ein Benutzer beitritt."
+        },
+        {
+          "name": " hinzufügen <nachricht>",
+          "value": "Füge eine Nachricht zum Senden hinzu. Du kannst mehrere Nachrichten für eine Zufalls nachricht haben, wenn ein Benutzer beitritt."
+        },
+        {
+          "name": " entferne <ID>",
+          "value": "Entferne eine eingestellte Nachricht."
+        },
+        {
+          "name": " liste",
+          "value": "Listet alle Beitritts Nachrichten auf."
         }
       ]
     },
     "lang": {
-      "help": "Set the language for the guild.",
+      "help": "Legt die Sprache für den Discord fest.",
       "params": " <sprachen code>",
       "update": "Sprache eingestellt.",
-      "translate": "If you want Zira in a language that isn't on the list above, you can help translate Zira on [Crowdin](https://translate.zira.ovh)"
+      "translate": "Wenn Zira in der Liste, nicht in deiner Sprache aufgeführt ist, dann kannst du helfen Zira zu übersetzen unter [Crowdin](https://translate.zira.ovh)"
     },
     "vote": {
-      "help": "Vote for the bot.",
+      "help": "Stimme für den Bot ab.",
       "params": "",
-      "description": "You can vote for Zira below. Right now, there are no rewards, but there is a reward system in the works for the future.\nYour votes will be stored for use if you vote now, and will be useable when the system is implemented, so all current votes will count.\nYou can vote [here]($link)!"
+      "description": "Du kannst unten für Zira abstimmen. Im Moment gibt es keine Belohnungen aber es gibt ein Belohnungssystem was in Arbeit ist.\nDeine Stimmen werden für die Verwendung gespeichert, wenn du jetzt abstimmst, werden bei der Implementierung des Systems diese verwendbar sein, so dass alle aktuellen Stimmen gezählt werden.\nDu kannst [hier]($link) abstimmen!"
     },
     "rooms": {
       "help": "Einrichten privater Räume",
       "params": "",
       "title": "Einrichtung privater Räume!",
-      "description": "Don't sync permissions if you move the channel to a category. I'll need the permission `Manage Channels` to create and delete private rooms."
+      "description": "Synchronisieren Sie keine Berechtigungen, wenn du den Kanal in eine Kategorie verschiebst. Ich benötige die Berechtigung `Kanäle verwalten`, um private Räume zu erstellen und zu löschen."
     }
   }
 }
