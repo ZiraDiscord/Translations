@@ -202,7 +202,7 @@
       "userAdd": "$role wordt gegeven wanneer een gebruiker joint.",
       "userRemove": "$role zal niet langer worden gegeven wanneer een gebruiker lid wordt.",
       "bot": "Add a role that should be given when a bot joins.\n\nTo remove a role being used in autorole, just do the command again.",
-      "botAdd": "$role will be given when a bot joins.",
+      "botAdd": "$role wordt gegeven wanneer een bot joint.",
       "botRemove": "$role will no longer be given when a bot joins.",
       "showUser": "Gebruikersrollen",
       "showBot": "Bot rollen",
@@ -217,7 +217,7 @@
           "value": "Set role(s) that will be given when a bot joins."
         },
         {
-          "name": " show",
+          "name": "Toon",
           "value": "Show the current roles set."
         }
       ]
