@@ -157,14 +157,14 @@
       "main": [
         {
           "name": "rol <role | disable>",
-          "value": "Set or remove which role can use commands."
+          "value": "Instellen of verwijderen welke rol opdrachten kunnen gebruiken."
         }
       ]
     },
     "edit": {
       "help": "Edit a message sent by Zira in the active channel.",
       "params": "<message ID> <new message>",
-      "owner": "That message has not been sent by me.",
+      "owner": "Dat bericht is niet verstuurd door mij.",
       "success": "Bericht gewijzigd."
     },
     "toggle": {
@@ -218,7 +218,7 @@
         },
         {
           "name": "Toon",
-          "value": "Show the current roles set."
+          "value": "Laat de ingestelde rollen zien."
         }
       ]
     },
