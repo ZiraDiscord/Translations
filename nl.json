@@ -188,7 +188,7 @@
       "help": "Remove roles that have been setup.",
       "params": "<message ID> <role name | role mention | check>",
       "noRoles": "Er zijn geen rollen ingesteld op dit bericht.",
-      "removedCheck": "$num roles removed from that message.",
+      "removedCheck": "$num rollen verwijderd van dat bericht.",
       "good": "Alle rollen bestaan, er is niks verwijderd.",
       "removed": "<@&$id> verwijderd met de emoji $emoji",
       "message": "Unable to remove the role as it wasn't on the specified message."
@@ -213,7 +213,7 @@
           "value": "Set role(s) that will be given when a user joins."
         },
         {
-          "name": " bot <role name | role mention>",
+          "name": "bot <role name | role mention>",
           "value": "Set role(s) that will be given when a bot joins."
         },
         {
@@ -290,7 +290,7 @@
       "help": "Added an emoji that will remove a role to the active message.",
       "params": "<emoji> <role name | role mention>",
       "description": "You can add a role when Zira is removing the other role. You have to use a comma to separate the second role, see below for an example.",
-      "limit": "You have reached the limit of 6 remove roles. You can get unlimited remove and toggled roles by [donating](https://zira.ovh/premium)",
+      "limit": " hebt de limiet van 6 verwijderrollen bereikt. Je kunt onbeperkt verwijderde en geschakelde rollen krijgen door [donating](https://zira.ovh/premium)",
       "remove": "$role wordt verwijderd",
       "removeAdd": "$role1 will be removed and $role2 will be given",
       "emoji": "met de emoji $emoji"
@@ -302,12 +302,12 @@
       "wrongChannel": "Gebruik <#$channel> om een suggestie toe te voegen.",
       "card": {
         "title": "Nieuwe suggestie $suggestion",
-        "body": "$suggestion\n\nSubmitted by: $user"
+        "body": "$suggestion\n\nAangevraagd door: $user"
       },
       "success": "Suggestie ingediend."
     },
     "approve": {
-      "help": "Approve a suggestion",
+      "help": "Keur een suggestie goed",
       "params": "<suggestion ID | message ID>",
       "success": "De suggestie is geaccepteerd."
     },
@@ -319,7 +319,7 @@
     "maybe": {
       "help": "Potential approve a suggestion.",
       "params": "<suggestion ID | message ID>",
-      "success": "The suggestion has been potentially approved."
+      "success": "De suggestie is mogelijk goedgekeurd."
     },
     "invalid": {
       "help": "Mark a suggestion as invalid.",
@@ -329,10 +329,10 @@
     "log": {
       "help": "Setup role logging.",
       "params": " <#channel | disable>",
-      "disabled": "Role logging disabled",
+      "disabled": "Rol logboekregistratie uitgeschakeld",
       "set": "Whenever someone reacts to get a role, it will be logged to ",
-      "give": "<@$user> reacted $emoji to get <@&$role>",
-      "giveMulti": "<@$user> reacted $emoji to get $roles",
+      "give": "<@$user> reageerde $emoji om <@&$role> te krijgen.",
+      "giveMulti": "<@$user> reageerde $emoji om $roles te krijgen.",
       "giveRemove": "<@$user> reacted $emoji to remove <@&$role1> and to get <@&$role2>",
       "remove": "<@$user> unreacted $emoji to remove <@&$role>",
       "removeMulti": "<@$user> unreacted $emoji to remove $roles"
@@ -347,8 +347,8 @@
       "help": "Zira gaat 8 gekleurde rollen aanmaken",
       "params": "",
       "perms": "I'm missing the permission `Manage Roles`.",
-      "done": "I have created the following roles: ",
-      "none": "No roles were created, as there are already color roles."
+      "done": "Ik heb de volgende rollen gemaakt:",
+      "none": "Geen rollen zijn aangemaakt omdat er al gekleurde rollen zijn."
     },
     "leave": {
       "help": "Stuur een bericht wanneer een gebruiker verlaat.",
@@ -359,7 +359,7 @@
       "channelDisable": "Leave berichten worden niet meer verstuurd.",
       "messagePick": "Remove a message below by doing **z/leave remove ID**\n\n",
       "messageSet": "Bericht toegevoegd.",
-      "messageMissing": "Please provide a message",
+      "messageMissing": "Stel een bericht in",
       "messageRemove": "Bericht verwijderd.",
       "noMessages": "Er zijn geen berichten ingesteld.",
       "unknownID": "Onbekende ID.",
@@ -374,7 +374,7 @@
         },
         {
           "name": "verwijder <ID>",
-          "value": "Remove a message that has been set."
+          "value": "Verwijder een bericht dat is ingesteld."
         },
         {
           "name": "lijst",
@@ -398,7 +398,7 @@
       "main": [
         {
           "name": "kanaal <#channel | disable>",
-          "value": "Set the channel messages will get sent to when a user joins."
+          "value": "Stel het kanaal in waar berichten worden verstuurd wanneer een gebruiker joint."
         },
         {
           "name": "voeg <message> toe",
@@ -406,16 +406,16 @@
         },
         {
           "name": "verwijder <ID>",
-          "value": "Remove a message that has been set."
+          "value": "Verwijder een bericht dat is ingesteld."
         },
         {
           "name": "lijst",
-          "value": "List all join messages."
+          "value": "Lijst van alle join berichten."
         }
       ]
     },
     "lang": {
-      "help": "Set the language for the guild.",
+      "help": "Stel de taal in voor de guild.",
       "params": "<language code>",
       "update": "Taal ingesteld.",
       "translate": "If you want Zira in a language that isn't on the list above, you can help translate Zira on [Crowdin](https://translate.zira.ovh)"
