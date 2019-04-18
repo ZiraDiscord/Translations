@@ -101,7 +101,7 @@
       "set": "<@&$id> toegevoegd met de emoji $emoji"
     },
     "list": {
-      "help": "List all roles that have been setup.",
+      "help": "Lijst van alle rollen die ingesteld zijn.",
       "params": "",
       "title": "$name | Rollen lijst",
       "name": "**Naam:**",
@@ -234,7 +234,7 @@
         "help": " submit <#channel>",
         "description": "Set which channel that suggestion will only be allow to be sent from.",
         "set": "Suggestions will only be allow to be sent from $channel",
-        "disable": "Suggestions can now be sent from any channel."
+        "disable": "Suggesties kunnen nu in alle kanalen worden verstuurd."
       },
       "dm": {
         "on": "A DM will get sent to the user of a suggestion when the suggestion gets approved, denied, potentialed, or invalidated, etc.",
@@ -378,12 +378,12 @@
         },
         {
           "name": "lijst",
-          "value": "List all leave messages."
+          "value": "Lijst van alle leave berichten."
         }
       ]
     },
     "join": {
-      "help": "Send a message when a user joins.",
+      "help": "Stuur een bericht wanneer een gebruiker joint.",
       "params": "",
       "placeholderTitle": "Message Placeholders",
       "placeholders": "$user ~~-~~ username\n$mention ~~-~~ user mention\n$guild ~~-~~ guild name\n$membercount ~~-~~ new member count",
