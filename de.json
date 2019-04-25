@@ -194,7 +194,7 @@
       "message": "Die Rolle konnte nicht entfernt werden, da sie nicht in der angegebenen Nachricht enthalten war."
     },
     "autorole": {
-      "help": "Gibt Rollen den Benutzer/Bot beim Betreten..",
+      "help": "Gibt Rollen an den Benutzer/Bot beim Betreten..",
       "params": "",
       "title": "Automatische Rollen",
       "ubParams": " <rollen name | rollen erwähnung>",
@@ -233,12 +233,12 @@
       "submit": {
         "help": " senden <#kanal>",
         "description": "Lege fest, von welchem Kanal aus dieser Vorschlag gesendet werden darf.",
-        "set": "Vorschläge können nur gesendet werden von $channel",
+        "set": "Vorschläge können nur von $channel gesendet werden",
         "disable": "Vorschläge können jetzt von jedem Channel gesendet werden."
       },
       "dm": {
-        "on": "Ein DM wird an den Benutzer eines Vorschlags gesendet, wenn der Vorschlag genehmigt, abgelehnt, möglich oder ungültig gemacht wird, etc.",
-        "off": "Benutzer werden keine DMs mehr über Vorschläge erhalten."
+        "on": "Eine DM wird an den Benutzer eines Vorschlags gesendet, wenn der Vorschlag genehmigt, abgelehnt, möglich oder ungültig gemacht wird, etc.",
+        "off": "Benutzer werden keine DM's mehr über Vorschläge erhalten."
       },
       "reaction": {
         "on": "Emojis werden auf neue Vorschläge reagieren.",
@@ -246,11 +246,11 @@
       },
       "emojis": {
         "help": " emojis <emoji> <emoji>",
-        "description": "Setzt die Emojis, die auf neue Vorschläge reagieren.",
-        "set": "Die Emojis $emoji1, $emoji2 werden auf neue Vorschläge reagieren, wenn Reaktionen eingestellt werden."
+        "description": "Setze die Emojis, die auf neue Vorschläge reagieren.",
+        "set": "Die Emojis $emoji1 und $emoji2 werden auf neue Vorschläge reagieren, wenn Reaktionen angestellt werden."
       },
       "role": {
-        "help": " rolle <rolle name | rolle erwähnung | abgeschaltet>",
+        "help": " rolle <rolle name | rolle erwähnung | abschalten>",
         "description": "Beschränke die Verwaltung von Vorschlägen auf eine bestimmte Rolle.",
         "disable": "Jeder mit der Berechtigung `Verwalte Discord` kann jetzt Vorschläge genehmigen/ablehnen.",
         "set": "Nur Benutzer mit der Rolle $role können jetzt Vorschläge genehmigen/ablehnen."
@@ -266,15 +266,15 @@
         },
         {
           "name": " dm",
-          "value": "Stelle ein, ob Benutzer ein DM über ihre Vorschläge erhalten sollen oder nicht."
+          "value": "Stelle ein, ob Benutzer eine DM über ihre Vorschläge erhalten sollen oder nicht."
         },
         {
           "name": " reaktion",
-          "value": "Stelle ein, ob Emojis auf neue Vorschläge reagiert werden sollen oder nicht."
+          "value": "Stelle ein, ob auf Vorschlägen mit Emojis reagiert werden soll."
         },
         {
           "name": " emojis <emoji> <emoji>",
-          "value": "Setzt die Emojis, die auf neue Vorschläge reagieren."
+          "value": "Setze die Emojis, die auf neue Vorschläge reagieren."
         },
         {
           "name": " rolle <rollen name | rollen erwähnung>",
@@ -287,32 +287,32 @@
       "params": ""
     },
     "remove": {
-      "help": "Ein Emoji wurde hinzugefügt, das eine Rolle in der aktiven Nachricht entfernt.",
+      "help": "Es wurde ein Emoji hinzugefügt, welches eine Rolle in der aktiven Nachricht entfernt.",
       "params": " <emoji> <rollen name | rollen erwähnung>",
       "description": "Du kannst eine Rolle hinzufügen, wenn Zira die andere Rolle entfernt. Du müsstest die zweite Rolle durch ein Komma trennen, siehe unten für ein Beispiel.",
-      "limit": "Du hast die Grenze von 6 rollen entfernen erreicht. Du kannst unbegrenzt viele Rollen entfernen und umschalten, indem Du [spenden](https://zira.ovh/premium)",
-      "remove": "$role wurde entfernt",
+      "limit": "Du kannst nicht mehr als 6 Rollen entfernen. Unbegrenzt viele Rollen entfernen und umschalten, kannst du wenn du spendest [spenden](https://zira.ovh/premium)",
+      "remove": "$role wird entfernt",
       "removeAdd": "$role1 wird entfernt und $role2 wird vergeben",
       "emoji": " mit dem Emoji $emoji"
     },
     "submit": {
-      "help": " Ein Vorschlag eingereicht",
+      "help": " Reiche einen Vorschlag ein",
       "params": " <vorschlag>",
-      "noChannel": "Es gibt keinen Vorschlagskanal. Bitte stelle einen ein.",
+      "noChannel": "Es gibt keinen Vorschlagskanal. Bitte erstelle einen.",
       "wrongChannel": "Verwende <#$channel>, um einen Vorschlag einzureichen.",
       "card": {
         "title": "Neuer Vorschlag: $suggestion",
-        "body": "$suggestion\n\nVorschlag von: $user"
+        "body": "$suggestion\n\nEingereicht von: $user"
       },
       "success": "Vorschlag eingereicht."
     },
     "approve": {
-      "help": "Einen Vorschlag annehmen",
+      "help": "Vorschlag annehmen",
       "params": " <vorschlag ID | nachricht ID>",
       "success": "Der Vorschlag wurde angenommen."
     },
     "deny": {
-      "help": "Einen Vorschlag ablehnen",
+      "help": "Vorschlag ablehnen",
       "params": " <vorschlag ID | nachricht ID>",
       "success": "Der Vorschlag wurde abgelehnt."
     },
@@ -328,10 +328,10 @@
     },
     "log": {
       "help": "Einrichten der Rollenprotokollierung.",
-      "params": " <#kanal | abgeschaltet>",
+      "params": " <#kanal | deaktivieren>",
       "disabled": "Rollenprotokollierung deaktiviert",
-      "set": "Wann immer jemand reagiert, um eine Rolle zu erhalten, wird es protokolliert ",
-      "give": "< @$user> reagierte mit $emoji um < @&$role > zu bekommen",
+      "set": "Wann immer jemand reagiert, um eine Rolle zu erhalten, wird es in $channel protokolliert ",
+      "give": "<@$user> reagierte mit $emoji um <@&$role> zu bekommen",
       "giveMulti": "< @$user> reagierte mit $emoji um $roles zu bekommen",
       "giveRemove": "<@$user> regierte mit $emoji damit <@&$role1> durch <@&$role2> ausgetauscht wird",
       "remove": "<@$user> entfernte Reaktion $emoji um <@&$role> zu entfernen",
