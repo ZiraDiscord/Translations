@@ -238,7 +238,7 @@
       },
       "dm": {
         "on": "A DM will get sent to the user of a suggestion when the suggestion gets approved, denied, potentialed, or invalidated, etc.",
-        "off": "Users will not longer get DMs about suggestions."
+        "off": "Gebruikers zullen niet langer DMs over suggesties krijgen."
       },
       "reaction": {
         "on": "Emojis will get reacted to new suggestions.",
