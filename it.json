@@ -1,19 +1,19 @@
 {
-  "language": "English",
+  "language": "Italiano",
   "titles": {
-    "use": "Command Usage",
-    "error": "Error :warning:",
-    "complete": "Complete :white_check_mark:"
+    "use": "Utilizzo",
+    "error": "Errore :warning:",
+    "complete": "Completato :white_check_mark:"
   },
   "errors": {
-    "generic": "An error has occurred. If the error continues to persist, please join the support guild.",
-    "unknownChannel": "Unknown channel. If it's the correct channel, please make sure I have permission to view it.",
-    "unknownRole": "Unknown role. Please make sure that the role exists.",
-    "missingPermissionChannelRead": "I'm missing the permissions `Read Messages` and/or `Read Message History` in the active channel.",
-    "missingPermissionChannelReaction": "I'm missing the permissions `Add Reactions` and/or `Use External Emojis` in the active channel.",
-    "missingPermissionChannelSend": "I'm missing the permission `Send Messages` in the active channel.",
-    "unknownMessageID": "Unknown message. Please make sure the message ID you used is valid.",
-    "setChannel": "Please set a channel first, then try this command again.",
+    "generic": "Si è verificato un errore. Se l'errore persiste ti invitiamo ad entrare nel gruppo di supporto.",
+    "unknownChannel": "Canale sconosciuto. Se il canale è corretto, per favore verifica che io possa vederlo.",
+    "unknownRole": "Ruolo sconosciuto. Per favore verifica che tale ruolo esista.",
+    "missingPermissionChannelRead": "Mi mancano i permessi `Leggere Messaggi` e/o `Leggere la cronologia dei messaggi` nel canale attivo.",
+    "missingPermissionChannelReaction": "Mi mancano i permessi `Aggiungere Reazioni` e/o `Utilizza Emoji Esterne` nel canale attivo.",
+    "missingPermissionChannelSend": "Mi mancano i permessi `Inviare Messaggi` nel canale attivo.",
+    "unknownMessageID": "Messaggio sconosciuto. Per favore verifica che l'ID utilizzato sia valido.",
+    "setChannel": "Per favore seleziona un canale prima, poi prova di nuovo questo comando.",
     "setChannelOrMessage": "Please set a channel and message first, then try this command again.",
     "ordinalPair": "Unknown role in $pair pair.",
     "usedEmoji": "The emoji in the $pair pair is already used on this message.",
