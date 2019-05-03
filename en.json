@@ -427,7 +427,7 @@
     },
     "rooms": {
       "help": "Setup Private Rooms",
-      "params":"",
+      "params": "",
       "title": "Private Rooms Setup!",
       "description": "Don't sync permissions if you move the channel to a category. I'll need the permission `Manage Channels` to create and delete private rooms."
     }
