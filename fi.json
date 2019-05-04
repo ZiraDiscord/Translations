@@ -6,7 +6,7 @@
     "complete": "Valmis :white_check_mark:"
   },
   "errors": {
-    "generic": "An error has occurred. If the error continues to persist, please join the support guild.",
+    "generic": "Virhe on tapahtunut. Jos virhe jatkuu, liity support palvelimelle.",
     "unknownChannel": "Unknown channel. If it's the correct channel, please make sure I have permission to view it.",
     "unknownRole": "Tuntematon rooli. Varmista että rooli on olemassa.",
     "missingPermissionChannelRead": "Minulta puuttuu käyttöoikeudet `Luetut viestit` ja/tai `Lue viestihistoriaa` aktiivisella kanavalla.",
@@ -79,7 +79,7 @@
         "Tuki",
         "Kirjasto",
         "Tekijä",
-        "Guilds",
+        "Palvelimet",
         "Muutosloki"
       ]
     },
@@ -123,11 +123,11 @@
       "supplyBoard": "Please supply a board ID.",
       "setBoard": "Please set a board first.",
       "boardNotFound": {
-        "title": "Board Not Found",
+        "title": "Taulua ei löydy",
         "description": "I was unable to find that board. Please make sure you have the right board ID, and that you have added **`ZiraDiscord`** to the board."
       },
       "dm": {
-        "id": "Your Trello ID is $id",
+        "id": "Sinun Trello ID on $id",
         "success": "To verify this board, please create a card that has the title set to the ID that has been sent to you. After you have done this, please type `done` in this channel to continue the setup.\n\nYou will have 5 minutes to do this.",
         "error": "I was unable to send you the verification DM. Please make sure I can send you a DM."
       },
@@ -147,12 +147,12 @@
       "set": "Board and list(s) set."
     },
     "config": {
-      "help": "Manage the guild configuration.",
+      "help": "Hallinnoi palvelinta configuraatio.",
       "params": "",
       "role": {
         "noParam": "Please supply a role.",
         "disable": "Anyone with the correct permissions can use Zira's commands now",
-        "success": "Now, only the guild owner and people who have the role $role can use Zira commands."
+        "success": "Nyt, vain palvelimen omistaja ja henkilöt kenellä on $role rooli voi käyttä Ziran komentoja."
       },
       "main": [
         {
@@ -252,7 +252,7 @@
       "role": {
         "help": " role <role name | role mention | disable>",
         "description": "Limit managing of suggestions to a certain role.",
-        "disable": "Anyone with the permission `Manage Guild` can approve/deny suggestions now.",
+        "disable": "Kuka vain kenellä on \"Hallinnoi Palvelinta\" voi hyväksyä sekä perua ehdotukset.",
         "set": "Vain käyttäjät joilla on rooli $role voivat hyväksyä/hylätä ehdotuksia nyt."
       },
       "main": [
@@ -344,7 +344,7 @@
       "set": "Guild prefix asetettu "
     },
     "colors": {
-      "help": "Zira will create 8 colored roles",
+      "help": "Zira luo 8 värillistä roolia",
       "params": "",
       "perms": "I'm missing the permission `Manage Roles`.",
       "done": "Olen luonut seuraavat roolit: ",
@@ -354,7 +354,7 @@
       "help": "Lähetä viesti kun käyttäjä lähtee.",
       "params": "",
       "placeholderTitle": "Message Placeholders",
-      "placeholders": "$user ~~-~~ username\n$mention ~~-~~ user mention\n$guild ~~-~~ guild name\n$membercount ~~-~~ new member count",
+      "placeholders": "$user ~~-~~ käyttäjänimi\n$mention ~~-~~ käyttäjän maininta\n$guild ~~-~~ palvelimen nimi\n$membercount ~~-~~ uusi jäsen määrä",
       "channelSet": "Leave messages will get sent to ",
       "channelDisable": "Leave messages will no longer get sent.",
       "messagePick": "Remove a message below by doing **z/leave remove ID**\n\n",
@@ -383,10 +383,10 @@
       ]
     },
     "join": {
-      "help": "Send a message when a user joins.",
+      "help": "Lähetä viesti kun käyttäjä liittyy.",
       "params": "",
       "placeholderTitle": "Message Placeholders",
-      "placeholders": "$user ~~-~~ username\n$mention ~~-~~ user mention\n$guild ~~-~~ guild name\n$membercount ~~-~~ new member count",
+      "placeholders": "$user ~~-~~ käyttäjänimi\n$mention ~~-~~ käyttäjän maininta\n$guild ~~-~~ palvelimen nimi\n$membercount ~~-~~ uusi jäsen määrä",
       "channelSet": "Join messages will get sent to ",
       "channelDisable": "Join messages will no longer get sent.",
       "messagePick": "Remove a message below by doing **z/join remove ID**\n\n",
@@ -401,7 +401,7 @@
           "value": "Set the channel messages will get sent to when a user joins."
         },
         {
-          "name": " add <message>",
+          "name": " lisää <message>",
           "value": "Add a message to send. You can have multiple message for a random message when a user joins."
         },
         {
@@ -415,7 +415,7 @@
       ]
     },
     "lang": {
-      "help": "Set the language for the guild.",
+      "help": "Aseta palvelimen kieli.",
       "params": " <language code>",
       "update": "Kieli asetettu.",
       "translate": "Jos haluat Ziran kielellä, joka ei ole luettelossa, voit auttaa kääntämään Ziraa [Crowdin](https://translate.zira.ovh)"
