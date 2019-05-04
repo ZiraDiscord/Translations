@@ -1,19 +1,19 @@
 {
-  "language": "English",
+  "language": "Lietuvių",
   "titles": {
-    "use": "Command Usage",
-    "error": "Error :warning:",
-    "complete": "Complete :white_check_mark:"
+    "use": "Komandos naudojimas",
+    "error": "Klaida :warning:",
+    "complete": "Atlikta :white_check_mark:"
   },
   "errors": {
-    "generic": "An error has occurred. If the error continues to persist, please join the support guild.",
-    "unknownChannel": "Unknown channel. If it's the correct channel, please make sure I have permission to view it.",
-    "unknownRole": "Unknown role. Please make sure that the role exists.",
-    "missingPermissionChannelRead": "I'm missing the permissions `Read Messages` and/or `Read Message History` in the active channel.",
-    "missingPermissionChannelReaction": "I'm missing the permissions `Add Reactions` and/or `Use External Emojis` in the active channel.",
-    "missingPermissionChannelSend": "I'm missing the permission `Send Messages` in the active channel.",
-    "unknownMessageID": "Unknown message. Please make sure the message ID you used is valid.",
-    "setChannel": "Please set a channel first, then try this command again.",
+    "generic": "Įvyko klaida. Jeigu klaida ir toliau neišnyks, prašome prisijungti prie pagalbos serverio.",
+    "unknownChannel": "Nežinomas kanalas. Jeigu tai teisingas kanalas, patikrink, ar turiu leidimą matyti jį.",
+    "unknownRole": "Nežinoma rolė. Patikrink, ar ši rolė tikrai egzistuoja.",
+    "missingPermissionChannelRead": "Man trūksta leidimų `Skaityti žinutes` ir/ar `Skaityti pranešimų istoriją` aktyviajame kanale.",
+    "missingPermissionChannelReaction": "Man trūksta leidimų `Pridėti reakcijas` ir/ar `Naudoti išorinius jaustukus` aktyviajame kanale.",
+    "missingPermissionChannelSend": "Man trūksta leidimo `Siųsti žinutes` aktyviajame kanale.",
+    "unknownMessageID": "Nežinoma žinutė. Patikrink, ar žinutės ID teisingas.",
+    "setChannel": "Pirmiausia nustatyk kanalą, paskui pabandyk naudoti šią komandą.",
     "setChannelOrMessage": "Please set a channel and message first, then try this command again.",
     "ordinalPair": "Unknown role in $pair pair.",
     "usedEmoji": "The emoji in the $pair pair is already used on this message.",
@@ -29,64 +29,64 @@
     "maxReactions": "There are 20 reactions on this message. This is a limitation on Discord's end. Please add and set another message to add more reaction roles."
   },
   "suggestion": {
-    "reason": "Reason",
-    "noReason": "No reason",
-    "submitted": "Submitted",
-    "submittedBy": "Submitted by:",
-    "new": "New Suggestion",
-    "approved": "Approved Suggestion",
-    "approvedMessage": "**Your suggestion:**\n\n$suggestion\n\n**Has been approved.**",
-    "approvedMessageReason": "**Your suggestion:**\n\n$suggestion\n\n**Has been approved with the reason:**\n\n$reason",
-    "denied": "Denied Suggestion",
-    "deniedMessage": "**Your suggestion:**\n\n$suggestion\n\n**Has been denied.**",
-    "deniedMessageReason": "**Your suggestion:**\n\n$suggestion\n\n**Has been denied with the reason:**\n\n$reason",
-    "potential": "Potential Suggestion",
-    "potentialMessage": "**Your suggestion:**\n\n$suggestion\n\n**Has been potentially approved.**",
-    "potentialMessageReason": "**Your suggestion:**\n\n$suggestion\n\n**Has been potentially approved with the reason:**\n\n$reason",
-    "invalid": "Invalid Suggestion",
-    "invalidMessage": "**Your suggestion:**\n\n$suggestion\n\n**Has been marked as invalid.**",
-    "invalidMessageReason": "**Your suggestion:**\n\n$suggestion\n\n**Has been marked as invalid with the reason:**\n\n$reason"
+    "reason": "Priežastis",
+    "noReason": "Nėra priežasties",
+    "submitted": "Pateikta",
+    "submittedBy": "Pateikė:",
+    "new": "Naujas Pasiūlymas",
+    "approved": "Patvirtintas Pasiūlymas",
+    "approvedMessage": "**Tavo pasiūlymas:**\n\n$suggestion\n\n**Buvo patvirtintas.**",
+    "approvedMessageReason": "**Tavo pasiūlymas:**\n\n$suggestion\n\n**Buvo patvirtintas su priežastimi:**\n\n$reason",
+    "denied": "Atmestas Pasiūlymas",
+    "deniedMessage": "**Tavo pasiūlymas:**\n\n$suggestion\n\n**Buvo atmestas.**",
+    "deniedMessageReason": "**Tavo pasiūlymas:**\n\n$suggestion\n\n**Buvo atmestas su priežastimi:**\n\n$reason",
+    "potential": "Potencialus Pasiūlymas",
+    "potentialMessage": "**Tavo pasiūlymas:**\n\n$suggestion\n\n**Buvo patvirtintas kaip potencialus.**",
+    "potentialMessageReason": "**Tavo pasiūlymas:**\n\n$suggestion\n\n**Buvo patvirtintas kaip potencialus su priežastimi:**\n\n$reason",
+    "invalid": "Neteisingas Pasiūlymas",
+    "invalidMessage": "**Tavo pasiūlymas:**\n\n$suggestion\n\n**Buvo pažymėtas kaip neteisingas.**",
+    "invalidMessageReason": "**Tavo pasiūlymas:**\n\n$suggestion\n\n**Buvo pažymėtas kaip neteisingas su priežastimi:**\n\n$reason"
   },
   "footer": "**NOTE:** The `Zira` role needs to be above the role(s) you've set, and needs to have the `Manage Roles` permission to give them.",
-  "example": "Example",
+  "example": "Pavyzdys",
   "guidePage": "Guide Page",
   "userPermissions": "You can't use this command because you are missing the following permission(s): ",
   "help": {
-    "commands": "Commands",
-    "title": "Links",
+    "commands": "Komandos",
+    "title": "Nuorodos",
     "links": [
       "[Guide](https://docs.zira.ovh/)",
-      "[Support Guild](https://zira.ovh/support)",
+      "[Pagalbos serveris](https://zira.ovh/support)",
       "[Dashboard](https://zira.ovh)",
       "[Premium](https://zira.ovh/premium)",
-      "[Invite Zira](https://zira.ovh/invite)",
-      "[Translate Zira](https://translate.zira.ovh/)"
+      "[Pakviesk Zira](https://zira.ovh/invite)",
+      "[Išversk Zira](https://translate.zira.ovh/)"
     ],
-    "page": "Page ",
+    "page": "Puslapis ",
     "categories": [
-      "Roles",
-      "Suggestion",
-      "Logging",
+      "Rolės",
+      "Pasiūlymai",
+      "Registravimas",
       "Miscellaneous"
     ]
   },
   "commands": {
     "info": {
-      "help": "Info about Zira.",
+      "help": "Informacija apie Zira.",
       "params": "",
       "fields": [
-        "Version",
-        "Support",
-        "Library",
-        "Made By",
-        "Guilds",
-        "Changelog"
+        "Versija",
+        "Pagalba",
+        "Biblioteka",
+        "Sukūrė",
+        "Serveriai",
+        "Pakeitimų žurnalas"
       ]
     },
     "channel": {
-      "help": "Set the active channel.",
-      "params": " <#channel>",
-      "set": "Channel has been set to: "
+      "help": "Nustatyk aktyvųjį kanalą.",
+      "params": " <#kanalas>",
+      "set": "Kanalas buvo nustatytas į: "
     },
     "message": {
       "help": "Set the active message or send a message to the active channel.",
