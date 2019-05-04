@@ -26,7 +26,7 @@
     "suggestionRead": "Unable to get the suggestion $suggestion in <#$channel>. Please make sure I have the permission `Read Messages` in the channel, and that the suggestion wasn't deleted.",
     "suggestionSend": "Unable to send the suggestion to $channel. Please make sure I have the permissions `Read Messages`, `Send Messages`, and `Embed Links` in the channel.",
     "suggestionRole": "Je moet de <@&$role> rol hebben om de suggesties te beheren.",
-    "maxReactions": "There are 20 reactions on this message. This is a limitation on Discord's end. Please add and set another message to add more reaction roles."
+    "maxReactions": "Er zijn 20 reacties op dit bericht. Er is een limitatie bij Discord. Maak een nieuw bericht aan en stel een emoji in om meer reactie rollen te maken."
   },
   "suggestion": {
     "reason": "Reden",
@@ -62,7 +62,7 @@
       "[Invite Zira](https://zira.ovh/invite)",
       "[Translate Zira](https://translate.zira.ovh/)"
     ],
-    "page": "Pagina",
+    "page": "Pagina ",
     "categories": [
       "Rollen",
       "Suggestie",
@@ -85,30 +85,30 @@
     },
     "channel": {
       "help": "Stel het actieve kanaal in.",
-      "params": "<#channel>",
-      "set": "Kanaal is ingesteld op:"
+      "params": " <#channel>",
+      "set": "Kanaal is ingesteld op: "
     },
     "message": {
       "help": "Set the active message or send a message to the active channel.",
-      "params": "<message ID | message>",
+      "params": " <message ID | message>",
       "setID": "Bericht is ingesteld.",
       "setCreate": "Bericht ingesteld."
     },
     "add": {
       "help": "Voeg de normale rol(len) toe aan het actieve bericht.",
       "description": "You can add multiple roles at once by providing more emojis and roles. You have to use a comma to separate each pair, see below for an example.",
-      "params": "<emoji> <role name | role mention>",
-      "set": "<@&$id> toegevoegd met de emoji $emoji"
+      "params": " <emoji> <role name | role mention>",
+      "set": "\n<@&$id> toegevoegd met de emoji $emoji"
     },
     "list": {
       "help": "Lijst van alle rollen die ingesteld zijn.",
       "params": "",
       "title": "$name | Rollen lijst",
-      "name": "**Naam:**",
+      "name": "**Naam:** ",
       "channel": "**Kanaal:** ",
-      "message": "**Bericht:**",
-      "emoji": "**Emoji:**",
-      "type": "**Type:**",
+      "message": "**Bericht:** ",
+      "emoji": "**Emoji:** ",
+      "type": "**Type:** ",
       "types": [
         "Normaal",
         "Wijzigen",
@@ -119,7 +119,7 @@
     },
     "trello": {
       "help": "Trello integratie met suggesties.",
-      "params": "<board ID | toggle>",
+      "params": " <board ID | toggle>",
       "supplyBoard": "Geef een bord ID op.",
       "setBoard": "Stel eerst een bord in.",
       "boardNotFound": {
@@ -141,7 +141,7 @@
       "pickDenied": "Type the corresponding number to pick a list, or `none` to not pick a list for denied suggestions.\n\n",
       "pickDeniedTitle": "Kies een lijst voor geweigerde suggesties",
       "pickPotential": "Type the corresponding number to pick a list, or `none` to not pick a list for potential suggestions.\n\n",
-      "pickPotentialTitle": "Pick a List for Potential Suggestions",
+      "pickPotentialTitle": "Kies een lijst voor mogelijke suggesties",
       "pickInvalid": "Type the corresponding number to pick a list, or `none` to not pick a list for invalid suggestions.\n\n",
       "pickInvalidTitle": "Pick a List for Invalid Suggestions",
       "set": "Bord en lijsten ingesteld."
@@ -156,26 +156,26 @@
       },
       "main": [
         {
-          "name": "rol <role | disable>",
+          "name": " rol <role | disable>",
           "value": "Instellen of verwijderen welke rol opdrachten kunnen gebruiken."
         }
       ]
     },
     "edit": {
       "help": "Edit a message sent by Zira in the active channel.",
-      "params": "<message ID> <new message>",
+      "params": " <message ID> <new message>",
       "owner": "Dat bericht is niet verstuurd door mij.",
       "success": "Bericht gewijzigd."
     },
     "toggle": {
       "help": "Add toggled role(s) to the active message.",
-      "params": "<emoji> <role name | role mention>",
+      "params": " <emoji> <role name | role mention>",
       "limit": "You have reached the limit of 6 toggled roles. You can get unlimited toggled roles by [donating](https://zira.ovh/premium)",
       "over": "Adding these will result in you reaching the limit of toggled roles. You can get unlimited toggled and remove roles by [donating](https://zira.ovh/premium)"
     },
     "once": {
       "help": "Added role(s) to the active message that can only be received once.",
-      "params": "<emoji> <role name | role mention>"
+      "params": " <emoji> <role name | role mention>"
     },
     "multi": {
       "help": "Added an emoji that will give multiple roles to the active message.",
@@ -186,7 +186,7 @@
     },
     "delete": {
       "help": "Verwijder de rollen die ingesteld zijn.",
-      "params": "<message ID> <role name | role mention | check>",
+      "params": " <message ID> <role name | role mention | check>",
       "noRoles": "Er zijn geen rollen ingesteld op dit bericht.",
       "removedCheck": "$num rollen verwijderd van dat bericht.",
       "good": "Alle rollen bestaan, er is niks verwijderd.",
@@ -217,7 +217,7 @@
           "value": "Set role(s) that will be given when a bot joins."
         },
         {
-          "name": "Toon",
+          "name": " toon",
           "value": "Laat de ingestelde rollen zien."
         }
       ]
@@ -245,12 +245,12 @@
         "off": "Emojis will no longer get reacted to new suggestions."
       },
       "emojis": {
-        "help": "emojis <emoji> <emoji>",
+        "help": " emojis <emoji> <emoji>",
         "description": "Set the emojis that will get reacted on new suggestions.",
         "set": "The emojis $emoji1, $emoji2 will get reacted to new suggestions if reactions are turned on."
       },
       "role": {
-        "help": "rol <role name | role mention | disable>",
+        "help": " rol <role name | role mention | disable>",
         "description": "Limit managing of suggestions to a certain role.",
         "disable": "Anyone with the permission `Manage Guild` can approve/deny suggestions now.",
         "set": "Only users with the role $role can approve/deny suggestions now."
@@ -265,19 +265,19 @@
           "value": "Limit the sending of suggestions to one channel."
         },
         {
-          "name": "dm",
+          "name": " dm",
           "value": "Set whether or not users should get a DM about their suggestions."
         },
         {
-          "name": "reactie",
+          "name": " reactie",
           "value": "Set whether or not emojis should be reacted to new suggestions."
         },
         {
-          "name": "emojis <emoji> <emoji>",
+          "name": " emojis <emoji> <emoji>",
           "value": "Set the emojis that will get reacted on new suggestions."
         },
         {
-          "name": "rol <role name | role mention>",
+          "name": " rol <role name | role mention>",
           "value": "Limit managing of suggestions to a certain role."
         }
       ]
@@ -288,17 +288,17 @@
     },
     "remove": {
       "help": "Added an emoji that will remove a role to the active message.",
-      "params": "<emoji> <role name | role mention>",
+      "params": " <emoji> <role name | role mention>",
       "description": "You can add a role when Zira is removing the other role. You have to use a comma to separate the second role, see below for an example.",
-      "limit": " hebt de limiet van 6 verwijderrollen bereikt. Je kunt onbeperkt verwijderde en geschakelde rollen krijgen door [donating](https://zira.ovh/premium)",
+      "limit": "Hebt de limiet van 6 verwijderrollen bereikt. Je kunt onbeperkt verwijderde en geschakelde rollen krijgen door [donating](https://zira.ovh/premium)",
       "remove": "$role wordt verwijderd",
-      "removeAdd": "$role1 will be removed and $role2 will be given",
-      "emoji": "met de emoji $emoji"
+      "removeAdd": "$role1 wordt verwijderd en $role2 wordt gegeven",
+      "emoji": " met de emoji $emoji"
     },
     "submit": {
-      "help": "Een suggestie toevoegen",
-      "params": "<suggestion>",
-      "noChannel": "There is no suggestion channel. Please set one.",
+      "help": " Een suggestie toevoegen",
+      "params": " <suggestion>",
+      "noChannel": "Er is geen Suggestie kanaal. Stel één in.",
       "wrongChannel": "Gebruik <#$channel> om een suggestie toe te voegen.",
       "card": {
         "title": "Nieuwe suggestie $suggestion",
@@ -308,22 +308,22 @@
     },
     "approve": {
       "help": "Keur een suggestie goed",
-      "params": "<suggestion ID | message ID>",
+      "params": " <suggestion ID | message ID>",
       "success": "De suggestie is geaccepteerd."
     },
     "deny": {
       "help": "Suggestie weigeren",
-      "params": "<suggestion ID | message ID>",
+      "params": " <suggestion ID | message ID>",
       "success": "De suggestie is afgewezen."
     },
     "maybe": {
       "help": "Potential approve a suggestion.",
-      "params": "<suggestion ID | message ID>",
+      "params": " <suggestion ID | message ID>",
       "success": "De suggestie is mogelijk goedgekeurd."
     },
     "invalid": {
       "help": "Mark a suggestion as invalid.",
-      "params": "<suggestion ID | message ID>",
+      "params": " <suggestion ID | message ID>",
       "success": "The suggestion has been marked as invalid."
     },
     "log": {
@@ -339,15 +339,15 @@
     },
     "prefix": {
       "help": "Stel een custom prefix in",
-      "params": "<prefix>",
+      "params": " <prefix>",
       "error": "Please provide a prefix that's between 1 and 10 characters and has at least one of these characters in it:  `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
       "set": "Guild prefix set to "
     },
     "colors": {
       "help": "Zira gaat 8 gekleurde rollen aanmaken",
       "params": "",
-      "perms": "I'm missing the permission `Manage Roles`.",
-      "done": "Ik heb de volgende rollen gemaakt:",
+      "perms": "Ik mis de permissie 'Rollen Beheren'.",
+      "done": " Ik heb de volgende rollen gemaakt: ",
       "none": "Geen rollen zijn aangemaakt omdat er al gekleurde rollen zijn."
     },
     "leave": {
@@ -355,9 +355,9 @@
       "params": "",
       "placeholderTitle": "Message Placeholders",
       "placeholders": "$user ~~-~~ username\n$mention ~~-~~ user mention\n$guild ~~-~~ guild name\n$membercount ~~-~~ new member count",
-      "channelSet": "Leave berichten worden verstuurd naar:",
+      "channelSet": "Leave berichten worden verstuurd naar: ",
       "channelDisable": "Leave berichten worden niet meer verstuurd.",
-      "messagePick": "Verwijder een bericht onder door ** z/leave remove ID**",
+      "messagePick": "Verwijder een bericht onder door ** z/leave remove ID**\n\n",
       "messageSet": "Bericht toegevoegd.",
       "messageMissing": "Stel een bericht in",
       "messageRemove": "Bericht verwijderd.",
@@ -369,15 +369,15 @@
           "value": "Set the channel messages will get sent to when a user leaves."
         },
         {
-          "name": "voeg <message> toe",
+          "name": " voeg <message> toe",
           "value": "Add a message to send. You can have multiple message for a random message when a user leaves."
         },
         {
-          "name": "verwijder <ID>",
+          "name": " verwijder <ID>",
           "value": "Verwijder een bericht dat is ingesteld."
         },
         {
-          "name": "lijst",
+          "name": " lijst",
           "value": "Lijst van alle leave berichten."
         }
       ]
@@ -387,7 +387,7 @@
       "params": "",
       "placeholderTitle": "Message Placeholders",
       "placeholders": "$user ~~-~~ username\n$mention ~~-~~ user mention\n$guild ~~-~~ guild name\n$membercount ~~-~~ new member count",
-      "channelSet": "Join berichten worden verstuurd naar:",
+      "channelSet": "Join berichten worden verstuurd naar: ",
       "channelDisable": "Join berichten worden niet meer verstuurd.",
       "messagePick": "Remove a message below by doing **z/join remove ID**\n\n",
       "messageSet": "Bericht toegevoegd.",
