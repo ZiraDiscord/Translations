@@ -7,7 +7,7 @@
   },
   "errors": {
     "generic": "Virhe on tapahtunut. Jos virhe jatkuu, liity support palvelimelle.",
-    "unknownChannel": "Unknown channel. If it's the correct channel, please make sure I have permission to view it.",
+    "unknownChannel": "Tuntematon kanava. Jos kanava on oikea, varmista että minulla on käyttöoikeus lukea sitä.",
     "unknownRole": "Tuntematon rooli. Varmista että rooli on olemassa.",
     "missingPermissionChannelRead": "Minulta puuttuu käyttöoikeudet `Luetut viestit` ja/tai `Lue viestihistoriaa` aktiivisella kanavalla.",
     "missingPermissionChannelReaction": "I'm missing the permissions `Add Reactions` and/or `Use External Emojis` in the active channel.",
