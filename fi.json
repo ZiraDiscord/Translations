@@ -10,23 +10,23 @@
     "unknownChannel": "Tuntematon kanava. Jos kanava on oikea, varmista että minulla on käyttöoikeus lukea sitä.",
     "unknownRole": "Tuntematon rooli. Varmista että rooli on olemassa.",
     "missingPermissionChannelRead": "Minulta puuttuu käyttöoikeudet `Luetut viestit` ja/tai `Lue viestihistoriaa` aktiivisella kanavalla.",
-    "missingPermissionChannelReaction": "I'm missing the permissions `Add Reactions` and/or `Use External Emojis` in the active channel.",
-    "missingPermissionChannelSend": "I'm missing the permission `Send Messages` in the active channel.",
-    "unknownMessageID": "Unknown message. Please make sure the message ID you used is valid.",
-    "setChannel": "Please set a channel first, then try this command again.",
-    "setChannelOrMessage": "Please set a channel and message first, then try this command again.",
+    "missingPermissionChannelReaction": "Minulta puuttuu käyttöoikeudet 'Lisää reaktioita' ja/tai 'Lue viestihistoriaa' aktiivisella kanavalla.",
+    "missingPermissionChannelSend": "Minulta puuttuu 'Lähetä viestejä' käyttöoikeus aktiivisela kanavalla.",
+    "unknownMessageID": "Tuntematon viesti. Varmista että viestin tunniste on oikea.",
+    "setChannel": "Aseta ensin kanava, kokeile sen jälkeen tätä komentoa uudestaan.",
+    "setChannelOrMessage": "Aseta ensin kanava ja haluamasi viesti, kokeile sen jälkeen tätä komentoa uudestaan.",
     "ordinalPair": "Tuntematon rooli $pair parissa.",
     "usedEmoji": "$pair parissa kaytetty emoji on jo käytössä tässä viestissä.",
     "usedRole": "$pair parissa kaytetty rooli on jo käytössä tässä viestissä.",
-    "unknownMessage": "The active message is unknown, please check my permissions and that the message still exists.",
+    "unknownMessage": "Aktiivinen viesti on tuntematon, tarkista käyttöoikeuteni ja varmista että viesti on yhä olemassa.",
     "unknownEmoji": "En voi käyttää tuota emojia. Jos se on custom emoji, varmistathan että minä voin käyttää sitä",
     "premium": "Tämä ominaisuus on [premium](https://zira.ovh/premium) ainoastan.",
-    "suggestionID": "Please try again with a suggestion ID.",
+    "suggestionID": "Kokeile uudestaan ehdotuksen tunnisteella.",
     "unknownSuggestion": "Tuntematon kysymys.",
     "suggestionRead": "Unable to get the suggestion $suggestion in <#$channel>. Please make sure I have the permission `Read Messages` in the channel, and that the suggestion wasn't deleted.",
     "suggestionSend": "Unable to send the suggestion to $channel. Please make sure I have the permissions `Read Messages`, `Send Messages`, and `Embed Links` in the channel.",
-    "suggestionRole": "You need the <@&$role> role to manage suggestions.",
-    "maxReactions": "There are 20 reactions on this message. This is a limitation on Discord's end. Please add and set another message to add more reaction roles."
+    "suggestionRole": "Tarvitset <@&$role> roolin pystyäksesi hallita ehdotuksia.",
+    "maxReactions": "Tässä viestissä on 20 reaktioita. Se on Discordin asettama rajoitus. Lisää ja aseta toinen viesti lisätäksesi reaktio rooleja."
   },
   "suggestion": {
     "reason": "Syy",
@@ -38,14 +38,14 @@
     "approvedMessage": "**Sinun ehdotuksesi:**\n\n$suggestion\n\n**On hyväksytty.**",
     "approvedMessageReason": "**Sinun ehdotuksesi:**\n\n$suggestion\n\n**On hyväksytty perustein**\n\n$reason",
     "denied": "Hylätty ehdotus",
-    "deniedMessage": "**Your suggestion:**\n\n$suggestion\n\n**Has been denied.**",
-    "deniedMessageReason": "**Your suggestion:**\n\n$suggestion\n\n**Has been denied with the reason:**\n\n$reason",
-    "potential": "Potential Suggestion",
-    "potentialMessage": "**Your suggestion:**\n\n$suggestion\n\n**Has been potentially approved.**",
-    "potentialMessageReason": "**Your suggestion:**\n\n$suggestion\n\n**Has been potentially approved with the reason:**\n\n$reason",
-    "invalid": "Invalid Suggestion",
-    "invalidMessage": "**Your suggestion:**\n\n$suggestion\n\n**Has been marked as invalid.**",
-    "invalidMessageReason": "**Your suggestion:**\n\n$suggestion\n\n**Has been marked as invalid with the reason:**\n\n$reason"
+    "deniedMessage": "**Sinun ehdotuksesi:**\n\n$suggestion\n\n**On hylätty.**",
+    "deniedMessageReason": "**Sinun ehdotuksesi:**\n\n$suggestion\n\n**On hylätty perusteella:**\n\n$reason",
+    "potential": "Potenttiaalinen ehdotus",
+    "potentialMessage": "**Sinun ehdotuksesi:**\n\n$suggestion\n\n**On potenttiaalisesti hykäksytty.**",
+    "potentialMessageReason": "**Sinun ehdotuksesi:**\n\n$suggestion\n\n**On hyväksytty perusteella**\n\n$reason",
+    "invalid": "Virheellinen Ehdotus",
+    "invalidMessage": "**Sinun ehdotuksesi:**\n\n$suggestion\n\n**On merkattu virheelliseksi.**",
+    "invalidMessageReason": "**Sinun ehdotuksesi:**\n\n$suggestion\n\n**On merkitty virheelliseksi perusteella:**\n\n$reason"
   },
   "footer": "** HUOMIOI: ** Roolin ”Zira” on oltava ylempänä kuin rooli(t) joita yrität antaa, ja tarvitsee oikeuden `Muokkaa Rooleja` antaakseen roolin heille.",
   "example": "Esimerkki",
@@ -89,13 +89,13 @@
       "set": "Kanava on asetettu: "
     },
     "message": {
-      "help": "Set the active message or send a message to the active channel.",
+      "help": "Aseta aktiivinen viesti tai lähetä viesti aktiiviselle kanavalle.",
       "params": " <message ID | message>",
-      "setID": "Message has been set.",
+      "setID": "Viesti on lähetetty.",
       "setCreate": "Viesti asetettu."
     },
     "add": {
-      "help": "Add normal role(s) to the active message.",
+      "help": "Lisää tavallisia rooleja aktiiviseen viestiin.",
       "description": "You can add multiple roles at once by providing more emojis and roles. You have to use a comma to separate each pair, see below for an example.",
       "params": " <emoji> <role name | role mention>",
       "set": "\n<@&$id> added with the emoji $emoji"
@@ -103,7 +103,7 @@
     "list": {
       "help": "List all roles that have been setup.",
       "params": "",
-      "title": "$name | Role List",
+      "title": "$name | Rooli Lista",
       "name": "** Nimi: ** ",
       "channel": "**Kanava:** ",
       "message": "** Viesti: ** ",
@@ -111,14 +111,14 @@
       "type": "** Kirjoita: ** ",
       "types": [
         "Normaali",
-        "Toggle",
+        "Kytke",
         "Kerran",
         "Multi",
         "Poista"
       ]
     },
     "trello": {
-      "help": "Trello integration with suggestions.",
+      "help": "Trello integraatio ehdotusten kanssa.",
       "params": " <board ID | toggle>",
       "supplyBoard": "Please supply a board ID.",
       "setBoard": "Please set a board first.",
@@ -179,8 +179,8 @@
     },
     "multi": {
       "help": "Added an emoji that will give multiple roles to the active message.",
-      "params": " <emoji> <role name | role mention>, <role name | role mention>",
-      "ordinal": "The $pos role is unknown.",
+      "params": " <emoji><roolin nimi | rooli maininta>,<roolin nimi | rooli maininta>",
+      "ordinal": "$pos rooli on tuntematon.",
       "usedEmoji": "That emoji is already in use on this message.",
       "set": "$roles set with the emoji $emoji"
     },
