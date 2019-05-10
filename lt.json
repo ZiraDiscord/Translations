@@ -14,15 +14,15 @@
     "missingPermissionChannelSend": "Man trūksta leidimo `Siųsti žinutes` aktyviajame kanale.",
     "unknownMessageID": "Nežinoma žinutė. Patikrink, ar žinutės ID teisingas.",
     "setChannel": "Pirmiausia nustatyk kanalą, paskui pabandyk naudoti šią komandą.",
-    "setChannelOrMessage": "Please set a channel and message first, then try this command again.",
-    "ordinalPair": "Unknown role in $pair pair.",
-    "usedEmoji": "The emoji in the $pair pair is already used on this message.",
-    "usedRole": "The role in the $pair pair is already used on this message.",
+    "setChannelOrMessage": "Pirmiausia nustatyk kanalą ir žinutę, paskui pabandyk naudoti šią komandą.",
+    "ordinalPair": "Nežinoma rolė $pair poroje.",
+    "usedEmoji": "Emotikonas $pair poroje jau naudojamas šioje žinutėje.",
+    "usedRole": "Rolė $pair poroje jau naudojamas šioje žinutėje.",
     "unknownMessage": "The active message is unknown, please check my permissions and that the message still exists.",
     "unknownEmoji": "I can't use this emoji. If it's a custom emoji, please make sure I'm in the guild where it's from",
-    "premium": "This feature is [premium](https://zira.ovh/premium) only.",
+    "premium": "Ši funkcija veikia tik [premium'ams](https://zira.ovh/premium).",
     "suggestionID": "Please try again with a suggestion ID.",
-    "unknownSuggestion": "Unknown suggestion.",
+    "unknownSuggestion": "Nežinomas pasiūlymas.",
     "suggestionRead": "Unable to get the suggestion $suggestion in <#$channel>. Please make sure I have the permission `Read Messages` in the channel, and that the suggestion wasn't deleted.",
     "suggestionSend": "Unable to send the suggestion to $channel. Please make sure I have the permissions `Read Messages`, `Send Messages`, and `Embed Links` in the channel.",
     "suggestionRole": "You need the <@&$role> role to manage suggestions.",
@@ -90,9 +90,9 @@
     },
     "message": {
       "help": "Set the active message or send a message to the active channel.",
-      "params": " <message ID | message>",
-      "setID": "Message has been set.",
-      "setCreate": "Message set."
+      "params": "<žinutės ID | žinutė>",
+      "setID": "Žinutė buvo nustatyta.",
+      "setCreate": "Žinutė nustatyta."
     },
     "add": {
       "help": "Add normal role(s) to the active message.",
@@ -103,14 +103,14 @@
     "list": {
       "help": "List all roles that have been setup.",
       "params": "",
-      "title": "$name | Role List",
-      "name": "**Name:** ",
-      "channel": "**Channel:** ",
-      "message": "**Message:** ",
-      "emoji": "**Emoji:** ",
-      "type": "**Type:** ",
+      "title": "$name | Rolių sąrašas",
+      "name": "**Pavadinimas:** ",
+      "channel": "**Kanalas:** ",
+      "message": "**Žinutė:** ",
+      "emoji": "**Emotikonas:** ",
+      "type": "**Tipas:** ",
       "types": [
-        "Normal",
+        "Normalus",
         "Toggle",
         "Once",
         "Multi",
@@ -123,7 +123,7 @@
       "supplyBoard": "Please supply a board ID.",
       "setBoard": "Please set a board first.",
       "boardNotFound": {
-        "title": "Board Not Found",
+        "title": "Lenta nerasta",
         "description": "I was unable to find that board. Please make sure you have the right board ID, and that you have added **`ZiraDiscord`** to the board."
       },
       "dm": {
@@ -196,7 +196,7 @@
     "autorole": {
       "help": "Give roles on user/bot join..",
       "params": "",
-      "title": "Auto Role",
+      "title": "Auto Rolė",
       "ubParams": " <role name | role mention>",
       "user": "Add a role that should be given when a user joins.\n\nTo remove a role being used in autorole, just do the command again.",
       "userAdd": "$role will be given when a user joins.",
@@ -217,7 +217,7 @@
           "value": "Set role(s) that will be given when a bot joins."
         },
         {
-          "name": " show",
+          "name": " rodyti",
           "value": "Show the current roles set."
         }
       ]
