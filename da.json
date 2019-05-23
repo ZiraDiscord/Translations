@@ -25,7 +25,7 @@
     "unknownSuggestion": "Ukendt forslag.",
     "suggestionRead": "Kan ikke hente forslaget $suggestion i kanalen <#$channel>. Kontroller venligst at jeg har tilladelserne `Læs Beskeder` i kanalen, og at forslaget ikke er blevet slettet.",
     "suggestionSend": "Kunne ikke sende forslaget til $channel kontroller venligst at jeg har tilladelsen `Læs Beskeder`, `Send Beskeder`, og `Integrer Links` i kanalen.",
-    "suggestionRole": "You need the <@&$role> role to manage suggestions.",
+    "suggestionRole": "Du har brug for rollen <@$role> for at administrere forslag.",
     "maxReactions": "There are 20 reactions on this message. This is a limitation on Discord's end. Please add and set another message to add more reaction roles."
   },
   "suggestion": {
