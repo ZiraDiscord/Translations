@@ -12,7 +12,7 @@
     "unknown": {
       "channel": "Unknown channel. Please make sure it exists, and if it does, that I have the proper permissions to view it.",
       "message": "Message not found in the active channel. Please make sure it exists, and if it does, that I have the proper permissions to view it.",
-      "emoji": "I can't use this emoji. Please make sure I'm in the server that it came from and if it is, make sure I have the permission **Use Exteranl Emojis** in the active channel.",
+      "emoji": "I can't use this emoji. Please make sure I'm in the server that it came from and if it is, make sure I have the permission **Use External Emojis** in the active channel.",
       "suggestion": "A suggestion with that ID wasn't found."
     },
     "interactive": {
@@ -212,7 +212,8 @@
     "log": {
       "help": "Log role events to a channel",
       "args": "<#channel>",
-      "set": " set as the logging channel.\n\n**Note:** If I can't send messages to the channel I will disable logging."
+      "set": " set as the logging channel.\n\n**Note:** If I can't send messages to the channel I will disable logging.",
+      "disable": "Role logging is now disabled."
     },
     "autorole": {
       "help": "Give roles to be given when a member joins",
