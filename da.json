@@ -78,26 +78,26 @@
       "help": "Sæt den aktive kanal.",
       "args": "<#kanal>",
       "set": " sæt som den aktive kanal.",
-      "pick": "Please mention the channel you want to use.\nType `cancel` if you would like to cancel."
+      "pick": "Vær venlig at nævne kanalen du gerne vil bruge. Skriv `cancel` hvis du gerne vil afbryde."
     },
     "message": {
-      "help": "Set the active message.",
-      "args": "<message ID>",
-      "set": "Message set",
-      "pick": "Please provide a message ID for Zira to use or message for Zira to send.\nType `cancel` if you would like to cancel."
+      "help": "Sæt den aktive besked.",
+      "args": "<beskeds ID>",
+      "set": "Beskeden er sat",
+      "pick": "Vær venlig at give et beskeds ID som Zira skal bruge eller en besked som Zira skal sende. Skriv `cancel` hvis du gerne vil afbryde."
     },
     "embed": {
-      "help": "Create an embed that will be used as the active message.",
-      "args": "[Embed JSON]",
-      "JSONerror": "Invalid JSON provided.\nYou can use the embed creator by using the command",
-      "created": "Embed created.",
+      "help": "Lav et embed som vil blive brugt som den aktive besked.",
+      "args": "[JSON koden til Embedet]",
+      "JSONerror": "Ugyldig JSON kode er givet.\nDu kan bruge embed laveren ved at køre denne kommando",
+      "created": "Embed lavet.",
       "interactive": {
-        "stage": "Stage ",
-        "skipped": "Stage skipped.",
-        "title": "If you would like a title please provide one.\n\nYou'll have 2 minutes for each of the stages to enter in values.\n\nIf you have JSON you would like to use instead of this creator please use **z/embed <JSON>**\n\nYou can skip this stage by typing `skip`.",
-        "description": "If you would like a description please provide one.\n\nYou can skip this stage by typing `skip`.",
-        "image": "If you would like an image please provide a link or upload one\n\nYou can skip this stage by typing `skip`.",
-        "footer": "If you would like a footer please provide one\n\nYou can skip this stage by typing `skip`.",
+        "stage": "Trin ",
+        "skipped": "Trinnet er sprunget over.",
+        "title": "Hvis du vil have en titel så sørg for at give en.\n\nDu har 2 minutter til hver fase for at skrive værdier.\n\nHvis du har en JSON du gerne vil bruge i stedet for dette værktøj, så venligst brug **z/embed <JSON>**\n\nDu kan springe en trin over ved at skrive `skip`.",
+        "description": "Hvis du ønsker en beskrivelse så venligst angiv en.\n\nDu kan springe dette trin over ved at skrive `skip`.",
+        "image": "Hvis du ønsker et billede så venligst angiv et link eller upload et\n\nDu kan springe dette trin over ved at skrive `skip`.",
+        "footer": "Hvis du ønsker en sidefod så venligst angiv en\n\nDu kan springe dette trin over ved at skrive `skip`.",
         "color": "If you would like a color please provide a hex code\n\nYou can skip this stage by typing `skip`.",
         "creating": "Creating embed."
       }
@@ -174,13 +174,13 @@
       "args": "",
       "check": {
         "help": "Checks for deleted roles on a message.",
-        "args": "<message ID>",
+        "args": "<beskeds ID>",
         "none": "All roles valid.",
         "removed": "role(s) removed."
       },
       "all": {
         "help": "Remove all roles from a message.",
-        "args": "<message ID>",
+        "args": "<beskeds ID>",
         "done": "Any roles on the message have been removed."
       },
       "remove": {
@@ -198,12 +198,12 @@
       "success": "Message has been edited.",
       "pick": "Please provide a new message.",
       "interactive": {
-        "stage": "Stage ",
-        "skipped": "Stage skipped.",
+        "stage": "Trin ",
+        "skipped": "Trinnet er sprunget over.",
         "title": "If you would like a title please provide one.\n\nYou'll have 2 minutes for each of the stages to enter in values.\n\nIf you have JSON you would like to use instead of this creator please use **z/edit $message <JSON>**\n\nYou can skip this stage by typing `skip`.",
-        "description": "If you would like a description please provide one.\n\nYou can skip this stage by typing `skip`.",
-        "image": "If you would like an image please provide a link or upload one\n\nYou can skip this stage by typing `skip`.",
-        "footer": "If you would like a footer please provide one\n\nYou can skip this stage by typing `skip`.",
+        "description": "Hvis du ønsker en beskrivelse så venligst angiv en.\n\nDu kan springe dette trin over ved at skrive `skip`.",
+        "image": "Hvis du ønsker et billede så venligst angiv et link eller upload et\n\nDu kan springe dette trin over ved at skrive `skip`.",
+        "footer": "Hvis du ønsker en sidefod så venligst angiv en\n\nDu kan springe dette trin over ved at skrive `skip`.",
         "color": "If you would like a color please provide a hex code\n\nYou can skip this stage by typing `skip`.",
         "creating": "Editing embed."
       }
