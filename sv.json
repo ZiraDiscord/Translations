@@ -71,351 +71,351 @@
     "denied": "Nekat förslag",
     "potential": "Potentiellt förslag",
     "invalid": "Ogiltigt förslag",
-    "updated": "Suggestion Updated"
+    "updated": "Förslag uppdaterat"
   },
   "commands": {
     "channel": {
       "help": "Ange den nuvarande kanalen.",
-      "args": "<#channel>",
-      "set": " set as the active channel.",
-      "pick": "Please mention the channel you want to use.\nType `cancel` if you would like to cancel."
+      "args": "<#kanal>",
+      "set": " inställt som den aktiva kanalen.",
+      "pick": "Vänligen nämn den kanal du vill använda.\nSkriv `cancel` om du vill avbryta."
     },
     "message": {
-      "help": "Set the active message.",
-      "args": "<message ID>",
-      "set": "Message set",
-      "pick": "Please provide a message ID for Zira to use or message for Zira to send.\nType `cancel` if you would like to cancel."
+      "help": "Ställ in det aktiva meddelandet.",
+      "args": "<meddelande-ID>",
+      "set": "Meddelande inställt",
+      "pick": "Vänligen ange ett meddelande-ID som Zira kan använda eller ett meddelande som Zira kan skicka.\nSkriv `cancel` om du vill avbryta."
     },
     "embed": {
-      "help": "Create an embed that will be used as the active message.",
-      "args": "[Embed JSON]",
-      "JSONerror": "Invalid JSON provided.\nYou can use the embed creator by using the command",
-      "created": "Embed created.",
+      "help": "Skapa en inbäddning som kommer användas som det aktiva meddelandet.",
+      "args": "[Bädda in JSON]",
+      "JSONerror": "Ogiltig JSON angett.\nDu kan använda inbäddningsverktyget genom att använda kommandot",
+      "created": "Inbäddning skapad.",
       "interactive": {
-        "stage": "Stage ",
-        "skipped": "Stage skipped.",
-        "title": "If you would like a title please provide one.\n\nYou'll have 2 minutes for each of the stages to enter in values.\n\nIf you have JSON you would like to use instead of this creator please use **z/embed <JSON>**\n\nYou can skip this stage by typing `skip`.",
-        "description": "If you would like a description please provide one.\n\nYou can skip this stage by typing `skip`.",
-        "image": "If you would like an image please provide a link or upload one\n\nYou can skip this stage by typing `skip`.",
-        "footer": "If you would like a footer please provide one\n\nYou can skip this stage by typing `skip`.",
-        "color": "If you would like a color please provide a hex code\n\nYou can skip this stage by typing `skip`.",
-        "creating": "Creating embed."
+        "stage": "Steg ",
+        "skipped": "Steg hoppat.",
+        "title": "Om du vill ha en titel, vänligen ange en.\n\nDu har två minuter att ange värden för varje steg.\n\nOm du har JSON du vill använda istället för detta verktyg, vänligen använd **z/embed <JSON>**\n\nDu kan hoppa detta steg genom att skriva `skip`.",
+        "description": "Om du önskar en beskrivning, vänligen ange en.\n\nDu kan hoppa detta steg genom att skriva `skip`.",
+        "image": "Om du vill ha en bild, vänligen ange en länk eller ladda upp en\n\nDu kan hoppa detta steg genom att skriva `skip`.",
+        "footer": "Om du vill ha en sidfot, vänligen ange en\n\nDu kan hoppa detta steg genom att skriva `skip`.",
+        "color": "Om du vill ha en färg, vänligen ange ett HEX-värde\n\nDu kan hoppa detta steg genom att skriva `skip`.",
+        "creating": "Skapar inbäddning."
       }
     },
     "config": {
-      "help": "Guild config.",
+      "help": "Serverkonfiguration.",
       "args": "",
       "prefix": {
         "args": "<prefix>",
-        "error": "Please provide a prefix that's between 1 and 10 characters and has at least one of these characters in it:  `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
-        "set": "Prefix has been set to"
+        "error": "Vänligen ange ett prefix som är mellan 1 och 10 tecken och som åtminstone har en av dessa symboler: `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
+        "set": "Prefix har ställts in som"
       },
       "role": {
-        "args": "<@role | disable>",
-        "error": "Please mention a role or provide a role name, or if you would like to disable the role, type",
-        "set": "Role set. Only people with $role$ will be able to use Zira commands.",
-        "disable": "Anyone with the correct permissions can use Zira's commands now."
+        "args": "<@roll | disable>",
+        "error": "Vänligen nämn en roll eller ange ett rollnamn, eller om du vill avaktivera rollen, skriv",
+        "set": "Roll inställd. Endast personer med $role$ kommer kunna använda Zira-kommandon.",
+        "disable": "Vem som helst med korrekta behörigheter kan använda Ziras kommandon nu."
       },
       "reset": {
         "args": "",
-        "question": ":warning: Are you sure you want to reset the guild config?\nPlease type `yes` or `no`.",
+        "question": ":warning: Är du säker att du vill nollställa serverkonfigurationen?\nVänligen skriv `yes` eller `no`.",
         "done": "Ok, Guild config has been reset!",
-        "cancel": "Phew. Guild config has not been reset."
+        "cancel": "Phew. Serverkonfiguration har inte nollställts."
       },
       "language": {
-        "args": "<language code>",
-        "title": "Languages",
-        "set": "Language set.",
-        "unknown": "Unknown language.",
-        "crowdin": "If you want Zira in a language that isn't on the list above, you can apply and help translate Zira on [Crowdin](https://translate.zira.ovh)"
+        "args": "<språkkod>",
+        "title": "Språk",
+        "set": "Språk inställt.",
+        "unknown": "Okänd språk.",
+        "crowdin": "Om du vill ha Zira i ett språk som inte finns på listan ovan, kan du ansöka om att hjälpa till med översättningen av Zira på [Crowdin](https://translate.zira.ovh)"
       },
       "main": {
-        "prefix": "Set a custom prefix.",
-        "role": "Set or remove which role can use commands.",
-        "reset": "Reset the guild config.",
-        "language": "Set the language for the guild."
+        "prefix": "Ange ett anpassat prefix.",
+        "role": "Ange eller ta bort roller som kan använda kommandon.",
+        "reset": "Nollställ serverkonfigurationen.",
+        "language": "Anger språket för servern."
       }
     },
     "normal": {
-      "help": "Give a role",
-      "args": "<emoji> <role>",
-      "added": "$role$ added with the emoji $emoji$",
-      "emoji": "Please send the emoji you want to use.",
-      "role": "Please send the role you want to use."
+      "help": "Ge en roll",
+      "args": "<emoji> <roll>",
+      "added": "$role$ tillagd med emoji $emoji$",
+      "emoji": "Vänligen skicka den emoji du vill använda.",
+      "role": "Vänligen skicka den roll du vill använda."
     },
     "remove": {
-      "help": "Remove a role",
-      "args": "<emoji> <role>"
+      "help": "Ta bort en roll",
+      "args": "<emoji> <roll>"
     },
     "toggle": {
-      "help": "Setup a toggled role",
-      "args": "<emoji> <role>",
+      "help": "Ställ in en växlad roll",
+      "args": "<emoji> <roll>",
       "limit": "Det finns en begränsning på 6 gratis växlade roller. Du kan få oändligt växlade roller med [premium](https://zira.ovh/premium)"
     },
     "once": {
-      "help": "Setup a once role",
-      "args": "<emoji> <role>",
+      "help": "Ställ in en engångsroll",
+      "args": "<emoji> <roll>",
       "error": "Since there is a role set on this message with this emoji already that isnt a once reaction, you cant add any once reactions."
     },
     "list": {
-      "help": "Show all roles.",
+      "help": "Visa alla roller.",
       "args": "",
-      "title": "Role List",
-      "description": "You can remove a role listed here with **$prefix$delete**\nYou can remove any deleted roles listed by doing **$prefix$delete <message ID> check**.",
-      "role": "Role",
-      "channel": "Channel",
-      "message": "Message",
+      "title": "Rollista",
+      "description": "Du kan ta bort en roll som visas här med **$prefix$delete**\nDu kan ta bort borttagna roller som visas med **$prefix$delete <meddelande-ID> check**.",
+      "role": "Roll",
+      "channel": "Kanal",
+      "message": "Meddelande",
       "emoji": "Emoji",
-      "link": "Jump to message",
-      "type": "Type"
+      "link": "Hoppa till meddelande",
+      "type": "Typ"
     },
     "delete": {
-      "help": "Delete a role that has been setup.",
+      "help": "Ta bort en roll som ställts in.",
       "args": "",
       "check": {
-        "help": "Checks for deleted roles on a message.",
-        "args": "<message ID>",
-        "none": "All roles valid.",
-        "removed": "role(s) removed."
+        "help": "Kollar efter borttagna roller på ett meddelande.",
+        "args": "<meddelande-ID>",
+        "none": "Alla roller giltiga.",
+        "removed": "roll(er) borttagna."
       },
       "all": {
-        "help": "Remove all roles from a message.",
-        "args": "<message ID>",
-        "done": "Any roles on the message have been removed."
+        "help": "Ta bort alla roller från ett meddelande.",
+        "args": "<meddelande-ID>",
+        "done": "Alla roller på meddelandet har tagits bort."
       },
       "remove": {
-        "help": "Remove a role from a message",
-        "args": "<message ID> <role>",
-        "none": "That role is not setup on that message ID.",
-        "done": "The role has been removed."
+        "help": "Ta bort en roll från ett meddelande",
+        "args": "<meddelande-ID> <roll>",
+        "none": "Den rollen är inte inställd på det meddelande-ID:t.",
+        "done": "Den rollen har tagits bort."
       },
-      "description": "You can find the message ID a role is on with **$prefix$list**."
+      "description": "Du kan hitta meddelande-ID:t en roll är på med **$prefix$list**."
     },
     "edit": {
-      "help": "Edit a message sent by Zira.",
-      "args": "<message ID> <new message>",
-      "notFound": "That message ID was not found.",
-      "success": "Message has been edited.",
-      "pick": "Please provide a new message.",
+      "help": "Redigera ett meddelande från Zira.",
+      "args": "<meddelande-ID> <nytt meddelande>",
+      "notFound": "Det meddelande-ID:t hittades inte.",
+      "success": "Meddelandet har redigerats.",
+      "pick": "Vänligen ange ett nytt meddelande.",
       "interactive": {
-        "stage": "Stage ",
-        "skipped": "Stage skipped.",
-        "title": "If you would like a title please provide one.\n\nYou'll have 2 minutes for each of the stages to enter in values.\n\nIf you have JSON you would like to use instead of this creator please use **z/edit $message <JSON>**\n\nYou can skip this stage by typing `skip`.",
-        "description": "If you would like a description please provide one.\n\nYou can skip this stage by typing `skip`.",
-        "image": "If you would like an image please provide a link or upload one\n\nYou can skip this stage by typing `skip`.",
-        "footer": "If you would like a footer please provide one\n\nYou can skip this stage by typing `skip`.",
-        "color": "If you would like a color please provide a hex code\n\nYou can skip this stage by typing `skip`.",
-        "creating": "Editing embed."
+        "stage": "Steg ",
+        "skipped": "Steg hoppat.",
+        "title": "Om du vill ha en titel, vänligen ange en.\n\nDu har två minuter att ange värden för varje steg.\n\nOm du har JSON du vill använda istället för detta verktyg, vänligen använd **z/edit $message <JSON>**\n\nDu kan hoppa detta steg genom att skriva `skip`.",
+        "description": "Om du önskar en beskrivning, vänligen ange en.\n\nDu kan hoppa detta steg genom att skriva `skip`.",
+        "image": "Om du vill ha en bild, vänligen ange en länk eller ladda upp en\n\nDu kan hoppa detta steg genom att skriva `skip`.",
+        "footer": "Om du vill ha en sidfot, vänligen ange en\n\nDu kan hoppa detta steg genom att skriva `skip`.",
+        "color": "Om du vill ha en färg, vänligen ange ett HEX-värde\n\nDu kan hoppa detta steg genom att skriva `skip`.",
+        "creating": "Redigerar inbäddning."
       }
     },
     "log": {
-      "help": "Log role events to a channel",
-      "args": "<#channel>",
-      "set": " set as the logging channel.\n\n**Note:** If I can't send messages to the channel I will disable logging.",
-      "disable": "Role logging is now disabled."
+      "help": "Logga rollhändelser till en kanal",
+      "args": "<#kanal>",
+      "set": " inställt som loggkanal.\n\n**Observera:** Om jag inte kan skicka meddelanden till den kanalen avaktiverar jag loggning.",
+      "disable": "Rolloggning är nu avaktiverat."
     },
     "autorole": {
-      "help": "Give roles to be given when a member joins",
+      "help": "Ange roller som ska ges när någon går med",
       "args": "",
       "user": {
-        "help": "Give roles for when a person joins",
-        "args": "<role>",
-        "set": "$role$ will be given when a user joins.",
-        "remove": "$role$ will no longer be given when a user joins."
+        "help": "Ge roller när en person går med",
+        "args": "<roll>",
+        "set": "$role$ kommer ges när en användare går med.",
+        "remove": "$role$ kommer inte längre ges när en användare går med."
       },
       "bot": {
-        "help": "Give roles for when a bot joins",
-        "args": "<role>",
-        "set": "$role$ will be given when a bot joins.",
-        "remove": "$role$ will no longer be given when a bot joins."
+        "help": "Ge roller när en bott går med",
+        "args": "<roll>",
+        "set": "$role$ kommer ges när en bot går med.",
+        "remove": "$role$ kommer inte längre ges när en bot går med."
       },
       "show": {
-        "help": "Show the roles currently setup",
-        "user": "User Roles",
-        "bot": "Bot Roles",
-        "noRoles": "No roles setup :("
+        "help": "Visar de för tillfället inställda rollerna",
+        "user": "Användarroller",
+        "bot": "Botroller",
+        "noRoles": "Inga roller inställda :("
       },
-      "removeTip": "If you would like to remove a role that is setup with autoroles, just do the command you used to set it up again."
+      "removeTip": "Om du vill ta bort en roll som har ställts in med autoroles, använd bara det kommando du använde för att ställa in den igen."
     },
     "join": {
-      "help": "Join messages",
+      "help": "Anslutningsmeddelanden",
       "args": "",
       "channel": {
-        "help": "Set the channel join messages should be sent in",
-        "args": "<#channel>",
-        "set": " set as the join channel.\n\n**Note:** If I can't send messages to the channel I will disable join messages."
+        "help": "Ange den kanal anslutningsmeddelanden ska skickas till",
+        "args": "<#kanal>",
+        "set": " inställt som anslutningskanal.\n\n**Observera:** Om jag inte kan skicka meddelanden till den kanalen avaktiverar jag anslutningsmeddelanden."
       },
       "disable": {
-        "help": "Disable join messages",
+        "help": "Avaktivera anslutningsmeddelanden",
         "args": "",
-        "success": "Join messages disabled."
+        "success": "Anslutningsmeddelanden avaktiverade."
       },
       "add": {
-        "help": "Add a message.",
-        "args": "<message>",
-        "success": "Message added."
+        "help": "Lägg till ett meddelande.",
+        "args": "<meddelande>",
+        "success": "Meddelande tillagt."
       },
       "remove": {
-        "help": "Remove a message",
-        "args": "<ID from list>",
-        "noID": "Please provide an ID from $prefix$join list",
-        "notFound": "A message with that ID doesn't exist.",
-        "success": "Message deleted."
+        "help": "Ta bort ett meddelande",
+        "args": "<ID från lista>",
+        "noID": "Vänligen ange ett ID från $prefix$join list",
+        "notFound": "Ett meddelande med det ID:t existerar inte.",
+        "success": "Meddelande borttaget."
       },
       "list": {
-        "help": "List of messages",
+        "help": "Lista av meddelanden",
         "args": ""
       },
       "placeholders": {
-        "title": "Usable Placeholders That Zira Will Auto-Fill",
-        "description": "$user$ - username\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "title": "Användbara Platshållare Som Zira Kommer Autofylla",
+        "description": "$user$ - användarnamn\n$mention$ - användarnämnande\n$guild$ - server namn\n$membercount$ - nytt medlemsantal"
       }
     },
     "leave": {
-      "help": "Leave messages",
+      "help": "Lämningsmeddelanden",
       "args": "",
       "channel": {
-        "help": "Set the channel leave messages should be sent in",
-        "args": "<#channel>",
-        "set": " set as the leave channel.\n\n**Note:** If I can't send messages to the channel I will disable leave messages."
+        "help": "Ange den kanal lämningsmeddelanden ska skickas till",
+        "args": "<#kanal>",
+        "set": " inställt som lämningskanal.\n\n**Observera:** Om jag inte kan skicka meddelanden till den kanalen avaktiverar jag lämningsmeddelanden."
       },
       "disable": {
-        "help": "Disable leave messages",
+        "help": "Avaktivera lämningsmeddelanden",
         "args": "",
-        "success": "Leave messages disabled."
+        "success": "Lämningsmeddelanden avaktiverade."
       },
       "add": {
-        "help": "Add a message.",
-        "args": "<message>",
-        "success": "Message added."
+        "help": "Lägg till ett meddelande.",
+        "args": "<meddelande>",
+        "success": "Meddelande tillagt."
       },
       "remove": {
-        "help": "Remove a message",
-        "args": "<ID from list>",
-        "noID": "Please provide an ID from $prefix$leave list",
-        "notFound": "A message with that ID doesn't exist.",
-        "success": "Message deleted."
+        "help": "Ta bort ett meddelande",
+        "args": "<ID från lista>",
+        "noID": "Vänligen ange ett ID från $prefix$leave list",
+        "notFound": "Ett meddelande med det ID:t existerar inte.",
+        "success": "Meddelande borttaget."
       },
       "list": {
-        "help": "List of messages",
+        "help": "Lista av meddelanden",
         "args": ""
       },
       "placeholders": {
-        "title": "Usable Placeholders",
-        "description": "$user$ - username\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "title": "Användbara platshållare",
+        "description": "$user$ - användarnamn\n$mention$ - användarnämnande\n$guild$ - server namn\n$membercount$ - nytt medlemsantal"
       }
     },
     "rooms": {
-      "help": "Setup private rooms",
+      "help": "Ställ in privata rum",
       "args": "",
-      "success": "Private rooms setup."
+      "success": "Privata rum inställt."
     },
     "suggestion": {
-      "help": "Suggestion config",
+      "help": "Förslagskonfiguration",
       "args": "",
       "new": {
-        "help": "Set the channel new suggestions will get sent to",
-        "args": "<#channel | disable>",
-        "set": "New suggestions will get sent to",
-        "disable": "Suggestions are now disabled."
+        "help": "Ställ in den kanal nya förslag ska skickas till",
+        "args": "<#kanal | disable>",
+        "set": "Nya förslag skickas till",
+        "disable": "Förslag är nu avaktiverade."
       },
       "approved": {
-        "help": "Set the channel approved suggestions will get sent to",
-        "args": "<#channel | disable>",
-        "set": "Approved suggestions will get sent to",
-        "disable": "Approved suggestions will no longer be moved to a channel."
+        "help": "Ställ in den kanal godkända förslag ska skickas till",
+        "args": "<#kanal | disable>",
+        "set": "Godkända förslag skickas till",
+        "disable": "Godkända förslag kommer inte längre flyttas till en kanal."
       },
       "denied": {
-        "help": "Set the channel denied suggestions will get sent to",
-        "args": "<#channel | disable>",
-        "set": "Denied suggestions will get sent to",
-        "disable": "Denied suggestions will no longer be moved to a channel."
+        "help": "Ställ in den kanal nekade förslag ska skickas till",
+        "args": "<#kanal | disable>",
+        "set": "Nekade förslag skickas till",
+        "disable": "Nekade förslag kommer inte längre flyttas till en kanal."
       },
       "invalid": {
-        "help": "Set the channel invalid suggestions will get sent to",
-        "args": "<#channel | disable>",
-        "set": "Invalid suggestions will get sent to",
-        "disable": "Invalid suggestions will no longer be moved to a channel."
+        "help": "Ställ in den kanal ogiltiga förslag ska skickas till",
+        "args": "<#kanal | disable>",
+        "set": "Ogiltiga förslag skickas till",
+        "disable": "Ogiltiga förslag kommer inte längre flyttas till en kanal."
       },
       "potential": {
-        "help": "Set the channel potential suggestions will get sent to",
-        "args": "<#channel | disable>",
-        "set": "Potential suggestions will get sent to",
-        "disable": "Potential suggestions will no longer be moved to a channel."
+        "help": "Ställ in den kanal potentiella förslag ska skickas till",
+        "args": "<#kanal | disable>",
+        "set": "Potentiella förslag skickas till",
+        "disable": "Potentiella förslag kommer inte längre flyttas till en kanal."
       },
       "submit": {
-        "help": "Set the channel users will have to use to submit a suggestion\n[Premium Feature](https://zira.ovh/premium)",
-        "args": "<#channel | disable>",
-        "set": "Suggestions can now only be made in",
-        "disable": "Suggestions can now be made in any channel."
+        "help": "Ställ in den kanal användare måste använda för att skicka in ett förslag [Premiumfunktion](https://zira.ovh/premium)",
+        "args": "<#kanal | disable>",
+        "set": "Förslag kan nu endast skickas in från",
+        "disable": "Förslag kan nu skickas in från alla kanaler."
       },
       "dm": {
-        "help": "Set whether users should get updates on their suggestions\n[Premium Feature](https://zira.ovh/premium)",
-        "on": "Users will get updates about their suggestions.",
-        "off": "Users won't be updated about their suggestions."
+        "help": "Ställ in huruvida användare ska få uppdateringar om sina förslag [Premiumfunktion](https://zira.ovh/premium)",
+        "on": "Användare kommer få uppdateringar om deras förslag.",
+        "off": "Användare kommer inte uppdateras om deras förslag."
       },
       "reaction": {
-        "help": "Set whether emojis should be reacted to new suggestions\n[Premium Feature](https://zira.ovh/premium)",
-        "on": "Suggestions will now have emojis set with **$prefix$suggestion emojis** reacted to them.",
-        "off": "Suggestions will no longer be reacted to."
+        "help": "Ställ in huruvida emojis ska reageras på nya förslag [Premiumfunktion](https://zira.ovh/premium)",
+        "on": "Förslag kommer nu ha emojis inställda med **$prefix$suggestion emojis** reagerade på dem.",
+        "off": "Förslag kommer inte längre få reaktioner."
       },
       "emojis": {
-        "help": "Set the emojis to be used when reacting to suggestions\n[Premium Feature](https://zira.ovh/premium)",
-        "args": "<emojiOne> <emojiTwo>",
-        "set": "Emojis have been set.",
-        "needTwo": "Please provide two emojis."
+        "help": "Ställ in emojis att använda när nya förslag får reaktioner [Premiumfunktion](https://zira.ovh/premium)",
+        "args": "<emojiEtt> <emojiTvå>",
+        "set": "Emojis har ställts in.",
+        "needTwo": "Vänligen ange två emojis."
       },
       "role": {
-        "help": "Set a role that can approve, deny, etc suggestions",
-        "args": "<role | disable>",
+        "help": "Ställ in en roll som kan godkänna, neka, etc förslag",
+        "args": "<roll | disable>",
         "set": "Only users with $role$ and the guild owner will be able to interactive with suggestions.",
-        "disable": "Anyone with the **Manage Guild** permission will now be able to interact with suggestions."
+        "disable": "Vem som helst med behörigheten **Hantera server** kan nu interagera med förslag."
       }
     },
     "suggest": {
-      "help": "Submit a suggestion",
-      "args": "<suggestion>",
-      "setup": "Suggestions are not setup. Use **$prefix$suggestion new** to setup suggestions.",
-      "submitChannel": "Please use $channel$ to submit suggestions.",
-      "provideSuggestion": "Please provide a suggestion."
+      "help": "Skicka in ett förslag",
+      "args": "<förslag>",
+      "setup": "Förslag har inte ställts in. Använd **$prefix$suggestion new** för att ställa in förslag.",
+      "submitChannel": "Vänligen använd $channel$ för att skicka in förslag.",
+      "provideSuggestion": "Vänligen ange ett förslag."
     },
     "approve": {
       "help": "Godkänn ett förslag",
-      "args": "<ID> [reason]",
-      "update": "Your suggestion [$id$]($url$) has been approved."
+      "args": "<ID> [anledning]",
+      "update": "Ditt förslag [$id$]($url$) har godkänts."
     },
     "deny": {
       "help": "Neka ett förslag",
-      "args": "<ID> [reason]",
-      "update": "Your suggestion [$id$]($url$) has been denied."
+      "args": "<ID> [anledning]",
+      "update": "Ditt förslag [$id$]($url$) har nekats."
     },
     "maybe": {
       "help": "Potentialy approve a suggestion",
-      "args": "<ID> [reason]",
-      "update": "Your suggestion [$id$]($url$) has been potentially approved."
+      "args": "<ID> [anledning]",
+      "update": "Ditt förslag [$id$]($url$) har potentiellt godkänts."
     },
     "invalid": {
-      "help": "Mark a suggestion as invalid",
-      "args": "<ID> [reason]",
-      "update": "Your suggestion [$id$]($url$) has been marked invalid."
+      "help": "Markera ett förslag som ogiltigt",
+      "args": "<ID> [anledning]",
+      "update": "Ditt förslag [$id$]($url$) har markerats som ogiltigt."
     },
     "help": {
       "categories": [
-        "Roles",
-        "Suggestion",
-        "Logging",
-        "Miscellaneous"
+        "Roller",
+        "Förslag",
+        "Loggning",
+        "Övrigt"
       ],
-      "commands": "Commands",
-      "title": "Links",
-      "footer": "<> = Required [] = Optional",
+      "commands": "Kommandon",
+      "title": "Länkar",
+      "footer": "<> = krävs [] = frivilligt",
       "links": [
         "[Guide](https://docs.zira.ovh/)",
-        "[Support Server](https://zira.ovh/support)",
+        "[Supportserver](https://zira.ovh/support)",
         "[Zira Premium](https://zira.ovh/premium)",
-        "[Invite Zira](https://zira.ovh/invite)",
-        "[Translate Zira](https://translate.zira.ovh/)",
-        "[Bot Status](https://status.imjake.me/)"
+        "[Bjud in Zira](https://zira.ovh/invite)",
+        "[Översätt Zira](https://translate.zira.ovh/)",
+        "[Botstatus](https://status.imjake.me/)"
       ]
     }
   }
