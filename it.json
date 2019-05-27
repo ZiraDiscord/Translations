@@ -341,12 +341,12 @@
         "help": "Imposta il canale dove i suggerimenti potenziali verranno inviati",
         "args": "<#canale | disable>",
         "set": "I suggerimenti potenziali verranno inviati nel canale",
-        "disable": "Potential suggestions will no longer be moved to a channel."
+        "disable": "I suggerimenti potenziali non verranno più spostati in un canale."
       },
       "submit": {
-        "help": "Set the channel users will have to use to submit a suggestion\n[Premium Feature](https://zira.ovh/premium)",
+        "help": "Imposta il canale che gli utenti dovranno utilizzare per creare dei suggerimenti\n[Funzione Premium](https://zira.ovh/premium)",
         "args": "<#canale | disable>",
-        "set": "Suggestions can now only be made in",
+        "set": "Ora i suggerimenti possono essere creati solo da",
         "disable": "Suggestions can now be made in any channel."
       },
       "dm": {
