@@ -78,12 +78,12 @@
       "help": "Angi aktiv kanal.",
       "args": "<#kanal>",
       "set": " sett som aktiv kanal.",
-      "pick": "Vennligst oppgi kanalen du ønsker å bruke.\nSkriv 'avbryt' hvis du ønsker å avbryte."
+      "pick": "Vennligst oppgi kanalen du ønsker å bruke.\nSkriv 'cancel' hvis du ønsker å avbryte."
     },
     "message": {
       "help": "Sett den aktive meldingen.",
-      "args": "<message ID>",
-      "set": "Message set",
+      "args": "<meldings ID>",
+      "set": "Melding satt",
       "pick": "Please provide a message ID for Zira to use or message for Zira to send.\nType `cancel` if you would like to cancel."
     },
     "embed": {
@@ -180,7 +180,7 @@
       },
       "all": {
         "help": "Remove all roles from a message.",
-        "args": "<message ID>",
+        "args": "<meldings ID>",
         "done": "Any roles on the message have been removed."
       },
       "remove": {
