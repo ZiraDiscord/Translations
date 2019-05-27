@@ -12,7 +12,7 @@
     "unknown": {
       "channel": "Canal necunoscut. Asigură-te că există şi că am permisiunea să îl accesez.",
       "message": "Mesajul nu a fost găsit în canalul activ. Asigură-te că există şi că am permisiunea să îl accesez.",
-      "emoji": "I can't use this emoji. Please make sure I'm in the server that it came from and if it is, make sure I have the permission **Use External Emojis** in the active channel.",
+      "emoji": "Nu pot folosi acel emoji. Asigură-te că sunt în server-ul din care provine şi că am permisiunea **Foloseşte emoji-uri externe** în canalul activ.",
       "suggestion": "O sugestie cu acel ID nu a fost gasită."
     },
     "interactive": {
@@ -24,193 +24,193 @@
       "missing": "Nu poți rula această comandă deoarece îți lipsesc următoarele permisiuni: $permissions$",
       "channelRead": "Îmi lipsesc permisiunile **Citește Mesaje** și/sau **Citește Istoricul Mesajelor** în canalul activ.",
       "channelSend": "Îmi lipsește permisiunea **Trimite Mesaje** în canalul activ.",
-      "addReactions": "I can't add this emoji because I'm missing the **Add Reactions** permission in the active channel.",
-      "othersEdit": "I can't edit that message as it wasn't sent by me.",
-      "manageChannels": "Manage Channels",
-      "manageMessages": "Manage Messages",
-      "manageRoles": "Manage Roles",
-      "manageGuild": "Manage Server"
+      "addReactions": "Nu pot adăuga acest emoji deoarece îmi lipsește permisiunea **Adaugă Reacții** în canalul activ.",
+      "othersEdit": "Nu pot edita acest mesaj deoarece nu a fost trimis de mine.",
+      "manageChannels": "Gestionează Canale",
+      "manageMessages": "Gestionează Mesaje",
+      "manageRoles": "Gestionează Roluri",
+      "manageGuild": "Gestionează Server"
     },
     "roles": {
-      "unknown": "I can't find that role. Please make sure it exists.",
-      "managed": "Integrated roles can't be used. Only roles created by users or bots.",
-      "used": "You can't use this role as it's already setup with this emoji.",
-      "once": "Since a role is setup as a Once type on this message, you can't have any other types besides Once."
+      "unknown": "Nu pot găsi acest rol. Asigură-te că există.",
+      "managed": "Roluri integrate nu pot fi folosite. Vă rog alegeți un alt rol.",
+      "used": "Nu poți folosi acest rol deoarece a fost deja setat cu acest emoji.",
+      "once": "Nu poți folosi acest rol deoarece deja este setat ca un rol de unică folosință pe acest mesaj."
     },
     "general": {
-      "maxReactions": "I can't add more roles to this message because it already has 20 reactions on it. If you would like to setup this role, please remove a role from this message or create a new message. This is a Discord limit.",
-      "missingSetup": "Please set a **channel** and **message** first then try this command again.",
-      "missingChannel": "Please set a channel first then try this command again.",
-      "missingMessage": "Please set a message first then try this command again.",
-      "missingMessageID": "Please provide me with a message ID.",
-      "missingRole": "Please provide me with a role name or mention.",
-      "messageNotFound": "I can't find this message. Please make sure the message ID is correct.",
-      "invalidID": "That is not a valid ID.",
-      "noRoleProvided": "Please provide a role.",
-      "noChannelProvided": "Please provide a channel.",
-      "noMessageProvided": "Please provide a message.",
-      "noSuggestionProvided": "Please provide a suggestion ID or a message ID of the suggestion you want."
+      "maxReactions": "Nu pot adăuga mai multe reacții la mesaj deoarece deja are 20. Dacă doriți să adăugați acest rol, eliminați un rol existent de pe mesaj sau creați unul nou. Aceasta este o limită Discord.",
+      "missingSetup": "Setează un **canal** și un **mesaj** întâi, apoi încearcă această comandă din nou.",
+      "missingChannel": "Setează un **canal** întâi, apoi încearcă această comandă din nou.",
+      "missingMessage": "Setează un **mesaj** întâi, apoi încearcă această comandă din nou.",
+      "missingMessageID": "Te rog furnizează un ID de mesaj.",
+      "missingRole": "Te rog furnizează numele unui rol sau mențiunea lui.",
+      "messageNotFound": "Nu pot găsi acest mesaj. Asigură-te că ID-ul este corect.",
+      "invalidID": "ID invalid.",
+      "noRoleProvided": "Te rog furnizează un rol.",
+      "noChannelProvided": "Te rog furnizează un canal.",
+      "noMessageProvided": "Te rog furnizează un mesaj.",
+      "noSuggestionProvided": "Te rog furnizează un ID de sugestie sau un ID de mesaj."
     },
     "premium": "Această funcție poate fi folosită doar cu [premium](https://zira.ovh/premium).",
-    "suggestionsRole": "You need the $role$ role to manage suggestions."
+    "suggestionsRole": "Ai nevoie de rolul $role$ pentru a gestiona sugestii."
   },
-  "page": "Page",
+  "page": "Pagină",
   "logging": {
     "addReaction": {
-      "add": "$mention$ reacted with $emoji$ to get $added$",
-      "remove": "$mention$ reacted with $emoji$ to remove $removed$",
-      "both": "$mention$ reacted with $emoji$ to get $added$ and to remove $removed$"
+      "add": "$mention$ a reacționat cu $emoji$ pentru a primi $added$",
+      "remove": "$mention$ a reacționat cu $emoji$ pentru a pierde $removed$",
+      "both": "$mention$ a reacționat cu $emoji$ pentru a primi $added$ și pentru a pierde $removed$"
     },
-    "removeReaction": "$mention$ unreacted $emoji$ to remove $roles$"
+    "removeReaction": "$mention$ a eliminat reacția $emoji$ pentru a pierde $roles$"
   },
   "suggestions": {
-    "reason": "$user$'s Reason",
-    "footer": "ID: $id$ Submitted",
-    "new": "New Suggestion",
-    "approved": "Approved Suggestion",
-    "denied": "Denied Suggestion",
-    "potential": "Potential Suggestion",
-    "invalid": "Invalid Suggestion",
-    "updated": "Suggestion Updated"
+    "reason": "Motivul lui $user$",
+    "footer": "ID: $id$ Trimisă",
+    "new": "Sugestie Nouă",
+    "approved": "Sugestie Aprobată",
+    "denied": "Sugestie Respinsă",
+    "potential": "Sugestie Potențială",
+    "invalid": "Sugestie Invalidă",
+    "updated": "Sugestie Actualizată"
   },
   "commands": {
     "channel": {
       "help": "Setează canalul activ.",
-      "args": "<#channel>",
-      "set": " set as the active channel.",
-      "pick": "Please mention the channel you want to use.\nType `cancel` if you would like to cancel."
+      "args": "<#canal>",
+      "set": " setează ca canalul activ.",
+      "pick": "Te rog menționează canalul pe care vrei să îl folosești.\nScrie `cancel` pentru a anula comanda."
     },
     "message": {
-      "help": "Set the active message.",
-      "args": "<message ID>",
-      "set": "Message set",
-      "pick": "Please provide a message ID for Zira to use or message for Zira to send.\nType `cancel` if you would like to cancel."
+      "help": "Setează mesajul activ.",
+      "args": "<ID mesaj>",
+      "set": "Mesaj setat",
+      "pick": "Te rog furnizează in ID de mesaj existent sau text pentru a trimite un mesaj nou in canalul activ.\nScrie `cancel` pentru a anula comanda."
     },
     "embed": {
-      "help": "Create an embed that will be used as the active message.",
-      "args": "[Embed JSON]",
-      "JSONerror": "Invalid JSON provided.\nYou can use the embed creator by using the command",
-      "created": "Embed created.",
+      "help": "Crează un embed care va fi folosit ca mesajul activ.",
+      "args": "[JSON pentru embed]",
+      "JSONerror": "JSON invalid.\nPoți folosi creatorul de embed-uri rulând comanda",
+      "created": "Embed creat.",
       "interactive": {
-        "stage": "Stage ",
-        "skipped": "Stage skipped.",
-        "title": "If you would like a title please provide one.\n\nYou'll have 2 minutes for each of the stages to enter in values.\n\nIf you have JSON you would like to use instead of this creator please use **z/embed <JSON>**\n\nYou can skip this stage by typing `skip`.",
-        "description": "If you would like a description please provide one.\n\nYou can skip this stage by typing `skip`.",
-        "image": "If you would like an image please provide a link or upload one\n\nYou can skip this stage by typing `skip`.",
-        "footer": "If you would like a footer please provide one\n\nYou can skip this stage by typing `skip`.",
-        "color": "If you would like a color please provide a hex code\n\nYou can skip this stage by typing `skip`.",
-        "creating": "Creating embed."
+        "stage": "Pas ",
+        "skipped": "Pas sărit.",
+        "title": "Dacă vrei, furnizează un titlu.\n\nVei avea 2 minute pentru fiecare pas pentru a introduce valori.\n\nDacă deja ai un JSON pe care vrei să îl folosești, poți rula comanda **z/embed <JSON>**\n\nPoți sări peste acest pas scriind `skip`.",
+        "description": "Dacă vrei, furnizează o descriere.\n\nPoți sări peste acest pas scriind `skip`.",
+        "image": "Dacă vrei, furnizează un link de imagine sau încarcă o imagine direct.\n\nPoți sări peste acest pas scriind `skip`.",
+        "footer": "Dacă vrei, furnizează o notă de subsol.\n\nPoți sări peste acest pas scriind `skip`.",
+        "color": "Dacă vrei, furnizează un cod hex de culoare.\n\nPoți sări peste acest pas scriind `skip`.",
+        "creating": "Creare embed."
       }
     },
     "config": {
-      "help": "Guild config.",
+      "help": "Configurația server-ului.",
       "args": "",
       "prefix": {
         "args": "<prefix>",
-        "error": "Please provide a prefix that's between 1 and 10 characters and has at least one of these characters in it:  `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
-        "set": "Prefix has been set to"
+        "error": "Te rog furnizează un prefix care este între 1 și 10 caractere și care are cel puțin unul dintre aceste caractere în el:  `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
+        "set": "Prefixul a fost setat la"
       },
       "role": {
-        "args": "<@role | disable>",
-        "error": "Please mention a role or provide a role name, or if you would like to disable the role, type",
-        "set": "Role set. Only people with $role$ will be able to use Zira commands.",
-        "disable": "Anyone with the correct permissions can use Zira's commands now."
+        "args": "<@rol | disable>",
+        "error": "Te rog menționează un rol sau furnizează un nume de rol, sau facă vrei să dezactivezi rolul, scrie",
+        "set": "Rolul a fost setat. Doar personele cu rolul $role$ vor putea să folosească comenzi Zira.",
+        "disable": "Oricine are permisiunile corecte poate folosi comenzile Zira acum."
       },
       "reset": {
         "args": "",
-        "question": ":warning: Are you sure you want to reset the guild config?\nPlease type `yes` or `no`.",
-        "done": "Ok, Guild config has been reset!",
-        "cancel": "Phew. Guild config has not been reset."
+        "question": ":warning: Ești sigur că vrei să resetezi configurația server-ului?\nScrie `yes` pentru da, sau `no` pentru nu.",
+        "done": "Ok, configurația server-ului a fost resetată!",
+        "cancel": "Configurația server-ului nu a fost resetată."
       },
       "language": {
-        "args": "<language code>",
-        "title": "Languages",
-        "set": "Language set.",
-        "unknown": "Unknown language.",
-        "crowdin": "If you want Zira in a language that isn't on the list above, you can apply and help translate Zira on [Crowdin](https://translate.zira.ovh)"
+        "args": "<cod limbă>",
+        "title": "Limbi",
+        "set": "Limbă setată.",
+        "unknown": "Limbă necunoscută.",
+        "crowdin": "Dacă vrei Zira într-o limbă care nu este în lista de mai sus, poți contribui la traducere pe [Crowdin](https://translate.zira.ovh)"
       },
       "main": {
-        "prefix": "Set a custom prefix.",
-        "role": "Set or remove which role can use commands.",
-        "reset": "Reset the guild config.",
-        "language": "Set the language for the guild."
+        "prefix": "Setează un prefix customizat.",
+        "role": "Setează sau șterge rolul care poate folosi comenzi.",
+        "reset": "Resetează configurația server-ului.",
+        "language": "Setează limba pentru server."
       }
     },
     "normal": {
-      "help": "Give a role",
-      "args": "<emoji> <role>",
-      "added": "$role$ added with the emoji $emoji$",
-      "emoji": "Please send the emoji you want to use.",
-      "role": "Please send the role you want to use."
+      "help": "Adaugă un rol",
+      "args": "<emoji> <rol>",
+      "added": "$role$ adăugat cu emoji-ul $emoji$",
+      "emoji": "Te rog trimite emoji-ul pe care vrei să îl folosești.",
+      "role": "Te rog trimite rolul pe care vrei să îl folosești."
     },
     "remove": {
-      "help": "Remove a role",
-      "args": "<emoji> <role>"
+      "help": "Elimină un rol",
+      "args": "<emoji> <rol>"
     },
     "toggle": {
-      "help": "Setup a toggled role",
-      "args": "<emoji> <role>",
-      "limit": "There is a limit of 6 free toggled roles. You get unlimited toggled roles with [premium](https://zira.ovh/premium)"
+      "help": "Setează un rol comutabil",
+      "args": "<emoji> <rol>",
+      "limit": "Există o limită de 6 roluri comutabile. Poți obține roluri comutabile nelimitate [donând](https://zira.ovh/premium)"
     },
     "once": {
-      "help": "Setup a once role",
-      "args": "<emoji> <role>",
+      "help": "Setează un rol de unică folosință",
+      "args": "<emoji> <rol>",
       "error": "Since there is a role set on this message with this emoji already that isnt a once reaction, you cant add any once reactions."
     },
     "list": {
-      "help": "Show all roles.",
+      "help": "Arată toate rolurile.",
       "args": "",
-      "title": "Role List",
+      "title": "Listă Roluri",
       "description": "You can remove a role listed here with **$prefix$delete**\nYou can remove any deleted roles listed by doing **$prefix$delete <message ID> check**.",
-      "role": "Role",
-      "channel": "Channel",
-      "message": "Message",
+      "role": "Rol",
+      "channel": "Canal",
+      "message": "Mesaj",
       "emoji": "Emoji",
-      "link": "Jump to message",
-      "type": "Type"
+      "link": "Sari la mesaj",
+      "type": "Tip"
     },
     "delete": {
-      "help": "Delete a role that has been setup.",
+      "help": "Șterge un rol care a fost setat.",
       "args": "",
       "check": {
         "help": "Checks for deleted roles on a message.",
-        "args": "<message ID>",
-        "none": "All roles valid.",
-        "removed": "role(s) removed."
+        "args": "<ID mesaj>",
+        "none": "Toate rolurile valide.",
+        "removed": "rol(uri) eliminate."
       },
       "all": {
-        "help": "Remove all roles from a message.",
-        "args": "<message ID>",
-        "done": "Any roles on the message have been removed."
+        "help": "Elimină toate rolurile de pe un mesaj.",
+        "args": "<ID mesaj>",
+        "done": "Toate rolurile de pe mesaj au fost eliminate."
       },
       "remove": {
-        "help": "Remove a role from a message",
-        "args": "<message ID> <role>",
+        "help": "Elimină un rol de pe un mesaj",
+        "args": "<ID mesaj> <rol>",
         "none": "That role is not setup on that message ID.",
-        "done": "The role has been removed."
+        "done": "Acest rol a fost eliminat."
       },
       "description": "You can find the message ID a role is on with **$prefix$list**."
     },
     "edit": {
-      "help": "Edit a message sent by Zira.",
-      "args": "<message ID> <new message>",
-      "notFound": "That message ID was not found.",
-      "success": "Message has been edited.",
+      "help": "Editează un mesaj trimis de Zira.",
+      "args": "<ID mesaj> <mesaj nou>",
+      "notFound": "Nu a fost găsit nici un mesaj cu acest ID.",
+      "success": "Mesajul a fost editat.",
       "pick": "Please provide a new message.",
       "interactive": {
-        "stage": "Stage ",
-        "skipped": "Stage skipped.",
+        "stage": "Pas ",
+        "skipped": "Pas sărit.",
         "title": "If you would like a title please provide one.\n\nYou'll have 2 minutes for each of the stages to enter in values.\n\nIf you have JSON you would like to use instead of this creator please use **z/edit $message <JSON>**\n\nYou can skip this stage by typing `skip`.",
-        "description": "If you would like a description please provide one.\n\nYou can skip this stage by typing `skip`.",
-        "image": "If you would like an image please provide a link or upload one\n\nYou can skip this stage by typing `skip`.",
-        "footer": "If you would like a footer please provide one\n\nYou can skip this stage by typing `skip`.",
-        "color": "If you would like a color please provide a hex code\n\nYou can skip this stage by typing `skip`.",
-        "creating": "Editing embed."
+        "description": "Dacă vrei, furnizează o descriere.\n\nPoți sări peste acest pas scriind `skip`.",
+        "image": "Dacă vrei, furnizează un link de imagine sau încarcă o imagine direct.\n\nPoți sări peste acest pas scriind `skip`.",
+        "footer": "Dacă vrei, furnizează o notă de subsol.\n\nPoți sări peste acest pas scriind `skip`.",
+        "color": "Dacă vrei, furnizează un cod hex de culoare.\n\nPoți sări peste acest pas scriind `skip`.",
+        "creating": "Editare embed."
       }
     },
     "log": {
       "help": "Log role events to a channel",
-      "args": "<#channel>",
+      "args": "<#canal>",
       "set": " set as the logging channel.\n\n**Note:** If I can't send messages to the channel I will disable logging.",
       "disable": "Role logging is now disabled."
     },
@@ -219,30 +219,30 @@
       "args": "",
       "user": {
         "help": "Give roles for when a person joins",
-        "args": "<role>",
-        "set": "$role$ will be given when a user joins.",
-        "remove": "$role$ will no longer be given when a user joins."
+        "args": "<rol>",
+        "set": "Rolul $role$ va fi dat utilizatorilor când intră.",
+        "remove": "Rolul $role$ nu va mai fi dat utilizatorilor când intră."
       },
       "bot": {
-        "help": "Give roles for when a bot joins",
-        "args": "<role>",
-        "set": "$role$ will be given when a bot joins.",
-        "remove": "$role$ will no longer be given when a bot joins."
+        "help": "Adaugă roluri boților când intră în server",
+        "args": "<rol>",
+        "set": "Rolul $role$ va fi dat boților când intră.",
+        "remove": "Rolul $role$ nu va mai fi dat boților când intră."
       },
       "show": {
-        "help": "Show the roles currently setup",
-        "user": "User Roles",
-        "bot": "Bot Roles",
-        "noRoles": "No roles setup :("
+        "help": "Arată rolurile setate",
+        "user": "Roluri pentru utilizatori",
+        "bot": "Roluri pentru boți",
+        "noRoles": "Niciun rol setat :("
       },
       "removeTip": "If you would like to remove a role that is setup with autoroles, just do the command you used to set it up again."
     },
     "join": {
-      "help": "Join messages",
+      "help": "Mesaje de intrare",
       "args": "",
       "channel": {
         "help": "Set the channel join messages should be sent in",
-        "args": "<#channel>",
+        "args": "<#canal>",
         "set": " set as the join channel.\n\n**Note:** If I can't send messages to the channel I will disable join messages."
       },
       "disable": {
@@ -252,57 +252,57 @@
       },
       "add": {
         "help": "Add a message.",
-        "args": "<message>",
-        "success": "Message added."
+        "args": "<mesaj>",
+        "success": "Mesaj adăugat."
       },
       "remove": {
         "help": "Remove a message",
-        "args": "<ID from list>",
+        "args": "<ID din listă>",
         "noID": "Please provide an ID from $prefix$join list",
         "notFound": "A message with that ID doesn't exist.",
-        "success": "Message deleted."
+        "success": "Mesaj șters."
       },
       "list": {
-        "help": "List of messages",
+        "help": "Lista mesajelor",
         "args": ""
       },
       "placeholders": {
-        "title": "Usable Placeholders That Zira Will Auto-Fill",
-        "description": "$user$ - username\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "title": "Template-uri",
+        "description": "$user$ - nume de utilizator\n$mention$ - mențiune de utilizator\n$guild$ - nume server\n$membercount$ - număr de membri"
       }
     },
     "leave": {
-      "help": "Leave messages",
+      "help": "Mesaje de ieșire",
       "args": "",
       "channel": {
         "help": "Set the channel leave messages should be sent in",
-        "args": "<#channel>",
+        "args": "<#canal>",
         "set": " set as the leave channel.\n\n**Note:** If I can't send messages to the channel I will disable leave messages."
       },
       "disable": {
-        "help": "Disable leave messages",
+        "help": "Dezactivează mesaje de ieșire",
         "args": "",
-        "success": "Leave messages disabled."
+        "success": "Mesaje de ieșire dezactivate."
       },
       "add": {
-        "help": "Add a message.",
-        "args": "<message>",
-        "success": "Message added."
+        "help": "Adaugă un mesaj.",
+        "args": "<mesaj>",
+        "success": "Mesaj adăugat."
       },
       "remove": {
         "help": "Remove a message",
-        "args": "<ID from list>",
+        "args": "<ID din listă>",
         "noID": "Please provide an ID from $prefix$leave list",
         "notFound": "A message with that ID doesn't exist.",
-        "success": "Message deleted."
+        "success": "Mesaj șters."
       },
       "list": {
-        "help": "List of messages",
+        "help": "Lista mesajelor",
         "args": ""
       },
       "placeholders": {
         "title": "Usable Placeholders",
-        "description": "$user$ - username\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "description": "$user$ - nume de utilizator\n$mention$ - mențiune de utilizator\n$guild$ - nume server\n$membercount$ - număr de membri"
       }
     },
     "rooms": {
