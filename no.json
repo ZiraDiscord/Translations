@@ -1,40 +1,40 @@
 {
   "language": "Engelsk",
   "titles": {
-    "success": "Success :white_check_mark:",
+    "success": "Fullført :white_check_mark:",
     "error": "Feil :warning:",
     "usage": "Command Usage",
-    "example": "Usage Examples",
-    "permission": "Missing Permissions"
+    "example": "Bruks Eksempler",
+    "permission": "Manglende Tillatelser"
   },
   "errors": {
-    "generic": "An error has occurred. If the error continues to persist, please join my support server.",
+    "generic": "En feil oppsto. Hvis feilen vedvarer, vennligst bli med i support guilden min.",
     "unknown": {
-      "channel": "Unknown channel. Please make sure it exists, and if it does, that I have the proper permissions to view it.",
-      "message": "Message not found in the active channel. Please make sure it exists, and if it does, that I have the proper permissions to view it.",
-      "emoji": "I can't use this emoji. Please make sure I'm in the server that it came from and if it is, make sure I have the permission **Use External Emojis** in the active channel.",
-      "suggestion": "A suggestion with that ID wasn't found."
+      "channel": "Ukjent kanal. Vennligst sjekk at den eksisterer, og hvis den gjør det, at jeg har de nødvendige tillatelsene til å se den.",
+      "message": "Kunne ikke finne melding i den aktive kanalen. Vennligst sjekk at den eksisterer, og hvis den gjør det, at jeg har de nødvendige tillatelsene til å se den.",
+      "emoji": "Jeg kan ikke bruke den emojien. Vennligst sjekk at jeg er i den serveren den kommer fra, og hvis jeg er det, sjekk at jeg har tillatelsen **Bruk eksterne Emojier** i den aktive kanalen.",
+      "suggestion": "Et forslag med den ID ble ikke funnet."
     },
     "interactive": {
       "timeout": "Command timeout.",
-      "cancel": "Command cancelled."
+      "cancel": "Kommando stoppet."
     },
     "permission": {
-      "hierarchy": "I can't use this role because it is above my highest role in the role hierarchy.",
+      "hierarchy": "Jeg kan ikke bruke denne rollen fordi den er over min høyeste rolle i rolle hierarkiet.",
       "missing": "You're unable to run this command because you lack the following permissions: $permissions$",
       "channelRead": "I'm missing the permissions **Read Messages** and **Read Message History** in the active channel.",
       "channelSend": "I'm missing the permission **Send Messages** in the active channel.",
       "addReactions": "I can't add this emoji because I'm missing the **Add Reactions** permission in the active channel.",
-      "othersEdit": "I can't edit that message as it wasn't sent by me.",
-      "manageChannels": "Manage Channels",
-      "manageMessages": "Manage Messages",
-      "manageRoles": "Manage Roles",
-      "manageGuild": "Manage Server"
+      "othersEdit": "Jeg kan ikke redigere den meldingen da den ikke ble sendt av meg.",
+      "manageChannels": "Behandle Kanaler",
+      "manageMessages": "Behandle Meldinger",
+      "manageRoles": "Behandle Roller",
+      "manageGuild": "Behandle Servere"
     },
     "roles": {
-      "unknown": "I can't find that role. Please make sure it exists.",
-      "managed": "Integrated roles can't be used. Only roles created by users or bots.",
-      "used": "You can't use this role as it's already setup with this emoji.",
+      "unknown": "Jeg kan ikke finne den rollen. Vennligst sjekk at den eksisterer.",
+      "managed": "Intrigerte roller kan ikke bli brukt. Bare roller opprettet av brukere eller boter.",
+      "used": "Du kan ikke bruke denne rollen da den er allerede satt opp med denne emojien.",
       "once": "Since a role is setup as a Once type on this message, you can't have any other types besides Once."
     },
     "general": {
@@ -45,16 +45,16 @@
       "missingMessageID": "Please provide me with a message ID.",
       "missingRole": "Please provide me with a role name or mention.",
       "messageNotFound": "I can't find this message. Please make sure the message ID is correct.",
-      "invalidID": "That is not a valid ID.",
-      "noRoleProvided": "Please provide a role.",
-      "noChannelProvided": "Please provide a channel.",
-      "noMessageProvided": "Please provide a message.",
+      "invalidID": "Det er ikke en gyldig ID.",
+      "noRoleProvided": "Vennligst oppgi en rolle.",
+      "noChannelProvided": "Vennligst oppgi en kanal.",
+      "noMessageProvided": "Vennligst oppgi en melding.",
       "noSuggestionProvided": "Please provide a suggestion ID or a message ID of the suggestion you want."
     },
     "premium": "Denne funksjonen er kun for [premium](https://zira.ovh/premium).",
     "suggestionsRole": "You need the $role$ role to manage suggestions."
   },
-  "page": "Page",
+  "page": "Side",
   "logging": {
     "addReaction": {
       "add": "$mention$ reacted with $emoji$ to get $added$",
@@ -66,11 +66,11 @@
   "suggestions": {
     "reason": "$user$'s Reason",
     "footer": "ID: $id$ Submitted",
-    "new": "New Suggestion",
-    "approved": "Approved Suggestion",
-    "denied": "Denied Suggestion",
-    "potential": "Potential Suggestion",
-    "invalid": "Invalid Suggestion",
+    "new": "Nytt Forslag",
+    "approved": "Godkjente forslag",
+    "denied": "Avvist forslag",
+    "potential": "Mulig Forslag",
+    "invalid": "Ugyldig Forslag",
     "updated": "Suggestion Updated"
   },
   "commands": {
@@ -123,38 +123,38 @@
         "cancel": "Phew. Guild config has not been reset."
       },
       "language": {
-        "args": "<language code>",
-        "title": "Languages",
-        "set": "Language set.",
-        "unknown": "Unknown language.",
-        "crowdin": "If you want Zira in a language that isn't on the list above, you can apply and help translate Zira on [Crowdin](https://translate.zira.ovh)"
+        "args": "<språk kode>",
+        "title": "Språk",
+        "set": "Språk angitt.",
+        "unknown": "Ukjent språk.",
+        "crowdin": "Hvis du vil ha Zira på et språk som ikke finnes i listen ovenfor, så kan du hjelpe oss å oversette Zira på [Crowdin](https://translate.zira.ovh)"
       },
       "main": {
-        "prefix": "Set a custom prefix.",
-        "role": "Set or remove which role can use commands.",
+        "prefix": "Angi et egendefinert prefiks.",
+        "role": "Angi eller fjerne hvilken rolle som kan bruke kommandoer.",
         "reset": "Reset the guild config.",
-        "language": "Set the language for the guild."
+        "language": "Angi språk for guild."
       }
     },
     "normal": {
-      "help": "Give a role",
-      "args": "<emoji> <role>",
+      "help": "Gi en rolle",
+      "args": "<emoji> <rolle>",
       "added": "$role$ added with the emoji $emoji$",
       "emoji": "Please send the emoji you want to use.",
       "role": "Please send the role you want to use."
     },
     "remove": {
-      "help": "Remove a role",
-      "args": "<emoji> <role>"
+      "help": "Fjern en rolle",
+      "args": "<emoji> <rolle>"
     },
     "toggle": {
       "help": "Setup a toggled role",
-      "args": "<emoji> <role>",
+      "args": "<emoji> <rolle>",
       "limit": "There is a limit of 6 free toggled roles. You get unlimited toggled roles with [premium](https://zira.ovh/premium)"
     },
     "once": {
       "help": "Setup a once role",
-      "args": "<emoji> <role>",
+      "args": "<emoji> <rolle>",
       "error": "Since there is a role set on this message with this emoji already that isnt a once reaction, you cant add any once reactions."
     },
     "list": {
@@ -164,19 +164,19 @@
       "description": "You can remove a role listed here with **$prefix$delete**\nYou can remove any deleted roles listed by doing **$prefix$delete <message ID> check**.",
       "role": "Role",
       "channel": "Channel",
-      "message": "Message",
+      "message": "Melding",
       "emoji": "Emoji",
-      "link": "Jump to message",
+      "link": "Hopp til melding",
       "type": "Type"
     },
     "delete": {
-      "help": "Delete a role that has been setup.",
+      "help": "Fjern en rolle som har blitt satt opp.",
       "args": "",
       "check": {
         "help": "Checks for deleted roles on a message.",
-        "args": "<message ID>",
+        "args": "<melding ID>",
         "none": "All roles valid.",
-        "removed": "role(s) removed."
+        "removed": "rolle(r) fjernet."
       },
       "all": {
         "help": "Remove all roles from a message.",
