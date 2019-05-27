@@ -1,435 +1,422 @@
 {
   "language": "Английский",
   "titles": {
-    "use": "Использование команды",
+    "success": "Выполнено :white_check_mark:",
     "error": "Ошибка :warning:",
-    "complete": "Выполнено :white_check_mark:"
+    "usage": "Использование команды",
+    "example": "Usage Examples",
+    "permission": "Missing Permissions"
   },
   "errors": {
-    "generic": "Произошла ошибка. Если ошибка продолжает сохраняться, пожалуйста, присоединитесь к гильдии поддержки.",
-    "unknownChannel": "Канал неизвестен. Если канал указан правильно, пожалуйста, убедитесь, что у меня есть разрешение на его просмотр.",
-    "unknownRole": "Роль неизвестна. Пожалуйста, убедитесь, что роль существует.",
-    "missingPermissionChannelRead": "Утеряны разрешения `Чтение сообщений` и/или `Чтение истории сообщений` на активном канале.",
-    "missingPermissionChannelReaction": "Утеряны разрешения `Добавлять реакции` и/или `Использовать сторонние эмодзи` на активном канале.",
-    "missingPermissionChannelSend": "Утеряны разрешения `Отправлять сообщения` на активном канале.",
-    "unknownMessageID": "Неизвестное сообщение. Пожалуйста, убедитесь, что идентификатор сообщения, указанный вами, действителен.",
-    "setChannel": "Пожалуйста, сначала укажите канал, а затем повторите эту команду.",
-    "setChannelOrMessage": "Пожалуйста, сначала укажите канал и сообщение, а затем повторите эту команду.",
-    "ordinalPair": "Неизвестная роль в $pair паре.",
-    "usedEmoji": "Эмодзи в паре $pair уже используется для этого сообщения.",
-    "usedRole": "Роль в паре $pair уже используется для этого сообщения.",
-    "unknownMessage": "Активное сообщение неизвестно, пожалуйста, проверьте мои разрешения и что сообщение всё ещё существует.",
-    "unknownEmoji": "Я не могу использовать этот emoji. Если этот emoji пользовательский, пожалуйста убедитесь, что я нахожусь в гильдии, к которой он принадлежит",
+    "generic": "An error has occurred. If the error continues to persist, please join my support server.",
+    "unknown": {
+      "channel": "Unknown channel. Please make sure it exists, and if it does, that I have the proper permissions to view it.",
+      "message": "Message not found in the active channel. Please make sure it exists, and if it does, that I have the proper permissions to view it.",
+      "emoji": "I can't use this emoji. Please make sure I'm in the server that it came from and if it is, make sure I have the permission **Use External Emojis** in the active channel.",
+      "suggestion": "A suggestion with that ID wasn't found."
+    },
+    "interactive": {
+      "timeout": "Command timeout.",
+      "cancel": "Command cancelled."
+    },
+    "permission": {
+      "hierarchy": "I can't use this role because it is above my highest role in the role hierarchy.",
+      "missing": "You're unable to run this command because you lack the following permissions: $permissions$",
+      "channelRead": "I'm missing the permissions **Read Messages** and **Read Message History** in the active channel.",
+      "channelSend": "I'm missing the permission **Send Messages** in the active channel.",
+      "addReactions": "I can't add this emoji because I'm missing the **Add Reactions** permission in the active channel.",
+      "othersEdit": "I can't edit that message as it wasn't sent by me.",
+      "manageChannels": "Manage Channels",
+      "manageMessages": "Manage Messages",
+      "manageRoles": "Manage Roles",
+      "manageGuild": "Manage Server"
+    },
+    "roles": {
+      "unknown": "I can't find that role. Please make sure it exists.",
+      "managed": "Integrated roles can't be used. Only roles that you create yourself.",
+      "used": "You can't use this role as it's already setup with this emoji.",
+      "once": "Since a role is setup as a Once type on this message, you can't have any other types besides Once."
+    },
+    "general": {
+      "maxReactions": "I can't add more roles to this message because it already has 20 reactions on it. If you would like to setup this role, please remove a role from this message or create a new message. This is a Discord limit.",
+      "missingSetup": "Please set a **channel** and **message** first then try this command again.",
+      "missingChannel": "Please set a channel first then try this command again.",
+      "missingMessage": "Please set a message first then try this command again.",
+      "missingMessageID": "Please provide me with a message ID.",
+      "missingRole": "Please provide me with a role name or mention.",
+      "messageNotFound": "I can't find this message. Please make sure the message ID is correct.",
+      "invalidID": "That is not a valid ID.",
+      "noRoleProvided": "Please provide a role.",
+      "noChannelProvided": "Please provide a channel.",
+      "noMessageProvided": "Please provide a message.",
+      "noSuggestionProvided": "Please provide a suggestion ID or a message ID of the suggestion you want."
+    },
     "premium": "Для этой функции требуется [премиум доступ](https://zira.ovh/premium) только.",
-    "suggestionID": "Пожалуйста, попробуйте ещё раз с предложенным ID.",
-    "unknownSuggestion": "Неизвестные предложение.",
-    "suggestionRead": "Невозможно получить предложение $suggestion на <#$channel>. Пожалуйста, убедитесь что я имею разрешения на `Чтение сообщений` на канале и что предложения не удалены.",
-    "suggestionSend": "Не удается отправить предложение на $channel. Пожалуйста, убедитесь, что у меня есть разрешения «Читать сообщения», «отправить» и «Вставлять ссылки» на канале.",
-    "suggestionRole": "Вам нужна < @&$role> роль для управления предложениями.",
-    "maxReactions": "На этом сообщении уже установлено 20 реакций. Это ограничение на стороне Discord. Пожалуйста, добавьте и настройте другое сообщение, чтобы добавить больше реакций."
+    "suggestionsRole": "You need the $role$ role to manage suggestions."
   },
-  "suggestion": {
-    "reason": "Причина",
-    "noReason": "Причина не указана",
-    "submitted": "Отправлено",
-    "submittedBy": "Отправлено:",
-    "new": "Новое предложение",
-    "approved": "Утвержденное предложение",
-    "approvedMessage": "** Ваше предложение: **\n\n$suggestion\n\n** было принято.* *",
-    "approvedMessageReason": "** Ваше предложение: **\n\n$suggestion\n\n** было одобрено с причиной: **\n\n$reason",
-    "denied": "Отклонённые предложения",
-    "deniedMessage": "** Ваше предложение: **\n\n$suggestion\n\n** было отклонено.* *",
-    "deniedMessageReason": "** Ваше предложение: **\n\n$suggestion\n\n** было отклонено по причине: **\n\n$reason",
-    "potential": "Потенциальное предложение",
-    "potentialMessage": "** Ваше предложение: **\n\n$suggestion\n\n** было потенциально одобрено.* *",
-    "potentialMessageReason": "** Ваше предложение: **\n\n$suggestion\n\n** было потенциально одобрено с причиной: **\n\n$reason",
-    "invalid": "Неверное предложение",
-    "invalidMessage": "** Ваше предложение: **\n\n$suggestion\n\n** было помечено как недопустимое.* *",
-    "invalidMessageReason": "** Ваше предложение: **\n\n$suggestion\n\n** было помечено как недопустимое по причине* *\n\n$reason"
+  "page": "Page",
+  "logging": {
+    "addReaction": {
+      "add": "$mention$ reacted with $emoji$ to get $added$",
+      "remove": "$mention$ reacted with $emoji$ to remove $removed$",
+      "both": "$mention$ reacted with $emoji$ to get $added$ and to remove $removed$"
+    },
+    "removeReaction": "$mention$ unreacted $emoji$ to remove $roles$"
   },
-  "footer": "**Обратите внимание: ** «Zira» роль должна быть выше установливаемых ролей, и должна иметь разрешение «Управление ролями».",
-  "example": "Пример",
-  "guidePage": "Страница руководства",
-  "userPermissions": "Эту команду нельзя использовать, потому что вам не хватает следующих(его) прав(а): ",
-  "help": {
-    "commands": "Команды",
-    "title": "Ссылки",
-    "links": [
-      "[Руководство](https://docs.zira.ovh/)",
-      "[Гильдия поддержки](https://zira.ovh/support)",
-      "[Сайт](https://zira.ovh)",
-      "[Премиум](https://zira.ovh/premium)",
-      "[Пригласить Zira](https://zira.ovh/invite)",
-      "[Помочь с переводом Zira](https://translate.zira.ovh/)"
-    ],
-    "page": "Страница ",
-    "categories": [
-      "Роли",
-      "Предложение",
-      "Ведение журнала",
-      "Прочее"
-    ]
+  "suggestions": {
+    "reason": "$user$'s Reason",
+    "footer": "ID: $id$ Submitted",
+    "new": "New Suggestion",
+    "approved": "Approved Suggestion",
+    "denied": "Denied Suggestion",
+    "potential": "Potential Suggestion",
+    "invalid": "Invalid Suggestion",
+    "updated": "Suggestion Updated"
   },
   "commands": {
-    "info": {
-      "help": "Информация о Zira.",
-      "params": "",
-      "fields": [
-        "Версия",
-        "Поддержка",
-        "Библиотека",
-        "Создано",
-        "Гильдии",
-        "История изменений"
-      ]
-    },
     "channel": {
       "help": "Установите активный канал.",
-      "params": " <#канал>",
-      "set": "Активный канал установлен на: "
+      "args": "<#channel>",
+      "set": " set as the active channel.",
+      "pick": "Please mention the channel you want to use.\nType `cancel` if you would like to cancel."
     },
     "message": {
-      "help": "Установите активное сообщение или отправьте сообщение на активный канал.",
-      "params": " <ID сообщения | сообщение>",
-      "setID": "Сообщение было установлено.",
-      "setCreate": "Сообщение установлено."
+      "help": "Set the active message.",
+      "args": "<message ID>",
+      "set": "Message set",
+      "pick": "Please provide a message ID for Zira to use or message for Zira to send.\nType `cancel` if you would like to cancel."
     },
-    "add": {
-      "help": "Добавление обычной роли для активного сообщения.",
-      "description": "Вы можете добавить одновременно несколько ролей, указав больше ролей и эмодзи. Необходимо использовать запятую для разделения каждой пары, смотрите пример ниже.",
-      "params": " <название эмодзи> <Название роли | упоминание роли>",
-      "set": "\n<@&$id> добавлен с эмодзи $emoji"
-    },
-    "list": {
-      "help": "Список всех ролей, которые были установлены.",
-      "params": "",
-      "title": "$name | Список ролей",
-      "name": "**Название:** ",
-      "channel": "**Канал:** ",
-      "message": "**Сообщение:** ",
-      "emoji": "**Эмодзи:** ",
-      "type": "**Тип:** ",
-      "types": [
-        "Нормальный",
-        "Флаг",
-        "Единожды",
-        "Мульти",
-        "Удалить"
-      ]
-    },
-    "trello": {
-      "help": "Интеграция Trello с предложениями.",
-      "params": " <ID канала | Флаг>",
-      "supplyBoard": "Пожалуйста, введите ID канала.",
-      "setBoard": "Пожалуйста, сначала укажите канал.",
-      "boardNotFound": {
-        "title": "Канал не найден",
-        "description": "Я не смогла найти этот канал. Пожалуйста, убедитесь что у Вас указан правильный канал и и Вы добавили **`ZiraDiscord`** на канал."
-      },
-      "dm": {
-        "id": "Ваш Trello ID $id",
-        "success": "Чтобы проверить этот канал, пожалуйста, создайте карту, которая имеет название с присвоеномым идентификатором, который был отправлен вам. После того как вы сделаете это, пожалуйста, введите `done` на этом канале для продолжения установки.\n\nУ вас будет 5 минут, чтобы сделать это.",
-        "error": "Я не смогла отправить Вам DM верификации. Пожалуйста, убедитесь, что я могу отправить DM."
-      },
-      "time": "Вы уже не хватило времени. Пожалуйста, попробуйте еще раз.",
-      "noCard": "Не удается найти карту. Пожалуйста, попробуйте еще раз.",
-      "validList": "Это не допустимый список. Пожалуйста, введите допустимый список ID.",
-      "pickNew": "Введите соответствующий номер чтобы выбрать список, или `none`, чтобы не выбирать список для новых предложений.\n\n",
-      "pickNewTitle": "Выберите список для Новых предложений",
-      "pickApprove": "Введите соответствующий номер чтобы выбрать список, или `none`, чтобы не выбирать список для новых предложений.\n\n",
-      "pickApproveTitle": "Выберите список для Одобренных предложений",
-      "pickDenied": "Введите соответствующий номер чтобы выбрать список, или `none`, чтобы не выбирать список для отклонённых предложений.\n\n",
-      "pickDeniedTitle": "Выберите список для Отклонённых предложений",
-      "pickPotential": "Введите соответствующий номер чтобы выбрать список, или `none`, чтобы не выбирать список для Потенциальных предложений.\n\n",
-      "pickPotentialTitle": "Выберите список для Потенциальных предложений",
-      "pickInvalid": "Введите соответствующий номер чтобы выбрать список, или `none`, чтобы не выбирать список для Недопустимых предложений.\n\n",
-      "pickInvalidTitle": "Выберите список для Недопустимых предложений",
-      "set": "Канал и уставленный(-ые) списки."
+    "embed": {
+      "help": "Create an embed that will be used as the active message.",
+      "args": "[Embed JSON]",
+      "JSONerror": "Invalid JSON provided.\nYou can use the embed creator by using the command",
+      "created": "Embed created.",
+      "interactive": {
+        "stage": "Stage ",
+        "skipped": "Stage skipped.",
+        "title": "If you would like a title please provide one.\n\nYou'll have 2 minutes for each of the stages to enter in values.\n\nIf you have JSON you would like to use instead of this creator please use **z/embed <JSON>**\n\nYou can skip this stage by typing `skip`.",
+        "description": "If you would like a description please provide one.\n\nYou can skip this stage by typing `skip`.",
+        "image": "If you would like an image please provide a link or upload one\n\nYou can skip this stage by typing `skip`.",
+        "footer": "If you would like a footer please provide one\n\nYou can skip this stage by typing `skip`.",
+        "color": "If you would like a color please provide a hex code\n\nYou can skip this stage by typing `skip`.",
+        "creating": "Creating embed."
+      }
     },
     "config": {
-      "help": "Управление конфигурацией гильдии.",
-      "params": "",
-      "role": {
-        "noParam": "Пожалуйста, сопоставьте роль.",
-        "disable": "Все, с соответствующими разрешениями, теперь могут использовать команды Zira",
-        "success": "Теперь только владелец гильдии и люди с ролью $role могут использовать команды Zira."
-      },
-      "main": [
-        {
-          "name": " роль <роль | отключена>",
-          "value": "Установите или удалите роль, которая может использовать команды."
-        }
-      ]
-    },
-    "edit": {
-      "help": "Отредактируйте сообщение, отправленное Zira на выбранном канале.",
-      "params": " <ID сообщения> <Новое сообщение>",
-      "owner": "Это сообщение я не отправляла.",
-      "success": "Сообщение отредактировано."
-    },
-    "toggle": {
-      "help": "Добавление переключаемой роли для активного сообщения.",
-      "params": " <название эмодзи> <Название роли | упоминание роли>",
-      "limit": "Вы достигли лимита в 6 переключаемых ролей. Вы сможете получить неограниченное количество переключаемых ролей, если приобретёте [премиум](https://zira.ovh/premium)",
-      "over": "Добавив это, вы достигнете лимита переключаемых ролей. Вы сможете получить неограниченное количество переключаемых ролей, если приобретёте [премиум] (https://zira.ovh/premium)"
-    },
-    "once": {
-      "help": "Добавлена роль(и) на активное сообщение, которое может быть получено только один раз.",
-      "params": " <название эмодзи> <Название роли | упоминание роли>"
-    },
-    "multi": {
-      "help": "Добавлено эмодзи, которое даст несколько ролей на активное сообщение.",
-      "params": " <эмодзи> <название роли | упоминание роли>, <название роли | упоминание роли>",
-      "ordinal": "Роль $pos неизвестна.",
-      "usedEmoji": "Данный эмодзи уже используется в этом сообщении.",
-      "set": "$roles> добавлена с эмодзи $emoji"
-    },
-    "delete": {
-      "help": "Удалить ранее установленные роли.",
-      "params": " <ID сообщения> <название роли | упоминание роли | проверка>",
-      "noRoles": "Для этого сообщения не установлены роли.",
-      "removedCheck": "$num роль удалена с этого сообщения.",
-      "good": "Все роли существует и не были удалены.",
-      "removed": "<@&$id> удалено с эмодзи $emoji",
-      "message": "Не удаётся удалить роль, так как её нет в указанном сообщении."
-    },
-    "autorole": {
-      "help": "Назначать роль при присоединении пользователя/бота..",
-      "params": "",
-      "title": "Автоматическая роль",
-      "ubParams": " <название роли | упоминание роли>",
-      "user": "Добавьте роль, которую следует назначить при присоединении пользователя к серверу.\n\nДля удаления автороли, просто выполните снова эту команду.",
-      "userAdd": "$role будет выдаваться при подключении пользователя.",
-      "userRemove": "$role больше не будет выдаваться при подключении.",
-      "bot": "Добавьте роль, которую следует назначить при присоединении бота к серверу.\n\nДля удаления автороли, просто выполните снова эту команду.",
-      "botAdd": "$role будет выдаваться при подключении бота.",
-      "botRemove": "$role больше не будет выдаваться ботам при подключении.",
-      "showUser": "Роли пользователя",
-      "showBot": "Роли ботов",
-      "nonSet": "Роли не установлены",
-      "main": [
-        {
-          "name": " пользователь <role name | role mention>",
-          "value": "Установите роль(-и), которая будет предоставлена, когда пользователь присоединяется."
-        },
-        {
-          "name": " бот <Название роли | Упоминание роли>",
-          "value": "Установите роль(-и), которая будет предоставлена, когда бот присоединяется."
-        },
-        {
-          "name": " показать",
-          "value": "Показать текущий набор ролей."
-        }
-      ]
-    },
-    "suggestion": {
-      "help": "Конфигурация Предложений.",
-      "params": "",
-      "channel": {
-        "help": " канал <new | approved | denied | invalid | potential> <#channel>",
-        "description": "Укажите на какие новые, утвержденные, отказанные, потенциальные, и недопустимые каналы будут отправляться предложения.",
-        "set": "$type предложения будут отправляться на $channel"
-      },
-      "submit": {
-        "help": " отправить <#channel>",
-        "description": "Установите, с какого канала будет разрешено отправлять только это предложение.",
-        "set": "Предложения будут разрешены только от $channel",
-        "disable": "Предложения теперь можно отправлять с любого канала."
-      },
-      "dm": {
-        "on": "DM будет отправлено пользователю предложения, когда предложение будет одобрено, отклонено, потенциально или недействительно и т. д.",
-        "off": "Пользователи больше не будут получать DM о предложениях."
-      },
-      "reaction": {
-        "on": "Эмодзи будут реагировать на новые предложения.",
-        "off": "Emojis больше не будут реагировать на новые предложения."
-      },
-      "emojis": {
-        "help": " эмодзи <emoji> <emoji>",
-        "description": "Установите эмодзи, которые будут реагировать на новые предложения.",
-        "set": "Эмодзи $emoji1, $emoji2 будут реагировать на новые предложения, если реакции включены."
+      "help": "Guild config.",
+      "args": "",
+      "prefix": {
+        "args": "<prefix>",
+        "error": "Please provide a prefix that's between 1 and 10 characters and has at least one of these characters in it:  `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
+        "set": "Prefix has been set to"
       },
       "role": {
-        "help": " роль <role name | role mention | disable>",
-        "description": "Ограничьте управление предложениями определенной ролью.",
-        "disable": "Любой, у кого есть разрешение `Manage Guild`, может одобрить / отклонить предложения.",
-        "set": "Только пользователи с ролью $role могут одобрить / отклонить предложения."
+        "args": "<@role | disable>",
+        "error": "Please mention a role or provide a role name, or if you would like to disable the role, type",
+        "set": "Role set. Only people with $role$ will be able to use Zira commands.",
+        "disable": "Anyone with the correct permissions can use Zira's commands now."
       },
-      "main": [
-        {
-          "name": " канал <new | approved | denied | invalid | potential> <#channel>",
-          "value": "Укажите, на какие каналы будут отправляться новые, одобренные и отклоненные предложения."
-        },
-        {
-          "name": " отправить <#channel>",
-          "value": "Ограничьте отправку предложений одним каналом."
-        },
-        {
-          "name": " лс",
-          "value": "Установите, должны ли пользователи получать DM о своих предложениях."
-        },
-        {
-          "name": " реакция",
-          "value": "Укажите, следует ли реагировать эмодзями на новые предложения."
-        },
-        {
-          "name": " эмодзи <emoji> <emoji>",
-          "value": "Установите эмодзи, которые будут реагировать на новые предложения."
-        },
-        {
-          "name": " роль <role name | role mention>",
-          "value": "Ограничьте управление предложениями определенной ролью."
-        }
-      ]
+      "reset": {
+        "args": "",
+        "question": ":warning: Are you sure you want to reset the guild config?\nPlease type `yes` or `no`.",
+        "done": "Ok, Guild config has been reset!",
+        "cancel": "Phew. Guild config has not been reset."
+      },
+      "language": {
+        "args": "<language code>",
+        "title": "Languages",
+        "set": "Language set.",
+        "unknown": "Unknown language.",
+        "crowdin": "If you want Zira in a language that isn't on the list above, you can apply and help translate Zira on [Crowdin](https://translate.zira.ovh)"
+      },
+      "main": {
+        "prefix": "Set a custom prefix.",
+        "role": "Set or remove which role can use commands.",
+        "reset": "Reset the guild config.",
+        "language": "Set the language for the guild."
+      }
     },
-    "invite": {
-      "help": "Пригласить Zira.",
-      "params": ""
+    "normal": {
+      "help": "Give a role",
+      "args": "<emoji> <role>",
+      "added": "$role$ added with the emoji $emoji$",
+      "emoji": "Please send the emoji you want to use.",
+      "role": "Please send the role you want to use."
     },
     "remove": {
-      "help": "Добавлен эмодзи, который удалит роль из активного сообщения.",
-      "params": " <название эмодзи> <Название роли | упоминание роли>",
-      "description": "Вы можете добавить роль, когда Zira удаляет другую роль. Вы должны использовать запятую для разделения второй роли, см. Пример ниже.",
-      "limit": "Вы достигли предела в 6 удаленных ролей. Вы можете получить неограниченное количество ролей для удаления и переключения [пожертвованием] (https://zira.ovh/premium)",
-      "remove": "$role удалена",
-      "removeAdd": "$role1 будет удалена и $role2 будет выдана",
-      "emoji": " с эмодзи $emoji"
+      "help": "Remove a role",
+      "args": "<emoji> <role>"
     },
-    "submit": {
-      "help": " Отправить предложение",
-      "params": " <suggestion>",
-      "noChannel": "Канала предложений нет. Пожалуйста, установите один.",
-      "wrongChannel": "Используйте $channel для подтверждения предложения.",
-      "card": {
-        "title": "Новое предложение: $suggestion",
-        "body": "$suggestion\n\nПредложено пользователем: $user"
+    "toggle": {
+      "help": "Setup a toggled role",
+      "args": "<emoji> <role>",
+      "limit": "There is a limit of 6 free toggled roles. You get unlimited toggled roles with [premium](https://zira.ovh/premium)"
+    },
+    "once": {
+      "help": "Setup a once role",
+      "args": "<emoji> <role>",
+      "error": "Since there is a role set on this message with this emoji already that isnt a once reaction, you cant add any once reactions."
+    },
+    "list": {
+      "help": "Show all roles.",
+      "args": "",
+      "title": "Role List",
+      "description": "You can remove a role listed here with **$prefix$delete**\nYou can remove any deleted roles listed by doing **$prefix$delete <message ID> check**.",
+      "role": "Role",
+      "channel": "Channel",
+      "message": "Message",
+      "emoji": "Emoji",
+      "link": "Jump to message",
+      "type": "Type"
+    },
+    "delete": {
+      "help": "Delete a role that has been setup.",
+      "args": "",
+      "check": {
+        "help": "Checks for deleted roles on a message.",
+        "args": "<message ID>",
+        "none": "All roles valid.",
+        "removed": "role(s) removed."
       },
-      "success": "Предложение отправлено."
+      "all": {
+        "help": "Remove all roles from a message.",
+        "args": "<message ID>",
+        "done": "Any roles on the message have been removed."
+      },
+      "remove": {
+        "help": "Remove a role from a message",
+        "args": "<message ID> <role>",
+        "none": "That role is not setup on that message ID.",
+        "done": "The role has been removed."
+      },
+      "description": "You can find the message ID a role is on with **$prefix$list**."
+    },
+    "edit": {
+      "help": "Edit a message sent by Zira.",
+      "args": "<message ID> <new message>",
+      "notFound": "That message ID was not found.",
+      "success": "Message has been edited.",
+      "pick": "Please provide a new message.",
+      "interactive": {
+        "stage": "Stage ",
+        "skipped": "Stage skipped.",
+        "title": "If you would like a title please provide one.\n\nYou'll have 2 minutes for each of the stages to enter in values.\n\nIf you have JSON you would like to use instead of this creator please use **z/edit $message <JSON>**\n\nYou can skip this stage by typing `skip`.",
+        "description": "If you would like a description please provide one.\n\nYou can skip this stage by typing `skip`.",
+        "image": "If you would like an image please provide a link or upload one\n\nYou can skip this stage by typing `skip`.",
+        "footer": "If you would like a footer please provide one\n\nYou can skip this stage by typing `skip`.",
+        "color": "If you would like a color please provide a hex code\n\nYou can skip this stage by typing `skip`.",
+        "creating": "Editing embed."
+      }
+    },
+    "log": {
+      "help": "Log role events to a channel",
+      "args": "<#channel>",
+      "set": " set as the logging channel.\n\n**Note:** If I can't send messages to the channel I will disable logging.",
+      "disable": "Role logging is now disabled."
+    },
+    "autorole": {
+      "help": "Give roles to be given when a member joins",
+      "args": "",
+      "user": {
+        "help": "Give roles for when a person joins",
+        "args": "<role>",
+        "set": "$role$ will be given when a user joins.",
+        "remove": "$role$ will no longer be given when a user joins."
+      },
+      "bot": {
+        "help": "Give roles for when a bot joins",
+        "args": "<role>",
+        "set": "$role$ will be given when a bot joins.",
+        "remove": "$role$ will no longer be given when a bot joins."
+      },
+      "show": {
+        "help": "Show the roles currently setup",
+        "user": "User Roles",
+        "bot": "Bot Roles",
+        "noRoles": "No roles setup :("
+      },
+      "removeTip": "If you would like to remove a role that is setup with autoroles, just do the command you used to set it up again."
+    },
+    "join": {
+      "help": "Join messages",
+      "args": "",
+      "channel": {
+        "help": "Set the channel join messages should be sent in",
+        "args": "<#channel>",
+        "set": " set as the join channel.\n\n**Note:** If I can't send messages to the channel I will disable join messages."
+      },
+      "disable": {
+        "help": "Disable join messages",
+        "args": "",
+        "success": "Join messages disabled."
+      },
+      "add": {
+        "help": "Add a message.",
+        "args": "<message>",
+        "success": "Message added."
+      },
+      "remove": {
+        "help": "Remove a message",
+        "args": "<ID from list>",
+        "noID": "Please provide an ID from $prefix$join list",
+        "notFound": "A message with that ID doesn't exist.",
+        "success": "Message deleted."
+      },
+      "list": {
+        "help": "List of messages",
+        "args": ""
+      },
+      "placeholders": {
+        "title": "Usable Placeholders That Zira Will Auto-Fill",
+        "description": "$user$ - username\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+      }
+    },
+    "leave": {
+      "help": "Leave messages",
+      "args": "",
+      "channel": {
+        "help": "Set the channel leave messages should be sent in",
+        "args": "<#channel>",
+        "set": " set as the leave channel.\n\n**Note:** If I can't send messages to the channel I will disable leave messages."
+      },
+      "disable": {
+        "help": "Disable leave messages",
+        "args": "",
+        "success": "Leave messages disabled."
+      },
+      "add": {
+        "help": "Add a message.",
+        "args": "<message>",
+        "success": "Message added."
+      },
+      "remove": {
+        "help": "Remove a message",
+        "args": "<ID from list>",
+        "noID": "Please provide an ID from $prefix$leave list",
+        "notFound": "A message with that ID doesn't exist.",
+        "success": "Message deleted."
+      },
+      "list": {
+        "help": "List of messages",
+        "args": ""
+      },
+      "placeholders": {
+        "title": "Usable Placeholders",
+        "description": "$user$ - username\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+      }
+    },
+    "rooms": {
+      "help": "Setup private rooms",
+      "args": "",
+      "success": "Private rooms setup."
+    },
+    "suggestion": {
+      "help": "Suggestion config",
+      "args": "",
+      "new": {
+        "help": "Set the channel new suggestions will get sent to",
+        "args": "<#channel | disable>",
+        "set": "New suggestions will get sent to",
+        "disable": "Suggestions are now disabled."
+      },
+      "approved": {
+        "help": "Set the channel approved suggestions will get sent to",
+        "args": "<#channel | disable>",
+        "set": "Approved suggestions will get sent to",
+        "disable": "Approved suggestions will no longer be moved to a channel."
+      },
+      "denied": {
+        "help": "Set the channel denied suggestions will get sent to",
+        "args": "<#channel | disable>",
+        "set": "Denied suggestions will get sent to",
+        "disable": "Denied suggestions will no longer be moved to a channel."
+      },
+      "invalid": {
+        "help": "Set the channel invalid suggestions will get sent to",
+        "args": "<#channel | disable>",
+        "set": "Invalid suggestions will get sent to",
+        "disable": "Invalid suggestions will no longer be moved to a channel."
+      },
+      "potential": {
+        "help": "Set the channel potential suggestions will get sent to",
+        "args": "<#channel | disable>",
+        "set": "Potential suggestions will get sent to",
+        "disable": "Potential suggestions will no longer be moved to a channel."
+      },
+      "submit": {
+        "help": "Set the channel users will have to use to submit a suggestion\n[Premium Feature](https://zira.ovh/premium)",
+        "args": "<#channel | disable>",
+        "set": "Suggestions can now only be made in",
+        "disable": "Suggestions can now be made in any channel."
+      },
+      "dm": {
+        "help": "Set whether users should get updates on their suggestions\n[Premium Feature](https://zira.ovh/premium)",
+        "on": "Users will get updates about their suggestions.",
+        "off": "Users won't be updated about their suggestions."
+      },
+      "reaction": {
+        "help": "Set whether emojis should be reacted to new suggestions\n[Premium Feature](https://zira.ovh/premium)",
+        "on": "Suggestions will now have emojis set with **$prefix$suggestion emojis** reacted to them.",
+        "off": "Suggestions will no longer be reacted to."
+      },
+      "emojis": {
+        "help": "Set the emojis to be used when reacting to suggestions\n[Premium Feature](https://zira.ovh/premium)",
+        "args": "<emojiOne> <emojiTwo>",
+        "set": "Emojis have been set.",
+        "needTwo": "Please provide two emojis."
+      },
+      "role": {
+        "help": "Set a role that can approve, deny, etc suggestions",
+        "args": "<role | disable>",
+        "set": "Only users with $role$ and the guild owner will be able to interactive with suggestions.",
+        "disable": "Anyone with the **Manage Guild** permission will now be able to interact with suggestions."
+      }
+    },
+    "suggest": {
+      "help": "Submit a suggestion",
+      "args": "<suggestion>",
+      "setup": "Suggestions are not setup. Use **$prefix$suggestion new** to setup suggestions.",
+      "submitChannel": "Please use $channel$ to submit suggestions.",
+      "provideSuggestion": "Please provide a suggestion."
     },
     "approve": {
       "help": "Одобрить предложение",
-      "params": " <suggestion ID | message ID>",
-      "success": "Предложение было одобрено."
+      "args": "<ID> [reason]",
+      "update": "Your suggestion [$id$]($url$) has been approved."
     },
     "deny": {
       "help": "Отклонить предложение",
-      "params": " <suggestion ID | message ID>",
-      "success": "Предложение было отклонено."
+      "args": "<ID> [reason]",
+      "update": "Your suggestion [$id$]($url$) has been denied."
     },
     "maybe": {
-      "help": "Потенциально одобренное предложение.",
-      "params": " <suggestion ID | message ID>",
-      "success": "Ваше предложение потенциально одобрено."
+      "help": "Potentialy approve a suggestion",
+      "args": "<ID> [reason]",
+      "update": "Your suggestion [$id$]($url$) has been potentially approved."
     },
     "invalid": {
-      "help": "Отметить предложение как недействительное.",
-      "params": " <suggestion ID | message ID>",
-      "success": "Ваше предложение было помечено как недопустимое."
+      "help": "Mark a suggestion as invalid",
+      "args": "<ID> [reason]",
+      "update": "Your suggestion [$id$]($url$) has been marked invalid."
     },
-    "log": {
-      "help": "Установка роли ведения журнала.",
-      "params": " <#channel | disable>",
-      "disabled": "Ведение журнала ролей отключено",
-      "set": "Всякий раз, когда кто-то реагирует для получения роли, будет добавляться запись в журнал ",
-      "give": "<@$user> выбрал $emoji для получения <@&$role>",
-      "giveMulti": "<@$user> выбрал $emoji для получения $roles",
-      "giveRemove": "<@$user> отметил $emoji для удаления <@&$role1> и получил <@&$role2>",
-      "remove": "<@$user> убрал реакцию $emoji и удалил <@&$role>",
-      "removeMulti": "<@$user> убрал реакцию $emoji и удалил $roles"
-    },
-    "prefix": {
-      "help": "Установка пользовательского префикса",
-      "params": " <prefix>",
-      "error": "Введите префикс, который содержит от 1 до 10 знаков и меет по крайней мере один из этих символов: `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
-      "set": "Префикс гильдии установлен на "
-    },
-    "colors": {
-      "help": "Zira создаст 8 цветных ролей",
-      "params": "",
-      "perms": "У меня отсутствует право \"Управление ролями\".",
-      "done": "Я создала следующие роли: ",
-      "none": "Роли не были созданы, поскольку цветные роли уже имеются."
-    },
-    "leave": {
-      "help": "Отправить сообщение когда пользователь покидает сервер.",
-      "params": "",
-      "placeholderTitle": "Заполнители сообщений",
-      "placeholders": "$user ~~-~~ имя пользователя\n$mention ~~-~~ пользовательская реакция\n$guild ~~-~~ название гильдии\n$membercount ~~-~~ количество участников",
-      "channelSet": "Сообщение выхода будет отправляться на ",
-      "channelDisable": "Сообщения выхода больше не отправляются.",
-      "messagePick": "Удалите сообщение ниже посредством команды **z/leave remove ID**\n\n",
-      "messageSet": "Сообщение добавлено.",
-      "messageMissing": "Пожалуйста, укажите сообщение",
-      "messageRemove": "Сообщение удалено.",
-      "noMessages": "Нет установленных сообщений.",
-      "unknownID": "Неизвестный ID.",
-      "main": [
-        {
-          "name": " канал <#channel | disable>",
-          "value": "Установите канал, на который будут отправлятся сообщения при выходе пользователя."
-        },
-        {
-          "name": " add <сообщение>",
-          "value": "Добавьте сообщение для отправки. Вы можете указать сразу несколько сообщений для их случайного выбора, когда пользователь выходит."
-        },
-        {
-          "name": " remove <ID>",
-          "value": "Удалить ранее установленное сообщение."
-        },
-        {
-          "name": " список",
-          "value": "Показать список всех сообщений выхода пользователей."
-        }
+    "help": {
+      "categories": [
+        "Roles",
+        "Suggestion",
+        "Logging",
+        "Miscellaneous"
+      ],
+      "commands": "Commands",
+      "title": "Links",
+      "footer": "<> = Required [] = Optional",
+      "links": [
+        "[Guide](https://docs.zira.ovh/)",
+        "[Support Server](https://zira.ovh/support)",
+        "[Zira Premium](https://zira.ovh/premium)",
+        "[Invite Zira](https://zira.ovh/invite)",
+        "[Translate Zira](https://translate.zira.ovh/)",
+        "[Bot Status](https://status.imjake.me/)"
       ]
-    },
-    "join": {
-      "help": "Отправить сообщение когда пользователь присоединяется к серверу.",
-      "params": "",
-      "placeholderTitle": "Заполнители сообщений",
-      "placeholders": "$user ~~-~~ имя пользователя\n$mention ~~-~~ пользовательская реакция\n$guild ~~-~~ название гильдии\n$membercount ~~-~~ количество участников",
-      "channelSet": "Сообщение входа будет отправляться на ",
-      "channelDisable": "Сообщения входа больше не отправляются.",
-      "messagePick": "Удалите сообщение ниже посредством команды **z/join remove ID**\n\n",
-      "messageSet": "Сообщение добавлено.",
-      "messageMissing": "Пожалуйста, укажите сообщение",
-      "messageRemove": "Сообщение удалено.",
-      "noMessages": "Нет установленных сообщений.",
-      "unknownID": "Неизвестный ID.",
-      "main": [
-        {
-          "name": " канал <#channel | disable>",
-          "value": "Установите канал, на который будут отправлятся сообщения при входе пользователя."
-        },
-        {
-          "name": " add <сообщение>",
-          "value": "Добавьте сообщение для отправки. Вы можете указать сразу несколько сообщений для их случайного выбора, когда пользователь входит."
-        },
-        {
-          "name": " remove <ID>",
-          "value": "Удалить ранее установленное сообщение."
-        },
-        {
-          "name": " список",
-          "value": "Показать список всех сообщений входа пользователей."
-        }
-      ]
-    },
-    "lang": {
-      "help": "Установить язык для гильдии.",
-      "params": " <код языка>",
-      "update": "Настроить язык.",
-      "translate": "Если вы хотите использовать Zira на языке, которого нет в списке выше, вы можете помочь с переводом Zira на [Crowdin] (https://translate.zira.ovh)"
-    },
-    "vote": {
-      "help": "Проголосовать за бота.",
-      "params": "",
-      "description": "Вы можете проголосовать за Zira ниже. На данный момент за это нет никаких наград, но система наград запланирована на будущее.\nВаши голоса будут сохранены если вы проголосуете сейчас и будут использованы при внедрении системы, поэтому все голоса будут учтены.\nВы можете проголосовать [здесь]($link)!"
-    },
-    "rooms": {
-      "help": "Установка закрытых каналов",
-      "params": "",
-      "title": "Закрытые каналы установлены!",
-      "description": "Не синхронизируйте разрешения, если вы перемещаете канал к категории. Мне нужно разрешение «Управление каналами» для создания и удаления закрытых каналов."
     }
   }
 }
