@@ -33,7 +33,7 @@
     },
     "roles": {
       "unknown": "Je ne peux pas trouver ce rôle. S. V. P Veuillez vérifier qu'il existe.",
-      "managed": "Integrated roles can't be used. Only roles that you create yourself.",
+      "managed": "Integrated roles can't be used. Only roles created by users or bots.",
       "used": "You can't use this role as it's already setup with this emoji.",
       "once": "Since a role is setup as a Once type on this message, you can't have any other types besides Once."
     },
