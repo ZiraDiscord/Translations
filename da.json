@@ -215,17 +215,17 @@
       "disable": "Rolle logging er nu deaktiveret."
     },
     "autorole": {
-      "help": "Give roles to be given when a member joins",
+      "help": "Angiv roller der skal gives når nogen bliver medlem",
       "args": "",
       "user": {
-        "help": "Give roles for when a person joins",
-        "args": "<role>",
+        "help": "Angiv roller der skal gives når en person bliver medlem",
+        "args": "<rolle>",
         "set": "$role$ will be given when a user joins.",
         "remove": "$role$ will no longer be given when a user joins."
       },
       "bot": {
         "help": "Give roles for when a bot joins",
-        "args": "<role>",
+        "args": "<rolle>",
         "set": "$role$ will be given when a bot joins.",
         "remove": "$role$ will no longer be given when a bot joins."
       },
