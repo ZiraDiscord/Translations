@@ -12,7 +12,7 @@
     "unknown": {
       "channel": "Canal desconocido. Asegúrate de que existe, y si es así, de que tengo los permisos adecuados para verlo.",
       "message": "Mensaje no encontrado en el canal seleccionado. Asegúrate de que existe, y si es así, de que tengo los permisos requeridos para verlo.",
-      "emoji": "I can't use this emoji. Please make sure I'm in the server that it came from and if it is, make sure I have the permission **Use External Emojis** in the active channel.",
+      "emoji": "No puedo usar este enoji. Asegúrate de que estoy en el servidor en el que está y, si es así, de que tengo permisos para **Usar Emojis Externos** en el canal seleccionado.",
       "suggestion": "No se ha encontrado ninguna sugerencia con esa ID."
     },
     "interactive": {
@@ -33,7 +33,7 @@
     },
     "roles": {
       "unknown": "No puedo encontrar ese rol, asegúrate de que existe.",
-      "managed": "Integrated roles can't be used. Only roles created by users or bots.",
+      "managed": "Los roles integrados no se pueden usar. Solo los creados por usuarios o bots son válidos.",
       "used": "No puedes usar este rol porque ya fue establecido con este emoji.",
       "once": "Como ya hay un rol de un solo uso (once) en este mensaje, no puedes agregar más roles que sean de otro tipo."
     },
