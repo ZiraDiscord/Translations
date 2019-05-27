@@ -1,7 +1,7 @@
 {
   "language": "Engels",
   "titles": {
-    "success": "Success :white_check_mark:",
+    "success": "Voltooid :white_check_mark:",
     "error": "Fout :warning:",
     "usage": "Command Usage",
     "example": "Usage Examples",
@@ -22,14 +22,14 @@
     "permission": {
       "hierarchy": "I can't use this role because it is above my highest role in the role hierarchy.",
       "missing": "You're unable to run this command because you lack the following permissions: $permissions$",
-      "channelRead": "I'm missing the permissions **Read Messages** and **Read Message History** in the active channel.",
-      "channelSend": "I'm missing the permission **Send Messages** in the active channel.",
+      "channelRead": "Ik mis de rechten **Berichten Lezen** en **Berichtgeschiedenis lezen** in het actieve kanaal.",
+      "channelSend": "Ik mis de rechten **Berichten verzenden** in het actieve kanaal.",
       "addReactions": "I can't add this emoji because I'm missing the **Add Reactions** permission in the active channel.",
       "othersEdit": "I can't edit that message as it wasn't sent by me.",
-      "manageChannels": "Manage Channels",
-      "manageMessages": "Manage Messages",
-      "manageRoles": "Manage Roles",
-      "manageGuild": "Manage Server"
+      "manageChannels": "Beheer Kanalen",
+      "manageMessages": "Beheer Berichten",
+      "manageRoles": "Beheer Rollen",
+      "manageGuild": "Beheer Server"
     },
     "roles": {
       "unknown": "I can't find that role. Please make sure it exists.",
@@ -54,7 +54,7 @@
     "premium": "Deze feature is alleen [premium] (https://zira.ovh/premium).",
     "suggestionsRole": "You need the $role$ role to manage suggestions."
   },
-  "page": "Page",
+  "page": "Pagina",
   "logging": {
     "addReaction": {
       "add": "$mention$ reacted with $emoji$ to get $added$",
@@ -64,9 +64,9 @@
     "removeReaction": "$mention$ unreacted $emoji$ to remove $roles$"
   },
   "suggestions": {
-    "reason": "$user$'s Reason",
+    "reason": "$user$'s Reden",
     "footer": "ID: $id$ Submitted",
-    "new": "New Suggestion",
+    "new": "Nieuwe Suggestie",
     "approved": "Approved Suggestion",
     "denied": "Denied Suggestion",
     "potential": "Potential Suggestion",
