@@ -294,58 +294,58 @@
         "args": "<ID from list>",
         "noID": "Please provide an ID from $prefix$leave list",
         "notFound": "A message with that ID doesn't exist.",
-        "success": "Message deleted."
+        "success": "Messaggio cancellato."
       },
       "list": {
-        "help": "List of messages",
+        "help": "Lista dei messaggi",
         "args": ""
       },
       "placeholders": {
         "title": "Usable Placeholders",
-        "description": "$user$ - username\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "description": "$user$ - username\n$mention$ - menzione utente\n$guild$ - nome server\n$membercount$ conteggio nuovi membri"
       }
     },
     "rooms": {
-      "help": "Setup private rooms",
+      "help": "Imposta le stanze private",
       "args": "",
-      "success": "Private rooms setup."
+      "success": "Impostazioni delle stanze private."
     },
     "suggestion": {
-      "help": "Suggestion config",
+      "help": "Configurazione suggerimenti",
       "args": "",
       "new": {
-        "help": "Set the channel new suggestions will get sent to",
-        "args": "<#channel | disable>",
-        "set": "New suggestions will get sent to",
-        "disable": "Suggestions are now disabled."
+        "help": "Imposta il canale dove verranno mandati i nuovi suggerimenti",
+        "args": "<#canale | disable>",
+        "set": "I nuovi suggerimenti verranno inviati nel canale",
+        "disable": "I suggerimenti sono ora disattivati."
       },
       "approved": {
-        "help": "Set the channel approved suggestions will get sent to",
-        "args": "<#channel | disable>",
-        "set": "Approved suggestions will get sent to",
-        "disable": "Approved suggestions will no longer be moved to a channel."
+        "help": "Imposta il canale dove i suggerimenti approvati verranno inviati",
+        "args": "<#canale | disable>",
+        "set": "I suggerimenti approvati verranno inviati nel canale",
+        "disable": "I suggerimenti approvati non verranno più spostati in un canale."
       },
       "denied": {
-        "help": "Set the channel denied suggestions will get sent to",
-        "args": "<#channel | disable>",
-        "set": "Denied suggestions will get sent to",
-        "disable": "Denied suggestions will no longer be moved to a channel."
+        "help": "Imposta il canale dove i suggerimenti rifiutati verranno inviati",
+        "args": "<#canale | disable>",
+        "set": "I suggerimenti rifiutati verranno inviati nel canale",
+        "disable": "I suggerimenti rifiutati non verranno più spostati in un canale."
       },
       "invalid": {
-        "help": "Set the channel invalid suggestions will get sent to",
-        "args": "<#channel | disable>",
-        "set": "Invalid suggestions will get sent to",
-        "disable": "Invalid suggestions will no longer be moved to a channel."
+        "help": "Imposta il canale dove i suggerimenti invalidi verranno inviati",
+        "args": "<#canale | disable>",
+        "set": "I suggerimenti invalidi verranno inviati nel canale",
+        "disable": "I suggerimenti invalidi non verranno più spostati in un canale."
       },
       "potential": {
-        "help": "Set the channel potential suggestions will get sent to",
-        "args": "<#channel | disable>",
-        "set": "Potential suggestions will get sent to",
+        "help": "Imposta il canale dove i suggerimenti potenziali verranno inviati",
+        "args": "<#canale | disable>",
+        "set": "I suggerimenti potenziali verranno inviati nel canale",
         "disable": "Potential suggestions will no longer be moved to a channel."
       },
       "submit": {
         "help": "Set the channel users will have to use to submit a suggestion\n[Premium Feature](https://zira.ovh/premium)",
-        "args": "<#channel | disable>",
+        "args": "<#canale | disable>",
         "set": "Suggestions can now only be made in",
         "disable": "Suggestions can now be made in any channel."
       },
