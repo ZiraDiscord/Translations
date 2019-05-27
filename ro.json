@@ -155,7 +155,7 @@
     "once": {
       "help": "Setează un rol de unică folosință",
       "args": "<emoji> <rol>",
-      "error": "Since there is a role set on this message with this emoji already that isnt a once reaction, you cant add any once reactions."
+      "error": "Deoarece acest emoji este deja folosit pentru acest mesaj, nu poți adăuga roluri de unică folosință cu el."
     },
     "list": {
       "help": "Arată toate rolurile.",
