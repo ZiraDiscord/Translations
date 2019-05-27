@@ -12,7 +12,7 @@
     "unknown": {
       "channel": "Canale sconosciuto. Per favore assicurati che esista, e se esiste, che io abbia i permessi per vederlo.",
       "message": "Messaggio non trovato nel canale attivo. Per favore assicurati che esista, e se esiste, che io abbia i permessi necessari per vederlo.",
-      "emoji": "I can't use this emoji. Please make sure I'm in the server that it came from and if it is, make sure I have the permission **Use External Emojis** in the active channel.",
+      "emoji": "Non posso utilizzare questa emoji. Per favore assicurati che io sia nel server da dove proviene e se è così, assicurati che io abbia il permesso **Usare emoji esterne** nel canale attivo.",
       "suggestion": "Un suggerimento con questo ID non è stato trovato."
     },
     "interactive": {
@@ -22,19 +22,19 @@
     "permission": {
       "hierarchy": "Non posso utilizzare questo ruolo perché è sopra il mio nella gerarchia dei ruoli.",
       "missing": "Non puoi eseguire questo comando perché non possiedi il permesso: $permissions$",
-      "channelRead": "I'm missing the permissions **Read Messages** and **Read Message History** in the active channel.",
-      "channelSend": "I'm missing the permission **Send Messages** in the active channel.",
-      "addReactions": "I can't add this emoji because I'm missing the **Add Reactions** permission in the active channel.",
-      "othersEdit": "I can't edit that message as it wasn't sent by me.",
-      "manageChannels": "Manage Channels",
-      "manageMessages": "Manage Messages",
-      "manageRoles": "Manage Roles",
-      "manageGuild": "Manage Server"
+      "channelRead": "Non ho i permessi **Leggere i messaggi** e **Leggere la cronologia dei messaggi** nel canale attivo.",
+      "channelSend": "Non ho il permesso **Inviare i messaggi** nel canale attivo.",
+      "addReactions": "Non posso aggiungere questa emoji perché mi manca il permesso **Aggiungere reazioni** nel canale attivo.",
+      "othersEdit": "Non posso modificare quel messaggio visto che non è stato mandato da me.",
+      "manageChannels": "Gestire i Canali",
+      "manageMessages": "Gestire i Messaggi",
+      "manageRoles": "Gestire i Ruoli",
+      "manageGuild": "Gestire il Server"
     },
     "roles": {
-      "unknown": "I can't find that role. Please make sure it exists.",
-      "managed": "Integrated roles can't be used. Only roles created by users or bots.",
-      "used": "You can't use this role as it's already setup with this emoji.",
+      "unknown": "Non riesco a trovare quel ruolo. Per favore assicurati che esista.",
+      "managed": "I ruoli creati da integrazioni non possono essere utilizzati. Solo ruoli creati da utenti o bots.",
+      "used": "Non puoi utilizzare questo ruolo visto che è già impostato con questa emoji.",
       "once": "Since a role is setup as a Once type on this message, you can't have any other types besides Once."
     },
     "general": {
@@ -382,40 +382,40 @@
     "approve": {
       "help": "Approva un suggerimento",
       "args": "<ID> [reason]",
-      "update": "Your suggestion [$id$]($url$) has been approved."
+      "update": "Il tuo suggerimento [$id$]($url$) è stato approvato."
     },
     "deny": {
       "help": "Respinge un suggerimento",
       "args": "<ID> [reason]",
-      "update": "Your suggestion [$id$]($url$) has been denied."
+      "update": "Il tuo suggerimento [$id$]($url$) è stato declinato."
     },
     "maybe": {
-      "help": "Potentialy approve a suggestion",
+      "help": "Approva potenzialmente un suggerimento",
       "args": "<ID> [reason]",
-      "update": "Your suggestion [$id$]($url$) has been potentially approved."
+      "update": "Il tuo suggerimento [$id$]($url$) è stato potenzialmente approvato."
     },
     "invalid": {
-      "help": "Mark a suggestion as invalid",
+      "help": "Marchia un suggerimento come invalido",
       "args": "<ID> [reason]",
-      "update": "Your suggestion [$id$]($url$) has been marked invalid."
+      "update": "Il tuo suggerimento [$id$]($url$) è stato marchiato invalido."
     },
     "help": {
       "categories": [
-        "Roles",
-        "Suggestion",
+        "Ruoli",
+        "Suggerimenti",
         "Logging",
-        "Miscellaneous"
+        "Miscellaneo"
       ],
-      "commands": "Commands",
+      "commands": "Comandi",
       "title": "Links",
-      "footer": "<> = Required [] = Optional",
+      "footer": "<> = Richiesto [] = Opzionale",
       "links": [
-        "[Guide](https://docs.zira.ovh/)",
-        "[Support Server](https://zira.ovh/support)",
+        "[Guida](https://docs.zira.ovh/)",
+        "[Server di Supporto](https://zira.ovh/support)",
         "[Zira Premium](https://zira.ovh/premium)",
-        "[Invite Zira](https://zira.ovh/invite)",
-        "[Translate Zira](https://translate.zira.ovh/)",
-        "[Bot Status](https://status.imjake.me/)"
+        "[Invita Zira](https://zira.ovh/invite)",
+        "[Traduci Zira](https://translate.zira.ovh/)",
+        "[Stato Bot](https://status.imjake.me/)"
       ]
     }
   }
