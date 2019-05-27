@@ -3,7 +3,7 @@
   "titles": {
     "success": "Fullført :white_check_mark:",
     "error": "Feil :warning:",
-    "usage": "Command Usage",
+    "usage": "Kommando bruk",
     "example": "Bruks Eksempler",
     "permission": "Manglende Tillatelser"
   },
@@ -16,15 +16,15 @@
       "suggestion": "Et forslag med den ID ble ikke funnet."
     },
     "interactive": {
-      "timeout": "Command timeout.",
+      "timeout": "Kommando timeout.",
       "cancel": "Kommando stoppet."
     },
     "permission": {
       "hierarchy": "Jeg kan ikke bruke denne rollen fordi den er over min høyeste rolle i rolle hierarkiet.",
-      "missing": "You're unable to run this command because you lack the following permissions: $permissions$",
-      "channelRead": "I'm missing the permissions **Read Messages** and **Read Message History** in the active channel.",
-      "channelSend": "I'm missing the permission **Send Messages** in the active channel.",
-      "addReactions": "I can't add this emoji because I'm missing the **Add Reactions** permission in the active channel.",
+      "missing": "Du er ikke i stand til å kjøre denne kommandoen da du mangler følgende tillatelser: $permissions$",
+      "channelRead": "Jeg mangler tillatelsene **Lese Meldinger** og **Les Meldingshistorikken** i den aktive kanalen.",
+      "channelSend": "Jeg mangler tillatelse **Send Meldinger** i den aktive kanalen.",
+      "addReactions": "Jeg kan ikke legge til denne emojien da jeg mangler tillatelsen **Legg til reaksjoner** i den aktive kanalen.",
       "othersEdit": "Jeg kan ikke redigere den meldingen da den ikke ble sendt av meg.",
       "manageChannels": "Behandle Kanaler",
       "manageMessages": "Behandle Meldinger",
@@ -64,24 +64,24 @@
     "removeReaction": "$mention$ unreacted $emoji$ to remove $roles$"
   },
   "suggestions": {
-    "reason": "$user$'s Reason",
-    "footer": "ID: $id$ Submitted",
+    "reason": "$user$'e Grunn",
+    "footer": "ID: $id$ Sendt inn",
     "new": "Nytt Forslag",
     "approved": "Godkjente forslag",
     "denied": "Avvist forslag",
     "potential": "Mulig Forslag",
     "invalid": "Ugyldig Forslag",
-    "updated": "Suggestion Updated"
+    "updated": "Forslag Oppdatert"
   },
   "commands": {
     "channel": {
       "help": "Angi aktiv kanal.",
-      "args": "<#channel>",
-      "set": " set as the active channel.",
-      "pick": "Please mention the channel you want to use.\nType `cancel` if you would like to cancel."
+      "args": "<#kanal>",
+      "set": " sett som aktiv kanal.",
+      "pick": "Vennligst oppgi kanalen du ønsker å bruke.\nSkriv 'avbryt' hvis du ønsker å avbryte."
     },
     "message": {
-      "help": "Set the active message.",
+      "help": "Sett den aktive meldingen.",
       "args": "<message ID>",
       "set": "Message set",
       "pick": "Please provide a message ID for Zira to use or message for Zira to send.\nType `cancel` if you would like to cancel."
@@ -210,7 +210,7 @@
     },
     "log": {
       "help": "Log role events to a channel",
-      "args": "<#channel>",
+      "args": "<#kanal>",
       "set": " set as the logging channel.\n\n**Note:** If I can't send messages to the channel I will disable logging.",
       "disable": "Role logging is now disabled."
     },
@@ -242,7 +242,7 @@
       "args": "",
       "channel": {
         "help": "Set the channel join messages should be sent in",
-        "args": "<#channel>",
+        "args": "<#kanal>",
         "set": " set as the join channel.\n\n**Note:** If I can't send messages to the channel I will disable join messages."
       },
       "disable": {
@@ -276,7 +276,7 @@
       "args": "",
       "channel": {
         "help": "Set the channel leave messages should be sent in",
-        "args": "<#channel>",
+        "args": "<#kanal>",
         "set": " set as the leave channel.\n\n**Note:** If I can't send messages to the channel I will disable leave messages."
       },
       "disable": {
