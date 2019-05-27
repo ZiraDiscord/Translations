@@ -35,7 +35,7 @@
       "unknown": "Jag kan inte hitta den rollen. Vänligen se till att den existerar.",
       "managed": "Integrerade roller kan inte användas. Endast roller skapade av användare eller bottar.",
       "used": "Du kan inte använda denna roll eftersom den redan har ställts in med denna emoji.",
-      "once": "Since a role is setup as a Once type on this message, you can't have any other types besides Once."
+      "once": "Eftersom en roll har ställts in som Once-typ på detta meddelande kan du inte ha några andra roller förutom Once."
     },
     "general": {
       "maxReactions": "Jag kan inte lägga till flera roller till detta meddelande eftersom det redan har 20 reaktioner. Om du vill ställa in denna roll, vänligen ta bort en roll från detta meddelande eller skapa ett nytt. Detta är en Discord-begränsning.",
