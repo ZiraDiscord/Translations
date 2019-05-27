@@ -12,7 +12,7 @@
     "unknown": {
       "channel": "Ukendt kanal. Kontroller venligst at den eksisterer, og hvis den før, at jeg har de rigtige tilladelser til at se den.",
       "message": "Beskeden er ikke fundet i den aktive kanal. Kontroller venligst at den eksisterer, og hvis den gør, at jeg har de rigtige tilladelser til at se den.",
-      "emoji": "I can't use this emoji. Please make sure I'm in the server that it came from and if it is, make sure I have the permission **Use External Emojis** in the active channel.",
+      "emoji": "Jeg kan ikke bruge denne emoji. Kontroller venligst at jeg er i den server emojien er fra og hvis jeg er, kontroller at jeg har tilladelsen **Brug Eksterne Emojier** i den aktive kanal.",
       "suggestion": "Et forslag med det ID kunne ikke blive fundet."
     },
     "interactive": {
@@ -33,51 +33,51 @@
     },
     "roles": {
       "unknown": "Jeg kan ikke finde den rolle. Kontroller venligst om den eksisterer.",
-      "managed": "Integrerede roller kan ikke bruges. Brug kun roller du laver selv.",
+      "managed": "Integrerede roller kan ikke bruges. Kun roller lavet af brugere eller robotter.",
       "used": "Du kan ikke bruge denne rolle da den allerede er sat op med denne emoji.",
-      "once": "Since a role is setup as a Once type on this message, you can't have any other types besides Once."
+      "once": "Siden en rolle er sat op som en Engangs type på denne besked, kan du ikke have andre typer ved siden af Engangs."
     },
     "general": {
-      "maxReactions": "I can't add more roles to this message because it already has 20 reactions on it. If you would like to setup this role, please remove a role from this message or create a new message. This is a Discord limit.",
-      "missingSetup": "Please set a **channel** and **message** first then try this command again.",
-      "missingChannel": "Please set a channel first then try this command again.",
-      "missingMessage": "Please set a message first then try this command again.",
-      "missingMessageID": "Please provide me with a message ID.",
-      "missingRole": "Please provide me with a role name or mention.",
-      "messageNotFound": "I can't find this message. Please make sure the message ID is correct.",
-      "invalidID": "That is not a valid ID.",
-      "noRoleProvided": "Please provide a role.",
-      "noChannelProvided": "Please provide a channel.",
-      "noMessageProvided": "Please provide a message.",
-      "noSuggestionProvided": "Please provide a suggestion ID or a message ID of the suggestion you want."
+      "maxReactions": "Jeg kan ikke tilføje flere roller til denne besked fordi den allerede har 20 reaktioner på sig. Hvis du vil sætte denne rolle op, venligst fjern en rolle fra denne besked eller lav en ny besked. Dette er en begrænsning fra Discords side.",
+      "missingSetup": "Vær venlig at sætte en **kanal** og **besked** først og prøv så denne kommando igen.",
+      "missingChannel": "Vær venlig at sætte en kanal først og prøv så denne kommando igen.",
+      "missingMessage": "Vær venlig at sætte en besked først og prøv så denne kommando igen.",
+      "missingMessageID": "Vær venlig at give mig et beskeds ID.",
+      "missingRole": "Vær venlig at give mig navnet på en rolle eller nævn den.",
+      "messageNotFound": "Jeg kan ikke finde beskeden. Kontroller venligst om beskeds ID'et er korrekt.",
+      "invalidID": "Det er ikke et gyldigt ID.",
+      "noRoleProvided": "Vær venlig at give en rolle.",
+      "noChannelProvided": "Vær venlig at give en kanal.",
+      "noMessageProvided": "Vær venlig at give en besked.",
+      "noSuggestionProvided": "Vær venlig at give et forslags ID eller et beskeds ID af det forslag du vil have."
     },
     "premium": "Denne funktion er kun for folk med [premium](https://zira.ovh/premium).",
-    "suggestionsRole": "You need the $role$ role to manage suggestions."
+    "suggestionsRole": "Du har brug for rollen $role$ for at administrere forslag."
   },
-  "page": "Page",
+  "page": "Side",
   "logging": {
     "addReaction": {
-      "add": "$mention$ reacted with $emoji$ to get $added$",
-      "remove": "$mention$ reacted with $emoji$ to remove $removed$",
-      "both": "$mention$ reacted with $emoji$ to get $added$ and to remove $removed$"
+      "add": "$mention$ reagered med $emoji$ og fik $added$",
+      "remove": "$mention$ reagered med $emoji$ fjerner $removed$",
+      "both": "$mention$ reagered med $emoji$ og fik $added$ og fik fjernet $removed$"
     },
-    "removeReaction": "$mention$ unreacted $emoji$ to remove $roles$"
+    "removeReaction": "$mention$ fjernede sin reaktion på $emoji$ og fjerner $roles$"
   },
   "suggestions": {
-    "reason": "$user$'s Reason",
-    "footer": "ID: $id$ Submitted",
-    "new": "New Suggestion",
-    "approved": "Approved Suggestion",
-    "denied": "Denied Suggestion",
-    "potential": "Potential Suggestion",
-    "invalid": "Invalid Suggestion",
-    "updated": "Suggestion Updated"
+    "reason": "$user$'s Grund",
+    "footer": "ID: $id$ er indsendt",
+    "new": "Nyt Forslag",
+    "approved": "Godkendt Forslag",
+    "denied": "Ugodkendt Forslag",
+    "potential": "Potentielt Forslag",
+    "invalid": "Ugyldigt Forslag",
+    "updated": "Forslaget er Opdateret"
   },
   "commands": {
     "channel": {
-      "help": "Set the active channel.",
-      "args": "<#channel>",
-      "set": " set as the active channel.",
+      "help": "Sæt den aktive kanal.",
+      "args": "<#kanal>",
+      "set": " sæt som den aktive kanal.",
       "pick": "Please mention the channel you want to use.\nType `cancel` if you would like to cancel."
     },
     "message": {
@@ -210,7 +210,7 @@
     },
     "log": {
       "help": "Log role events to a channel",
-      "args": "<#channel>",
+      "args": "<#kanal>",
       "set": " set as the logging channel.\n\n**Note:** If I can't send messages to the channel I will disable logging.",
       "disable": "Role logging is now disabled."
     },
@@ -242,7 +242,7 @@
       "args": "",
       "channel": {
         "help": "Set the channel join messages should be sent in",
-        "args": "<#channel>",
+        "args": "<#kanal>",
         "set": " set as the join channel.\n\n**Note:** If I can't send messages to the channel I will disable join messages."
       },
       "disable": {
@@ -276,7 +276,7 @@
       "args": "",
       "channel": {
         "help": "Set the channel leave messages should be sent in",
-        "args": "<#channel>",
+        "args": "<#kanal>",
         "set": " set as the leave channel.\n\n**Note:** If I can't send messages to the channel I will disable leave messages."
       },
       "disable": {
