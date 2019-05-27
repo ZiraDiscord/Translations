@@ -38,7 +38,7 @@
       "once": "Como ya hay un rol de un solo uso (once) en este mensaje, no puedes agregar más roles que sean de otro tipo."
     },
     "general": {
-      "maxReactions": "No puedo añadir más emoticonos a este mensaje porque ya tiene 20 reacciones. Si te gustaría establecer este rol, elimina alguno de este mensaje o crea uno nuevo. Esto se trata de un límite de Discord.",
+      "maxReactions": "No puedo agregar más roles a este mensaje porque ya tiene 20 reacciones. Si te gustaría establecer este rol, elimina algun rol de este mensaje o crea un mensaje nuevo. Esto se trata de un límite de Discord.",
       "missingSetup": "Selecciona un **canal** y un **mensaje** primero y luego prueba este comando de nuevo.",
       "missingChannel": "Establece un canal primero y luego prueba este comando de nuevo.",
       "missingMessage": "Establece un mensaje primero, después prueba este comando de nuevo.",
@@ -78,13 +78,13 @@
       "help": "Establece el canal activo.",
       "args": "<#canal>",
       "set": " establecer como el canal activo.",
-      "pick": "Menciona el canal que quieras usar. Escribe `cancel` si te gustaría cancelar en comando."
+      "pick": "Menciona el canal que quieras usar. Si te gustaría cancelar, escribe `cancel`."
     },
     "message": {
       "help": "Establece el mensaje activo.",
       "args": "<ID del mensaje>",
       "set": "Mensaje establecido",
-      "pick": "Por favor, proporciona la ID de un mensaje para que Zira lo use o un mensaje para que Zira lo envíe."
+      "pick": "Por favor, proporciona la ID de un mensaje para que Zira lo use o un mensaje para que Zira lo envíe.\nSi te gustaría cancelar, escribe `cancel`."
     },
     "embed": {
       "help": "Crea un embed que será usado como el mensaje activo.",
@@ -94,11 +94,11 @@
       "interactive": {
         "stage": "Etapa ",
         "skipped": "Etapa omitida.",
-        "title": "Si te gustaría poner un título proporciona uno.\n\nTienes 2 minutos entre cada etapa para introducir valores.\n\nSi tienes un JSON y te gustaría usarlo en vez de este creador usa el comando **z/embed <JSON>**\n\nPuedes saltar esta etapa escribiendo `cancel`.",
-        "description": "Si quieres una descripción proporciona una.\n\nPuedes saltar esta etapa escribiendo `cancel`.",
-        "image": "Si quieres una imagen proporciona un enlace o súbela.\n\nPuedes saltar esta etapa escribiendo `cancel`.",
-        "footer": "Si quieres un pie de página proporciona uno.\n\nPuedes saltar esta etapa escribiendo `cancel`.",
-        "color": "Si quieres un color proporciona un código hex.\n\nPuedes saltar esta etapa escribiendo `cancel`.",
+        "title": "Si te gustaría poner un título proporciona uno.\n\nTienes 2 minutos entre cada etapa para introducir valores.\n\nSi tienes un JSON y te gustaría usarlo en vez de este creador usa el comando **z/embed <JSON>**\n\nPuedes saltar esta etapa escribiendo `skip`.",
+        "description": "Si quieres una descripción proporciona una.\n\nPuedes saltar esta etapa escribiendo `skip`.",
+        "image": "Si quieres una imagen proporciona un enlace o súbela.\n\nPuedes saltar esta etapa escribiendo `skip`.",
+        "footer": "Si quieres un pie de página proporciona uno.\n\nPuedes saltar esta etapa escribiendo `skip`.",
+        "color": "Si quieres un color proporciona un código hex.\n\nPuedes saltar esta etapa escribiendo `skip`.",
         "creating": "Creando embed."
       }
     },
@@ -113,14 +113,14 @@
       "role": {
         "args": "<@rol | disable>",
         "error": "Por favor, menciona un rol o proporciona el nombre de uno, o si quieres desactivar el rol, escribe",
-        "set": "Rol establecido. Solo la gente con $role$ serán capaces de usar los comandos de Zira.",
+        "set": "Rol fijado. Solo los usuarios con $role$ podrán usar los comandos de Zira.",
         "disable": "Cualquiera con los permisos correctos puede usar los comandos de Zira."
       },
       "reset": {
         "args": "",
-        "question": ":warning: ¿Estás seguro de que quieres restablecer la configuración del servidor?\nPor favor, escribe `yes` o `no`.",
-        "done": "Ok, ¡la configuración del servidor ha sido restablecida!",
-        "cancel": "Ok, la configuración del servidor no ha sido restablecida."
+        "question": ":warning: ¿Estás seguro de que quieres reiniciar la configuración del servidor?\nPor favor, escribe `yes` o `no`.",
+        "done": "Ok, ¡la configuración del servidor fue reiniciada!",
+        "cancel": "Ok, la configuración del servidor no fue reiniciada."
       },
       "language": {
         "args": "<código del idioma>",
@@ -131,8 +131,8 @@
       },
       "main": {
         "prefix": "Establece un prefijo personalizado.",
-        "role": "Establece o quita el que puede usar los comandos.",
-        "reset": "Restablece la configuración del servidor.",
+        "role": "Establece o quita cual rol puede usar los comandos.",
+        "reset": "Reinicia la configuración del servidor.",
         "language": "Establece el idioma para el servidor."
       }
     },
@@ -161,7 +161,7 @@
       "help": "Muestra todos los roles.",
       "args": "",
       "title": "Lista de roles",
-      "description": "Puedes eliminar un rol mostrado aquí con **$prefix$delete**.\nPuedes eliminar cualquier rol eliminado usando el comando **$prefix$delete <ID del mensaje> check**.",
+      "description": "Puedes quitar un rol de la lista con **$prefix$delete**.\nPuedes quitar cualquier rol eliminado usando el comando **$prefix$delete <ID del mensaje> check**.",
       "role": "Rol",
       "channel": "Canal",
       "message": "Mensaje",
@@ -176,7 +176,7 @@
         "help": "Comprueba roles eliminados en un mensaje.",
         "args": "<ID del mensaje>",
         "none": "Todos los roles válidos.",
-        "removed": "rol(es) eliminados."
+        "removed": "rol(es) eliminado(s)."
       },
       "all": {
         "help": "Quita todos los roles de un mensaje.",
@@ -195,16 +195,16 @@
       "help": "Edita un mensaje enviado por Zira.",
       "args": " <ID del mensaje> <nuevo mensaje>",
       "notFound": "Esa ID de mensaje no ha sido encontrada.",
-      "success": "El mensaje ha sido editado.",
+      "success": "Mensaje editado.",
       "pick": "Por favor proporciona un mensaje nuevo.",
       "interactive": {
         "stage": "Etapa ",
         "skipped": "Etapa omitida.",
-        "title": "Si te gustaría poner un título proporciona uno.\n\nTienes 2 minutos entre cada etapa para introducir valores.\n\nSi tienes un JSON y te gustaría usarlo en vez de este creador usa el comando **z/edit $message <JSON>**\n\nPuedes saltar esta etapa escribiendo `skip`.",
-        "description": "Si quieres una descripción proporciona una.\n\nPuedes saltar esta etapa escribiendo `cancel`.",
-        "image": "Si quieres una imagen proporciona un enlace o súbela.\n\nPuedes saltar esta etapa escribiendo `cancel`.",
-        "footer": "Si quieres un pie de página proporciona uno.\n\nPuedes saltar esta etapa escribiendo `cancel`.",
-        "color": "Si quieres un color proporciona un código hex.\n\nPuedes saltar esta etapa escribiendo `cancel`.",
+        "title": "Si te gustaría un título proporciona uno.\n\nTienes 2 minutos entre cada etapa para introducir valores.\n\nSi tienes un JSON y te gustaría usarlo en vez de este creador usa el comando **z/edit $message <JSON>**\n\nPuedes saltar esta etapa escribiendo `skip`.",
+        "description": "Si quieres una descripción proporciona una.\n\nPuedes saltar esta etapa escribiendo `skip`.",
+        "image": "Si quieres una imagen proporciona un enlace o súbela.\n\nPuedes saltar esta etapa escribiendo `skip`.",
+        "footer": "Si quieres un pie de página proporciona uno.\n\nPuedes saltar esta etapa escribiendo `skip`.",
+        "color": "Si quieres un color proporciona un código hex.\n\nPuedes saltar esta etapa escribiendo `skip`.",
         "creating": "Editando embed."
       }
     },
@@ -218,13 +218,13 @@
       "help": "Da roles que son dados cuando entra un usuario",
       "args": "",
       "user": {
-        "help": "Da roles para cuando entra una persona",
+        "help": "Da roles cuando un usuario se une al servidor",
         "args": "<rol>",
         "set": "El rol $role$ se dará a los nuevos usuarios.",
         "remove": "El rol $role$ ya no se dará a los nuevos usuarios."
       },
       "bot": {
-        "help": "Da roles para cuando entra un bot",
+        "help": "Da roles cuando un bot se une al servidor",
         "args": "<rol>",
         "set": "El rol $role$ se dará a los nuevos bots.",
         "remove": "El rol $role$ ya no se se dará a los nuevos bots."
@@ -235,7 +235,7 @@
         "bot": "Roles de bots",
         "noRoles": "No hay roles establecidos :("
       },
-      "removeTip": "Si te gustaría quitar un rol establecido con roles automáticos, tan solo usa de nuevo el comando que usaste para establecerlo."
+      "removeTip": "Si te gustaría quitar un rol establecido con roles automáticos, usa de nuevo el comando que usaste para establecerlos de nuevo."
     },
     "join": {
       "help": "Mensajes de bienvenida",
@@ -256,7 +256,7 @@
         "success": "Mensaje agregado."
       },
       "remove": {
-        "help": "Quita un mensaje",
+        "help": "Elimina un mensaje",
         "args": "<ID de la lista>",
         "noID": "Proporciona una ID de la lista de $prefix$join",
         "notFound": "No existe un mensaje con esa ID.",
@@ -290,7 +290,7 @@
         "success": "Mensaje agregado."
       },
       "remove": {
-        "help": "Quita un mensaje",
+        "help": "Elimina un mensaje",
         "args": "<ID de la lista>",
         "noID": "Proporciona una ID de la lista de $prefix$leave",
         "notFound": "No existe un mensaje con esa ID.",
