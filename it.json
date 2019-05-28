@@ -61,7 +61,7 @@
       "remove": "$mention$ ha reagito con $emoji$ per rimuovere $removed$",
       "both": "$mention$ ha reagito con $emoji$ per ottenere $added$ e rimuovere $removed$"
     },
-    "removeReaction": "$mention$ unreacted $emoji$ to remove $roles$"
+    "removeReaction": "$mention$ ha tolto la reazione alla emoji $emoji$ per rimuovere $roles$"
   },
   "suggestions": {
     "reason": "$user$ Motivazioni",
@@ -111,80 +111,80 @@
         "set": "Il prefisso è stato impostato su"
       },
       "role": {
-        "args": "<@role | disable>",
-        "error": "Please mention a role or provide a role name, or if you would like to disable the role, type",
-        "set": "Role set. Only people with $role$ will be able to use Zira commands.",
-        "disable": "Anyone with the correct permissions can use Zira's commands now."
+        "args": "<@ruolo | disable>",
+        "error": "Per favore menziona un ruolo oppure inserisci il suo nome, oppure se desideri disattivare il ruolo, digita",
+        "set": "Ruolo impostato. Solo gli utenti con $role$ saranno abilitati ad utilizzare i comandi di Zira.",
+        "disable": "Chiunque abbia il permesso corretto potrà utilizzare i comandi di Zira ora."
       },
       "reset": {
         "args": "",
-        "question": ":warning: Are you sure you want to reset the guild config?\nPlease type `yes` or `no`.",
-        "done": "Ok, Guild config has been reset!",
-        "cancel": "Phew. Guild config has not been reset."
+        "question": ":warning: Sei sicuro di volere ripristinare la configurazione del server?\nPer favore digita `yes` oppure `no`.",
+        "done": "Ok, la configurazione del Server è stata ripristinata!",
+        "cancel": "Phew. La configurazione del Server non è stata ripristinata."
       },
       "language": {
         "args": "<language code>",
-        "title": "Languages",
-        "set": "Language set.",
-        "unknown": "Unknown language.",
-        "crowdin": "If you want Zira in a language that isn't on the list above, you can apply and help translate Zira on [Crowdin](https://translate.zira.ovh)"
+        "title": "Linguaggi",
+        "set": "Lingua impostata.",
+        "unknown": "Linguaggio sconosciuto.",
+        "crowdin": "Se vuoi utilizzare Zira in un linguaggio che non è in questa lista, puoi applicarti ed aiutare a tradurre Zira su [Crowdin](https://translate.zira.ovh)"
       },
       "main": {
-        "prefix": "Set a custom prefix.",
-        "role": "Set or remove which role can use commands.",
-        "reset": "Reset the guild config.",
-        "language": "Set the language for the guild."
+        "prefix": "Imposta un prefisso personalizzato.",
+        "role": "Imposta o rimuovi quali ruoli possono utilizzare i comandi.",
+        "reset": "Ripristina la configurazione del server.",
+        "language": "Imposta la lingua per il server."
       }
     },
     "normal": {
-      "help": "Give a role",
+      "help": "Dai un ruolo",
       "args": "<emoji> <role>",
-      "added": "$role$ added with the emoji $emoji$",
-      "emoji": "Please send the emoji you want to use.",
-      "role": "Please send the role you want to use."
+      "added": "$role$ aggiunto con la emoji $emoji$",
+      "emoji": "Per favore manda la emoji che desideri utilizzare.",
+      "role": "Per favore manda il ruolo che desideri utilizzare."
     },
     "remove": {
-      "help": "Remove a role",
+      "help": "Rimuovi un ruolo",
       "args": "<emoji> <role>"
     },
     "toggle": {
-      "help": "Setup a toggled role",
+      "help": "Imposta un ruolo attivo",
       "args": "<emoji> <role>",
-      "limit": "There is a limit of 6 free toggled roles. You get unlimited toggled roles with [premium](https://zira.ovh/premium)"
+      "limit": "Hai raggiunto il limite massimo di 6 ruoli attivi. Puoi ottenere ruoli attivi illimitati con la versione [premium](https://zira.ovh/premium)"
     },
     "once": {
-      "help": "Setup a once role",
+      "help": "Imposta un ruolo ottenibile una sola volta",
       "args": "<emoji> <role>",
-      "error": "Since there is a role set on this message with this emoji already that isnt a once reaction, you cant add any once reactions."
+      "error": "Visto che è già presente un ruolo impostato in questo messaggio con questa emoji che non è una reazione singola, non puoi aggiungere altre reazioni singole."
     },
     "list": {
-      "help": "Show all roles.",
+      "help": "Vedi tutti i ruoli.",
       "args": "",
-      "title": "Role List",
-      "description": "You can remove a role listed here with **$prefix$delete**\nYou can remove any deleted roles listed by doing **$prefix$delete <message ID> check**.",
-      "role": "Role",
-      "channel": "Channel",
-      "message": "Message",
+      "title": "Lista Ruoli",
+      "description": "Puoi rimuovere un ruolo disponibile in questa lista con **$prefix$delete**\nPuoi rimuovere ogni ruolo cancellato con **$prefix$delete <message ID> check**.",
+      "role": "Ruolo",
+      "channel": "Canale",
+      "message": "Messaggio",
       "emoji": "Emoji",
-      "link": "Jump to message",
-      "type": "Type"
+      "link": "Vai al messaggio",
+      "type": "Tipo"
     },
     "delete": {
-      "help": "Delete a role that has been setup.",
+      "help": "Cancella un ruolo che è stato impostato.",
       "args": "",
       "check": {
-        "help": "Checks for deleted roles on a message.",
+        "help": "Verifica per i ruoli cancellati in un messaggio.",
         "args": "<message ID>",
-        "none": "All roles valid.",
-        "removed": "role(s) removed."
+        "none": "Tutti i ruoli validi.",
+        "removed": "ruolo(i) rimossi."
       },
       "all": {
-        "help": "Remove all roles from a message.",
+        "help": "Rimuovi tutti i ruoli da un messaggio.",
         "args": "<message ID>",
-        "done": "Any roles on the message have been removed."
+        "done": "Ogni ruolo di questo messaggio è stato rimosso."
       },
       "remove": {
-        "help": "Remove a role from a message",
+        "help": "Rimuovi un ruolo da un messaggio",
         "args": "<message ID> <role>",
         "none": "That role is not setup on that message ID.",
         "done": "The role has been removed."
