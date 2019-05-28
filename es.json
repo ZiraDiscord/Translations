@@ -1,0 +1,422 @@
+{
+  "language": "Español",
+  "titles": {
+    "success": "Completado :white_check_mark:",
+    "error": "Error :warning:",
+    "usage": "Uso del comando",
+    "example": "Ejemplos de uso",
+    "permission": "Permisos insuficientes"
+  },
+  "errors": {
+    "generic": "Ha ocurrido un error. Si el mismo persiste, únete al servidor de soporte.",
+    "unknown": {
+      "channel": "Canal desconocido. Asegúrate de que existe, y si es así, de que tengo los permisos adecuados para verlo.",
+      "message": "Mensaje no encontrado en el canal seleccionado. Asegúrate de que existe, y si es así, de que tengo los permisos requeridos para verlo.",
+      "emoji": "No puedo usar este emoji. Asegúrate de que estoy en el servidor en el que está y, si es así, de que tengo permisos para **Usar Emojis Externos** en el canal seleccionado.",
+      "suggestion": "No se ha encontrado ninguna sugerencia con esa ID."
+    },
+    "interactive": {
+      "timeout": "Tiempo de espera del comando agotado.",
+      "cancel": "Comando cancelado."
+    },
+    "permission": {
+      "hierarchy": "No puedo usar este rol porque está encima de mi rol más alto en la lista de roles.",
+      "missing": "No puedes usar este comando porque no tienes los siguientes permisos: $permissions$",
+      "channelRead": "Me faltan los permisos **Leer mensajes** y **Leer el historial de mensajes** en el canal seleccionado.",
+      "channelSend": "Me falta el permiso **Enviar mensajes** en el canal seleccionado.",
+      "addReactions": "No puedo añadir este emoji porque necesito el permiso **Añadir reacciones** en el canal seleccionado.",
+      "othersEdit": "No puedo editar ese mensaje porque no lo envié yo.",
+      "manageChannels": "Administrar Canales",
+      "manageMessages": "Administrar mensajes",
+      "manageRoles": "Administrar Roles",
+      "manageGuild": "Administrar el Servidor"
+    },
+    "roles": {
+      "unknown": "No puedo encontrar ese rol, asegúrate de que existe.",
+      "managed": "Los roles integrados no se pueden usar. Solo los creados por usuarios o bots son válidos.",
+      "used": "No puedes usar este rol porque ya fue establecido con este emoji.",
+      "once": "Como ya hay un rol de un solo uso (once) en este mensaje, no puedes agregar más roles que sean de otro tipo."
+    },
+    "general": {
+      "maxReactions": "No puedo agregar más roles a este mensaje porque ya tiene 20 reacciones. Si te gustaría establecer este rol, elimina algun rol de este mensaje o crea un mensaje nuevo. Esto se trata de un límite de Discord.",
+      "missingSetup": "Selecciona un **canal** y un **mensaje** primero y luego prueba este comando de nuevo.",
+      "missingChannel": "Establece un canal primero y luego prueba este comando de nuevo.",
+      "missingMessage": "Establece un mensaje primero, después prueba este comando de nuevo.",
+      "missingMessageID": "Por favor, proporcióname la ID de un mensaje.",
+      "missingRole": "Por favor, proporcióname el nombre de un rol o una mención.",
+      "messageNotFound": "No puedo encontrar ese mensaje, asegúrate de que la ID es correcta.",
+      "invalidID": "Esa ID no es válida.",
+      "noRoleProvided": "Por favor proporciona un rol.",
+      "noChannelProvided": "Por favor proporciona un canal.",
+      "noMessageProvided": "Por favor proporciona un mensaje.",
+      "noSuggestionProvided": "Por favor, proporciona la ID de una sugerencia o la ID del mensaje de la sugerencia que quieres."
+    },
+    "premium": "Esta característica es [premium](https://zira.ovh/premium).",
+    "suggestionsRole": "Necesitas el rol $role$ para administrar las sugerencias."
+  },
+  "page": "Página",
+  "logging": {
+    "addReaction": {
+      "add": "$mention$ ha reaccionado con $emoji$ para obtener $added$",
+      "remove": "$mention$ ha reaccionado con $emoji$ para quitarse $removed$",
+      "both": "$mention$ ha reaccionado con $emoji$ para obtener $added$ y para quitarse $removed$"
+    },
+    "removeReaction": "$mention$ quitó la reación $emoji$ para quitar el rol $roles$"
+  },
+  "suggestions": {
+    "reason": "Razón de $user$",
+    "footer": "ID: $id$ Enviada",
+    "new": "Nueva Sugerencia",
+    "approved": "Sugerencia Aprobada",
+    "denied": "Sugerencia Denegada",
+    "potential": "Sugerencia Potencial",
+    "invalid": "Sugerencia Inválida",
+    "updated": "Sugerencia Actualizada"
+  },
+  "commands": {
+    "channel": {
+      "help": "Establece el canal activo.",
+      "args": "<#canal>",
+      "set": " establecer como el canal activo.",
+      "pick": "Menciona el canal que quieras usar. Si te gustaría cancelar, escribe `cancel`."
+    },
+    "message": {
+      "help": "Establece el mensaje activo.",
+      "args": "<ID del mensaje>",
+      "set": "Mensaje establecido",
+      "pick": "Por favor, proporciona la ID de un mensaje para que Zira lo use o un mensaje para que Zira lo envíe.\nSi te gustaría cancelar, escribe `cancel`."
+    },
+    "embed": {
+      "help": "Crea un embed que será usado como el mensaje activo.",
+      "args": "[Embed JSON]",
+      "JSONerror": "El JSON proporcionado es inválido. Puedes utilizar el generador de embeds usando el comando",
+      "created": "Embed creado.",
+      "interactive": {
+        "stage": "Etapa ",
+        "skipped": "Etapa omitida.",
+        "title": "Si te gustaría poner un título proporciona uno.\n\nTienes 2 minutos entre cada etapa para introducir valores.\n\nSi tienes un JSON y te gustaría usarlo en vez de este creador usa el comando **z/embed <JSON>**\n\nPuedes saltar esta etapa escribiendo `skip`.",
+        "description": "Si quieres una descripción proporciona una.\n\nPuedes saltar esta etapa escribiendo `skip`.",
+        "image": "Si quieres una imagen proporciona un enlace o súbela.\n\nPuedes saltar esta etapa escribiendo `skip`.",
+        "footer": "Si quieres un pie de página proporciona uno.\n\nPuedes saltar esta etapa escribiendo `skip`.",
+        "color": "Si quieres un color proporciona un código hex.\n\nPuedes saltar esta etapa escribiendo `skip`.",
+        "creating": "Creando embed."
+      }
+    },
+    "config": {
+      "help": "Configuración del servidor.",
+      "args": "",
+      "prefix": {
+        "args": "<prefijo>",
+        "error": "Por favor, proporciona un prefijo que tenga entre 1 y 10 caracteres y que contenga al menos uno de estos caracteres: `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
+        "set": "El prefijo ha sido establecido a"
+      },
+      "role": {
+        "args": "<@rol | disable>",
+        "error": "Por favor, menciona un rol o proporciona el nombre de uno, o si quieres desactivar el rol, escribe",
+        "set": "Rol fijado. Solo los usuarios con $role$ podrán usar los comandos de Zira.",
+        "disable": "Cualquiera con los permisos correctos puede usar los comandos de Zira."
+      },
+      "reset": {
+        "args": "",
+        "question": ":warning: ¿Estás seguro de que quieres reiniciar la configuración del servidor?\nPor favor, escribe `yes` o `no`.",
+        "done": "Ok, ¡la configuración del servidor fue reiniciada!",
+        "cancel": "Ok, la configuración del servidor no fue reiniciada."
+      },
+      "language": {
+        "args": "<código del idioma>",
+        "title": "Idiomas",
+        "set": "Idioma establecido.",
+        "unknown": "Idioma desconocido.",
+        "crowdin": "Si quieres que Zira esté en un idioma que no está en la lista de arriba, puedes ayudar con la traducción en [Crowdin](https://translate.zira.ovh)"
+      },
+      "main": {
+        "prefix": "Establece un prefijo personalizado.",
+        "role": "Establece o quita cual rol puede usar los comandos.",
+        "reset": "Reinicia la configuración del servidor.",
+        "language": "Establece el idioma para el servidor."
+      }
+    },
+    "normal": {
+      "help": "Dar un rol",
+      "args": "<emoji> <rol>",
+      "added": "$role$ añadido con el emoji $emoji$",
+      "emoji": "Por favor, manda el emoji que quieres usar.",
+      "role": "Por favor, manda el rol que quieres usar."
+    },
+    "remove": {
+      "help": "Quitar un rol",
+      "args": "<emoji> <rol>"
+    },
+    "toggle": {
+      "help": "Establece un rol alternable",
+      "args": "<emoji> <rol>",
+      "limit": "Has alcanzado el límite de 6 roles alternables. Puedes conseguir roles alternables ilimitados con [premium](https://zira.ovh/premium)"
+    },
+    "once": {
+      "help": "Establece un rol de un solo uso",
+      "args": "<emoji> <rol>",
+      "error": "Debido a que ya hay un rol establecido en este mensaje con ese emoji que no es una reacción de un solo uso, no puedes añadir ningún rol de un solo uso."
+    },
+    "list": {
+      "help": "Muestra todos los roles.",
+      "args": "",
+      "title": "Lista de roles",
+      "description": "Puedes quitar un rol de la lista con **$prefix$delete**.\nPuedes quitar cualquier rol eliminado usando el comando **$prefix$delete <ID del mensaje> check**.",
+      "role": "Rol",
+      "channel": "Canal",
+      "message": "Mensaje",
+      "emoji": "Emoji",
+      "link": "Ir al mensaje",
+      "type": "Tipo"
+    },
+    "delete": {
+      "help": "Eliminar un rol que ha sido establecido.",
+      "args": "",
+      "check": {
+        "help": "Comprueba roles eliminados en un mensaje.",
+        "args": "<ID del mensaje>",
+        "none": "Todos los roles válidos.",
+        "removed": "rol(es) eliminado(s)."
+      },
+      "all": {
+        "help": "Quita todos los roles de un mensaje.",
+        "args": "<ID del mensaje>",
+        "done": "Todos los roles del mensaje han sido eliminados."
+      },
+      "remove": {
+        "help": "Quita un rol de un mensaje",
+        "args": "<ID del mensaje> <rol>",
+        "none": "Ese rol no está establecido en la ID de ese mensaje.",
+        "done": "El rol ha sido eliminado."
+      },
+      "description": "Puedes encontrar la ID del mensaje en el que hay un rol con **$prefix$list**."
+    },
+    "edit": {
+      "help": "Edita un mensaje enviado por Zira.",
+      "args": " <ID del mensaje> <nuevo mensaje>",
+      "notFound": "Esa ID de mensaje no ha sido encontrada.",
+      "success": "Mensaje editado.",
+      "pick": "Por favor proporciona un mensaje nuevo.",
+      "interactive": {
+        "stage": "Etapa ",
+        "skipped": "Etapa omitida.",
+        "title": "Si te gustaría un título proporciona uno.\n\nTienes 2 minutos entre cada etapa para introducir valores.\n\nSi tienes un JSON y te gustaría usarlo en vez de este creador usa el comando **z/edit $message <JSON>**\n\nPuedes saltar esta etapa escribiendo `skip`.",
+        "description": "Si quieres una descripción proporciona una.\n\nPuedes saltar esta etapa escribiendo `skip`.",
+        "image": "Si quieres una imagen proporciona un enlace o súbela.\n\nPuedes saltar esta etapa escribiendo `skip`.",
+        "footer": "Si quieres un pie de página proporciona uno.\n\nPuedes saltar esta etapa escribiendo `skip`.",
+        "color": "Si quieres un color proporciona un código hex.\n\nPuedes saltar esta etapa escribiendo `skip`.",
+        "creating": "Editando embed."
+      }
+    },
+    "log": {
+      "help": "Registra eventos de roles en un canal",
+      "args": "<#canal>",
+      "set": " establecido como el canal de registro.\n\n**Nota:** Si no puedo mandar mensajes a ese canal desactivaré el registro.",
+      "disable": "Registro de roles desactivado."
+    },
+    "autorole": {
+      "help": "Da roles que son dados cuando entra un usuario",
+      "args": "",
+      "user": {
+        "help": "Da roles cuando un usuario se une al servidor",
+        "args": "<rol>",
+        "set": "El rol $role$ se dará a los nuevos usuarios.",
+        "remove": "El rol $role$ ya no se dará a los nuevos usuarios."
+      },
+      "bot": {
+        "help": "Da roles cuando un bot se une al servidor",
+        "args": "<rol>",
+        "set": "El rol $role$ se dará a los nuevos bots.",
+        "remove": "El rol $role$ ya no se se dará a los nuevos bots."
+      },
+      "show": {
+        "help": "Muestra los roles establecidos",
+        "user": "Roles de usuario",
+        "bot": "Roles de bots",
+        "noRoles": "No hay roles establecidos :("
+      },
+      "removeTip": "Si te gustaría quitar un rol establecido con roles automáticos, usa de nuevo el comando que usaste para establecerlos de nuevo."
+    },
+    "join": {
+      "help": "Mensajes de bienvenida",
+      "args": "",
+      "channel": {
+        "help": "Establece el canal al que se deberían mandar los mensajes de bienvenida",
+        "args": "<#canal>",
+        "set": " establecido como el canal de bienvenida.\n\n**Nota:** Si no puedo mandar mensajes a ese canal desactivaré los mensajes de bienvenida."
+      },
+      "disable": {
+        "help": "Desactiva los mensajes de bienvenida",
+        "args": "",
+        "success": "Mensajes de bienvenida desactivados."
+      },
+      "add": {
+        "help": "Añade un mensaje.",
+        "args": "<mensaje>",
+        "success": "Mensaje agregado."
+      },
+      "remove": {
+        "help": "Elimina un mensaje",
+        "args": "<ID de la lista>",
+        "noID": "Proporciona una ID de la lista de $prefix$join",
+        "notFound": "No existe un mensaje con esa ID.",
+        "success": "Mensaje eliminado."
+      },
+      "list": {
+        "help": "Lista de mensajes",
+        "args": ""
+      },
+      "placeholders": {
+        "title": "Variables utilizables que Zira auto completará",
+        "description": "$user$ - nombre de usuario\n$mention$ - mención al usuario\n$guild$ - nombre del servidor\n$membercount$ - cantidad actual de miembros"
+      }
+    },
+    "leave": {
+      "help": "Mensaje de despedida",
+      "args": "",
+      "channel": {
+        "help": "Establece el canal al que se deberían mandar los mensajes de despedida",
+        "args": "<#canal>",
+        "set": " establecido como el canal de despedida.\n\n**Nota:** Si no puedo mandar mensajes a ese canal desactivaré los mensajes de despedida."
+      },
+      "disable": {
+        "help": "Desactiva los mensajes de despedida",
+        "args": "",
+        "success": "Mensajes de bienvenida desactivados."
+      },
+      "add": {
+        "help": "Añade un mensaje.",
+        "args": "<mensaje>",
+        "success": "Mensaje agregado."
+      },
+      "remove": {
+        "help": "Elimina un mensaje",
+        "args": "<ID de la lista>",
+        "noID": "Proporciona una ID de la lista de $prefix$leave",
+        "notFound": "No existe un mensaje con esa ID.",
+        "success": "Mensaje eliminado."
+      },
+      "list": {
+        "help": "Lista de mensajes",
+        "args": ""
+      },
+      "placeholders": {
+        "title": "Variables utilizables",
+        "description": "$user$ - nombre de usuario\n$mention$ - mención al usuario\n$guild$ - nombre del servidor\n$membercount$ - cantidad actual de miembros"
+      }
+    },
+    "rooms": {
+      "help": "Establece salas privadas",
+      "args": "",
+      "success": "Salas privadas establecidas."
+    },
+    "suggestion": {
+      "help": "Configuración de las sugerencias",
+      "args": "",
+      "new": {
+        "help": "Establece el canal al que se enviarán nuevas sugerencias",
+        "args": "<#canal | disable>",
+        "set": "Las nuevas sugerencias serán enviadas al canal",
+        "disable": "Las sugerencias están desactivadas."
+      },
+      "approved": {
+        "help": "Establece el canal al que se enviarán sugerencias aprobadas",
+        "args": "<#canal | disable>",
+        "set": "Las sugerencias aprobadas serán enviadas al canal",
+        "disable": "Las sugerencias aprobadas no serán movidas a un canal."
+      },
+      "denied": {
+        "help": "Establece el canal al que se enviarán sugerencias rechazadas",
+        "args": "<#canal | disable>",
+        "set": "Las sugerencias rechazadas serán enviadas al canal",
+        "disable": "Las sugerencias rechazadas no serán movidas a un canal."
+      },
+      "invalid": {
+        "help": "Establece el canal al que se enviarán sugerencias inválidas",
+        "args": "<#canal | disable>",
+        "set": "Las sugerencias inválidas serán enviadas al canal",
+        "disable": "Las sugerencias inválidas no serán movidas a un canal."
+      },
+      "potential": {
+        "help": "Establece el canal al que se enviarán sugerencias potenciales",
+        "args": "<#canal | disable>",
+        "set": "Las sugerencias potenciales serán enviadas al canal",
+        "disable": "Las sugerencias potenciales no serán movidas a un canal."
+      },
+      "submit": {
+        "help": "Establece el canal que se deberá usar para enviar sugerencias\n[Característica Premium](https://zira.ovh/premium)",
+        "args": "<#canal | disable>",
+        "set": "Ahora las sugerencias solo se pueden hacer en",
+        "disable": "Las sugerencias ahora pueden enviarse en cualquier canal."
+      },
+      "dm": {
+        "help": "Establece si los usuarios deberían recibir actualizaciones de sus sugerencias\n[Característica Premium](https://zira.ovh/premium)",
+        "on": "Los usuarios obtendrán actualizaciones sobre sus sugerencias.",
+        "off": "Los usuarios no obtendrán actualizaciones sobre sus sugerencias."
+      },
+      "reaction": {
+        "help": "Establece con qué emojis se debería reaccionar en las nuevas sugerencias\n[Característica Premium](https://zira.ovh/premium)",
+        "on": "Las sugerencias ahora tendrán emojis establecios con **$prefix$suggestion emojis** reaccionados a ellas.",
+        "off": "Las sugerencias no serán reaccionadas."
+      },
+      "emojis": {
+        "help": "Establece los emojis que usar al reaccionar a las sugerencias\n[Característica Premium](https://zira.ovh/premium)",
+        "args": "<emojiUno> <emojiDos>",
+        "set": "Los emojis han sido establecidos.",
+        "needTwo": "Por favor, proporciona dos emojis."
+      },
+      "role": {
+        "help": "Establece un rol que pueda aprobar, denegar, etc. sugerencias",
+        "args": "<rol | disable>",
+        "set": "Sólo los usuarios con $role$ y el dueño del servidor podrán interactuar con las sugerencias.",
+        "disable": "Cualquiera con los permisos para **Administrar el Servidor** podrá interactuar con las sugerencias."
+      }
+    },
+    "suggest": {
+      "help": "Envía una sugerencia",
+      "args": "<sugerencia>",
+      "setup": "Las sugerencias no están establecidas. Usa **$prefix$suggestion new** para establecerlas.",
+      "submitChannel": "Usa el canal $channel$ para enviar una sugerencia.",
+      "provideSuggestion": "Por favor, proporciona una sugerencia."
+    },
+    "approve": {
+      "help": "Aprueba una sugerencia",
+      "args": "<ID> [razón]",
+      "update": "Tu sugerencia [$id$]($url$) ha sido aprobada."
+    },
+    "deny": {
+      "help": "Deniega una sugerencia",
+      "args": "<ID> [razón]",
+      "update": "Tu sugerencia [$id$]($url$) ha sido denegada."
+    },
+    "maybe": {
+      "help": "Aprobar potencialmente una sugerencia",
+      "args": "<ID> [razón]",
+      "update": "Tu sugerencia [$id$]($url$) ha sido potencialmente aprobada."
+    },
+    "invalid": {
+      "help": "Marca una sugerencia como inválida",
+      "args": "<ID> [razón]",
+      "update": "Tu sugerencia [$id$]($url$) ha sido marcada como inválida."
+    },
+    "help": {
+      "categories": [
+        "Roles",
+        "Sugerencia",
+        "Registros",
+        "Diversidad"
+      ],
+      "commands": "Comandos",
+      "title": "Enlaces",
+      "footer": "<> = Requerido [] = Opcional",
+      "links": [
+        "[Guía](https://docs.zira.ovh/)",
+        "[Servidor de Soporte](https://zira.ovh/support)",
+        "[Zira Premium](https://zira.ovh/premium)",
+        "[Invita a Zira](https://zira.ovh/invite)",
+        "[Ayuda a Traducir Zira](https://translate.zira.ovh/)",
+        "[Estado del Bot](https://status.imjake.me/)"
+      ]
+    }
+  }
+}
