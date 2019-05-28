@@ -1,49 +1,49 @@
 {
   "language": "Polski",
   "titles": {
-    "success": "Success :white_check_mark:",
+    "success": "Sukces :white_check_mark:",
     "error": "Błąd :warning:",
-    "usage": "Command Usage",
-    "example": "Usage Examples",
-    "permission": "Missing Permissions"
+    "usage": "Użycie komendy",
+    "example": "Przykłady użycia",
+    "permission": "Brakujące zezwolenia"
   },
   "errors": {
-    "generic": "An error has occurred. If the error continues to persist, please join my support server.",
+    "generic": "Wystąpił błąd. Jeśli błędy będą występować dalej, dołącz do gildii wsparica.",
     "unknown": {
-      "channel": "Unknown channel. Please make sure it exists, and if it does, that I have the proper permissions to view it.",
-      "message": "Message not found in the active channel. Please make sure it exists, and if it does, that I have the proper permissions to view it.",
-      "emoji": "I can't use this emoji. Please make sure I'm in the server that it came from and if it is, make sure I have the permission **Use External Emojis** in the active channel.",
-      "suggestion": "A suggestion with that ID wasn't found."
+      "channel": "Nieznany kanał. Proszę upewnić się że kanał istnieje, a jeśli istnieje, czy posiadam odpowiednie zezwolenia aby go widzieć.",
+      "message": "Wiadomośc nie została znaleziona w aktywnym kanałe. Upewnij się czy istnieje, i czy posiadam zezwolenia aby ją widzieć.",
+      "emoji": "Nie mogę użyć tego emoji. Upewnij się czy jestem w serwerze z którego on pochodzi, i upewnij się że posiadam zezwolenie **Używaj Zewnętrznych Emoji** w aktywnym kanałe.",
+      "suggestion": "Sugestia z tym ID nie została znaleziona."
     },
     "interactive": {
-      "timeout": "Command timeout.",
-      "cancel": "Command cancelled."
+      "timeout": "Timeout komendy.",
+      "cancel": "Komenda odwołana."
     },
     "permission": {
-      "hierarchy": "I can't use this role because it is above my highest role in the role hierarchy.",
-      "missing": "You're unable to run this command because you lack the following permissions: $permissions$",
-      "channelRead": "I'm missing the permissions **Read Messages** and **Read Message History** in the active channel.",
-      "channelSend": "I'm missing the permission **Send Messages** in the active channel.",
-      "addReactions": "I can't add this emoji because I'm missing the **Add Reactions** permission in the active channel.",
-      "othersEdit": "I can't edit that message as it wasn't sent by me.",
-      "manageChannels": "Manage Channels",
-      "manageMessages": "Manage Messages",
-      "manageRoles": "Manage Roles",
-      "manageGuild": "Manage Server"
+      "hierarchy": "Nie mogę użyć tej roli, ponieważ jest ona powyżej mojej najwyższej roli w hierarchii.",
+      "missing": "Nie możesz użyć tej komendy, ponieważ nie posiadasz tych zezwoleń. $permissions$",
+      "channelRead": "Nie posiadam zezwoleń **Czytanie Kanałów Tekstowych** oraz **Czytanie Historii Czatu** w aktywnym kanałe.",
+      "channelSend": "Nie posiadam zezwolenia **Wysyłanie Wiadomości** w aktywnym kanałe.",
+      "addReactions": "Nie mogę dodać tej emoji, ponieważ nie posiadam zezwolenia **Dodaj Reakcje** w aktywnym kanałe.",
+      "othersEdit": "Nie mogę edytować wiadomości która nie została wysłana przeze mnie.",
+      "manageChannels": "Zarządzanie Kanałami",
+      "manageMessages": "Zarządzanie Wiadomościami",
+      "manageRoles": "Zarządzanie Rolami",
+      "manageGuild": "Zarządzanie Serwerem"
     },
     "roles": {
-      "unknown": "I can't find that role. Please make sure it exists.",
-      "managed": "Integrated roles can't be used. Only roles created by users or bots.",
-      "used": "You can't use this role as it's already setup with this emoji.",
-      "once": "Since a role is setup as a Once type on this message, you can't have any other types besides Once."
+      "unknown": "Nie mogę znaleźć tej roli. Upewnij się czy istnieje.",
+      "managed": "Integrowane role nie mogą być użyte. Tylko role stworzone przez użytkowników lub botów.",
+      "used": "Nie możesz użyć tej roli ponieważ już została ona ustawiona z tym emoji.",
+      "once": "Ponieważ rola została ustawiona jako rola pojedyńcza na tej wiadomości, nie możesz użyć żadnego innego typu roli oprócz pojedyńczej."
     },
     "general": {
-      "maxReactions": "I can't add more roles to this message because it already has 20 reactions on it. If you would like to setup this role, please remove a role from this message or create a new message. This is a Discord limit.",
-      "missingSetup": "Please set a **channel** and **message** first then try this command again.",
-      "missingChannel": "Please set a channel first then try this command again.",
-      "missingMessage": "Please set a message first then try this command again.",
-      "missingMessageID": "Please provide me with a message ID.",
-      "missingRole": "Please provide me with a role name or mention.",
+      "maxReactions": "Nie mogę dodać więcej ról do tej wiadomości ponieważ, ma ona na sobie więcej niż 20 reakcji. Jeśli chciał byś ustawić tą rolę, usuń rolę z tej wiadomości lub stwórz nową wiadomość. Jest to limit nałożony przez Discord'a.",
+      "missingSetup": "Ustaw **kanał** oraz **wiadomość** następnie spróbuj ponownie.",
+      "missingChannel": "Ustaw kanał, następnie spróbuj ponownie.",
+      "missingMessage": "Najpierw ustaw wiadomość a potem spróbuj ponownie.",
+      "missingMessageID": "Dostarcz ID wiadomości. ",
+      "missingRole": "Dostarcz nazwę roli albo wzmiankę tej roli.",
       "messageNotFound": "I can't find this message. Please make sure the message ID is correct.",
       "invalidID": "That is not a valid ID.",
       "noRoleProvided": "Please provide a role.",
