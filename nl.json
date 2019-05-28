@@ -46,9 +46,9 @@
       "missingRole": "Please provide me with a role name or mention.",
       "messageNotFound": "I can't find this message. Please make sure the message ID is correct.",
       "invalidID": "That is not a valid ID.",
-      "noRoleProvided": "Please provide a role.",
-      "noChannelProvided": "Please provide a channel.",
-      "noMessageProvided": "Please provide a message.",
+      "noRoleProvided": "Stel een rol in.",
+      "noChannelProvided": "Stel een kanaal in.",
+      "noMessageProvided": "Stel een bericht in.",
       "noSuggestionProvided": "Please provide a suggestion ID or a message ID of the suggestion you want."
     },
     "premium": "Deze feature is alleen [premium] (https://zira.ovh/premium).",
@@ -67,23 +67,23 @@
     "reason": "$user$'s Reden",
     "footer": "ID: $id$ Submitted",
     "new": "Nieuwe Suggestie",
-    "approved": "Approved Suggestion",
-    "denied": "Denied Suggestion",
-    "potential": "Potential Suggestion",
-    "invalid": "Invalid Suggestion",
-    "updated": "Suggestion Updated"
+    "approved": "Goedgekeurde Suggesties",
+    "denied": "Suggestie geweigerd",
+    "potential": "Potentiële suggestie",
+    "invalid": "Ongeldige suggestie",
+    "updated": "Suggestie bijgewerkt"
   },
   "commands": {
     "channel": {
       "help": "Stel het actieve kanaal in.",
-      "args": "<#channel>",
-      "set": " set as the active channel.",
+      "args": "<#kanaal>",
+      "set": "stel het actieve kanaal in.",
       "pick": "Please mention the channel you want to use.\nType `cancel` if you would like to cancel."
     },
     "message": {
       "help": "Set the active message.",
-      "args": "<message ID>",
-      "set": "Message set",
+      "args": "<bericht ID>",
+      "set": "Bericht ingesteld",
       "pick": "Please provide a message ID for Zira to use or message for Zira to send.\nType `cancel` if you would like to cancel."
     },
     "embed": {
@@ -111,7 +111,7 @@
         "set": "Prefix has been set to"
       },
       "role": {
-        "args": "<@role | disable>",
+        "args": "<@rol | uitzetten>",
         "error": "Please mention a role or provide a role name, or if you would like to disable the role, type",
         "set": "Role set. Only people with $role$ will be able to use Zira commands.",
         "disable": "Anyone with the correct permissions can use Zira's commands now."
@@ -123,48 +123,48 @@
         "cancel": "Phew. Guild config has not been reset."
       },
       "language": {
-        "args": "<language code>",
-        "title": "Languages",
-        "set": "Language set.",
-        "unknown": "Unknown language.",
+        "args": "<taal code>",
+        "title": "Talen",
+        "set": "Taal ingesteld.",
+        "unknown": "Onbekende taal",
         "crowdin": "If you want Zira in a language that isn't on the list above, you can apply and help translate Zira on [Crowdin](https://translate.zira.ovh)"
       },
       "main": {
-        "prefix": "Set a custom prefix.",
+        "prefix": "Stel een aangepast voorvoegsel in.",
         "role": "Set or remove which role can use commands.",
         "reset": "Reset the guild config.",
         "language": "Set the language for the guild."
       }
     },
     "normal": {
-      "help": "Give a role",
-      "args": "<emoji> <role>",
-      "added": "$role$ added with the emoji $emoji$",
-      "emoji": "Please send the emoji you want to use.",
-      "role": "Please send the role you want to use."
+      "help": "Geef een rol",
+      "args": "<emoji> <rol>",
+      "added": "$role$ toegevoegd met de emoji $emoji$",
+      "emoji": "Stel een emoji in die je wilt gebruiken.",
+      "role": "Stel een rol in die je wilt gebruiken."
     },
     "remove": {
-      "help": "Remove a role",
-      "args": "<emoji> <role>"
+      "help": "Verwijder een rol",
+      "args": "<emoji> <rol>"
     },
     "toggle": {
       "help": "Setup a toggled role",
-      "args": "<emoji> <role>",
+      "args": "<emoji> <rol>",
       "limit": "There is a limit of 6 free toggled roles. You get unlimited toggled roles with [premium](https://zira.ovh/premium)"
     },
     "once": {
-      "help": "Setup a once role",
-      "args": "<emoji> <role>",
+      "help": "Stel een eenmalige rol in",
+      "args": "<emoji> <rol>",
       "error": "Since there is a role set on this message with this emoji already that isnt a once reaction, you cant add any once reactions."
     },
     "list": {
-      "help": "Show all roles.",
+      "help": "Toon alle rollen.",
       "args": "",
-      "title": "Role List",
+      "title": "Rollen lijst",
       "description": "You can remove a role listed here with **$prefix$delete**\nYou can remove any deleted roles listed by doing **$prefix$delete <message ID> check**.",
-      "role": "Role",
-      "channel": "Channel",
-      "message": "Message",
+      "role": "Rol",
+      "channel": "Kanaal",
+      "message": "Bericht",
       "emoji": "Emoji",
       "link": "Jump to message",
       "type": "Type"
@@ -174,13 +174,13 @@
       "args": "",
       "check": {
         "help": "Checks for deleted roles on a message.",
-        "args": "<message ID>",
+        "args": "<bericht ID>",
         "none": "All roles valid.",
-        "removed": "role(s) removed."
+        "removed": "rol(len) verwijderd."
       },
       "all": {
         "help": "Remove all roles from a message.",
-        "args": "<message ID>",
+        "args": "<bericht ID>",
         "done": "Any roles on the message have been removed."
       },
       "remove": {
@@ -210,30 +210,30 @@
     },
     "log": {
       "help": "Log role events to a channel",
-      "args": "<#channel>",
+      "args": "<#kanaal>",
       "set": " set as the logging channel.\n\n**Note:** If I can't send messages to the channel I will disable logging.",
       "disable": "Role logging is now disabled."
     },
     "autorole": {
-      "help": "Give roles to be given when a member joins",
+      "help": "Geef rol wanneer een gebruiker joint",
       "args": "",
       "user": {
         "help": "Give roles for when a person joins",
-        "args": "<role>",
+        "args": "<rol>",
         "set": "$role$ will be given when a user joins.",
         "remove": "$role$ will no longer be given when a user joins."
       },
       "bot": {
         "help": "Give roles for when a bot joins",
-        "args": "<role>",
+        "args": "<rol>",
         "set": "$role$ will be given when a bot joins.",
         "remove": "$role$ will no longer be given when a bot joins."
       },
       "show": {
         "help": "Show the roles currently setup",
-        "user": "User Roles",
-        "bot": "Bot Roles",
-        "noRoles": "No roles setup :("
+        "user": "Gebruiker Rollen",
+        "bot": "Bot Rollen",
+        "noRoles": "Geen rollen ingesteld :("
       },
       "removeTip": "If you would like to remove a role that is setup with autoroles, just do the command you used to set it up again."
     },
@@ -242,7 +242,7 @@
       "args": "",
       "channel": {
         "help": "Set the channel join messages should be sent in",
-        "args": "<#channel>",
+        "args": "<#kanaal>",
         "set": " set as the join channel.\n\n**Note:** If I can't send messages to the channel I will disable join messages."
       },
       "disable": {
@@ -251,19 +251,19 @@
         "success": "Join messages disabled."
       },
       "add": {
-        "help": "Add a message.",
-        "args": "<message>",
-        "success": "Message added."
+        "help": "Voeg een bericht toe.",
+        "args": "<bericht>",
+        "success": "Bericht toegevoegd."
       },
       "remove": {
-        "help": "Remove a message",
-        "args": "<ID from list>",
+        "help": "Verwijder een bericht",
+        "args": "<ID van een lijst>",
         "noID": "Please provide an ID from $prefix$join list",
         "notFound": "A message with that ID doesn't exist.",
-        "success": "Message deleted."
+        "success": "Bericht verwijderd."
       },
       "list": {
-        "help": "List of messages",
+        "help": "Lijst van berichten",
         "args": ""
       },
       "placeholders": {
@@ -276,7 +276,7 @@
       "args": "",
       "channel": {
         "help": "Set the channel leave messages should be sent in",
-        "args": "<#channel>",
+        "args": "<#kanaal>",
         "set": " set as the leave channel.\n\n**Note:** If I can't send messages to the channel I will disable leave messages."
       },
       "disable": {
@@ -285,19 +285,19 @@
         "success": "Leave messages disabled."
       },
       "add": {
-        "help": "Add a message.",
-        "args": "<message>",
-        "success": "Message added."
+        "help": "Voeg een bericht toe.",
+        "args": "<bericht>",
+        "success": "Bericht toegevoegd."
       },
       "remove": {
-        "help": "Remove a message",
-        "args": "<ID from list>",
+        "help": "Verwijder een bericht",
+        "args": "<ID van een lijst>",
         "noID": "Please provide an ID from $prefix$leave list",
         "notFound": "A message with that ID doesn't exist.",
-        "success": "Message deleted."
+        "success": "Bericht verwijderd."
       },
       "list": {
-        "help": "List of messages",
+        "help": "Lijst van berichten",
         "args": ""
       },
       "placeholders": {
@@ -362,59 +362,59 @@
       "emojis": {
         "help": "Set the emojis to be used when reacting to suggestions\n[Premium Feature](https://zira.ovh/premium)",
         "args": "<emojiOne> <emojiTwo>",
-        "set": "Emojis have been set.",
+        "set": "Emoji's zijn ingesteld.",
         "needTwo": "Please provide two emojis."
       },
       "role": {
         "help": "Set a role that can approve, deny, etc suggestions",
-        "args": "<role | disable>",
+        "args": "<rol | uitzetten>",
         "set": "Only users with $role$ and the guild owner will be able to interactive with suggestions.",
         "disable": "Anyone with the **Manage Guild** permission will now be able to interact with suggestions."
       }
     },
     "suggest": {
       "help": "Submit a suggestion",
-      "args": "<suggestion>",
+      "args": "<suggestie>",
       "setup": "Suggestions are not setup. Use **$prefix$suggestion new** to setup suggestions.",
       "submitChannel": "Please use $channel$ to submit suggestions.",
       "provideSuggestion": "Please provide a suggestion."
     },
     "approve": {
       "help": "Keur een suggestie goed",
-      "args": "<ID> [reason]",
+      "args": "<ID>[reason]",
       "update": "Your suggestion [$id$]($url$) has been approved."
     },
     "deny": {
       "help": "Suggestie weigeren",
-      "args": "<ID> [reason]",
+      "args": "<ID>[reason]",
       "update": "Your suggestion [$id$]($url$) has been denied."
     },
     "maybe": {
       "help": "Potentialy approve a suggestion",
-      "args": "<ID> [reason]",
+      "args": "<ID>[reason]",
       "update": "Your suggestion [$id$]($url$) has been potentially approved."
     },
     "invalid": {
       "help": "Mark a suggestion as invalid",
-      "args": "<ID> [reason]",
+      "args": "<ID>[reason]",
       "update": "Your suggestion [$id$]($url$) has been marked invalid."
     },
     "help": {
       "categories": [
-        "Roles",
-        "Suggestion",
-        "Logging",
-        "Miscellaneous"
+        "Rollen",
+        "Suggestie",
+        "Vastleggen",
+        "Diversen"
       ],
-      "commands": "Commands",
+      "commands": "Commando's",
       "title": "Links",
-      "footer": "<> = Required [] = Optional",
+      "footer": "<> = Verplicht [] = Optioneel",
       "links": [
         "[Guide](https://docs.zira.ovh/)",
         "[Support Server](https://zira.ovh/support)",
         "[Zira Premium](https://zira.ovh/premium)",
         "[Invite Zira](https://zira.ovh/invite)",
-        "[Translate Zira](https://translate.zira.ovh/)",
+        "[Vertaal Zira](https://translate.zira.ovh/)",
         "[Bot Status](https://status.imjake.me/)"
       ]
     }
