@@ -235,117 +235,117 @@
         "bot": "Bot roller",
         "noRoles": "Der er ikke sat nogen roller op :("
       },
-      "removeTip": "If you would like to remove a role that is setup with autoroles, just do the command you used to set it up again."
+      "removeTip": "Hvis du gerne vil slette en rolle der er sat op med autoroller, skal du bruge den kommando du brugte til at sætte op igen."
     },
     "join": {
-      "help": "Join messages",
+      "help": "Ny medlems beskeder",
       "args": "",
       "channel": {
-        "help": "Set the channel join messages should be sent in",
+        "help": "Sæt den kanal som ny medlems beskeder skal sendes i",
         "args": "<#kanal>",
-        "set": " set as the join channel.\n\n**Note:** If I can't send messages to the channel I will disable join messages."
+        "set": " sæt som ny medlems kanalen.\n\n**Note:** Hvis jeg ikke kan sende beskeder i kanalen vil jeg deaktivere nye medlems beskeder."
       },
       "disable": {
-        "help": "Disable join messages",
+        "help": "Deaktiver ny medlems beskeder",
         "args": "",
-        "success": "Join messages disabled."
+        "success": "Ny medlems beskeder er deaktiveret."
       },
       "add": {
-        "help": "Add a message.",
-        "args": "<message>",
-        "success": "Message added."
+        "help": "Tilføj en besked.",
+        "args": "<besked>",
+        "success": "Beskeden er tilføjet."
       },
       "remove": {
-        "help": "Remove a message",
-        "args": "<ID from list>",
-        "noID": "Please provide an ID from $prefix$join list",
-        "notFound": "A message with that ID doesn't exist.",
-        "success": "Message deleted."
+        "help": "Fjern en besked",
+        "args": "<ID fra liste>",
+        "noID": "Venligst angiv et ID fra $prefix$join listen",
+        "notFound": "En besked med det ID eksisterer ikke.",
+        "success": "Beskeden er slettet."
       },
       "list": {
-        "help": "List of messages",
+        "help": "Liste af beskeder",
         "args": ""
       },
       "placeholders": {
-        "title": "Usable Placeholders That Zira Will Auto-Fill",
-        "description": "$user$ - username\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "title": "Anvendelige pladsholdere som Zira vil autoudfylde",
+        "description": "$user$ - brugernavn\n$mention$ - nævnelse af bruger\n$guild$ - server navn\n$membercount$ - nyt medlemsantal"
       }
     },
     "leave": {
-      "help": "Leave messages",
+      "help": "Afskedsbesked",
       "args": "",
       "channel": {
-        "help": "Set the channel leave messages should be sent in",
+        "help": "Sæt kanalen som afskedsbeskeder skal sendes i",
         "args": "<#kanal>",
-        "set": " set as the leave channel.\n\n**Note:** If I can't send messages to the channel I will disable leave messages."
+        "set": " sæt som afskedskanalen.\n\n**Note:** Hvis jeg ikke kan sende beskeder i kanalen vil jeg deaktivere afskedsbeskeder."
       },
       "disable": {
-        "help": "Disable leave messages",
+        "help": "Deaktiver afskedsbeskeder",
         "args": "",
-        "success": "Leave messages disabled."
+        "success": "Afskedsbeskeder deaktiveret."
       },
       "add": {
-        "help": "Add a message.",
-        "args": "<message>",
-        "success": "Message added."
+        "help": "Tilføj en besked.",
+        "args": "<besked>",
+        "success": "Beskeden er tilføjet."
       },
       "remove": {
-        "help": "Remove a message",
-        "args": "<ID from list>",
-        "noID": "Please provide an ID from $prefix$leave list",
-        "notFound": "A message with that ID doesn't exist.",
-        "success": "Message deleted."
+        "help": "Fjern en besked",
+        "args": "<ID fra liste>",
+        "noID": "Venligst giv et ID fra $prefix$leave listen",
+        "notFound": "En besked med det ID eksisterer ikke.",
+        "success": "Beskeden er slettet."
       },
       "list": {
-        "help": "List of messages",
+        "help": "Liste af beskeder",
         "args": ""
       },
       "placeholders": {
-        "title": "Usable Placeholders",
-        "description": "$user$ - username\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "title": "Anvendelige pladsholdere",
+        "description": "$user$ - brugernavn\n$mention$ - nævnelse af bruger\n$guild$ - server navn\n$membercount$ - nyt medlemsantal"
       }
     },
     "rooms": {
-      "help": "Setup private rooms",
+      "help": "Sæt private rum op",
       "args": "",
-      "success": "Private rooms setup."
+      "success": "Private rum er sat up."
     },
     "suggestion": {
-      "help": "Suggestion config",
+      "help": "Forslagskonfiguration",
       "args": "",
       "new": {
-        "help": "Set the channel new suggestions will get sent to",
-        "args": "<#channel | disable>",
-        "set": "New suggestions will get sent to",
-        "disable": "Suggestions are now disabled."
+        "help": "Sæt den kanal som nye forslag bliver sendt til",
+        "args": "<#kanal | disable>",
+        "set": "Nyeforslag vil blive sendt til",
+        "disable": "Forslag er nu deaktiveret."
       },
       "approved": {
-        "help": "Set the channel approved suggestions will get sent to",
-        "args": "<#channel | disable>",
-        "set": "Approved suggestions will get sent to",
-        "disable": "Approved suggestions will no longer be moved to a channel."
+        "help": "Sæt kanalen som godkendte forslag bliver sendt til",
+        "args": "<#kanal | disable>",
+        "set": "Godkendte forslag bliver sendt til",
+        "disable": "Godkendte forslag vil ikke blive flyttet til an kanal længere."
       },
       "denied": {
         "help": "Set the channel denied suggestions will get sent to",
-        "args": "<#channel | disable>",
+        "args": "<#kanal | disable>",
         "set": "Denied suggestions will get sent to",
         "disable": "Denied suggestions will no longer be moved to a channel."
       },
       "invalid": {
         "help": "Set the channel invalid suggestions will get sent to",
-        "args": "<#channel | disable>",
+        "args": "<#kanal | disable>",
         "set": "Invalid suggestions will get sent to",
         "disable": "Invalid suggestions will no longer be moved to a channel."
       },
       "potential": {
         "help": "Set the channel potential suggestions will get sent to",
-        "args": "<#channel | disable>",
+        "args": "<#kanal | disable>",
         "set": "Potential suggestions will get sent to",
         "disable": "Potential suggestions will no longer be moved to a channel."
       },
       "submit": {
         "help": "Set the channel users will have to use to submit a suggestion\n[Premium Feature](https://zira.ovh/premium)",
-        "args": "<#channel | disable>",
+        "args": "<#kanal | disable>",
         "set": "Suggestions can now only be made in",
         "disable": "Suggestions can now be made in any channel."
       },
@@ -373,48 +373,48 @@
       }
     },
     "suggest": {
-      "help": "Submit a suggestion",
-      "args": "<suggestion>",
-      "setup": "Suggestions are not setup. Use **$prefix$suggestion new** to setup suggestions.",
+      "help": "Indsend et forslag",
+      "args": "<forslag>",
+      "setup": "Forslag er ikke sat op. Brug **$prefix$suggestion new** for at sætte forslag op.",
       "submitChannel": "Please use $channel$ to submit suggestions.",
       "provideSuggestion": "Please provide a suggestion."
     },
     "approve": {
-      "help": "Approve a suggestion",
-      "args": "<ID> [reason]",
-      "update": "Your suggestion [$id$]($url$) has been approved."
+      "help": "Godkend et forslag",
+      "args": "<ID>[grund]",
+      "update": "Dit forslag [$id$]($url$) er blevet godkendt."
     },
     "deny": {
       "help": "Deny a suggestion",
-      "args": "<ID> [reason]",
+      "args": "<ID>[grund]",
       "update": "Your suggestion [$id$]($url$) has been denied."
     },
     "maybe": {
       "help": "Potentialy approve a suggestion",
-      "args": "<ID> [reason]",
+      "args": "<ID>[grund]",
       "update": "Your suggestion [$id$]($url$) has been potentially approved."
     },
     "invalid": {
       "help": "Mark a suggestion as invalid",
-      "args": "<ID> [reason]",
-      "update": "Your suggestion [$id$]($url$) has been marked invalid."
+      "args": "<ID>[grund]",
+      "update": "Dit forslag [$id$]($url$) er blevet markeret ugyldig."
     },
     "help": {
       "categories": [
-        "Roles",
-        "Suggestion",
-        "Logging",
-        "Miscellaneous"
+        "Roller",
+        "Forslag",
+        "Lognig",
+        "Diverse"
       ],
-      "commands": "Commands",
+      "commands": "Kommandoer",
       "title": "Links",
-      "footer": "<> = Required [] = Optional",
+      "footer": "<> = Påkrævet [] = Valgfri",
       "links": [
         "[Guide](https://docs.zira.ovh/)",
         "[Support Server](https://zira.ovh/support)",
         "[Zira Premium](https://zira.ovh/premium)",
-        "[Invite Zira](https://zira.ovh/invite)",
-        "[Translate Zira](https://translate.zira.ovh/)",
+        "[Inviter Zira](https://zira.ovh/invite)",
+        "[Oversæt Zira](https://translate.zira.ovh/)",
         "[Bot Status](https://status.imjake.me/)"
       ]
     }
