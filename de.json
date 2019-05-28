@@ -40,80 +40,80 @@
     "general": {
       "maxReactions": "Ich kann dieser Nachricht keine weiteren Rollen hinzufügen, da sie bereits 20 Reaktionen hat. Wenn du diese Rolle einrichten möchtest, dann entferne bitte eine Rolle aus dieser Nachricht oder erstelle eine neue Nachricht. Dies ist eine Discord grenze.",
       "missingSetup": "Bitte setzt zuerst einen **Kanal** und eine **Nachricht** und versucht dann diesen Befehl erneut.",
-      "missingChannel": "Please set a channel first then try this command again.",
-      "missingMessage": "Please set a message first then try this command again.",
-      "missingMessageID": "Please provide me with a message ID.",
-      "missingRole": "Please provide me with a role name or mention.",
-      "messageNotFound": "I can't find this message. Please make sure the message ID is correct.",
-      "invalidID": "That is not a valid ID.",
-      "noRoleProvided": "Please provide a role.",
-      "noChannelProvided": "Please provide a channel.",
-      "noMessageProvided": "Please provide a message.",
-      "noSuggestionProvided": "Please provide a suggestion ID or a message ID of the suggestion you want."
+      "missingChannel": "Bitte setze zuerst einen Kanal und versuche dann diesen Befehl erneut.",
+      "missingMessage": "Bitte setze zuerst eine Nachricht und versuche dann diesen Befehl erneut.",
+      "missingMessageID": "Bitte gebe mir eine Nachrichten ID an.",
+      "missingRole": "Bitte gebe mir einen Rollennamen oder eine Erwähnung.",
+      "messageNotFound": "Ich kann diese Nachricht nicht finden. Bitte stelle sicher, dass die Nachrichten ID korrekt ist.",
+      "invalidID": "Das ist keine gültige ID.",
+      "noRoleProvided": "Bitte gebe eine Rolle an.",
+      "noChannelProvided": "Bitte gib einen Kanal an.",
+      "noMessageProvided": "Bitte gebe eine Nachricht an.",
+      "noSuggestionProvided": "Bitte gebe eine Vorschlags ID oder eine Nachrichten ID des gewünschten Vorschlags an."
     },
     "premium": "Diese Funktion ist nur für [premium](https://zira.ovh/premium) verfügbar.",
-    "suggestionsRole": "You need the $role$ role to manage suggestions."
+    "suggestionsRole": "Du benötigst die Rolle $role$, um Vorschläge zu verwalten."
   },
-  "page": "Page",
+  "page": "Seite",
   "logging": {
     "addReaction": {
-      "add": "$mention$ reacted with $emoji$ to get $added$",
-      "remove": "$mention$ reacted with $emoji$ to remove $removed$",
-      "both": "$mention$ reacted with $emoji$ to get $added$ and to remove $removed$"
+      "add": "$mention$ reagierte mit $emoji$, um $added$ zu bekommen",
+      "remove": "$mention$ reagierte mit $emoji$, um $removed$ zu entfernen",
+      "both": "$mention$ reagierte mit $emoji$, um $added$ zu erhalten und $removed$ zu entfernen"
     },
-    "removeReaction": "$mention$ unreacted $emoji$ to remove $roles$"
+    "removeReaction": "$mention$ entfernte Reaktion $emoji$, um $roles$ zu entfernen"
   },
   "suggestions": {
-    "reason": "$user$'s Reason",
-    "footer": "ID: $id$ Submitted",
-    "new": "New Suggestion",
-    "approved": "Approved Suggestion",
-    "denied": "Denied Suggestion",
-    "potential": "Potential Suggestion",
-    "invalid": "Invalid Suggestion",
-    "updated": "Suggestion Updated"
+    "reason": "$user$'s Begründung",
+    "footer": "ID: $id$ Eingereicht",
+    "new": "Neuer Vorschlag",
+    "approved": "Angenommener Vorschlag",
+    "denied": "Abgelehnter Vorschlag",
+    "potential": "Möglicher Vorschlag",
+    "invalid": "Ungültiger Vorschlag",
+    "updated": "Vorschlag aktualisiert"
   },
   "commands": {
     "channel": {
       "help": "Stelle den aktiven Kanal ein.",
-      "args": "<#channel>",
-      "set": " set as the active channel.",
-      "pick": "Please mention the channel you want to use.\nType `cancel` if you would like to cancel."
+      "args": "<#kanal>",
+      "set": " als aktiven Kanal eingestellt.",
+      "pick": "Bitte gebe den Kanal an, den du verwenden möchtest.\nWenn Du Abbrechen möchtest, gibst Du `Abbrechen` ein."
     },
     "message": {
-      "help": "Set the active message.",
-      "args": "<message ID>",
-      "set": "Message set",
-      "pick": "Please provide a message ID for Zira to use or message for Zira to send.\nType `cancel` if you would like to cancel."
+      "help": "Setzt die aktive Nachricht.",
+      "args": "<Nachrichten ID>",
+      "set": "Nachricht eingestellt",
+      "pick": "Bitte gebe eine Nachrichten ID an, die Zira verwenden soll, oder eine Nachricht, die Zira senden soll.\nGib `abbrechen` ein, wenn Du Abbrechen möchtest."
     },
     "embed": {
-      "help": "Create an embed that will be used as the active message.",
-      "args": "[Embed JSON]",
-      "JSONerror": "Invalid JSON provided.\nYou can use the embed creator by using the command",
-      "created": "Embed created.",
+      "help": "Erstelle eine Einbettung, die als aktive Nachricht verwendet wird.",
+      "args": "[Einbetten von JSON]",
+      "JSONerror": "Ungültiges JSON hinzugefügt.\nDu kannst den Einbettungsersteller verwenden, indem du den Befehl",
+      "created": "Einbettung erstellt.",
       "interactive": {
-        "stage": "Stage ",
-        "skipped": "Stage skipped.",
-        "title": "If you would like a title please provide one.\n\nYou'll have 2 minutes for each of the stages to enter in values.\n\nIf you have JSON you would like to use instead of this creator please use **z/embed <JSON>**\n\nYou can skip this stage by typing `skip`.",
-        "description": "If you would like a description please provide one.\n\nYou can skip this stage by typing `skip`.",
-        "image": "If you would like an image please provide a link or upload one\n\nYou can skip this stage by typing `skip`.",
-        "footer": "If you would like a footer please provide one\n\nYou can skip this stage by typing `skip`.",
-        "color": "If you would like a color please provide a hex code\n\nYou can skip this stage by typing `skip`.",
-        "creating": "Creating embed."
+        "stage": "Phase ",
+        "skipped": "Phase übersprungen.",
+        "title": "Wenn du einen Titel möchtest, gib bitte einen an.\n\nDu hast 2 Minuten Zeit für jede der Phasen, um Werte einzugeben.\n\nWenn Du JSON hast, was du anstelle dieses Erstellers verwenden möchtest, verwende bitte **z/embed <JSON>**.\n\nDu kannst diese Phase überspringen, indem Du `überspringen` eingibst.",
+        "description": "Wenn Du eine Beschreibung wünschst, gebe diese bitte an.\n\nDu kannst diese Phase überspringen, indem Du `überspringen` eingibst.",
+        "image": "Wenn Du ein Bild wünschst, gebe bitte einen Link an oder lade eines hoch.\n\nDu kannst diese Phase überspringen, indem Du `überspringen` eingibst.",
+        "footer": "Wenn du eine Fußzeile möchtest, gib bitte eine an.\n\nDu kannst diese Phase überspringen, indem Du `überspringen` eingibst.",
+        "color": "Wenn du eine Farbe möchtest, gib bitte einen Hex-Code an.\n\nDu kannst diese Phase überspringen, indem Du `überspringen` eingibst.",
+        "creating": "Einbettung erstellen."
       }
     },
     "config": {
-      "help": "Guild config.",
+      "help": "Discord Konfiguration.",
       "args": "",
       "prefix": {
         "args": "<prefix>",
-        "error": "Please provide a prefix that's between 1 and 10 characters and has at least one of these characters in it:  `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
-        "set": "Prefix has been set to"
+        "error": "Bitte gebe ein Präfix an, das zwischen 1 und 10 Zeichen lang ist und mindestens eines dieser Zeichen enthält:  `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
+        "set": "Prefix geändert auf"
       },
       "role": {
-        "args": "<@role | disable>",
-        "error": "Please mention a role or provide a role name, or if you would like to disable the role, type",
-        "set": "Role set. Only people with $role$ will be able to use Zira commands.",
+        "args": "<@rolle | ausschalten>",
+        "error": "Bitte erwähne eine Rolle oder gebe einen Rollennamen an, oder wenn Du die Rolle deaktivieren möchtest, gebe Folgendes ein",
+        "set": "Rolle gesetzt. Nur Personen mit $role$ können Zira Befehle verwenden.",
         "disable": "Anyone with the correct permissions can use Zira's commands now."
       },
       "reset": {
@@ -174,13 +174,13 @@
       "args": "",
       "check": {
         "help": "Checks for deleted roles on a message.",
-        "args": "<message ID>",
+        "args": "<Nachrichten ID>",
         "none": "All roles valid.",
         "removed": "role(s) removed."
       },
       "all": {
         "help": "Remove all roles from a message.",
-        "args": "<message ID>",
+        "args": "<Nachrichten ID>",
         "done": "Any roles on the message have been removed."
       },
       "remove": {
@@ -198,19 +198,19 @@
       "success": "Message has been edited.",
       "pick": "Please provide a new message.",
       "interactive": {
-        "stage": "Stage ",
-        "skipped": "Stage skipped.",
+        "stage": "Phase ",
+        "skipped": "Phase übersprungen.",
         "title": "If you would like a title please provide one.\n\nYou'll have 2 minutes for each of the stages to enter in values.\n\nIf you have JSON you would like to use instead of this creator please use **z/edit $message <JSON>**\n\nYou can skip this stage by typing `skip`.",
-        "description": "If you would like a description please provide one.\n\nYou can skip this stage by typing `skip`.",
-        "image": "If you would like an image please provide a link or upload one\n\nYou can skip this stage by typing `skip`.",
-        "footer": "If you would like a footer please provide one\n\nYou can skip this stage by typing `skip`.",
-        "color": "If you would like a color please provide a hex code\n\nYou can skip this stage by typing `skip`.",
+        "description": "Wenn Du eine Beschreibung wünschst, gebe diese bitte an.\n\nDu kannst diese Phase überspringen, indem Du `überspringen` eingibst.",
+        "image": "Wenn Du ein Bild wünschst, gebe bitte einen Link an oder lade eines hoch.\n\nDu kannst diese Phase überspringen, indem Du `überspringen` eingibst.",
+        "footer": "Wenn du eine Fußzeile möchtest, gib bitte eine an.\n\nDu kannst diese Phase überspringen, indem Du `überspringen` eingibst.",
+        "color": "Wenn du eine Farbe möchtest, gib bitte einen Hex-Code an.\n\nDu kannst diese Phase überspringen, indem Du `überspringen` eingibst.",
         "creating": "Editing embed."
       }
     },
     "log": {
       "help": "Log role events to a channel",
-      "args": "<#channel>",
+      "args": "<#kanal>",
       "set": " set as the logging channel.\n\n**Note:** If I can't send messages to the channel I will disable logging.",
       "disable": "Role logging is now disabled."
     },
@@ -242,7 +242,7 @@
       "args": "",
       "channel": {
         "help": "Set the channel join messages should be sent in",
-        "args": "<#channel>",
+        "args": "<#kanal>",
         "set": " set as the join channel.\n\n**Note:** If I can't send messages to the channel I will disable join messages."
       },
       "disable": {
@@ -276,7 +276,7 @@
       "args": "",
       "channel": {
         "help": "Set the channel leave messages should be sent in",
-        "args": "<#channel>",
+        "args": "<#kanal>",
         "set": " set as the leave channel.\n\n**Note:** If I can't send messages to the channel I will disable leave messages."
       },
       "disable": {
