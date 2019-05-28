@@ -51,7 +51,7 @@
       "noMessageProvided": "Vær venlig at give en besked.",
       "noSuggestionProvided": "Vær venlig at give et forslags ID eller et beskeds ID af det forslag du vil have."
     },
-    "premium": "Denne funktion er kun for folk med [premium](https://zira.ovh/premium).",
+    "premium": "Denne funktion er kun for folk med [Premium](https://zira.ovh/premium).",
     "suggestionsRole": "Du har brug for rollen $role$ for at administrere forslag."
   },
   "page": "Side",
@@ -150,7 +150,7 @@
     "toggle": {
       "help": "Sæt en omskiftelig rolle",
       "args": "<emoji> <rolle>",
-      "limit": "Der er en begrænsning på 6 gratis omskiftelige roller. Du får uendelige omskiftelige roller med [premium](https://zira.ovh/premium)"
+      "limit": "Der er en begrænsning på 6 gratis omskiftelige roller. Du får uendelige omskiftelige roller med [Premium](https://zira.ovh/premium)"
     },
     "once": {
       "help": "Sæt en engangsrolle",
@@ -316,7 +316,7 @@
       "new": {
         "help": "Sæt den kanal som nye forslag bliver sendt til",
         "args": "<#kanal | disable>",
-        "set": "Nyeforslag vil blive sendt til",
+        "set": "Nye forslag vil blive sendt til",
         "disable": "Forslag er nu deaktiveret."
       },
       "approved": {
@@ -326,58 +326,58 @@
         "disable": "Godkendte forslag vil ikke blive flyttet til an kanal længere."
       },
       "denied": {
-        "help": "Set the channel denied suggestions will get sent to",
+        "help": "Sæt den kanal som ugodkendte forslag bliver sendt til",
         "args": "<#kanal | disable>",
-        "set": "Denied suggestions will get sent to",
-        "disable": "Denied suggestions will no longer be moved to a channel."
+        "set": "Ugodkendte forslag vil blive sendt til",
+        "disable": "Ugodkendte forslag vil ikke blive flyttet til an kanal længere."
       },
       "invalid": {
-        "help": "Set the channel invalid suggestions will get sent to",
+        "help": "Sæt den kanal som ugyldige forslag bliver sendt til",
         "args": "<#kanal | disable>",
-        "set": "Invalid suggestions will get sent to",
-        "disable": "Invalid suggestions will no longer be moved to a channel."
+        "set": "Ugyldige forslag vil blive sendt til",
+        "disable": "Ugyldige forslag vil ikke blive flyttet til an kanal længere."
       },
       "potential": {
-        "help": "Set the channel potential suggestions will get sent to",
+        "help": "Sæt den kanal som potentielle forslag bliver sendt til",
         "args": "<#kanal | disable>",
-        "set": "Potential suggestions will get sent to",
-        "disable": "Potential suggestions will no longer be moved to a channel."
+        "set": "Potentielle forslag vil blive sendt til",
+        "disable": "Potentielle forslag vil ikke blive flyttet til an kanal længere."
       },
       "submit": {
-        "help": "Set the channel users will have to use to submit a suggestion\n[Premium Feature](https://zira.ovh/premium)",
+        "help": "Sæt kanalen som brugere skal anvende til at indsende forslag i\n[Kun for Premium](https://zira.ovh/premium)",
         "args": "<#kanal | disable>",
-        "set": "Suggestions can now only be made in",
-        "disable": "Suggestions can now be made in any channel."
+        "set": "Forslag kan nu kun laves i",
+        "disable": "Forslag kan nu laves i en anden kanal."
       },
       "dm": {
-        "help": "Set whether users should get updates on their suggestions\n[Premium Feature](https://zira.ovh/premium)",
-        "on": "Users will get updates about their suggestions.",
-        "off": "Users won't be updated about their suggestions."
+        "help": "Sæt om brugere skal få opdateringer på deres forslag\n[Kun for Premium](https://zira.ovh/premium)",
+        "on": "Brugere vil få opdateringer på deres forslag.",
+        "off": "Brugere vil ikke få opdateringer på deres forslag."
       },
       "reaction": {
-        "help": "Set whether emojis should be reacted to new suggestions\n[Premium Feature](https://zira.ovh/premium)",
-        "on": "Suggestions will now have emojis set with **$prefix$suggestion emojis** reacted to them.",
-        "off": "Suggestions will no longer be reacted to."
+        "help": "Sæt om der skal reageres med emojis på nye forslag\n[Kun for Premium](https://zira.ovh/premium)",
+        "on": "Forslag vil ni have emojis sat med **$prefix$suggestion emojis** reageret på dem.",
+        "off": "Der vil nu ikke blive reageret på forslag mere."
       },
       "emojis": {
-        "help": "Set the emojis to be used when reacting to suggestions\n[Premium Feature](https://zira.ovh/premium)",
-        "args": "<emojiOne> <emojiTwo>",
-        "set": "Emojis have been set.",
-        "needTwo": "Please provide two emojis."
+        "help": "Sæt emojierne der skal bruges til at reagere på nye forslag\n[Kun for Premium](https://zira.ovh/premium)",
+        "args": "<emojiEn> <emojiTo>",
+        "set": "Emojis er sat.",
+        "needTwo": "Angiv venligst to emojier."
       },
       "role": {
-        "help": "Set a role that can approve, deny, etc suggestions",
-        "args": "<role | disable>",
-        "set": "Only users with $role$ and the guild owner will be able to interactive with suggestions.",
-        "disable": "Anyone with the **Manage Guild** permission will now be able to interact with suggestions."
+        "help": "Sæt en rolle der kan godkende, ikke godkende, osv med forslag",
+        "args": "<rolle | disable>",
+        "set": "Kun brugere med $role$ og ejeren af serveren er i stand til at interagere med forslag.",
+        "disable": "Alle med **Administrer Server** tilladelsen kan interagere med forslag."
       }
     },
     "suggest": {
       "help": "Indsend et forslag",
       "args": "<forslag>",
       "setup": "Forslag er ikke sat op. Brug **$prefix$suggestion new** for at sætte forslag op.",
-      "submitChannel": "Please use $channel$ to submit suggestions.",
-      "provideSuggestion": "Please provide a suggestion."
+      "submitChannel": "Brug venligst $channel$ til at indsende forslag.",
+      "provideSuggestion": "Angiv venligst et forslag."
     },
     "approve": {
       "help": "Godkend et forslag",
@@ -385,17 +385,17 @@
       "update": "Dit forslag [$id$]($url$) er blevet godkendt."
     },
     "deny": {
-      "help": "Deny a suggestion",
+      "help": "Ugodkend et forslag",
       "args": "<ID>[grund]",
-      "update": "Your suggestion [$id$]($url$) has been denied."
+      "update": "Dit forslag [$id$]($url$) er ikke godkendt."
     },
     "maybe": {
-      "help": "Potentialy approve a suggestion",
+      "help": "Potientelt godkent et forslag",
       "args": "<ID>[grund]",
-      "update": "Your suggestion [$id$]($url$) has been potentially approved."
+      "update": "Dit forslag [$id$]($url$) er blevet potentielt godkendt."
     },
     "invalid": {
-      "help": "Mark a suggestion as invalid",
+      "help": "Marker et forslag som ugyldigt",
       "args": "<ID>[grund]",
       "update": "Dit forslag [$id$]($url$) er blevet markeret ugyldig."
     },
