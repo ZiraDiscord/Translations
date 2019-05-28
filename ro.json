@@ -161,7 +161,7 @@
       "help": "Arată toate rolurile.",
       "args": "",
       "title": "Listă Roluri",
-      "description": "You can remove a role listed here with **$prefix$delete**\nYou can remove any deleted roles listed by doing **$prefix$delete <message ID> check**.",
+      "description": "Poți elimina rolurile listate aici folosind comanda **$prefix$delete**\nPoți elimina orice roluri șterse folosind comanda **$prefix$delete <ID mesaj> check**.",
       "role": "Rol",
       "channel": "Canal",
       "message": "Mesaj",
@@ -173,7 +173,7 @@
       "help": "Șterge un rol care a fost setat.",
       "args": "",
       "check": {
-        "help": "Checks for deleted roles on a message.",
+        "help": "Verifică pentru roluri șterse de pe un mesaj.",
         "args": "<ID mesaj>",
         "none": "Toate rolurile valide.",
         "removed": "rol(uri) eliminate."
@@ -186,21 +186,21 @@
       "remove": {
         "help": "Elimină un rol de pe un mesaj",
         "args": "<ID mesaj> <rol>",
-        "none": "That role is not setup on that message ID.",
+        "none": "Acest rol nu este setat pe mesajul cu acest ID.",
         "done": "Acest rol a fost eliminat."
       },
-      "description": "You can find the message ID a role is on with **$prefix$list**."
+      "description": "Poți să găsești ID-ul unui mesaj care are un rol setat folosind comanda **$prefix$list**."
     },
     "edit": {
       "help": "Editează un mesaj trimis de Zira.",
       "args": "<ID mesaj> <mesaj nou>",
       "notFound": "Nu a fost găsit nici un mesaj cu acest ID.",
       "success": "Mesajul a fost editat.",
-      "pick": "Please provide a new message.",
+      "pick": "Te rog să furnizezi un mesaj nou.",
       "interactive": {
         "stage": "Pas ",
         "skipped": "Pas sărit.",
-        "title": "If you would like a title please provide one.\n\nYou'll have 2 minutes for each of the stages to enter in values.\n\nIf you have JSON you would like to use instead of this creator please use **z/edit $message <JSON>**\n\nYou can skip this stage by typing `skip`.",
+        "title": "Dacă vrei, furnizează un titlu.\n\nVei avea 2 minute pentru fiecare pas pentru a introduce valori.\n\nDacă deja ai un JSON pe care vrei să îl folosești, poți rula comanda **z/edit $message <JSON>**\n\nPoți sări peste acest pas scriind `skip`.",
         "description": "Dacă vrei, furnizează o descriere.\n\nPoți sări peste acest pas scriind `skip`.",
         "image": "Dacă vrei, furnizează un link de imagine sau încarcă o imagine direct.\n\nPoți sări peste acest pas scriind `skip`.",
         "footer": "Dacă vrei, furnizează o notă de subsol.\n\nPoți sări peste acest pas scriind `skip`.",
@@ -209,16 +209,16 @@
       }
     },
     "log": {
-      "help": "Log role events to a channel",
+      "help": "Înregistrează acțiunile efectuate într-un canal",
       "args": "<#canal>",
-      "set": " set as the logging channel.\n\n**Note:** If I can't send messages to the channel I will disable logging.",
-      "disable": "Role logging is now disabled."
+      "set": " a fost setat ca canalul de înregistrări.\n\n**Atenție:** Dacă nu pot trimite mesaje in acest canal, voi dezactiva înregistrarea.",
+      "disable": "Înregistrarea acțiunilor a fost dezactivată."
     },
     "autorole": {
-      "help": "Give roles to be given when a member joins",
+      "help": "Setează rolurile care să fie date când un utilizator intră",
       "args": "",
       "user": {
-        "help": "Give roles for when a person joins",
+        "help": "Adaugă roluri utilizatorilor când intră în server",
         "args": "<rol>",
         "set": "Rolul $role$ va fi dat utilizatorilor când intră.",
         "remove": "Rolul $role$ nu va mai fi dat utilizatorilor când intră."
@@ -235,31 +235,31 @@
         "bot": "Roluri pentru boți",
         "noRoles": "Niciun rol setat :("
       },
-      "removeTip": "If you would like to remove a role that is setup with autoroles, just do the command you used to set it up again."
+      "removeTip": "Dacă vrei să elimini un rol care a fost setat cu auto-roluri, rulează comanda din nou."
     },
     "join": {
       "help": "Mesaje de intrare",
       "args": "",
       "channel": {
-        "help": "Set the channel join messages should be sent in",
+        "help": "Setează canalul pentru mesaje de intrare",
         "args": "<#canal>",
-        "set": " set as the join channel.\n\n**Note:** If I can't send messages to the channel I will disable join messages."
+        "set": " a fost setat ca canalul de intrări.\n\n**Atenție:** Dacă nu pot trimite mesaje in acest canal, voi dezactiva mesajele de intrare."
       },
       "disable": {
-        "help": "Disable join messages",
+        "help": "Dezactivează mesaje de intrare",
         "args": "",
-        "success": "Join messages disabled."
+        "success": "Mesaje de intrare dezactivate."
       },
       "add": {
-        "help": "Add a message.",
+        "help": "Adaugă un mesaj.",
         "args": "<mesaj>",
         "success": "Mesaj adăugat."
       },
       "remove": {
-        "help": "Remove a message",
+        "help": "Elimină un mesaj",
         "args": "<ID din listă>",
-        "noID": "Please provide an ID from $prefix$join list",
-        "notFound": "A message with that ID doesn't exist.",
+        "noID": "Te rog furnizează un ID din lista **$prefix$join**",
+        "notFound": "Un mesaj cu acel ID nu există.",
         "success": "Mesaj șters."
       },
       "list": {
@@ -275,9 +275,9 @@
       "help": "Mesaje de ieșire",
       "args": "",
       "channel": {
-        "help": "Set the channel leave messages should be sent in",
+        "help": "Setează canalul pentru mesaje de ieșire",
         "args": "<#canal>",
-        "set": " set as the leave channel.\n\n**Note:** If I can't send messages to the channel I will disable leave messages."
+        "set": " a fost setat ca canalul de ieșiri.\n\n**Atenție:** Dacă nu pot trimite mesaje in acest canal, voi dezactiva mesajele de ieșire."
       },
       "disable": {
         "help": "Dezactivează mesaje de ieșire",
@@ -290,10 +290,10 @@
         "success": "Mesaj adăugat."
       },
       "remove": {
-        "help": "Remove a message",
+        "help": "Elimină un mesaj",
         "args": "<ID din listă>",
-        "noID": "Please provide an ID from $prefix$leave list",
-        "notFound": "A message with that ID doesn't exist.",
+        "noID": "Te rog furnizează un ID din lista **$prefix$leave**",
+        "notFound": "Un mesaj cu acel ID nu există.",
         "success": "Mesaj șters."
       },
       "list": {
@@ -301,121 +301,121 @@
         "args": ""
       },
       "placeholders": {
-        "title": "Usable Placeholders",
+        "title": "Template-uri",
         "description": "$user$ - nume de utilizator\n$mention$ - mențiune de utilizator\n$guild$ - nume server\n$membercount$ - număr de membri"
       }
     },
     "rooms": {
-      "help": "Setup private rooms",
+      "help": "Configurează camere private",
       "args": "",
-      "success": "Private rooms setup."
+      "success": "Camere private configurate."
     },
     "suggestion": {
-      "help": "Suggestion config",
+      "help": "Configurare sugestii",
       "args": "",
       "new": {
-        "help": "Set the channel new suggestions will get sent to",
-        "args": "<#channel | disable>",
-        "set": "New suggestions will get sent to",
-        "disable": "Suggestions are now disabled."
+        "help": "Setează canalul în care vor fi trimise sugestiile noi",
+        "args": "<#canal | disable>",
+        "set": "Sugestiile noi vor fi trimise în",
+        "disable": "Sugestiile au fost dezactivate."
       },
       "approved": {
-        "help": "Set the channel approved suggestions will get sent to",
-        "args": "<#channel | disable>",
-        "set": "Approved suggestions will get sent to",
-        "disable": "Approved suggestions will no longer be moved to a channel."
+        "help": "Setează canalul în care vor fi trimise sugestiile aprobate",
+        "args": "<#canal | disable>",
+        "set": "Sugestiile aprobate vor fi trimise în",
+        "disable": "Sugestiile aprobate nu vor mai fi mutate într-un alt canal."
       },
       "denied": {
-        "help": "Set the channel denied suggestions will get sent to",
-        "args": "<#channel | disable>",
-        "set": "Denied suggestions will get sent to",
-        "disable": "Denied suggestions will no longer be moved to a channel."
+        "help": "Setează canalul în care vor fi trimise sugestiile respinse",
+        "args": "<#canal | disable>",
+        "set": "Sugestiile respinse vor fi trimise în",
+        "disable": "Sugestiile respinse nu vor mai fi mutate într-un alt canal."
       },
       "invalid": {
-        "help": "Set the channel invalid suggestions will get sent to",
-        "args": "<#channel | disable>",
-        "set": "Invalid suggestions will get sent to",
-        "disable": "Invalid suggestions will no longer be moved to a channel."
+        "help": "Setează canalul în care vor fi trimise sugestiile invalide",
+        "args": "<#canal | disable>",
+        "set": "Sugestiile invalide vor fi trimise în",
+        "disable": "Sugestiile invalide nu vor mai fi mutate într-un alt canal."
       },
       "potential": {
-        "help": "Set the channel potential suggestions will get sent to",
-        "args": "<#channel | disable>",
-        "set": "Potential suggestions will get sent to",
-        "disable": "Potential suggestions will no longer be moved to a channel."
+        "help": "Setează canalul în care vor fi trimise sugestiile potențiale",
+        "args": "<#canal | disable>",
+        "set": "Sugestiile potențiale vor fi trimise în",
+        "disable": "Sugestiile potențiale nu vor mai fi mutate într-un alt canal."
       },
       "submit": {
-        "help": "Set the channel users will have to use to submit a suggestion\n[Premium Feature](https://zira.ovh/premium)",
-        "args": "<#channel | disable>",
-        "set": "Suggestions can now only be made in",
-        "disable": "Suggestions can now be made in any channel."
+        "help": "Setează canalul din care pot fi trimise sugestii\n[Funcție Premium](https://zira.ovh/premium)",
+        "args": "<#canal | disable>",
+        "set": "Sugestiile pot să fie trimise doar din",
+        "disable": "Sugestiile vor putea sa fie trimise din orice canal."
       },
       "dm": {
-        "help": "Set whether users should get updates on their suggestions\n[Premium Feature](https://zira.ovh/premium)",
-        "on": "Users will get updates about their suggestions.",
-        "off": "Users won't be updated about their suggestions."
+        "help": "Setează dacă utilizatorii ar trebui să primească notificări despre sugestiile lor\n[Funcție Premium](https://zira.ovh/premium)",
+        "on": "Utilizatorii vor primi notificări despre sugestiile lor.",
+        "off": "Utilizatorii nu vor mai primi notificări despre sugestiile lor."
       },
       "reaction": {
-        "help": "Set whether emojis should be reacted to new suggestions\n[Premium Feature](https://zira.ovh/premium)",
-        "on": "Suggestions will now have emojis set with **$prefix$suggestion emojis** reacted to them.",
-        "off": "Suggestions will no longer be reacted to."
+        "help": "Setează dacă Zira ar trebui să adauge reacții la sugestii noi\n[Funcție Premium](https://zira.ovh/premium)",
+        "on": "Zira va reacționa automat la sugestii noi cu emoji-urile setate cu **$prefix$suggestion emojis**.",
+        "off": "Zira nu va mai reacționa la sugestii."
       },
       "emojis": {
-        "help": "Set the emojis to be used when reacting to suggestions\n[Premium Feature](https://zira.ovh/premium)",
-        "args": "<emojiOne> <emojiTwo>",
-        "set": "Emojis have been set.",
-        "needTwo": "Please provide two emojis."
+        "help": "Setează emoji-urile care să fie folosite pentru a reacționa la sugestii\n[Funcție Premium](https://zira.ovh/premium)",
+        "args": "<emoji1> <emoji2>",
+        "set": "Emoji-urile au fost setate.",
+        "needTwo": "Te rog introdu două emoji-uri."
       },
       "role": {
-        "help": "Set a role that can approve, deny, etc suggestions",
-        "args": "<role | disable>",
-        "set": "Only users with $role$ and the guild owner will be able to interactive with suggestions.",
-        "disable": "Anyone with the **Manage Guild** permission will now be able to interact with suggestions."
+        "help": "Setează un rol care poate gestiona sugestii",
+        "args": "<rol | disable>",
+        "set": "Doar utilizatorii cu rolul $role$ și deținătorul server-ului vor putea să interacționeze cu sugestii.",
+        "disable": "Oricine cu permisiunea **Gestionează Server** va putea să interacționeze cu sugestii."
       }
     },
     "suggest": {
-      "help": "Submit a suggestion",
-      "args": "<suggestion>",
-      "setup": "Suggestions are not setup. Use **$prefix$suggestion new** to setup suggestions.",
-      "submitChannel": "Please use $channel$ to submit suggestions.",
-      "provideSuggestion": "Please provide a suggestion."
+      "help": "Trimite o sugestie",
+      "args": "<sugestie>",
+      "setup": "Sugestiile nu au fost configurate. Folosește comanda **$prefix$suggestion new** pentru a configura funcția de sugestii.",
+      "submitChannel": "Folosește $channel$ pentru a trimite sugestii.",
+      "provideSuggestion": "Sugestia nu poate să fie goală."
     },
     "approve": {
       "help": "Aprobă o sugestie",
-      "args": "<ID> [reason]",
-      "update": "Your suggestion [$id$]($url$) has been approved."
+      "args": "<ID> [motiv]",
+      "update": "Sugestia ta [$id$]($url$) a fost aprobată."
     },
     "deny": {
       "help": "Respinge o sugestie",
-      "args": "<ID> [reason]",
-      "update": "Your suggestion [$id$]($url$) has been denied."
+      "args": "<ID> [motiv]",
+      "update": "Sugestia ta [$id$]($url$) a fost respinsă."
     },
     "maybe": {
-      "help": "Potentialy approve a suggestion",
-      "args": "<ID> [reason]",
-      "update": "Your suggestion [$id$]($url$) has been potentially approved."
+      "help": "Aprobă potențial o sugestie",
+      "args": "<ID> [motiv]",
+      "update": "Sugestia ta [$id$]($url$) a fost aprobată potențial."
     },
     "invalid": {
-      "help": "Mark a suggestion as invalid",
-      "args": "<ID> [reason]",
-      "update": "Your suggestion [$id$]($url$) has been marked invalid."
+      "help": "Marchează o sugestie ca invalidă",
+      "args": "<ID> [motiv]",
+      "update": "Sugestia ta [$id$]($url$) a fost marcată ca fiind invalidă."
     },
     "help": {
       "categories": [
-        "Roles",
-        "Suggestion",
-        "Logging",
-        "Miscellaneous"
+        "Roluri",
+        "Sugestii",
+        "Înregistrare",
+        "Diverse"
       ],
-      "commands": "Commands",
-      "title": "Links",
-      "footer": "<> = Required [] = Optional",
+      "commands": "Comenzi",
+      "title": "Link-uri",
+      "footer": "<> = Obligatorii [] = Opționali",
       "links": [
-        "[Guide](https://docs.zira.ovh/)",
-        "[Support Server](https://zira.ovh/support)",
+        "[Ghid](https://docs.zira.ovh/)",
+        "[Server de Suport](https://zira.ovh/support)",
         "[Zira Premium](https://zira.ovh/premium)",
-        "[Invite Zira](https://zira.ovh/invite)",
-        "[Translate Zira](https://translate.zira.ovh/)",
-        "[Bot Status](https://status.imjake.me/)"
+        "[Invită Zira](https://zira.ovh/invite)",
+        "[Tradu Zira](https://translate.zira.ovh/)",
+        "[Status-ul Bot-ului](https://status.imjake.me/)"
       ]
     }
   }
