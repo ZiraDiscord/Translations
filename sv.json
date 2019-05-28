@@ -119,7 +119,7 @@
       "reset": {
         "args": "",
         "question": ":warning: Är du säker att du vill nollställa serverkonfigurationen?\nVänligen skriv `yes` eller `no`.",
-        "done": "Ok, Guild config has been reset!",
+        "done": "Okej, serverkonfiguration har nollställts!",
         "cancel": "Phew. Serverkonfiguration har inte nollställts."
       },
       "language": {
@@ -155,7 +155,7 @@
     "once": {
       "help": "Ställ in en engångsroll",
       "args": "<emoji> <roll>",
-      "error": "Since there is a role set on this message with this emoji already that isnt a once reaction, you cant add any once reactions."
+      "error": "Eftersom denna emoji redan används på detta meddelande kan du inte lägga till några engångsreaktioner på det."
     },
     "list": {
       "help": "Visa alla roller.",
@@ -368,7 +368,7 @@
       "role": {
         "help": "Ställ in en roll som kan godkänna, neka, etc förslag",
         "args": "<roll | disable>",
-        "set": "Only users with $role$ and the guild owner will be able to interactive with suggestions.",
+        "set": "Endast användare med $role$ och serverägaren kommer kunna interagera med förslag.",
         "disable": "Vem som helst med behörigheten **Hantera server** kan nu interagera med förslag."
       }
     },
@@ -390,7 +390,7 @@
       "update": "Ditt förslag [$id$]($url$) har nekats."
     },
     "maybe": {
-      "help": "Potentialy approve a suggestion",
+      "help": "Godkänn ett förslag potentiellt",
       "args": "<ID> [anledning]",
       "update": "Ditt förslag [$id$]($url$) har potentiellt godkänts."
     },
