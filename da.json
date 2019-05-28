@@ -220,20 +220,20 @@
       "user": {
         "help": "Angiv roller der skal gives når en person bliver medlem",
         "args": "<rolle>",
-        "set": "$role$ will be given when a user joins.",
-        "remove": "$role$ will no longer be given when a user joins."
+        "set": "$role$ bliver givet når en bruger bliver medlem.",
+        "remove": "$role$ vil ikke blive givet når en bruger bliver medlem."
       },
       "bot": {
-        "help": "Give roles for when a bot joins",
+        "help": "Giv roller når en bot bliver medlem",
         "args": "<rolle>",
-        "set": "$role$ will be given when a bot joins.",
-        "remove": "$role$ will no longer be given when a bot joins."
+        "set": "$role$ vil blive givet når en bot bliver medlem.",
+        "remove": "$role$ vil ikke blive givetnår en bot bliver medlem."
       },
       "show": {
-        "help": "Show the roles currently setup",
-        "user": "User Roles",
-        "bot": "Bot Roles",
-        "noRoles": "No roles setup :("
+        "help": "Vis rollerne der er sat op",
+        "user": "Bruger roller",
+        "bot": "Bot roller",
+        "noRoles": "Der er ikke sat nogen roller op :("
       },
       "removeTip": "If you would like to remove a role that is setup with autoroles, just do the command you used to set it up again."
     },
