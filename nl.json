@@ -166,11 +166,11 @@
       "channel": "Kanaal",
       "message": "Bericht",
       "emoji": "Emoji",
-      "link": "Jump to message",
+      "link": "Spring naar bericht",
       "type": "Type"
     },
     "delete": {
-      "help": "Delete a role that has been setup.",
+      "help": "Verwijder een rol die ingesteld is.",
       "args": "",
       "check": {
         "help": "Checks for deleted roles on a message.",
@@ -185,17 +185,17 @@
       },
       "remove": {
         "help": "Remove a role from a message",
-        "args": "<message ID> <role>",
+        "args": "<bericht ID> <rol>",
         "none": "That role is not setup on that message ID.",
-        "done": "The role has been removed."
+        "done": "De rol is verwijderd."
       },
       "description": "You can find the message ID a role is on with **$prefix$list**."
     },
     "edit": {
-      "help": "Edit a message sent by Zira.",
+      "help": "Bewerk een bericht die gestuurd is door Zira.",
       "args": "<message ID> <new message>",
       "notFound": "That message ID was not found.",
-      "success": "Message has been edited.",
+      "success": "Bericht is bewerkt.",
       "pick": "Please provide a new message.",
       "interactive": {
         "stage": "Stage ",
@@ -230,7 +230,7 @@
         "remove": "$role$ will no longer be given when a bot joins."
       },
       "show": {
-        "help": "Show the roles currently setup",
+        "help": "Laat alle rollen zien die ingesteld is",
         "user": "Gebruiker Rollen",
         "bot": "Bot Rollen",
         "noRoles": "Geen rollen ingesteld :("
