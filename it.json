@@ -200,63 +200,63 @@
       "interactive": {
         "stage": "Fase ",
         "skipped": "Fase saltata.",
-        "title": "If you would like a title please provide one.\n\nYou'll have 2 minutes for each of the stages to enter in values.\n\nIf you have JSON you would like to use instead of this creator please use **z/edit $message <JSON>**\n\nYou can skip this stage by typing `skip`.",
+        "title": "Se desideri un titolo, si prega di fornirne uno. \n\nHai 2 minuti per ciascuna di queste fasi per inserire i valori.\n\nSe hai un JSON che vorresti utilizzare al posto di questo creatore per favore utilizza **z/embed $message <JSON>** \n\nÈ possibile saltare questa fase digitando `skip`.",
         "description": "Se si desidera una descrizione si prega di fornire una descrizione.\n\nÈ possibile saltare questa fase digitando `skip`.",
         "image": "Se si desidera un'immagine si prega di fornire un link o caricarne una\n\nÈ possibile saltare questa fase digitando `skip`.",
         "footer": "Se si desidera un piè di pagina si prega di fornire uno\n\nÈ possibile saltare questa fase digitando `skip`.",
         "color": "Se si desidera un colore si prega di fornire un codice esadecimale\n\nÈ possibile saltare questa fase digitando `skip`.",
-        "creating": "Editing embed."
+        "creating": "Modifica embed."
       }
     },
     "log": {
-      "help": "Log role events to a channel",
+      "help": "Salva i logs delle modifiche ruoli in un canale",
       "args": "<#canale>",
-      "set": " set as the logging channel.\n\n**Note:** If I can't send messages to the channel I will disable logging.",
-      "disable": "Role logging is now disabled."
+      "set": " impostato come canale log.\n\n**Nota:** Se non posso mandare messaggi in quel canale disattiverò i logs.",
+      "disable": "I logs dei Ruoli sono ora disattivati."
     },
     "autorole": {
       "help": "Give roles to be given when a member joins",
       "args": "",
       "user": {
-        "help": "Give roles for when a person joins",
+        "help": "Dai dei ruoli quando un utente entra",
         "args": "<role>",
-        "set": "$role$ will be given when a user joins.",
-        "remove": "$role$ will no longer be given when a user joins."
+        "set": "$role$ verrà dato quando un utente entra.",
+        "remove": "$role$ non verrà più dato quando un utente entra."
       },
       "bot": {
-        "help": "Give roles for when a bot joins",
+        "help": "Dai dei ruoli quando un bot entra",
         "args": "<role>",
-        "set": "$role$ will be given when a bot joins.",
-        "remove": "$role$ will no longer be given when a bot joins."
+        "set": "$role$ verrà dato quando un bot entra.",
+        "remove": "$role$ non verrà più dato quando un bot entra."
       },
       "show": {
-        "help": "Show the roles currently setup",
-        "user": "User Roles",
-        "bot": "Bot Roles",
-        "noRoles": "No roles setup :("
+        "help": "Mostra i ruoli attualmente impostati",
+        "user": "Ruoli Utenti",
+        "bot": "Ruoli Bot",
+        "noRoles": "Nessun ruolo impostato :("
       },
-      "removeTip": "If you would like to remove a role that is setup with autoroles, just do the command you used to set it up again."
+      "removeTip": "Se desideri rimuovere un ruolo che è stato impostato con l'autorole, basta digitare nuovamente il comando che hai utilizzato per crearlo."
     },
     "join": {
-      "help": "Join messages",
+      "help": "Messaggi di entrata",
       "args": "",
       "channel": {
-        "help": "Set the channel join messages should be sent in",
+        "help": "Imposta il canale dove i messaggi di entrata devono essere inviati",
         "args": "<#canale>",
-        "set": " set as the join channel.\n\n**Note:** If I can't send messages to the channel I will disable join messages."
+        "set": " impostato come canale di entrata.\n\n**Nota:** Se non posso mandare messaggi in quel canale disattiverò i messaggi di entrata."
       },
       "disable": {
-        "help": "Disable join messages",
+        "help": "Disattiva i messaggi di entrata",
         "args": "",
-        "success": "Join messages disabled."
+        "success": "Messaggi di entrata disattivati."
       },
       "add": {
-        "help": "Add a message.",
+        "help": "Aggiungi un messaggio.",
         "args": "<message>",
-        "success": "Message added."
+        "success": "Messaggio aggiunto."
       },
       "remove": {
-        "help": "Remove a message",
+        "help": "Rimuovi un messaggio",
         "args": "<ID from list>",
         "noID": "Please provide an ID from $prefix$join list",
         "notFound": "A message with that ID doesn't exist.",
@@ -285,12 +285,12 @@
         "success": "Leave messages disabled."
       },
       "add": {
-        "help": "Add a message.",
+        "help": "Aggiungi un messaggio.",
         "args": "<message>",
-        "success": "Message added."
+        "success": "Messaggio aggiunto."
       },
       "remove": {
-        "help": "Remove a message",
+        "help": "Rimuovi un messaggio",
         "args": "<ID from list>",
         "noID": "Please provide an ID from $prefix$leave list",
         "notFound": "A message with that ID doesn't exist.",
