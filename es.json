@@ -360,7 +360,7 @@
         "off": "Las sugerencias no serán reaccionadas."
       },
       "emojis": {
-        "help": "Establece los emojis que usar al reaccionar a las sugerencias\n[Característica Premium](https://zira.ovh/premium)",
+        "help": "Establece los emojis que se usaran para reaccionar a las sugerencias\n[Característica Premium](https://zira.ovh/premium)",
         "args": "<emojiUno> <emojiDos>",
         "set": "Los emojis han sido establecidos.",
         "needTwo": "Por favor, proporciona dos emojis."
