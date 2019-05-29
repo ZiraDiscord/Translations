@@ -170,7 +170,7 @@
       "type": "Tipo"
     },
     "delete": {
-      "help": "Eliminar un rol que ha sido establecido.",
+      "help": "Quita un rol que ha sido establecido.",
       "args": "",
       "check": {
         "help": "Comprueba roles eliminados en un mensaje.",
@@ -215,7 +215,7 @@
       "disable": "Registro de roles desactivado."
     },
     "autorole": {
-      "help": "Da roles que son dados cuando entra un usuario",
+      "help": "Asigna roles a los usuarios al unirse",
       "args": "",
       "user": {
         "help": "Da roles cuando un usuario se une al servidor",
@@ -347,7 +347,7 @@
         "help": "Establece el canal que se deberá usar para enviar sugerencias\n[Característica Premium](https://zira.ovh/premium)",
         "args": "<#canal | disable>",
         "set": "Ahora las sugerencias solo se pueden hacer en",
-        "disable": "Las sugerencias ahora pueden enviarse en cualquier canal."
+        "disable": "Las sugerencias ahora pueden hacerse en cualquier canal."
       },
       "dm": {
         "help": "Establece si los usuarios deberían recibir actualizaciones de sus sugerencias\n[Característica Premium](https://zira.ovh/premium)",
@@ -356,17 +356,17 @@
       },
       "reaction": {
         "help": "Establece con qué emojis se debería reaccionar en las nuevas sugerencias\n[Característica Premium](https://zira.ovh/premium)",
-        "on": "Las sugerencias ahora tendrán emojis establecios con **$prefix$suggestion emojis** reaccionados a ellas.",
+        "on": "Las sugerencias ahora tendrán emojis establecidos con **$prefix$suggestion emojis** reaccionados a ellas.",
         "off": "Las sugerencias no serán reaccionadas."
       },
       "emojis": {
         "help": "Establece los emojis que se usaran para reaccionar a las sugerencias\n[Característica Premium](https://zira.ovh/premium)",
-        "args": "<emojiUno> <emojiDos>",
+        "args": "<PrimerEmoji> <SegundoEmoji>",
         "set": "Los emojis han sido establecidos.",
         "needTwo": "Por favor, proporciona dos emojis."
       },
       "role": {
-        "help": "Establece un rol que pueda aprobar, denegar, etc. sugerencias",
+        "help": "Establece un rol que pueda aprobar, rechazar, etc. las sugerencias",
         "args": "<rol | disable>",
         "set": "Sólo los usuarios con $role$ y el dueño del servidor podrán interactuar con las sugerencias.",
         "disable": "Cualquiera con los permisos para **Administrar el Servidor** podrá interactuar con las sugerencias."
@@ -375,7 +375,7 @@
     "suggest": {
       "help": "Envía una sugerencia",
       "args": "<sugerencia>",
-      "setup": "Las sugerencias no están establecidas. Usa **$prefix$suggestion new** para establecerlas.",
+      "setup": "Las sugerencias no están configuradas. Usa **$prefix$suggestion new** para configurarlas.",
       "submitChannel": "Usa el canal $channel$ para enviar una sugerencia.",
       "provideSuggestion": "Por favor, proporciona una sugerencia."
     },
@@ -387,7 +387,7 @@
     "deny": {
       "help": "Deniega una sugerencia",
       "args": "<ID> [razón]",
-      "update": "Tu sugerencia [$id$]($url$) ha sido denegada."
+      "update": "Tu sugerencia [$id$]($url$) ha sido rechazada."
     },
     "maybe": {
       "help": "Aprobar potencialmente una sugerencia",
@@ -404,11 +404,11 @@
         "Roles",
         "Sugerencia",
         "Registros",
-        "Diversidad"
+        "Varios"
       ],
       "commands": "Comandos",
       "title": "Enlaces",
-      "footer": "<> = Requerido [] = Opcional",
+      "footer": "<> = Requerido [ ] = Opcional",
       "links": [
         "[Guía](https://docs.zira.ovh/)",
         "[Servidor de Soporte](https://zira.ovh/support)",
