@@ -111,7 +111,7 @@
         "set": "Prefix został ustawiony na"
       },
       "role": {
-        "args": "<@rola | wyłącz>",
+        "args": "<@rola | disable>",
         "error": "Podaj wzmiankę roli lub jej nazwę, jeśli chcesz wyłączyć role wpisz",
         "set": "Rola ustawiona. Tylko użytkownicy z $role$ będą mogli używać komend Zira.",
         "disable": "Każdy kto posiada odpowiednie uprawnienia może używać komend Zira."
@@ -321,31 +321,31 @@
       },
       "approved": {
         "help": "Ustaw kanał do którego będą wysyłane zatwierdzone sugestie",
-        "args": "<#kanał | wyłącz>",
+        "args": "<#kanał | disable>",
         "set": "Zatwierdzone sugestie zostaną wysłane do",
         "disable": "Zatwierdzone sugestie nie będą przenoszone do kanału."
       },
       "denied": {
         "help": "Ustaw kanał do którego będą wysyłane odrzucone sugestie",
-        "args": "<#kanał | wyłącz>",
+        "args": "<#kanał | disable>",
         "set": "Odrzucone sugestie zostaną wysłane do",
         "disable": "Odrzucone sugestie nie będą przenoszone do kanału."
       },
       "invalid": {
         "help": "Ustaw kanał do którego będą wysyłane nieprawidłowe sugestie",
-        "args": "<#kanał | wyłącz>",
+        "args": "<#kanał | disable>",
         "set": "Nieprawidłowe sugestie zostaną wysłane do",
         "disable": "Nieprawidłowe sugestie nie będą przenoszone do kanału."
       },
       "potential": {
         "help": "Ustaw kanał do którego będą wysyłane potencjalne sugestie",
-        "args": "<#kanał | wyłącz>",
+        "args": "<#kanał | disable>",
         "set": "Potencjalne sugestie zostaną wysłane do",
         "disable": "Potencjalne sugestie nie będą przenoszone do kanału."
       },
       "submit": {
         "help": "Ustaw kanał którego użytkownicy będą musieli używać aby podać sugestię\n[Funkcja Premium](https://zira.ovh/premium)",
-        "args": "<#kanał | wyłącz>",
+        "args": "<#kanał | disable>",
         "set": "Sugestie mogą być podawane tylko w",
         "disable": "Sugestie można teraz podawać w każdym kanale."
       },
