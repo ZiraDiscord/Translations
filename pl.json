@@ -315,7 +315,7 @@
       "args": "",
       "new": {
         "help": "Ustaw kanał do którego będą wysyłane nowe sugestie",
-        "args": "<#kanał | wyłącz>",
+        "args": "<#kanał | disable>",
         "set": "Nowe sugestie zostaną wysłane do",
         "disable": "Sugestie wyłączone."
       },
