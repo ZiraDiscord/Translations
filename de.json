@@ -39,7 +39,7 @@
     },
     "general": {
       "maxReactions": "Ich kann dieser Nachricht keine weiteren Rollen hinzufügen, da sie bereits 20 Reaktionen hat. Wenn du diese Rolle einrichten möchtest, dann entferne bitte eine Rolle aus dieser Nachricht oder erstelle eine neue Nachricht. Dies ist eine Discord grenze.",
-      "missingSetup": "Bitte setzt zuerst einen **Kanal** und eine **Nachricht** und versucht dann diesen Befehl erneut.",
+      "missingSetup": "Please set a channel **and** message first then try this command again.",
       "missingChannel": "Bitte setze zuerst einen Kanal und versuche dann diesen Befehl erneut.",
       "missingMessage": "Bitte setze zuerst eine Nachricht und versuche dann diesen Befehl erneut.",
       "missingMessageID": "Bitte gebe mir eine Nachrichten ID an.",
@@ -155,7 +155,7 @@
     "once": {
       "help": "Einrichten einer einmaligen Rolle",
       "args": "<emoji> <rolle>",
-      "error": "Da es eine Rolle gibt, die auf diese Nachricht mit diesem Emoji bereits eingestellt ist, die keine einmalige Reaktion ist, kannst du keine einmaligen Reaktionen hinzufügen."
+      "error": "Since there is a role set on this message with this emoji already that isn't a once reaction, you cant add any once reactions."
     },
     "list": {
       "help": "Zeigt alle Rollen.",
@@ -366,7 +366,7 @@
         "needTwo": "Bitte gib zwei Emojis an."
       },
       "role": {
-        "help": "Setzt eine Rolle, die Vorschläge genehmigen, ablehnen usw. kann",
+        "help": "Set a role that can approve, deny, etc. suggestions",
         "args": "<role | disable>",
         "set": "Nur Benutzer mit $role$ und der Discord Besitzer können mit Vorschlägen interagieren.",
         "disable": "Jeder mit der Berechtigung **Server Verwalten** kann nun mit Vorschlägen interagieren."
@@ -390,7 +390,7 @@
       "update": "Dein Vorschlag [$id$]($url$) wurde abgelehnt."
     },
     "maybe": {
-      "help": "Potentielle Zustimmung zu einem Vorschlag",
+      "help": "Potentially approve a suggestion",
       "args": "<ID> [reason]",
       "update": "Dein Vorschlag [$id$]($url$) wurde möglicherweise genehmigt."
     },
