@@ -39,7 +39,7 @@
     },
     "general": {
       "maxReactions": "Nie mogę dodać więcej ról do tej wiadomości ponieważ, ma ona na sobie więcej niż 20 reakcji. Jeśli chciał byś ustawić tą rolę, usuń rolę z tej wiadomości lub stwórz nową wiadomość. Jest to limit nałożony przez Discord'a.",
-      "missingSetup": "Ustaw **kanał** oraz **wiadomość** następnie spróbuj ponownie.",
+      "missingSetup": "Please set a channel **and** message first then try this command again.",
       "missingChannel": "Ustaw kanał, następnie spróbuj ponownie.",
       "missingMessage": "Najpierw ustaw wiadomość a potem spróbuj ponownie.",
       "missingMessageID": "Dostarcz ID wiadomości. ",
@@ -155,7 +155,7 @@
     "once": {
       "help": "Ustaw pojedyńczą role",
       "args": "<emoji> <role>",
-      "error": "Ponieważ na tej wiadomości istnieje już emoji które nie jest powiązane z reakcją pojedyńczą, nie możesz dodać reakcji pojedyńczych."
+      "error": "Since there is a role set on this message with this emoji already that isn't a once reaction, you cant add any once reactions."
     },
     "list": {
       "help": "Pokaż wszystkie role.",
@@ -366,7 +366,7 @@
         "needTwo": "Podaj dwa emoji."
       },
       "role": {
-        "help": "Ustaw role która może zatwierdzać, odrzucać, etc sugestie",
+        "help": "Set a role that can approve, deny, etc. suggestions",
         "args": "<role | disable>",
         "set": "Tylko użytkownicy z $role$ i właściciel gildii może interagować z sugestiami.",
         "disable": "Każdy z zezwoleniem **Zażądzanie Serwerem** może interagować z sugestiami."
@@ -390,7 +390,7 @@
       "update": "Twoja sugestia [$id$] ($url$) została odrzucona."
     },
     "maybe": {
-      "help": "Potencjalnie zatwierdź sugestię",
+      "help": "Potentially approve a suggestion",
       "args": "<ID> [reason]",
       "update": "Twoja sugestia [$id$] ($url$) Została potencjalnie zaakceptowana."
     },
