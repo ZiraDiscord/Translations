@@ -39,7 +39,7 @@
     },
     "general": {
       "maxReactions": "Nu pot adăuga mai multe reacții la mesaj deoarece deja are 20. Dacă doriți să adăugați acest rol, eliminați un rol existent de pe mesaj sau creați unul nou. Aceasta este o limită Discord.",
-      "missingSetup": "Setează un **canal** și un **mesaj** întâi, apoi încearcă această comandă din nou.",
+      "missingSetup": "Please set a channel **and** message first then try this command again.",
       "missingChannel": "Setează un **canal** întâi, apoi încearcă această comandă din nou.",
       "missingMessage": "Setează un **mesaj** întâi, apoi încearcă această comandă din nou.",
       "missingMessageID": "Te rog furnizează un ID de mesaj.",
@@ -155,7 +155,7 @@
     "once": {
       "help": "Setează un rol de unică folosință",
       "args": "<emoji> <rol>",
-      "error": "Deoarece acest emoji este deja folosit pentru acest mesaj, nu poți adăuga roluri de unică folosință cu el."
+      "error": "Since there is a role set on this message with this emoji already that isn't a once reaction, you cant add any once reactions."
     },
     "list": {
       "help": "Arată toate rolurile.",
@@ -366,7 +366,7 @@
         "needTwo": "Te rog introdu două emoji-uri."
       },
       "role": {
-        "help": "Setează un rol care poate gestiona sugestii",
+        "help": "Set a role that can approve, deny, etc. suggestions",
         "args": "<rol | disable>",
         "set": "Doar utilizatorii cu rolul $role$ și deținătorul server-ului vor putea să interacționeze cu sugestii.",
         "disable": "Oricine cu permisiunea **Gestionează Server** va putea să interacționeze cu sugestii."
@@ -390,7 +390,7 @@
       "update": "Sugestia ta [$id$]($url$) a fost respinsă."
     },
     "maybe": {
-      "help": "Aprobă potențial o sugestie",
+      "help": "Potentially approve a suggestion",
       "args": "<ID> [motiv]",
       "update": "Sugestia ta [$id$]($url$) a fost aprobată potențial."
     },
