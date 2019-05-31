@@ -39,7 +39,7 @@
     },
     "general": {
       "maxReactions": "Non posso aggiungere altri ruoli a questo messaggio perché ha già 20 reazioni su di esso. Se vuoi impostare questo ruolo, rimuovi un ruolo da questo messaggio o crea un nuovo messaggio. Questo è un limite di Discord.",
-      "missingSetup": "Impostare prima un **canale** e **messaggio** e poi riprovare questo comando.",
+      "missingSetup": "Please set a channel **and** message first then try this command again.",
       "missingChannel": "Impostare prima un canale e poi riprovare questo comando.",
       "missingMessage": "Impostare prima un messaggio e poi riprovare questo comando.",
       "missingMessageID": "Vi prego di fornirmi un ID del messaggio.",
@@ -155,7 +155,7 @@
     "once": {
       "help": "Imposta un ruolo ottenibile una sola volta",
       "args": "<emoji> <role>",
-      "error": "Visto che è già presente un ruolo impostato in questo messaggio con questa emoji che non è una reazione singola, non puoi aggiungere altre reazioni singole."
+      "error": "Since there is a role set on this message with this emoji already that isn't a once reaction, you cant add any once reactions."
     },
     "list": {
       "help": "Vedi tutti i ruoli.",
@@ -366,7 +366,7 @@
         "needTwo": "Please provide two emojis."
       },
       "role": {
-        "help": "Set a role that can approve, deny, etc suggestions",
+        "help": "Set a role that can approve, deny, etc. suggestions",
         "args": "<role | disable>",
         "set": "Only users with $role$ and the guild owner will be able to interactive with suggestions.",
         "disable": "Anyone with the **Manage Guild** permission will now be able to interact with suggestions."
@@ -390,7 +390,7 @@
       "update": "Il tuo suggerimento [$id$]($url$) è stato declinato."
     },
     "maybe": {
-      "help": "Approva potenzialmente un suggerimento",
+      "help": "Potentially approve a suggestion",
       "args": "<ID> [reason]",
       "update": "Il tuo suggerimento [$id$]($url$) è stato potenzialmente approvato."
     },
