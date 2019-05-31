@@ -77,7 +77,7 @@
     "channel": {
       "help": "Establece el canal activo.",
       "args": "<#canal>",
-      "set": " establecer como el canal activo.",
+      "set": " establecido como el canal activo.",
       "pick": "Menciona el canal que quieras usar. Si te gustaría cancelar, escribe `cancel`."
     },
     "message": {
