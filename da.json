@@ -39,7 +39,7 @@
     },
     "general": {
       "maxReactions": "Jeg kan ikke tilføje flere roller til denne besked fordi den allerede har 20 reaktioner på sig. Hvis du vil sætte denne rolle op, venligst fjern en rolle fra denne besked eller lav en ny besked. Dette er en begrænsning fra Discords side.",
-      "missingSetup": "Please set a channel **and** message first then try this command again.",
+      "missingSetup": "Vær venlig at sætte en kanal **og** besked først, prøv så denne kommando igen.",
       "missingChannel": "Vær venlig at sætte en kanal først og prøv så denne kommando igen.",
       "missingMessage": "Vær venlig at sætte en besked først og prøv så denne kommando igen.",
       "missingMessageID": "Vær venlig at give mig et beskeds ID.",
@@ -155,7 +155,7 @@
     "once": {
       "help": "Sæt en engangsrolle",
       "args": "<emoji> <rolle>",
-      "error": "Since there is a role set on this message with this emoji already that isn't a once reaction, you cant add any once reactions."
+      "error": "Siden der allerede er en rolle sat på denne besked med denne emoji der ikke er en engangsreaktion, kan du ikke tilføje nogen engangsreaktioner."
     },
     "list": {
       "help": "Vis alle roller.",
@@ -366,7 +366,7 @@
         "needTwo": "Angiv venligst to emojier."
       },
       "role": {
-        "help": "Set a role that can approve, deny, etc. suggestions",
+        "help": "Sæt en rolle der kan godkende, ikke godkende, osv med forslag",
         "args": "<rolle | disable>",
         "set": "Kun brugere med $role$ og ejeren af serveren er i stand til at interagere med forslag.",
         "disable": "Alle med **Administrer Server** tilladelsen kan interagere med forslag."
@@ -390,7 +390,7 @@
       "update": "Dit forslag [$id$]($url$) er ikke godkendt."
     },
     "maybe": {
-      "help": "Potentially approve a suggestion",
+      "help": "Potientelt godkent et forslag",
       "args": "<ID>[grund]",
       "update": "Dit forslag [$id$]($url$) er blevet potentielt godkendt."
     },
