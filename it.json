@@ -356,11 +356,11 @@
       },
       "reaction": {
         "help": "Stabilisci se le emojis devono essere reagite ai nuovi suggerimenti\n[Funzione Premium](https://zira.ovh/premium)",
-        "on": "Suggestions will now have emojis set with **$prefix$suggestion emojis** reacted to them.",
-        "off": "Suggestions will no longer be reacted to."
+        "on": "I suggerimenti avranno ora le emojis impostate con **$prefix$suggestion emojis** come reazioni.",
+        "off": "Ai suggerimenti non verrà più attribuita una reazione."
       },
       "emojis": {
-        "help": "Set the emojis to be used when reacting to suggestions\n[Premium Feature](https://zira.ovh/premium)",
+        "help": "Stabilisci le emojis da utilizzare quando si reagisce ad un suggerimento\n[Funzione Premium](https://zira.ovh/premium)",
         "args": "<emojiUno> <emojiDue>",
         "set": "Emojis impostate correttamente.",
         "needTwo": "Per favore fornisci due emojis."
