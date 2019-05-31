@@ -104,7 +104,7 @@
     },
     "config": {
       "help": "Guild config.",
-      "args": "",
+      "args": " ",
       "prefix": {
         "args": "<prefix>",
         "error": "Please provide a prefix that's between 1 and 10 characters and has at least one of these characters in it:  `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
@@ -117,7 +117,7 @@
         "disable": "Anyone with the correct permissions can use Zira's commands now."
       },
       "reset": {
-        "args": "",
+        "args": " ",
         "question": ":warning: Are you sure you want to reset the guild config?\nPlease type `yes` or `no`.",
         "done": "Ok, Guild config has been reset!",
         "cancel": "Phew. Guild config has not been reset."
@@ -159,7 +159,7 @@
     },
     "list": {
       "help": "Show all roles.",
-      "args": "",
+      "args": " ",
       "title": "Role List",
       "description": "You can remove a role listed here with **$prefix$delete**\nYou can remove any deleted roles listed by doing **$prefix$delete <message ID> check**.",
       "role": "Role",
@@ -171,7 +171,7 @@
     },
     "delete": {
       "help": "Delete a role that has been setup.",
-      "args": "",
+      "args": " ",
       "check": {
         "help": "Checks for deleted roles on a message.",
         "args": "<message ID>",
@@ -217,7 +217,7 @@
     },
     "autorole": {
       "help": "Give roles to be given when a member joins",
-      "args": "",
+      "args": " ",
       "user": {
         "help": "Give roles for when a person joins",
         "args": "<role>",
@@ -240,7 +240,7 @@
     },
     "join": {
       "help": "Join messages",
-      "args": "",
+      "args": " ",
       "channel": {
         "help": "Set the channel join messages should be sent in",
         "args": "<#channel>",
@@ -248,7 +248,7 @@
       },
       "disable": {
         "help": "Disable join messages",
-        "args": "",
+        "args": " ",
         "success": "Join messages disabled."
       },
       "add": {
@@ -263,7 +263,7 @@
         "notFound": "A message with that ID doesn't exist.",
         "success": "Message deleted."
       },
-      "list": { "help": "List of messages", "args": "" },
+      "list": { "help": "List of messages", "args": " " },
       "placeholders": {
         "title": "Usable Placeholders That Zira Will Auto-Fill",
         "description": "$user$ - username\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
@@ -271,7 +271,7 @@
     },
     "leave": {
       "help": "Leave messages",
-      "args": "",
+      "args": " ",
       "channel": {
         "help": "Set the channel leave messages should be sent in",
         "args": "<#channel>",
@@ -279,7 +279,7 @@
       },
       "disable": {
         "help": "Disable leave messages",
-        "args": "",
+        "args": " ",
         "success": "Leave messages disabled."
       },
       "add": {
@@ -294,7 +294,7 @@
         "notFound": "A message with that ID doesn't exist.",
         "success": "Message deleted."
       },
-      "list": { "help": "List of messages", "args": "" },
+      "list": { "help": "List of messages", "args": " " },
       "placeholders": {
         "title": "Usable Placeholders",
         "description": "$user$ - username\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
@@ -302,12 +302,12 @@
     },
     "rooms": {
       "help": "Setup private rooms",
-      "args": "",
+      "args": " ",
       "success": "Private rooms setup."
     },
     "suggestion": {
       "help": "Suggestion config",
-      "args": "",
+      "args": " ",
       "new": {
         "help": "Set the channel new suggestions will get sent to",
         "args": "<#channel | disable>",
