@@ -39,7 +39,7 @@
     },
     "general": {
       "maxReactions": "No puedo agregar más roles a este mensaje porque ya tiene 20 reacciones. Si te gustaría establecer este rol, elimina algun rol de este mensaje o crea un mensaje nuevo. Esto se trata de un límite de Discord.",
-      "missingSetup": "Selecciona un **canal** y un **mensaje** primero y luego prueba este comando de nuevo.",
+      "missingSetup": "Please set a channel **and** message first then try this command again.",
       "missingChannel": "Establece un canal primero y luego prueba este comando de nuevo.",
       "missingMessage": "Establece un mensaje primero, después prueba este comando de nuevo.",
       "missingMessageID": "Por favor, proporcióname la ID de un mensaje.",
@@ -155,7 +155,7 @@
     "once": {
       "help": "Establece un rol de un solo uso",
       "args": "<emoji> <rol>",
-      "error": "Debido a que ya hay un rol establecido en este mensaje con ese emoji que no es una reacción de un solo uso, no puedes añadir ningún rol de un solo uso."
+      "error": "Since there is a role set on this message with this emoji already that isn't a once reaction, you cant add any once reactions."
     },
     "list": {
       "help": "Muestra todos los roles.",
@@ -366,7 +366,7 @@
         "needTwo": "Por favor, proporciona dos emojis."
       },
       "role": {
-        "help": "Establece un rol que pueda aprobar, rechazar, etc. las sugerencias",
+        "help": "Set a role that can approve, deny, etc. suggestions",
         "args": "<rol | disable>",
         "set": "Sólo los usuarios con $role$ y el dueño del servidor podrán interactuar con las sugerencias.",
         "disable": "Cualquiera con los permisos para **Administrar el Servidor** podrá interactuar con las sugerencias."
@@ -390,7 +390,7 @@
       "update": "Tu sugerencia [$id$]($url$) ha sido rechazada."
     },
     "maybe": {
-      "help": "Aprobar potencialmente una sugerencia",
+      "help": "Potentially approve a suggestion",
       "args": "<ID> [razón]",
       "update": "Tu sugerencia [$id$]($url$) ha sido potencialmente aprobada."
     },
