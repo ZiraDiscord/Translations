@@ -118,9 +118,9 @@
       },
       "reset": {
         "args": "",
-        "question": ":warning: Er du sikker på at du vil resette guild konfigurasjonen?\nVennligst skriv `yes` eller `no`.",
-        "done": "Ok, Guild konfigurasjon har blitt resettet!",
-        "cancel": "Fjoh, Guild konfigurasjon har ikke blitt resettet."
+        "question": ":warning: Er du sikker på at du vil tilbakestille guild konfigurasjonen?\nVennligst skriv `yes` eller `no`.",
+        "done": "Ok, Guild konfigurasjon har blitt tilbakestillt!",
+        "cancel": "Fjoh, Guild konfigurasjon har ikke blitt tilbakestillt."
       },
       "language": {
         "args": "<språk kode>",
@@ -132,7 +132,7 @@
       "main": {
         "prefix": "Angi et egendefinert prefiks.",
         "role": "Angi eller fjerne hvilken rolle som kan bruke kommandoer.",
-        "reset": "Reset the guild config.",
+        "reset": "Tilbakestill guild konfigurasjon.",
         "language": "Angi språk for guild."
       }
     },
@@ -148,7 +148,7 @@
       "args": "<emoji> <rolle>"
     },
     "toggle": {
-      "help": "Setup a toggled role",
+      "help": "Sett opp en av/på rolle",
       "args": "<emoji> <rolle>",
       "limit": "There is a limit of 6 free toggled roles. You get unlimited toggled roles with [premium](https://zira.ovh/premium)"
     },
@@ -158,12 +158,12 @@
       "error": "Since there is a role set on this message with this emoji already that isn't a once reaction, you cant add any once reactions."
     },
     "list": {
-      "help": "Show all roles.",
+      "help": "Vis alle roller.",
       "args": "",
-      "title": "Role List",
+      "title": "Rolleliste",
       "description": "You can remove a role listed here with **$prefix$delete**\nYou can remove any deleted roles listed by doing **$prefix$delete <message ID> check**.",
-      "role": "Role",
-      "channel": "Channel",
+      "role": "Rolle",
+      "channel": "Kanal",
       "message": "Melding",
       "emoji": "Emoji",
       "link": "Hopp til melding",
@@ -179,7 +179,7 @@
         "removed": "rolle(r) fjernet."
       },
       "all": {
-        "help": "Remove all roles from a message.",
+        "help": "Fjern alle roller fra en melding.",
         "args": "<meldings ID>",
         "done": "Any roles on the message have been removed."
       },
