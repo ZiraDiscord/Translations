@@ -83,7 +83,7 @@
     "message": {
       "help": "Ustaw aktywną wiadomość.",
       "args": "<message ID>",
-      "set": "Wiadomość ustawiona",
+      "set": "Message set.",
       "pick": "Podaj ID wiadomości do użycia przez Zira lub wiadomość do wysłania przez Zira.\nWpisz `cancel` jeśli chcesz anulować."
     },
     "embed": {
