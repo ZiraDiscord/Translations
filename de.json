@@ -83,7 +83,7 @@
     "message": {
       "help": "Setzt die aktive Nachricht.",
       "args": "<nachrichten ID>",
-      "set": "Nachricht eingestellt",
+      "set": "Message set.",
       "pick": "Bitte gebe eine Nachrichten ID an, die Zira verwenden soll, oder eine Nachricht, die Zira senden soll.\nGib `abbrechen` ein, wenn Du Abbrechen möchtest."
     },
     "embed": {
