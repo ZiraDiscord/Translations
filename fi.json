@@ -3,43 +3,43 @@
   "titles": {
     "success": "Success :white_check_mark:",
     "error": "Virhe :warning:",
-    "usage": "Command Usage",
-    "example": "Usage Examples",
-    "permission": "Missing Permissions"
+    "usage": "Komennon käyttö",
+    "example": "Käytön esimerkkejä",
+    "permission": "Puuttuvat käyttöoikeudet"
   },
   "errors": {
-    "generic": "An error has occurred. If the error continues to persist, please join my support server.",
+    "generic": "On tapahtunut virhe. Jos virhe jatkuu, liitythän tukipalvelimeeni.",
     "unknown": {
-      "channel": "Unknown channel. Please make sure it exists, and if it does, that I have the proper permissions to view it.",
-      "message": "Message not found in the active channel. Please make sure it exists, and if it does, that I have the proper permissions to view it.",
-      "emoji": "I can't use this emoji. Please make sure I'm in the server that it came from and if it is, make sure I have the permission **Use External Emojis** in the active channel.",
-      "suggestion": "A suggestion with that ID wasn't found."
+      "channel": "Tuntematon kanava. Varmistathan että se on olemassa, ja jos se on, varmista että minulla on käyttöoikeudet lukea sitä.",
+      "message": "Viestiä ei löydetty aktiivisella kanavalla. Varmistathan että se on olemassa, ja jos sen on, varmista että minulla on käyttöoikeudet lukea se.",
+      "emoji": "En pysty käyttämään tätä emojia. Varmistathan että olen palvelimella josta kyseinen emoji on peräisin, ja varmista myös että minulla on käyttöoikeus **Käytä ulkoisia emojeita** aktiivisella kanavalla.",
+      "suggestion": "Ehdotusta kyseisellä tunnisteella ei löydetty."
     },
     "interactive": {
-      "timeout": "Command timeout.",
-      "cancel": "Command cancelled."
+      "timeout": "Komennon aikakatkaisu.",
+      "cancel": "Komento peruutettu."
     },
     "permission": {
-      "hierarchy": "I can't use this role because it is above my highest role in the role hierarchy.",
-      "missing": "You're unable to run this command because you lack the following permissions: $permissions$",
-      "channelRead": "I'm missing the permissions **Read Messages** and **Read Message History** in the active channel.",
-      "channelSend": "I'm missing the permission **Send Messages** in the active channel.",
-      "addReactions": "I can't add this emoji because I'm missing the **Add Reactions** permission in the active channel.",
-      "othersEdit": "I can't edit that message as it wasn't sent by me.",
-      "manageChannels": "Manage Channels",
-      "manageMessages": "Manage Messages",
-      "manageRoles": "Manage Roles",
-      "manageGuild": "Manage Server"
+      "hierarchy": "En voi käyttää tätä roolia koska sen on hiearkiassa korkeammalla kuin minun korkein rooli.",
+      "missing": "Et voi käyttää kyseistä komentoa koska sinulta puuttu seuraavat käyttöoikeudet: $permissions$",
+      "channelRead": "Minulta puuttuu käyttöoikeudet **Lue viestejä** ja **Lue viestihistoriaa** aktiivisella kanavalla.",
+      "channelSend": "Minulta puuttuu käyttöoikeus **Lähetä viestejä** aktiivisella kanavalla.",
+      "addReactions": "En voi lisätä tätä emojia koska minulta puuttuu **Lisää reaktioita** käyttöoikeus aktiivisella kanavalla.",
+      "othersEdit": "En voi muokata tuota viestiä koska se ei ole minun lähettämä.",
+      "manageChannels": "Hallinnoi kanavia",
+      "manageMessages": "Hallinnoi viestejä",
+      "manageRoles": "Hallinnoi rooleja",
+      "manageGuild": "Hallinnoi palvelinta"
     },
     "roles": {
-      "unknown": "I can't find that role. Please make sure it exists.",
-      "managed": "Integrated roles can't be used. Only roles created by users or bots.",
-      "used": "You can't use this role as it's already setup with this emoji.",
+      "unknown": "En löydä kyseistä roolia. Varmistathan että se on olemassa.",
+      "managed": "Discordin automaattisesti hallitsemia rooleja ei voida käyttää. Vain käyttäjien tai bottien luomia rooleja.",
+      "used": "Et voi käyttää tätä roolia, koska se on jo käytössä tällä emojilla.",
       "once": "Since a role is setup as a Once type on this message, you can't have any other types besides Once."
     },
     "general": {
-      "maxReactions": "I can't add more roles to this message because it already has 20 reactions on it. If you would like to setup this role, please remove a role from this message or create a new message. This is a Discord limit.",
-      "missingSetup": "Please set a **channel** and **message** first then try this command again.",
+      "maxReactions": "En voi lisätä rooleja tähän viestiin koska siinä on jo 20 reaktiota. Jos haluat asettaa tämän roolin, poista aikaisempi rooli kyseisestä viestistä tai luo uusi viesti. Tämä on Discordin asettama raja.",
+      "missingSetup": "Please set a channel **and** message first then try this command again.",
       "missingChannel": "Please set a channel first then try this command again.",
       "missingMessage": "Please set a message first then try this command again.",
       "missingMessageID": "Please provide me with a message ID.",
@@ -83,7 +83,7 @@
     "message": {
       "help": "Set the active message.",
       "args": "<message ID>",
-      "set": "Message set",
+      "set": "Message set.",
       "pick": "Please provide a message ID for Zira to use or message for Zira to send.\nType `cancel` if you would like to cancel."
     },
     "embed": {
@@ -155,7 +155,7 @@
     "once": {
       "help": "Setup a once role",
       "args": "<emoji> <role>",
-      "error": "Since there is a role set on this message with this emoji already that isnt a once reaction, you cant add any once reactions."
+      "error": "Since there is a role set on this message with this emoji already that isn't a once reaction, you cant add any once reactions."
     },
     "list": {
       "help": "Show all roles.",
@@ -366,7 +366,7 @@
         "needTwo": "Please provide two emojis."
       },
       "role": {
-        "help": "Set a role that can approve, deny, etc suggestions",
+        "help": "Set a role that can approve, deny, etc. suggestions",
         "args": "<role | disable>",
         "set": "Only users with $role$ and the guild owner will be able to interactive with suggestions.",
         "disable": "Anyone with the **Manage Guild** permission will now be able to interact with suggestions."
@@ -390,7 +390,7 @@
       "update": "Your suggestion [$id$]($url$) has been denied."
     },
     "maybe": {
-      "help": "Potentialy approve a suggestion",
+      "help": "Potentially approve a suggestion",
       "args": "<ID> [reason]",
       "update": "Your suggestion [$id$]($url$) has been potentially approved."
     },

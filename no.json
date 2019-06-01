@@ -35,16 +35,16 @@
       "unknown": "Jeg kan ikke finne den rollen. Vennligst sjekk at den eksisterer.",
       "managed": "Intrigerte roller kan ikke bli brukt. Bare roller opprettet av brukere eller boter.",
       "used": "Du kan ikke bruke denne rollen da den er allerede satt opp med denne emojien.",
-      "once": "Since a role is setup as a Once type on this message, you can't have any other types besides Once."
+      "once": "Siden en rolle er satt opp som \"En gang\" type på denne meldingen, kan du ikke ha noen andre typer enn \"En gang\"."
     },
     "general": {
-      "maxReactions": "I can't add more roles to this message because it already has 20 reactions on it. If you would like to setup this role, please remove a role from this message or create a new message. This is a Discord limit.",
-      "missingSetup": "Please set a **channel** and **message** first then try this command again.",
-      "missingChannel": "Please set a channel first then try this command again.",
-      "missingMessage": "Please set a message first then try this command again.",
-      "missingMessageID": "Please provide me with a message ID.",
-      "missingRole": "Please provide me with a role name or mention.",
-      "messageNotFound": "I can't find this message. Please make sure the message ID is correct.",
+      "maxReactions": "Du kan ikke legge til roller på denne meldingen da den allerede har 20 reaksjoner på den. Hvis du ønsker å sette opp denne rollen, vennligst fjern en rolle fra meldingen eller lag en ny melding. Dette er en Discord begrensning.",
+      "missingSetup": "Vennligst angi en kanal **og** melding først, prøv så denne kommandoen igjen.",
+      "missingChannel": "Vennligst angi en kanal først, prøv så denne kommandoen på nytt.",
+      "missingMessage": "Vennligst angi en melding ørst, prøv så denne kommandoen på nytt.",
+      "missingMessageID": "Vennligst gi meg en meldings ID.",
+      "missingRole": "Vennligst gi meg et rolle navn eller nevning.",
+      "messageNotFound": "Jeg kan ikke finne denne meldingen. Vennligst sjekk at meldings IDen er korrekt.",
       "invalidID": "Det er ikke en gyldig ID.",
       "noRoleProvided": "Vennligst oppgi en rolle.",
       "noChannelProvided": "Vennligst oppgi en kanal.",
@@ -83,7 +83,7 @@
     "message": {
       "help": "Sett den aktive meldingen.",
       "args": "<meldings ID>",
-      "set": "Melding satt",
+      "set": "Message set.",
       "pick": "Please provide a message ID for Zira to use or message for Zira to send.\nType `cancel` if you would like to cancel."
     },
     "embed": {
@@ -103,24 +103,24 @@
       }
     },
     "config": {
-      "help": "Guild config.",
+      "help": "Guild konfigurasjon.",
       "args": "",
       "prefix": {
-        "args": "<prefix>",
+        "args": "<prefiks>",
         "error": "Please provide a prefix that's between 1 and 10 characters and has at least one of these characters in it:  `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
-        "set": "Prefix has been set to"
+        "set": "Prefiks har blitt satt til"
       },
       "role": {
-        "args": "<@role | disable>",
+        "args": "<@rolle | disable>",
         "error": "Please mention a role or provide a role name, or if you would like to disable the role, type",
         "set": "Role set. Only people with $role$ will be able to use Zira commands.",
         "disable": "Anyone with the correct permissions can use Zira's commands now."
       },
       "reset": {
         "args": "",
-        "question": ":warning: Are you sure you want to reset the guild config?\nPlease type `yes` or `no`.",
-        "done": "Ok, Guild config has been reset!",
-        "cancel": "Phew. Guild config has not been reset."
+        "question": ":warning: Er du sikker på at du vil tilbakestille guild konfigurasjonen?\nVennligst skriv `yes` eller `no`.",
+        "done": "Ok, Guild konfigurasjon har blitt tilbakestillt!",
+        "cancel": "Fjoh, Guild konfigurasjon har ikke blitt tilbakestillt."
       },
       "language": {
         "args": "<språk kode>",
@@ -132,7 +132,7 @@
       "main": {
         "prefix": "Angi et egendefinert prefiks.",
         "role": "Angi eller fjerne hvilken rolle som kan bruke kommandoer.",
-        "reset": "Reset the guild config.",
+        "reset": "Tilbakestill guild konfigurasjon.",
         "language": "Angi språk for guild."
       }
     },
@@ -148,22 +148,22 @@
       "args": "<emoji> <rolle>"
     },
     "toggle": {
-      "help": "Setup a toggled role",
+      "help": "Sett opp en av/på rolle",
       "args": "<emoji> <rolle>",
       "limit": "There is a limit of 6 free toggled roles. You get unlimited toggled roles with [premium](https://zira.ovh/premium)"
     },
     "once": {
       "help": "Setup a once role",
       "args": "<emoji> <rolle>",
-      "error": "Since there is a role set on this message with this emoji already that isnt a once reaction, you cant add any once reactions."
+      "error": "Since there is a role set on this message with this emoji already that isn't a once reaction, you cant add any once reactions."
     },
     "list": {
-      "help": "Show all roles.",
+      "help": "Vis alle roller.",
       "args": "",
-      "title": "Role List",
+      "title": "Rolleliste",
       "description": "You can remove a role listed here with **$prefix$delete**\nYou can remove any deleted roles listed by doing **$prefix$delete <message ID> check**.",
-      "role": "Role",
-      "channel": "Channel",
+      "role": "Rolle",
+      "channel": "Kanal",
       "message": "Melding",
       "emoji": "Emoji",
       "link": "Hopp til melding",
@@ -179,7 +179,7 @@
         "removed": "rolle(r) fjernet."
       },
       "all": {
-        "help": "Remove all roles from a message.",
+        "help": "Fjern alle roller fra en melding.",
         "args": "<meldings ID>",
         "done": "Any roles on the message have been removed."
       },
@@ -366,7 +366,7 @@
         "needTwo": "Please provide two emojis."
       },
       "role": {
-        "help": "Set a role that can approve, deny, etc suggestions",
+        "help": "Set a role that can approve, deny, etc. suggestions",
         "args": "<role | disable>",
         "set": "Only users with $role$ and the guild owner will be able to interactive with suggestions.",
         "disable": "Anyone with the **Manage Guild** permission will now be able to interact with suggestions."
@@ -390,7 +390,7 @@
       "update": "Your suggestion [$id$]($url$) has been denied."
     },
     "maybe": {
-      "help": "Potentialy approve a suggestion",
+      "help": "Potentially approve a suggestion",
       "args": "<ID> [reason]",
       "update": "Your suggestion [$id$]($url$) has been potentially approved."
     },

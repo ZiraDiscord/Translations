@@ -39,7 +39,7 @@
     },
     "general": {
       "maxReactions": "Jag kan inte lägga till flera roller till detta meddelande eftersom det redan har 20 reaktioner. Om du vill ställa in denna roll, vänligen ta bort en roll från detta meddelande eller skapa ett nytt. Detta är en Discord-begränsning.",
-      "missingSetup": "Vänligen ställ in en **kanal** och **meddelande** först, prova sedan detta kommando igen.",
+      "missingSetup": "Please set a channel **and** message first then try this command again.",
       "missingChannel": "Vänligen ställ in en kanal först, prova sedan detta kommando igen.",
       "missingMessage": "Vänligen ställ in ett meddelande först, prova sedan detta kommando igen.",
       "missingMessageID": "Vänligen förse mig med ett meddelande-ID.",
@@ -83,7 +83,7 @@
     "message": {
       "help": "Ställ in det aktiva meddelandet.",
       "args": "<meddelande-ID>",
-      "set": "Meddelande inställt",
+      "set": "Message set.",
       "pick": "Vänligen ange ett meddelande-ID som Zira kan använda eller ett meddelande som Zira kan skicka.\nSkriv `cancel` om du vill avbryta."
     },
     "embed": {
@@ -119,7 +119,7 @@
       "reset": {
         "args": "",
         "question": ":warning: Är du säker att du vill nollställa serverkonfigurationen?\nVänligen skriv `yes` eller `no`.",
-        "done": "Ok, Guild config has been reset!",
+        "done": "Okej, serverkonfiguration har nollställts!",
         "cancel": "Phew. Serverkonfiguration har inte nollställts."
       },
       "language": {
@@ -155,7 +155,7 @@
     "once": {
       "help": "Ställ in en engångsroll",
       "args": "<emoji> <roll>",
-      "error": "Since there is a role set on this message with this emoji already that isnt a once reaction, you cant add any once reactions."
+      "error": "Since there is a role set on this message with this emoji already that isn't a once reaction, you cant add any once reactions."
     },
     "list": {
       "help": "Visa alla roller.",
@@ -366,9 +366,9 @@
         "needTwo": "Vänligen ange två emojis."
       },
       "role": {
-        "help": "Ställ in en roll som kan godkänna, neka, etc förslag",
+        "help": "Set a role that can approve, deny, etc. suggestions",
         "args": "<roll | disable>",
-        "set": "Only users with $role$ and the guild owner will be able to interactive with suggestions.",
+        "set": "Endast användare med $role$ och serverägaren kommer kunna interagera med förslag.",
         "disable": "Vem som helst med behörigheten **Hantera server** kan nu interagera med förslag."
       }
     },
@@ -390,7 +390,7 @@
       "update": "Ditt förslag [$id$]($url$) har nekats."
     },
     "maybe": {
-      "help": "Potentialy approve a suggestion",
+      "help": "Potentially approve a suggestion",
       "args": "<ID> [anledning]",
       "update": "Ditt förslag [$id$]($url$) har potentiellt godkänts."
     },

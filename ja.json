@@ -39,7 +39,7 @@
     },
     "general": {
       "maxReactions": "I can't add more roles to this message because it already has 20 reactions on it. If you would like to setup this role, please remove a role from this message or create a new message. This is a Discord limit.",
-      "missingSetup": "Please set a **channel** and **message** first then try this command again.",
+      "missingSetup": "Please set a channel **and** message first then try this command again.",
       "missingChannel": "Please set a channel first then try this command again.",
       "missingMessage": "Please set a message first then try this command again.",
       "missingMessageID": "Please provide me with a message ID.",
@@ -83,7 +83,7 @@
     "message": {
       "help": "Set the active message.",
       "args": "<message ID>",
-      "set": "Message set",
+      "set": "Message set.",
       "pick": "Please provide a message ID for Zira to use or message for Zira to send.\nType `cancel` if you would like to cancel."
     },
     "embed": {
@@ -155,7 +155,7 @@
     "once": {
       "help": "Setup a once role",
       "args": "<emoji> <role>",
-      "error": "Since there is a role set on this message with this emoji already that isnt a once reaction, you cant add any once reactions."
+      "error": "Since there is a role set on this message with this emoji already that isn't a once reaction, you cant add any once reactions."
     },
     "list": {
       "help": "Show all roles.",
@@ -366,7 +366,7 @@
         "needTwo": "Please provide two emojis."
       },
       "role": {
-        "help": "Set a role that can approve, deny, etc suggestions",
+        "help": "Set a role that can approve, deny, etc. suggestions",
         "args": "<role | disable>",
         "set": "Only users with $role$ and the guild owner will be able to interactive with suggestions.",
         "disable": "Anyone with the **Manage Guild** permission will now be able to interact with suggestions."
@@ -390,7 +390,7 @@
       "update": "Your suggestion [$id$]($url$) has been denied."
     },
     "maybe": {
-      "help": "Potentialy approve a suggestion",
+      "help": "Potentially approve a suggestion",
       "args": "<ID> [reason]",
       "update": "Your suggestion [$id$]($url$) has been potentially approved."
     },
