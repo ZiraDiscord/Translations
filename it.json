@@ -83,7 +83,7 @@
     "message": {
       "help": "Imposta il messaggio attivo.",
       "args": "<message ID>",
-      "set": "Messaggio impostato",
+      "set": "Message set.",
       "pick": "Si prega di fornire un ID messaggio da utilizzare per Zira o un messaggio da inviare per Zira.\nDigitare `cancel` se si desidera annullare."
     },
     "embed": {
