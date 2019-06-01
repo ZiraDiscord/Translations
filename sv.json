@@ -83,7 +83,7 @@
     "message": {
       "help": "Ställ in det aktiva meddelandet.",
       "args": "<meddelande-ID>",
-      "set": "Meddelande inställt",
+      "set": "Message set.",
       "pick": "Vänligen ange ett meddelande-ID som Zira kan använda eller ett meddelande som Zira kan skicka.\nSkriv `cancel` om du vill avbryta."
     },
     "embed": {
