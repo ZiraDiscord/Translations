@@ -83,7 +83,7 @@
     "message": {
       "help": "Setează mesajul activ.",
       "args": "<ID mesaj>",
-      "set": "Mesaj setat",
+      "set": "Message set.",
       "pick": "Te rog furnizează in ID de mesaj existent sau text pentru a trimite un mesaj nou in canalul activ.\nScrie `cancel` pentru a anula comanda."
     },
     "embed": {
