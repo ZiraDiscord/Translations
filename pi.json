@@ -16,7 +16,7 @@
       "suggestion": "A suggestion with that ID wasn't found."
     },
     "interactive": {
-      "timeout": "Command timeout.",
+      "timeout": "Command Timeout.",
       "cancel": "Command cancelled."
     },
     "permission": {
@@ -83,7 +83,7 @@
     "message": {
       "help": "Set the active message.",
       "args": "<message ID>",
-      "set": "Message set",
+      "set": "Message set.",
       "pick": "Please provide a message ID for Zira to use or message for Zira to send.\nType `cancel` if you would like to cancel."
     },
     "embed": {
