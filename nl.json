@@ -83,7 +83,7 @@
     "message": {
       "help": "Set the active message.",
       "args": "<bericht ID>",
-      "set": "Bericht ingesteld",
+      "set": "Message set.",
       "pick": "Please provide a message ID for Zira to use or message for Zira to send.\nType `cancel` if you would like to cancel."
     },
     "embed": {
