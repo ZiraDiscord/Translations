@@ -83,7 +83,7 @@
     "message": {
       "help": "Establece el mensaje activo.",
       "args": "<ID del mensaje>",
-      "set": "Mensaje establecido",
+      "set": "Message set.",
       "pick": "Por favor, proporciona la ID de un mensaje para que Zira lo use o un mensaje para que Zira lo envíe.\nSi te gustaría cancelar, escribe `cancel`."
     },
     "embed": {
