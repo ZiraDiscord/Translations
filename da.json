@@ -83,7 +83,7 @@
     "message": {
       "help": "Sæt den aktive besked.",
       "args": "<beskeds ID>",
-      "set": "Beskeden er sat",
+      "set": "Beskeden er sat.",
       "pick": "Vær venlig at give et beskeds ID som Zira skal bruge eller en besked som Zira skal sende. Skriv `cancel` hvis du gerne vil afbryde."
     },
     "embed": {
