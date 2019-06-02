@@ -366,7 +366,7 @@
         "needTwo": "Angiv venligst to emojier."
       },
       "role": {
-        "help": "Sæt en rolle der kan godkende, ikke godkende, osv med forslag",
+        "help": "Sæt en rolle der kan godkende, afvise, osv med forslag",
         "args": "<rolle | disable>",
         "set": "Kun brugere med $role$ og ejeren af serveren er i stand til at interagere med forslag.",
         "disable": "Alle med **Administrer Server** tilladelsen kan interagere med forslag."
@@ -385,9 +385,9 @@
       "update": "Dit forslag [$id$]($url$) er blevet godkendt."
     },
     "deny": {
-      "help": "Ugodkend et forslag",
+      "help": "Afvis et forslag",
       "args": "<ID>[grund]",
-      "update": "Dit forslag [$id$]($url$) er ikke godkendt."
+      "update": "Dit forslag [$id$]($url$) er afvist."
     },
     "maybe": {
       "help": "Potientelt godkent et forslag",
