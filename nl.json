@@ -5,7 +5,7 @@
     "error": "Fout :warning:",
     "usage": "Command Usage",
     "example": "Usage Examples",
-    "permission": "Missing Permissions"
+    "permission": "Ontbrekende rechten"
   },
   "errors": {
     "generic": "An error has occurred. If the error continues to persist, please join my support server.",
@@ -83,7 +83,7 @@
     "message": {
       "help": "Set the active message.",
       "args": "<bericht ID>",
-      "set": "Message set.",
+      "set": "Bericht ingesteld.",
       "pick": "Please provide a message ID for Zira to use or message for Zira to send.\nType `cancel` if you would like to cancel."
     },
     "embed": {
@@ -148,7 +148,7 @@
       "args": "<emoji> <rol>"
     },
     "toggle": {
-      "help": "Setup a toggled role",
+      "help": "Stel een geschakelde rol in",
       "args": "<emoji> <rol>",
       "limit": "There is a limit of 6 free toggled roles. You get unlimited toggled roles with [premium](https://zira.ovh/premium)"
     },
@@ -220,13 +220,13 @@
       "user": {
         "help": "Give roles for when a person joins",
         "args": "<rol>",
-        "set": "$role$ will be given when a user joins.",
-        "remove": "$role$ will no longer be given when a user joins."
+        "set": "$role$ wordt gegeven wanneer een gebruiker lid wordt.",
+        "remove": "$role$ zal niet langer worden gegeven wanneer een gebruiker lid wordt."
       },
       "bot": {
-        "help": "Give roles for when a bot joins",
+        "help": "Geef een rol wanneer een bot lid wordt",
         "args": "<rol>",
-        "set": "$role$ will be given when a bot joins.",
+        "set": "$role$ wordt gegeven wanneer een bot lid wordt.",
         "remove": "$role$ will no longer be given when a bot joins."
       },
       "show": {
@@ -238,7 +238,7 @@
       "removeTip": "If you would like to remove a role that is setup with autoroles, just do the command you used to set it up again."
     },
     "join": {
-      "help": "Join messages",
+      "help": "Join berichten",
       "args": "",
       "channel": {
         "help": "Set the channel join messages should be sent in",
@@ -246,7 +246,7 @@
         "set": " set as the join channel.\n\n**Note:** If I can't send messages to the channel I will disable join messages."
       },
       "disable": {
-        "help": "Disable join messages",
+        "help": "Schakel join berichten uit",
         "args": "",
         "success": "Join messages disabled."
       },

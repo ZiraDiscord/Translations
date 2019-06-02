@@ -1,54 +1,54 @@
 {
   "language": "Türkçe",
   "titles": {
-    "success": "Success :white_check_mark:",
+    "success": "Başarılı :white_check_mark:",
     "error": "Hata :warning:",
-    "usage": "Command Usage",
-    "example": "Usage Examples",
-    "permission": "Missing Permissions"
+    "usage": "Komut Kullanımı",
+    "example": "Kullanım Örnekleri",
+    "permission": "Yetersiz izin"
   },
   "errors": {
-    "generic": "An error has occurred. If the error continues to persist, please join my support server.",
+    "generic": "Bir hata oluştu. Hata devam ederse lütfen destek sunucumuza katılın.",
     "unknown": {
-      "channel": "Unknown channel. Please make sure it exists, and if it does, that I have the proper permissions to view it.",
-      "message": "Message not found in the active channel. Please make sure it exists, and if it does, that I have the proper permissions to view it.",
-      "emoji": "I can't use this emoji. Please make sure I'm in the server that it came from and if it is, make sure I have the permission **Use External Emojis** in the active channel.",
-      "suggestion": "A suggestion with that ID wasn't found."
+      "channel": "Geçersiz kanal. Kanalın olduğundan emin olun. Eğer emin iseniz kanalı görüntüleme iznim yoktur.",
+      "message": "Belirlenmiş kanalda mesaj bulunulamadı. Lütfen mesajın var olduğundan emin olun. Eğer emin iseniz, lütfen izinlerimi mesajı görebileceğim şekilde ayarlayın.",
+      "emoji": "Bu emojiyi kullanamıyorum. Lütfen emojinin benim bulunduğum bir sunucuda olduğundan emin olun. Eğer emin iseniz, lütfen geçerli kanalda **Harici Emojiler Kullan** iznim olduğundan emin olun.",
+      "suggestion": "Bu ID üzerindeki öneriyi bulamadım."
     },
     "interactive": {
-      "timeout": "Command timeout.",
-      "cancel": "Command cancelled."
+      "timeout": "Komut zaman aşımı.",
+      "cancel": "Komut iptal edildi."
     },
     "permission": {
-      "hierarchy": "I can't use this role because it is above my highest role in the role hierarchy.",
-      "missing": "You're unable to run this command because you lack the following permissions: $permissions$",
-      "channelRead": "I'm missing the permissions **Read Messages** and **Read Message History** in the active channel.",
-      "channelSend": "I'm missing the permission **Send Messages** in the active channel.",
-      "addReactions": "I can't add this emoji because I'm missing the **Add Reactions** permission in the active channel.",
-      "othersEdit": "I can't edit that message as it wasn't sent by me.",
-      "manageChannels": "Manage Channels",
-      "manageMessages": "Manage Messages",
-      "manageRoles": "Manage Roles",
-      "manageGuild": "Manage Server"
+      "hierarchy": "Bu rolü kullanamıyorum. Çünkü sahip olduğum en yüksek rolün sıralama olarak daha da üstünde.",
+      "missing": "Bu komutu kullanamazsın. Kullanman için gereken izinler: $permissions$",
+      "channelRead": "Belirtilen kanalda **Mesajları Oku** ve **Mesaj Geçmişini Oku** izinlerine sahip değilim.",
+      "channelSend": "Belirtilen kanalda **Mesaj Gönder** iznine sahip değilim.",
+      "addReactions": "Belirtilen kanalda **Tepki Ekle** iznine sahip olmadığım için bu emojiyi ekleyemiyorum.",
+      "othersEdit": "Başkaları tarafından gönderilen mesajları düzenleyemem.",
+      "manageChannels": "Kanalları Yönet",
+      "manageMessages": "Mesajları Yönet",
+      "manageRoles": "Rolleri Yönet",
+      "manageGuild": "Sunucuyu Yönet"
     },
     "roles": {
-      "unknown": "I can't find that role. Please make sure it exists.",
-      "managed": "Integrated roles can't be used. Only roles created by users or bots.",
-      "used": "You can't use this role as it's already setup with this emoji.",
-      "once": "Since a role is setup as a Once type on this message, you can't have any other types besides Once."
+      "unknown": "Bu rolü bulamıyorum. Lütfen var olduğundan emin olun.",
+      "managed": "Entegre edilmiş roller kullanılamaz. Sadece botlar ve kullanıcılar tarafından oluşturulan roller kullanılabilir.",
+      "used": "Bu rolü, belirtilen emoji ile ayarlandığı için kullanamazsın.",
+      "once": "Herhangi bir rol, Once tipi ile ayarlandı ise, Once tipi dışında başka türlere sahip olamazsınız."
     },
     "general": {
-      "maxReactions": "I can't add more roles to this message because it already has 20 reactions on it. If you would like to setup this role, please remove a role from this message or create a new message. This is a Discord limit.",
-      "missingSetup": "Please set a channel **and** message first then try this command again.",
-      "missingChannel": "Please set a channel first then try this command again.",
-      "missingMessage": "Please set a message first then try this command again.",
-      "missingMessageID": "Please provide me with a message ID.",
-      "missingRole": "Please provide me with a role name or mention.",
-      "messageNotFound": "I can't find this message. Please make sure the message ID is correct.",
-      "invalidID": "That is not a valid ID.",
-      "noRoleProvided": "Please provide a role.",
-      "noChannelProvided": "Please provide a channel.",
-      "noMessageProvided": "Please provide a message.",
+      "maxReactions": "Bu mesaja daha fazla rol ekleyemem, çünkü mesajda zaten 20 tepki var. Yine de rolü eklemek istiyorsanız, lütfen mesajdan bir rol silin ya da yeni bir mesaj oluşturun. Bu, Discord'un koyduğu bir sınır.",
+      "missingSetup": "Lütfen **kanalı belirledikten sonra**, mesajı belirttikten sonra bu komutu tekrar deneyin.",
+      "missingChannel": "Lütfen önce bir kanal belirleyin, sonra bu komutu tekrar deneyin.",
+      "missingMessage": "Lütfen ilk önce mesajı ayarlayın. Ardından komutu tekrar deneyin.",
+      "missingMessageID": "Lütfen bir mesaj ID'si belirtin.",
+      "missingRole": "Lütfen bana bir rol ismi ya da bahsedilmesi belirtin.",
+      "messageNotFound": "Mesajı bulamıyorum. Lütfen ID'nin doğru olduğundan emin olun.",
+      "invalidID": "Bu geçerli bir ID değil.",
+      "noRoleProvided": "Lütfen bir rol belirtin.",
+      "noChannelProvided": "Lütfen bir kanal belirtin.",
+      "noMessageProvided": "Lütfen bir mesaj belirtin.",
       "noSuggestionProvided": "Please provide a suggestion ID or a message ID of the suggestion you want."
     },
     "premium": "This feature is [premium](https://zira.ovh/premium) only.",
