@@ -381,22 +381,22 @@
     },
     "approve": {
       "help": "Vorschlag annehmen",
-      "args": "<ID> [reason]",
+      "args": "<ID> [grund]",
       "update": "Dein Vorschlag [$id$]($url$) wurde genehmigt."
     },
     "deny": {
       "help": "Vorschlag ablehnen",
-      "args": "<ID> [reason]",
+      "args": "<ID> [grund]",
       "update": "Dein Vorschlag [$id$]($url$) wurde abgelehnt."
     },
     "maybe": {
       "help": "Potenziell einen Vorschlag genehmigen",
-      "args": "<ID> [reason]",
+      "args": "<ID> [grund]",
       "update": "Dein Vorschlag [$id$]($url$) wurde möglicherweise genehmigt."
     },
     "invalid": {
       "help": "Einen Vorschlag als ungültig markieren",
-      "args": "<ID> [reason]",
+      "args": "<ID> [grund]",
       "update": "Dein Vorschlag [$id$]($url$) wurde als ungültig markiert."
     },
     "help": {
