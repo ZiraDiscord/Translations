@@ -3,8 +3,8 @@
   "titles": {
     "success": "Sikeres parancsvégrehajtás :white_check_mark:",
     "error": "Hiba :warning:",
-    "usage": "Command Usage",
-    "example": "Usage Examples",
+    "usage": "Parancs használat",
+    "example": "Használati példák",
     "permission": "Hiányos jogosultságok"
   },
   "errors": {
@@ -34,7 +34,7 @@
     "roles": {
       "unknown": "Nem találom ezt a rangot. Kérlek menj biztosra, hogy létezik.",
       "managed": "Integrált rangok nem használhatóak csak azok, amelyek a \"bot\"-ok és felhasználók által lettek létrehozva.",
-      "used": "You can't use this role as it's already setup with this emoji.",
+      "used": "Nem használhatod ezt a rangot, mivel ez már hozzá van adva egy emotikonnal.",
       "once": "Since a role is setup as a Once type on this message, you can't have any other types besides Once."
     },
     "general": {
@@ -69,7 +69,7 @@
     "new": "Új javaslat",
     "approved": "Elfogadott javaslat",
     "denied": "Elutasított javaslat",
-    "potential": "Potential Suggestion",
+    "potential": "Potenciális javaslat",
     "invalid": "Hibás javaslat",
     "updated": "Javaslat frissítve"
   },
@@ -94,7 +94,7 @@
       "interactive": {
         "stage": "Szakasz ",
         "skipped": "Szakasz kihagyva.",
-        "title": "If you would like a title please provide one.\n\nYou'll have 2 minutes for each of the stages to enter in values.\n\nIf you have JSON you would like to use instead of this creator please use **z/embed <JSON>**\n\nYou can skip this stage by typing `skip`.",
+        "title": "Elnevezéshez írj egy nevet.\n2 perced van mindegyik szakasz kitöltésére.\nHa van egy JSON-öd amit szeretnél használni kérlek használd a **z/embed <JSON>** parancsot\nEllenkező esetben kihagyhatod ezt a részt a `skip` parancs beírásával.",
         "description": "Ha szeretnél egy leírást hozzáadni, kérlek írj egyet.\nEllenkező esetben ez kihagyható a `skip` parancs beírásával.",
         "image": "Ha szeretnél egy képet hozzáadni kérlek linkelj, vagy tölts fel egyet\nEllenkező esetben ez kihagyható a `skip` parancs beírásával.",
         "footer": "Ha szeretnél egy lábjegyzetet hozzáadni, kérlek írj egyet.\nEllenkező esetben ez kihagyható a `skip` parancs beírásával.",
@@ -130,7 +130,7 @@
         "crowdin": "Ha szeretnéd, hogy Zira olyan nyelvekre legyen lefordítva amelyek a listán nincsenek rajta, akkor itt tudsz segíteni lefordítani őket [Crowdin](https://translate.zira.ovh)"
       },
       "main": {
-        "prefix": "Set a custom prefix.",
+        "prefix": "Egyedi előtag beállítása.",
         "role": "Aktiválja, vagy letiltja melyik rang használhatja a parancsokat.",
         "reset": "Klán beállítások alaphelyzetbe helyezése.",
         "language": "Klán nyelvének beállítása."
@@ -161,13 +161,13 @@
       "help": "Összes rang mutatása.",
       "args": "",
       "title": "Rangok listája",
-      "description": "You can remove a role listed here with **$prefix$delete**\nYou can remove any deleted roles listed by doing **$prefix$delete <message ID> check**.",
+      "description": "Eltávolíthatol egy rangot erről a listáról a **$prefix$delete** paranccsal\nEltávolíthatol bármilyen törölt rangot a listáról a **$prefix$delete <üzenet azonosító> check** paranccsal.",
       "role": "Rang",
       "channel": "Szoba",
       "message": "Üzenet",
       "emoji": "Emotikon",
       "link": "Ugrás az üzenethez",
-      "type": "Type"
+      "type": "Típus"
     },
     "delete": {
       "help": "Egy meglévő rang eltávolítása.",
@@ -175,21 +175,21 @@
       "check": {
         "help": "Eltávolított rangok keresése az üzeneten.",
         "args": "<üzenet azonosító>",
-        "none": "All roles valid.",
+        "none": "Minden rang érvényes.",
         "removed": "rang(ok) eltávolítva."
       },
       "all": {
         "help": "Minden rang eltávolítása az üzenetről.",
         "args": "<üzenet azonosító>",
-        "done": "Any roles on the message have been removed."
+        "done": "Az üzeneten lévő összes rang el lett távolítva."
       },
       "remove": {
         "help": "Egy rang eltávolítása az üzenetről",
         "args": "<üzenet azonosító> <rang>",
-        "none": "That role is not setup on that message ID.",
+        "none": "Ez a rang nincs beállítva a kijelölt üzenet azonosítón.",
         "done": "A rang eltávolítása került."
       },
-      "description": "You can find the message ID a role is on with **$prefix$list**."
+      "description": "Az üzenet azonosítót megtalálhatod egy rangon a **$prefix$list** paranccsal."
     },
     "edit": {
       "help": "Zira által elküldött üzenet szerkeztése.",
@@ -200,12 +200,12 @@
       "interactive": {
         "stage": "Szakasz ",
         "skipped": "Szakasz kihagyva.",
-        "title": "If you would like a title please provide one.\n\nYou'll have 2 minutes for each of the stages to enter in values.\n\nIf you have JSON you would like to use instead of this creator please use **z/edit $message <JSON>**\n\nYou can skip this stage by typing `skip`.",
+        "title": "Ha szeretnél egy címet/nevet számára akkor írj egyet.\n\n2 perced van mindegyik szakasz kitöltésére.\n\nHa van egy JSON amit szeretnél használni kérlek használd a **z/edit $message <JSON>** parancsot\n\nEllenkező esetben kihagyhatod ezt a részt a `skip` parancs beírásával.",
         "description": "Ha szeretnél egy leírást hozzáadni, kérlek írj egyet.\nEllenkező esetben ez kihagyható a `skip` parancs beírásával.",
         "image": "Ha szeretnél egy képet hozzáadni kérlek linkelj, vagy tölts fel egyet\nEllenkező esetben ez kihagyható a `skip` parancs beírásával.",
         "footer": "Ha szeretnél egy lábjegyzetet hozzáadni, kérlek írj egyet.\nEllenkező esetben ez kihagyható a `skip` parancs beírásával.",
         "color": "Ha szeretnél egy színt hozzáadni, kérlek írj egy hexadecimális (16-os számrendszerbeli) kódot\nEllenkező esetben ez kihagyható a `skip` parancs beírásával.",
-        "creating": "Editing embed."
+        "creating": "Beágyazás szerkeztése."
       }
     },
     "log": {
@@ -315,69 +315,69 @@
       "args": "",
       "new": {
         "help": "Szoba beállítása javaslati szobának",
-        "args": "<#channel | disable>",
+        "args": "<#szoba> | disable>",
         "set": "Új javaslatok ide lesznek küldve",
         "disable": "Javaslatok ki lettek kapcsolva."
       },
       "approved": {
         "help": "Az elfogadott javaslatok ide lesznek küldve",
-        "args": "<#channel | disable>",
+        "args": "<#szoba> | disable>",
         "set": "Az elfogadott javaslatok ide lesznek küldve",
-        "disable": "Approved suggestions will no longer be moved to a channel."
+        "disable": "Az elfogadott javaslatok nem kerülnek mozgatásra."
       },
       "denied": {
-        "help": "Set the channel denied suggestions will get sent to",
-        "args": "<#channel | disable>",
-        "set": "Denied suggestions will get sent to",
-        "disable": "Denied suggestions will no longer be moved to a channel."
+        "help": "Beállítja, hogy melyik szobába kerüljenek az elutasított javaslatok",
+        "args": "<#szoba> | disable>",
+        "set": "Az elutasított javaslatok ide kerülnek",
+        "disable": "Az elutasított javaslatok nem kerülnek mozgatásra."
       },
       "invalid": {
-        "help": "Set the channel invalid suggestions will get sent to",
-        "args": "<#channel | disable>",
-        "set": "Invalid suggestions will get sent to",
-        "disable": "Invalid suggestions will no longer be moved to a channel."
+        "help": "Beállítja, hogy hova kerüljenek a hibás javaslatok",
+        "args": "<#szoba> | disable>",
+        "set": "A hibás javaslatok ide kerülnek",
+        "disable": "A hibás javaslatok nem kerülnek mozgatásra."
       },
       "potential": {
-        "help": "Set the channel potential suggestions will get sent to",
-        "args": "<#channel | disable>",
-        "set": "Potential suggestions will get sent to",
-        "disable": "Potential suggestions will no longer be moved to a channel."
+        "help": "Beállítja, hogy melyik szobába kerüljenek a potenciális javaslatok",
+        "args": "<#szoba> | disable>",
+        "set": "A potenciális javaslatok ide fognak kerülni",
+        "disable": "Az potenciális javaslatok nem kerülnek mozgatásra."
       },
       "submit": {
-        "help": "Set the channel users will have to use to submit a suggestion\n[Premium Feature](https://zira.ovh/premium)",
-        "args": "<#channel | disable>",
-        "set": "Suggestions can now only be made in",
-        "disable": "Suggestions can now be made in any channel."
+        "help": "Beállítja, hogy a felhasználóknak melyik szobát kell használniuk a javaslatok leírásához\n[Csak Premiummal használható](https://zira.ovh/premium)",
+        "args": "<#szoba> | disable>",
+        "set": "A javaslatokat mostantól csak itt lehet írni",
+        "disable": "Mostantól lehet bármelyik szobába javaslatokat írni."
       },
       "dm": {
-        "help": "Set whether users should get updates on their suggestions\n[Premium Feature](https://zira.ovh/premium)",
-        "on": "Users will get updates about their suggestions.",
-        "off": "Users won't be updated about their suggestions."
+        "help": "Beállítja, hogy a felhasználók hol kapnak értesítést a javaslatukról\n[Csak prémiummal használható](https://zira.ovh/premium)",
+        "on": "A felhasználók értesítést kapnak a javaslataikról.",
+        "off": "A felhasználók nem kapnak értesítést a javaslataikról."
       },
       "reaction": {
-        "help": "Set whether emojis should be reacted to new suggestions\n[Premium Feature](https://zira.ovh/premium)",
+        "help": "Beállítja, hogy milyen emotikonokkal lehet reagálni a javaslatokra\n[Csak prémiummal használható](https://zira.ovh/premium)",
         "on": "Suggestions will now have emojis set with **$prefix$suggestion emojis** reacted to them.",
-        "off": "Suggestions will no longer be reacted to."
+        "off": "A javaslatokra mostantól nem lehet reagálni."
       },
       "emojis": {
         "help": "Set the emojis to be used when reacting to suggestions\n[Premium Feature](https://zira.ovh/premium)",
-        "args": "<emojiOne> <emojiTwo>",
-        "set": "Emojis have been set.",
-        "needTwo": "Please provide two emojis."
+        "args": "<Elsőemotikon><Másodikemotikon>",
+        "set": "Emotikonok beállítva.",
+        "needTwo": "Kérlek írj számomra kettő emotikont."
       },
       "role": {
-        "help": "Set a role that can approve, deny, etc. suggestions",
-        "args": "<role | disable>",
-        "set": "Only users with $role$ and the guild owner will be able to interactive with suggestions.",
-        "disable": "Anyone with the **Manage Guild** permission will now be able to interact with suggestions."
+        "help": "Beállít egy rangot, amely képes a javaslatok elfogadására, elutasítására, stb",
+        "args": "<rang | disable>",
+        "set": "Csak azok a $role$ ranggal felhatalmazott felhasználók és a klán mester férhet hozzá a javaslatokhoz.",
+        "disable": "Mindenki akinek van **Klán kezelési** jogosultsága interakcióba léphet a javaslatokkal."
       }
     },
     "suggest": {
-      "help": "Submit a suggestion",
+      "help": "Elküld egy javaslatot",
       "args": "<javaslat>",
-      "setup": "Suggestions are not setup. Use **$prefix$suggestion new** to setup suggestions.",
-      "submitChannel": "Please use $channel$ to submit suggestions.",
-      "provideSuggestion": "Please provide a suggestion."
+      "setup": "Javaslatok nincsenek beállítva. Használd a **$prefix$suggestion new** parancsot ennek beállítására.",
+      "submitChannel": "Kérlek használd a $channel$ szobát a javaslatok elküldéséhez.",
+      "provideSuggestion": "Kérlek adj meg egy javaslatot."
     },
     "approve": {
       "help": "Javaslat elfogadása",
@@ -390,32 +390,32 @@
       "update": "A javaslatod [$id$]($url$) el lett utasítva."
     },
     "maybe": {
-      "help": "Potentially approve a suggestion",
+      "help": "Potenciálisan elfogadja a javaslatot",
       "args": "<Azonosító>[reason]",
-      "update": "Your suggestion [$id$]($url$) has been potentially approved."
+      "update": "A javaslatod [$id$]($url$) potenciális elfogadásra került."
     },
     "invalid": {
-      "help": "Mark a suggestion as invalid",
+      "help": "Egy javaslatot hibásnak állít be",
       "args": "<Azonosító>[reason]",
-      "update": "Your suggestion [$id$]($url$) has been marked invalid."
+      "update": "A javaslatod [$id$]($url$) hibásnak lett megjelölve."
     },
     "help": {
       "categories": [
-        "Roles",
-        "Suggestion",
-        "Logging",
-        "Miscellaneous"
+        "Rangok",
+        "Javaslat",
+        "Naplózás",
+        "Egyéb"
       ],
-      "commands": "Commands",
-      "title": "Links",
-      "footer": "<> = Required [] = Optional",
+      "commands": "Parancsok",
+      "title": "Linkek",
+      "footer": "<> = Kitöltendő [] = Választható",
       "links": [
-        "[Guide](https://docs.zira.ovh/)",
-        "[Support Server](https://zira.ovh/support)",
-        "[Zira Premium](https://zira.ovh/premium)",
-        "[Invite Zira](https://zira.ovh/invite)",
-        "[Translate Zira](https://translate.zira.ovh/)",
-        "[Bot Status](https://status.imjake.me/)"
+        "[Útmutató](https://docs.zira.ovh/)",
+        "[Segítségre van szükséged? Csatlakozz discord szerverünkhöz](https://zira.ovh/support)",
+        "[Zira Prémium](https://zira.ovh/premium)",
+        "[Zira meghívása](https://zira.ovh/invite)",
+        "[Fordítsd le Zirát](https://translate.zira.ovh/)",
+        "[Bot állapota](https://status.imjake.me/)"
       ]
     }
   }
