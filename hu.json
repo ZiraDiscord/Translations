@@ -1,8 +1,8 @@
 {
-  "language": "English",
+  "language": "Magyar",
   "titles": {
     "success": "Success :white_check_mark:",
-    "error": "Error :warning:",
+    "error": "Hiba :warning:",
     "usage": "Command Usage",
     "example": "Usage Examples",
     "permission": "Missing Permissions"
