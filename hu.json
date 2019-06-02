@@ -20,7 +20,7 @@
       "cancel": "Parancs visszamondva."
     },
     "permission": {
-      "hierarchy": "I can't use this role because it is above my highest role in the role hierarchy.",
+      "hierarchy": "Nem tudom használni ezt a rangot, mivel ez magasabban van mint a sajátom a rangsorban.",
       "missing": "Ezt a parancsot nem használhatod, mivel nincsenek meg a szükséges jogaid hozzá: $permissions$",
       "channelRead": "Hiányos jogosultságom van, hogy **Üzeneteket olvassak** és **Elolvassam az üzenetelőzményeket** az aktív szobában.",
       "channelSend": "Hiányos jogosultságom van, hogy **Üzeneteket küldjek** az aktív szobában.",
@@ -35,7 +35,7 @@
       "unknown": "Nem találom ezt a rangot. Kérlek menj biztosra, hogy létezik.",
       "managed": "Integrált rangok nem használhatóak csak azok, amelyek a \"bot\"-ok és felhasználók által lettek létrehozva.",
       "used": "Nem használhatod ezt a rangot, mivel ez már hozzá van adva egy emotikonnal.",
-      "once": "Since a role is setup as a Once type on this message, you can't have any other types besides Once."
+      "once": "Mivel egy egyszerhasználatos rangkiosztás van az üzeneten, ezért nem tehetsz erre az üzenetre más fajtájú rangkiosztást."
     },
     "general": {
       "maxReactions": "Nem tudok több rangot hozzáadni ehhez az üzenethez, mivel már van rajta 20 reakció. Ha mégis szeretnéd ezt a rangot hozzáadni, kérlek törölj egy rangot az üzenetről, vagy hozz létre egy másik üzenetet. Ez egy Discord által megszabott szabály.",
@@ -64,7 +64,7 @@
     "removeReaction": "$mention$ eltávolította reagálást a(z) $emoji$-ról ezzel lemondva a(z) $roles$ rangjáról"
   },
   "suggestions": {
-    "reason": "$user$'s Reason",
+    "reason": "$user$ Indítéka",
     "footer": "Azonosító: $id$ Elküldve",
     "new": "Új javaslat",
     "approved": "Elfogadott javaslat",
@@ -148,14 +148,14 @@
       "args": "<emoji> <rang>"
     },
     "toggle": {
-      "help": "Setup a toggled role",
+      "help": "Kapcsolható rang beállítása",
       "args": "<emoji> <rang>",
-      "limit": "There is a limit of 6 free toggled roles. You get unlimited toggled roles with [premium](https://zira.ovh/premium)"
+      "limit": "Maximum 6 kapcsolható rang használható. Ahhoz, hogy több ilyen rangot használhass szükséged van premiumra [premium](https://zira.ovh/premium)"
     },
     "once": {
       "help": "Egyszeri rang beállítása",
       "args": "<emoji> <rang>",
-      "error": "Since there is a role set on this message with this emoji already that isn't a once reaction, you cant add any once reactions."
+      "error": "Mivel ezen az üzeneten már ez az emotikon ezzel a ranggal fel van használva ezért nem adhatsz hozzá mégegy egyszerhasználatos reakciót."
     },
     "list": {
       "help": "Összes rang mutatása.",
@@ -209,41 +209,41 @@
       }
     },
     "log": {
-      "help": "Log role events to a channel",
+      "help": "Dokumentálja a rangokkal kapcsolatos eseményeket a szobában",
       "args": "<#szoba>",
-      "set": " set as the logging channel.\n\n**Note:** If I can't send messages to the channel I will disable logging.",
-      "disable": "Role logging is now disabled."
+      "set": " beállítva dokumentációs szobának.\n\n**Megjegyzés:** Ha nem tudok üzenetet küldeni a szobába, akkor ez automatikusan kikapcsol.",
+      "disable": "Rang dokumentáció kikapcsolva."
     },
     "autorole": {
-      "help": "Give roles to be given when a member joins",
+      "help": "Automatikusan kiosztja az adott rangot, amikor valaki csatlakozik a szerverhez",
       "args": "",
       "user": {
-        "help": "Give roles for when a person joins",
+        "help": "Automatikusan kioszt egy rangot a csatlakozó embereknek",
         "args": "<rang>",
-        "set": "$role$ will be given when a user joins.",
-        "remove": "$role$ will no longer be given when a user joins."
+        "set": "$role$ rang lesz adva a csatlakozó embereknek.",
+        "remove": "$role$ rang mostantól automatikusan ki lesz osztva az újonnan érkezőknek."
       },
       "bot": {
-        "help": "Give roles for when a bot joins",
+        "help": "Automatikusan kioszt egy rangot a csatlakozó botoknak",
         "args": "<rang>",
-        "set": "$role$ will be given when a bot joins.",
-        "remove": "$role$ will no longer be given when a bot joins."
+        "set": "$role$ rang mostantól automatikusan ki lesz osztva a csatlakozó botoknak.",
+        "remove": "$role$ rang mostantól nem lesz automatikusan kiosztva a csatlakozó botoknak."
       },
       "show": {
-        "help": "Show the roles currently setup",
+        "help": "Megmutatja a már jelenleg hozzáadott rangokat",
         "user": "Felhasználói rangok",
         "bot": "Bot rangok",
         "noRoles": "Még nincs beállítva automatikus rangkiosztás"
       },
-      "removeTip": "If you would like to remove a role that is setup with autoroles, just do the command you used to set it up again."
+      "removeTip": "Ha szeretnéd eltávolítani azt a rangot, amelyiket beállítottad automatikus kiosztásra, csak írd be újra azt a parancsot amit használtál, és állítsd be újra."
     },
     "join": {
-      "help": "Join messages",
+      "help": "Belépési üzenetek",
       "args": "",
       "channel": {
-        "help": "Set the channel join messages should be sent in",
+        "help": "Beállítja hogy a belépési üzenetek melyik szobába kerüljenek",
         "args": "<#szoba>",
-        "set": " set as the join channel.\n\n**Note:** If I can't send messages to the channel I will disable join messages."
+        "set": " beállítva belépési szobaként.\n\n**Megjegyzés:** Ha nem tudok üzenetet küldeni a szobába, akkor ez automatikusan kikapcsol."
       },
       "disable": {
         "help": "Belépési üzenetek kikapcsolása",
@@ -267,8 +267,8 @@
         "args": ""
       },
       "placeholders": {
-        "title": "Usable Placeholders That Zira Will Auto-Fill",
-        "description": "$user$ - username\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "title": "Használható helyőrzők amiket Zira automatikusan feltölt",
+        "description": "$user$ - Felhasználónév\n$mention$ - Felhasználó megemlítése\n$guild$ - Klán név\n$membercount$ - Új emberek száma"
       }
     },
     "leave": {
@@ -301,7 +301,7 @@
         "args": ""
       },
       "placeholders": {
-        "title": "Usable Placeholders",
+        "title": "Használható helyőrzők",
         "description": "$user$ - felhasználónév\n$mention$ - felhasználó megemlítése\n$guild$ - klán neve\n$membercount$ - új felhasználók száma"
       }
     },
@@ -356,11 +356,11 @@
       },
       "reaction": {
         "help": "Beállítja, hogy milyen emotikonokkal lehet reagálni a javaslatokra\n[Csak prémiummal használható](https://zira.ovh/premium)",
-        "on": "Suggestions will now have emojis set with **$prefix$suggestion emojis** reacted to them.",
+        "on": "A javaslatokhoz mostantól emojik lesznek rendelve a **$prefix$suggestion emojis** paranccsal reagálva.",
         "off": "A javaslatokra mostantól nem lehet reagálni."
       },
       "emojis": {
-        "help": "Set the emojis to be used when reacting to suggestions\n[Premium Feature](https://zira.ovh/premium)",
+        "help": "Beállítja, hogy használja az emotikonokat a javaslatokra való reagálás során\n[Csak prémiummal használható](https://zira.ovh/premium)",
         "args": "<Elsőemotikon><Másodikemotikon>",
         "set": "Emotikonok beállítva.",
         "needTwo": "Kérlek írj számomra kettő emotikont."
