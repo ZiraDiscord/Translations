@@ -12,7 +12,7 @@
     "unknown": {
       "channel": "Geçersiz kanal. Kanalın olduğundan emin olun. Eğer emin iseniz kanalı görüntüleme iznim yoktur.",
       "message": "Belirlenmiş kanalda mesaj bulunulamadı. Lütfen mesajın var olduğundan emin olun. Eğer emin iseniz, lütfen izinlerimi mesajı görebileceğim şekilde ayarlayın.",
-      "emoji": "Bu emojiyi kullanamıyorum. Lütfen emojinin benim bulunduğum bir sunucuda olduğundan emin olun. Eğer emin iseniz, lütfen geçerli kanalda **Harici Emojiler Kullan** iznim olduğundan emin olun.",
+      "emoji": "I can't use this emoji. Please make sure the emoji can be found in Discord's emoji picker. If it's in the emoji picker and it's a custom emoji make sure I'm in the server that it comes from. If the emoji still doesn't work make sure I have the permission **Use External Emojis** in the active channel. If all else fails join the support guild and someone from the support team will help you.",
       "suggestion": "Bu ID üzerindeki öneriyi bulamadım."
     },
     "interactive": {
