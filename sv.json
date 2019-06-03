@@ -12,7 +12,7 @@
     "unknown": {
       "channel": "Okänd kanal. Vänligen se till att den existerar, och om den gör det, att jag har lämpliga behörigheter att se den.",
       "message": "Meddelandet hittades inte i den aktiva kanalen. Vänligen se till att den existerar, och om den gör det, att jag har lämpliga behörigheter att se den.",
-      "emoji": "Jag kan inte använda emojin. Vänligen se till att jag är i servern den kom från, och om jag är det, se till att jag har behörigheten **Använd externa emoji** i den aktiva kanalen.",
+      "emoji": "I can't use this emoji. Please make sure the emoji can be found in Discord's emoji picker. If it's in the emoji picker and it's a custom emoji make sure I'm in the server that it comes from. If the emoji still doesn't work make sure I have the permission **Use External Emojis** in the active channel. If all else fails join the support guild and someone from the support team will help you.",
       "suggestion": "Ett förslag med det ID:t hittades inte."
     },
     "interactive": {
