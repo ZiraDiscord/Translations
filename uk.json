@@ -13,7 +13,7 @@
       "channel": "Unknown channel. Please make sure it exists, and if it does, that I have the proper permissions to view it.",
       "message": "Message not found in the active channel. Please make sure it exists, and if it does, that I have the proper permissions to view it.",
       "emoji": "I can't use this emoji. Please make sure I'm in the server that it came from and if it is, make sure I have the permission **Use External Emojis** in the active channel.",
-      "suggestion": "A suggestion with that ID wasn't found."
+      "suggestion": "Пропозиція з цим ID не знайдена."
     },
     "interactive": {
       "timeout": "Command timeout.",
@@ -26,13 +26,13 @@
       "channelSend": "I'm missing the permission **Send Messages** in the active channel.",
       "addReactions": "I can't add this emoji because I'm missing the **Add Reactions** permission in the active channel.",
       "othersEdit": "I can't edit that message as it wasn't sent by me.",
-      "manageChannels": "Manage Channels",
-      "manageMessages": "Manage Messages",
-      "manageRoles": "Manage Roles",
-      "manageGuild": "Manage Server"
+      "manageChannels": "Управління каналами",
+      "manageMessages": "Управління повідомленнями",
+      "manageRoles": "Управління ролями",
+      "manageGuild": "Управління сервером"
     },
     "roles": {
-      "unknown": "I can't find that role. Please make sure it exists.",
+      "unknown": "Я не можу знайти цю роль. Переконайтесь у тому, що вона існує.",
       "managed": "Integrated roles can't be used. Only roles created by users or bots.",
       "used": "You can't use this role as it's already setup with this emoji.",
       "once": "Since a role is setup as a Once type on this message, you can't have any other types besides Once."
@@ -42,19 +42,19 @@
       "missingSetup": "Please set a channel **and** message first then try this command again.",
       "missingChannel": "Please set a channel first then try this command again.",
       "missingMessage": "Please set a message first then try this command again.",
-      "missingMessageID": "Please provide me with a message ID.",
-      "missingRole": "Please provide me with a role name or mention.",
-      "messageNotFound": "I can't find this message. Please make sure the message ID is correct.",
-      "invalidID": "That is not a valid ID.",
-      "noRoleProvided": "Please provide a role.",
-      "noChannelProvided": "Please provide a channel.",
-      "noMessageProvided": "Please provide a message.",
+      "missingMessageID": "Будь ласка, вкажіть ID повідомлення.",
+      "missingRole": "Будь ласка, вкажіть ім'я ролі або згадку.",
+      "messageNotFound": "Я не можу знайти це повідомлення. Будь ласка, переконайтесь у тому, що ID повідомлення вірний.",
+      "invalidID": "Невірний ID.",
+      "noRoleProvided": "Будь ласка, вкажіть роль.",
+      "noChannelProvided": "Будь ласка, вкажіть канал.",
+      "noMessageProvided": "Будь ласка, вкажіть повідомлення.",
       "noSuggestionProvided": "Please provide a suggestion ID or a message ID of the suggestion you want."
     },
     "premium": "This feature is [premium](https://zira.ovh/premium) only.",
-    "suggestionsRole": "You need the $role$ role to manage suggestions."
+    "suggestionsRole": "Вам потрібна роль $role$ для управління пропозиціями."
   },
-  "page": "Page",
+  "page": "Сторінка",
   "logging": {
     "addReaction": {
       "add": "$mention$ reacted with $emoji$ to get $added$",
@@ -66,23 +66,23 @@
   "suggestions": {
     "reason": "$user$'s Reason",
     "footer": "ID: $id$ Submitted",
-    "new": "New Suggestion",
-    "approved": "Approved Suggestion",
-    "denied": "Denied Suggestion",
-    "potential": "Potential Suggestion",
+    "new": "Нова пропозиція",
+    "approved": "Ухвалена пропозиція",
+    "denied": "Відхилена пропозиція",
+    "potential": "Потенційна пропозиція",
     "invalid": "Invalid Suggestion",
-    "updated": "Suggestion Updated"
+    "updated": "Пропозиція оновлена"
   },
   "commands": {
     "channel": {
       "help": "Set the active channel.",
-      "args": "<#channel>",
+      "args": "<#канал>",
       "set": " set as the active channel.",
       "pick": "Please mention the channel you want to use.\nType `cancel` if you would like to cancel."
     },
     "message": {
       "help": "Set the active message.",
-      "args": "<message ID>",
+      "args": "<ID повідомлення>",
       "set": "Message set.",
       "pick": "Please provide a message ID for Zira to use or message for Zira to send.\nType `cancel` if you would like to cancel."
     },
@@ -106,14 +106,14 @@
       "help": "Guild config.",
       "args": "",
       "prefix": {
-        "args": "<prefix>",
+        "args": "<префікс>",
         "error": "Please provide a prefix that's between 1 and 10 characters and has at least one of these characters in it:  `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
         "set": "Prefix has been set to"
       },
       "role": {
         "args": "<@role | disable>",
         "error": "Please mention a role or provide a role name, or if you would like to disable the role, type",
-        "set": "Role set. Only people with $role$ will be able to use Zira commands.",
+        "set": "Роль встановлена. Тільки люди з $role$ зможуть використовувати команди Zira.",
         "disable": "Anyone with the correct permissions can use Zira's commands now."
       },
       "reset": {
@@ -123,10 +123,10 @@
         "cancel": "Phew. Guild config has not been reset."
       },
       "language": {
-        "args": "<language code>",
-        "title": "Languages",
-        "set": "Language set.",
-        "unknown": "Unknown language.",
+        "args": "<код мови>",
+        "title": "Мови",
+        "set": "Мова встановлена.",
+        "unknown": "Невідома мова.",
         "crowdin": "If you want Zira in a language that isn't on the list above, you can apply and help translate Zira on [Crowdin](https://translate.zira.ovh)"
       },
       "main": {
@@ -174,13 +174,13 @@
       "args": "",
       "check": {
         "help": "Checks for deleted roles on a message.",
-        "args": "<message ID>",
+        "args": "<ID повідомлення>",
         "none": "All roles valid.",
         "removed": "role(s) removed."
       },
       "all": {
         "help": "Remove all roles from a message.",
-        "args": "<message ID>",
+        "args": "<ID повідомлення>",
         "done": "Any roles on the message have been removed."
       },
       "remove": {
@@ -210,7 +210,7 @@
     },
     "log": {
       "help": "Log role events to a channel",
-      "args": "<#channel>",
+      "args": "<#канал>",
       "set": " set as the logging channel.\n\n**Note:** If I can't send messages to the channel I will disable logging.",
       "disable": "Role logging is now disabled."
     },
@@ -242,7 +242,7 @@
       "args": "",
       "channel": {
         "help": "Set the channel join messages should be sent in",
-        "args": "<#channel>",
+        "args": "<#канал>",
         "set": " set as the join channel.\n\n**Note:** If I can't send messages to the channel I will disable join messages."
       },
       "disable": {
@@ -276,7 +276,7 @@
       "args": "",
       "channel": {
         "help": "Set the channel leave messages should be sent in",
-        "args": "<#channel>",
+        "args": "<#канал>",
         "set": " set as the leave channel.\n\n**Note:** If I can't send messages to the channel I will disable leave messages."
       },
       "disable": {
