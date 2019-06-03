@@ -1,120 +1,120 @@
 {
   "language": "Français",
   "titles": {
-    "success": "Success :white_check_mark:",
+    "success": "Terminé :white_check_mark:",
     "error": "Erreur :warning:",
     "usage": "Utilisation de la commande",
-    "example": "Usage Examples",
-    "permission": "Missing Permissions"
+    "example": "Exemples d'utilisation",
+    "permission": "Autorisations manquantes"
   },
   "errors": {
     "generic": "Une erreur s’est produite. Si l’erreur persiste, veuillez rejoindre mon serveur de support.",
     "unknown": {
-      "channel": "Unknown channel. Please make sure it exists, and if it does, that I have the proper permissions to view it.",
-      "message": "Message not found in the active channel. Please make sure it exists, and if it does, that I have the proper permissions to view it.",
-      "emoji": "I can't use this emoji. Please make sure the emoji can be found in Discord's emoji picker. If it's in the emoji picker and it's a custom emoji make sure I'm in the server that it comes from. If the emoji still doesn't work make sure I have the permission **Use External Emojis** in the active channel. If all else fails join the support guild and someone from the support team will help you.",
-      "suggestion": "A suggestion with that ID wasn't found."
+      "channel": "Salon inconnu. Assurez-vous qu'il existe et si c'est le cas, que je dispose des autorisations nécessaires pour le consulter.",
+      "message": "Message introuvable dans le salon actif. Assurez-vous qu'il existe et si c'est le cas, que je dispose des autorisations nécessaires pour le consulter.",
+      "emoji": "Je ne peux pas utiliser cet émoji. Assurez-vous que les émojis se trouvent dans le sélecteur d'émojis de Discord. Si c'est dans le sélecteur d'émojis et que c'est un émoji personnalisé, assurez-vous que je suis dans le serveur d'où il provient. Si les émojis ne fonctionnent toujours pas, assurez-vous que j'ai l'autorisation **Utiliser des émojis externes** dans le salon actif. Si tout échoue, rejoignez la guilde de soutien et un membre de l'équipe support vous aidera.",
+      "suggestion": "La suggestion avec cet ID n'a pas été trouvée."
     },
     "interactive": {
-      "timeout": "Command timeout.",
-      "cancel": "Command cancelled."
+      "timeout": "Délai de la commande dépassé.",
+      "cancel": "Commande annulée."
     },
     "permission": {
-      "hierarchy": "I can't use this role because it is above my highest role in the role hierarchy.",
-      "missing": "You're unable to run this command because you lack the following permissions: $permissions$",
-      "channelRead": "I'm missing the permissions **Read Messages** and **Read Message History** in the active channel.",
-      "channelSend": "I'm missing the permission **Send Messages** in the active channel.",
-      "addReactions": "I can't add this emoji because I'm missing the **Add Reactions** permission in the active channel.",
-      "othersEdit": "I can't edit that message as it wasn't sent by me.",
-      "manageChannels": "Manage Channels",
-      "manageMessages": "Manage Messages",
-      "manageRoles": "Manage Roles",
-      "manageGuild": "Manage Server"
+      "hierarchy": "Je ne peux pas utiliser ce rôle car il se situe au-dessus de mon rôle le plus élevé dans la hiérarchie des rôles.",
+      "missing": "Vous ne pouvez pas exécuter cette commande car les autorisations suivantes sont manquantes : $permissions$",
+      "channelRead": "Il me manque les autorisations **Lire les messages** et **Voir les anciens messages** dans le salon actif.",
+      "channelSend": "Il me manque l'autorisation **Envoyer des messages** dans le salon actif.",
+      "addReactions": "Je ne peux pas ajouter cet émoji car il me manque l'autorisation **Ajouter des réactions** dans le canal actif.",
+      "othersEdit": "Je ne peux pas éditer ce message car il ne m'a pas été envoyé.",
+      "manageChannels": "Gérer les salons",
+      "manageMessages": "Gérer les messages",
+      "manageRoles": "Gérer les rôles",
+      "manageGuild": "Gérer le serveur"
     },
     "roles": {
       "unknown": "Je ne peux pas trouver ce rôle. S. V. P Veuillez vérifier qu'il existe.",
-      "managed": "Integrated roles can't be used. Only roles created by users or bots.",
-      "used": "You can't use this role as it's already setup with this emoji.",
-      "once": "Since a role is setup as a Once type on this message, you can't have any other types besides Once."
+      "managed": "Les rôles intégrés ne peuvent pas être utilisés. Seulement les rôles créés par les utilisateurs ou les robots.",
+      "used": "Vous ne pouvez pas utiliser ce rôle car il est déjà configuré avec cet émoji.",
+      "once": "Étant donné qu'un rôle est configuré en tant que type unique sur ce message, vous ne pouvez pas avoir d'autres types à part une fois."
     },
     "general": {
-      "maxReactions": "I can't add more roles to this message because it already has 20 reactions on it. If you would like to setup this role, please remove a role from this message or create a new message. This is a Discord limit.",
-      "missingSetup": "Please set a channel **and** message first then try this command again.",
-      "missingChannel": "Please set a channel first then try this command again.",
-      "missingMessage": "Please set a message first then try this command again.",
-      "missingMessageID": "Please provide me with a message ID.",
-      "missingRole": "Please provide me with a role name or mention.",
-      "messageNotFound": "I can't find this message. Please make sure the message ID is correct.",
-      "invalidID": "That is not a valid ID.",
+      "maxReactions": "Je ne peux pas ajouter plus de rôles à ce message car il contient déjà 20 réactions. Si vous souhaitez configurer ce rôle, veuillez supprimer un rôle de ce message ou créer un nouveau message. C'est une limitation de Discord.",
+      "missingSetup": "S'il vous plaît définissez d'abord un salon **et** un message, puis essayez à nouveau cette commande.",
+      "missingChannel": "S'il vous plaît définissez d'abord un salon, puis essayez à nouveau cette commande.",
+      "missingMessage": "S'il vous plaît définissez d'abord un message, puis essayez à nouveau cette commande.",
+      "missingMessageID": "Veuillez me fournir un ID de message.",
+      "missingRole": "Veuillez me fournir un nom de rôle ou une mention.",
+      "messageNotFound": "Je ne trouve pas ce message. Assurez-vous que l'ID du message est correct.",
+      "invalidID": "Ce n'est pas un ID valide.",
       "noRoleProvided": "Veuillez fournir un rôle.",
       "noChannelProvided": "Veuillez fournir un salon.",
       "noMessageProvided": "Veuillez fournir un message.",
-      "noSuggestionProvided": "Please provide a suggestion ID or a message ID of the suggestion you want."
+      "noSuggestionProvided": "Veuillez fournir un identifiant de suggestion ou un ID de message de la suggestion souhaitée."
     },
     "premium": "Cette fonctionnalité est [premium](https://zira.ovh/premium) seulement.",
-    "suggestionsRole": "You need the $role$ role to manage suggestions."
+    "suggestionsRole": "Vous avez besoin du rôle $role$ pour gérer les suggestions."
   },
   "page": "Page",
   "logging": {
     "addReaction": {
-      "add": "$mention$ reacted with $emoji$ to get $added$",
-      "remove": "$mention$ reacted with $emoji$ to remove $removed$",
-      "both": "$mention$ reacted with $emoji$ to get $added$ and to remove $removed$"
+      "add": "$mention$ a réagi avec $emoji$ pour obtenir $added$",
+      "remove": "$mention$ a réagi avec $emoji$ pour supprimer $removed$",
+      "both": "$mention$ a réagi avec $emoji$ pour obtenir $added$ et pour supprimer $removed$"
     },
-    "removeReaction": "$mention$ unreacted $emoji$ to remove $roles$"
+    "removeReaction": "$mention$ n'a pas réagi avec $emoji$ pour supprimer $roles$"
   },
   "suggestions": {
-    "reason": "$user$'s Reason",
-    "footer": "ID: $id$ Submitted",
+    "reason": "Raison de $user$",
+    "footer": "ID : $id$ Soumis",
     "new": "Nouvelle Suggestion",
     "approved": "Suggestion approuvée",
     "denied": "Suggestion refusée",
     "potential": "Suggestion potentielle",
     "invalid": "Suggestion invalide",
-    "updated": "Suggestion Updated"
+    "updated": "Suggestion mise à jour"
   },
   "commands": {
     "channel": {
       "help": "Définir le salon actif.",
       "args": "<#channel>",
       "set": " définir comme le salon actif.",
-      "pick": "Please mention the channel you want to use.\nType `cancel` if you would like to cancel."
+      "pick": "Veuillez mentionner le canal que vous souhaitez utiliser.\nTapez `cancel` si vous souhaitez annuler."
     },
     "message": {
-      "help": "Set the active message.",
+      "help": "Définir le message actif.",
       "args": "<message ID>",
-      "set": "Message set.",
-      "pick": "Please provide a message ID for Zira to use or message for Zira to send.\nType `cancel` if you would like to cancel."
+      "set": "Message actif défini.",
+      "pick": "Veuillez fournir un ID de message à utiliser par Zira ou un message à envoyer par Zira.\nTapez `cancel` si vous souhaitez annuler."
     },
     "embed": {
-      "help": "Create an embed that will be used as the active message.",
+      "help": "Créez une intégration qui sera utilisée comme message actif.",
       "args": "[Embed JSON]",
-      "JSONerror": "Invalid JSON provided.\nYou can use the embed creator by using the command",
-      "created": "Embed created.",
+      "JSONerror": "Code JSON fourni invalide.\nVous pouvez utiliser le créateur d'intégration en utilisant la commande",
+      "created": "Intégration créé.",
       "interactive": {
-        "stage": "Stage ",
-        "skipped": "Stage skipped.",
-        "title": "If you would like a title please provide one.\n\nYou'll have 2 minutes for each of the stages to enter in values.\n\nIf you have JSON you would like to use instead of this creator please use **z/embed <JSON>**\n\nYou can skip this stage by typing `skip`.",
-        "description": "If you would like a description please provide one.\n\nYou can skip this stage by typing `skip`.",
-        "image": "If you would like an image please provide a link or upload one\n\nYou can skip this stage by typing `skip`.",
-        "footer": "If you would like a footer please provide one\n\nYou can skip this stage by typing `skip`.",
-        "color": "If you would like a color please provide a hex code\n\nYou can skip this stage by typing `skip`.",
-        "creating": "Creating embed."
+        "stage": "Étape ",
+        "skipped": "Étape sautée.",
+        "title": "Si vous souhaitez un titre, veuillez en fournir un.\n\nVous aurez 2 minutes pour chacune des étapes pour entrer les valeurs.\n\nSi vous souhaitez utiliser du code JSON au lieu de ce créateur, utilisez **z/embed <JSON>**\n\nVous pouvez ignorer cette étape en tapant `skip`.",
+        "description": "Si vous souhaitez une description, veuillez en fournir une.\n\nVous pouvez ignorer cette étape en tapant `skip`.",
+        "image": "Si vous souhaitez une image, veuillez fournir un lien ou en télécharger une.\n\nVous pouvez ignorer cette étape en tapant `skip`.",
+        "footer": "Si vous souhaitez un pied de page, veuillez en fournir un.\n\nVous pouvez ignorer cette étape en tapant `skip`.",
+        "color": "Si vous souhaitez une couleur s'il vous plaît fournir un code hexadécimal\n\nVous pouvez ignorer cette étape en tapant `skip`.",
+        "creating": "Création de l'intégration."
       }
     },
     "config": {
-      "help": "Guild config.",
+      "help": "Configuration du serveur.",
       "args": "",
       "prefix": {
         "args": "<prefix>",
-        "error": "Please provide a prefix that's between 1 and 10 characters and has at least one of these characters in it:  `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
-        "set": "Prefix has been set to"
+        "error": "Veuillez fournir un préfixe compris entre 1 et 10 caractères et au moins un de ces caractères :  `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
+        "set": "Le préfixe a été réglé sur"
       },
       "role": {
-        "args": "<@role | disable>",
-        "error": "Please mention a role or provide a role name, or if you would like to disable the role, type",
-        "set": "Role set. Only people with $role$ will be able to use Zira commands.",
-        "disable": "Anyone with the correct permissions can use Zira's commands now."
+        "args": "<@role | désactiver>",
+        "error": "Veuillez mentionner un rôle ou fournir un nom de rôle, ou si vous souhaitez désactiver le rôle, tapez",
+        "set": "Configuration des rôles. Seules les personnes avec $role$ pourront utiliser les commandes Zira.",
+        "disable": "Toute personne disposant des autorisations appropriées peut maintenant utiliser les commandes de Zira."
       },
       "reset": {
         "args": "",
@@ -198,13 +198,13 @@
       "success": "Message has been edited.",
       "pick": "Please provide a new message.",
       "interactive": {
-        "stage": "Stage ",
-        "skipped": "Stage skipped.",
+        "stage": "Étape ",
+        "skipped": "Étape sautée.",
         "title": "If you would like a title please provide one.\n\nYou'll have 2 minutes for each of the stages to enter in values.\n\nIf you have JSON you would like to use instead of this creator please use **z/edit $message <JSON>**\n\nYou can skip this stage by typing `skip`.",
-        "description": "If you would like a description please provide one.\n\nYou can skip this stage by typing `skip`.",
-        "image": "If you would like an image please provide a link or upload one\n\nYou can skip this stage by typing `skip`.",
-        "footer": "If you would like a footer please provide one\n\nYou can skip this stage by typing `skip`.",
-        "color": "If you would like a color please provide a hex code\n\nYou can skip this stage by typing `skip`.",
+        "description": "Si vous souhaitez une description, veuillez en fournir une.\n\nVous pouvez ignorer cette étape en tapant `skip`.",
+        "image": "Si vous souhaitez une image, veuillez fournir un lien ou en télécharger une.\n\nVous pouvez ignorer cette étape en tapant `skip`.",
+        "footer": "Si vous souhaitez un pied de page, veuillez en fournir un.\n\nVous pouvez ignorer cette étape en tapant `skip`.",
+        "color": "Si vous souhaitez une couleur s'il vous plaît fournir un code hexadécimal\n\nVous pouvez ignorer cette étape en tapant `skip`.",
         "creating": "Editing embed."
       }
     },
