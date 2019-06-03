@@ -12,7 +12,7 @@
     "unknown": {
       "channel": "Nieznany kanał. Proszę upewnić się że kanał istnieje, a jeśli istnieje, czy posiadam odpowiednie zezwolenia aby go widzieć.",
       "message": "Wiadomośc nie została znaleziona w aktywnym kanałe. Upewnij się czy istnieje, i czy posiadam zezwolenia aby ją widzieć.",
-      "emoji": "Nie mogę użyć tego emoji. Upewnij się czy jestem w serwerze z którego on pochodzi, i upewnij się że posiadam zezwolenie **Używaj Zewnętrznych Emoji** w aktywnym kanałe.",
+      "emoji": "I can't use this emoji. Please make sure the emoji can be found in Discord's emoji picker. If it's in the emoji picker and it's a custom emoji make sure I'm in the server that it comes from. If the emoji still doesn't work make sure I have the permission **Use External Emojis** in the active channel. If all else fails join the support guild and someone from the support team will help you.",
       "suggestion": "Sugestia z tym ID nie została znaleziona."
     },
     "interactive": {
