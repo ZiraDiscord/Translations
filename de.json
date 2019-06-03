@@ -12,7 +12,7 @@
     "unknown": {
       "channel": "Unbekannter Kanal. Bitte stelle sicher, dass er existiert, und wenn ja, dass ich die richtigen Berechtigungen habe, ihn zu sehen.",
       "message": "Nachricht im aktiven Kanal nicht gefunden. Bitte stelle sicher, dass er existiert, und wenn ja, dass ich die richtigen Berechtigungen habe, ihn zu sehen.",
-      "emoji": "Ich kann dieses Emoji nicht benutzen. Bitte stelle sicher, dass ich mich auf dem Server befinde, von dem es stammt, und wenn ja, stelle sicher, dass ich die Berechtigung **Externe Emojis verwenden** im aktiven Kanal habe.",
+      "emoji": "Ich kann dieses Emoji nicht benutzen. Bitte vergewissere dich, dass das Emoji in Discord's Emoji-Picker zu finden ist. Wenn es sich um ein benutzerdefiniertes Emoji handelt, solltest du sicherstellen, dass ich auf dem Server bin, von dem es kommt. Wenn der Emoji immer noch nicht funktioniert, vergewissere dich, dass ich die Erlaubnis habe, **Externe Emojis** im aktiven Kanal zu verwenden. Wenn alles andere fehlschlägt, tritt der Support-Discord bei und jemand aus dem Support-Team wird dir helfen.",
       "suggestion": "Ein Vorschlag mit dieser ID wurde nicht gefunden."
     },
     "interactive": {
