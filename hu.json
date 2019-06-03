@@ -12,7 +12,7 @@
     "unknown": {
       "channel": "Szoba nem található. Kérlek menj biztosra, hogy létezik és, hogy van jogosultságom a megtekintésére.",
       "message": "Az üzenet nem található meg az aktív szobában. Kérlek menj biztosra, hogy a szoba vagy az üzenet létezik, ha igen akkor, hogy van e jogom megnézni az üzenetet.",
-      "emoji": "Nemtudom használni ezt az \"emoji\"-t. Kérlek menj biztosra, hogy ez az \"emoji\" arról a szerverről van ahol én vagyok, illetve hogy van jogom használni külső emotikonokat az aktív szobában.",
+      "emoji": "Nem tudom használni ezt az emotikont. Kérlek menj biztosra, hogy ez az emotikon megtalálható a discord emotikonjai között. Ha egy általad létrehozott emotikonról van szó menj biztosra, hogy jó szerveren vagyok. Ha az emotikon még mindig nem működik menj biztosra, hogy a **Emotikonok kezelése** jogom megvan a használathoz az aktív szobában. Ha ezek közül egyik se működik keresd fel discord szerverünket, és megpróbálunk segíteni neked.",
       "suggestion": "A javaslat ezzel az azonosítóval nem található."
     },
     "interactive": {
