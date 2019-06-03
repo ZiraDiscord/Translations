@@ -12,7 +12,7 @@
     "unknown": {
       "channel": "Canal desconocido. Asegúrate de que existe, y si es así, de que tengo los permisos adecuados para verlo.",
       "message": "Mensaje no encontrado en el canal seleccionado. Asegúrate de que existe, y si es así, de que tengo los permisos requeridos para verlo.",
-      "emoji": "No puedo usar este emoji. Asegúrate de que estoy en el servidor en el que está y, si es así, de que tengo permisos para **Usar Emojis Externos** en el canal seleccionado.",
+      "emoji": "No puedo usar este emoji. Por favor asegúrate que el emoji aparezca en los emojis de Discord. Si está en los emojis de discord y es un emoji personalizado, asegúrate de que estoy en el servidor de donde proviene. Si el emoji aún no funciona, verifica que tengo el permiso **Usar Emojis Externos** en el canal. Si continua fallando únete al servidor de soporte para recibir ayuda del equipo de soporte.",
       "suggestion": "No se ha encontrado ninguna sugerencia con esa ID."
     },
     "interactive": {
