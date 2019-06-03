@@ -12,7 +12,7 @@
     "unknown": {
       "channel": "Canal necunoscut. Asigură-te că există şi că am permisiunea să îl accesez.",
       "message": "Mesajul nu a fost găsit în canalul activ. Asigură-te că există şi că am permisiunea să îl accesez.",
-      "emoji": "Nu pot folosi acel emoji. Asigură-te că sunt în server-ul din care provine şi că am permisiunea **Foloseşte emoji-uri externe** în canalul activ.",
+      "emoji": "I can't use this emoji. Please make sure the emoji can be found in Discord's emoji picker. If it's in the emoji picker and it's a custom emoji make sure I'm in the server that it comes from. If the emoji still doesn't work make sure I have the permission **Use External Emojis** in the active channel. If all else fails join the support guild and someone from the support team will help you.",
       "suggestion": "O sugestie cu acel ID nu a fost gasită."
     },
     "interactive": {
@@ -83,7 +83,7 @@
     "message": {
       "help": "Setează mesajul activ.",
       "args": "<ID mesaj>",
-      "set": "Message set.",
+      "set": "Mesaj setat.",
       "pick": "Te rog furnizează in ID de mesaj existent sau text pentru a trimite un mesaj nou in canalul activ.\nScrie `cancel` pentru a anula comanda."
     },
     "embed": {
