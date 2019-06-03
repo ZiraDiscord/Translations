@@ -1,11 +1,11 @@
 {
-  "language": "English",
+  "language": "Англійська",
   "titles": {
     "success": "Success :white_check_mark:",
-    "error": "Error :warning:",
-    "usage": "Command Usage",
-    "example": "Usage Examples",
-    "permission": "Missing Permissions"
+    "error": "Помилка :warning:",
+    "usage": "Використання команди",
+    "example": "Приклади використання",
+    "permission": "Відсутні дозволи"
   },
   "errors": {
     "generic": "An error has occurred. If the error continues to persist, please join my support server.",
