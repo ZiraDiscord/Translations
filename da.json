@@ -12,7 +12,7 @@
     "unknown": {
       "channel": "Ukendt kanal. Kontroller venligst at den eksisterer, og hvis den før, at jeg har de rigtige tilladelser til at se den.",
       "message": "Beskeden er ikke fundet i den aktive kanal. Kontroller venligst at den eksisterer, og hvis den gør, at jeg har de rigtige tilladelser til at se den.",
-      "emoji": "Jeg kan ikke bruge denne emoji. Kontroller venligst at jeg er i den server emojien er fra og hvis jeg er, kontroller at jeg har tilladelsen **Brug Eksterne Emojier** i den aktive kanal.",
+      "emoji": "Jeg kan ikke bruge denne emoji. Kontroller venligst at emojien kan findes iblandt Discords emojis, og hvis det er en brugerdefineret emoji så tjek at jeg er i den server emojien er fra og hvis jeg er det og det stadig ikke virker, kontroller at jeg har tilladelsen **Brug Eksterne Emojier** i den aktive kanal. Hvis det hele fejler så tilslut dig min support server, og så vil nogen fra supportholdet hjælpe dig.",
       "suggestion": "Et forslag med det ID kunne ikke blive fundet."
     },
     "interactive": {
