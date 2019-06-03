@@ -311,7 +311,7 @@
       "success": "Private rum er sat up."
     },
     "suggestion": {
-      "help": "Forslagskonfiguration",
+      "help": "Konfigurer forslag",
       "args": "",
       "new": {
         "help": "Sæt den kanal som nye forslag bliver sendt til",
@@ -356,7 +356,7 @@
       },
       "reaction": {
         "help": "Sæt om der skal reageres med emojis på nye forslag\n[Kun for Premium](https://zira.ovh/premium)",
-        "on": "Forslag vil ni have emojis sat med **$prefix$suggestion emojis** reageret på dem.",
+        "on": "Forslag vil nu have emojis sat med **$prefix$suggestion emojis** reageret på dem.",
         "off": "Der vil nu ikke blive reageret på forslag mere."
       },
       "emojis": {
