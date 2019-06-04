@@ -145,11 +145,11 @@
     },
     "remove": {
       "help": "Ta bort en roll",
-      "args": "<emoji> <roll>"
+      "args": "<emoji> <role>"
     },
     "toggle": {
       "help": "Ställ in en växlad roll",
-      "args": "<emoji> <roll>",
+      "args": "<emoji> <role>",
       "limit": "Det finns en begränsning på 6 gratis växlade roller. Du kan få oändligt växlade roller med [premium](https://zira.ovh/premium)"
     },
     "once": {
@@ -225,7 +225,7 @@
       },
       "bot": {
         "help": "Ge roller när en bott går med",
-        "args": "<roll>",
+        "args": "<role>",
         "set": "$role$ kommer ges när en bot går med.",
         "remove": "$role$ kommer inte längre ges när en bot går med."
       },
@@ -242,7 +242,7 @@
       "args": "",
       "channel": {
         "help": "Ange den kanal anslutningsmeddelanden ska skickas till",
-        "args": "<#kanal>",
+        "args": "<#channel>",
         "set": " inställt som anslutningskanal.\n\n**Observera:** Om jag inte kan skicka meddelanden till den kanalen avaktiverar jag anslutningsmeddelanden."
       },
       "disable": {
@@ -276,7 +276,7 @@
       "args": "",
       "channel": {
         "help": "Ange den kanal lämningsmeddelanden ska skickas till",
-        "args": "<#kanal>",
+        "args": "<#channel>",
         "set": " inställt som lämningskanal.\n\n**Observera:** Om jag inte kan skicka meddelanden till den kanalen avaktiverar jag lämningsmeddelanden."
       },
       "disable": {
@@ -285,19 +285,19 @@
         "success": "Lämningsmeddelanden avaktiverade."
       },
       "add": {
-        "help": "Lägg till ett meddelande.",
-        "args": "<meddelande>",
-        "success": "Meddelande tillagt."
+        "help": "Add a message.",
+        "args": "<message>",
+        "success": "Message added."
       },
       "remove": {
-        "help": "Ta bort ett meddelande",
-        "args": "<ID från lista>",
+        "help": "Remove a message",
+        "args": "<ID from list>",
         "noID": "Vänligen ange ett ID från $prefix$leave list",
-        "notFound": "Ett meddelande med det ID:t existerar inte.",
-        "success": "Meddelande borttaget."
+        "notFound": "A message with that ID doesn't exist.",
+        "success": "Message deleted."
       },
       "list": {
-        "help": "Lista av meddelanden",
+        "help": "List of messages",
         "args": ""
       },
       "placeholders": {
@@ -321,31 +321,31 @@
       },
       "approved": {
         "help": "Ställ in den kanal godkända förslag ska skickas till",
-        "args": "<#kanal | disable>",
+        "args": "<#channel | disable>",
         "set": "Godkända förslag skickas till",
         "disable": "Godkända förslag kommer inte längre flyttas till en kanal."
       },
       "denied": {
         "help": "Ställ in den kanal nekade förslag ska skickas till",
-        "args": "<#kanal | disable>",
+        "args": "<#channel | disable>",
         "set": "Nekade förslag skickas till",
         "disable": "Nekade förslag kommer inte längre flyttas till en kanal."
       },
       "invalid": {
         "help": "Ställ in den kanal ogiltiga förslag ska skickas till",
-        "args": "<#kanal | disable>",
+        "args": "<#channel | disable>",
         "set": "Ogiltiga förslag skickas till",
         "disable": "Ogiltiga förslag kommer inte längre flyttas till en kanal."
       },
       "potential": {
         "help": "Ställ in den kanal potentiella förslag ska skickas till",
-        "args": "<#kanal | disable>",
+        "args": "<#channel | disable>",
         "set": "Potentiella förslag skickas till",
         "disable": "Potentiella förslag kommer inte längre flyttas till en kanal."
       },
       "submit": {
         "help": "Ställ in den kanal användare måste använda för att skicka in ett förslag [Premiumfunktion](https://zira.ovh/premium)",
-        "args": "<#kanal | disable>",
+        "args": "<#channel | disable>",
         "set": "Förslag kan nu endast skickas in från",
         "disable": "Förslag kan nu skickas in från alla kanaler."
       },
@@ -386,17 +386,17 @@
     },
     "deny": {
       "help": "Neka ett förslag",
-      "args": "<ID> [anledning]",
+      "args": "<ID> [reason]",
       "update": "Ditt förslag [$id$]($url$) har nekats."
     },
     "maybe": {
       "help": "Potentially approve a suggestion",
-      "args": "<ID> [anledning]",
+      "args": "<ID> [reason]",
       "update": "Ditt förslag [$id$]($url$) har potentiellt godkänts."
     },
     "invalid": {
       "help": "Markera ett förslag som ogiltigt",
-      "args": "<ID> [anledning]",
+      "args": "<ID> [reason]",
       "update": "Ditt förslag [$id$]($url$) har markerats som ogiltigt."
     },
     "help": {
