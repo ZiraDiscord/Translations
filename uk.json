@@ -174,13 +174,13 @@
       "args": "",
       "check": {
         "help": "Checks for deleted roles on a message.",
-        "args": "<ID повідомлення>",
+        "args": "<message ID>",
         "none": "All roles valid.",
         "removed": "role(s) removed."
       },
       "all": {
         "help": "Remove all roles from a message.",
-        "args": "<ID повідомлення>",
+        "args": "<message ID>",
         "done": "Any roles on the message have been removed."
       },
       "remove": {
@@ -210,7 +210,7 @@
     },
     "log": {
       "help": "Log role events to a channel",
-      "args": "<#канал>",
+      "args": "<#channel>",
       "set": " set as the logging channel.\n\n**Note:** If I can't send messages to the channel I will disable logging.",
       "disable": "Role logging is now disabled."
     },
@@ -242,7 +242,7 @@
       "args": "",
       "channel": {
         "help": "Set the channel join messages should be sent in",
-        "args": "<#канал>",
+        "args": "<#channel>",
         "set": " set as the join channel.\n\n**Note:** If I can't send messages to the channel I will disable join messages."
       },
       "disable": {
@@ -276,7 +276,7 @@
       "args": "",
       "channel": {
         "help": "Set the channel leave messages should be sent in",
-        "args": "<#канал>",
+        "args": "<#channel>",
         "set": " set as the leave channel.\n\n**Note:** If I can't send messages to the channel I will disable leave messages."
       },
       "disable": {
