@@ -395,7 +395,7 @@
       "update": "Your suggestion [$id$]($url$) has been marked invalid."
     },
     "help": {
-      "categories": [ "Roles", "Suggestion", "Logging", "Miscellaneous" ],
+      "categories": ["Roles", "Suggestion", "Logging", "Miscellaneous"],
       "commands": "Commands",
       "title": "Links",
       "footer": "<> = Required [] = Optional",
