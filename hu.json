@@ -120,7 +120,7 @@
         "args": "",
         "question": ":warning: Biztosan alaphelyzetbe akarod állítani a bot konfigját?\nKérlek írj `yes`-t vagy `no`-t.",
         "done": "A bot konfigurációja alaphelyzetbe lett állítva!",
-        "cancel": "Upsz. A klán konfiguráció nem lett alaphelyzetbe állítva."
+        "cancel": "Upsz. A bot konfigurációja nem lett alaphelyzetbe állítva."
       },
       "language": {
         "args": "<nyelv kódja>",
@@ -132,8 +132,8 @@
       "main": {
         "prefix": "Egyedi előtag beállítása.",
         "role": "Aktiválja, vagy letiltja melyik rang használhatja a parancsokat.",
-        "reset": "Klán beállítások alaphelyzetbe helyezése.",
-        "language": "Klán nyelvének beállítása."
+        "reset": "A bot beállításainak alaphelyzetbe helyezése.",
+        "language": "Bot nyelvének beállítása."
       }
     },
     "normal": {
