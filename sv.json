@@ -268,7 +268,7 @@
       },
       "placeholders": {
         "title": "Användbara Platshållare Som Zira Kommer Autofylla",
-        "description": "$user$ - användarnamn\n$mention$ - användarnämnande\n$guild$ - server namn\n$membercount$ - nytt medlemsantal"
+        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
       }
     },
     "leave": {
@@ -302,7 +302,7 @@
       },
       "placeholders": {
         "title": "Användbara platshållare",
-        "description": "$user$ - användarnamn\n$mention$ - användarnämnande\n$guild$ - server namn\n$membercount$ - nytt medlemsantal"
+        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
       }
     },
     "rooms": {
