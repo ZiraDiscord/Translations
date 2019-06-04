@@ -2,7 +2,7 @@
   "language": "Português",
   "titles": {
     "success": "Success :white_check_mark:",
-    "error": "Erro! :warning:",
+    "error": "Erro :warning:",
     "usage": "Command Usage",
     "example": "Usage Examples",
     "permission": "Missing Permissions"
@@ -51,7 +51,7 @@
       "noMessageProvided": "Please provide a message.",
       "noSuggestionProvided": "Please provide a suggestion ID or a message ID of the suggestion you want."
     },
-    "premium": "Este comando/recurso é apenas para usuários [premium](https://zira.ovh/premium).",
+    "premium": "This feature is [premium](https://zira.ovh/premium) only.",
     "suggestionsRole": "You need the $role$ role to manage suggestions."
   },
   "page": "Page",
@@ -75,7 +75,7 @@
   },
   "commands": {
     "channel": {
-      "help": "Set the active channel.",
+      "help": "Defina o Respectivo Canal.",
       "args": "<#channel>",
       "set": " set as the active channel.",
       "pick": "Please mention the channel you want to use.\nType `cancel` if you would like to cancel."
@@ -380,12 +380,12 @@
       "provideSuggestion": "Please provide a suggestion."
     },
     "approve": {
-      "help": "Approve a suggestion",
+      "help": "Aprove a sugestão",
       "args": "<ID> [reason]",
       "update": "Your suggestion [$id$]($url$) has been approved."
     },
     "deny": {
-      "help": "Deny a suggestion",
+      "help": "Negar a sugestão",
       "args": "<ID> [reason]",
       "update": "Your suggestion [$id$]($url$) has been denied."
     },
