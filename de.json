@@ -201,10 +201,10 @@
         "stage": "Phase ",
         "skipped": "Phase übersprungen.",
         "title": "Wenn du einen Titel möchtest, gib bitte einen an.\n\nDu hast 2 Minuten Zeit für jede der Phasen, um Werte einzugeben.\n\nWenn Du JSON hast, das Du anstelle dieses Erstellers verwenden möchtest, benutze bitte **z/edit $message <JSON>****.\n\nDu kannst diese Phase überspringen, indem du `Überspringen` eingibst.",
-        "description": "Wenn Du eine Beschreibung wünschst, gebe diese bitte an.\n\nDu kannst diese Phase überspringen, indem Du `überspringen` eingibst.",
-        "image": "Wenn Du ein Bild wünschst, gebe bitte einen Link an oder lade eines hoch.\n\nDu kannst diese Phase überspringen, indem Du `überspringen` eingibst.",
-        "footer": "Wenn du eine Fußzeile möchtest, gib bitte eine an.\n\nDu kannst diese Phase überspringen, indem Du `überspringen` eingibst.",
-        "color": "Wenn du eine Farbe möchtest, gib bitte einen Hex-Code an.\n\nDu kannst diese Phase überspringen, indem Du `überspringen` eingibst.",
+        "description": "Wenn Du eine Beschreibung möchtest, gib bitte eine an.\n\nDu kannst diese Phase überspringen, indem du `Überspringen` eingibst.",
+        "image": "Wenn Du ein Bild möchtest, gib bitte einen Link an oder lade eines hoch.\n\nDu kannst diese Phase überspringen, indem du `Überspringen` eingibst.",
+        "footer": "Wenn du eine Fußzeile möchtest, gib bitte eine an.\n\nDu kannst diese Phase überspringen, indem du `Überspringen` eingibst.",
+        "color": "Wenn du eine Farbe möchtest, gib bitte einen Hex Code an.\n\nDu kannst diese Phase überspringen, indem du `Überspringen` eingibst.",
         "creating": "Bearbeiten der Einbettung."
       }
     },
@@ -268,7 +268,7 @@
       },
       "placeholders": {
         "title": "Verwendbare Platzhalter, die Zira automatisch ausfüllt",
-        "description": "$user$ - Benutzername\n$mention$ - Benutzer Erwähnung\n$guild$ - Discord Name\n$membercount$ - Zählung neuer Mitglieder"
+        "description": "$user$ - Benutzername\n$discriminator$ - Benutzer Tag\n$id$ - ID des Benutzers\n$mention$ - Benutzer Erwähnung\n$guild$ - Discord Name\n$membercount$ - Zählung der neuen Mitglieder"
       }
     },
     "leave": {
@@ -302,7 +302,7 @@
       },
       "placeholders": {
         "title": "Verwendbare Platzhalter",
-        "description": "$user$ - Benutzername\n$mention$ - Benutzer Erwähnung\n$guild$ - Discord Name\n$membercount$ - Zählung neuer Mitglieder"
+        "description": "$user$ - Benutzername\n$discriminator$ - Benutzer Tag\n$id$ - ID des Benutzers\n$mention$ - Benutzer Erwähnung\n$guild$ - Discord Name\n$membercount$ - Zählung der neuen Mitglieder"
       }
     },
     "rooms": {
