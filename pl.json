@@ -198,19 +198,19 @@
       "success": "Wiadomość została edytowana.",
       "pick": "Podaj nową wiadomość.",
       "interactive": {
-        "stage": "Etap ",
-        "skipped": "Etap pominięty.",
+        "stage": "Stage ",
+        "skipped": "Stage skipped.",
         "title": "Aby utworzyć tytuł podaj go.\n\nMasz 2 minuty na każdym etapie aby wpisać wartości.\n\nJeśli masz JSON który chcesz użyć zamiast kreatora użyj **z/edit $message <JSON>**\n\nMożesz pominąć ten etap wpisując `skip`.",
-        "description": "Aby utworzyć opis podaj go.\n\nMożesz pominąć ten etap wpisując `skip`.",
-        "image": "Aby użyć obrazka podaj link lub wrzuć plik\n\nMożesz pominąć ten etap wpisując `skip`.",
-        "footer": "Aby utworzyć footer podaj go.\n\nMożesz pominąć ten etap wpisując `skip`.",
-        "color": "Jeśli chcesz nadać kolor podaj kod hex\n\nMożesz pominąc ten etap wpisując `skip`.",
+        "description": "If you would like a description please provide one.\n\nYou can skip this stage by typing `skip`.",
+        "image": "If you would like an image please provide a link or upload one\n\nYou can skip this stage by typing `skip`.",
+        "footer": "If you would like a footer please provide one\n\nYou can skip this stage by typing `skip`.",
+        "color": "If you would like a color please provide a hex code\n\nYou can skip this stage by typing `skip`.",
         "creating": "Edytowanie osadzenia."
       }
     },
     "log": {
       "help": "Rejestruj wydarzenia roli w kanale",
-      "args": "<#kanał>",
+      "args": "<#channel>",
       "set": " ustaw jako kanał rejestrowania.\n\n**Uwaga:** Jeśli nie mogę wysyłać wiadomości do tego kanału wyłącze rejestrowanie.",
       "disable": "Rejestrowanie roli wyłączone."
     },
@@ -242,7 +242,7 @@
       "args": "",
       "channel": {
         "help": "Ustaw kanał w którym wiadomości dołączenia mają być wysyłane",
-        "args": "<#kanał>",
+        "args": "<#channel>",
         "set": " ustaw jako kanał dołączenia.\n\n**Uwaga:** Jeśli nie mogę wysyłać wiadomości do tego kanału wyłącze wiadomości dołączania."
       },
       "disable": {
@@ -268,7 +268,7 @@
       },
       "placeholders": {
         "title": "Możliwe Miejsca Zastępcze Które Zira Auto-Wypełni",
-        "description": "$user$ - nazwa użytkownika\n$mention$ - oznaczenie użytkownika\n$guild$ - nazwa gildii\n$membercount$ - nowa ilość członków"
+        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
       }
     },
     "leave": {
@@ -276,7 +276,7 @@
       "args": "",
       "channel": {
         "help": "Ustaw kanał w którym mają być wysyłane wiadomości wyjścia",
-        "args": "<#kanał>",
+        "args": "<#channel>",
         "set": " ustaw jako kanał wyjścia.\n\n**Uwaga:** Jeśli nie mogę wysyłać wiadomości do tego kanału wyłącze wiadomości dołączania."
       },
       "disable": {
@@ -285,24 +285,24 @@
         "success": "Wiadomości wyjścia wyłączone."
       },
       "add": {
-        "help": "Dodaj wiadomość.",
+        "help": "Add a message.",
         "args": "<message>",
-        "success": "Wiadomość dodana."
+        "success": "Message added."
       },
       "remove": {
-        "help": "Usuń wiadomość",
+        "help": "Remove a message",
         "args": "<ID from list>",
         "noID": "Podaj ID z $prefix$ listy wyjścia",
-        "notFound": "Wiadomość z tym ID nie istnieje.",
-        "success": "Wiadomość usunięta."
+        "notFound": "A message with that ID doesn't exist.",
+        "success": "Message deleted."
       },
       "list": {
-        "help": "Lista wiadomości",
+        "help": "List of messages",
         "args": ""
       },
       "placeholders": {
         "title": "Wiadomości Zastępcze",
-        "description": "$user$ - nazwa użytkownika\n$mention$ - oznaczenie użytkownika\n$guild$ - nazwa gildii\n$membercount$ - nowa ilość członków"
+        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
       }
     },
     "rooms": {
