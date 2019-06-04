@@ -81,7 +81,7 @@
       "pick": "Kérlek jelöld meg azt a szobát, amelyiket használni szeretnéd.\nÍrj `cancel`-t ha szeretnéd megszakítani a parancsot."
     },
     "message": {
-      "help": "Aktív üzenet beállítása.",
+      "help": "Aktív üzenet beállítása/új üzenet küldése.",
       "args": "<üzenet azonosító>",
       "set": "Üzenet elküldve.",
       "pick": "Kérlek írj egy üzenet azonosítót zira számára, amit használhat, vagy elküldhet.\nÍrj `cancel`-t a parancs befejezéséhez visszavonás esetén."
@@ -103,7 +103,7 @@
       }
     },
     "config": {
-      "help": "Klán konfiguráció.",
+      "help": "Bottal kapcsolatos beállítások.",
       "args": "",
       "prefix": {
         "args": "<prefix>",
@@ -118,8 +118,8 @@
       },
       "reset": {
         "args": "",
-        "question": ":warning: Biztosan alaphelyzetbe akarod állítani a klán konfigot?\nKérlek írj `yes`-t vagy `no`-t.",
-        "done": "Klán konfiguráció alaphelyzetbe lett állítva!",
+        "question": ":warning: Biztosan alaphelyzetbe akarod állítani a bot konfigját?\nKérlek írj `yes`-t vagy `no`-t.",
+        "done": "A bot konfigurációja alaphelyzetbe lett állítva!",
         "cancel": "Upsz. A klán konfiguráció nem lett alaphelyzetbe állítva."
       },
       "language": {
@@ -137,14 +137,14 @@
       }
     },
     "normal": {
-      "help": "Rang adása",
+      "help": "Rang hozzáadása egy üzenethez",
       "args": "<emoji> <rang>",
       "added": "$role$ hozzáadva a $emoji$ emotikon segítségével",
       "emoji": "Kérlek írd le azt az emotikont amelyiket használni szeretnéd.",
       "role": "Kérlek írd le azt az rangot amelyiket használni szeretnéd."
     },
     "remove": {
-      "help": "Rang eltávolítása",
+      "help": "Rang eltávolítása egy üzenetről",
       "args": "<emoji> <rang>"
     },
     "toggle": {
@@ -153,12 +153,12 @@
       "limit": "Maximum 6 kapcsolható rang használható. Ahhoz, hogy több ilyen rangot használhass szükséged van premiumra [premium](https://zira.ovh/premium)"
     },
     "once": {
-      "help": "Egyszeri rang beállítása",
+      "help": "Egyszeri rang beállítása egy üzenethez",
       "args": "<emoji> <rang>",
       "error": "Mivel ezen az üzeneten már ez az emotikon ezzel a ranggal fel van használva ezért nem adhatsz hozzá mégegy egyszerhasználatos reakciót."
     },
     "list": {
-      "help": "Összes rang mutatása.",
+      "help": "Összes üzenethez adott rang megjelenítése.",
       "args": "",
       "title": "Rangok listája",
       "description": "Eltávolíthatol egy rangot erről a listáról a **$prefix$delete** paranccsal\nEltávolíthatol bármilyen törölt rangot a listáról a **$prefix$delete <üzenet azonosító> check** paranccsal.",
@@ -170,7 +170,7 @@
       "type": "Típus"
     },
     "delete": {
-      "help": "Egy meglévő rang eltávolítása.",
+      "help": "Egy meglévő rang törlése.",
       "args": "",
       "check": {
         "help": "Eltávolított rangok keresése az üzeneten.",
@@ -272,7 +272,7 @@
       }
     },
     "leave": {
-      "help": "Szerver kilépési üzenetek",
+      "help": "Kilépési üzenetek",
       "args": "",
       "channel": {
         "help": "Add meg a szobát ahova szeretnéd, hogy a kilépési üzenetek küldve legyenek",
