@@ -268,7 +268,7 @@
       },
       "placeholders": {
         "title": "Variables utilizables que Zira auto completará",
-        "description": "$user$ - nombre de usuario\n$mention$ - mención al usuario\n$guild$ - nombre del servidor\n$membercount$ - cantidad actual de miembros"
+        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
       }
     },
     "leave": {
@@ -302,7 +302,7 @@
       },
       "placeholders": {
         "title": "Variables utilizables",
-        "description": "$user$ - nombre de usuario\n$mention$ - mención al usuario\n$guild$ - nombre del servidor\n$membercount$ - cantidad actual de miembros"
+        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
       }
     },
     "rooms": {
