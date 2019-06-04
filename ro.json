@@ -174,13 +174,13 @@
       "args": "",
       "check": {
         "help": "Verifică pentru roluri șterse de pe un mesaj.",
-        "args": "<ID mesaj>",
+        "args": "<message ID>",
         "none": "Toate rolurile valide.",
         "removed": "rol(uri) eliminate."
       },
       "all": {
         "help": "Elimină toate rolurile de pe un mesaj.",
-        "args": "<ID mesaj>",
+        "args": "<message ID>",
         "done": "Toate rolurile de pe mesaj au fost eliminate."
       },
       "remove": {
@@ -198,19 +198,19 @@
       "success": "Mesajul a fost editat.",
       "pick": "Te rog să furnizezi un mesaj nou.",
       "interactive": {
-        "stage": "Pas ",
-        "skipped": "Pas sărit.",
+        "stage": "Stage ",
+        "skipped": "Stage skipped.",
         "title": "Dacă vrei, furnizează un titlu.\n\nVei avea 2 minute pentru fiecare pas pentru a introduce valori.\n\nDacă deja ai un JSON pe care vrei să îl folosești, poți rula comanda **z/edit $message <JSON>**\n\nPoți sări peste acest pas scriind `skip`.",
-        "description": "Dacă vrei, furnizează o descriere.\n\nPoți sări peste acest pas scriind `skip`.",
-        "image": "Dacă vrei, furnizează un link de imagine sau încarcă o imagine direct.\n\nPoți sări peste acest pas scriind `skip`.",
-        "footer": "Dacă vrei, furnizează o notă de subsol.\n\nPoți sări peste acest pas scriind `skip`.",
-        "color": "Dacă vrei, furnizează un cod hex de culoare.\n\nPoți sări peste acest pas scriind `skip`.",
+        "description": "If you would like a description please provide one.\n\nYou can skip this stage by typing `skip`.",
+        "image": "If you would like an image please provide a link or upload one\n\nYou can skip this stage by typing `skip`.",
+        "footer": "If you would like a footer please provide one\n\nYou can skip this stage by typing `skip`.",
+        "color": "If you would like a color please provide a hex code\n\nYou can skip this stage by typing `skip`.",
         "creating": "Editare embed."
       }
     },
     "log": {
       "help": "Înregistrează acțiunile efectuate într-un canal",
-      "args": "<#canal>",
+      "args": "<#channel>",
       "set": " a fost setat ca canalul de înregistrări.\n\n**Atenție:** Dacă nu pot trimite mesaje in acest canal, voi dezactiva înregistrarea.",
       "disable": "Înregistrarea acțiunilor a fost dezactivată."
     },
@@ -225,7 +225,7 @@
       },
       "bot": {
         "help": "Adaugă roluri boților când intră în server",
-        "args": "<rol>",
+        "args": "<role>",
         "set": "Rolul $role$ va fi dat boților când intră.",
         "remove": "Rolul $role$ nu va mai fi dat boților când intră."
       },
@@ -242,7 +242,7 @@
       "args": "",
       "channel": {
         "help": "Setează canalul pentru mesaje de intrare",
-        "args": "<#canal>",
+        "args": "<#channel>",
         "set": " a fost setat ca canalul de intrări.\n\n**Atenție:** Dacă nu pot trimite mesaje in acest canal, voi dezactiva mesajele de intrare."
       },
       "disable": {
@@ -276,7 +276,7 @@
       "args": "",
       "channel": {
         "help": "Setează canalul pentru mesaje de ieșire",
-        "args": "<#canal>",
+        "args": "<#channel>",
         "set": " a fost setat ca canalul de ieșiri.\n\n**Atenție:** Dacă nu pot trimite mesaje in acest canal, voi dezactiva mesajele de ieșire."
       },
       "disable": {
@@ -286,18 +286,18 @@
       },
       "add": {
         "help": "Adaugă un mesaj.",
-        "args": "<mesaj>",
-        "success": "Mesaj adăugat."
+        "args": "<message>",
+        "success": "Message added."
       },
       "remove": {
-        "help": "Elimină un mesaj",
-        "args": "<ID din listă>",
+        "help": "Remove a message",
+        "args": "<ID from list>",
         "noID": "Te rog furnizează un ID din lista **$prefix$leave**",
         "notFound": "Un mesaj cu acel ID nu există.",
-        "success": "Mesaj șters."
+        "success": "Message deleted."
       },
       "list": {
-        "help": "Lista mesajelor",
+        "help": "List of messages",
         "args": ""
       },
       "placeholders": {
@@ -321,19 +321,19 @@
       },
       "approved": {
         "help": "Setează canalul în care vor fi trimise sugestiile aprobate",
-        "args": "<#canal | disable>",
+        "args": "<#channel | disable>",
         "set": "Sugestiile aprobate vor fi trimise în",
         "disable": "Sugestiile aprobate nu vor mai fi mutate într-un alt canal."
       },
       "denied": {
         "help": "Setează canalul în care vor fi trimise sugestiile respinse",
-        "args": "<#canal | disable>",
+        "args": "<#channel | disable>",
         "set": "Sugestiile respinse vor fi trimise în",
         "disable": "Sugestiile respinse nu vor mai fi mutate într-un alt canal."
       },
       "invalid": {
         "help": "Setează canalul în care vor fi trimise sugestiile invalide",
-        "args": "<#canal | disable>",
+        "args": "<#channel | disable>",
         "set": "Sugestiile invalide vor fi trimise în",
         "disable": "Sugestiile invalide nu vor mai fi mutate într-un alt canal."
       },
@@ -345,7 +345,7 @@
       },
       "submit": {
         "help": "Setează canalul din care pot fi trimise sugestii\n[Funcție Premium](https://zira.ovh/premium)",
-        "args": "<#canal | disable>",
+        "args": "<#channel | disable>",
         "set": "Sugestiile pot să fie trimise doar din",
         "disable": "Sugestiile vor putea sa fie trimise din orice canal."
       },
@@ -386,7 +386,7 @@
     },
     "deny": {
       "help": "Respinge o sugestie",
-      "args": "<ID> [motiv]",
+      "args": "<ID> [reason]",
       "update": "Sugestia ta [$id$]($url$) a fost respinsă."
     },
     "maybe": {
