@@ -149,12 +149,12 @@
     },
     "toggle": {
       "help": "Sett opp en av/på rolle",
-      "args": "<emoji> <rolle>",
+      "args": "<emoji> <role>",
       "limit": "There is a limit of 6 free toggled roles. You get unlimited toggled roles with [premium](https://zira.ovh/premium)"
     },
     "once": {
       "help": "Setup a once role",
-      "args": "<emoji> <rolle>",
+      "args": "<emoji> <role>",
       "error": "Since there is a role set on this message with this emoji already that isn't a once reaction, you cant add any once reactions."
     },
     "list": {
@@ -180,7 +180,7 @@
       },
       "all": {
         "help": "Fjern alle roller fra en melding.",
-        "args": "<meldings ID>",
+        "args": "<message ID>",
         "done": "Any roles on the message have been removed."
       },
       "remove": {
@@ -210,7 +210,7 @@
     },
     "log": {
       "help": "Log role events to a channel",
-      "args": "<#kanal>",
+      "args": "<#channel>",
       "set": " set as the logging channel.\n\n**Note:** If I can't send messages to the channel I will disable logging.",
       "disable": "Role logging is now disabled."
     },
@@ -242,7 +242,7 @@
       "args": "",
       "channel": {
         "help": "Set the channel join messages should be sent in",
-        "args": "<#kanal>",
+        "args": "<#channel>",
         "set": " set as the join channel.\n\n**Note:** If I can't send messages to the channel I will disable join messages."
       },
       "disable": {
@@ -268,7 +268,7 @@
       },
       "placeholders": {
         "title": "Usable Placeholders That Zira Will Auto-Fill",
-        "description": "$user$ - username\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
       }
     },
     "leave": {
@@ -276,7 +276,7 @@
       "args": "",
       "channel": {
         "help": "Set the channel leave messages should be sent in",
-        "args": "<#kanal>",
+        "args": "<#channel>",
         "set": " set as the leave channel.\n\n**Note:** If I can't send messages to the channel I will disable leave messages."
       },
       "disable": {
@@ -302,7 +302,7 @@
       },
       "placeholders": {
         "title": "Usable Placeholders",
-        "description": "$user$ - username\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
       }
     },
     "rooms": {
