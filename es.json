@@ -370,6 +370,10 @@
         "args": "<rol | disable>",
         "set": "Sólo los usuarios con $role$ y el dueño del servidor podrán interactuar con las sugerencias.",
         "disable": "Cualquiera con los permisos para **Administrar el Servidor** podrá interactuar con las sugerencias."
+      },
+      "move": {
+        "help": "Move a suggestion to a new channel\n[Premium Feature](https://zira.ovh/premium)",
+        "args": "<ID> <#channel>"
       }
     },
     "suggest": {
