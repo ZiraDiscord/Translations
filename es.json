@@ -372,8 +372,8 @@
         "disable": "Cualquiera con los permisos para **Administrar el Servidor** podrá interactuar con las sugerencias."
       },
       "move": {
-        "help": "Move a suggestion to a new channel\n[Premium Feature](https://zira.ovh/premium)",
-        "args": "<ID> <#channel>"
+        "help": "Mueve las sugerencias a otro canal.\n[Característica Premium] (https://zira.ovh/premium)",
+        "args": "<ID> <#canal>"
       }
     },
     "suggest": {
