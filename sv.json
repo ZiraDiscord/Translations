@@ -370,6 +370,10 @@
         "args": "<roll | disable>",
         "set": "Endast användare med $role$ och serverägaren kommer kunna interagera med förslag.",
         "disable": "Vem som helst med behörigheten **Hantera server** kan nu interagera med förslag."
+      },
+      "move": {
+        "help": "Move a suggestion to a new channel\n[Premium Feature](https://zira.ovh/premium)",
+        "args": "<ID> <#channel>"
       }
     },
     "suggest": {
