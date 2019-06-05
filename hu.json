@@ -145,16 +145,16 @@
     },
     "remove": {
       "help": "Rang eltávolítása egy üzenetről",
-      "args": "<emoji> <role>"
+      "args": "<emotikon> <rang>"
     },
     "toggle": {
       "help": "Kapcsolható rang beállítása",
-      "args": "<emoji> <role>",
+      "args": "<emotikon> <rang>",
       "limit": "Maximum 6 kapcsolható rang használható. Ahhoz, hogy több ilyen rangot használhass szükséged van premiumra [premium](https://zira.ovh/premium)"
     },
     "once": {
       "help": "Egyszeri rang beállítása egy üzenethez",
-      "args": "<emoji> <role>",
+      "args": "<emotikon> <rang>",
       "error": "Mivel ezen az üzeneten már ez az emotikon ezzel a ranggal fel van használva ezért nem adhatsz hozzá mégegy egyszerhasználatos reakciót."
     },
     "list": {
@@ -201,10 +201,10 @@
         "stage": "Szakasz ",
         "skipped": "Szakasz kihagyva.",
         "title": "Ha szeretnél egy címet/nevet számára akkor írj egyet.\n\n2 perced van mindegyik szakasz kitöltésére.\n\nHa van egy JSON amit szeretnél használni kérlek használd a **z/edit $message <JSON>** parancsot\n\nEllenkező esetben kihagyhatod ezt a részt a `skip` parancs beírásával.",
-        "description": "If you would like a description please provide one.\n\nYou can skip this stage by typing `skip`.",
-        "image": "If you would like an image please provide a link or upload one\n\nYou can skip this stage by typing `skip`.",
-        "footer": "If you would like a footer please provide one\n\nYou can skip this stage by typing `skip`.",
-        "color": "If you would like a color please provide a hex code\n\nYou can skip this stage by typing `skip`.",
+        "description": "Ha szeretnél egy leírást hozzáadni, kérlek írj egyet.\nEllenkező esetben ez kihagyható a `skip` parancs beírásával.",
+        "image": "Ha szeretnél egy képet hozzáadni kérlek linkelj, vagy tölts fel egyet\nEllenkező esetben ez kihagyható a `skip` parancs beírásával.",
+        "footer": "Ha szeretnél egy lábjegyzetet hozzáadni, kérlek írj egyet.\nEllenkező esetben ez kihagyható a `skip` parancs beírásával.",
+        "color": "Ha szeretnél egy színt hozzáadni, kérlek írj egy hexadecimális (16-os számrendszerbeli) kódot\nEllenkező esetben ez kihagyható a `skip` parancs beírásával.",
         "creating": "Beágyazás szerkeztése."
       }
     },
@@ -225,7 +225,7 @@
       },
       "bot": {
         "help": "Automatikusan kioszt egy rangot a csatlakozó botoknak",
-        "args": "<role>",
+        "args": "<rang>",
         "set": "$role$ rang mostantól automatikusan ki lesz osztva a csatlakozó botoknak.",
         "remove": "$role$ rang mostantól nem lesz automatikusan kiosztva a csatlakozó botoknak."
       },
@@ -372,8 +372,8 @@
         "disable": "Mindenki akinek van **Klán kezelési** jogosultsága interakcióba léphet a javaslatokkal."
       },
       "move": {
-        "help": "Move a suggestion to a new channel\n[Premium Feature](https://zira.ovh/premium)",
-        "args": "<ID> <#channel>"
+        "help": "Egy javaslat mozgatása egy másik szobába\n[Csak prémiummal használható](https://zira.ovh/premium)",
+        "args": "<Azonosító><#szoba>"
       }
     },
     "suggest": {
@@ -390,17 +390,17 @@
     },
     "deny": {
       "help": "Javaslat elutasítása",
-      "args": "<ID> [reason]",
+      "args": "<Azonosító>[reason]",
       "update": "A javaslatod [$id$]($url$) el lett utasítva."
     },
     "maybe": {
       "help": "Potenciálisan elfogadja a javaslatot",
-      "args": "<ID> [reason]",
+      "args": "<Azonosító>[reason]",
       "update": "A javaslatod [$id$]($url$) potenciális elfogadásra került."
     },
     "invalid": {
       "help": "Egy javaslatot hibásnak állít be",
-      "args": "<ID> [reason]",
+      "args": "<Azonosító>[reason]",
       "update": "A javaslatod [$id$]($url$) hibásnak lett megjelölve."
     },
     "help": {
