@@ -38,18 +38,18 @@
       "once": "Como ya hay un rol de un solo uso (once) en este mensaje, no puedes agregar más roles que sean de otro tipo."
     },
     "general": {
-      "maxReactions": "No puedo agregar más roles a este mensaje porque ya tiene 20 reacciones. Si te gustaría establecer este rol, elimina algun rol de este mensaje o crea un mensaje nuevo. Esto se trata de un límite de Discord.",
+      "maxReactions": "No puedo agregar más roles a este mensaje porque ya tiene 20 reacciones. Si quieres establecer este rol, elimina algún rol de este mensaje o crea un mensaje nuevo. Esto es un límite de Discord.",
       "missingSetup": "Por favor establece el canal y el mensaje primero, luego intenta usar este comando de nuevo.",
       "missingChannel": "Establece un canal primero y luego prueba este comando de nuevo.",
-      "missingMessage": "Establece un mensaje primero, después prueba este comando de nuevo.",
-      "missingMessageID": "Por favor, proporcióname la ID de un mensaje.",
-      "missingRole": "Por favor, proporcióname el nombre de un rol o una mención.",
+      "missingMessage": "Establece un mensaje primero y luego prueba este comando de nuevo.",
+      "missingMessageID": "Proporciona un ID de mensaje por favor.",
+      "missingRole": "Proporciona un nombre de rol o mención por favor.",
       "messageNotFound": "No puedo encontrar ese mensaje, asegúrate de que la ID es correcta.",
       "invalidID": "Esa ID no es válida.",
-      "noRoleProvided": "Por favor proporciona un rol.",
-      "noChannelProvided": "Por favor proporciona un canal.",
-      "noMessageProvided": "Por favor proporciona un mensaje.",
-      "noSuggestionProvided": "Por favor, proporciona la ID de una sugerencia o la ID del mensaje de la sugerencia que quieres."
+      "noRoleProvided": "Proporciona un rol por favor.",
+      "noChannelProvided": "Proporciona un canal por favor.",
+      "noMessageProvided": "Proporciona un mensaje por favor.",
+      "noSuggestionProvided": "Proporciona la ID de sugerencia o de mensaje de la sugerencia que quieres."
     },
     "premium": "Esta característica es [premium](https://zira.ovh/premium).",
     "suggestionsRole": "Necesitas el rol $role$ para administrar las sugerencias."
@@ -61,44 +61,44 @@
       "remove": "$mention$ ha reaccionado con $emoji$ para quitarse $removed$",
       "both": "$mention$ ha reaccionado con $emoji$ para obtener $added$ y para quitarse $removed$"
     },
-    "removeReaction": "$mention$ quitó la reación $emoji$ para quitar el rol $roles$"
+    "removeReaction": "$mention$ quitó la reacción $emoji$ para quitarse $roles$"
   },
   "suggestions": {
     "reason": "Razón de $user$",
     "footer": "ID: $id$ Enviada",
-    "new": "Nueva Sugerencia",
-    "approved": "Sugerencia Aprobada",
-    "denied": "Sugerencia Denegada",
-    "potential": "Sugerencia Potencial",
-    "invalid": "Sugerencia Inválida",
-    "updated": "Sugerencia Actualizada"
+    "new": "Nueva sugerencia",
+    "approved": "Sugerencia aprobada",
+    "denied": "Sugerencia denegada",
+    "potential": "Sugerencia potencial",
+    "invalid": "Sugerencia inválida",
+    "updated": "Sugerencia actualizada"
   },
   "commands": {
     "channel": {
       "help": "Establece el canal activo.",
       "args": "<#canal>",
       "set": " establecido como el canal activo.",
-      "pick": "Menciona el canal que quieras usar. Si te gustaría cancelar, escribe `cancel`."
+      "pick": "Menciona el canal que quieres usar.\nEscribe `cancel` si te gustaría cancelar."
     },
     "message": {
       "help": "Establece el mensaje activo.",
       "args": "<ID del mensaje>",
       "set": "Mensaje establecido.",
-      "pick": "Por favor, proporciona la ID de un mensaje para que Zira lo use o un mensaje para que Zira lo envíe.\nSi te gustaría cancelar, escribe `cancel`."
+      "pick": "Proporciona el ID de mensaje para que Zira use o escribe un mensaje para que Zira envíe.\nEscribe `cancel` si te gustaría cancelar."
     },
     "embed": {
       "help": "Crea un embed que será usado como el mensaje activo.",
       "args": "[Embed JSON]",
-      "JSONerror": "El JSON proporcionado es inválido. Puedes utilizar el generador de embeds usando el comando",
+      "JSONerror": "El JSON proporcionado es inválido.\nPuedes utilizar el generador de embeds usando el comando",
       "created": "Embed creado.",
       "interactive": {
         "stage": "Etapa ",
         "skipped": "Etapa omitida.",
-        "title": "Si te gustaría poner un título proporciona uno.\n\nTienes 2 minutos entre cada etapa para introducir valores.\n\nSi tienes un JSON y te gustaría usarlo en vez de este creador usa el comando **z/embed <JSON>**\n\nPuedes saltar esta etapa escribiendo `skip`.",
-        "description": "Si quieres una descripción proporciona una.\n\nPuedes saltar esta etapa escribiendo `skip`.",
-        "image": "Si quieres una imagen proporciona un enlace o súbela.\n\nPuedes saltar esta etapa escribiendo `skip`.",
-        "footer": "Si quieres un pie de página proporciona uno.\n\nPuedes saltar esta etapa escribiendo `skip`.",
-        "color": "Si quieres un color proporciona un código hex.\n\nPuedes saltar esta etapa escribiendo `skip`.",
+        "title": "Si te gustaría poner un título proporciona uno.\n\nTienes 2 minutos para cada una de las etapas para introducir sus valores.\n\nSi tienes un JSON puede que quieras usarlo en lugar de este creador usando **z/embed <JSON>**\n\nPuedes omitir esta etapa escribiendo `skip`.",
+        "description": "Si te gustaría poner una descripción proporciona una.\n\nPuedes omitir esta etapa escribiendo `skip`.",
+        "image": "Si te gustaría poner una imagen proporciona un enlace o sube una.\n\nPuedes omitir esta etapa escribiendo `skip`.",
+        "footer": "Si te gustaría poner un pie de página proporciona uno.\n\nPuedes omitir esta etapa escribiendo `skip`.",
+        "color": "Si te gustaría poner un color proporciona un código hex.\n\nPuedes omitir esta etapa escribiendo `skip`.",
         "creating": "Creando embed."
       }
     },
@@ -107,20 +107,20 @@
       "args": "",
       "prefix": {
         "args": "<prefijo>",
-        "error": "Por favor, proporciona un prefijo que tenga entre 1 y 10 caracteres y que contenga al menos uno de estos caracteres: `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
+        "error": "Proporciona un prefijo que tenga entre 1 y 10 caracteres y que contenga al menos uno de estos caracteres: `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
         "set": "El prefijo ha sido establecido a"
       },
       "role": {
         "args": "<@rol | disable>",
-        "error": "Por favor, menciona un rol o proporciona el nombre de uno, o si quieres desactivar el rol, escribe",
-        "set": "Rol fijado. Solo los usuarios con $role$ podrán usar los comandos de Zira.",
-        "disable": "Cualquiera con los permisos correctos puede usar los comandos de Zira."
+        "error": "Menciona un rol o proporciona el nombre de uno, si te gustaría desactivar el rol, escribe",
+        "set": "Rol establecido. Solo las personas con $role$ serán capaces de usar los comandos de Zira.",
+        "disable": "Ahora cualquiera con los permisos correctos puede usar los comandos de Zira."
       },
       "reset": {
         "args": "",
-        "question": ":warning: ¿Estás seguro de que quieres reiniciar la configuración del servidor?\nPor favor, escribe `yes` o `no`.",
-        "done": "Ok, ¡la configuración del servidor fue reiniciada!",
-        "cancel": "Ok, la configuración del servidor no fue reiniciada."
+        "question": ":warning: ¿Estás seguro de que quieres restablecer la configuración del servidor?\nPor favor, escribe `yes` para confirmar o `no` para cancelar.",
+        "done": "Ok, la configuración del servidor ha sido restablecida.",
+        "cancel": "Uf. La configuración del servidor no ha sido restablecida."
       },
       "language": {
         "args": "<código del idioma>",
@@ -131,20 +131,20 @@
       },
       "main": {
         "prefix": "Establece un prefijo personalizado.",
-        "role": "Establece o quita cual rol puede usar los comandos.",
-        "reset": "Reinicia la configuración del servidor.",
+        "role": "Establece o quita el rol que puede usar los comandos.",
+        "reset": "Restablece la configuración del servidor.",
         "language": "Establece el idioma para el servidor."
       }
     },
     "normal": {
-      "help": "Dar un rol",
+      "help": "Da un rol",
       "args": "<emoji> <rol>",
       "added": "$role$ añadido con el emoji $emoji$",
-      "emoji": "Por favor, manda el emoji que quieres usar.",
-      "role": "Por favor, manda el rol que quieres usar."
+      "emoji": "Envía el emoji que quieras usar.",
+      "role": "Envía el rol que quieras usar."
     },
     "remove": {
-      "help": "Quitar un rol",
+      "help": "Quita un rol",
       "args": "<emoji> <rol>"
     },
     "toggle": {
