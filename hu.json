@@ -370,6 +370,10 @@
         "args": "<rang | disable>",
         "set": "Csak azok a $role$ ranggal felhatalmazott felhasználók és a klán mester férhet hozzá a javaslatokhoz.",
         "disable": "Mindenki akinek van **Klán kezelési** jogosultsága interakcióba léphet a javaslatokkal."
+      },
+      "move": {
+        "help": "Move a suggestion to a new channel\n[Premium Feature](https://zira.ovh/premium)",
+        "args": "<ID> <#channel>"
       }
     },
     "suggest": {
