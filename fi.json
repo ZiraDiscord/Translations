@@ -54,7 +54,7 @@
     "premium": "Tämä ominaisuus on [premium](https://zira.ovh/premium) ainoastan.",
     "suggestionsRole": "You need the $role$ role to manage suggestions."
   },
-  "page": "Page",
+  "page": "Sivu",
   "logging": {
     "addReaction": {
       "add": "$mention$ reacted with $emoji$ to get $added$",
@@ -83,7 +83,7 @@
     "message": {
       "help": "Set the active message.",
       "args": "<message ID>",
-      "set": "Message set.",
+      "set": "Viesti asetettu.",
       "pick": "Please provide a message ID for Zira to use or message for Zira to send.\nType `cancel` if you would like to cancel."
     },
     "embed": {
@@ -125,8 +125,8 @@
       "language": {
         "args": "<language code>",
         "title": "Languages",
-        "set": "Language set.",
-        "unknown": "Unknown language.",
+        "set": "Kieli asetettu.",
+        "unknown": "Tuntematon kieli.",
         "crowdin": "If you want Zira in a language that isn't on the list above, you can apply and help translate Zira on [Crowdin](https://translate.zira.ovh)"
       },
       "main": {
@@ -285,9 +285,9 @@
         "success": "Leave messages disabled."
       },
       "add": {
-        "help": "Add a message.",
+        "help": "Lisää viesti.",
         "args": "<message>",
-        "success": "Message added."
+        "success": "Viesti asetettu."
       },
       "remove": {
         "help": "Remove a message",
@@ -405,13 +405,13 @@
     },
     "help": {
       "categories": [
-        "Roles",
+        "Roolit",
         "Suggestion",
         "Logging",
-        "Miscellaneous"
+        "Sekalaiset"
       ],
-      "commands": "Commands",
-      "title": "Links",
+      "commands": "Komennot",
+      "title": "Linkit",
       "footer": "<> = Required [] = Optional",
       "links": [
         "[Guide](https://docs.zira.ovh/)",
