@@ -370,6 +370,10 @@
         "args": "<rol | uitzetten>",
         "set": "Only users with $role$ and the guild owner will be able to interactive with suggestions.",
         "disable": "Anyone with the **Manage Guild** permission will now be able to interact with suggestions."
+      },
+      "move": {
+        "help": "Move a suggestion to a new channel\n[Premium Feature](https://zira.ovh/premium)",
+        "args": "<ID> <#channel>"
       }
     },
     "suggest": {
