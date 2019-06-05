@@ -370,6 +370,10 @@
         "args": "<role | disable>",
         "set": "Nur Benutzer mit $role$ und der Discord Besitzer können mit Vorschlägen interagieren.",
         "disable": "Jeder mit der Berechtigung **Server Verwalten** kann nun mit Vorschlägen interagieren."
+      },
+      "move": {
+        "help": "Move a suggestion to a new channel\n[Premium Feature](https://zira.ovh/premium)",
+        "args": "<ID> <#channel>"
       }
     },
     "suggest": {
