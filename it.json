@@ -145,16 +145,16 @@
     },
     "remove": {
       "help": "Rimuovi un ruolo",
-      "args": "<emoji> <role>"
+      "args": "<emoji> <ruolo>"
     },
     "toggle": {
       "help": "Imposta un ruolo attivo",
-      "args": "<emoji> <role>",
+      "args": "<emoji> <ruolo>",
       "limit": "Hai raggiunto il limite massimo di 6 ruoli attivi. Puoi ottenere ruoli attivi illimitati con la versione [premium](https://zira.ovh/premium)"
     },
     "once": {
       "help": "Imposta un ruolo ottenibile una sola volta",
-      "args": "<emoji> <role>",
+      "args": "<emoji> <ruolo>",
       "error": "Visto che è già presente un ruolo impostato in questo messaggio che non è una reazione singola, non puoi aggiungere altre reazioni singole."
     },
     "list": {
@@ -198,19 +198,19 @@
       "success": "Il Messaggio è stato modificato.",
       "pick": "Per favore fornisci un nuovo messaggio.",
       "interactive": {
-        "stage": "Stage ",
-        "skipped": "Stage skipped.",
+        "stage": "Fase ",
+        "skipped": "Fase saltata.",
         "title": "Se desideri un titolo, si prega di fornirne uno. \n\nHai 2 minuti per ciascuna di queste fasi per inserire i valori.\n\nSe hai un JSON che vorresti utilizzare al posto di questo creatore per favore utilizza **z/embed $message <JSON>** \n\nÈ possibile saltare questa fase digitando `skip`.",
-        "description": "If you would like a description please provide one.\n\nYou can skip this stage by typing `skip`.",
-        "image": "If you would like an image please provide a link or upload one\n\nYou can skip this stage by typing `skip`.",
-        "footer": "If you would like a footer please provide one\n\nYou can skip this stage by typing `skip`.",
-        "color": "If you would like a color please provide a hex code\n\nYou can skip this stage by typing `skip`.",
+        "description": "Se desideri inserire una descrizione per favore forniscine una.\n\nPuoi saltare questa fase digitando `skip`.",
+        "image": "Se desideri un'immagine per favore fornisci un link oppure carica una foto\n\nPuoi saltare questa fase digitando `skip`.",
+        "footer": "Se desideri inserire un footer per favore forniscine uno\n\nPuoi saltare questa fase digitando `skip`.",
+        "color": "Se desideri inserire un colore per favore inserisci un codice esadecimale\n\nPuoi saltare questa fase digitando `skip`.",
         "creating": "Modifica embed."
       }
     },
     "log": {
       "help": "Salva i logs delle modifiche ruoli in un canale",
-      "args": "<#channel>",
+      "args": "<#canale>",
       "set": " impostato come canale log.\n\n**Nota:** Se non posso mandare messaggi in quel canale disattiverò i logs.",
       "disable": "I logs dei Ruoli sono ora disattivati."
     },
@@ -225,7 +225,7 @@
       },
       "bot": {
         "help": "Dai dei ruoli quando un bot entra",
-        "args": "<role>",
+        "args": "<ruolo>",
         "set": "$role$ verrà dato quando un bot entra.",
         "remove": "$role$ non verrà più dato quando un bot entra."
       },
@@ -242,7 +242,7 @@
       "args": "",
       "channel": {
         "help": "Imposta il canale dove i messaggi di entrata devono essere inviati",
-        "args": "<#channel>",
+        "args": "<#canale>",
         "set": " impostato come canale di entrata.\n\n**Nota:** Se non posso mandare messaggi in quel canale disattiverò i messaggi di entrata."
       },
       "disable": {
@@ -268,7 +268,7 @@
       },
       "placeholders": {
         "title": "Placeholders Utilizzabili Che Zira Riempirà Automaticamente",
-        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "description": "$user$ - username\n$discriminator$ - discriminatore utente\n$id$ - ID utente\n$mention$ - menzione utente\n$guild$ - nome server\n$membercount$ - nuovo contatore membri"
       }
     },
     "leave": {
@@ -276,7 +276,7 @@
       "args": "",
       "channel": {
         "help": "Imposta il canale dove i messaggi di uscita devono essere inviati",
-        "args": "<#channel>",
+        "args": "<#canale>",
         "set": " impostato come canale di uscita.\n\n**Nota:** Se non posso inviare messaggi in quel canale disattiverò i messaggi di uscita."
       },
       "disable": {
@@ -285,15 +285,15 @@
         "success": "Messaggi di uscita disattivati."
       },
       "add": {
-        "help": "Add a message.",
-        "args": "<message>",
-        "success": "Message added."
+        "help": "Aggiungi un messaggio.",
+        "args": "<messaggio>",
+        "success": "Messaggio aggiunto."
       },
       "remove": {
-        "help": "Remove a message",
-        "args": "<ID from list>",
+        "help": "Rimuovi un messaggio",
+        "args": "<ID dalla lista>",
         "noID": "Per favore fornisci un ID da $prefix$leave list",
-        "notFound": "A message with that ID doesn't exist.",
+        "notFound": "Un messaggio con quell'ID non esiste.",
         "success": "Messaggio cancellato."
       },
       "list": {
@@ -302,7 +302,7 @@
       },
       "placeholders": {
         "title": "Placeholders Utilizzabili",
-        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "description": "$user$ - username\n$discriminator$ - discriminatore utente\n$id$ - ID utente\n$mention$ - menzione utente\n$guild$ - nome server\n$membercount$ - nuovo contatore membri"
       }
     },
     "rooms": {
@@ -321,31 +321,31 @@
       },
       "approved": {
         "help": "Imposta il canale dove i suggerimenti approvati verranno inviati",
-        "args": "<#channel | disable>",
+        "args": "<#canale | disable>",
         "set": "I suggerimenti approvati verranno inviati nel canale",
         "disable": "I suggerimenti approvati non verranno più spostati in un canale."
       },
       "denied": {
         "help": "Imposta il canale dove i suggerimenti rifiutati verranno inviati",
-        "args": "<#channel | disable>",
+        "args": "<#canale | disable>",
         "set": "I suggerimenti rifiutati verranno inviati nel canale",
         "disable": "I suggerimenti rifiutati non verranno più spostati in un canale."
       },
       "invalid": {
         "help": "Imposta il canale dove i suggerimenti invalidi verranno inviati",
-        "args": "<#channel | disable>",
+        "args": "<#canale | disable>",
         "set": "I suggerimenti invalidi verranno inviati nel canale",
         "disable": "I suggerimenti invalidi non verranno più spostati in un canale."
       },
       "potential": {
         "help": "Imposta il canale dove i suggerimenti potenziali verranno inviati",
-        "args": "<#channel | disable>",
+        "args": "<#canale | disable>",
         "set": "I suggerimenti potenziali verranno inviati nel canale",
         "disable": "I suggerimenti potenziali non verranno più spostati in un canale."
       },
       "submit": {
         "help": "Imposta il canale che gli utenti dovranno utilizzare per creare dei suggerimenti\n[Funzione Premium](https://zira.ovh/premium)",
-        "args": "<#channel | disable>",
+        "args": "<#canale | disable>",
         "set": "Ora i suggerimenti possono essere creati solo da",
         "disable": "Adesso i suggerimenti possono essere inviati da qualsiasi canale."
       },
@@ -372,8 +372,8 @@
         "disable": "Chiunque con il permesso **Gestire il Server** sarà in grado di interagire con i suggerimenti."
       },
       "move": {
-        "help": "Move a suggestion to a new channel\n[Premium Feature](https://zira.ovh/premium)",
-        "args": "<ID> <#channel>"
+        "help": "Muovi i suggerimenti in un nuovo canale\n[Funzione Premium](https://zira.ovh/premium)",
+        "args": "<ID> <#canale>"
       }
     },
     "suggest": {
@@ -390,17 +390,17 @@
     },
     "deny": {
       "help": "Respinge un suggerimento",
-      "args": "<ID> [reason]",
+      "args": "<ID> [motivo]",
       "update": "Il tuo suggerimento [$id$]($url$) è stato declinato."
     },
     "maybe": {
       "help": "Approva potenzialmente un suggerimento",
-      "args": "<ID> [reason]",
+      "args": "<ID> [motivo]",
       "update": "Il tuo suggerimento [$id$]($url$) è stato potenzialmente approvato."
     },
     "invalid": {
       "help": "Marchia un suggerimento come invalido",
-      "args": "<ID> [reason]",
+      "args": "<ID> [motivo]",
       "update": "Il tuo suggerimento [$id$]($url$) è stato marchiato invalido."
     },
     "help": {
