@@ -370,6 +370,10 @@
         "args": "<rol | disable>",
         "set": "Doar utilizatorii cu rolul $role$ și deținătorul server-ului vor putea să interacționeze cu sugestii.",
         "disable": "Oricine cu permisiunea **Gestionează Server** va putea să interacționeze cu sugestii."
+      },
+      "move": {
+        "help": "Move a suggestion to a new channel\n[Premium Feature](https://zira.ovh/premium)",
+        "args": "<ID> <#channel>"
       }
     },
     "suggest": {
