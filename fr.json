@@ -198,13 +198,13 @@
       "success": "Le message a été modifié.",
       "pick": "S'il vous plaît fournir un nouveau message.",
       "interactive": {
-        "stage": "Stage ",
-        "skipped": "Stage skipped.",
+        "stage": "Étape ",
+        "skipped": "Étape sautée.",
         "title": "Si vous souhaitez un titre, veuillez en fournir un.\n\nVous aurez 2 minutes pour chacune des étapes pour entrer les valeurs.\n\nSi vous souhaitez utiliser un code JSON au lieu de ce créateur, utilisez **z/edit $message <JSON>**\n\nVous pouvez ignorer cette étape en tapant `skip`.",
-        "description": "If you would like a description please provide one.\n\nYou can skip this stage by typing `skip`.",
-        "image": "If you would like an image please provide a link or upload one\n\nYou can skip this stage by typing `skip`.",
-        "footer": "If you would like a footer please provide one\n\nYou can skip this stage by typing `skip`.",
-        "color": "If you would like a color please provide a hex code\n\nYou can skip this stage by typing `skip`.",
+        "description": "Si vous souhaitez une description, veuillez en fournir une.\n\nVous pouvez ignorer cette étape en tapant `skip`.",
+        "image": "Si vous souhaitez une image, veuillez fournir un lien ou en télécharger une.\n\nVous pouvez ignorer cette étape en tapant `skip`.",
+        "footer": "Si vous souhaitez un pied de page, veuillez en fournir un.\n\nVous pouvez ignorer cette étape en tapant `skip`.",
+        "color": "Si vous souhaitez une couleur veuillez en fournir un code hexadécimal\n\nVous pouvez ignorer cette étape en tapant `skip`.",
         "creating": "Création de l'intégration."
       }
     },
@@ -268,7 +268,7 @@
       },
       "placeholders": {
         "title": "Espaces réservés que Zira va remplir automatiquement",
-        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "description": "$user$ - nom d'utilisateur\n$discriminator$ - discriminateur de l'utilisateur\n$id$ - ID utilisateur\n$mention$ - mention utilisateur\n$guild$ - nom du serveur\n$membercount$ - nombre de nouveaux membres"
       }
     },
     "leave": {
@@ -302,7 +302,7 @@
       },
       "placeholders": {
         "title": "Espaces réservés utilisables",
-        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "description": "$user$ - nom d'utilisateur\n$discriminator$ - discriminateur de l'utilisateur\n$id$ - ID utilisateur\n$mention$ - mention utilisateur\n$guild$ - nom du serveur\n$membercount$ - nombre de nouveaux membres"
       }
     },
     "rooms": {
@@ -321,31 +321,31 @@
       },
       "approved": {
         "help": "Définir le salon auquel les suggestions approuvé seront envoyés",
-        "args": "<#channel | disable>",
+        "args": "<#channel | désactiver>",
         "set": "Les suggestions approuvées seront envoyées à",
         "disable": "Les suggestions approuvées ne seront plus déplacées vers un salon."
       },
       "denied": {
         "help": "Définir le salon refusé, les suggestions seront envoyées à",
-        "args": "<#channel | disable>",
+        "args": "<#channel | désactiver>",
         "set": "Les suggestions refusées seront envoyées à",
         "disable": "Les suggestions refusées ne seront plus déplacées vers un salon."
       },
       "invalid": {
         "help": "Définir le salon des suggestions non valides seront envoyées à",
-        "args": "<#channel | disable>",
+        "args": "<#channel | désactiver>",
         "set": "Les suggestions non valides seront envoyées à",
         "disable": "Les suggestions non valides ne seront plus déplacées vers un salon."
       },
       "potential": {
         "help": "Définir le salon potentiel suggestions seront envoyées à",
-        "args": "<#channel | disable>",
+        "args": "<#channel | désactiver>",
         "set": "Les suggestions potentielles seront envoyées à",
         "disable": "Les suggestions potentielles ne seront plus déplacées vers un salon."
       },
       "submit": {
         "help": "Définir le salon que les utilisateurs devront utiliser pour soumettre une suggestion\n[Premium Feature](https://zira.ovh/premium)",
-        "args": "<#channel | disable>",
+        "args": "<#channel | désactiver>",
         "set": "Les suggestions ne peuvent maintenant être faites que dans",
         "disable": "Des suggestions peuvent maintenant être faites dans n'importe quel canal."
       },
@@ -372,7 +372,7 @@
         "disable": "Toute personne disposant de l'autorisation **Gérer le serveur** pourra désormais interagir avec les suggestions."
       },
       "move": {
-        "help": "Move a suggestion to a new channel\n[Premium Feature](https://zira.ovh/premium)",
+        "help": "Déplacer une suggestion vers un nouveau salon\n[Premium Feature](https://zira.ovh/premium)",
         "args": "<ID> <#channel>"
       }
     },
