@@ -12,7 +12,7 @@
     "unknown": {
       "channel": "Nieznany kanał. Proszę upewnić się że kanał istnieje, a jeśli istnieje, czy posiadam odpowiednie zezwolenia aby go widzieć.",
       "message": "Wiadomośc nie została znaleziona w aktywnym kanałe. Upewnij się czy istnieje, i czy posiadam zezwolenia aby ją widzieć.",
-      "emoji": "Nie mogę użyć tego emoji. Upewnij się czy jestem w serwerze z którego on pochodzi, i upewnij się że posiadam zezwolenie **Używaj Zewnętrznych Emoji** w aktywnym kanałe.",
+      "emoji": "I can't use this emoji. Please make sure the emoji can be found in Discord's emoji picker. If it's in the emoji picker and it's a custom emoji make sure I'm in the server that it comes from. If the emoji still doesn't work make sure I have the permission **Use External Emojis** in the active channel. If all else fails join the support guild and someone from the support team will help you.",
       "suggestion": "Sugestia z tym ID nie została znaleziona."
     },
     "interactive": {
@@ -39,7 +39,7 @@
     },
     "general": {
       "maxReactions": "Nie mogę dodać więcej ról do tej wiadomości ponieważ, ma ona na sobie więcej niż 20 reakcji. Jeśli chciał byś ustawić tą rolę, usuń rolę z tej wiadomości lub stwórz nową wiadomość. Jest to limit nałożony przez Discord'a.",
-      "missingSetup": "Please set a channel **and** message first then try this command again.",
+      "missingSetup": "Proszę oznacz kanał i wiadomość, następnie spróbuj ponownie.",
       "missingChannel": "Ustaw kanał, następnie spróbuj ponownie.",
       "missingMessage": "Najpierw ustaw wiadomość a potem spróbuj ponownie.",
       "missingMessageID": "Dostarcz ID wiadomości. ",
@@ -83,7 +83,7 @@
     "message": {
       "help": "Ustaw aktywną wiadomość.",
       "args": "<message ID>",
-      "set": "Message set.",
+      "set": "Wiadomość ustawiona.",
       "pick": "Podaj ID wiadomości do użycia przez Zira lub wiadomość do wysłania przez Zira.\nWpisz `cancel` jeśli chcesz anulować."
     },
     "embed": {
@@ -155,7 +155,7 @@
     "once": {
       "help": "Ustaw pojedyńczą role",
       "args": "<emoji> <role>",
-      "error": "Since there is a role set on this message with this emoji already that isn't a once reaction, you cant add any once reactions."
+      "error": "Ponieważ na tej wiadomości istnieje już emoji które nie jest powiązane z reakcją pojedyńczą, nie możesz dodać reakcji pojedyńczych."
     },
     "list": {
       "help": "Pokaż wszystkie role.",
@@ -198,19 +198,19 @@
       "success": "Wiadomość została edytowana.",
       "pick": "Podaj nową wiadomość.",
       "interactive": {
-        "stage": "Etap ",
-        "skipped": "Etap pominięty.",
+        "stage": "Stage ",
+        "skipped": "Stage skipped.",
         "title": "Aby utworzyć tytuł podaj go.\n\nMasz 2 minuty na każdym etapie aby wpisać wartości.\n\nJeśli masz JSON który chcesz użyć zamiast kreatora użyj **z/edit $message <JSON>**\n\nMożesz pominąć ten etap wpisując `skip`.",
-        "description": "Aby utworzyć opis podaj go.\n\nMożesz pominąć ten etap wpisując `skip`.",
-        "image": "Aby użyć obrazka podaj link lub wrzuć plik\n\nMożesz pominąć ten etap wpisując `skip`.",
-        "footer": "Aby utworzyć footer podaj go.\n\nMożesz pominąć ten etap wpisując `skip`.",
-        "color": "Jeśli chcesz nadać kolor podaj kod hex\n\nMożesz pominąc ten etap wpisując `skip`.",
+        "description": "If you would like a description please provide one.\n\nYou can skip this stage by typing `skip`.",
+        "image": "If you would like an image please provide a link or upload one\n\nYou can skip this stage by typing `skip`.",
+        "footer": "If you would like a footer please provide one\n\nYou can skip this stage by typing `skip`.",
+        "color": "If you would like a color please provide a hex code\n\nYou can skip this stage by typing `skip`.",
         "creating": "Edytowanie osadzenia."
       }
     },
     "log": {
       "help": "Rejestruj wydarzenia roli w kanale",
-      "args": "<#kanał>",
+      "args": "<#channel>",
       "set": " ustaw jako kanał rejestrowania.\n\n**Uwaga:** Jeśli nie mogę wysyłać wiadomości do tego kanału wyłącze rejestrowanie.",
       "disable": "Rejestrowanie roli wyłączone."
     },
@@ -242,7 +242,7 @@
       "args": "",
       "channel": {
         "help": "Ustaw kanał w którym wiadomości dołączenia mają być wysyłane",
-        "args": "<#kanał>",
+        "args": "<#channel>",
         "set": " ustaw jako kanał dołączenia.\n\n**Uwaga:** Jeśli nie mogę wysyłać wiadomości do tego kanału wyłącze wiadomości dołączania."
       },
       "disable": {
@@ -268,7 +268,7 @@
       },
       "placeholders": {
         "title": "Możliwe Miejsca Zastępcze Które Zira Auto-Wypełni",
-        "description": "$user$ - nazwa użytkownika\n$mention$ - oznaczenie użytkownika\n$guild$ - nazwa gildii\n$membercount$ - nowa ilość członków"
+        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
       }
     },
     "leave": {
@@ -276,7 +276,7 @@
       "args": "",
       "channel": {
         "help": "Ustaw kanał w którym mają być wysyłane wiadomości wyjścia",
-        "args": "<#kanał>",
+        "args": "<#channel>",
         "set": " ustaw jako kanał wyjścia.\n\n**Uwaga:** Jeśli nie mogę wysyłać wiadomości do tego kanału wyłącze wiadomości dołączania."
       },
       "disable": {
@@ -285,24 +285,24 @@
         "success": "Wiadomości wyjścia wyłączone."
       },
       "add": {
-        "help": "Dodaj wiadomość.",
+        "help": "Add a message.",
         "args": "<message>",
-        "success": "Wiadomość dodana."
+        "success": "Message added."
       },
       "remove": {
-        "help": "Usuń wiadomość",
+        "help": "Remove a message",
         "args": "<ID from list>",
         "noID": "Podaj ID z $prefix$ listy wyjścia",
-        "notFound": "Wiadomość z tym ID nie istnieje.",
-        "success": "Wiadomość usunięta."
+        "notFound": "A message with that ID doesn't exist.",
+        "success": "Message deleted."
       },
       "list": {
-        "help": "Lista wiadomości",
+        "help": "List of messages",
         "args": ""
       },
       "placeholders": {
         "title": "Wiadomości Zastępcze",
-        "description": "$user$ - nazwa użytkownika\n$mention$ - oznaczenie użytkownika\n$guild$ - nazwa gildii\n$membercount$ - nowa ilość członków"
+        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
       }
     },
     "rooms": {
@@ -366,7 +366,7 @@
         "needTwo": "Podaj dwa emoji."
       },
       "role": {
-        "help": "Set a role that can approve, deny, etc. suggestions",
+        "help": "Ustaw role która może zatwierdzać, odrzucać, etc sugestie",
         "args": "<role | disable>",
         "set": "Tylko użytkownicy z $role$ i właściciel gildii może interagować z sugestiami.",
         "disable": "Każdy z zezwoleniem **Zażądzanie Serwerem** może interagować z sugestiami."
@@ -390,7 +390,7 @@
       "update": "Twoja sugestia [$id$] ($url$) została odrzucona."
     },
     "maybe": {
-      "help": "Potentially approve a suggestion",
+      "help": "Potencjalnie zatwierdź sugestię",
       "args": "<ID> [reason]",
       "update": "Twoja sugestia [$id$] ($url$) Została potencjalnie zaakceptowana."
     },

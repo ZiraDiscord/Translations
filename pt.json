@@ -2,7 +2,7 @@
   "language": "Português",
   "titles": {
     "success": "Success :white_check_mark:",
-    "error": "Erro :warning:",
+    "error": "Erro! :warning:",
     "usage": "Command Usage",
     "example": "Usage Examples",
     "permission": "Missing Permissions"
@@ -12,7 +12,7 @@
     "unknown": {
       "channel": "Unknown channel. Please make sure it exists, and if it does, that I have the proper permissions to view it.",
       "message": "Message not found in the active channel. Please make sure it exists, and if it does, that I have the proper permissions to view it.",
-      "emoji": "I can't use this emoji. Please make sure I'm in the server that it came from and if it is, make sure I have the permission **Use External Emojis** in the active channel.",
+      "emoji": "I can't use this emoji. Please make sure the emoji can be found in Discord's emoji picker. If it's in the emoji picker and it's a custom emoji make sure I'm in the server that it comes from. If the emoji still doesn't work make sure I have the permission **Use External Emojis** in the active channel. If all else fails join the support guild and someone from the support team will help you.",
       "suggestion": "A suggestion with that ID wasn't found."
     },
     "interactive": {
@@ -51,7 +51,7 @@
       "noMessageProvided": "Please provide a message.",
       "noSuggestionProvided": "Please provide a suggestion ID or a message ID of the suggestion you want."
     },
-    "premium": "This feature is [premium](https://zira.ovh/premium) only.",
+    "premium": "Este comando/recurso é apenas para usuários [premium](https://zira.ovh/premium).",
     "suggestionsRole": "You need the $role$ role to manage suggestions."
   },
   "page": "Page",
@@ -75,7 +75,7 @@
   },
   "commands": {
     "channel": {
-      "help": "Defina o Respectivo Canal.",
+      "help": "Set the active channel.",
       "args": "<#channel>",
       "set": " set as the active channel.",
       "pick": "Please mention the channel you want to use.\nType `cancel` if you would like to cancel."
@@ -268,7 +268,7 @@
       },
       "placeholders": {
         "title": "Usable Placeholders That Zira Will Auto-Fill",
-        "description": "$user$ - username\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
       }
     },
     "leave": {
@@ -302,7 +302,7 @@
       },
       "placeholders": {
         "title": "Usable Placeholders",
-        "description": "$user$ - username\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
       }
     },
     "rooms": {
@@ -370,6 +370,10 @@
         "args": "<role | disable>",
         "set": "Only users with $role$ and the guild owner will be able to interactive with suggestions.",
         "disable": "Anyone with the **Manage Guild** permission will now be able to interact with suggestions."
+      },
+      "move": {
+        "help": "Move a suggestion to a new channel\n[Premium Feature](https://zira.ovh/premium)",
+        "args": "<ID> <#channel>"
       }
     },
     "suggest": {
@@ -380,12 +384,12 @@
       "provideSuggestion": "Please provide a suggestion."
     },
     "approve": {
-      "help": "Aprove a sugestão",
+      "help": "Approve a suggestion",
       "args": "<ID> [reason]",
       "update": "Your suggestion [$id$]($url$) has been approved."
     },
     "deny": {
-      "help": "Negar a sugestão",
+      "help": "Deny a suggestion",
       "args": "<ID> [reason]",
       "update": "Your suggestion [$id$]($url$) has been denied."
     },

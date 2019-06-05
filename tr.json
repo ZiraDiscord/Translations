@@ -12,7 +12,7 @@
     "unknown": {
       "channel": "Geçersiz kanal. Kanalın olduğundan emin olun. Eğer emin iseniz kanalı görüntüleme iznim yoktur.",
       "message": "Belirlenmiş kanalda mesaj bulunulamadı. Lütfen mesajın var olduğundan emin olun. Eğer emin iseniz, lütfen izinlerimi mesajı görebileceğim şekilde ayarlayın.",
-      "emoji": "Bu emojiyi kullanamıyorum. Lütfen emojinin benim bulunduğum bir sunucuda olduğundan emin olun. Eğer emin iseniz, lütfen geçerli kanalda **Harici Emojiler Kullan** iznim olduğundan emin olun.",
+      "emoji": "I can't use this emoji. Please make sure the emoji can be found in Discord's emoji picker. If it's in the emoji picker and it's a custom emoji make sure I'm in the server that it comes from. If the emoji still doesn't work make sure I have the permission **Use External Emojis** in the active channel. If all else fails join the support guild and someone from the support team will help you.",
       "suggestion": "Bu ID üzerindeki öneriyi bulamadım."
     },
     "interactive": {
@@ -268,7 +268,7 @@
       },
       "placeholders": {
         "title": "Usable Placeholders That Zira Will Auto-Fill",
-        "description": "$user$ - username\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
       }
     },
     "leave": {
@@ -302,7 +302,7 @@
       },
       "placeholders": {
         "title": "Usable Placeholders",
-        "description": "$user$ - username\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
       }
     },
     "rooms": {
@@ -370,6 +370,10 @@
         "args": "<role | disable>",
         "set": "Only users with $role$ and the guild owner will be able to interactive with suggestions.",
         "disable": "Anyone with the **Manage Guild** permission will now be able to interact with suggestions."
+      },
+      "move": {
+        "help": "Move a suggestion to a new channel\n[Premium Feature](https://zira.ovh/premium)",
+        "args": "<ID> <#channel>"
       }
     },
     "suggest": {

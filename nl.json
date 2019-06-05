@@ -12,7 +12,7 @@
     "unknown": {
       "channel": "Unknown channel. Please make sure it exists, and if it does, that I have the proper permissions to view it.",
       "message": "Message not found in the active channel. Please make sure it exists, and if it does, that I have the proper permissions to view it.",
-      "emoji": "I can't use this emoji. Please make sure I'm in the server that it came from and if it is, make sure I have the permission **Use External Emojis** in the active channel.",
+      "emoji": "I can't use this emoji. Please make sure the emoji can be found in Discord's emoji picker. If it's in the emoji picker and it's a custom emoji make sure I'm in the server that it comes from. If the emoji still doesn't work make sure I have the permission **Use External Emojis** in the active channel. If all else fails join the support guild and someone from the support team will help you.",
       "suggestion": "A suggestion with that ID wasn't found."
     },
     "interactive": {
@@ -145,16 +145,16 @@
     },
     "remove": {
       "help": "Verwijder een rol",
-      "args": "<emoji> <rol>"
+      "args": "<emoji> <role>"
     },
     "toggle": {
       "help": "Stel een geschakelde rol in",
-      "args": "<emoji> <rol>",
+      "args": "<emoji> <role>",
       "limit": "There is a limit of 6 free toggled roles. You get unlimited toggled roles with [premium](https://zira.ovh/premium)"
     },
     "once": {
       "help": "Stel een eenmalige rol in",
-      "args": "<emoji> <rol>",
+      "args": "<emoji> <role>",
       "error": "Since there is a role set on this message with this emoji already that isn't a once reaction, you cant add any once reactions."
     },
     "list": {
@@ -174,13 +174,13 @@
       "args": "",
       "check": {
         "help": "Checks for deleted roles on a message.",
-        "args": "<bericht ID>",
+        "args": "<message ID>",
         "none": "All roles valid.",
         "removed": "rol(len) verwijderd."
       },
       "all": {
         "help": "Remove all roles from a message.",
-        "args": "<bericht ID>",
+        "args": "<message ID>",
         "done": "Any roles on the message have been removed."
       },
       "remove": {
@@ -210,7 +210,7 @@
     },
     "log": {
       "help": "Log role events to a channel",
-      "args": "<#kanaal>",
+      "args": "<#channel>",
       "set": " set as the logging channel.\n\n**Note:** If I can't send messages to the channel I will disable logging.",
       "disable": "Role logging is now disabled."
     },
@@ -225,7 +225,7 @@
       },
       "bot": {
         "help": "Geef een rol wanneer een bot lid wordt",
-        "args": "<rol>",
+        "args": "<role>",
         "set": "$role$ wordt gegeven wanneer een bot lid wordt.",
         "remove": "$role$ will no longer be given when a bot joins."
       },
@@ -242,7 +242,7 @@
       "args": "",
       "channel": {
         "help": "Set the channel join messages should be sent in",
-        "args": "<#kanaal>",
+        "args": "<#channel>",
         "set": " set as the join channel.\n\n**Note:** If I can't send messages to the channel I will disable join messages."
       },
       "disable": {
@@ -268,7 +268,7 @@
       },
       "placeholders": {
         "title": "Usable Placeholders That Zira Will Auto-Fill",
-        "description": "$user$ - username\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
       }
     },
     "leave": {
@@ -276,7 +276,7 @@
       "args": "",
       "channel": {
         "help": "Set the channel leave messages should be sent in",
-        "args": "<#kanaal>",
+        "args": "<#channel>",
         "set": " set as the leave channel.\n\n**Note:** If I can't send messages to the channel I will disable leave messages."
       },
       "disable": {
@@ -285,24 +285,24 @@
         "success": "Leave messages disabled."
       },
       "add": {
-        "help": "Voeg een bericht toe.",
-        "args": "<bericht>",
-        "success": "Bericht toegevoegd."
+        "help": "Add a message.",
+        "args": "<message>",
+        "success": "Message added."
       },
       "remove": {
-        "help": "Verwijder een bericht",
-        "args": "<ID van een lijst>",
+        "help": "Remove a message",
+        "args": "<ID from list>",
         "noID": "Please provide an ID from $prefix$leave list",
         "notFound": "A message with that ID doesn't exist.",
         "success": "Bericht verwijderd."
       },
       "list": {
-        "help": "Lijst van berichten",
+        "help": "List of messages",
         "args": ""
       },
       "placeholders": {
         "title": "Usable Placeholders",
-        "description": "$user$ - username\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
       }
     },
     "rooms": {
@@ -386,17 +386,17 @@
     },
     "deny": {
       "help": "Suggestie weigeren",
-      "args": "<ID>[reason]",
+      "args": "<ID> [reason]",
       "update": "Your suggestion [$id$]($url$) has been denied."
     },
     "maybe": {
       "help": "Potentially approve a suggestion",
-      "args": "<ID>[reason]",
+      "args": "<ID> [reason]",
       "update": "Your suggestion [$id$]($url$) has been potentially approved."
     },
     "invalid": {
       "help": "Mark a suggestion as invalid",
-      "args": "<ID>[reason]",
+      "args": "<ID> [reason]",
       "update": "Your suggestion [$id$]($url$) has been marked invalid."
     },
     "help": {

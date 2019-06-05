@@ -12,7 +12,7 @@
     "unknown": {
       "channel": "Tuntematon kanava. Varmistathan että se on olemassa, ja jos se on, varmista että minulla on käyttöoikeudet lukea sitä.",
       "message": "Viestiä ei löydetty aktiivisella kanavalla. Varmistathan että se on olemassa, ja jos sen on, varmista että minulla on käyttöoikeudet lukea se.",
-      "emoji": "En pysty käyttämään tätä emojia. Varmistathan että olen palvelimella josta kyseinen emoji on peräisin, ja varmista myös että minulla on käyttöoikeus **Käytä ulkoisia emojeita** aktiivisella kanavalla.",
+      "emoji": "I can't use this emoji. Please make sure the emoji can be found in Discord's emoji picker. If it's in the emoji picker and it's a custom emoji make sure I'm in the server that it comes from. If the emoji still doesn't work make sure I have the permission **Use External Emojis** in the active channel. If all else fails join the support guild and someone from the support team will help you.",
       "suggestion": "Ehdotusta kyseisellä tunnisteella ei löydetty."
     },
     "interactive": {
@@ -45,7 +45,7 @@
       "missingMessageID": "Please provide me with a message ID.",
       "missingRole": "Please provide me with a role name or mention.",
       "messageNotFound": "I can't find this message. Please make sure the message ID is correct.",
-      "invalidID": "That is not a valid ID.",
+      "invalidID": "Tämä ei ole kelvollinen tunniste.",
       "noRoleProvided": "Please provide a role.",
       "noChannelProvided": "Please provide a channel.",
       "noMessageProvided": "Please provide a message.",
@@ -268,7 +268,7 @@
       },
       "placeholders": {
         "title": "Usable Placeholders That Zira Will Auto-Fill",
-        "description": "$user$ - username\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
       }
     },
     "leave": {
@@ -302,7 +302,7 @@
       },
       "placeholders": {
         "title": "Usable Placeholders",
-        "description": "$user$ - username\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
       }
     },
     "rooms": {

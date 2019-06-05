@@ -12,7 +12,7 @@
     "unknown": {
       "channel": "Unbekannter Kanal. Bitte stelle sicher, dass er existiert, und wenn ja, dass ich die richtigen Berechtigungen habe, ihn zu sehen.",
       "message": "Nachricht im aktiven Kanal nicht gefunden. Bitte stelle sicher, dass er existiert, und wenn ja, dass ich die richtigen Berechtigungen habe, ihn zu sehen.",
-      "emoji": "Ich kann dieses Emoji nicht benutzen. Bitte stelle sicher, dass ich mich auf dem Server befinde, von dem es stammt, und wenn ja, stelle sicher, dass ich die Berechtigung **Externe Emojis verwenden** im aktiven Kanal habe.",
+      "emoji": "Ich kann dieses Emoji nicht benutzen. Bitte vergewissere dich, dass das Emoji in Discord's Emoji-Picker zu finden ist. Wenn es sich um ein benutzerdefiniertes Emoji handelt, solltest du sicherstellen, dass ich auf dem Server bin, von dem es kommt. Wenn der Emoji immer noch nicht funktioniert, vergewissere dich, dass ich die Erlaubnis habe, **Externe Emojis** im aktiven Kanal zu verwenden. Wenn alles andere fehlschlägt, tritt der Support-Discord bei und jemand aus dem Support-Team wird dir helfen.",
       "suggestion": "Ein Vorschlag mit dieser ID wurde nicht gefunden."
     },
     "interactive": {
@@ -201,10 +201,10 @@
         "stage": "Phase ",
         "skipped": "Phase übersprungen.",
         "title": "Wenn du einen Titel möchtest, gib bitte einen an.\n\nDu hast 2 Minuten Zeit für jede der Phasen, um Werte einzugeben.\n\nWenn Du JSON hast, das Du anstelle dieses Erstellers verwenden möchtest, benutze bitte **z/edit $message <JSON>****.\n\nDu kannst diese Phase überspringen, indem du `Überspringen` eingibst.",
-        "description": "Wenn Du eine Beschreibung wünschst, gebe diese bitte an.\n\nDu kannst diese Phase überspringen, indem Du `überspringen` eingibst.",
-        "image": "Wenn Du ein Bild wünschst, gebe bitte einen Link an oder lade eines hoch.\n\nDu kannst diese Phase überspringen, indem Du `überspringen` eingibst.",
-        "footer": "Wenn du eine Fußzeile möchtest, gib bitte eine an.\n\nDu kannst diese Phase überspringen, indem Du `überspringen` eingibst.",
-        "color": "Wenn du eine Farbe möchtest, gib bitte einen Hex-Code an.\n\nDu kannst diese Phase überspringen, indem Du `überspringen` eingibst.",
+        "description": "Wenn Du eine Beschreibung möchtest, gib bitte eine an.\n\nDu kannst diese Phase überspringen, indem du `Überspringen` eingibst.",
+        "image": "Wenn Du ein Bild möchtest, gib bitte einen Link an oder lade eines hoch.\n\nDu kannst diese Phase überspringen, indem du `Überspringen` eingibst.",
+        "footer": "Wenn du eine Fußzeile möchtest, gib bitte eine an.\n\nDu kannst diese Phase überspringen, indem du `Überspringen` eingibst.",
+        "color": "Wenn du eine Farbe möchtest, gib bitte einen Hex Code an.\n\nDu kannst diese Phase überspringen, indem du `Überspringen` eingibst.",
         "creating": "Bearbeiten der Einbettung."
       }
     },
@@ -268,7 +268,7 @@
       },
       "placeholders": {
         "title": "Verwendbare Platzhalter, die Zira automatisch ausfüllt",
-        "description": "$user$ - Benutzername\n$mention$ - Benutzer Erwähnung\n$guild$ - Discord Name\n$membercount$ - Zählung neuer Mitglieder"
+        "description": "$user$ - Benutzername\n$discriminator$ - Benutzer Tag\n$id$ - ID des Benutzers\n$mention$ - Benutzer Erwähnung\n$guild$ - Discord Name\n$membercount$ - Zählung der neuen Mitglieder"
       }
     },
     "leave": {
@@ -302,7 +302,7 @@
       },
       "placeholders": {
         "title": "Verwendbare Platzhalter",
-        "description": "$user$ - Benutzername\n$mention$ - Benutzer Erwähnung\n$guild$ - Discord Name\n$membercount$ - Zählung neuer Mitglieder"
+        "description": "$user$ - Benutzername\n$discriminator$ - Benutzer Tag\n$id$ - ID des Benutzers\n$mention$ - Benutzer Erwähnung\n$guild$ - Discord Name\n$membercount$ - Zählung der neuen Mitglieder"
       }
     },
     "rooms": {
