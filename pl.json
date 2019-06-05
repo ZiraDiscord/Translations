@@ -12,7 +12,7 @@
     "unknown": {
       "channel": "Nieznany kanał. Proszę upewnić się że kanał istnieje, a jeśli istnieje, czy posiadam odpowiednie zezwolenia aby go widzieć.",
       "message": "Wiadomośc nie została znaleziona w aktywnym kanałe. Upewnij się czy istnieje, i czy posiadam zezwolenia aby ją widzieć.",
-      "emoji": "I can't use this emoji. Please make sure the emoji can be found in Discord's emoji picker. If it's in the emoji picker and it's a custom emoji make sure I'm in the server that it comes from. If the emoji still doesn't work make sure I have the permission **Use External Emojis** in the active channel. If all else fails join the support guild and someone from the support team will help you.",
+      "emoji": "Nie mogę użyć tej emoji. Upewnij się czy te emoji znajduje się w zakresie emoji Discord'a. Jeśli te emoji znajduje się w zakresie Discord'a, upewnij się czy znajduje się w serwerze z którego pochodzi. Jeśli dalej występują błędy sprawdź czy posiadam zezwolenie **Używane Zewnętrznych Emoji** w aktywnym kanale. Kiedy wystąpią kolejne błędy dołącz do gildii wsparcia, ktoś z zespołu postara się ci pomóc.",
       "suggestion": "Sugestia z tym ID nie została znaleziona."
     },
     "interactive": {
@@ -154,7 +154,7 @@
     },
     "once": {
       "help": "Ustaw pojedyńczą role",
-      "args": "<emoji> <role>",
+      "args": "<emoji><role>",
       "error": "Ponieważ na tej wiadomości istnieje już emoji które nie jest powiązane z reakcją pojedyńczą, nie możesz dodać reakcji pojedyńczych."
     },
     "list": {
@@ -198,13 +198,13 @@
       "success": "Wiadomość została edytowana.",
       "pick": "Podaj nową wiadomość.",
       "interactive": {
-        "stage": "Stage ",
-        "skipped": "Stage skipped.",
+        "stage": "Etap ",
+        "skipped": "Etap pominięty.",
         "title": "Aby utworzyć tytuł podaj go.\n\nMasz 2 minuty na każdym etapie aby wpisać wartości.\n\nJeśli masz JSON który chcesz użyć zamiast kreatora użyj **z/edit $message <JSON>**\n\nMożesz pominąć ten etap wpisując `skip`.",
-        "description": "If you would like a description please provide one.\n\nYou can skip this stage by typing `skip`.",
-        "image": "If you would like an image please provide a link or upload one\n\nYou can skip this stage by typing `skip`.",
-        "footer": "If you would like a footer please provide one\n\nYou can skip this stage by typing `skip`.",
-        "color": "If you would like a color please provide a hex code\n\nYou can skip this stage by typing `skip`.",
+        "description": "Aby utworzyć opis podaj go.\n\nMożesz pominąć ten etap wpisując `skip`.",
+        "image": "Aby użyć obrazka podaj link lub wrzuć plik\n\nMożesz pominąć ten etap wpisując `skip`.",
+        "footer": "Aby utworzyć footer podaj go.\n\nMożesz pominąć ten etap wpisując `skip`.",
+        "color": "Jeśli chcesz nadać kolor podaj kod hex\n\nMożesz pominąc ten etap wpisując `skip`.",
         "creating": "Edytowanie osadzenia."
       }
     },
@@ -285,24 +285,24 @@
         "success": "Wiadomości wyjścia wyłączone."
       },
       "add": {
-        "help": "Add a message.",
+        "help": "Dodaj wiadomość.",
         "args": "<message>",
-        "success": "Message added."
+        "success": "Wiadomość dodana."
       },
       "remove": {
-        "help": "Remove a message",
+        "help": "Usuń wiadomość",
         "args": "<ID from list>",
         "noID": "Podaj ID z $prefix$ listy wyjścia",
-        "notFound": "A message with that ID doesn't exist.",
-        "success": "Message deleted."
+        "notFound": "Wiadomość z tym ID nie istnieje.",
+        "success": "Wiadomość usunięta."
       },
       "list": {
-        "help": "List of messages",
+        "help": "Lista wiadomości",
         "args": ""
       },
       "placeholders": {
         "title": "Wiadomości Zastępcze",
-        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "description": "$user$ - nazwa użytkownika\n$discriminator$ - dyskryminator użytkownika \n$id$ - ID użytkownika\n$mention$ - wzmianka użytkownika \n$guild$ - nazwa gildii\n$membercount$ - nowa ilość członków"
       }
     },
     "rooms": {
@@ -372,7 +372,7 @@
         "disable": "Każdy z zezwoleniem **Zażądzanie Serwerem** może interagować z sugestiami."
       },
       "move": {
-        "help": "Move a suggestion to a new channel\n[Premium Feature](https://zira.ovh/premium)",
+        "help": "Przenieś sugestię do nowego kanału\n[Premium Feature](https://zira.ovh/premium)",
         "args": "<ID> <#channel>"
       }
     },
