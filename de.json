@@ -372,8 +372,8 @@
         "disable": "Jeder mit der Berechtigung **Server Verwalten** kann nun mit Vorschlägen interagieren."
       },
       "move": {
-        "help": "Move a suggestion to a new channel\n[Premium Feature](https://zira.ovh/premium)",
-        "args": "<ID> <#channel>"
+        "help": "Einen Vorschlag auf einen neuen Kanal verschieben\n[Premium Feature](https://zira.ovh/premium)",
+        "args": "<ID> <#kanal>"
       }
     },
     "suggest": {
