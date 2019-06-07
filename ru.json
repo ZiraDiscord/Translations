@@ -21,7 +21,7 @@
     },
     "permission": {
       "hierarchy": "I can't use this role because it is above my highest role in the role hierarchy.",
-      "missing": "You're unable to run this command because you lack the following permissions: $permissions$",
+      "missing": "Не удаётся выполнить команду, так как у вас отсутствуют следующие права: $permissions$",
       "channelRead": "I'm missing the permissions **Read Messages** and **Read Message History** in the active channel.",
       "channelSend": "I'm missing the permission **Send Messages** in the active channel.",
       "addReactions": "I can't add this emoji because I'm missing the **Add Reactions** permission in the active channel.",
