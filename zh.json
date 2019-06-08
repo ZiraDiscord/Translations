@@ -3,12 +3,12 @@
   "titles": {
     "success": "成功 :white_check_mark:",
     "error": "錯誤 :warning:",
-    "usage": "Command Usage",
-    "example": "Usage Examples",
-    "permission": "Missing Permissions"
+    "usage": "指令用法",
+    "example": "使用範例",
+    "permission": "沒有權限"
   },
   "errors": {
-    "generic": "An error has occurred. If the error continues to persist, please join my support server.",
+    "generic": "發生錯誤，如果持續發生錯誤，請加入作者的支援伺服器。",
     "unknown": {
       "channel": "Unknown channel. Please make sure it exists, and if it does, that I have the proper permissions to view it.",
       "message": "Message not found in the active channel. Please make sure it exists, and if it does, that I have the proper permissions to view it.",
@@ -16,8 +16,8 @@
       "suggestion": "A suggestion with that ID wasn't found."
     },
     "interactive": {
-      "timeout": "Command timeout.",
-      "cancel": "Command cancelled."
+      "timeout": "命令逾時",
+      "cancel": "命令取消"
     },
     "permission": {
       "hierarchy": "I can't use this role because it is above my highest role in the role hierarchy.",
@@ -54,7 +54,7 @@
     "premium": "This feature is [premium](https://zira.ovh/premium) only.",
     "suggestionsRole": "You need the $role$ role to manage suggestions."
   },
-  "page": "Page",
+  "page": "頁",
   "logging": {
     "addReaction": {
       "add": "$mention$ reacted with $emoji$ to get $added$",
@@ -64,7 +64,7 @@
     "removeReaction": "$mention$ unreacted $emoji$ to remove $roles$"
   },
   "suggestions": {
-    "reason": "$user$'s Reason",
+    "reason": "$user$ 的理由",
     "footer": "ID: $id$ Submitted",
     "new": "New Suggestion",
     "approved": "Approved Suggestion",
