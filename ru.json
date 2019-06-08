@@ -25,7 +25,7 @@
       "channelRead": "I'm missing the permissions **Read Messages** and **Read Message History** in the active channel.",
       "channelSend": "I'm missing the permission **Send Messages** in the active channel.",
       "addReactions": "I can't add this emoji because I'm missing the **Add Reactions** permission in the active channel.",
-      "othersEdit": "I can't edit that message as it wasn't sent by me.",
+      "othersEdit": "Я не могу отредактировать это сообщение, так как оно не было отправлено мной.",
       "manageChannels": "Manage Channels",
       "manageMessages": "Manage Messages",
       "manageRoles": "Manage Roles",
