@@ -1,8 +1,8 @@
 {
   "language": "English",
   "titles": {
-    "success": "Success :white_check_mark:",
-    "error": "Error :warning:",
+    "success": "成功 :white_check_mark:",
+    "error": "錯誤 :warning:",
     "usage": "Command Usage",
     "example": "Usage Examples",
     "permission": "Missing Permissions"
