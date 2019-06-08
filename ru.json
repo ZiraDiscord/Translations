@@ -45,16 +45,16 @@
       "missingMessageID": "Please provide me with a message ID.",
       "missingRole": "Please provide me with a role name or mention.",
       "messageNotFound": "I can't find this message. Please make sure the message ID is correct.",
-      "invalidID": "That is not a valid ID.",
-      "noRoleProvided": "Please provide a role.",
-      "noChannelProvided": "Please provide a channel.",
-      "noMessageProvided": "Please provide a message.",
-      "noSuggestionProvided": "Please provide a suggestion ID or a message ID of the suggestion you want."
+      "invalidID": "Неверный ID.",
+      "noRoleProvided": "Пожалуйста, укажите роль.",
+      "noChannelProvided": "Пожалуйста, укажите канал.",
+      "noMessageProvided": "Пожалуйста, укажите сообщение.",
+      "noSuggestionProvided": "Пожалуйста, укажите ID предложения или ID сообщения, содержащее нужное предложение."
     },
     "premium": "Для этой функции требуется [премиум доступ](https://zira.ovh/premium) только.",
-    "suggestionsRole": "You need the $role$ role to manage suggestions."
+    "suggestionsRole": "Вам необходима роль $role$ для управления предложениями."
   },
-  "page": "Page",
+  "page": "Страница",
   "logging": {
     "addReaction": {
       "add": "$mention$ reacted with $emoji$ to get $added$",
@@ -66,23 +66,23 @@
   "suggestions": {
     "reason": "$user$'s Reason",
     "footer": "ID: $id$ Submitted",
-    "new": "New Suggestion",
-    "approved": "Approved Suggestion",
-    "denied": "Denied Suggestion",
-    "potential": "Potential Suggestion",
+    "new": "Новое предложение",
+    "approved": "Утверждённое предложение",
+    "denied": "Отклонённое предложение",
+    "potential": "Потенциальное предложение",
     "invalid": "Invalid Suggestion",
-    "updated": "Suggestion Updated"
+    "updated": "Предложение обновлено"
   },
   "commands": {
     "channel": {
       "help": "Установите активный канал.",
-      "args": "<#channel>",
-      "set": " set as the active channel.",
+      "args": "<#канал>",
+      "set": " устанавливает как активный канал.",
       "pick": "Please mention the channel you want to use.\nType `cancel` if you would like to cancel."
     },
     "message": {
-      "help": "Set the active message.",
-      "args": "<message ID>",
+      "help": "Устанавливает активное сообщение.",
+      "args": "<ID сообщения>",
       "set": "Message set.",
       "pick": "Please provide a message ID for Zira to use or message for Zira to send.\nType `cancel` if you would like to cancel."
     },
@@ -124,21 +124,21 @@
       },
       "language": {
         "args": "<language code>",
-        "title": "Languages",
-        "set": "Language set.",
-        "unknown": "Unknown language.",
-        "crowdin": "If you want Zira in a language that isn't on the list above, you can apply and help translate Zira on [Crowdin](https://translate.zira.ovh)"
+        "title": "Языки",
+        "set": "Язык установлен.",
+        "unknown": "Неизвестный язык.",
+        "crowdin": "Если вы хотите использовать Zira на языке, который не находится в списке выше, вы можете подать заявку на участие в переводе Zira на [Crowdin](https://translate.zira.ovh)"
       },
       "main": {
-        "prefix": "Set a custom prefix.",
+        "prefix": "Устанавливает пользовательский префикс.",
         "role": "Set or remove which role can use commands.",
-        "reset": "Reset the guild config.",
-        "language": "Set the language for the guild."
+        "reset": "Сбрасывает конфигурацию сервера.",
+        "language": "Устанавливает язык сервера."
       }
     },
     "normal": {
       "help": "Give a role",
-      "args": "<emoji> <role>",
+      "args": "<эмодзи> <роль>",
       "added": "$role$ added with the emoji $emoji$",
       "emoji": "Please send the emoji you want to use.",
       "role": "Please send the role you want to use."
@@ -149,43 +149,43 @@
     },
     "toggle": {
       "help": "Setup a toggled role",
-      "args": "<emoji> <role>",
+      "args": "<эмодзи> <роль>",
       "limit": "There is a limit of 6 free toggled roles. You get unlimited toggled roles with [premium](https://zira.ovh/premium)"
     },
     "once": {
       "help": "Setup a once role",
-      "args": "<emoji> <role>",
+      "args": "<эмодзи> <роль>",
       "error": "Since there is a role set on this message with this emoji already that isn't a once reaction, you cant add any once reactions."
     },
     "list": {
-      "help": "Show all roles.",
+      "help": "Показывает все роли.",
       "args": "",
-      "title": "Role List",
+      "title": "Список ролей",
       "description": "You can remove a role listed here with **$prefix$delete**\nYou can remove any deleted roles listed by doing **$prefix$delete <message ID> check**.",
-      "role": "Role",
-      "channel": "Channel",
-      "message": "Message",
-      "emoji": "Emoji",
-      "link": "Jump to message",
-      "type": "Type"
+      "role": "Роль",
+      "channel": "Канал",
+      "message": "Сообщение",
+      "emoji": "Эмодзи",
+      "link": "Перейти к сообщению",
+      "type": "Тип"
     },
     "delete": {
       "help": "Delete a role that has been setup.",
       "args": "",
       "check": {
         "help": "Checks for deleted roles on a message.",
-        "args": "<message ID>",
-        "none": "All roles valid.",
+        "args": "<ID сообщения>",
+        "none": "Все роли действительны.",
         "removed": "role(s) removed."
       },
       "all": {
-        "help": "Remove all roles from a message.",
-        "args": "<message ID>",
+        "help": "Удаляет все роли из сообщения.",
+        "args": "<ID сообщения>",
         "done": "Any roles on the message have been removed."
       },
       "remove": {
         "help": "Remove a role from a message",
-        "args": "<message ID> <role>",
+        "args": "<ID сообщения> <роль>",
         "none": "That role is not setup on that message ID.",
         "done": "The role has been removed."
       },
