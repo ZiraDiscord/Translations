@@ -12,28 +12,28 @@
     "unknown": {
       "channel": "Nežinomas kanalas. Patikrink, ar jis tikrai egzistuoja, ir, jeigu taip, ar turiu tinkamus leidimus matyti jį.",
       "message": "Žinutė nerasta aktyviąjame kanale. Patikrink, ar ji egzistuoja, ir, jeigu taip, ar turiu leidimą matyti ją.",
-      "emoji": "I can't use this emoji. Please make sure the emoji can be found in Discord's emoji picker. If it's in the emoji picker and it's a custom emoji make sure I'm in the server that it comes from. If the emoji still doesn't work make sure I have the permission **Use External Emojis** in the active channel. If all else fails join the support guild and someone from the support team will help you.",
-      "suggestion": "A suggestion with that ID wasn't found."
+      "emoji": "Negaliu naudoti šio jaustuko. Patikrink, ar šis jaustukas gali būti surastas Discord'o jaustukų klaviatūroje. Jeigu jaustukas yra Discord'o jaustukų klaviatūroje ir jei tai pasirinktinis jaustukas, patikrink, ar aš esu tame serveryje, iš kurio kilęs šis jaustukas. Jeigu jaustukas vis dar neveikia, patikrink, ar turiu leidimą **Naudoti išorinius jaustukus** aktyviąjame kanale. Jeigu niekas nepavyko, prisijunk prie pagalbos serverio ir kažkas iš pagalbos komandos tau padės.",
+      "suggestion": "Pasiūlymas su šiuo ID nebuvo surastas."
     },
     "interactive": {
-      "timeout": "Command timeout.",
-      "cancel": "Command cancelled."
+      "timeout": "Komandos galiojimo laikas.",
+      "cancel": "Komanda atšaukta."
     },
     "permission": {
-      "hierarchy": "I can't use this role because it is above my highest role in the role hierarchy.",
-      "missing": "You're unable to run this command because you lack the following permissions: $permissions$",
-      "channelRead": "I'm missing the permissions **Read Messages** and **Read Message History** in the active channel.",
-      "channelSend": "I'm missing the permission **Send Messages** in the active channel.",
-      "addReactions": "I can't add this emoji because I'm missing the **Add Reactions** permission in the active channel.",
-      "othersEdit": "I can't edit that message as it wasn't sent by me.",
-      "manageChannels": "Manage Channels",
-      "manageMessages": "Manage Messages",
-      "manageRoles": "Manage Roles",
-      "manageGuild": "Manage Server"
+      "hierarchy": "Negaliu naudoti šios rolės, kadangi ji yra aukštesnė už mano turimą aukščiausią rolę hierarchijoje.",
+      "missing": "Tu negali naudoti šios komandos, kadangi tau trūksta šių leidimų:\n$permissions$",
+      "channelRead": "Man trūksta leidimų **Skaityti žinutes** ir **Skaityti žinučių istoriją** aktyviąjame kanale.",
+      "channelSend": "Man trūksta leidimo **Siųsti žinutes** aktyviajame kanale.",
+      "addReactions": "Aš negaliu pridėti šio jaustuko, nes man trūksta **Pridėti reakcijas** leidimo aktyviąjame kanale.",
+      "othersEdit": "Negaliu pataisyti šios žinutės, kadangi ne aš ją siunčiau.",
+      "manageChannels": "Tvarkyti kanalus",
+      "manageMessages": "Tvarkyti žinutes",
+      "manageRoles": "Tvarkyti roles",
+      "manageGuild": "Tvarkyti serverį"
     },
     "roles": {
-      "unknown": "I can't find that role. Please make sure it exists.",
-      "managed": "Integrated roles can't be used. Only roles created by users or bots.",
+      "unknown": "Aš negaliu surasti šios rolės. Įsitikink, ar ji tikrai egzistuoja.",
+      "managed": "Integruotos rolės negali būti naudojamos. Tik tos, kurias sukūrė žmonės ir bot'ai.",
       "used": "You can't use this role as it's already setup with this emoji.",
       "once": "Since a role is setup as a Once type on this message, you can't have any other types besides Once."
     },
@@ -45,32 +45,32 @@
       "missingMessageID": "Please provide me with a message ID.",
       "missingRole": "Please provide me with a role name or mention.",
       "messageNotFound": "I can't find this message. Please make sure the message ID is correct.",
-      "invalidID": "That is not a valid ID.",
-      "noRoleProvided": "Please provide a role.",
-      "noChannelProvided": "Please provide a channel.",
-      "noMessageProvided": "Please provide a message.",
-      "noSuggestionProvided": "Please provide a suggestion ID or a message ID of the suggestion you want."
+      "invalidID": "Tai neteisingas ID.",
+      "noRoleProvided": "Prašome nurodyti rolę.",
+      "noChannelProvided": "Prašome nurodyti kanalą.",
+      "noMessageProvided": "Prašome nurodyti žinutę.",
+      "noSuggestionProvided": "Prašome nurodyti pasiūlymo ID arba žinutės su tavo norimu pasiūlymu ID."
     },
     "premium": "Ši funkcija veikia tik [premium'ams](https://zira.ovh/premium).",
-    "suggestionsRole": "You need the $role$ role to manage suggestions."
+    "suggestionsRole": "Tau reikia $role$ rolės, kad tvarkytum pasiūlymus."
   },
-  "page": "Page",
+  "page": "Puslapis",
   "logging": {
     "addReaction": {
-      "add": "$mention$ reacted with $emoji$ to get $added$",
-      "remove": "$mention$ reacted with $emoji$ to remove $removed$",
-      "both": "$mention$ reacted with $emoji$ to get $added$ and to remove $removed$"
+      "add": "$mention$ sureagavo su $emoji$, kad gautų $added$",
+      "remove": "$mention$ sureagavo su $emoji$, kad pašalintų $removed$",
+      "both": "$mention$ sureagavo su $emoji$, kad gautų $added$ ir kad pašalintų $removed$"
     },
-    "removeReaction": "$mention$ unreacted $emoji$ to remove $roles$"
+    "removeReaction": "$mention$ nuėmė $emoji$ reakciją, kad pašalintų $roles$"
   },
   "suggestions": {
-    "reason": "$user$'s Reason",
-    "footer": "ID: $id$ Submitted",
-    "new": "New Suggestion",
-    "approved": "Approved Suggestion",
-    "denied": "Denied Suggestion",
-    "potential": "Potential Suggestion",
-    "invalid": "Invalid Suggestion",
+    "reason": "$user$ priežastis",
+    "footer": "ID: $id$ pateikta",
+    "new": "Naujas pasiūlymas",
+    "approved": "Patvirtintas pasiūlymas",
+    "denied": "Atmestas pasiūlymas",
+    "potential": "Potencialus pasiūlymas",
+    "invalid": "Neteisingas pasiūlymas",
     "updated": "Suggestion Updated"
   },
   "commands": {
