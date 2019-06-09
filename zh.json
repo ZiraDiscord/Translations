@@ -137,7 +137,7 @@
       }
     },
     "normal": {
-      "help": "Give a role",
+      "help": "給予一個身份組",
       "args": "<emoji> <role>",
       "added": "$role$ added with the emoji $emoji$",
       "emoji": "Please send the emoji you want to use.",
@@ -148,7 +148,7 @@
       "args": "<emoji> <role>"
     },
     "toggle": {
-      "help": "Setup a toggled role",
+      "help": "切換身份組設定",
       "args": "<emoji> <role>",
       "limit": "There is a limit of 6 free toggled roles. You get unlimited toggled roles with [premium](https://zira.ovh/premium)"
     },
@@ -160,7 +160,7 @@
     "list": {
       "help": "Show all roles.",
       "args": "",
-      "title": "Role List",
+      "title": "身份組列表",
       "description": "You can remove a role listed here with **$prefix$delete**\nYou can remove any deleted roles listed by doing **$prefix$delete <message ID> check**.",
       "role": "Role",
       "channel": "Channel",
