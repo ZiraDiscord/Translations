@@ -16,15 +16,15 @@
       "suggestion": "Предложение с данным ID не найдено."
     },
     "interactive": {
-      "timeout": "Command timeout.",
+      "timeout": "Тайм-аут команды.",
       "cancel": "Команда отменена."
     },
     "permission": {
       "hierarchy": "I can't use this role because it is above my highest role in the role hierarchy.",
       "missing": "Не удаётся выполнить команду, так как у вас отсутствуют следующие права: $permissions$",
-      "channelRead": "I'm missing the permissions **Read Messages** and **Read Message History** in the active channel.",
-      "channelSend": "I'm missing the permission **Send Messages** in the active channel.",
-      "addReactions": "I can't add this emoji because I'm missing the **Add Reactions** permission in the active channel.",
+      "channelRead": "У меня отсутствуют права **Читать сообщения** и **Читать историю сообщений** в активном канале.",
+      "channelSend": "У меня отсутствует право **Читать сообщения** в активном канале.",
+      "addReactions": "Я не могу добавить этот эмодзи, так как у меня отсутствует право **Добавлять реакции** в активном канале.",
       "othersEdit": "Я не могу отредактировать это сообщение, так как оно не было отправлено мной.",
       "manageChannels": "Управлять каналами",
       "manageMessages": "Управлять сообщениями",
@@ -42,9 +42,9 @@
       "missingSetup": "Please set a channel **and** message first then try this command again.",
       "missingChannel": "Please set a channel first then try this command again.",
       "missingMessage": "Please set a message first then try this command again.",
-      "missingMessageID": "Please provide me with a message ID.",
-      "missingRole": "Please provide me with a role name or mention.",
-      "messageNotFound": "I can't find this message. Please make sure the message ID is correct.",
+      "missingMessageID": "Пожалуйста, укажите ID сообщения.",
+      "missingRole": "Пожалуйста, укажите имя роли или упоминание.",
+      "messageNotFound": "Я не могу найти это сообщение. Пожалуйста, убедитесь в том, что ID сообщения верный.",
       "invalidID": "Неверный ID.",
       "noRoleProvided": "Пожалуйста, укажите роль.",
       "noChannelProvided": "Пожалуйста, укажите канал.",
