@@ -17,7 +17,7 @@
     },
     "interactive": {
       "timeout": "Command timeout.",
-      "cancel": "Command cancelled."
+      "cancel": "Команда отменена."
     },
     "permission": {
       "hierarchy": "I can't use this role because it is above my highest role in the role hierarchy.",
@@ -26,14 +26,14 @@
       "channelSend": "I'm missing the permission **Send Messages** in the active channel.",
       "addReactions": "I can't add this emoji because I'm missing the **Add Reactions** permission in the active channel.",
       "othersEdit": "Я не могу отредактировать это сообщение, так как оно не было отправлено мной.",
-      "manageChannels": "Manage Channels",
-      "manageMessages": "Manage Messages",
-      "manageRoles": "Manage Roles",
-      "manageGuild": "Manage Server"
+      "manageChannels": "Управлять каналами",
+      "manageMessages": "Управлять сообщениями",
+      "manageRoles": "Управлять ролями",
+      "manageGuild": "Управлять сервером"
     },
     "roles": {
-      "unknown": "I can't find that role. Please make sure it exists.",
-      "managed": "Integrated roles can't be used. Only roles created by users or bots.",
+      "unknown": "Я не могу найти эту роль. Пожалуйста, убедитесь в том, что она существует.",
+      "managed": "Интегрированные роли не могут быть использовать. Только роли, созданные пользователями или ботами.",
       "used": "You can't use this role as it's already setup with this emoji.",
       "once": "Since a role is setup as a Once type on this message, you can't have any other types besides Once."
     },
