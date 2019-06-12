@@ -61,57 +61,57 @@
       "remove": "<@$mention$>, <@&$removed$> rolünü kaldırmak için $emoji$ ile tepki verdi",
       "both": "<@$mention$>, <@&$added$> rolünü almak ve <@&$removed$> rolünü kaldırmak için $emoji$ ile tepki verdi"
     },
-    "removeReaction": "$mention$ unreacted $emoji$ to remove $roles$"
+    "removeReaction": "<@$mention$>, <@&$roles$> rollerini kaldırmak için $emoji$ ile tepkisini kaldırdı"
   },
   "suggestions": {
-    "reason": "$user$'s Reason",
-    "footer": "ID: $id$ Submitted",
-    "new": "New Suggestion",
-    "approved": "Approved Suggestion",
-    "denied": "Denied Suggestion",
-    "potential": "Potential Suggestion",
-    "invalid": "Invalid Suggestion",
-    "updated": "Suggestion Updated"
+    "reason": "$user$'in Nedeni",
+    "footer": "$id$, Gönderildi",
+    "new": "Yeni Öneri",
+    "approved": "Onaylanmış Öneri",
+    "denied": "Reddedilen Öneri",
+    "potential": "Potansiyel Öneri",
+    "invalid": "Geçersiz Öneri",
+    "updated": "Öneri Güncellendi"
   },
   "commands": {
     "channel": {
       "help": "Aktif kanalı ayarlar.",
-      "args": "<#channel>",
-      "set": " set as the active channel.",
-      "pick": "Please mention the channel you want to use.\nType `cancel` if you would like to cancel."
+      "args": "<#kanal>",
+      "set": " kanalı aktif kanal olarak ayarlandı.",
+      "pick": "Lütfen kullanmak istediğiniz kanalı etiketleyin.\nİsterseniz `cancel` yazarak iptal edebilirsiniz."
     },
     "message": {
-      "help": "Set the active message.",
-      "args": "<message ID>",
-      "set": "Message set.",
-      "pick": "Please provide a message ID for Zira to use or message for Zira to send.\nType `cancel` if you would like to cancel."
+      "help": "Aktif mesajı ayarlayın.",
+      "args": "<mesaj IDsi>",
+      "set": "Mesaj ayarlandı.",
+      "pick": "Zira'nın kullanması ya da göndermesi için bir mesaj belirtiniz.\nİptal etmek için `cancel` yazarak iptal edebilirsiniz."
     },
     "embed": {
-      "help": "Create an embed that will be used as the active message.",
+      "help": "Aktif mesaj olarak kullanılması için bir embed oluşturunuz.",
       "args": "[Embed JSON]",
-      "JSONerror": "Invalid JSON provided.\nYou can use the embed creator by using the command",
-      "created": "Embed created.",
+      "JSONerror": "Geçersiz JSON belirtildi.\nKomudu kullanarak embed oluşturucusundan yararlanabilirsiniz",
+      "created": "Embed oluşturuldu.",
       "interactive": {
-        "stage": "Stage ",
-        "skipped": "Stage skipped.",
-        "title": "If you would like a title please provide one.\n\nYou'll have 2 minutes for each of the stages to enter in values.\n\nIf you have JSON you would like to use instead of this creator please use **z/embed <JSON>**\n\nYou can skip this stage by typing `skip`.",
-        "description": "If you would like a description please provide one.\n\nYou can skip this stage by typing `skip`.",
-        "image": "If you would like an image please provide a link or upload one\n\nYou can skip this stage by typing `skip`.",
-        "footer": "If you would like a footer please provide one\n\nYou can skip this stage by typing `skip`.",
-        "color": "If you would like a color please provide a hex code\n\nYou can skip this stage by typing `skip`.",
-        "creating": "Creating embed."
+        "stage": "Seviye ",
+        "skipped": "Seviye atlandı.",
+        "title": "Başlığınız var ise lütfen belirtiniz\n\nSeviyelerin değerlerini girmek için her biri için 2 dakikanız var.\n\nJSON unuz var ise, ve kullanmak istiyor iseniz bu oluşturucu dışında **z/embed <JSON>** oluşturucusunu kullanın.\n\nSeviyeyi `skip` yazarak geçebilirsiniz.",
+        "description": "Lütfen bir açıklama belirtiniz.\n\n`skip` Yazarak seviyeyi geçebilirsiniz.",
+        "image": "Resim koymak isterseniz lütfen bir link belirtin, ya da yükleyin.\n\n`skip` Yazarak seviyeyi geçebilirsiniz.",
+        "footer": "Altbilgi kısmı koymak istiyorsanız lütfen belirtiniz.\n\n`skip` Yazarak seviyeyi geçebilirsiniz.",
+        "color": "Renk belirlemek istiyor iseniz lütfen hex kodunu belirtiniz.\n\n`skip` Yazarak seviyeyi geçebilirsiniz.",
+        "creating": "Embed oluşturuluyor."
       }
     },
     "config": {
-      "help": "Guild config.",
+      "help": "Sunucu ayarı.",
       "args": "",
       "prefix": {
-        "args": "<prefix>",
-        "error": "Please provide a prefix that's between 1 and 10 characters and has at least one of these characters in it:  `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
-        "set": "Prefix has been set to"
+        "args": "<ön ek>",
+        "error": "Lütfen 1 ila 10 karakter arasında bir önek yazın. Yazdığınız önekte şunlardan en az bir tanesinin olması gerekmektedir: `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
+        "set": "Ön ek ayarlandı"
       },
       "role": {
-        "args": "<@role | disable>",
+        "args": "<@rol | disable>",
         "error": "Please mention a role or provide a role name, or if you would like to disable the role, type",
         "set": "Role set. Only people with $role$ will be able to use Zira commands.",
         "disable": "Anyone with the correct permissions can use Zira's commands now."
