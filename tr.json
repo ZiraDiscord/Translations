@@ -12,7 +12,7 @@
     "unknown": {
       "channel": "Geçersiz kanal. Kanalın olduğundan emin olun. Eğer emin iseniz kanalı görüntüleme iznim yoktur.",
       "message": "Belirlenmiş kanalda mesaj bulunulamadı. Lütfen mesajın var olduğundan emin olun. Eğer emin iseniz, lütfen izinlerimi mesajı görebileceğim şekilde ayarlayın.",
-      "emoji": "I can't use this emoji. Please make sure the emoji can be found in Discord's emoji picker. If it's in the emoji picker and it's a custom emoji make sure I'm in the server that it comes from. If the emoji still doesn't work make sure I have the permission **Use External Emojis** in the active channel. If all else fails join the support guild and someone from the support team will help you.",
+      "emoji": "Bu emojiyi kullanamıyorum. Bu emojinin Discord'un emoji listesinde olduğundan emin olun. Emoji listesinde, ve özel bir emoji ise, Benim bulunduğum bir sunucuda olduğundan emin olun. Emoji hâlâ çalışmıyor ise, şu anki kanalda **Harici Emojiler Kullan** iznim olduğundan emin olun. Hepsi geçerli ise, ve hâlâ olmuyor ise, destek sunucumuza katılın, oradaki destek ekibimiz size yardım edecektir.",
       "suggestion": "Bu ID üzerindeki öneriyi bulamadım."
     },
     "interactive": {
@@ -49,17 +49,17 @@
       "noRoleProvided": "Lütfen bir rol belirtin.",
       "noChannelProvided": "Lütfen bir kanal belirtin.",
       "noMessageProvided": "Lütfen bir mesaj belirtin.",
-      "noSuggestionProvided": "Please provide a suggestion ID or a message ID of the suggestion you want."
+      "noSuggestionProvided": "Lütfen istediğiniz bir öneri IDsi ya da bir mesaj IDsi belirtiniz."
     },
-    "premium": "This feature is [premium](https://zira.ovh/premium) only.",
-    "suggestionsRole": "You need the $role$ role to manage suggestions."
+    "premium": "Bu özellik sadece [premium](https://zira.ovh/premium) sunucular için.",
+    "suggestionsRole": "Önerileri yönetebilmek için <@&$role$> rolü gerekiyor."
   },
-  "page": "Page",
+  "page": "Sayfa",
   "logging": {
     "addReaction": {
-      "add": "$mention$ reacted with $emoji$ to get $added$",
-      "remove": "$mention$ reacted with $emoji$ to remove $removed$",
-      "both": "$mention$ reacted with $emoji$ to get $added$ and to remove $removed$"
+      "add": "<@$mention$>, <@&$added$> rolü için $emoji$ ile tepki verdi",
+      "remove": "<@$mention$>, <@&$removed$> rolünü kaldırmak için $emoji$ ile tepki verdi",
+      "both": "<@$mention$>, <@&$added$> rolünü almak ve <@&$removed$> rolünü kaldırmak için $emoji$ ile tepki verdi"
     },
     "removeReaction": "$mention$ unreacted $emoji$ to remove $roles$"
   },
