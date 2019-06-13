@@ -268,7 +268,7 @@
       },
       "placeholders": {
         "title": "Możliwe Miejsca Zastępcze Które Zira Auto-Wypełni",
-        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "description": "$user$ - nazwa użytkownika\n$discriminator$ - dyskryminator użytkownika \n$id$ - ID użytkownika\n$mention$ - wzmianka użytkownika \n$guild$ - nazwa gildii\n$membercount$ - nowa ilość członków"
       }
     },
     "leave": {
