@@ -403,6 +403,45 @@
       "args": "<ID> [grund]",
       "update": "Dein Vorschlag [$id$]($url$) wurde als ungültig markiert."
     },
+    "presence": {
+      "help": "Gib Rollen, wenn jemand ein Spiel spielt",
+      "args": "",
+      "add": {
+        "help": "Ein Spiel mit einer Rolle hinzufügen",
+        "args": "<game> | <rolle>",
+        "noargs": "Bitte gib ein Spiel und eine Rolle getrennt durch `|` an:\n$prefix$presence add Warframe | @Warframe Spieler",
+        "exists": "Diese Rolle wird bereits für dieses Spiel vergeben.",
+        "set": "$role$ wird den Benutzern gegeben, wenn sie $game$ spielen."
+      },
+      "remove": {
+        "help": "Entfernen eines Spiels",
+        "args": "<game>",
+        "noargs": "Bitte gib ein Spiel wie dieses an:\n$prefix$presence remove Warframe",
+        "notSetup": "Diese Rolle ist nicht dafür eingerichtet, für dieses Spiel vergeben zu werden.",
+        "removed": "Rollen werden nicht mehr an Benutzer vergeben, wenn sie $game$ spielen."
+      },
+      "list": {
+        "help": "Liste der Spiele mit den dazugehörigen Rollen",
+        "args": ""
+      }
+    },
+    "premium": {
+      "help": "Zeige diesen Premium Status deinem Discord",
+      "args": "",
+      "nonPremium": "Dieser Discord hat keine Premium :frowning:\nWenn du Premium kaufen möchtest, kannst du dies [hier](https://zira.ovh/premium)",
+      "title": "Premium Info for $guild$",
+      "expires": "Expires",
+      "buyers": "Recent Buyers",
+      "days": "days",
+      "flags": "Flags",
+      "partner": "Partner",
+      "translator": "Translator",
+      "giveaway": "Giveaway",
+      "boost": "Boost",
+      "yes": "Yes",
+      "no": "No",
+      "thanks": "Thank you for supporting Zira"
+    },
     "help": {
       "categories": [
         "Rollen",
