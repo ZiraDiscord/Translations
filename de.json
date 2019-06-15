@@ -130,7 +130,7 @@
         "crowdin": "Wenn Du Zira in einer Sprache wünschst, die nicht auf der Liste oben steht, kannst du dich bewerben und helfen, Zira zu übersetzen unter [Crowdin](https://translate.zira.ovh)"
       },
       "main": {
-        "prefix": "Setzt ein eigenen Präfix.",
+        "prefix": "Setzt einen eigenen Präfix. (Standard: z/ )",
         "role": "Setze oder entferne die Rolle, welche Befehle verwenden können.",
         "reset": "Setzt die Discord Konfiguration zurück.",
         "language": "Legt die Sprache für den Discord fest."
