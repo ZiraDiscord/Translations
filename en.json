@@ -404,14 +404,14 @@
       "add": {
         "help": "Add a game with a role",
         "args": "<game> | <role>",
-        "noargs": "Please provde a game and a role separated by `|` like so:\n$prefix$presence add Warframe | @Warframe Player",
+        "noargs": "Please provide a game and a role separated by `|` like so:\n$prefix$presence add Warframe | @Warframe Player",
         "exists": "This role is already being given for this game.",
         "set": "$role$ will be given to users if they play $game$."
       },
       "remove": {
         "help": "Remove a game",
         "args": "<game>",
-        "noargs": "Please provde a game like so:\n$prefix$presence remove Warframe",
+        "noargs": "Please provide a game like so:\n$prefix$presence remove Warframe",
         "notSetup": "This role isn't setup to be given for this game.",
         "removed": "Roles will no longer be given to users if they play $game$."
       },
