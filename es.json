@@ -161,7 +161,7 @@
       "help": "Muestra todos los roles.",
       "args": "",
       "title": "Lista de roles",
-      "description": "Puedes quitar un rol de la lista con **$prefix$delete**.\nPuedes quitar cualquier rol eliminado usando el comando **$prefix$delete <ID del mensaje> check**.",
+      "description": "Puedes quitar un rol de la lista con **$prefix$delete**.\nPuedes quitar cualquier rol eliminado mostrado aquí usando el comando **$prefix$delete <ID del mensaje> check**.",
       "role": "Rol",
       "channel": "Canal",
       "message": "Mensaje",
@@ -170,21 +170,21 @@
       "type": "Tipo"
     },
     "delete": {
-      "help": "Quita un rol que ha sido establecido.",
+      "help": "Elimina un rol que haya sido establecido.",
       "args": "",
       "check": {
-        "help": "Comprueba roles eliminados en un mensaje.",
+        "help": "Revisa si hay roles eliminados en un mensaje.",
         "args": "<ID del mensaje>",
-        "none": "Todos los roles válidos.",
+        "none": "Todos los roles son válidos.",
         "removed": "rol(es) eliminado(s)."
       },
       "all": {
-        "help": "Quita todos los roles de un mensaje.",
+        "help": "Remueve todos los roles de un mensaje.",
         "args": "<ID del mensaje>",
-        "done": "Todos los roles del mensaje han sido eliminados."
+        "done": "Todos los roles del mensaje han sido removidos."
       },
       "remove": {
-        "help": "Quita un rol de un mensaje",
+        "help": "Remueve un rol de un mensaje",
         "args": "<ID del mensaje> <rol>",
         "none": "Ese rol no está establecido en la ID de ese mensaje.",
         "done": "El rol ha sido eliminado."
