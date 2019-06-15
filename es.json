@@ -409,14 +409,14 @@
       "add": {
         "help": "Agrega un juego con un rol",
         "args": "<juego> | <rol>",
-        "noargs": "Please provide a game and a role separated by `|` like so:\n$prefix$presence add Warframe | @Warframe Player",
+        "noargs": "Por favor especifica un juego y un rol separados por `|` de esta forma:\n$prefix$presence add Warframe | @Jugador de Warframe",
         "exists": "Este rol ya está siendo asignado para este juego.",
         "set": "El rol $role$ será asignado a los usuarios que jueguen $game$."
       },
       "remove": {
         "help": "Remueve un juego",
         "args": "<juego>",
-        "noargs": "Please provide a game like so:\n$prefix$presence remove Warframe",
+        "noargs": "Por favor especifica un juego de esta forma:\n$prefix$presence remove Warframe",
         "notSetup": "Este rol no fue establecido para ser asignado para este juego.",
         "removed": "Ya no se asignarán roles a los usuarios que jueguen $game$."
       },
@@ -429,11 +429,11 @@
       "help": "Muestra el estado premium de este servidor",
       "args": "",
       "nonPremium": "Este servidor no tiene premium :frowning:\nSi te gustaría comprar premium puedes hacerlo [aquí](https://zira.ovh/premium)",
-      "title": "Información del premium para $guild$",
-      "expires": "Expira",
+      "title": "Información premium para $guild$",
+      "expires": "Expira el",
       "buyers": "Compradores recientes",
       "days": "días",
-      "flags": "Flags",
+      "flags": "Estado premium",
       "partner": "Partner",
       "translator": "Traductor",
       "giveaway": "Sorteo",
