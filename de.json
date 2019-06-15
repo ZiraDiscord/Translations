@@ -429,18 +429,18 @@
       "help": "Zeige diesen Premium Status deinem Discord",
       "args": "",
       "nonPremium": "Dieser Discord hat keine Premium :frowning:\nWenn du Premium kaufen möchtest, kannst du dies [hier](https://zira.ovh/premium)",
-      "title": "Premium Info for $guild$",
-      "expires": "Expires",
-      "buyers": "Recent Buyers",
-      "days": "days",
-      "flags": "Flags",
+      "title": "Premium Info für $guild$",
+      "expires": "Verfällt",
+      "buyers": "Aktuelle Käufer",
+      "days": "tage",
+      "flags": "Flaggen",
       "partner": "Partner",
-      "translator": "Translator",
+      "translator": "Übersetzer/in",
       "giveaway": "Giveaway",
       "boost": "Boost",
-      "yes": "Yes",
-      "no": "No",
-      "thanks": "Thank you for supporting Zira"
+      "yes": "Ja",
+      "no": "Nein",
+      "thanks": "Danke, dass du Zira unterstützt hast"
     },
     "help": {
       "categories": [
