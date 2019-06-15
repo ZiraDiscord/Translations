@@ -186,32 +186,32 @@
       "remove": {
         "help": "Remueve un rol de un mensaje",
         "args": "<ID del mensaje> <rol>",
-        "none": "Ese rol no está establecido en la ID de ese mensaje.",
-        "done": "El rol ha sido eliminado."
+        "none": "Ese rol no está establecido en el mensaje con esa ID.",
+        "done": "El rol ha sido removido."
       },
-      "description": "Puedes encontrar la ID del mensaje en el que hay un rol con **$prefix$list**."
+      "description": "Puedes encontrar el ID del mensaje donde está un rol con **$prefix$list**."
     },
     "edit": {
       "help": "Edita un mensaje enviado por Zira.",
       "args": " <ID del mensaje> <nuevo mensaje>",
-      "notFound": "Esa ID de mensaje no ha sido encontrada.",
-      "success": "Mensaje editado.",
-      "pick": "Por favor proporciona un mensaje nuevo.",
+      "notFound": "El mensaje con ese ID no fue encontrado.",
+      "success": "El mensaje ha sido editado.",
+      "pick": "Por favor proporciona un nuevo mensaje.",
       "interactive": {
         "stage": "Etapa ",
         "skipped": "Etapa omitida.",
-        "title": "Si te gustaría un título proporciona uno.\n\nTienes 2 minutos entre cada etapa para introducir valores.\n\nSi tienes un JSON y te gustaría usarlo en vez de este creador usa el comando **z/edit $message <JSON>**\n\nPuedes saltar esta etapa escribiendo `skip`.",
-        "description": "Si quieres una descripción proporciona una.\n\nPuedes saltar esta etapa escribiendo `skip`.",
-        "image": "Si quieres una imagen proporciona un enlace o súbela.\n\nPuedes saltar esta etapa escribiendo `skip`.",
-        "footer": "Si quieres un pie de página proporciona uno.\n\nPuedes saltar esta etapa escribiendo `skip`.",
-        "color": "Si quieres un color proporciona un código hex.\n\nPuedes saltar esta etapa escribiendo `skip`.",
-        "creating": "Editando embed."
+        "title": "Si te gustaría poner un título proporciona uno.\n\nTienes 2 minutos para cada una de las etapas para introducir sus valores.\n\nSi tienes un JSON puede que quieras usarlo en lugar de este creador usando **z/edit $message <JSON>**\n\nPuedes omitir esta etapa escribiendo `skip`.",
+        "description": "Si te gustaría poner una descripción proporciona una.\n\nPuedes omitir esta etapa escribiendo `skip`.",
+        "image": "Si te gustaría poner una imagen proporciona un enlace o sube una.\n\nPuedes omitir esta etapa escribiendo `skip`.",
+        "footer": "Si te gustaría poner un pie de página proporciona uno.\n\nPuedes omitir esta etapa escribiendo `skip`.",
+        "color": "Si te gustaría poner un color proporciona un código hex.\n\nPuedes omitir esta etapa escribiendo `skip`.",
+        "creating": "Editando el embed."
       }
     },
     "log": {
-      "help": "Registra eventos de roles en un canal",
+      "help": "Registra eventos de roles a un canal",
       "args": "<#canal>",
-      "set": " establecido como el canal de registro.\n\n**Nota:** Si no puedo mandar mensajes a ese canal desactivaré el registro.",
+      "set": " establecido como el canal de registros.\n\n**Nota:** Si no puedo mandar mensajes al canal desactivaré el registro.",
       "disable": "Registro de roles desactivado."
     },
     "autorole": {
