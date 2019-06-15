@@ -12,7 +12,7 @@
     "unknown": {
       "channel": "Geçersiz kanal. Kanalın olduğundan emin olun. Eğer emin iseniz kanalı görüntüleme iznim yoktur.",
       "message": "Belirlenmiş kanalda mesaj bulunulamadı. Lütfen mesajın var olduğundan emin olun. Eğer emin iseniz, lütfen izinlerimi mesajı görebileceğim şekilde ayarlayın.",
-      "emoji": "I can't use this emoji. Please make sure the emoji can be found in Discord's emoji picker. If it's in the emoji picker and it's a custom emoji make sure I'm in the server that it comes from. If the emoji still doesn't work make sure I have the permission **Use External Emojis** in the active channel. If all else fails join the support guild and someone from the support team will help you.",
+      "emoji": "Bu emojiyi kullanamıyorum. Bu emojinin Discord'un emoji listesinde olduğundan emin olun. Emoji listesinde, ve özel bir emoji ise, Benim bulunduğum bir sunucuda olduğundan emin olun. Emoji hâlâ çalışmıyor ise, şu anki kanalda **Harici Emojiler Kullan** iznim olduğundan emin olun. Hepsi geçerli ise, ve hâlâ olmuyor ise, destek sunucumuza katılın, oradaki destek ekibimiz size yardım edecektir.",
       "suggestion": "Bu ID üzerindeki öneriyi bulamadım."
     },
     "interactive": {
@@ -49,69 +49,69 @@
       "noRoleProvided": "Lütfen bir rol belirtin.",
       "noChannelProvided": "Lütfen bir kanal belirtin.",
       "noMessageProvided": "Lütfen bir mesaj belirtin.",
-      "noSuggestionProvided": "Please provide a suggestion ID or a message ID of the suggestion you want."
+      "noSuggestionProvided": "Lütfen istediğiniz bir öneri IDsi ya da bir mesaj IDsi belirtiniz."
     },
-    "premium": "This feature is [premium](https://zira.ovh/premium) only.",
-    "suggestionsRole": "You need the $role$ role to manage suggestions."
+    "premium": "Bu özellik sadece [premium](https://zira.ovh/premium) sunucular için.",
+    "suggestionsRole": "Önerileri yönetebilmek için <@&$role$> rolü gerekiyor."
   },
-  "page": "Page",
+  "page": "Sayfa",
   "logging": {
     "addReaction": {
-      "add": "$mention$ reacted with $emoji$ to get $added$",
-      "remove": "$mention$ reacted with $emoji$ to remove $removed$",
-      "both": "$mention$ reacted with $emoji$ to get $added$ and to remove $removed$"
+      "add": "<@$mention$>, <@&$added$> rolü için $emoji$ ile tepki verdi",
+      "remove": "<@$mention$>, <@&$removed$> rolünü kaldırmak için $emoji$ ile tepki verdi",
+      "both": "<@$mention$>, <@&$added$> rolünü almak ve <@&$removed$> rolünü kaldırmak için $emoji$ ile tepki verdi"
     },
-    "removeReaction": "$mention$ unreacted $emoji$ to remove $roles$"
+    "removeReaction": "<@$mention$>, <@&$roles$> rollerini kaldırmak için $emoji$ ile tepkisini kaldırdı"
   },
   "suggestions": {
-    "reason": "$user$'s Reason",
-    "footer": "ID: $id$ Submitted",
-    "new": "New Suggestion",
-    "approved": "Approved Suggestion",
-    "denied": "Denied Suggestion",
-    "potential": "Potential Suggestion",
-    "invalid": "Invalid Suggestion",
-    "updated": "Suggestion Updated"
+    "reason": "$user$'in Nedeni",
+    "footer": "$id$, Gönderildi",
+    "new": "Yeni Öneri",
+    "approved": "Onaylanmış Öneri",
+    "denied": "Reddedilen Öneri",
+    "potential": "Potansiyel Öneri",
+    "invalid": "Geçersiz Öneri",
+    "updated": "Öneri Güncellendi"
   },
   "commands": {
     "channel": {
       "help": "Aktif kanalı ayarlar.",
-      "args": "<#channel>",
-      "set": " set as the active channel.",
-      "pick": "Please mention the channel you want to use.\nType `cancel` if you would like to cancel."
+      "args": "<#kanal>",
+      "set": " kanalı aktif kanal olarak ayarlandı.",
+      "pick": "Lütfen kullanmak istediğiniz kanalı etiketleyin.\nİsterseniz `cancel` yazarak iptal edebilirsiniz."
     },
     "message": {
-      "help": "Set the active message.",
-      "args": "<message ID>",
-      "set": "Message set.",
-      "pick": "Please provide a message ID for Zira to use or message for Zira to send.\nType `cancel` if you would like to cancel."
+      "help": "Aktif mesajı ayarlayın.",
+      "args": "<mesaj IDsi>",
+      "set": "Mesaj ayarlandı.",
+      "pick": "Zira'nın kullanması ya da göndermesi için bir mesaj belirtiniz.\nİptal etmek için `cancel` yazarak iptal edebilirsiniz."
     },
     "embed": {
-      "help": "Create an embed that will be used as the active message.",
+      "help": "Aktif mesaj olarak kullanılması için bir embed oluşturunuz.",
       "args": "[Embed JSON]",
-      "JSONerror": "Invalid JSON provided.\nYou can use the embed creator by using the command",
-      "created": "Embed created.",
+      "JSONerror": "Geçersiz JSON belirtildi.\nKomudu kullanarak embed oluşturucusundan yararlanabilirsiniz",
+      "created": "Embed oluşturuldu.",
       "interactive": {
-        "stage": "Stage ",
-        "skipped": "Stage skipped.",
-        "title": "If you would like a title please provide one.\n\nYou'll have 2 minutes for each of the stages to enter in values.\n\nIf you have JSON you would like to use instead of this creator please use **z/embed <JSON>**\n\nYou can skip this stage by typing `skip`.",
-        "description": "If you would like a description please provide one.\n\nYou can skip this stage by typing `skip`.",
-        "image": "If you would like an image please provide a link or upload one\n\nYou can skip this stage by typing `skip`.",
-        "footer": "If you would like a footer please provide one\n\nYou can skip this stage by typing `skip`.",
-        "color": "If you would like a color please provide a hex code\n\nYou can skip this stage by typing `skip`.",
-        "creating": "Creating embed."
+        "stage": "Seviye ",
+        "skipped": "Seviye atlandı.",
+        "title": "Başlığınız var ise lütfen belirtiniz\n\nSeviyelerin değerlerini girmek için her biri için 2 dakikanız var.\n\nJSON unuz var ise, ve kullanmak istiyor iseniz bu oluşturucu dışında **z/embed <JSON>** oluşturucusunu kullanın.\n\nSeviyeyi `skip` yazarak geçebilirsiniz.",
+        "description": "Lütfen bir açıklama belirtiniz.\n\n`skip` Yazarak seviyeyi geçebilirsiniz.",
+        "image": "Resim koymak isterseniz lütfen bir link belirtin, ya da yükleyin.\n\n`skip` Yazarak seviyeyi geçebilirsiniz.",
+        "footer": "Altbilgi kısmı koymak istiyorsanız lütfen belirtiniz.\n\n`skip` Yazarak seviyeyi geçebilirsiniz.",
+        "color": "Renk belirlemek istiyor iseniz lütfen hex kodunu belirtiniz.\n\n`skip` Yazarak seviyeyi geçebilirsiniz.",
+        "creating": "Embed oluşturuluyor."
       }
     },
     "config": {
-      "help": "Guild config.",
+      "help": "Sunucu ayarı.",
       "args": "",
       "prefix": {
-        "args": "<prefix>",
-        "error": "Please provide a prefix that's between 1 and 10 characters and has at least one of these characters in it:  `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
-        "set": "Prefix has been set to"
+        "args": "<ön ek>",
+        "error": "Lütfen 1 ila 10 karakter arasında bir önek yazın. Yazdığınız önekte şunlardan en az bir tanesinin olması gerekmektedir: `.` `/` `?` `[` `]` `\\` `<` `>` `-` `=` `+` `*` `^` `$` `!`.",
+        "set": "Ön ek ayarlandı"
       },
       "role": {
-        "args": "<@role | disable>",
+        "args": "<@rol | disable>",
         "error": "Please mention a role or provide a role name, or if you would like to disable the role, type",
         "set": "Role set. Only people with $role$ will be able to use Zira commands.",
         "disable": "Anyone with the correct permissions can use Zira's commands now."
@@ -402,6 +402,45 @@
       "help": "Mark a suggestion as invalid",
       "args": "<ID> [reason]",
       "update": "Your suggestion [$id$]($url$) has been marked invalid."
+    },
+    "presence": {
+      "help": "Give roles when someone is playing a game",
+      "args": "",
+      "add": {
+        "help": "Add a game with a role",
+        "args": "<game> | <role>",
+        "noargs": "Please provide a game and a role separated by `|` like so:\n$prefix$presence add Warframe | @Warframe Player",
+        "exists": "This role is already being given for this game.",
+        "set": "$role$ will be given to users if they play $game$."
+      },
+      "remove": {
+        "help": "Remove a game",
+        "args": "<game>",
+        "noargs": "Please provide a game like so:\n$prefix$presence remove Warframe",
+        "notSetup": "This role isn't setup to be given for this game.",
+        "removed": "Roles will no longer be given to users if they play $game$."
+      },
+      "list": {
+        "help": "List games with their roles",
+        "args": ""
+      }
+    },
+    "premium": {
+      "help": "Show this guilds premium status",
+      "args": "",
+      "nonPremium": "This guild doesn't have premium :frowning:\nIf you would like to buy premium you can do so [here](https://zira.ovh/premium)",
+      "title": "Premium Info for $guild$",
+      "expires": "Expires",
+      "buyers": "Recent Buyers",
+      "days": "days",
+      "flags": "Flags",
+      "partner": "Partner",
+      "translator": "Translator",
+      "giveaway": "Giveaway",
+      "boost": "Boost",
+      "yes": "Yes",
+      "no": "No",
+      "thanks": "Thank you for supporting Zira"
     },
     "help": {
       "categories": [

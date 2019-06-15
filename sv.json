@@ -1,5 +1,5 @@
 {
-  "language": "Engelska",
+  "language": "Svenska",
   "titles": {
     "success": "Klart :white_check_mark:",
     "error": "Fel :warning:",
@@ -12,7 +12,7 @@
     "unknown": {
       "channel": "Okänd kanal. Vänligen se till att den existerar, och om den gör det, att jag har lämpliga behörigheter att se den.",
       "message": "Meddelandet hittades inte i den aktiva kanalen. Vänligen se till att den existerar, och om den gör det, att jag har lämpliga behörigheter att se den.",
-      "emoji": "I can't use this emoji. Please make sure the emoji can be found in Discord's emoji picker. If it's in the emoji picker and it's a custom emoji make sure I'm in the server that it comes from. If the emoji still doesn't work make sure I have the permission **Use External Emojis** in the active channel. If all else fails join the support guild and someone from the support team will help you.",
+      "emoji": "Jag kan inte använda denna emoji. Se vänligen till att emojin kan hittas i Discords emojiväljare. Om den är i emojiväljaren och är en anpassad emoji, se till att jag är i servern den kommer ifrån. Om emojin ändå inte fungerar, se till att jag har behörigheten **Använda externa emoji** i den aktiva kanalen. Om allting misslyckas, gå med i supportservern så kommer någon från supportlaget hjälpa dig.",
       "suggestion": "Ett förslag med det ID:t hittades inte."
     },
     "interactive": {
@@ -39,7 +39,7 @@
     },
     "general": {
       "maxReactions": "Jag kan inte lägga till flera roller till detta meddelande eftersom det redan har 20 reaktioner. Om du vill ställa in denna roll, vänligen ta bort en roll från detta meddelande eller skapa ett nytt. Detta är en Discord-begränsning.",
-      "missingSetup": "Please set a channel **and** message first then try this command again.",
+      "missingSetup": "Vänligen ange en kanal **och** ett meddelande först, prova sedan det här kommandot igen.",
       "missingChannel": "Vänligen ställ in en kanal först, prova sedan detta kommando igen.",
       "missingMessage": "Vänligen ställ in ett meddelande först, prova sedan detta kommando igen.",
       "missingMessageID": "Vänligen förse mig med ett meddelande-ID.",
@@ -83,7 +83,7 @@
     "message": {
       "help": "Ställ in det aktiva meddelandet.",
       "args": "<meddelande-ID>",
-      "set": "Message set.",
+      "set": "Meddelande inställt.",
       "pick": "Vänligen ange ett meddelande-ID som Zira kan använda eller ett meddelande som Zira kan skicka.\nSkriv `cancel` om du vill avbryta."
     },
     "embed": {
@@ -145,17 +145,17 @@
     },
     "remove": {
       "help": "Ta bort en roll",
-      "args": "<emoji> <role>"
+      "args": "<emoji> <roll>"
     },
     "toggle": {
       "help": "Ställ in en växlad roll",
-      "args": "<emoji> <role>",
+      "args": "<emoji> <roll>",
       "limit": "Det finns en begränsning på 6 gratis växlade roller. Du kan få oändligt växlade roller med [premium](https://zira.ovh/premium)"
     },
     "once": {
       "help": "Ställ in en engångsroll",
       "args": "<emoji> <roll>",
-      "error": "Since there is a role set on this message with this emoji already that isn't a once reaction, you cant add any once reactions."
+      "error": "Eftersom denna emoji redan används på detta meddelande kan du inte lägga till några engångsreaktioner på det."
     },
     "list": {
       "help": "Visa alla roller.",
@@ -225,7 +225,7 @@
       },
       "bot": {
         "help": "Ge roller när en bott går med",
-        "args": "<role>",
+        "args": "<roll>",
         "set": "$role$ kommer ges när en bot går med.",
         "remove": "$role$ kommer inte längre ges när en bot går med."
       },
@@ -242,7 +242,7 @@
       "args": "",
       "channel": {
         "help": "Ange den kanal anslutningsmeddelanden ska skickas till",
-        "args": "<#channel>",
+        "args": "<#kanal>",
         "set": " inställt som anslutningskanal.\n\n**Observera:** Om jag inte kan skicka meddelanden till den kanalen avaktiverar jag anslutningsmeddelanden."
       },
       "disable": {
@@ -268,7 +268,7 @@
       },
       "placeholders": {
         "title": "Användbara Platshållare Som Zira Kommer Autofylla",
-        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "description": "$user$ - användarnamn\n$discriminator$ - användarens diskriminator\n$id$ - användarens ID\n$mention$ - användarnämnande\n$guild$ - servernamn\n$membercount$ - nytt medlemsantal"
       }
     },
     "leave": {
@@ -276,7 +276,7 @@
       "args": "",
       "channel": {
         "help": "Ange den kanal lämningsmeddelanden ska skickas till",
-        "args": "<#channel>",
+        "args": "<#kanal>",
         "set": " inställt som lämningskanal.\n\n**Observera:** Om jag inte kan skicka meddelanden till den kanalen avaktiverar jag lämningsmeddelanden."
       },
       "disable": {
@@ -285,24 +285,24 @@
         "success": "Lämningsmeddelanden avaktiverade."
       },
       "add": {
-        "help": "Add a message.",
-        "args": "<message>",
-        "success": "Message added."
+        "help": "Lägg till ett meddelande.",
+        "args": "<meddelande>",
+        "success": "Meddelande tillagt."
       },
       "remove": {
-        "help": "Remove a message",
-        "args": "<ID from list>",
+        "help": "Ta bort ett meddelande",
+        "args": "<ID från lista>",
         "noID": "Vänligen ange ett ID från $prefix$leave list",
-        "notFound": "A message with that ID doesn't exist.",
-        "success": "Message deleted."
+        "notFound": "Ett meddelande med det ID:t existerar inte.",
+        "success": "Meddelande borttaget."
       },
       "list": {
-        "help": "List of messages",
+        "help": "Lista av meddelanden",
         "args": ""
       },
       "placeholders": {
         "title": "Användbara platshållare",
-        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "description": "$user$ - användarnamn\n$discriminator$ - användarens diskriminator\n$id$ - användarens ID\n$mention$ - användarnämnande\n$guild$ - servernamn\n$membercount$ - nytt medlemsantal"
       }
     },
     "rooms": {
@@ -321,31 +321,31 @@
       },
       "approved": {
         "help": "Ställ in den kanal godkända förslag ska skickas till",
-        "args": "<#channel | disable>",
+        "args": "<#kanal | disable>",
         "set": "Godkända förslag skickas till",
         "disable": "Godkända förslag kommer inte längre flyttas till en kanal."
       },
       "denied": {
         "help": "Ställ in den kanal nekade förslag ska skickas till",
-        "args": "<#channel | disable>",
+        "args": "<#kanal | disable>",
         "set": "Nekade förslag skickas till",
         "disable": "Nekade förslag kommer inte längre flyttas till en kanal."
       },
       "invalid": {
         "help": "Ställ in den kanal ogiltiga förslag ska skickas till",
-        "args": "<#channel | disable>",
+        "args": "<#kanal | disable>",
         "set": "Ogiltiga förslag skickas till",
         "disable": "Ogiltiga förslag kommer inte längre flyttas till en kanal."
       },
       "potential": {
         "help": "Ställ in den kanal potentiella förslag ska skickas till",
-        "args": "<#channel | disable>",
+        "args": "<#kanal | disable>",
         "set": "Potentiella förslag skickas till",
         "disable": "Potentiella förslag kommer inte längre flyttas till en kanal."
       },
       "submit": {
         "help": "Ställ in den kanal användare måste använda för att skicka in ett förslag [Premiumfunktion](https://zira.ovh/premium)",
-        "args": "<#channel | disable>",
+        "args": "<#kanal | disable>",
         "set": "Förslag kan nu endast skickas in från",
         "disable": "Förslag kan nu skickas in från alla kanaler."
       },
@@ -366,13 +366,13 @@
         "needTwo": "Vänligen ange två emojis."
       },
       "role": {
-        "help": "Set a role that can approve, deny, etc. suggestions",
+        "help": "Ställ in en roll som kan godkänna, neka, etc. förslag",
         "args": "<roll | disable>",
         "set": "Endast användare med $role$ och serverägaren kommer kunna interagera med förslag.",
         "disable": "Vem som helst med behörigheten **Hantera server** kan nu interagera med förslag."
       },
       "move": {
-        "help": "Move a suggestion to a new channel\n[Premium Feature](https://zira.ovh/premium)",
+        "help": "Flytta ett förslag till en ny kanal [Premiumfunktion](https://zira.ovh/premium)",
         "args": "<ID> <#channel>"
       }
     },
@@ -390,18 +390,57 @@
     },
     "deny": {
       "help": "Neka ett förslag",
-      "args": "<ID> [reason]",
+      "args": "<ID> [anledning]",
       "update": "Ditt förslag [$id$]($url$) har nekats."
     },
     "maybe": {
-      "help": "Potentially approve a suggestion",
-      "args": "<ID> [reason]",
+      "help": "Godkänn ett förslag potentiellt",
+      "args": "<ID> [anledning]",
       "update": "Ditt förslag [$id$]($url$) har potentiellt godkänts."
     },
     "invalid": {
       "help": "Markera ett förslag som ogiltigt",
       "args": "<ID> [reason]",
       "update": "Ditt förslag [$id$]($url$) har markerats som ogiltigt."
+    },
+    "presence": {
+      "help": "Give roles when someone is playing a game",
+      "args": "",
+      "add": {
+        "help": "Add a game with a role",
+        "args": "<game> | <role>",
+        "noargs": "Please provide a game and a role separated by `|` like so:\n$prefix$presence add Warframe | @Warframe Player",
+        "exists": "This role is already being given for this game.",
+        "set": "$role$ will be given to users if they play $game$."
+      },
+      "remove": {
+        "help": "Remove a game",
+        "args": "<game>",
+        "noargs": "Please provide a game like so:\n$prefix$presence remove Warframe",
+        "notSetup": "This role isn't setup to be given for this game.",
+        "removed": "Roles will no longer be given to users if they play $game$."
+      },
+      "list": {
+        "help": "List games with their roles",
+        "args": ""
+      }
+    },
+    "premium": {
+      "help": "Show this guilds premium status",
+      "args": "",
+      "nonPremium": "This guild doesn't have premium :frowning:\nIf you would like to buy premium you can do so [here](https://zira.ovh/premium)",
+      "title": "Premium Info for $guild$",
+      "expires": "Expires",
+      "buyers": "Recent Buyers",
+      "days": "days",
+      "flags": "Flags",
+      "partner": "Partner",
+      "translator": "Translator",
+      "giveaway": "Giveaway",
+      "boost": "Boost",
+      "yes": "Yes",
+      "no": "No",
+      "thanks": "Thank you for supporting Zira"
     },
     "help": {
       "categories": [

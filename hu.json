@@ -145,16 +145,16 @@
     },
     "remove": {
       "help": "Rang eltávolítása egy üzenetről",
-      "args": "<emoji> <role>"
+      "args": "<emotikon> <rang>"
     },
     "toggle": {
       "help": "Kapcsolható rang beállítása",
-      "args": "<emoji> <role>",
+      "args": "<emotikon> <rang>",
       "limit": "Maximum 6 kapcsolható rang használható. Ahhoz, hogy több ilyen rangot használhass szükséged van premiumra [premium](https://zira.ovh/premium)"
     },
     "once": {
       "help": "Egyszeri rang beállítása egy üzenethez",
-      "args": "<emoji> <role>",
+      "args": "<emotikon> <rang>",
       "error": "Mivel ezen az üzeneten már ez az emotikon ezzel a ranggal fel van használva ezért nem adhatsz hozzá mégegy egyszerhasználatos reakciót."
     },
     "list": {
@@ -201,10 +201,10 @@
         "stage": "Szakasz ",
         "skipped": "Szakasz kihagyva.",
         "title": "Ha szeretnél egy címet/nevet számára akkor írj egyet.\n\n2 perced van mindegyik szakasz kitöltésére.\n\nHa van egy JSON amit szeretnél használni kérlek használd a **z/edit $message <JSON>** parancsot\n\nEllenkező esetben kihagyhatod ezt a részt a `skip` parancs beírásával.",
-        "description": "If you would like a description please provide one.\n\nYou can skip this stage by typing `skip`.",
-        "image": "If you would like an image please provide a link or upload one\n\nYou can skip this stage by typing `skip`.",
-        "footer": "If you would like a footer please provide one\n\nYou can skip this stage by typing `skip`.",
-        "color": "If you would like a color please provide a hex code\n\nYou can skip this stage by typing `skip`.",
+        "description": "Ha szeretnél egy leírást hozzáadni, kérlek írj egyet.\nEllenkező esetben ez kihagyható a `skip` parancs beírásával.",
+        "image": "Ha szeretnél egy képet hozzáadni kérlek linkelj, vagy tölts fel egyet\nEllenkező esetben ez kihagyható a `skip` parancs beírásával.",
+        "footer": "Ha szeretnél egy lábjegyzetet hozzáadni, kérlek írj egyet.\nEllenkező esetben ez kihagyható a `skip` parancs beírásával.",
+        "color": "Ha szeretnél egy színt hozzáadni, kérlek írj egy hexadecimális (16-os számrendszerbeli) kódot\nEllenkező esetben ez kihagyható a `skip` parancs beírásával.",
         "creating": "Beágyazás szerkeztése."
       }
     },
@@ -225,7 +225,7 @@
       },
       "bot": {
         "help": "Automatikusan kioszt egy rangot a csatlakozó botoknak",
-        "args": "<role>",
+        "args": "<rang>",
         "set": "$role$ rang mostantól automatikusan ki lesz osztva a csatlakozó botoknak.",
         "remove": "$role$ rang mostantól nem lesz automatikusan kiosztva a csatlakozó botoknak."
       },
@@ -370,6 +370,10 @@
         "args": "<rang | disable>",
         "set": "Csak azok a $role$ ranggal felhatalmazott felhasználók és a klán mester férhet hozzá a javaslatokhoz.",
         "disable": "Mindenki akinek van **Klán kezelési** jogosultsága interakcióba léphet a javaslatokkal."
+      },
+      "move": {
+        "help": "Egy javaslat mozgatása egy másik szobába\n[Csak prémiummal használható](https://zira.ovh/premium)",
+        "args": "<Azonosító><#szoba>"
       }
     },
     "suggest": {
@@ -386,18 +390,57 @@
     },
     "deny": {
       "help": "Javaslat elutasítása",
-      "args": "<ID> [reason]",
+      "args": "<Azonosító>[reason]",
       "update": "A javaslatod [$id$]($url$) el lett utasítva."
     },
     "maybe": {
       "help": "Potenciálisan elfogadja a javaslatot",
-      "args": "<ID> [reason]",
+      "args": "<Azonosító>[reason]",
       "update": "A javaslatod [$id$]($url$) potenciális elfogadásra került."
     },
     "invalid": {
       "help": "Egy javaslatot hibásnak állít be",
-      "args": "<ID> [reason]",
+      "args": "<Azonosító>[reason]",
       "update": "A javaslatod [$id$]($url$) hibásnak lett megjelölve."
+    },
+    "presence": {
+      "help": "Give roles when someone is playing a game",
+      "args": "",
+      "add": {
+        "help": "Add a game with a role",
+        "args": "<game> | <role>",
+        "noargs": "Please provide a game and a role separated by `|` like so:\n$prefix$presence add Warframe | @Warframe Player",
+        "exists": "This role is already being given for this game.",
+        "set": "$role$ will be given to users if they play $game$."
+      },
+      "remove": {
+        "help": "Remove a game",
+        "args": "<game>",
+        "noargs": "Please provide a game like so:\n$prefix$presence remove Warframe",
+        "notSetup": "This role isn't setup to be given for this game.",
+        "removed": "Roles will no longer be given to users if they play $game$."
+      },
+      "list": {
+        "help": "List games with their roles",
+        "args": ""
+      }
+    },
+    "premium": {
+      "help": "Show this guilds premium status",
+      "args": "",
+      "nonPremium": "This guild doesn't have premium :frowning:\nIf you would like to buy premium you can do so [here](https://zira.ovh/premium)",
+      "title": "Premium Info for $guild$",
+      "expires": "Expires",
+      "buyers": "Recent Buyers",
+      "days": "napok",
+      "flags": "Flags",
+      "partner": "Partner",
+      "translator": "Translator",
+      "giveaway": "Giveaway",
+      "boost": "Boost",
+      "yes": "Igen",
+      "no": "Nem",
+      "thanks": "Köszönjük, hogy Zirát támogattad"
     },
     "help": {
       "categories": [
