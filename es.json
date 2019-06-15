@@ -218,16 +218,16 @@
       "help": "Asigna roles a los usuarios al unirse",
       "args": "",
       "user": {
-        "help": "Da roles cuando un usuario se une al servidor",
+        "help": "Asigna roles cuando una persona se une",
         "args": "<rol>",
-        "set": "El rol $role$ se dará a los nuevos usuarios.",
-        "remove": "El rol $role$ ya no se dará a los nuevos usuarios."
+        "set": "El rol $role$ será asignado cuando un usuario se una.",
+        "remove": "El rol $role$ ya no será asignado cuando un usuario se una."
       },
       "bot": {
-        "help": "Da roles cuando un bot se une al servidor",
+        "help": "Asigna roles cuando un bot es invitado",
         "args": "<rol>",
-        "set": "El rol $role$ se dará a los nuevos bots.",
-        "remove": "El rol $role$ ya no se se dará a los nuevos bots."
+        "set": "El rol $role$ será asignado cuando un bot sea invitado.",
+        "remove": "El rol $role$ ya no será asignado cuando un bot sea invitado."
       },
       "show": {
         "help": "Muestra los roles establecidos",
@@ -235,13 +235,13 @@
         "bot": "Roles de bots",
         "noRoles": "No hay roles establecidos :("
       },
-      "removeTip": "Si te gustaría quitar un rol establecido con roles automáticos, usa de nuevo el comando que usaste para establecerlos de nuevo."
+      "removeTip": "Si te gustaría remover un rol establecido con roles automáticos, usa el comando que usaste para establecerlo de nuevo."
     },
     "join": {
       "help": "Mensajes de bienvenida",
       "args": "",
       "channel": {
-        "help": "Establece el canal al que se deberían mandar los mensajes de bienvenida",
+        "help": "Establece el canal para enviar los mensajes de bienvenida",
         "args": "<#canal>",
         "set": " establecido como el canal de bienvenida.\n\n**Nota:** Si no puedo mandar mensajes a ese canal desactivaré los mensajes de bienvenida."
       },
@@ -402,6 +402,45 @@
       "help": "Marca una sugerencia como inválida",
       "args": "<ID> [razón]",
       "update": "Tu sugerencia [$id$]($url$) ha sido marcada como inválida."
+    },
+    "presence": {
+      "help": "Asigna roles cuando alguien está jugando a algo",
+      "args": "",
+      "add": {
+        "help": "Agrega un juego con un rol",
+        "args": "<juego> | <rol>",
+        "noargs": "Please provide a game and a role separated by `|` like so:\n$prefix$presence add Warframe | @Warframe Player",
+        "exists": "Este rol ya está siendo asignado para este juego.",
+        "set": "El rol $role$ será asignado a los usuarios que jueguen $game$."
+      },
+      "remove": {
+        "help": "Remueve un juego",
+        "args": "<juego>",
+        "noargs": "Please provide a game like so:\n$prefix$presence remove Warframe",
+        "notSetup": "Este rol no fue establecido para ser asignado para este juego.",
+        "removed": "Ya no se asignarán roles a los usuarios que jueguen $game$."
+      },
+      "list": {
+        "help": "Muestra una lista de juegos con sus roles",
+        "args": ""
+      }
+    },
+    "premium": {
+      "help": "Muestra el estado premium de este servidor",
+      "args": "",
+      "nonPremium": "Este servidor no tiene premium :frowning:\nSi te gustaría comprar premium puedes hacerlo [aquí](https://zira.ovh/premium)",
+      "title": "Información del premium para $guild$",
+      "expires": "Expira",
+      "buyers": "Compradores recientes",
+      "days": "días",
+      "flags": "Flags",
+      "partner": "Partner",
+      "translator": "Traductor",
+      "giveaway": "Sorteo",
+      "boost": "Boost",
+      "yes": "Sí",
+      "no": "No",
+      "thanks": "Gracias por apoyar a Zira"
     },
     "help": {
       "categories": [
