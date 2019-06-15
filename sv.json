@@ -403,6 +403,45 @@
       "args": "<ID> [reason]",
       "update": "Ditt förslag [$id$]($url$) har markerats som ogiltigt."
     },
+    "presence": {
+      "help": "Give roles when someone is playing a game",
+      "args": "",
+      "add": {
+        "help": "Add a game with a role",
+        "args": "<game> | <role>",
+        "noargs": "Please provide a game and a role separated by `|` like so:\n$prefix$presence add Warframe | @Warframe Player",
+        "exists": "This role is already being given for this game.",
+        "set": "$role$ will be given to users if they play $game$."
+      },
+      "remove": {
+        "help": "Remove a game",
+        "args": "<game>",
+        "noargs": "Please provide a game like so:\n$prefix$presence remove Warframe",
+        "notSetup": "This role isn't setup to be given for this game.",
+        "removed": "Roles will no longer be given to users if they play $game$."
+      },
+      "list": {
+        "help": "List games with their roles",
+        "args": ""
+      }
+    },
+    "premium": {
+      "help": "Show this guilds premium status",
+      "args": "",
+      "nonPremium": "This guild doesn't have premium :frowning:\nIf you would like to buy premium you can do so [here](https://zira.ovh/premium)",
+      "title": "Premium Info for $guild$",
+      "expires": "Expires",
+      "buyers": "Recent Buyers",
+      "days": "days",
+      "flags": "Flags",
+      "partner": "Partner",
+      "translator": "Translator",
+      "giveaway": "Giveaway",
+      "boost": "Boost",
+      "yes": "Yes",
+      "no": "No",
+      "thanks": "Thank you for supporting Zira"
+    },
     "help": {
       "categories": [
         "Roller",
