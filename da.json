@@ -409,38 +409,38 @@
       "add": {
         "help": "Tilføj et spil med en rolle",
         "args": "<spil> | <rolle>",
-        "noargs": "Please provide a game and a role separated by `|` like so:\n$prefix$presence add Warframe | @Warframe Player",
-        "exists": "This role is already being given for this game.",
-        "set": "$role$ will be given to users if they play $game$."
+        "noargs": "Angiv venligst et spil og en rolle sepereret med et `|` ligesom her:\n$prefix$presence add Warframe | @Warframe Spiller",
+        "exists": "Denne rolle bliver allerede givet for dette spil.",
+        "set": "$role$ vil blive givet til brugere hvis de spiller $game$."
       },
       "remove": {
-        "help": "Remove a game",
-        "args": "<game>",
-        "noargs": "Please provide a game like so:\n$prefix$presence remove Warframe",
-        "notSetup": "This role isn't setup to be given for this game.",
-        "removed": "Roles will no longer be given to users if they play $game$."
+        "help": "Fjern et spil",
+        "args": "<spil>",
+        "noargs": "Angiv venligst et spil ligesom her:\n$prefix$presence remove Warframe",
+        "notSetup": "Denne rolle er ikke sat op til at blive givet for dette spil.",
+        "removed": "Roller vil ikke længere blive givet til brugere hvis de spiller $game$."
       },
       "list": {
-        "help": "List games with their roles",
+        "help": "List spil med deres roller",
         "args": ""
       }
     },
     "premium": {
-      "help": "Show this guilds premium status",
+      "help": "Viser denne servers premium status",
       "args": "",
-      "nonPremium": "This guild doesn't have premium :frowning:\nIf you would like to buy premium you can do so [here](https://zira.ovh/premium)",
-      "title": "Premium Info for $guild$",
-      "expires": "Expires",
-      "buyers": "Recent Buyers",
-      "days": "days",
-      "flags": "Flags",
+      "nonPremium": "Denne server har ikke premium :frowning:\nHvis du gerne vil købe premium kan du gøre det [her](https://zira.ovh/premium)",
+      "title": "Premium info for $guild$",
+      "expires": "Udløber",
+      "buyers": "Seneste købere",
+      "days": "dage",
+      "flags": "Flag",
       "partner": "Partner",
-      "translator": "Translator",
+      "translator": "Oversætter",
       "giveaway": "Giveaway",
       "boost": "Boost",
-      "yes": "Yes",
-      "no": "No",
-      "thanks": "Thank you for supporting Zira"
+      "yes": "Ja",
+      "no": "Nej",
+      "thanks": "Tak for at støtte Zira"
     },
     "help": {
       "categories": [
