@@ -432,15 +432,15 @@
       "title": "Premium Info for $guild$",
       "expires": "Expires",
       "buyers": "Recent Buyers",
-      "days": "days",
+      "days": "napok",
       "flags": "Flags",
       "partner": "Partner",
       "translator": "Translator",
       "giveaway": "Giveaway",
       "boost": "Boost",
-      "yes": "Yes",
-      "no": "No",
-      "thanks": "Thank you for supporting Zira"
+      "yes": "Igen",
+      "no": "Nem",
+      "thanks": "Köszönjük, hogy Zirát támogattad"
     },
     "help": {
       "categories": [
