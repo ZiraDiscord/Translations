@@ -404,43 +404,43 @@
       "update": "Votre suggestion [$id$]($url$) a été marquée comme non valide."
     },
     "presence": {
-      "help": "Give roles when someone is playing a game",
+      "help": "Donner des rôles quand quelqu'un joue à un jeu",
       "args": "",
       "add": {
-        "help": "Add a game with a role",
+        "help": "Ajouter un rôle avec un jeu",
         "args": "<game> | <role>",
-        "noargs": "Please provide a game and a role separated by `|` like so:\n$prefix$presence add Warframe | @Warframe Player",
-        "exists": "This role is already being given for this game.",
-        "set": "$role$ will be given to users if they play $game$."
+        "noargs": "Veuillez fournir un jeu et un rôle séparés par `|` comme ceci :\n$prefix$presence add Minecraft | @Joueur Minecraft",
+        "exists": "Ce rôle est déjà attribué à ce jeu.",
+        "set": "$role$ sera donné aux utilisateurs s'ils jouent à $game$."
       },
       "remove": {
-        "help": "Remove a game",
+        "help": "Supprimer un jeu",
         "args": "<game>",
-        "noargs": "Please provide a game like so:\n$prefix$presence remove Warframe",
-        "notSetup": "This role isn't setup to be given for this game.",
-        "removed": "Roles will no longer be given to users if they play $game$."
+        "noargs": "S'il vous plaît donner un jeu comme ceci :\n$prefix$presence remove Minecraft",
+        "notSetup": "Ce rôle n'est pas configuré pour être attribué à ce jeu.",
+        "removed": "Les rôles ne seront plus attribués aux utilisateurs s’ils jouent à $game$."
       },
       "list": {
-        "help": "List games with their roles",
+        "help": "Liste des jeux avec leurs rôles",
         "args": ""
       }
     },
     "premium": {
-      "help": "Show this guilds premium status",
+      "help": "Afficher le statut premium de ce serveur",
       "args": "",
-      "nonPremium": "This guild doesn't have premium :frowning:\nIf you would like to buy premium you can do so [here](https://zira.ovh/premium)",
-      "title": "Premium Info for $guild$",
-      "expires": "Expires",
-      "buyers": "Recent Buyers",
-      "days": "days",
+      "nonPremium": "Ce serveur n'est pas premium :frowning:\nSi vous souhaitez l'acheter, vous pouvez le faire [ici](https://zira.ovh/premium)",
+      "title": "Infos Premium pour $guild$",
+      "expires": "Expire le",
+      "buyers": "Acheteurs récents",
+      "days": "jours",
       "flags": "Flags",
-      "partner": "Partner",
-      "translator": "Translator",
+      "partner": "Partenaire",
+      "translator": "Traducteur",
       "giveaway": "Giveaway",
       "boost": "Boost",
-      "yes": "Yes",
-      "no": "No",
-      "thanks": "Thank you for supporting Zira"
+      "yes": "Oui",
+      "no": "Non",
+      "thanks": "Merci de soutenir Zira"
     },
     "help": {
       "categories": [
