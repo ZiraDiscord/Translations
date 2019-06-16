@@ -420,10 +420,18 @@
         "notSetup": "Este rol no fue establecido para ser asignado para este juego.",
         "removed": "Ya no se asignarán roles a los usuarios que jueguen $game$."
       },
+      "change": {
+        "help": "Change the name of a game already setup",
+        "args": "<old game> | <new game>",
+        "noargs": "Please provide a game and a new game separated by `|` like so:\n$prefix$presence change Warframe | Tom Clancy's The Division 2",
+        "notExist": "There are no games with the name $game$ setup.",
+        "changed": "$old$ has been renamed to $new$"
+      },
       "list": {
         "help": "Muestra una lista de juegos con sus roles",
         "args": ""
-      }
+      },
+      "logMessage": "$mention$ was given $roles$ because they played $game$"
     },
     "premium": {
       "help": "Muestra el estado premium de este servidor",

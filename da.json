@@ -420,10 +420,18 @@
         "notSetup": "Denne rolle er ikke sat op til at blive givet for dette spil.",
         "removed": "Roller vil ikke længere blive givet til brugere hvis de spiller $game$."
       },
+      "change": {
+        "help": "Change the name of a game already setup",
+        "args": "<old game> | <new game>",
+        "noargs": "Please provide a game and a new game separated by `|` like so:\n$prefix$presence change Warframe | Tom Clancy's The Division 2",
+        "notExist": "There are no games with the name $game$ setup.",
+        "changed": "$old$ has been renamed to $new$"
+      },
       "list": {
         "help": "List spil med deres roller",
         "args": ""
-      }
+      },
+      "logMessage": "$mention$ was given $roles$ because they played $game$"
     },
     "premium": {
       "help": "Viser denne servers premium status",
