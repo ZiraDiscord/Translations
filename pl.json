@@ -404,51 +404,51 @@
       "update": "Twoja sugestia [$id$] ($url$) Została oznaczona jako nieprawidłowa."
     },
     "presence": {
-      "help": "Give roles when someone is playing a game",
+      "help": "Przyznaj role gdy ktoś gra w grę",
       "args": "",
       "add": {
-        "help": "Add a game with a role",
+        "help": "Dodaj grę z rolą",
         "args": "<game> | <role>",
-        "noargs": "Please provide a game and a role separated by `|` like so:\n$prefix$presence add Warframe | @Warframe Player",
-        "exists": "This role is already being given for this game.",
-        "set": "$role$ will be given to users if they play $game$."
+        "noargs": "Podaj grę i rolę oddzieloną `|`:\n$prefix$presence add Warframe | @Warframe Player",
+        "exists": "Ta rola jest już przyznawana tej grze.",
+        "set": "$role$ zostanie przyznana użytkownikom jeśli grają w $game$."
       },
       "remove": {
-        "help": "Remove a game",
+        "help": "Usuń grę",
         "args": "<game>",
-        "noargs": "Please provide a game like so:\n$prefix$presence remove Warframe",
-        "notSetup": "This role isn't setup to be given for this game.",
-        "removed": "Roles will no longer be given to users if they play $game$."
+        "noargs": "Podaj grę w ten sposób:\n$prefix$presence usuń Warframe",
+        "notSetup": "Ta rola nie jest ustawiona do bycia przyznawanej dla tej gry.",
+        "removed": "Role nie będą przyznawane użytkownikom jeśli grają w $game$."
       },
       "change": {
-        "help": "Change the name of a game already setup",
+        "help": "Zmień nazwę gry która została już ustawiona",
         "args": "<old game> | <new game>",
-        "noargs": "Please provide a game and a new game separated by `|` like so:\n$prefix$presence change Warframe | Tom Clancy's The Division 2",
-        "notExist": "There are no games with the name $game$ setup.",
-        "changed": "$old$ has been renamed to $new$"
+        "noargs": "Podaj grę i nową grę oddzieloną `|`:\n$prefix$presence change Warframe | Tom Clancy's The Division 2",
+        "notExist": "Nie ma ustawionych gier z nazwą $game$.",
+        "changed": "$old$ zostało nazwane $new$"
       },
       "list": {
-        "help": "List games with their roles",
+        "help": "Pokaż gry z ich rolami",
         "args": ""
       },
-      "logMessage": "$mention$ was given $roles$ because they played $game$"
+      "logMessage": "$mention$ przyznano $roles$ ponieważ gra w $game$"
     },
     "premium": {
-      "help": "Show this guilds premium status",
+      "help": "Pokaż statystyki premium tej gry",
       "args": "",
-      "nonPremium": "This guild doesn't have premium :frowning:\nIf you would like to buy premium you can do so [here](https://zira.ovh/premium)",
-      "title": "Premium Info for $guild$",
-      "expires": "Expires",
-      "buyers": "Recent Buyers",
-      "days": "days",
-      "flags": "Flags",
+      "nonPremium": "Ta gildia nie posiada premium :frowning:\nJeśli chcesz zakupić premium możesz zrobić to [here](https://zira.ovh/premium)",
+      "title": "Informacje Premium dla $guild$",
+      "expires": "Wygasa",
+      "buyers": "Ostatni Kupujący",
+      "days": "dni",
+      "flags": "Flagi",
       "partner": "Partner",
-      "translator": "Translator",
+      "translator": "Tłumacz",
       "giveaway": "Giveaway",
       "boost": "Boost",
-      "yes": "Yes",
-      "no": "No",
-      "thanks": "Thank you for supporting Zira"
+      "yes": "Tak",
+      "no": "Nie",
+      "thanks": "Dziękujemy za wspomaganie Zira"
     },
     "help": {
       "categories": [
