@@ -421,17 +421,17 @@
         "removed": "Rollen werden nicht mehr an Benutzer vergeben, wenn sie $game$ spielen."
       },
       "change": {
-        "help": "Change the name of a game already setup",
-        "args": "<old game> | <new game>",
-        "noargs": "Please provide a game and a new game separated by `|` like so:\n$prefix$presence change Warframe | Tom Clancy's The Division 2",
-        "notExist": "There are no games with the name $game$ setup.",
-        "changed": "$old$ has been renamed to $new$"
+        "help": "Ändern des Namens eines bereits eingerichteten Spiels",
+        "args": "<altes game> | <neues game>",
+        "noargs": "Bitte gib ein Spiel und ein neues Spiel getrennt durch `|` an:\n$prefix$presence change Warframe | Tom Clancy's The Division 2",
+        "notExist": "Es sind keine Spiele mit dem Namen $game$ eingerichtet.",
+        "changed": "$old$ wurde in $new$ umbenannt"
       },
       "list": {
         "help": "Liste der Spiele mit den dazugehörigen Rollen",
         "args": ""
       },
-      "logMessage": "$mention$ was given $roles$ because they played $game$"
+      "logMessage": "$mention$ wurde $roles$ gegeben, weil $game$ gespielt wurde"
     },
     "premium": {
       "help": "Zeige diesen Premium Status deinem Discord",
