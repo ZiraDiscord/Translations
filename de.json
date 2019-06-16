@@ -130,7 +130,7 @@
         "crowdin": "Wenn Du Zira in einer Sprache wünschst, die nicht auf der Liste oben steht, kannst du dich bewerben und helfen, Zira zu übersetzen unter [Crowdin](https://translate.zira.ovh)"
       },
       "main": {
-        "prefix": "Setzt ein eigenen Präfix.",
+        "prefix": "Setzt einen eigenen Präfix. (Standard: z/ )",
         "role": "Setze oder entferne die Rolle, welche Befehle verwenden können.",
         "reset": "Setzt die Discord Konfiguration zurück.",
         "language": "Legt die Sprache für den Discord fest."
@@ -150,7 +150,7 @@
     "toggle": {
       "help": "Einrichten einer umschaltenden Rolle",
       "args": "<emoji> <rolle>",
-      "limit": "Es gibt ein Limit von 6 frei wechselbaren Rollen. Du erhälst unbegrenzt wechselbare Rollen mit [premium](https://zira.ovh/premium)"
+      "limit": "Es gibt ein Limit von 6 frei wechselbaren Rollen. Du erhälst unbegrenzt wechselbare Rollen mit [Premium](https://zira.ovh/premium)"
     },
     "once": {
       "help": "Einrichten einer einmaligen Rolle",
@@ -344,23 +344,23 @@
         "disable": "Potenzielle Vorschläge werden nicht mehr in einen Kanal verschoben."
       },
       "submit": {
-        "help": "Setzt den Kanal, den Benutzer verwenden müssen, um einen Vorschlag einzureichen\n[Premium Feature](https://zira.ovh/premium)",
+        "help": "Setzt den Kanal, den Benutzer verwenden müssen, um einen Vorschlag einzureichen\n[Premium Funktion](https://zira.ovh/premium)",
         "args": "<#kanal | deaktiviert>",
         "set": "Vorschläge können jetzt nur noch in",
         "disable": "Vorschläge können nun in jedem Kanal gemacht werden."
       },
       "dm": {
-        "help": "Legt fest, ob Benutzer Updates zu ihren Vorschlägen erhalten sollen.\n[Premium Feature](https://zira.ovh/premium)",
+        "help": "Legt fest, ob Benutzer Updates zu ihren Vorschlägen erhalten sollen.\n[Premium Funktion](https://zira.ovh/premium)",
         "on": "Die Benutzer erhalten Updates über ihre Vorschläge.",
         "off": "Die Benutzer werden nicht über ihre Vorschläge informiert."
       },
       "reaction": {
-        "help": "Legt fest, ob Emojis für neue Vorschläge benutzt werden können.\n[Premium Feature](https://zira.ovh/premium)",
+        "help": "Legt fest, ob Emojis für neue Vorschläge benutzt werden können.\n[Premium Funktion](https://zira.ovh/premium)",
         "on": "Vorschläge werden ab sofort mit Emojis gesetzt, die mit **$$prefix$suggestion Emojis** auf sie reagieren.",
         "off": "Auf Vorschläge wird nicht mehr reagiert."
       },
       "emojis": {
-        "help": "Setzt die Emoji, die bei der Reaktion auf Vorschläge verwendet werden sollen\n[Premium Feature](https://zira.ovh/premium)",
+        "help": "Setzt die Emoji, die bei der Reaktion auf Vorschläge verwendet werden sollen\n[Premium Funktion](https://zira.ovh/premium)",
         "args": "<emojiEins> <emojiZwei>",
         "set": "Die Emojis wurden gesetzt.",
         "needTwo": "Bitte gib zwei Emojis an."
@@ -370,6 +370,10 @@
         "args": "<role | disable>",
         "set": "Nur Benutzer mit $role$ und der Discord Besitzer können mit Vorschlägen interagieren.",
         "disable": "Jeder mit der Berechtigung **Server Verwalten** kann nun mit Vorschlägen interagieren."
+      },
+      "move": {
+        "help": "Einen Vorschlag auf einen neuen Kanal verschieben\n[Premium Funktion](https://zira.ovh/premium)",
+        "args": "<ID> <#kanal>"
       }
     },
     "suggest": {
@@ -398,6 +402,45 @@
       "help": "Einen Vorschlag als ungültig markieren",
       "args": "<ID> [grund]",
       "update": "Dein Vorschlag [$id$]($url$) wurde als ungültig markiert."
+    },
+    "presence": {
+      "help": "Gib Rollen, wenn jemand ein Spiel spielt",
+      "args": "",
+      "add": {
+        "help": "Ein Spiel mit einer Rolle hinzufügen",
+        "args": "<game> | <rolle>",
+        "noargs": "Bitte gib ein Spiel und eine Rolle getrennt durch `|` an:\n$prefix$presence add Warframe | @Warframe Spieler",
+        "exists": "Diese Rolle wird bereits für dieses Spiel vergeben.",
+        "set": "$role$ wird den Benutzern gegeben, wenn sie $game$ spielen."
+      },
+      "remove": {
+        "help": "Entfernen eines Spiels",
+        "args": "<game>",
+        "noargs": "Bitte gib ein Spiel wie dieses an:\n$prefix$presence remove Warframe",
+        "notSetup": "Diese Rolle ist nicht dafür eingerichtet, für dieses Spiel vergeben zu werden.",
+        "removed": "Rollen werden nicht mehr an Benutzer vergeben, wenn sie $game$ spielen."
+      },
+      "list": {
+        "help": "Liste der Spiele mit den dazugehörigen Rollen",
+        "args": ""
+      }
+    },
+    "premium": {
+      "help": "Zeige diesen Premium Status deinem Discord",
+      "args": "",
+      "nonPremium": "Dieser Discord hat keine Premium :frowning:\nWenn du Premium kaufen möchtest, kannst du dies [hier](https://zira.ovh/premium)",
+      "title": "Premium Info für $guild$",
+      "expires": "Verfällt",
+      "buyers": "Aktuelle Käufer",
+      "days": "tage",
+      "flags": "Flaggen",
+      "partner": "Partner",
+      "translator": "Übersetzer/in",
+      "giveaway": "Giveaway",
+      "boost": "Boost",
+      "yes": "Ja",
+      "no": "Nein",
+      "thanks": "Danke, dass du Zira unterstützt hast"
     },
     "help": {
       "categories": [

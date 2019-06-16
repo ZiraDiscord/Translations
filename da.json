@@ -174,7 +174,7 @@
       "args": "",
       "check": {
         "help": "Tjek for slettede roller på en besked.",
-        "args": "<message ID>",
+        "args": "<beskeds ID>",
         "none": "Alle roller er gyldige.",
         "removed": "rolle(r) fjernet."
       },
@@ -198,19 +198,19 @@
       "success": "Beskeden er redigeret.",
       "pick": "Vær venlig at give en ny besked.",
       "interactive": {
-        "stage": "Stage ",
-        "skipped": "Stage skipped.",
+        "stage": "Trin ",
+        "skipped": "Trinnet er sprunget over.",
         "title": "Hvis du vil have en titel så sørg for at give en.\n\nDu har 2 minutter til hver fase for at skrive værdier.\n\nHvis du har en JSON du gerne vil bruge i stedet for dette værktøj, så venligst brug **z/edit $message <JSON>**\n\nDu kan springe en trin over ved at skrive `skip`.",
-        "description": "If you would like a description please provide one.\n\nYou can skip this stage by typing `skip`.",
-        "image": "If you would like an image please provide a link or upload one\n\nYou can skip this stage by typing `skip`.",
-        "footer": "If you would like a footer please provide one\n\nYou can skip this stage by typing `skip`.",
-        "color": "If you would like a color please provide a hex code\n\nYou can skip this stage by typing `skip`.",
+        "description": "Hvis du ønsker en beskrivelse så venligst angiv en.\n\nDu kan springe dette trin over ved at skrive `skip`.",
+        "image": "Hvis du ønsker et billede så venligst angiv et link eller upload et\n\nDu kan springe dette trin over ved at skrive `skip`.",
+        "footer": "Hvis du ønsker en sidefod så venligst angiv en\n\nDu kan springe dette trin over ved at skrive `skip`.",
+        "color": "Hvis du ønsker en Farve så venligst angiv en hex kode\n\nDu kan springe dette trin over ved at skrive `skip`.",
         "creating": "Redigere et embed."
       }
     },
     "log": {
       "help": "Log rolle begivenheder til en kanal",
-      "args": "<#channel>",
+      "args": "<#kanal>",
       "set": " sæt som log kanalen.\n\n**Note:** Hvis jeg ikke kan sende beskeder i kanalen vil jeg deaktivere logging.",
       "disable": "Rolle logging er nu deaktiveret."
     },
@@ -225,7 +225,7 @@
       },
       "bot": {
         "help": "Giv roller når en bot bliver medlem",
-        "args": "<role>",
+        "args": "<rolle>",
         "set": "$role$ vil blive givet når en bot bliver medlem.",
         "remove": "$role$ vil ikke blive givetnår en bot bliver medlem."
       },
@@ -242,7 +242,7 @@
       "args": "",
       "channel": {
         "help": "Sæt den kanal som ny medlems beskeder skal sendes i",
-        "args": "<#channel>",
+        "args": "<#kanal>",
         "set": " sæt som ny medlems kanalen.\n\n**Note:** Hvis jeg ikke kan sende beskeder i kanalen vil jeg deaktivere nye medlems beskeder."
       },
       "disable": {
@@ -268,7 +268,7 @@
       },
       "placeholders": {
         "title": "Anvendelige pladsholdere som Zira vil autoudfylde",
-        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "description": "$user$ - brugernavn\n$discriminator$ - brugerens diskriminator\n$id$ - brugerens ID\n$mention$ - nævnelse af bruger\n$guild$ - server navn\n$membercount$ - nyt medlemsantal"
       }
     },
     "leave": {
@@ -276,7 +276,7 @@
       "args": "",
       "channel": {
         "help": "Sæt kanalen som afskedsbeskeder skal sendes i",
-        "args": "<#channel>",
+        "args": "<#kanal>",
         "set": " sæt som afskedskanalen.\n\n**Note:** Hvis jeg ikke kan sende beskeder i kanalen vil jeg deaktivere afskedsbeskeder."
       },
       "disable": {
@@ -285,24 +285,24 @@
         "success": "Afskedsbeskeder deaktiveret."
       },
       "add": {
-        "help": "Add a message.",
-        "args": "<message>",
-        "success": "Message added."
+        "help": "Tilføj en besked.",
+        "args": "<besked>",
+        "success": "Beskeden er tilføjet."
       },
       "remove": {
-        "help": "Remove a message",
-        "args": "<ID from list>",
+        "help": "Fjern en besked",
+        "args": "<ID fra liste>",
         "noID": "Venligst giv et ID fra $prefix$leave listen",
-        "notFound": "A message with that ID doesn't exist.",
-        "success": "Message deleted."
+        "notFound": "En besked med det ID eksisterer ikke.",
+        "success": "Beskeden er slettet."
       },
       "list": {
-        "help": "List of messages",
+        "help": "Liste af beskeder",
         "args": ""
       },
       "placeholders": {
         "title": "Anvendelige pladsholdere",
-        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "description": "$user$ - brugernavn\n$discriminator$ - brugerens diskriminator\n$id$ - brugerens ID\n$mention$ - nævnelse af bruger\n$guild$ - server navn\n$membercount$ - nyt medlemsantal"
       }
     },
     "rooms": {
@@ -327,25 +327,25 @@
       },
       "denied": {
         "help": "Sæt den kanal som ugodkendte forslag bliver sendt til",
-        "args": "<#channel | disable>",
+        "args": "<#kanal | disable>",
         "set": "Ugodkendte forslag vil blive sendt til",
         "disable": "Ugodkendte forslag vil ikke blive flyttet til an kanal længere."
       },
       "invalid": {
         "help": "Sæt den kanal som ugyldige forslag bliver sendt til",
-        "args": "<#channel | disable>",
+        "args": "<#kanal | disable>",
         "set": "Ugyldige forslag vil blive sendt til",
         "disable": "Ugyldige forslag vil ikke blive flyttet til an kanal længere."
       },
       "potential": {
         "help": "Sæt den kanal som potentielle forslag bliver sendt til",
-        "args": "<#channel | disable>",
+        "args": "<#kanal | disable>",
         "set": "Potentielle forslag vil blive sendt til",
         "disable": "Potentielle forslag vil ikke blive flyttet til an kanal længere."
       },
       "submit": {
         "help": "Sæt kanalen som brugere skal anvende til at indsende forslag i\n[Kun for Premium](https://zira.ovh/premium)",
-        "args": "<#channel | disable>",
+        "args": "<#kanal | disable>",
         "set": "Forslag kan nu kun laves i",
         "disable": "Forslag kan nu laves i en anden kanal."
       },
@@ -370,6 +370,10 @@
         "args": "<rolle | disable>",
         "set": "Kun brugere med $role$ og ejeren af serveren er i stand til at interagere med forslag.",
         "disable": "Alle med **Administrer Server** tilladelsen kan interagere med forslag."
+      },
+      "move": {
+        "help": "Flyt et forslag til en ny kanal\n[Kun for Premium](https://zira.ovh/premium)",
+        "args": "<ID> <#kanal>"
       }
     },
     "suggest": {
@@ -396,8 +400,47 @@
     },
     "invalid": {
       "help": "Marker et forslag som ugyldigt",
-      "args": "<ID> [reason]",
+      "args": "<ID>[grund]",
       "update": "Dit forslag [$id$]($url$) er blevet markeret ugyldig."
+    },
+    "presence": {
+      "help": "Giv roller når nogen spiller et spil",
+      "args": "",
+      "add": {
+        "help": "Tilføj et spil med en rolle",
+        "args": "<spil> | <rolle>",
+        "noargs": "Angiv venligst et spil og en rolle sepereret med et `|` ligesom her:\n$prefix$presence add Warframe | @Warframe Spiller",
+        "exists": "Denne rolle bliver allerede givet for dette spil.",
+        "set": "$role$ vil blive givet til brugere hvis de spiller $game$."
+      },
+      "remove": {
+        "help": "Fjern et spil",
+        "args": "<spil>",
+        "noargs": "Angiv venligst et spil ligesom her:\n$prefix$presence remove Warframe",
+        "notSetup": "Denne rolle er ikke sat op til at blive givet for dette spil.",
+        "removed": "Roller vil ikke længere blive givet til brugere hvis de spiller $game$."
+      },
+      "list": {
+        "help": "List spil med deres roller",
+        "args": ""
+      }
+    },
+    "premium": {
+      "help": "Viser denne servers premium status",
+      "args": "",
+      "nonPremium": "Denne server har ikke premium :frowning:\nHvis du gerne vil købe premium kan du gøre det [her](https://zira.ovh/premium)",
+      "title": "Premium info for $guild$",
+      "expires": "Udløber",
+      "buyers": "Seneste købere",
+      "days": "dage",
+      "flags": "Flag",
+      "partner": "Partner",
+      "translator": "Oversætter",
+      "giveaway": "Giveaway",
+      "boost": "Boost",
+      "yes": "Ja",
+      "no": "Nej",
+      "thanks": "Tak for at støtte Zira"
     },
     "help": {
       "categories": [
