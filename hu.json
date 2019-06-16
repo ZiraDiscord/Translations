@@ -51,7 +51,7 @@
       "noMessageProvided": "Kérlek adj meg egy üzenetet.",
       "noSuggestionProvided": "Kérlek add meg a javaslat-, vagy az üzenet azonosítóját."
     },
-    "premium": "Ez a funkció csak a [premium] (https://zira.ovh/premium) módban elérhető.",
+    "premium": "Ez a funkció csak prémium módban elérhető: [premium](https://zira.ovh/premium)",
     "suggestionsRole": "Szükséged van a $role$ rangra, hogy a javaslatokat kezeld."
   },
   "page": "Oldal",
@@ -404,47 +404,47 @@
       "update": "A javaslatod [$id$]($url$) hibásnak lett megjelölve."
     },
     "presence": {
-      "help": "Give roles when someone is playing a game",
+      "help": "Rangot ad, amikor valaki játszik egy játékkal",
       "args": "",
       "add": {
-        "help": "Add a game with a role",
-        "args": "<game> | <role>",
-        "noargs": "Please provide a game and a role separated by `|` like so:\n$prefix$presence add Warframe | @Warframe Player",
-        "exists": "This role is already being given for this game.",
-        "set": "$role$ will be given to users if they play $game$."
+        "help": "Hozzáad egy rangot egy játékhoz",
+        "args": "<játék> <rang>",
+        "noargs": "Kérlek adj meg egy játékot és egy rangot '|'-vel elválasztva mint például:\n$prefix$presence add Warframe | @Warframe Player",
+        "exists": "Ez a rang már hozzá van adva ehhez a játékhoz.",
+        "set": "$role$ rang meg lesz adva a felhasználóknak, amikor játszani fognak ezzel: $game$."
       },
       "remove": {
-        "help": "Remove a game",
-        "args": "<game>",
-        "noargs": "Please provide a game like so:\n$prefix$presence remove Warframe",
-        "notSetup": "This role isn't setup to be given for this game.",
-        "removed": "Roles will no longer be given to users if they play $game$."
+        "help": "Eltávolít egy játékot",
+        "args": "<játék>",
+        "noargs": "Kérlek adj meg egy játékot. Példa:\n$prefix$presence remove Warframe",
+        "notSetup": "Ehhez a játékhoz nincs rang hozzárendelve.",
+        "removed": "A rang mostantól nem lesz kiosztva ha a felhasználó ezzel játszik: $game$."
       },
       "change": {
-        "help": "Change the name of a game already setup",
-        "args": "<old game> | <new game>",
-        "noargs": "Please provide a game and a new game separated by `|` like so:\n$prefix$presence change Warframe | Tom Clancy's The Division 2",
-        "notExist": "There are no games with the name $game$ setup.",
-        "changed": "$old$ has been renamed to $new$"
+        "help": "Már beállított játék nevének megváltoztatása",
+        "args": "<Régi játék> | <Új játék>",
+        "noargs": "Kérlek adj meg egy játékot és egy új játékot '|'-vel elválasztva. Példa:\n$prefix$presence change Warframe | Tom Clancy's The Division 2",
+        "notExist": "Nincsenek játékok a $game$ névvel.",
+        "changed": "$old$ át lett nevezve erre $new$"
       },
       "list": {
-        "help": "List games with their roles",
+        "help": "Játékok kilistázása a hozzáadott rangokkal",
         "args": ""
       },
-      "logMessage": "$mention$ was given $roles$ because they played $game$"
+      "logMessage": "$mention$ megkapta a $roles$ rangot, mivel belépett a $game$ játékba"
     },
     "premium": {
-      "help": "Show this guilds premium status",
+      "help": "Kiírja a discord szerver prémium státuszát",
       "args": "",
-      "nonPremium": "This guild doesn't have premium :frowning:\nIf you would like to buy premium you can do so [here](https://zira.ovh/premium)",
-      "title": "Premium Info for $guild$",
-      "expires": "Expires",
-      "buyers": "Recent Buyers",
+      "nonPremium": "Ez a discord szerver nem rendelkezik prémiummal :frowning:\nHa szeretnél prémiumot venni kérlek látogass el ide [here](https://zira.ovh/premium)",
+      "title": "Prémium információ a $guild$ -ről",
+      "expires": "Lejárat",
+      "buyers": "Friss vevők",
       "days": "napok",
-      "flags": "Flags",
+      "flags": "Prémium állapot",
       "partner": "Partner",
-      "translator": "Translator",
-      "giveaway": "Giveaway",
+      "translator": "Fordító",
+      "giveaway": "Sorsolás",
       "boost": "Boost",
       "yes": "Igen",
       "no": "Nem",
