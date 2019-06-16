@@ -415,10 +415,18 @@
         "notSetup": "This role isn't setup to be given for this game.",
         "removed": "Roles will no longer be given to users if they play $game$."
       },
+      "change": {
+        "help": "Change the name of a game already setup",
+        "args": "<old game> | <new game>",
+        "noargs": "Please provide a game and a new game separated by `|` like so:\n$prefix$presence change Warframe | Tom Clancy's The Division 2",
+        "notExist": "There are no games with the name $game$ setup.",
+        "changed": "$old$ has been renamed to $new$"
+      },
       "list": {
         "help": "List games with their roles",
         "args": ""
-      }
+      },
+      "logMessage": "$mention$ was given $roles$ because they played $game$"
     },
     "premium": {
       "help": "Show this guilds premium status",
