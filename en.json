@@ -65,7 +65,7 @@
   },
   "suggestions": {
     "reason": "$user$'s Reason",
-    "footer": "ID: $id$ Submitted",
+    "footer": "Suggestion ID: $id$ Submitted",
     "new": "New Suggestion",
     "approved": "Approved Suggestion",
     "denied": "Denied Suggestion",
@@ -369,6 +369,14 @@
       "move": {
         "help": "Move a suggestion to a new channel\n[Premium Feature](https://zira.ovh/premium)",
         "args": "<ID> <#channel>"
+      },
+      "cooldown": {
+        "help": "Set a cooldown for submitting suggestions.\n[Premium Feature](https://zira.ovh/premium)",
+        "args": "<minutes | disable>",
+        "noTime": "Please try again and provide how many minutes you want the cooldown to last for.",
+        "disable": "There is now no cooldown on suggestions.",
+        "set": "Users will have to wait $time$ minutes before they can submit another suggestion.",
+        "NaN": "Please use a number."
       }
     },
     "suggest": {
@@ -376,7 +384,8 @@
       "args": "<suggestion>",
       "setup": "Suggestions are not setup. Use **$prefix$suggestion new** to setup suggestions.",
       "submitChannel": "Please use $channel$ to submit suggestions.",
-      "provideSuggestion": "Please provide a suggestion."
+      "provideSuggestion": "Please provide a suggestion.",
+      "cooldown": "You must wait $time$ before submitting another suggestion."
     },
     "approve": {
       "help": "Approve a suggestion",
