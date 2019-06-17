@@ -374,6 +374,14 @@
       "move": {
         "help": "Egy javaslat mozgatása egy másik szobába\n[Csak prémiummal használható](https://zira.ovh/premium)",
         "args": "<Azonosító><#szoba>"
+      },
+      "cooldown": {
+        "help": "Set a cooldown for submitting suggestions.\n[Premium Feature](https://zira.ovh/premium)",
+        "args": "<minutes | disable>",
+        "noTime": "Please try again and provide how many minutes you want the cooldown to last for.",
+        "disable": "There is now no cooldown on suggestions.",
+        "set": "Users will have to wait $time$ minutes before they can submit another suggestion.",
+        "NaN": "Please use a number."
       }
     },
     "suggest": {
@@ -381,7 +389,8 @@
       "args": "<javaslat>",
       "setup": "Javaslatok nincsenek beállítva. Használd a **$prefix$suggestion new** parancsot ennek beállítására.",
       "submitChannel": "Kérlek használd a $channel$ szobát a javaslatok elküldéséhez.",
-      "provideSuggestion": "Kérlek adj meg egy javaslatot."
+      "provideSuggestion": "Kérlek adj meg egy javaslatot.",
+      "cooldown": "You must wait $time$ before submitting another suggestion."
     },
     "approve": {
       "help": "Javaslat elfogadása",
