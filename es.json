@@ -388,7 +388,7 @@
       "help": "Envía una sugerencia",
       "args": "<sugerencia>",
       "setup": "Las sugerencias no están configuradas. Usa **$prefix$suggestion new** para configurarlas.",
-      "submitChannel": "Usa el canal $channel$ para enviar una sugerencia.",
+      "submitChannel": "Usa el canal $channel$ para enviar sugerencias.",
       "provideSuggestion": "Por favor, proporciona una sugerencia.",
       "cooldown": "Debes esperar $time$ antes de enviar otra sugerencia."
     },
@@ -400,12 +400,12 @@
     "deny": {
       "help": "Deniega una sugerencia",
       "args": "<ID> [razón]",
-      "update": "Tu sugerencia [$id$]($url$) ha sido rechazada."
+      "update": "Tu sugerencia [$id$]($url$) ha sido denegada."
     },
     "maybe": {
       "help": "Marca una sugerencia como potencial",
       "args": "<ID> [razón]",
-      "update": "Tu sugerencia [$id$]($url$) ha sido potencialmente aprobada."
+      "update": "Tu sugerencia [$id$]($url$) ha sido marcada como potencial."
     },
     "invalid": {
       "help": "Marca una sugerencia como inválida",
@@ -462,13 +462,13 @@
     "help": {
       "categories": [
         "Roles",
-        "Sugerencia",
+        "Sugerencias",
         "Registros",
         "Varios"
       ],
       "commands": "Comandos",
       "title": "Enlaces",
-      "footer": "<> = Requerido [ ] = Opcional",
+      "footer": "<> = requerido [] = opcional",
       "links": [
         "[Guía](https://docs.zira.ovh/)",
         "[Servidor de soporte](https://zira.ovh/support)",
