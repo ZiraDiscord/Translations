@@ -155,7 +155,7 @@
     "once": {
       "help": "Establece un rol de un solo uso",
       "args": "<emoji> <rol>",
-      "error": "Debido a que ya hay un rol establecido en este mensaje con ese emoji que no es una reacción de un solo uso, no puedes añadir ningún rol de un solo uso."
+      "error": "Como ya hay un rol establecido en este mensaje con ese emoji que no es una reacción de un solo uso, no puedes añadir ninguna reacción de un solo uso."
     },
     "list": {
       "help": "Muestra todos los roles.",
