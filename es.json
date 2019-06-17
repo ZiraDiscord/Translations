@@ -376,12 +376,12 @@
         "args": "<ID> <#canal>"
       },
       "cooldown": {
-        "help": "Set a cooldown for submitting suggestions.\n[Premium Feature](https://zira.ovh/premium)",
-        "args": "<minutes | disable>",
-        "noTime": "Please try again and provide how many minutes you want the cooldown to last for.",
-        "disable": "There is now no cooldown on suggestions.",
-        "set": "Users will have to wait $time$ minutes before they can submit another suggestion.",
-        "NaN": "Please use a number."
+        "help": "Establece un tiempo de espera para enviar sugerencias.\n[Característica premium](https://zira.ovh/premium)",
+        "args": "<minutos | disable>",
+        "noTime": "Por favor intenta de nuevo y especifica cuántos minutos quieres que dure el tiempo de espera.",
+        "disable": "No hay un tiempo de espera para las sugerencias.",
+        "set": "Los usuarios tendrán que esperar $time$ minutos antes de poder enviar otra sugerencia.",
+        "NaN": "Por favor usa un número."
       }
     },
     "suggest": {
@@ -390,7 +390,7 @@
       "setup": "Las sugerencias no están configuradas. Usa **$prefix$suggestion new** para configurarlas.",
       "submitChannel": "Usa el canal $channel$ para enviar una sugerencia.",
       "provideSuggestion": "Por favor, proporciona una sugerencia.",
-      "cooldown": "You must wait $time$ before submitting another suggestion."
+      "cooldown": "Debes esperar $time$ antes de enviar otra sugerencia."
     },
     "approve": {
       "help": "Aprueba una sugerencia",
