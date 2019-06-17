@@ -2,7 +2,7 @@
   "language": "Português",
   "titles": {
     "success": "Success :white_check_mark:",
-    "error": "Erro! :warning:",
+    "error": "Erro :warning:",
     "usage": "Command Usage",
     "example": "Usage Examples",
     "permission": "Missing Permissions"
@@ -75,7 +75,7 @@
   },
   "commands": {
     "channel": {
-      "help": "Set the active channel.",
+      "help": "Defina o Respectivo Canal.",
       "args": "<#channel>",
       "set": " set as the active channel.",
       "pick": "Please mention the channel you want to use.\nType `cancel` if you would like to cancel."
@@ -374,6 +374,14 @@
       "move": {
         "help": "Move a suggestion to a new channel\n[Premium Feature](https://zira.ovh/premium)",
         "args": "<ID> <#channel>"
+      },
+      "cooldown": {
+        "help": "Set a cooldown for submitting suggestions.\n[Premium Feature](https://zira.ovh/premium)",
+        "args": "<minutes | disable>",
+        "noTime": "Please try again and provide how many minutes you want the cooldown to last for.",
+        "disable": "There is now no cooldown on suggestions.",
+        "set": "Users will have to wait $time$ minutes before they can submit another suggestion.",
+        "NaN": "Please use a number."
       }
     },
     "suggest": {
@@ -381,15 +389,16 @@
       "args": "<suggestion>",
       "setup": "Suggestions are not setup. Use **$prefix$suggestion new** to setup suggestions.",
       "submitChannel": "Please use $channel$ to submit suggestions.",
-      "provideSuggestion": "Please provide a suggestion."
+      "provideSuggestion": "Please provide a suggestion.",
+      "cooldown": "You must wait $time$ before submitting another suggestion."
     },
     "approve": {
-      "help": "Approve a suggestion",
+      "help": "Aprove a sugestão",
       "args": "<ID> [reason]",
       "update": "Your suggestion [$id$]($url$) has been approved."
     },
     "deny": {
-      "help": "Deny a suggestion",
+      "help": "Negar a sugestão",
       "args": "<ID> [reason]",
       "update": "Your suggestion [$id$]($url$) has been denied."
     },
