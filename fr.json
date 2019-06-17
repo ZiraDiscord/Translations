@@ -374,6 +374,14 @@
       "move": {
         "help": "Déplacer une suggestion vers un nouveau salon\n[Premium Feature](https://zira.ovh/premium)",
         "args": "<ID> <#channel>"
+      },
+      "cooldown": {
+        "help": "Set a cooldown for submitting suggestions.\n[Premium Feature](https://zira.ovh/premium)",
+        "args": "<minutes | disable>",
+        "noTime": "Please try again and provide how many minutes you want the cooldown to last for.",
+        "disable": "There is now no cooldown on suggestions.",
+        "set": "Users will have to wait $time$ minutes before they can submit another suggestion.",
+        "NaN": "Please use a number."
       }
     },
     "suggest": {
@@ -381,7 +389,8 @@
       "args": "<suggestion>",
       "setup": "Les suggestions ne sont pas configurées. Utilisez **$prefix$suggestion new** pour configurer les suggestions.",
       "submitChannel": "Veuillez utiliser $channel$ pour soumettre des suggestions.",
-      "provideSuggestion": "Veuillez fournir une suggestion."
+      "provideSuggestion": "Veuillez fournir une suggestion.",
+      "cooldown": "You must wait $time$ before submitting another suggestion."
     },
     "approve": {
       "help": "Approuver une suggestion",

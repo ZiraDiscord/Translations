@@ -374,6 +374,14 @@
       "move": {
         "help": "Flyt et forslag til en ny kanal\n[Kun for Premium](https://zira.ovh/premium)",
         "args": "<ID> <#kanal>"
+      },
+      "cooldown": {
+        "help": "Set a cooldown for submitting suggestions.\n[Premium Feature](https://zira.ovh/premium)",
+        "args": "<minutes | disable>",
+        "noTime": "Please try again and provide how many minutes you want the cooldown to last for.",
+        "disable": "There is now no cooldown on suggestions.",
+        "set": "Users will have to wait $time$ minutes before they can submit another suggestion.",
+        "NaN": "Please use a number."
       }
     },
     "suggest": {
@@ -381,7 +389,8 @@
       "args": "<forslag>",
       "setup": "Forslag er ikke sat op. Brug **$prefix$suggestion new** for at sætte forslag op.",
       "submitChannel": "Brug venligst $channel$ til at indsende forslag.",
-      "provideSuggestion": "Angiv venligst et forslag."
+      "provideSuggestion": "Angiv venligst et forslag.",
+      "cooldown": "You must wait $time$ before submitting another suggestion."
     },
     "approve": {
       "help": "Godkend et forslag",
@@ -421,17 +430,17 @@
         "removed": "Roller vil ikke længere blive givet til brugere hvis de spiller $game$."
       },
       "change": {
-        "help": "Change the name of a game already setup",
-        "args": "<old game> | <new game>",
-        "noargs": "Please provide a game and a new game separated by `|` like so:\n$prefix$presence change Warframe | Tom Clancy's The Division 2",
-        "notExist": "There are no games with the name $game$ setup.",
-        "changed": "$old$ has been renamed to $new$"
+        "help": "Skift navnet på et spil der allerede er sat op",
+        "args": "<gamle spil> | <nye spil>",
+        "noargs": "Angiv venligst et spil og et nyt spil sepereret med et `|` ligesom her:\n$prefix$presence add Warframe | Tom Clancy's Division 2",
+        "notExist": "Der er ikke sat nogle spil op med navnet $game$.",
+        "changed": "$old$ er blevet Omdøbt til $new$"
       },
       "list": {
         "help": "List spil med deres roller",
         "args": ""
       },
-      "logMessage": "$mention$ was given $roles$ because they played $game$"
+      "logMessage": "$mention$ har fået $roles$ fordi de spillede $game$"
     },
     "premium": {
       "help": "Viser denne servers premium status",

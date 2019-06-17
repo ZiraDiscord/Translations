@@ -374,6 +374,14 @@
       "move": {
         "help": "Einen Vorschlag auf einen neuen Kanal verschieben\n[Premium Funktion](https://zira.ovh/premium)",
         "args": "<ID> <#kanal>"
+      },
+      "cooldown": {
+        "help": "Set a cooldown for submitting suggestions.\n[Premium Feature](https://zira.ovh/premium)",
+        "args": "<minutes | disable>",
+        "noTime": "Please try again and provide how many minutes you want the cooldown to last for.",
+        "disable": "There is now no cooldown on suggestions.",
+        "set": "Users will have to wait $time$ minutes before they can submit another suggestion.",
+        "NaN": "Please use a number."
       }
     },
     "suggest": {
@@ -381,7 +389,8 @@
       "args": "<vorschlag>",
       "setup": "Vorschläge sind nicht eingerichtet. Benutz **$prefix$suggestion new**, um Vorschläge zu erstellen.",
       "submitChannel": "Bitte verwendet $channel$, um Vorschläge einzureichen.",
-      "provideSuggestion": "Bitte gib einen Vorschlag."
+      "provideSuggestion": "Bitte gib einen Vorschlag.",
+      "cooldown": "You must wait $time$ before submitting another suggestion."
     },
     "approve": {
       "help": "Vorschlag annehmen",
@@ -421,17 +430,17 @@
         "removed": "Rollen werden nicht mehr an Benutzer vergeben, wenn sie $game$ spielen."
       },
       "change": {
-        "help": "Change the name of a game already setup",
-        "args": "<old game> | <new game>",
-        "noargs": "Please provide a game and a new game separated by `|` like so:\n$prefix$presence change Warframe | Tom Clancy's The Division 2",
-        "notExist": "There are no games with the name $game$ setup.",
-        "changed": "$old$ has been renamed to $new$"
+        "help": "Ändern des Namens eines bereits eingerichteten Spiels",
+        "args": "<altes game> | <neues game>",
+        "noargs": "Bitte gib ein Spiel und ein neues Spiel getrennt durch `|` an:\n$prefix$presence change Warframe | Tom Clancy's The Division 2",
+        "notExist": "Es sind keine Spiele mit dem Namen $game$ eingerichtet.",
+        "changed": "$old$ wurde in $new$ umbenannt"
       },
       "list": {
         "help": "Liste der Spiele mit den dazugehörigen Rollen",
         "args": ""
       },
-      "logMessage": "$mention$ was given $roles$ because they played $game$"
+      "logMessage": "$mention$ wurde $roles$ gegeben, weil $game$ gespielt wurde"
     },
     "premium": {
       "help": "Zeige diesen Premium Status deinem Discord",

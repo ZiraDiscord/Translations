@@ -374,6 +374,14 @@
       "move": {
         "help": "Muovi i suggerimenti in un nuovo canale\n[Funzione Premium](https://zira.ovh/premium)",
         "args": "<ID> <#canale>"
+      },
+      "cooldown": {
+        "help": "Set a cooldown for submitting suggestions.\n[Premium Feature](https://zira.ovh/premium)",
+        "args": "<minutes | disable>",
+        "noTime": "Please try again and provide how many minutes you want the cooldown to last for.",
+        "disable": "There is now no cooldown on suggestions.",
+        "set": "Users will have to wait $time$ minutes before they can submit another suggestion.",
+        "NaN": "Please use a number."
       }
     },
     "suggest": {
@@ -381,7 +389,8 @@
       "args": "<suggerimento>",
       "setup": "I suggerimenti non sono impostati. Utilizza **$prefix$suggestion new** per impostare i suggerimenti.",
       "submitChannel": "Per favore utilizza $channel$ per inviare suggerimenti.",
-      "provideSuggestion": "Per favore fornisci un suggerimento."
+      "provideSuggestion": "Per favore fornisci un suggerimento.",
+      "cooldown": "You must wait $time$ before submitting another suggestion."
     },
     "approve": {
       "help": "Approva un suggerimento",
@@ -404,51 +413,51 @@
       "update": "Il tuo suggerimento [$id$]($url$) è stato marchiato invalido."
     },
     "presence": {
-      "help": "Give roles when someone is playing a game",
+      "help": "Dai un ruolo quando qualcuno sta giocando un gioco",
       "args": "",
       "add": {
-        "help": "Add a game with a role",
-        "args": "<game> | <role>",
-        "noargs": "Please provide a game and a role separated by `|` like so:\n$prefix$presence add Warframe | @Warframe Player",
-        "exists": "This role is already being given for this game.",
-        "set": "$role$ will be given to users if they play $game$."
+        "help": "Aggiungi un gioco con quel ruolo",
+        "args": "<gioco> | <ruolo>",
+        "noargs": "Per favore inserisci un gioco ed un ruolo separato da `|` come questo: $prefix$presence add Warframe | @Warframe Giocatore",
+        "exists": "Questo ruolo è già stato dato per questo gioco.",
+        "set": "$role$ verrà dato agli utenti se essi giocheranno a $game$."
       },
       "remove": {
-        "help": "Remove a game",
-        "args": "<game>",
-        "noargs": "Please provide a game like so:\n$prefix$presence remove Warframe",
-        "notSetup": "This role isn't setup to be given for this game.",
-        "removed": "Roles will no longer be given to users if they play $game$."
+        "help": "Rimuovi un gioco",
+        "args": "<gioco>",
+        "noargs": "Per favore inserisci un gioco seguendo questa sintassi:\n$prefix$presence remove Warframe",
+        "notSetup": "Questo ruolo non è impostato per essere dato con questo gioco.",
+        "removed": "Il ruolo non verrà più dato agli utenti se giocano $game$."
       },
       "change": {
-        "help": "Change the name of a game already setup",
-        "args": "<old game> | <new game>",
-        "noargs": "Please provide a game and a new game separated by `|` like so:\n$prefix$presence change Warframe | Tom Clancy's The Division 2",
-        "notExist": "There are no games with the name $game$ setup.",
-        "changed": "$old$ has been renamed to $new$"
+        "help": "Cambia il nome di un gioco già impostato",
+        "args": "<vecchio gioco> | <nuovo gioco>",
+        "noargs": "Per favore inserisci un primo gioco e un secondo gioco separato da `|` come questo: \n$prefix$presence change Warframe | Tom Clancy's The Division 2",
+        "notExist": "Non ci sono giochi con il nome $game$ impostati.",
+        "changed": "$old$ è stato rinominato in $new$"
       },
       "list": {
-        "help": "List games with their roles",
+        "help": "Lista di giochi con i loro ruoli",
         "args": ""
       },
-      "logMessage": "$mention$ was given $roles$ because they played $game$"
+      "logMessage": "$mention$ ha ricevuto $roles$ perché ha giocato $game$"
     },
     "premium": {
-      "help": "Show this guilds premium status",
+      "help": "Vedi gli stati premium dei server",
       "args": "",
-      "nonPremium": "This guild doesn't have premium :frowning:\nIf you would like to buy premium you can do so [here](https://zira.ovh/premium)",
-      "title": "Premium Info for $guild$",
-      "expires": "Expires",
-      "buyers": "Recent Buyers",
-      "days": "days",
-      "flags": "Flags",
+      "nonPremium": "Questo server non possiede il premium :frowning:\nSe desideri acquistare il premium puoi farlo [qui](https://zira.ovh/premium)",
+      "title": "Informazioni Premium per $guild$",
+      "expires": "Scadenza in",
+      "buyers": "Compratori Recenti",
+      "days": "giorni",
+      "flags": "Parametri",
       "partner": "Partner",
-      "translator": "Translator",
+      "translator": "Traduttore",
       "giveaway": "Giveaway",
       "boost": "Boost",
-      "yes": "Yes",
+      "yes": "Sì",
       "no": "No",
-      "thanks": "Thank you for supporting Zira"
+      "thanks": "Grazie per aver supportato Zira"
     },
     "help": {
       "categories": [

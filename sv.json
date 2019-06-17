@@ -374,6 +374,14 @@
       "move": {
         "help": "Flytta ett förslag till en ny kanal [Premiumfunktion](https://zira.ovh/premium)",
         "args": "<ID> <#channel>"
+      },
+      "cooldown": {
+        "help": "Set a cooldown for submitting suggestions.\n[Premium Feature](https://zira.ovh/premium)",
+        "args": "<minutes | disable>",
+        "noTime": "Please try again and provide how many minutes you want the cooldown to last for.",
+        "disable": "There is now no cooldown on suggestions.",
+        "set": "Users will have to wait $time$ minutes before they can submit another suggestion.",
+        "NaN": "Please use a number."
       }
     },
     "suggest": {
@@ -381,7 +389,8 @@
       "args": "<förslag>",
       "setup": "Förslag har inte ställts in. Använd **$prefix$suggestion new** för att ställa in förslag.",
       "submitChannel": "Vänligen använd $channel$ för att skicka in förslag.",
-      "provideSuggestion": "Vänligen ange ett förslag."
+      "provideSuggestion": "Vänligen ange ett förslag.",
+      "cooldown": "You must wait $time$ before submitting another suggestion."
     },
     "approve": {
       "help": "Godkänn ett förslag",

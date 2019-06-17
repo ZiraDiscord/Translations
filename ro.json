@@ -12,7 +12,7 @@
     "unknown": {
       "channel": "Canal necunoscut. Asigură-te că există şi că am permisiunea să îl accesez.",
       "message": "Mesajul nu a fost găsit în canalul activ. Asigură-te că există şi că am permisiunea să îl accesez.",
-      "emoji": "I can't use this emoji. Please make sure the emoji can be found in Discord's emoji picker. If it's in the emoji picker and it's a custom emoji make sure I'm in the server that it comes from. If the emoji still doesn't work make sure I have the permission **Use External Emojis** in the active channel. If all else fails join the support guild and someone from the support team will help you.",
+      "emoji": "Nu pot folosi acest emoji. Asigură-te că emoji-ul este un emoji Discord. Dacă este un emoji custom, asigură-te ca sunt în server-ul din care provine. Dacă emoji-ul tot nu funcționează asigură-te că am permisiunea **Folosește Emoji-uri Externe** în canalul activ. Dacă nimic nu merge, intră în server-ul nostru de suport și cineva de va ajuta.",
       "suggestion": "O sugestie cu acel ID nu a fost gasită."
     },
     "interactive": {
@@ -174,13 +174,13 @@
       "args": "",
       "check": {
         "help": "Verifică pentru roluri șterse de pe un mesaj.",
-        "args": "<message ID>",
+        "args": "<ID mesaj>",
         "none": "Toate rolurile valide.",
         "removed": "rol(uri) eliminate."
       },
       "all": {
         "help": "Elimină toate rolurile de pe un mesaj.",
-        "args": "<message ID>",
+        "args": "<ID mesaj>",
         "done": "Toate rolurile de pe mesaj au fost eliminate."
       },
       "remove": {
@@ -198,19 +198,19 @@
       "success": "Mesajul a fost editat.",
       "pick": "Te rog să furnizezi un mesaj nou.",
       "interactive": {
-        "stage": "Stage ",
-        "skipped": "Stage skipped.",
+        "stage": "Pas ",
+        "skipped": "Pas sărit.",
         "title": "Dacă vrei, furnizează un titlu.\n\nVei avea 2 minute pentru fiecare pas pentru a introduce valori.\n\nDacă deja ai un JSON pe care vrei să îl folosești, poți rula comanda **z/edit $message <JSON>**\n\nPoți sări peste acest pas scriind `skip`.",
-        "description": "If you would like a description please provide one.\n\nYou can skip this stage by typing `skip`.",
-        "image": "If you would like an image please provide a link or upload one\n\nYou can skip this stage by typing `skip`.",
-        "footer": "If you would like a footer please provide one\n\nYou can skip this stage by typing `skip`.",
-        "color": "If you would like a color please provide a hex code\n\nYou can skip this stage by typing `skip`.",
+        "description": "Dacă vrei, furnizează o descriere.\n\nPoți sări peste acest pas scriind `skip`.",
+        "image": "Dacă vrei, furnizează un link de imagine sau încarcă o imagine direct.\n\nPoți sări peste acest pas scriind `skip`.",
+        "footer": "Dacă vrei, furnizează o notă de subsol.\n\nPoți sări peste acest pas scriind `skip`.",
+        "color": "Dacă vrei, furnizează un cod hex de culoare.\n\nPoți sări peste acest pas scriind `skip`.",
         "creating": "Editare embed."
       }
     },
     "log": {
       "help": "Înregistrează acțiunile efectuate într-un canal",
-      "args": "<#channel>",
+      "args": "<#canal>",
       "set": " a fost setat ca canalul de înregistrări.\n\n**Atenție:** Dacă nu pot trimite mesaje in acest canal, voi dezactiva înregistrarea.",
       "disable": "Înregistrarea acțiunilor a fost dezactivată."
     },
@@ -225,7 +225,7 @@
       },
       "bot": {
         "help": "Adaugă roluri boților când intră în server",
-        "args": "<role>",
+        "args": "<rol>",
         "set": "Rolul $role$ va fi dat boților când intră.",
         "remove": "Rolul $role$ nu va mai fi dat boților când intră."
       },
@@ -242,7 +242,7 @@
       "args": "",
       "channel": {
         "help": "Setează canalul pentru mesaje de intrare",
-        "args": "<#channel>",
+        "args": "<#canal>",
         "set": " a fost setat ca canalul de intrări.\n\n**Atenție:** Dacă nu pot trimite mesaje in acest canal, voi dezactiva mesajele de intrare."
       },
       "disable": {
@@ -268,7 +268,7 @@
       },
       "placeholders": {
         "title": "Template-uri",
-        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "description": "$user$ - numele de utilizator\n$discriminator$ - discriminatorul utilizatorului\n$id$ - ID utilizator\n$mention$ - mențiune utilizator\n$guild$ - numele server-ului\n$membercount$ - numărul nou de membri"
       }
     },
     "leave": {
@@ -276,7 +276,7 @@
       "args": "",
       "channel": {
         "help": "Setează canalul pentru mesaje de ieșire",
-        "args": "<#channel>",
+        "args": "<#canal>",
         "set": " a fost setat ca canalul de ieșiri.\n\n**Atenție:** Dacă nu pot trimite mesaje in acest canal, voi dezactiva mesajele de ieșire."
       },
       "disable": {
@@ -286,23 +286,23 @@
       },
       "add": {
         "help": "Adaugă un mesaj.",
-        "args": "<message>",
-        "success": "Message added."
+        "args": "<mesaj>",
+        "success": "Mesaj adăugat."
       },
       "remove": {
-        "help": "Remove a message",
-        "args": "<ID from list>",
+        "help": "Elimină un mesaj",
+        "args": "<ID din listă>",
         "noID": "Te rog furnizează un ID din lista **$prefix$leave**",
         "notFound": "Un mesaj cu acel ID nu există.",
-        "success": "Message deleted."
+        "success": "Mesaj șters."
       },
       "list": {
-        "help": "List of messages",
+        "help": "Lista mesajelor",
         "args": ""
       },
       "placeholders": {
         "title": "Template-uri",
-        "description": "$user$ - username\n$discriminator$ - user's discriminator\n$id$ - user's ID\n$mention$ - user mention\n$guild$ - guild name\n$membercount$ - new member count"
+        "description": "$user$ - numele de utilizator\n$discriminator$ - discriminatorul utilizatorului\n$id$ - ID utilizator\n$mention$ - mențiune utilizator\n$guild$ - numele server-ului\n$membercount$ - numărul nou de membri"
       }
     },
     "rooms": {
@@ -321,19 +321,19 @@
       },
       "approved": {
         "help": "Setează canalul în care vor fi trimise sugestiile aprobate",
-        "args": "<#channel | disable>",
+        "args": "<#canal | disable>",
         "set": "Sugestiile aprobate vor fi trimise în",
         "disable": "Sugestiile aprobate nu vor mai fi mutate într-un alt canal."
       },
       "denied": {
         "help": "Setează canalul în care vor fi trimise sugestiile respinse",
-        "args": "<#channel | disable>",
+        "args": "<#canal | disable>",
         "set": "Sugestiile respinse vor fi trimise în",
         "disable": "Sugestiile respinse nu vor mai fi mutate într-un alt canal."
       },
       "invalid": {
         "help": "Setează canalul în care vor fi trimise sugestiile invalide",
-        "args": "<#channel | disable>",
+        "args": "<#canal | disable>",
         "set": "Sugestiile invalide vor fi trimise în",
         "disable": "Sugestiile invalide nu vor mai fi mutate într-un alt canal."
       },
@@ -345,7 +345,7 @@
       },
       "submit": {
         "help": "Setează canalul din care pot fi trimise sugestii\n[Funcție Premium](https://zira.ovh/premium)",
-        "args": "<#channel | disable>",
+        "args": "<#canal | disable>",
         "set": "Sugestiile pot să fie trimise doar din",
         "disable": "Sugestiile vor putea sa fie trimise din orice canal."
       },
@@ -372,8 +372,16 @@
         "disable": "Oricine cu permisiunea **Gestionează Server** va putea să interacționeze cu sugestii."
       },
       "move": {
-        "help": "Move a suggestion to a new channel\n[Premium Feature](https://zira.ovh/premium)",
-        "args": "<ID> <#channel>"
+        "help": "Mută o sugestie într-un alt canal\n[Funcție Premium](https://zira.ovh/premium)",
+        "args": "<ID> <#canal>"
+      },
+      "cooldown": {
+        "help": "Set a cooldown for submitting suggestions.\n[Premium Feature](https://zira.ovh/premium)",
+        "args": "<minutes | disable>",
+        "noTime": "Please try again and provide how many minutes you want the cooldown to last for.",
+        "disable": "There is now no cooldown on suggestions.",
+        "set": "Users will have to wait $time$ minutes before they can submit another suggestion.",
+        "NaN": "Please use a number."
       }
     },
     "suggest": {
@@ -381,7 +389,8 @@
       "args": "<sugestie>",
       "setup": "Sugestiile nu au fost configurate. Folosește comanda **$prefix$suggestion new** pentru a configura funcția de sugestii.",
       "submitChannel": "Folosește $channel$ pentru a trimite sugestii.",
-      "provideSuggestion": "Sugestia nu poate să fie goală."
+      "provideSuggestion": "Sugestia nu poate să fie goală.",
+      "cooldown": "You must wait $time$ before submitting another suggestion."
     },
     "approve": {
       "help": "Aprobă o sugestie",
@@ -390,7 +399,7 @@
     },
     "deny": {
       "help": "Respinge o sugestie",
-      "args": "<ID> [reason]",
+      "args": "<ID> [motiv]",
       "update": "Sugestia ta [$id$]($url$) a fost respinsă."
     },
     "maybe": {
@@ -404,51 +413,51 @@
       "update": "Sugestia ta [$id$]($url$) a fost marcată ca fiind invalidă."
     },
     "presence": {
-      "help": "Give roles when someone is playing a game",
+      "help": "Adaugă roluri persoanelor care se joacă un anumit joc",
       "args": "",
       "add": {
-        "help": "Add a game with a role",
-        "args": "<game> | <role>",
-        "noargs": "Please provide a game and a role separated by `|` like so:\n$prefix$presence add Warframe | @Warframe Player",
-        "exists": "This role is already being given for this game.",
-        "set": "$role$ will be given to users if they play $game$."
+        "help": "Adaugă un joc cu un rol",
+        "args": "<joc> | <rol>",
+        "noargs": "Vă rugăm furnizați un joc și un rol separate de `|`. Exemplu:\n$prefix$presence add Warframe | @Warframe Player",
+        "exists": "Acest rol este deja dat pentru acest joc.",
+        "set": "$role$ va fi dat utilizatorilor când se joacă $game$."
       },
       "remove": {
-        "help": "Remove a game",
-        "args": "<game>",
-        "noargs": "Please provide a game like so:\n$prefix$presence remove Warframe",
-        "notSetup": "This role isn't setup to be given for this game.",
-        "removed": "Roles will no longer be given to users if they play $game$."
+        "help": "Elimină un joc",
+        "args": "<joc>",
+        "noargs": "Te rog furnizează un joc. Exemplu:\n$prefix$ presence remove Warframe",
+        "notSetup": "Acest rol nu este setat să fie dat pentru acest joc.",
+        "removed": "Niciun rol nu o să mai fie dat utilizatorilor care se joaca $game$."
       },
       "change": {
-        "help": "Change the name of a game already setup",
-        "args": "<old game> | <new game>",
-        "noargs": "Please provide a game and a new game separated by `|` like so:\n$prefix$presence change Warframe | Tom Clancy's The Division 2",
-        "notExist": "There are no games with the name $game$ setup.",
-        "changed": "$old$ has been renamed to $new$"
+        "help": "Schimbă numele unui joc deja setat",
+        "args": "<joc vechi> | <joc nou>",
+        "noargs": "Vă rugăm furnizați un joc vechi și un joc nou separate de `|`. Exemplu:\n$prefix$presence change Warframe | Tom Clancy's The Division 2",
+        "notExist": "Nu exisă jocuri setate cu numele $game$.",
+        "changed": "$old$ a fost redenumit la $new$"
       },
       "list": {
-        "help": "List games with their roles",
+        "help": "Afișează lista jocurilor care au roluri",
         "args": ""
       },
-      "logMessage": "$mention$ was given $roles$ because they played $game$"
+      "logMessage": "$mention$ a primit $roles$ pentru că s-au jucat $game$"
     },
     "premium": {
-      "help": "Show this guilds premium status",
+      "help": "Arată status-ul premium-ului în acest server",
       "args": "",
-      "nonPremium": "This guild doesn't have premium :frowning:\nIf you would like to buy premium you can do so [here](https://zira.ovh/premium)",
-      "title": "Premium Info for $guild$",
-      "expires": "Expires",
-      "buyers": "Recent Buyers",
-      "days": "days",
-      "flags": "Flags",
-      "partner": "Partner",
-      "translator": "Translator",
+      "nonPremium": "Acest server nu are premium :frowning:\nDacă dorești să cumperi premium, poți face asta [aici](https://zira.ovh/premium)",
+      "title": "Informație Premium pentru $guild$",
+      "expires": "Expiră",
+      "buyers": "Cumpărători Recenți",
+      "days": "zile",
+      "flags": "Tipuri",
+      "partner": "Partener",
+      "translator": "Traducător",
       "giveaway": "Giveaway",
       "boost": "Boost",
-      "yes": "Yes",
-      "no": "No",
-      "thanks": "Thank you for supporting Zira"
+      "yes": "Da",
+      "no": "Nu",
+      "thanks": "Vă mulțumim de donație"
     },
     "help": {
       "categories": [
