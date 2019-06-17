@@ -376,8 +376,8 @@
         "args": "<ID> <#kanal>"
       },
       "cooldown": {
-        "help": "Set a cooldown for submitting suggestions.\n[Premium Feature](https://zira.ovh/premium)",
-        "args": "<minutes | disable>",
+        "help": "Sæt en nedkøling for at indsende forslag.\n[Kun for Premium](https://zira.ovh/premium)",
+        "args": "<minutter | disable>",
         "noTime": "Please try again and provide how many minutes you want the cooldown to last for.",
         "disable": "There is now no cooldown on suggestions.",
         "set": "Users will have to wait $time$ minutes before they can submit another suggestion.",
