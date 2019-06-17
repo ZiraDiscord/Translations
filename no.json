@@ -12,7 +12,7 @@
     "unknown": {
       "channel": "Ukjent kanal. Vennligst sjekk at den eksisterer, og hvis den gjør det, at jeg har de nødvendige tillatelsene til å se den.",
       "message": "Kunne ikke finne melding i den aktive kanalen. Vennligst sjekk at den eksisterer, og hvis den gjør det, at jeg har de nødvendige tillatelsene til å se den.",
-      "emoji": "I can't use this emoji. Please make sure the emoji can be found in Discord's emoji picker. If it's in the emoji picker and it's a custom emoji make sure I'm in the server that it comes from. If the emoji still doesn't work make sure I have the permission **Use External Emojis** in the active channel. If all else fails join the support guild and someone from the support team will help you.",
+      "emoji": "Jeg kan ikke bruke denne emojien. Vennligst sjekk at emojien kan bli funnet i Discords emoji velger. Hvis den finnes i emoji velgeren og det er et custom emoji sjekk at jeg er i serveren den kommer fra. Hvis emojien fortsatt ikke fungerer, sjekk at jeg har rettigheten **Bruk Eksterne Emojier** i den aktive kanalen. Hvis alt annet ikke fungerer, bli med i support guilden og noen fra support teamet vil hjelpe deg.",
       "suggestion": "Et forslag med den ID ble ikke funnet."
     },
     "interactive": {
@@ -49,19 +49,19 @@
       "noRoleProvided": "Vennligst oppgi en rolle.",
       "noChannelProvided": "Vennligst oppgi en kanal.",
       "noMessageProvided": "Vennligst oppgi en melding.",
-      "noSuggestionProvided": "Please provide a suggestion ID or a message ID of the suggestion you want."
+      "noSuggestionProvided": "Vennligst oppgi et forslag ID eller meldings ID til forslaget du ønsker."
     },
     "premium": "Denne funksjonen er kun for [premium](https://zira.ovh/premium).",
-    "suggestionsRole": "You need the $role$ role to manage suggestions."
+    "suggestionsRole": "Du trenger rollen $role$ for å styre forslag."
   },
   "page": "Side",
   "logging": {
     "addReaction": {
-      "add": "$mention$ reacted with $emoji$ to get $added$",
-      "remove": "$mention$ reacted with $emoji$ to remove $removed$",
-      "both": "$mention$ reacted with $emoji$ to get $added$ and to remove $removed$"
+      "add": "$mention$ reagerte med $emoji$ for å få $added$",
+      "remove": "$mention$ reagerte med $emoji$ for å fjerne $removed$",
+      "both": "$mention$ reagerte med $emoji$ for å få $added$ og fjerne $removed$"
     },
-    "removeReaction": "$mention$ unreacted $emoji$ to remove $roles$"
+    "removeReaction": "$mention$ fjernet reaksjon $emoji$ for å fjerne $roles$"
   },
   "suggestions": {
     "reason": "$user$'e Grunn",
@@ -84,7 +84,7 @@
       "help": "Sett den aktive meldingen.",
       "args": "<meldings ID>",
       "set": "Melding satt.",
-      "pick": "Please provide a message ID for Zira to use or message for Zira to send.\nType `cancel` if you would like to cancel."
+      "pick": "Vennligst oppgi en melding ID for Zira å bruke eller melding for Zira å sende.\nSkriv 'cancel' hvis du ønsker å avslutte."
     },
     "embed": {
       "help": "Create an embed that will be used as the active message.",
@@ -92,8 +92,8 @@
       "JSONerror": "Invalid JSON provided.\nYou can use the embed creator by using the command",
       "created": "Embed created.",
       "interactive": {
-        "stage": "Stage ",
-        "skipped": "Stage skipped.",
+        "stage": "Steg ",
+        "skipped": "Steg hoppet over.",
         "title": "If you would like a title please provide one.\n\nYou'll have 2 minutes for each of the stages to enter in values.\n\nIf you have JSON you would like to use instead of this creator please use **z/embed <JSON>**\n\nYou can skip this stage by typing `skip`.",
         "description": "If you would like a description please provide one.\n\nYou can skip this stage by typing `skip`.",
         "image": "If you would like an image please provide a link or upload one\n\nYou can skip this stage by typing `skip`.",
@@ -153,8 +153,8 @@
       "limit": "There is a limit of 6 free toggled roles. You get unlimited toggled roles with [premium](https://zira.ovh/premium)"
     },
     "once": {
-      "help": "Setup a once role",
-      "args": "<emoji> <role>",
+      "help": "Sett opp en engangs rolle",
+      "args": "<emoji> <rolle>",
       "error": "Since there is a role set on this message with this emoji already that isn't a once reaction, you cant add any once reactions."
     },
     "list": {
@@ -180,14 +180,14 @@
       },
       "all": {
         "help": "Fjern alle roller fra en melding.",
-        "args": "<message ID>",
-        "done": "Any roles on the message have been removed."
+        "args": "<melding ID>",
+        "done": "Alle roller på den meldingen har blitt fjernet."
       },
       "remove": {
-        "help": "Remove a role from a message",
-        "args": "<message ID> <role>",
-        "none": "That role is not setup on that message ID.",
-        "done": "The role has been removed."
+        "help": "Fjern en rolle fra en melding",
+        "args": "<melding ID> <rolle>",
+        "none": "Den rollen er ikke satt opp på den melding IDen.",
+        "done": "Rollen har blitt fjernet."
       },
       "description": "You can find the message ID a role is on with **$prefix$list**."
     },
@@ -195,11 +195,11 @@
       "help": "Edit a message sent by Zira.",
       "args": "<message ID> <new message>",
       "notFound": "That message ID was not found.",
-      "success": "Message has been edited.",
-      "pick": "Please provide a new message.",
+      "success": "Melding har blitt redigert.",
+      "pick": "Vennligst oppgi en ny melding.",
       "interactive": {
-        "stage": "Stage ",
-        "skipped": "Stage skipped.",
+        "stage": "Seg ",
+        "skipped": "Steg hoppet over.",
         "title": "If you would like a title please provide one.\n\nYou'll have 2 minutes for each of the stages to enter in values.\n\nIf you have JSON you would like to use instead of this creator please use **z/edit $message <JSON>**\n\nYou can skip this stage by typing `skip`.",
         "description": "If you would like a description please provide one.\n\nYou can skip this stage by typing `skip`.",
         "image": "If you would like an image please provide a link or upload one\n\nYou can skip this stage by typing `skip`.",
@@ -246,21 +246,21 @@
         "set": " set as the join channel.\n\n**Note:** If I can't send messages to the channel I will disable join messages."
       },
       "disable": {
-        "help": "Disable join messages",
+        "help": "Slå av bli med meldinger",
         "args": "",
-        "success": "Join messages disabled."
+        "success": "Bli med meldinger slått av."
       },
       "add": {
-        "help": "Add a message.",
-        "args": "<message>",
-        "success": "Message added."
+        "help": "Legg til en melding.",
+        "args": "<melding>",
+        "success": "Melding lagt til."
       },
       "remove": {
-        "help": "Remove a message",
-        "args": "<ID from list>",
+        "help": "Fjern en melding",
+        "args": "<ID fra liste>",
         "noID": "Please provide an ID from $prefix$join list",
-        "notFound": "A message with that ID doesn't exist.",
-        "success": "Message deleted."
+        "notFound": "En melding med den IDen eksisterer ikke.",
+        "success": "Melding slettet."
       },
       "list": {
         "help": "List of messages",
@@ -452,22 +452,22 @@
       "days": "days",
       "flags": "Flags",
       "partner": "Partner",
-      "translator": "Translator",
+      "translator": "Oversetter",
       "giveaway": "Giveaway",
       "boost": "Boost",
-      "yes": "Yes",
-      "no": "No",
-      "thanks": "Thank you for supporting Zira"
+      "yes": "Ja",
+      "no": "Nei",
+      "thanks": "Takk for at du støtter Zira"
     },
     "help": {
       "categories": [
-        "Roles",
-        "Suggestion",
+        "Roller",
+        "Forslag",
         "Logging",
-        "Miscellaneous"
+        "Diverse"
       ],
-      "commands": "Commands",
-      "title": "Links",
+      "commands": "Kommandoer",
+      "title": "Linker",
       "footer": "<> = Required [] = Optional",
       "links": [
         "[Guide](https://docs.zira.ovh/)",
