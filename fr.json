@@ -432,15 +432,15 @@
       "change": {
         "help": "Changer le nom d'un jeu déjà configuré",
         "args": "<old game> | <new game>",
-        "noargs": "Please provide a game and a new game separated by `|` like so:\n$prefix$presence change Warframe | Tom Clancy's The Division 2",
-        "notExist": "There are no games with the name $game$ setup.",
-        "changed": "$old$ has been renamed to $new$"
+        "noargs": "Veuillez fournir un jeu et un nouveau jeu séparés par `|` comme suit :\n$prefix$presence change Minecraft | Tom Clancy's La Division 2",
+        "notExist": "Il n'y a pas de jeu portant le nom $game$ installer.",
+        "changed": "$old$ a été renommé en $new$"
       },
       "list": {
         "help": "Liste des jeux avec leurs rôles",
         "args": ""
       },
-      "logMessage": "$mention$ was given $roles$ because they played $game$"
+      "logMessage": "$mention$ a reçu $roles$ parce qu'il joue à $game$"
     },
     "premium": {
       "help": "Afficher le statut premium de ce serveur",
