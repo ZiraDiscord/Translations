@@ -361,14 +361,14 @@
       },
       "emojis": {
         "help": "Establece los emojis que se usaran para reaccionar a las sugerencias\n[Característica Premium](https://zira.ovh/premium)",
-        "args": "<PrimerEmoji> <SegundoEmoji>",
+        "args": "<emojiUno> <emojiDos>",
         "set": "Los emojis han sido establecidos.",
         "needTwo": "Por favor, proporciona dos emojis."
       },
       "role": {
         "help": "Establece un rol que pueda aprobar, rechazar, etc. las sugerencias",
         "args": "<rol | disable>",
-        "set": "Sólo los usuarios con $role$ y el dueño del servidor podrán interactuar con las sugerencias.",
+        "set": "Solo los usuarios con el rol $role$ y el dueño del servidor podrán administrar las sugerencias.",
         "disable": "Cualquiera con los permisos para **Administrar el Servidor** podrá interactuar con las sugerencias."
       },
       "move": {
