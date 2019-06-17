@@ -33,13 +33,13 @@
     },
     "roles": {
       "unknown": "No puedo encontrar ese rol, asegúrate de que existe.",
-      "managed": "Los roles integrados no se pueden usar. Solo los creados por usuarios o bots son válidos.",
+      "managed": "Los roles integrados no se pueden usar. Solo los roles creados por usuarios o bots.",
       "used": "No puedes usar este rol porque ya fue establecido con este emoji.",
       "once": "Como ya hay un rol de un solo uso (once) en este mensaje, no puedes agregar más roles que sean de otro tipo."
     },
     "general": {
       "maxReactions": "No puedo agregar más roles a este mensaje porque ya tiene 20 reacciones. Si quieres establecer este rol, elimina algún rol de este mensaje o crea un mensaje nuevo. Esto es un límite de Discord.",
-      "missingSetup": "Por favor establece el canal y el mensaje primero, luego intenta usar este comando de nuevo.",
+      "missingSetup": "Establece un canal **y** un mensaje primero y luego prueba este comando de nuevo.",
       "missingChannel": "Establece un canal primero y luego prueba este comando de nuevo.",
       "missingMessage": "Establece un mensaje primero y luego prueba este comando de nuevo.",
       "missingMessageID": "Proporciona un ID de mensaje por favor.",
