@@ -345,14 +345,14 @@
       },
       "submit": {
         "help": "Set the channel users will have to use to submit a suggestion\n[Premium Feature](https://zira.ovh/premium)",
-        "args": "<#channel | disable>",
-        "set": "Suggestions can now only be made in",
-        "disable": "Suggestions can now be made in any channel."
+        "args": "<#channel | deaktiver>",
+        "set": "Forslag kan nå kun bli laget i",
+        "disable": "Forslag kan nå sendes fra hvilken som helst kanal."
       },
       "dm": {
         "help": "Set whether users should get updates on their suggestions\n[Premium Feature](https://zira.ovh/premium)",
-        "on": "Users will get updates about their suggestions.",
-        "off": "Users won't be updated about their suggestions."
+        "on": "Brukere vil få oppdateringer om forslagene deres.",
+        "off": "Brukere vil ikke bli oppdatert om forslagene deres."
       },
       "reaction": {
         "help": "Set whether emojis should be reacted to new suggestions\n[Premium Feature](https://zira.ovh/premium)",
@@ -440,16 +440,16 @@
         "help": "List games with their roles",
         "args": ""
       },
-      "logMessage": "$mention$ was given $roles$ because they played $game$"
+      "logMessage": "$mention$ ble gitt $roles$ fordi de spiller $game$"
     },
     "premium": {
-      "help": "Show this guilds premium status",
+      "help": "Vis denne guildens premium status",
       "args": "",
-      "nonPremium": "This guild doesn't have premium :frowning:\nIf you would like to buy premium you can do so [here](https://zira.ovh/premium)",
-      "title": "Premium Info for $guild$",
+      "nonPremium": "Denne guilden har ikke premium :frowning:\nHvis du ønsker å kjøpe premium, så kan du gjøre dette [her](https://zira.ovh/premium)",
+      "title": "Premium Informasjon for $guild$",
       "expires": "Expires",
       "buyers": "Recent Buyers",
-      "days": "days",
+      "days": "dager",
       "flags": "Flags",
       "partner": "Partner",
       "translator": "Oversetter",
@@ -470,11 +470,11 @@
       "title": "Linker",
       "footer": "<> = Required [] = Optional",
       "links": [
-        "[Guide](https://docs.zira.ovh/)",
-        "[Support Server](https://zira.ovh/support)",
+        "[Veiledning](https://docs.zira.ovh/)",
+        "[Support Guild](https://zira.ovh/support)",
         "[Zira Premium](https://zira.ovh/premium)",
-        "[Invite Zira](https://zira.ovh/invite)",
-        "[Translate Zira](https://translate.zira.ovh/)",
+        "[Inviter Zira](https://zira.ovh/invite)",
+        "[Oversett Zira] (https://translate.zira.ovh/)",
         "[Bot Status](https://status.imjake.me/)"
       ]
     }
