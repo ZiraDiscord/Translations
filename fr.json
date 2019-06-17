@@ -376,12 +376,12 @@
         "args": "<ID> <#channel>"
       },
       "cooldown": {
-        "help": "Set a cooldown for submitting suggestions.\n[Premium Feature](https://zira.ovh/premium)",
+        "help": "Définissez un temps d'attente pour l'envoi de suggestions. \n[Fonction Premium](https://zira.ovh/premium)",
         "args": "<minutes | disable>",
-        "noTime": "Please try again and provide how many minutes you want the cooldown to last for.",
-        "disable": "There is now no cooldown on suggestions.",
-        "set": "Users will have to wait $time$ minutes before they can submit another suggestion.",
-        "NaN": "Please use a number."
+        "noTime": "Veuillez réessayer et indiquez combien de minutes vous souhaitez que le temps d'attente dure.",
+        "disable": "Il n'y a maintenant plus de temps d'attente pour les suggestions.",
+        "set": "Les utilisateurs devront attendre $time$ minutes avant de pouvoir soumettre une autre suggestion.",
+        "NaN": "Veuillez utiliser un numéro."
       }
     },
     "suggest": {
@@ -390,7 +390,7 @@
       "setup": "Les suggestions ne sont pas configurées. Utilisez **$prefix$suggestion new** pour configurer les suggestions.",
       "submitChannel": "Veuillez utiliser $channel$ pour soumettre des suggestions.",
       "provideSuggestion": "Veuillez fournir une suggestion.",
-      "cooldown": "You must wait $time$ before submitting another suggestion."
+      "cooldown": "Vous devez attendre $time$ avant de soumettre une autre suggestion."
     },
     "approve": {
       "help": "Approuver une suggestion",
@@ -430,7 +430,7 @@
         "removed": "Les rôles ne seront plus attribués aux utilisateurs s’ils jouent à $game$."
       },
       "change": {
-        "help": "Change the name of a game already setup",
+        "help": "Changer le nom d'un jeu déjà configuré",
         "args": "<old game> | <new game>",
         "noargs": "Please provide a game and a new game separated by `|` like so:\n$prefix$presence change Warframe | Tom Clancy's The Division 2",
         "notExist": "There are no games with the name $game$ setup.",
