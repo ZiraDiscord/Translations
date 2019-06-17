@@ -378,10 +378,10 @@
       "cooldown": {
         "help": "Sæt en nedkøling for at indsende forslag.\n[Kun for Premium](https://zira.ovh/premium)",
         "args": "<minutter | disable>",
-        "noTime": "Please try again and provide how many minutes you want the cooldown to last for.",
-        "disable": "There is now no cooldown on suggestions.",
-        "set": "Users will have to wait $time$ minutes before they can submit another suggestion.",
-        "NaN": "Please use a number."
+        "noTime": "Prøv venligst igen, og skriv hvor mange minutter du vil have nedkølingen til at vare.",
+        "disable": "Der er ingen nedkøling på forslag.",
+        "set": "Brugere skal nu vente $time$ minutter før de kan indsende forslag igen.",
+        "NaN": "Venligst brug et nummer."
       }
     },
     "suggest": {
@@ -390,7 +390,7 @@
       "setup": "Forslag er ikke sat op. Brug **$prefix$suggestion new** for at sætte forslag op.",
       "submitChannel": "Brug venligst $channel$ til at indsende forslag.",
       "provideSuggestion": "Angiv venligst et forslag.",
-      "cooldown": "You must wait $time$ before submitting another suggestion."
+      "cooldown": "Du skal vente $time$ før du indsender forslag igen."
     },
     "approve": {
       "help": "Godkend et forslag",
