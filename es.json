@@ -471,11 +471,11 @@
       "footer": "<> = Requerido [ ] = Opcional",
       "links": [
         "[Guía](https://docs.zira.ovh/)",
-        "[Servidor de Soporte](https://zira.ovh/support)",
-        "[Zira Premium](https://zira.ovh/premium)",
+        "[Servidor de soporte](https://zira.ovh/support)",
+        "[Zira premium](https://zira.ovh/premium)",
         "[Invita a Zira](https://zira.ovh/invite)",
-        "[Ayuda a Traducir Zira](https://translate.zira.ovh/)",
-        "[Estado del Bot](https://status.imjake.me/)"
+        "[Ayuda a traducir a Zira](https://translate.zira.ovh/)",
+        "[Estado del bot](https://status.imjake.me/)"
       ]
     }
   }
