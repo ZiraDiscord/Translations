@@ -12,7 +12,7 @@
     "unknown": {
       "channel": "Canal desconocido. Asegúrate de que existe, y si es así, de que tengo los permisos adecuados para verlo.",
       "message": "Mensaje no encontrado en el canal seleccionado. Asegúrate de que existe, y si es así, de que tengo los permisos requeridos para verlo.",
-      "emoji": "No puedo usar este emoji. Por favor asegúrate que el emoji aparezca en los emojis de Discord. Si está en los emojis de discord y es un emoji personalizado, asegúrate de que estoy en el servidor de donde proviene. Si el emoji aún no funciona, verifica que tengo el permiso **Usar Emojis Externos** en el canal. Si continua fallando únete al servidor de soporte para recibir ayuda del equipo de soporte.",
+      "emoji": "No puedo usar este emoji. Por favor asegúrate que el emoji pueda ser encontrado en el selector de emojis de Discord. Si se encuentra ahí y es un emoji personalizado asegúrate que estoy en el servidor de donde proviene. Si el emoji aún no funciona asegúrate que tengo el permiso **Usar emojis externos** en el canal. Si todo lo demás falla, únete al servidor de soporte y alguien del equipo de soporte te ayudará.",
       "suggestion": "No se ha encontrado ninguna sugerencia con esa ID."
     },
     "interactive": {
@@ -65,7 +65,7 @@
   },
   "suggestions": {
     "reason": "Razón de $user$",
-    "footer": "ID: $id$ Enviada",
+    "footer": "ID de la sugerencia: $id$ Enviada",
     "new": "Nueva sugerencia",
     "approved": "Sugerencia aprobada",
     "denied": "Sugerencia denegada",
@@ -251,12 +251,12 @@
         "success": "Mensajes de bienvenida desactivados."
       },
       "add": {
-        "help": "Añade un mensaje.",
+        "help": "Agrega un mensaje.",
         "args": "<mensaje>",
         "success": "Mensaje agregado."
       },
       "remove": {
-        "help": "Elimina un mensaje",
+        "help": "Remueve un mensaje",
         "args": "<ID de la lista>",
         "noID": "Proporciona una ID de la lista de $prefix$join",
         "notFound": "No existe un mensaje con esa ID.",
