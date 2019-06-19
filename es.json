@@ -258,24 +258,24 @@
       "remove": {
         "help": "Remueve un mensaje",
         "args": "<ID de la lista>",
-        "noID": "Proporciona una ID de la lista de $prefix$join",
-        "notFound": "No existe un mensaje con esa ID.",
-        "success": "Mensaje eliminado."
+        "noID": "Especifica una ID de la lista de $prefix$join list",
+        "notFound": "No existe ningún mensaje con ese ID.",
+        "success": "Mensaje removido."
       },
       "list": {
         "help": "Lista de mensajes",
         "args": ""
       },
       "placeholders": {
-        "title": "Variables utilizables que Zira auto completará",
-        "description": "$user$ - Usuario\n$discriminator$ - Tag del Usuario \n$id$ - ID del Usuario\n$mention$ - Mención al usuario \n$guild$ - Nombre del Servidor\n$membercount$ - Contador de miembros del Servidor"
+        "title": "Variables usables para que Zira autocomplete",
+        "description": "$user$ - nombre de usuario\n$discriminator$ - tag del usuario\n$id$ - ID del usuario\n$mention$ - mención al usuario\n$guild$ - nombre del servidor\n$membercount$ - nueva cantidad de miembros"
       }
     },
     "leave": {
-      "help": "Mensaje de despedida",
+      "help": "Mensajes de despedida",
       "args": "",
       "channel": {
-        "help": "Establece el canal al que se deberían mandar los mensajes de despedida",
+        "help": "Establece el canal para enviar los mensajes de despedida",
         "args": "<#canal>",
         "set": " establecido como el canal de despedida.\n\n**Nota:** Si no puedo mandar mensajes a ese canal desactivaré los mensajes de despedida."
       },
