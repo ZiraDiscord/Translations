@@ -12,7 +12,7 @@
     "unknown": {
       "channel": "Canal desconocido. Asegúrate de que existe, y si es así, de que tengo los permisos adecuados para verlo.",
       "message": "Mensaje no encontrado en el canal seleccionado. Asegúrate de que existe, y si es así, de que tengo los permisos requeridos para verlo.",
-      "emoji": "No puedo usar este emoji. Por favor asegúrate que el emoji aparezca en los emojis de Discord. Si está en los emojis de discord y es un emoji personalizado, asegúrate de que estoy en el servidor de donde proviene. Si el emoji aún no funciona, verifica que tengo el permiso **Usar Emojis Externos** en el canal. Si continua fallando únete al servidor de soporte para recibir ayuda del equipo de soporte.",
+      "emoji": "No puedo usar este emoji. Por favor asegúrate que el emoji pueda ser encontrado en el selector de emojis de Discord. Si se encuentra ahí y es un emoji personalizado asegúrate que estoy en el servidor de donde proviene. Si el emoji aún no funciona asegúrate que tengo el permiso **Usar emojis externos** en el canal. Si todo lo demás falla, únete al servidor de soporte y alguien del equipo de soporte te ayudará.",
       "suggestion": "No se ha encontrado ninguna sugerencia con esa ID."
     },
     "interactive": {
@@ -33,13 +33,13 @@
     },
     "roles": {
       "unknown": "No puedo encontrar ese rol, asegúrate de que existe.",
-      "managed": "Los roles integrados no se pueden usar. Solo los creados por usuarios o bots son válidos.",
+      "managed": "Los roles integrados no se pueden usar. Solo los roles creados por usuarios o bots.",
       "used": "No puedes usar este rol porque ya fue establecido con este emoji.",
       "once": "Como ya hay un rol de un solo uso (once) en este mensaje, no puedes agregar más roles que sean de otro tipo."
     },
     "general": {
       "maxReactions": "No puedo agregar más roles a este mensaje porque ya tiene 20 reacciones. Si quieres establecer este rol, elimina algún rol de este mensaje o crea un mensaje nuevo. Esto es un límite de Discord.",
-      "missingSetup": "Por favor establece el canal y el mensaje primero, luego intenta usar este comando de nuevo.",
+      "missingSetup": "Establece un canal **y** un mensaje primero y luego prueba este comando de nuevo.",
       "missingChannel": "Establece un canal primero y luego prueba este comando de nuevo.",
       "missingMessage": "Establece un mensaje primero y luego prueba este comando de nuevo.",
       "missingMessageID": "Proporciona un ID de mensaje por favor.",
@@ -65,7 +65,7 @@
   },
   "suggestions": {
     "reason": "Razón de $user$",
-    "footer": "ID: $id$ Enviada",
+    "footer": "ID de la sugerencia: $id$ Enviada",
     "new": "Nueva sugerencia",
     "approved": "Sugerencia aprobada",
     "denied": "Sugerencia denegada",
@@ -155,7 +155,7 @@
     "once": {
       "help": "Establece un rol de un solo uso",
       "args": "<emoji> <rol>",
-      "error": "Debido a que ya hay un rol establecido en este mensaje con ese emoji que no es una reacción de un solo uso, no puedes añadir ningún rol de un solo uso."
+      "error": "Como ya hay un rol establecido en este mensaje con ese emoji que no es una reacción de un solo uso, no puedes añadir ninguna reacción de un solo uso."
     },
     "list": {
       "help": "Muestra todos los roles.",
@@ -251,31 +251,31 @@
         "success": "Mensajes de bienvenida desactivados."
       },
       "add": {
-        "help": "Añade un mensaje.",
+        "help": "Agrega un mensaje.",
         "args": "<mensaje>",
         "success": "Mensaje agregado."
       },
       "remove": {
-        "help": "Elimina un mensaje",
+        "help": "Remueve un mensaje",
         "args": "<ID de la lista>",
-        "noID": "Proporciona una ID de la lista de $prefix$join",
-        "notFound": "No existe un mensaje con esa ID.",
-        "success": "Mensaje eliminado."
+        "noID": "Especifica una ID de la lista de $prefix$join list",
+        "notFound": "No existe ningún mensaje con ese ID.",
+        "success": "Mensaje removido."
       },
       "list": {
         "help": "Lista de mensajes",
         "args": ""
       },
       "placeholders": {
-        "title": "Variables utilizables que Zira auto completará",
-        "description": "$user$ - Usuario\n$discriminator$ - Tag del Usuario \n$id$ - ID del Usuario\n$mention$ - Mención al usuario \n$guild$ - Nombre del Servidor\n$membercount$ - Contador de miembros del Servidor"
+        "title": "Variables usables para que Zira autocomplete",
+        "description": "$user$ - nombre de usuario\n$discriminator$ - tag del usuario\n$id$ - ID del usuario\n$mention$ - mención al usuario\n$guild$ - nombre del servidor\n$membercount$ - nueva cantidad de miembros"
       }
     },
     "leave": {
-      "help": "Mensaje de despedida",
+      "help": "Mensajes de despedida",
       "args": "",
       "channel": {
-        "help": "Establece el canal al que se deberían mandar los mensajes de despedida",
+        "help": "Establece el canal para enviar los mensajes de despedida",
         "args": "<#canal>",
         "set": " establecido como el canal de despedida.\n\n**Nota:** Si no puedo mandar mensajes a ese canal desactivaré los mensajes de despedida."
       },
@@ -356,19 +356,19 @@
       },
       "reaction": {
         "help": "Establece con qué emojis se debería reaccionar en las nuevas sugerencias\n[Característica Premium](https://zira.ovh/premium)",
-        "on": "Las sugerencias ahora tendrán emojis establecidos con **$prefix$suggestion emojis** reaccionados a ellas.",
-        "off": "Las sugerencias no serán reaccionadas."
+        "on": "Las sugerencias ahora recibirán reacciones con los emojis establecidos con **$prefix$suggestion emojis**.",
+        "off": "Las sugerencias ya no recibirán reacciones."
       },
       "emojis": {
-        "help": "Establece los emojis que se usaran para reaccionar a las sugerencias\n[Característica Premium](https://zira.ovh/premium)",
-        "args": "<PrimerEmoji> <SegundoEmoji>",
+        "help": "Establece los emojis que se usarán para reaccionar a las sugerencias\n[Característica premium](https://zira.ovh/premium)",
+        "args": "<emojiUno> <emojiDos>",
         "set": "Los emojis han sido establecidos.",
         "needTwo": "Por favor, proporciona dos emojis."
       },
       "role": {
         "help": "Establece un rol que pueda aprobar, rechazar, etc. las sugerencias",
         "args": "<rol | disable>",
-        "set": "Sólo los usuarios con $role$ y el dueño del servidor podrán interactuar con las sugerencias.",
+        "set": "Solo los usuarios con el rol $role$ y el dueño del servidor podrán administrar las sugerencias.",
         "disable": "Cualquiera con los permisos para **Administrar el Servidor** podrá interactuar con las sugerencias."
       },
       "move": {
@@ -376,21 +376,21 @@
         "args": "<ID> <#canal>"
       },
       "cooldown": {
-        "help": "Set a cooldown for submitting suggestions.\n[Premium Feature](https://zira.ovh/premium)",
-        "args": "<minutes | disable>",
-        "noTime": "Please try again and provide how many minutes you want the cooldown to last for.",
-        "disable": "There is now no cooldown on suggestions.",
-        "set": "Users will have to wait $time$ minutes before they can submit another suggestion.",
-        "NaN": "Please use a number."
+        "help": "Establece un tiempo de espera para enviar sugerencias.\n[Característica premium](https://zira.ovh/premium)",
+        "args": "<minutos | disable>",
+        "noTime": "Por favor intenta de nuevo y especifica cuántos minutos quieres que dure el tiempo de espera.",
+        "disable": "No hay un tiempo de espera para las sugerencias.",
+        "set": "Los usuarios tendrán que esperar $time$ minutos antes de poder enviar otra sugerencia.",
+        "NaN": "Por favor usa un número."
       }
     },
     "suggest": {
       "help": "Envía una sugerencia",
       "args": "<sugerencia>",
       "setup": "Las sugerencias no están configuradas. Usa **$prefix$suggestion new** para configurarlas.",
-      "submitChannel": "Usa el canal $channel$ para enviar una sugerencia.",
+      "submitChannel": "Usa el canal $channel$ para enviar sugerencias.",
       "provideSuggestion": "Por favor, proporciona una sugerencia.",
-      "cooldown": "You must wait $time$ before submitting another suggestion."
+      "cooldown": "Debes esperar $time$ antes de enviar otra sugerencia."
     },
     "approve": {
       "help": "Aprueba una sugerencia",
@@ -400,12 +400,12 @@
     "deny": {
       "help": "Deniega una sugerencia",
       "args": "<ID> [razón]",
-      "update": "Tu sugerencia [$id$]($url$) ha sido rechazada."
+      "update": "Tu sugerencia [$id$]($url$) ha sido denegada."
     },
     "maybe": {
       "help": "Marca una sugerencia como potencial",
       "args": "<ID> [razón]",
-      "update": "Tu sugerencia [$id$]($url$) ha sido potencialmente aprobada."
+      "update": "Tu sugerencia [$id$]($url$) ha sido marcada como potencial."
     },
     "invalid": {
       "help": "Marca una sugerencia como inválida",
@@ -462,20 +462,20 @@
     "help": {
       "categories": [
         "Roles",
-        "Sugerencia",
+        "Sugerencias",
         "Registros",
         "Varios"
       ],
       "commands": "Comandos",
       "title": "Enlaces",
-      "footer": "<> = Requerido [ ] = Opcional",
+      "footer": "<> = requerido [] = opcional",
       "links": [
         "[Guía](https://docs.zira.ovh/)",
-        "[Servidor de Soporte](https://zira.ovh/support)",
-        "[Zira Premium](https://zira.ovh/premium)",
+        "[Servidor de soporte](https://zira.ovh/support)",
+        "[Zira premium](https://zira.ovh/premium)",
         "[Invita a Zira](https://zira.ovh/invite)",
-        "[Ayuda a Traducir Zira](https://translate.zira.ovh/)",
-        "[Estado del Bot](https://status.imjake.me/)"
+        "[Ayuda a traducir a Zira](https://translate.zira.ovh/)",
+        "[Estado del bot](https://status.imjake.me/)"
       ]
     }
   }
