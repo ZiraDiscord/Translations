@@ -1,23 +1,23 @@
 {
-  "language": "English",
+  "language": "中文",
   "titles": {
-    "success": "Success :white_check_mark:",
-    "error": "Error :warning:",
-    "usage": "Command Usage",
-    "example": "Usage Examples",
-    "permission": "Missing Permissions"
+    "success": "成功 :white_check_mark:",
+    "error": "錯誤 :warning:",
+    "usage": "指令用法",
+    "example": "使用範例",
+    "permission": "沒有權限"
   },
   "errors": {
-    "generic": "An error has occurred. If the error continues to persist, please join my support server.",
+    "generic": "發生錯誤，如果持續發生錯誤，請加入作者的支援伺服器。",
     "unknown": {
-      "channel": "Unknown channel. Please make sure it exists, and if it does, that I have the proper permissions to view it.",
+      "channel": "未知的頻道，請確定頻道存在且我有正確的權限瀏覽。",
       "message": "Message not found in the active channel. Please make sure it exists, and if it does, that I have the proper permissions to view it.",
       "emoji": "I can't use this emoji. Please make sure the emoji can be found in Discord's emoji picker. If it's in the emoji picker and it's a custom emoji make sure I'm in the server that it comes from. If the emoji still doesn't work make sure I have the permission **Use External Emojis** in the active channel. If all else fails join the support guild and someone from the support team will help you.",
       "suggestion": "A suggestion with that ID wasn't found."
     },
     "interactive": {
-      "timeout": "Command timeout.",
-      "cancel": "Command cancelled."
+      "timeout": "命令逾時",
+      "cancel": "命令取消"
     },
     "permission": {
       "hierarchy": "I can't use this role because it is above my highest role in the role hierarchy.",
@@ -26,10 +26,10 @@
       "channelSend": "I'm missing the permission **Send Messages** in the active channel.",
       "addReactions": "I can't add this emoji because I'm missing the **Add Reactions** permission in the active channel.",
       "othersEdit": "I can't edit that message as it wasn't sent by me.",
-      "manageChannels": "Manage Channels",
-      "manageMessages": "Manage Messages",
-      "manageRoles": "Manage Roles",
-      "manageGuild": "Manage Server"
+      "manageChannels": "管理頻道",
+      "manageMessages": "管理訊息",
+      "manageRoles": "管理身分組",
+      "manageGuild": "管理伺服器"
     },
     "roles": {
       "unknown": "I can't find that role. Please make sure it exists.",
@@ -54,7 +54,7 @@
     "premium": "This feature is [premium](https://zira.ovh/premium) only.",
     "suggestionsRole": "You need the $role$ role to manage suggestions."
   },
-  "page": "Page",
+  "page": "頁",
   "logging": {
     "addReaction": {
       "add": "$mention$ reacted with $emoji$ to get $added$",
@@ -64,8 +64,8 @@
     "removeReaction": "$mention$ unreacted $emoji$ to remove $roles$"
   },
   "suggestions": {
-    "reason": "$user$'s Reason",
-    "footer": "Suggestion ID: $id$ Submitted",
+    "reason": "$user$ 的理由",
+    "footer": "ID: $id$ Submitted",
     "new": "New Suggestion",
     "approved": "Approved Suggestion",
     "denied": "Denied Suggestion",
@@ -83,7 +83,7 @@
     "message": {
       "help": "Set the active message.",
       "args": "<message ID>",
-      "set": "Message set.",
+      "set": "訊息設定",
       "pick": "Please provide a message ID for Zira to use or message for Zira to send.\nType `cancel` if you would like to cancel."
     },
     "embed": {
@@ -137,7 +137,7 @@
       }
     },
     "normal": {
-      "help": "Give a role",
+      "help": "給予一個身份組",
       "args": "<emoji> <role>",
       "added": "$role$ added with the emoji $emoji$",
       "emoji": "Please send the emoji you want to use.",
@@ -148,29 +148,29 @@
       "args": "<emoji> <role>"
     },
     "toggle": {
-      "help": "Setup a toggled role",
+      "help": "切換身份組設定",
       "args": "<emoji> <role>",
       "limit": "There is a limit of 6 free toggled roles. You get unlimited toggled roles with [premium](https://zira.ovh/premium)"
     },
     "once": {
-      "help": "Setup a once role",
+      "help": "一次性身份組設定",
       "args": "<emoji> <role>",
       "error": "Since there is a role set on this message with this emoji already that isn't a once reaction, you cant add any once reactions."
     },
     "list": {
-      "help": "Show all roles.",
+      "help": "顯示所有身份組",
       "args": "",
-      "title": "Role List",
+      "title": "身份組列表",
       "description": "You can remove a role listed here with **$prefix$delete**\nYou can remove any deleted roles listed by doing **$prefix$delete <message ID> check**.",
-      "role": "Role",
-      "channel": "Channel",
-      "message": "Message",
+      "role": "身份組",
+      "channel": "頻道",
+      "message": "訊息",
       "emoji": "Emoji",
-      "link": "Jump to message",
-      "type": "Type"
+      "link": "跳至訊息",
+      "type": "型態"
     },
     "delete": {
-      "help": "Delete a role that has been setup.",
+      "help": "刪除一個已設定的身份組",
       "args": "",
       "check": {
         "help": "Checks for deleted roles on a message.",
