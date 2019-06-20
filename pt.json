@@ -51,7 +51,7 @@
       "noMessageProvided": "Please provide a message.",
       "noSuggestionProvided": "Please provide a suggestion ID or a message ID of the suggestion you want."
     },
-    "premium": "This feature is [premium](https://zira.ovh/premium) only.",
+    "premium": "Este comando/recurso é apenas para usuários [premium](https://zira.ovh/premium).",
     "suggestionsRole": "You need the $role$ role to manage suggestions."
   },
   "page": "Page",
@@ -65,7 +65,7 @@
   },
   "suggestions": {
     "reason": "$user$'s Reason",
-    "footer": "Suggestion ID: $id$ Submitted",
+    "footer": "ID: $id$ Submitted",
     "new": "New Suggestion",
     "approved": "Approved Suggestion",
     "denied": "Denied Suggestion",
